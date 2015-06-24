@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "../../EAD/Master/ead.dtd">
 <ead>
    <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
      <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::bhl.xml//EN" encodinganalog="Identifier">umich-bhl-87245</eadid>
@@ -21,7 +21,11 @@ Greg Kinney <date>2008</date></creation>
        <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
        <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
     </profiledesc>
-     <revisiondesc>
+     <revisiondesc><change>
+         <date>2015-06-17</date>
+         <item>Added 2014 digital exhibits.</item>
+      </change>
+     
        <change>
          <date>20150601</date>
          <item>Added box 67.</item>
@@ -38,8 +42,8 @@ Greg Kinney <date>2008</date></creation>
          <date>2008-09-18</date>
          <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
-    </revisiondesc>
-  </eadheader>
+    
+  </revisiondesc></eadheader>
    <frontmatter>
      <titlepage>
        <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +58,7 @@ Greg Kinney <date>2008</date></creation>
       </origination>
        <unittitle encodinganalog="245">Bentley Historical Library records <unitdate type="inclusive" encodinganalog="245$f" normal="1919/2014">1919-2014</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1970/2002">1970-2002</unitdate></unittitle>
        <physdesc>
-         <extent encodinganalog="300">79 linear feet, 2 oversize boxes, 1 oversize folder, 3 flat file drawers, and 16.3 GB (online)</extent>
+         <extent encodinganalog="300">79 linear feet, 2 oversize boxes, 1 oversize folder, 3 flat file drawers, and 16.4 GB (online)</extent>
       </physdesc>
        <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number">87245 Bimu C445 2
 Ac</unitid>
@@ -136,9 +140,9 @@ Bentley Historical Library records, Bentley Historical Library, University of Mi
        <p>The records of the Bentley Historical Library were received in six main accessions 1991, 2000, 2002, 2004, 2007 and 2014.  Together the records comprise 79 linear feet, plus two oversize boxes, and oversize folder, three flat file drawers, and more than 16 GB of data spanning the years 1935-2014.  The researcher should consult the summary box list on page vii for a quick overview of the materials in the collection.</p>
     </scopecontent>
      <arrangement>
-       <arrangement encodinganalog="351">
+       
          <p>The records of the Bentley are divided into six subgroups: Administrative Records; Division Records; Outreach: Education, Publicity, and Exhibits; Audio-Visual Material; Architectural Drawings, and Archived Website.</p>
-      </arrangement>
+      
        <list type="simple">
          <head>Summary Contents List</head>
          <item>Administrative Records <list type="simple"><item>Executive Committee Meeting  -- box 1</item><item>Friends Meetings -- box 1</item><item>Staff Meetings -- box 63</item><item>Director's Office/Central Files <list type="simple"><item>Lewis Vander Velde -- Box 2</item><item>F. Clever Bald-- Box 2</item><item>Robert M. Warner -- boxes 3-4</item><item>Richard M. Doolen -- 4</item><item>Francis X. Blouin Jr. <list type="simple"><item>(General) -- boxes 6-10, 56-60, 77-78, box 79 [restricted]</item><item>Visual Culture and Archives Symposium -- online</item><item>Vatican Archives project -- boxes 11-14</item><item>William Wallach (Associate Director) -- boxes 50, 61-63</item><item>Staff recommendations -- box 15 [restricted]</item></list></item><item>Non-Donor Correspondence Files <list type="simple"><item>1935-1968 -- boxes 16-18</item><item>1961-1987 -- boxes 19-21</item><item>1982-2005 -- boxes 21-25</item></list></item><item>Historical Society of Michigan -- box 64</item></list></item></list></item>
@@ -2427,6 +2431,9 @@ Bentley Historical Library records, Bentley Historical Library, University of Mi
                <did>
                  <unittitle>Second European Conference</unittitle>
               </did>
+               <odd>
+                 <p/>
+              </odd>
                <c05 level="file">
                  <did>
                    <container type="box" label="Box">8</container>
@@ -10055,7 +10062,7 @@ Bentley Historical Library records, Bentley Historical Library, University of Mi
                  <c06 level="file">
                    <did>
                      <container type="box" label="Box">40</container>
-                     <unittitle>General <unitdate type="inclusive" normal="1997/2002">1997-2002</unitdate></unittitle>
+                     <unittitle>General <unitdate type="inclusive" normal="1997/1992">1997-1992</unitdate></unittitle>
                      <physdesc altrender="whole">
                        <extent altrender="materialtype spaceoccupied">2 folders</extent>
                     </physdesc>
@@ -11166,7 +11173,7 @@ Bentley Historical Library records, Bentley Historical Library, University of Mi
            <unittitle>Outreach: Education, Publicity, and Exhibits</unittitle>
         </did>
          <scopecontent>
-           <p>The Outreach subgroup (1929-2013, 10 linear feet) documents various forms of public outreach and is divided into three series: Archival Education, Press Clippings, and Exhibits.</p>
+           <p>The Outreach subgroup (1929-2014, 10 linear feet, 149 MG) documents various forms of public outreach and is divided into three series: Archival Education, Press Clippings, and Exhibits.</p>
         </scopecontent>
          <c02 level="series">
            <did>
@@ -11340,8 +11347,8 @@ Bentley Historical Library records, Bentley Historical Library, University of Mi
              <unittitle>Exhibits</unittitle>
           </did>
            <scopecontent>
-             <p>The Exhibits series (1929-2013, 7.5 linear feet and one oversize box) is comprised of material prepared by BHL staff for both internal and external exhibits. Most of the files contain the corresponding display labels; for some there are also photocopies of source material and background information. The series is arranged alphabetically by the title of the exhibit and consists of two accessions dated 1929-2007 (7 linear feet) and 1998-2013 (0.5 linear feet). A chronological listings of exhibits, 1929-1961, and newspaper clippings regarding exhibits, 1943-1959, precede the individual exhibit files. There are five boxes of Exhibit material (images and labels on poster board) from an exhibit on Michigan in the Olympics, on Women at the University of Michigan from 1870 to the Present, and from miscellaneous images from the Bentley Library.</p>
-             <p>Researchers should note that several exhibits are individually cataloged. The latter includes University of Michigan Sesquicentennial Celebration Exhibition photograph collection, A Gallery of presidents, Goin' north: Black Detroit and the great migration, 1910-1930, and Centennial of the admission of Women to the University of Michigan exhibition.</p>
+             <p>The Exhibits series (1929-2014, 7.5 linear feet, one oversize box, 149 MG) is comprised of material prepared by BHL staff for both internal and external exhibits. Most of the files contain the corresponding display labels; for some there are also photocopies of source material and background information. The series is arranged alphabetically by the title of the exhibit and consists of two accessions dated 1929-2007 (7 linear feet) and 1998-2013 (0.5 linear feet). A chronological listings of exhibits, 1929-1961, and newspaper clippings regarding exhibits, 1943-1959, precede the individual exhibit files. There are five boxes of Exhibit material (images and labels on poster board) from an exhibit on Michigan in the Olympics, on Women at the University of Michigan from 1870 to the Present, and from miscellaneous images from the Bentley Library.</p>
+             <p>Researchers should note that several exhibits are individually cataloged. The latter includes University of Michigan Sesquicentennial Celebration Exhibition photograph collection, A Gallery of presidents, Goin' north: Black Detroit and the great migration, 1910-1930, and Centennial of the admission of Women to the University of Michigan exhibition. An additional group of online materials and special projects includes exhibit materials created or displayed on the BHL's website from 2001 to 2014. </p>
           </scopecontent>
            <c03 level="file">
              <did>
@@ -12273,7 +12280,7 @@ Bentley Historical Library records, Bentley Historical Library, University of Mi
            <c03 level="file">
              <did>
                <container type="box" label="Box">46</container>
-               <unittitle>Women at the University of Michigan from 1870 to the Present, <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></unittitle>
+               <unittitle>Women at the University of Michigan from <unitdate type="inclusive" normal="1870">1870</unitdate> to the Present, <unitdate type="inclusive" normal="2002/2001">2002-2001</unitdate></unittitle>
             </did>
              <odd>
                <p>(copy prints on foam mounting used in exhibit at Lane Hall)</p>
@@ -12417,8 +12424,41 @@ Bentley Historical Library records, Bentley Historical Library, University of Mi
                <unittitle>Varsity Vogue:  Women's Fashions at the University of Michigan <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
             </did>
           </c03>
-        </c02>
-         <c02 level="series">
+        
+        
+ 
+<c03 level="file"><did><unittitle>Online Materials and Special Projects</unittitle></did>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>75 Years of-at the Bentley Historical Library, <unitdate type="inclusive">2010</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111860" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>A Book of Days: 150 Years of Student Life, <unitdate type="inclusive">2007</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111868" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>A Century of Vacationing and Travel in Michigan, <unitdate type="inclusive">2010</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111869" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>A Cosmopolitan Tradition: International Student, <unitdate type="inclusive">2007</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111870" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>A Decade of Dissent Student Protests at the University of Michigan, <unitdate type="inclusive">2006</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111871" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>A Historical Tour of the University of Michigan Campus, <unitdate type="inclusive">2007</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111872" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>A Queer Timeline, <unitdate type="inclusive">2012</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111873" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>Bentley Historical Library Construction, <unitdate type="inclusive">2004-2005</unitdate> </unittitle> <physdesc><physfacet>.ZIP file</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111874" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>Bright Sheng Collection, 2005</unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111851" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>Caps, Canes, Pushball and Smokers: Student Life at the University of Michigan in the late <unitdate type="inclusive">1800s</unitdate> and early <unitdate type="inclusive">1900s</unitdate>, <unitdate type="inclusive">2013</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111865" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>The Great Society Speech: President Lyndon Johnson's <unitdate type="inclusive">1964</unitdate> University of Michigan Commencement Speech, <unitdate type="inclusive">2013</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111854" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>The Huron River, <unitdate type="inclusive">2007</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111861" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>John Sinclair, <unitdate type="inclusive">2007</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111852" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>Law School Records at the University of Michigan, <unitdate type="inclusive">2001</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111862" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>The Making of University of Michigan History: The People, Events, and Buildings that Shaped the University, <unitdate type="inclusive">2007</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111863" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>Michigan Daily Alumni Photographers Project, <unitdate type="inclusive">2005</unitdate> and <unitdate type="inclusive">2014</unitdate> </unittitle> <physdesc><physfacet>.ZIP files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111850" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>Michigan in 3-D, <unitdate type="inclusive">2012</unitdate> </unittitle> <physdesc><physfacet>.ZIP file</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111853" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>Rally Round the Flag! Commerating the Civil War, <unitdate type="inclusive">2011</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111855" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>Regents of the University of Michigan, <unitdate type="inclusive">2012</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111859" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>The Seals of the University of Michigan, <unitdate type="inclusive">2013</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111864" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>Stargazing: 150 Years of Astronomy at the University of Michigan, <unitdate type="inclusive">2009</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111856" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>Student Scrapbooks: The Michigan Experience, <unitdate type="inclusive">2007</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111857" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>Tappan's Vision, <unitdate type="inclusive">2011</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111858" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>University of Michigan Timelines, <unitdate type="inclusive">2002</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111866" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04>
+<c04 level="file"><did><physloc>Online </physloc><unittitle>Women of Michigan, <unitdate type="inclusive">2007</unitdate> </unittitle> <physdesc><physfacet>.PDF files</physfacet></physdesc><dao href="http://hdl.handle.net/2027.42/111867" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did></c04></c03></c02>
+		  
+		  
+		  
+		  
+		  
+		   <c02 level="series">
            <did>
              <unittitle>Digital Curation</unittitle>
           </did>
@@ -12959,7 +12999,7 @@ Bentley Historical Library records, Bentley Historical Library, University of Mi
              <c04 level="file">
                <did>
                  <container type="box" label="Box">52</container>
-                 <unittitle>Bainbridge, P.J. <unitdate type="inclusive" normal="1817/1881">1817-1881</unitdate></unittitle>
+                 <unittitle>Bainbridge, P.J. <unitdate type="inclusive" normal="1917/1881">1917-1881</unitdate></unittitle>
               </did>
             </c04>
              <c04 level="file">
@@ -13625,6 +13665,9 @@ Bentley Historical Library records, Bentley Historical Library, University of Mi
                  <container type="box" label="Box">53</container>
                  <unittitle>Collections arriving at the Library (Copeland, Ford, etc.)</unittitle>
               </did>
+               <odd>
+                 <p/>
+              </odd>
             </c04>
           </c03>
            <c03 level="file">
@@ -14384,11 +14427,12 @@ Bentley Historical Library records, Bentley Historical Library, University of Mi
             </dao>
           </did>
         </c02>
-         <c02 level="series">
+	   </c01>
+      <c01 level="series">
            <did>
              <unittitle>Digital media</unittitle>
           </did>
-           <c03 level="file">
+           <c02 level="file">
              <did>
                <container type="box" label="Box">71</container>
                <unittitle>China <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
@@ -14399,9 +14443,8 @@ Bentley Historical Library records, Bentley Historical Library, University of Mi
              <odd>
                <p>Digital photographs taken by Laura and Rex Patterson relating to Bentley delegation's trip to China, 2011</p>
             </odd>
-          </c03>
-        </c02>
-      </c01>
+          </c02>
+        </c01>		
     </dsc>
      <descgrp type="add">
        <relatedmaterial>

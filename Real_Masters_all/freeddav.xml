@@ -5,7 +5,7 @@
      <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::freeddav.xml//EN" encodinganalog="identifier">umich-bhl-861025</eadid>
      <filedesc>
        <titlestmt>
-         <titleproper encodinganalog="title">Finding Aid for David Noel Freedman Papers <date>1945-1982</date></titleproper>
+         <titleproper encodinganalog="title">Finding Aid for David Noel Freedman Papers <date>1932-1982</date></titleproper>
          <author encodinganalog="creator">Collection processed and finding aid prepared by Kathy Koehler</author>
       </titlestmt>
        <publicationstmt>
@@ -19,6 +19,10 @@
     </profiledesc>
      <revisiondesc>
        <change>
+         <date>20150616</date>
+         <item>Corrected collection dates and added written notes from paper finding aid.</item>
+       </change>
+       <change>
          <date>20031010</date>
          <item>Converted to EAD2002 using Word macro and Xmetal</item>
       </change>
@@ -31,7 +35,7 @@
    <frontmatter>
      <titlepage>
        <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
-       <titleproper>Finding Aid for <lb/>David Noel Freedman Papers, <date type="inclusive">1945-1982</date></titleproper>
+       <titleproper>Finding Aid for <lb/>David Noel Freedman Papers, <date type="inclusive">1932-1982</date></titleproper>
        <author>Finding aid prepared by: <lb/>Kathy Koehler, May 1985 <lb/>Seth Shaw, July 2006</author>
     </titlepage>
   </frontmatter>
@@ -40,7 +44,7 @@
        <origination>
          <persname source="lcnaf" encodinganalog="100">Freedman, David Noel, 1922-</persname>
       </origination>
-       <unittitle encodinganalog="245">Freedman, David Noel (1922-2008) <unitdate type="inclusive" encodinganalog="245$f" normal="1945/1983">1945-1983</unitdate></unittitle>
+       <unittitle encodinganalog="245">Freedman, David Noel (1922-2008) <unitdate type="inclusive" encodinganalog="245$f" normal="1932/1983">1932-1983</unitdate></unittitle>
        <physdesc altrender="whole">
          <extent encodinganalog="300" altrender="materialtype spaceoccupied">10 linear feet</extent>
       </physdesc>
@@ -1287,7 +1291,7 @@
            <c03 level="file">
              <did>
                <container type="box" label="Box">7</container>
-               <unittitle><unitdate type="inclusive" normal="1981-12-03/1981-12-04">December 3-4, 1981</unitdate> (Cinncinnati)</unittitle>
+               <unittitle><unitdate type="inclusive" normal="1981-12-03/1981-12-04">December 3-4, 1981</unitdate> (Cincinnati)</unittitle>
             </did>
           </c03>
            <c03 level="file">
@@ -1850,6 +1854,15 @@
         </c02>
          <c02 level="file">
            <did>
+             <container type="box" label="Box">10</container>
+             <unittitle>"The People's Choice,  a play by David Freedman" <unitdate type="inclusive" certainty="approximate">circa 1932</unitdate></unittitle>
+           </did>
+           <odd>
+             <p>(photo copy)</p>
+           </odd>
+         </c02>
+         <c02 level="file">
+           <did>
              <container type="box" label="Box">9</container>
              <unittitle>University of Michigan Press Correspondence</unittitle>
           </did>
@@ -2166,6 +2179,6 @@
           </did>
         </c02>
       </c01>
-    </dsc>
+     </dsc>
   </archdesc>
 </ead>

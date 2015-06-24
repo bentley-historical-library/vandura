@@ -19,6 +19,10 @@
     </profiledesc>
      <revisiondesc>
        <change>
+         <date>20150611</date>
+         <item>Corrected extent and added written notes from paper finding aid.</item>
+       </change>
+       <change>
          <date>20031001</date>
          <item>Converted to EAD2002 using Word macro and Xmetal</item>
       </change>
@@ -49,9 +53,9 @@
          <corpname encodinganalog="110" source="lcnaf">Emmanuel-Bethel United Church of Christ (Royal Oak, Mich.)</corpname>
       </origination>
        <unittitle encodinganalog="245$a">Emmanuel-Bethel United Church of Christ (Royal Oak, Mich.) Records <unitdate type="inclusive" encodinganalog="245 $f" normal="1880/1974">1880-1974</unitdate></unittitle>
-       <physdesc altrender="whole">
+       <physdesc altrender="part">
          <extent encodinganalog="300$a" altrender="materialtype spaceoccupied">10 linear feet</extent><extent encodinganalog="300" altrender="carrier">(in 11 boxes)</extent>
-      </physdesc>
+      </physdesc><physdesc altrender="part"><extent encodinganalog="300$a" altrender="materialtype spaceoccupied">1 oversize folder</extent></physdesc>
        <abstract>Royal Oak, Michigan church formed in 1974 through merger of Emmanuel United Church of Christ (Royal Oak) and Bethel Evangelical and Reformed Church (Detroit, Mich.).  Reinhold Niebuhr served as pastor of the latter from 1925-1928. Records</abstract>
        <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9937 Ba 2</unitid>
        <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
@@ -463,6 +467,12 @@ Keller</event>
             </c03>
            <c03 level="file">
              <did>
+               <container type="folder" label="Oversize Folder">1</container>
+               <unittitle>Chart of attendance and budget</unittitle>
+             </did>
+           </c03>
+           <c03 level="file">
+             <did>
                <container type="box" label="Box">4</container>
                <unittitle>Clippings</unittitle>
             </did>
@@ -603,7 +613,7 @@ Keller</event>
              <c04 level="file">
                <did>
                  <container type="box" label="Box">4</container>
-                 <unittitle>Wiith Rev. Reinhold Niebuhr <unitdate type="inclusive" normal="1926">1926</unitdate>, <unitdate type="inclusive" normal="1928" certainty="approximate">1928 undated</unitdate></unittitle>
+                 <unittitle>With Rev. Reinhold Niebuhr <unitdate type="inclusive" normal="1926">1926</unitdate>, <unitdate type="inclusive" normal="1928" certainty="approximate">1928 undated</unitdate></unittitle>
                  <physdesc>
                    <extent>3 photographs</extent>
                 </physdesc>
