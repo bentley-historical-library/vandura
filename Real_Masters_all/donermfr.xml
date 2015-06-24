@@ -23,6 +23,10 @@ Thomas E. Powers <date>March 2008</date></creation>
     </profiledesc>
      <revisiondesc>
        <change>
+         <date>20150610</date>
+         <item>Added written notes from paper finding aid and separated boxes for use with Aeon.</item>
+       </change>
+       <change>
          <date>2008-03-25</date>
          <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
@@ -42,7 +46,7 @@ Thomas E. Powers <date>March 2008</date></creation>
       </origination>
        <unittitle encodinganalog="245">Mary Frances Doner papers <unitdate type="inclusive" encodinganalog="245$f" normal="1934/1974" certainty="approximate">circa 1934-1974</unitdate></unittitle>
        <physdesc altrender="part">
-         <extent encodinganalog="300" altrender="materialtype spaceoccupied">6 linear feet</extent>
+         <extent encodinganalog="300" altrender="materialtype spaceoccupied">6 linear feet (in 7 boxes)</extent>
       </physdesc><physdesc encodinganalog="300" altrender="part"><extent altrender="materialtype spaceoccupied">2 oversize volumes</extent></physdesc>
        <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number">851157 Aa 2; AC</unitid>
        <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
@@ -165,10 +169,19 @@ Mary Frances Doner papers, Bentley Historical Library, University of Michigan</p
         </c02>
          <c02 level="file">
            <did>
-             <container type="box" label="Boxes">4-5</container>
+             <container type="box" label="Boxes">4</container>
              <unittitle>Manuscripts of published works</unittitle>
           </did>
         </c02>
+         <c02 level="file">
+           <did>
+             <container type="box" label="Boxes">5</container>
+             <unittitle>Manuscripts of published works</unittitle>
+           </did>
+           <odd>
+             <p>(continued)</p>
+           </odd>
+         </c02>
          <c02 level="file">
            <did>
              <container type="box" label="Box">6</container>
@@ -193,7 +206,13 @@ Mary Frances Doner papers, Bentley Historical Library, University of Michigan</p
              <unittitle>Notebooks containing clippings and photographs</unittitle>
           </did>
         </c02>
-      </c01>
+         <c02 level="file">
+           <did>
+             <container type="box" label="Box">7</container>
+             <unittitle>Galleys and typescript with corrections of "Cloud of Arrows"</unittitle>
+           </did>
+         </c02>
+       </c01>
     </dsc>
   </archdesc>
 </ead>
