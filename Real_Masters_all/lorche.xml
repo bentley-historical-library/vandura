@@ -5,7 +5,7 @@
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::lorche.xml//EN" encodinganalog="identifier">umich-bhl-851726</eadid>
     <filedesc>
       <titlestmt>
-        <titleproper encodinganalog="title">Finding Aid for Emil Lorch Papers <date>1891-1963</date></titleproper>
+        <titleproper encodinganalog="title">Finding Aid for Emil Lorch Papers <date>1891-2004</date></titleproper>
         <author encodinganalog="creator">Collection processed and finding aid prepared by Ruth B. Bordin</author>
       </titlestmt>
       <publicationstmt>
@@ -18,6 +18,10 @@
       <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
     </profiledesc>
     <revisiondesc>
+      <change>
+        <date>20150630</date>
+        <item>Separated containers for use with Aeon, added written notes from paper finding aid, and corrected collection dates.</item>
+      </change>
       <change>
         <date>20031010</date>
         <item>Converted to EAD2002 using Word macro and Xmetal</item>
@@ -35,7 +39,7 @@
   <frontmatter>
     <titlepage>
       <publisher encodinganalog="publisher">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
-      <titleproper encodinganalog="title">Finding Aid for <lb/>Emil Lorch Papers, <date>1891-1963</date></titleproper>
+      <titleproper encodinganalog="title">Finding Aid for <lb/>Emil Lorch Papers, <date>1891-2004</date></titleproper>
       <author encodinganalog="creator">Finding aid prepared by: <lb/>Thomas E. Powers</author>
     </titlepage>
   </frontmatter>
@@ -44,7 +48,7 @@
       <origination>
         <persname source="lcnaf" encodinganalog="100">Lorch, Emil, 1870-1963.</persname>
       </origination>
-      <unittitle encodinganalog="245$a">Emil Lorch Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1891/1963">1891-1963</unitdate></unittitle>
+      <unittitle encodinganalog="245$a">Emil Lorch Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1891/2004">1891-2004</unitdate><unitdate altrender="245$g" type="bulk" normal="1891/1963">1891-1963</unitdate></unittitle>
       <physdesc altrender="part">
         <extent encodinganalog="300$a" altrender="materialtype spaceoccupied">18 linear feet</extent>
       </physdesc>
@@ -92,26 +96,26 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Albion College.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" id="http://id.loc.gov/authorities/names/n86812068">Albion College.</corpname>
         <geogname source="lcsh" encodinganalog="651">Ann Arbor (Mich.)--Buildings, structures, etc.</geogname>
         <subject source="lcsh" encodinganalog="650">Architects.</subject>
         <subject source="lcsh" encodinganalog="650">Architecture.</subject>
         <geogname source="lcsh" encodinganalog="651">Belle Isle (Detroit, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Edison Company.</corpname>
-        <corpname source="lcsh" encodinganalog="610">Detroit Museum of Art.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" id="http://id.loc.gov/authorities/names/n50001776">Detroit Edison Company.</corpname>
+        <corpname source="lcsh" encodinganalog="610" id="http://id.loc.gov/authorities/names/n79045542">Detroit Museum of Art.</corpname>
         <subject source="lcsh" encodinganalog="650">Dormitories--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Historic American Buildings Survey.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" id="http://id.loc.gov/authorities/names/n80126103">Historic American Buildings Survey.</corpname>
         <subject source="lcsh" encodinganalog="650">Historic buildings--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651">Holland (Mich.)</geogname>
         <persname source="lcnaf" encodinganalog="600">Lorch, Emil, 1870-1963.</persname>
         <geogname source="lcsh" encodinganalog="651">Mackinac Island (Mich.)</geogname>
         <corpname source="lcnaf" encodinganalog="610">Michigan. State Board of Registration for Architects, Professional Engineers, and Land Surveyors.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">National Council of Architectural Registration Boards.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Tau Sigma Delta.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" id="http://id.loc.gov/authorities/names/n80063035">National Council of Architectural Registration Boards.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" id="http://id.loc.gov/authorities/names/n86043785">Tau Sigma Delta.</corpname>
         <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. College of Architecture and Design.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. College of Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" id="http://id.loc.gov/authorities/names/n82166171">University of Michigan. College of Architecture and Design.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" id="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" id="http://id.loc.gov/authorities/names/n84017513">University of Michigan. Library.</corpname>
         <corpname source="lcnaf" encodinganalog="610">University of Michigan. Senate.</corpname>
         <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student housing.</corpname>
         <corpname source="lcnaf" encodinganalog="610">Waldenwoods (Hartland, Mich.)</corpname>
@@ -174,7 +178,7 @@
         <geogname source="lcsh" encodinganalog="651">Hillsdale (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651">Holland (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650">Hotels and taverns.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Huron Mountain Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" id="http://id.loc.gov/authorities/names/n2007164279">Huron Mountain Club.</corpname>
         <geogname source="lcsh" encodinganalog="651">Irish Hills (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651">Ithaca (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651">Jonesville (Mich.)</geogname>
@@ -232,9 +236,9 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">American Institute of Architects.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" id="http://id.loc.gov/authorities/names/n79053945">American Institute of Architects.</corpname>
         <persname source="lcnaf" encodinganalog="700">Angell, James Burrill, 1829-1916.</persname>
-        <corpname source="lcnaf" encodinganalog="710">Architectural League of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" id="http://id.loc.gov/authorities/names/n82058842">Architectural League of America.</corpname>
         <corpname source="lcnaf" encodinganalog="710">Association of Collegiate Schools of Architects.</corpname>
         <persname source="lcnaf" encodinganalog="700">Baldwin, Frank Conger, 1869-1945.</persname>
         <persname source="lcnaf" encodinganalog="700">Barbour, Levi L. (Levi Lewis), 1840-1925.</persname>
@@ -306,6 +310,12 @@
           <odd>
             <p>[1-1]</p>
           </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Emil Lorch and the Education of the Modern Architect", <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+          </did>
         </c02>
         <c02 level="file">
           <did>
@@ -3946,7 +3956,7 @@
             </unittitle>
           </did>
           <odd>
-            <p>[7-3]%ne]</p>
+            <p>[7-3]</p>
           </odd>
         </c02>
         <c02 level="file">
@@ -8985,7 +8995,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">15</container>
-                <unittitle>William S. May nard House, 330 S. Main St.</unittitle>
+                <unittitle>William S. Maynard House, 330 S. Main St.</unittitle>
               </did>
               <odd>
                 <p>[15-83]</p>
@@ -9427,7 +9437,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">16</container>
-                <unittitle>Ladies Library Club</unittitle>
+                <unittitle>Ladies Literary Club</unittitle>
               </did>
               <odd>
                 <p>[16-56]</p>
@@ -10734,7 +10744,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container label="Oversize Folder" type="folder">6-7</container>
+                <container label="Oversize Folder" type="folder">6</container>
                 <unittitle>Beaumont House</unittitle>
               </did>
               <odd>
@@ -10743,11 +10753,35 @@
             </c04>
             <c04 level="file">
               <did>
-                <container label="Oversize Folder" type="folder">6-7</container>
+                <container label="Oversize Folder" type="folder">7</container>
+                <unittitle>Beaumont House</unittitle>
+              </did>
+              <odd>
+                <p>[see also outsize folder 12]</p>
+              </odd>
+              <odd>
+                <p>(continued)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Oversize Folder" type="folder">6</container>
                 <unittitle>Biddle House</unittitle>
               </did>
               <odd>
                 <p>[see also outsize folder 12]</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Oversize Folder" type="folder">7</container>
+                <unittitle>Biddle House</unittitle>
+              </did>
+              <odd>
+                <p>[see also outsize folder 12]</p>
+              </odd>
+              <odd>
+                <p>(continued)</p>
               </odd>
             </c04>
             <c04 level="file">
