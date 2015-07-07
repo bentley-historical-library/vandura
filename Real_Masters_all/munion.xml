@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20150707</date>
+        <item>Corrected extent/dates, separated boxes for use with Aeon, and added written notes from paper finding aid.</item>
+      </change>
+      <change>
         <date>20031010</date>
         <item>Converted to EAD2002 using Word macro and Xmetal</item>
       </change>
@@ -39,7 +43,7 @@
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
-      <titleproper>Finding Aid for <lb/>Michigan Union, Records <lb/><date type="inclusive">1884- [ongoing], bulk 1904-1983</date></titleproper>
+      <titleproper>Finding Aid for <lb/>Michigan Union, Records <lb/><date type="inclusive">1884- [ongoing], bulk 1904-1995</date></titleproper>
       <author>Finding aid prepared by: <lb/>Frank Boles, 1983 <lb/>Chris Peters, 1997</author>
     </titlepage>
   </frontmatter>
@@ -48,11 +52,11 @@
       <origination>
         <corpname source="lcnaf" encodinganalog="110">Michigan Union</corpname>
       </origination>
-      <unittitle encodinganalog="245">Michigan Union records <unitdate type="inclusive" encodinganalog="245$f" normal="1884/9999">1884-[ongoing]</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1904/1983">1904-1983</unitdate></unittitle>
+      <unittitle encodinganalog="245">Michigan Union records <unitdate type="inclusive" encodinganalog="245$f" normal="1884/9999">1884-[ongoing]</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1904/1995">1904-1995</unitdate></unittitle>
       <physdesc>
-        <extent encodinganalog="300">21 linear ft., 13 oversize volumes, and 1 oversize folder</extent>
+        <extent encodinganalog="300">23 linear ft., 13 oversize volumes, and 1 oversize folder</extent>
       </physdesc>
-      <abstract>University of Michigan student organization formed to build and manage a student union, sponsors a variety of social and service programs and activities, includes records of building and financial committees and various activity/organizaton files including the University Mimes and the Union Opera (later renamed MUSKET) and scrapbooks and photographs of Union activities.</abstract>
+      <abstract>University of Michigan student organization formed to build and manage a student union, sponsors a variety of social and service programs and activities, includes records of building and financial committees and various activity/organization files including the University Mimes and the Union Opera (later renamed MUSKET) and scrapbooks and photographs of Union activities.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">87241 BImu Bimu F15 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <repository>
@@ -538,7 +542,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">9</container>
-              <unittitle>Minnie Mae Root Correspondence <unitdate type="inclusive" normal="1913/1941">1913-1941</unitdate> n.d</unittitle>
+              <unittitle>Minnie Mae Root Correspondence <unitdate type="inclusive" normal="1913/1941">1913-1941</unitdate> n.d.</unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -1440,9 +1444,27 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">14-16</container>
+            <container type="box" label="Box">14</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
         </c02>
       </c01>
       <c01 level="series">
@@ -2210,7 +2232,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Opera Compnay</unittitle>
+              <unittitle>Opera Company</unittitle>
             </did>
             <c04 level="file">
               <did>
@@ -2408,6 +2430,12 @@
               </unittitle>
             </did>
           </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">23</container>
+              <unittitle>My Fair Lady <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
         </c02>
       </c01>
       <c01 level="series">
@@ -2533,7 +2561,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Micihgan Union Board of Representatives <unitdate type="inclusive" normal="1980/1996">1980-1996</unitdate></unittitle>
+          <unittitle>Michigan Union Board of Representatives <unitdate type="inclusive" normal="1980/1996">1980-1996</unitdate></unittitle>
           <physdesc altrender="whole">
             <extent altrender="materialtype spaceoccupied">1 linear foot</extent>
           </physdesc>
