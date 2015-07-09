@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20150707</date>
+        <item>Corrected extent and separated boxes for use with Aeon.</item>
+      </change>
+      <change>
         <date>2011-07-07</date>
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
@@ -39,7 +43,7 @@
       </origination>
       <unittitle encodinganalog="245">Mu Phi Epsilon. Gamma Chapter (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1945/1995">1945-1995</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="2011">2011</unitdate></unittitle>
       <physdesc>
-        <extent encodinganalog="300">1 linear foot and 9 oversize items</extent>
+        <extent encodinganalog="300">1 linear foot, 2 oversize folders, and 9 oversize volumes</extent>
       </physdesc>
       <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number">2011066 Bimu F41 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
@@ -183,7 +187,7 @@ Mu Phi Epsilon. Gamma Chapter(University of Michigan) records, Bentley Historica
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Corespondence</unittitle>
+          <unittitle>Correspondence</unittitle>
         </did>
         <scopecontent>
           <p>Correspondence, 1952-1993, is made up of letters to members, other chapters, and District and National officers. Of note is correspondence between national and chapter leaders during the chapter's time on probation. Letters have been arranged chronologically starting with earliest dated material.</p>
@@ -204,12 +208,18 @@ Mu Phi Epsilon. Gamma Chapter(University of Michigan) records, Bentley Historica
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder">1-2</container>
+            <container type="folder" label="Oversize Folder">1</container>
             <unittitle>National Publications <unitdate type="inclusive" normal="1951/1988">1951-1988</unitdate></unittitle>
-            <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">2 folders</extent>
-            </physdesc>
           </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Oversize Folder">2</container>
+            <unittitle>National Publications <unitdate type="inclusive" normal="1951/1988">1951-1988</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
         </c02>
       </c01>
       <c01 level="series">
