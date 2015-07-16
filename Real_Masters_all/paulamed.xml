@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20150715</date>
+        <item>Separated boxes for use with Aeon.</item>
+      </change>
+      <change>
         <date>20031010</date>
         <item>Converted to EAD2002 using Word macro and Xmetal</item>
       </change>
@@ -38,7 +42,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="marc21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Paul African Methodist Episcopal Zion Church ( Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110">St. Paul African Methodist Episcopal Zion Church (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Paul African Methodist Episcopal Zion Church, Detroit, Mich., Records <unitdate type="inclusive" encodinganalog="245$f" normal="1957/2002">1957-2002</unitdate></unittitle>
       <physdesc altrender="whole">
@@ -63,7 +67,7 @@
         <p>The church has assigned copyright to the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>item, folder title, box no., St. Paul African Methodist Episcopal Zion Church, Detroit, Mich., RecordsBentley Historical Library, University of Michigan</p>
+        <p>item, folder title, box no., St. Paul African Methodist Episcopal Zion Church, Detroit, Mich., Records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -1039,13 +1043,27 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6-7</container>
+            <container type="box" label="Box">6</container>
             <unittitle>
               <unitdate type="inclusive" normal="1987/2002">1987-2002</unitdate>
             </unittitle>
           </did>
           <odd>
             <p>(not organized; include programs for funerals)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1987/2002">1987-2002</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(not organized; include programs for funerals)</p>
+          </odd>
+          <odd>
+            <p>(continued)</p>
           </odd>
         </c02>
       </c01>
