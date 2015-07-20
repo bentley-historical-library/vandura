@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20150720</date>
+        <item>Separated containers for use with Aeon.</item>
+      </change>
+      <change>
         <date>2008-09-24</date>
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
@@ -39,7 +43,7 @@
       </origination>
       <unittitle encodinganalog="245">Floyd Starr papers <unitdate type="inclusive" encodinganalog="245$f" normal="1933/1970">1933-1970</unitdate></unittitle>
       <physdesc>
-        <extent encodinganalog="300">4 microfilm s and 2 folders</extent>
+        <extent encodinganalog="300">4 microfilm reels and 2 folders</extent>
       </physdesc>
       <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number">85403 mf 539c-mf 542c; UAs, UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
@@ -277,11 +281,23 @@ Floyd Starr papers, Bentley Historical Library, University of Michigan</p>
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folders">UAs/UAm</container>
+            <container type="folder" label="Folders">UAs</container>
             <unittitle>Portraits and photos of Starr with boys at the Starr Commonwealth</unittitle>
           </did>
           <odd>
             <p>(In the Floyd Starr memorial room of the Bentley Historical Library, there are additional Starr related photographs)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folders">UAm</container>
+            <unittitle>Portraits and photos of Starr with boys at the Starr Commonwealth</unittitle>
+          </did>
+          <odd>
+            <p>(In the Floyd Starr memorial room of the Bentley Historical Library, there are additional Starr related photographs)</p>
+          </odd>
+          <odd>
+            <p>(continued)</p>
           </odd>
         </c02>
       </c01>
