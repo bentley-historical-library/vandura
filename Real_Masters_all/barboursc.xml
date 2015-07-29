@@ -19,7 +19,11 @@
     </profiledesc>
     <revisiondesc>
       <change>
-        <date>2006-MD-DD</date>
+        <date>20150729</date>
+        <item>Corrected extent and separated containers for use with Aeon.</item>
+      </change>
+      <change>
+        <date>2006</date>
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
@@ -36,9 +40,9 @@
       <origination>
         <corpname source="lcnaf" encodinganalog="110">University of Michigan. Barbour Scholarship for Oriental Women Committee.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Barbour Scholarship for Oriental Women Committee (University of Michigan)records <unitdate type="inclusive" encodinganalog="245$f" normal="1914/1983">1914-1983</unitdate></unittitle>
+      <unittitle encodinganalog="245">Barbour Scholarship for Oriental Women Committee (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1914/1983">1914-1983</unitdate></unittitle>
       <physdesc>
-        <extent encodinganalog="300">1 linear foot and 3 folders</extent>
+        <extent encodinganalog="300">1 linear foot and 3 oversize folders</extent>
       </physdesc>
       <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number">861142 UBImum BImu B17 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
@@ -50,7 +54,7 @@
     </did>
     <descgrp type="admin">
       <acqinfo encodinganalog="541">
-        <p>Material vas received from the Barbour Scholarship Committee in 1972 and 1983 (donor no. <num type="donor" encodinganalog="541$e">5223</num>). Supplemental materials have been transferred to this collection from other university collections.</p>
+        <p>Material was received from the Barbour Scholarship Committee in 1972 and 1983 (donor no. <num type="donor" encodinganalog="541$e">5223</num>). Supplemental materials have been transferred to this collection from other university collections.</p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The record group is open without restriction.</p>
@@ -182,10 +186,25 @@ Barbour Scholarship for Oriental Women Committee (University of Michigan)Records
           <did>
             <container type="folder" label="Oversize Folder">UBImum B17</container>
             <unittitle>Recipients <unitdate type="inclusive" normal="1924/1950">1924-1950</unitdate></unittitle>
-            <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">3 oversize folders</extent>
-            </physdesc>
           </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Oversize Folder">UBImum B17</container>
+            <unittitle>Recipients <unitdate type="inclusive" normal="1924/1950">1924-1950</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Oversize Folder">UBImum B17</container>
+            <unittitle>Recipients <unitdate type="inclusive" normal="1924/1950">1924-1950</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
         </c02>
       </c01>
     </dsc>
