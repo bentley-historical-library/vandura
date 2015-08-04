@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20150804</date>
+        <item>Added back publications to their new location in records collection.</item>
+      </change>
+      <change>
         <date>20150803</date>
         <item>Removed missing boxes and corrected extent.</item>
       </change>
@@ -656,6 +660,39 @@
             <container type="box" label="Box">3</container>
             <unittitle>Historical Photo Album <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Publications</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Unit Publications</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Annual Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle><title render="italic">Annual Report</title>, <unitdate type="inclusive" normal="1980/1981">1980/81</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Guidelines</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle><title render="italic">In the Interest of Human Welfare</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
         </c02>
       </c01>
     </dsc>
