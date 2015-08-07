@@ -19,7 +19,11 @@
     </profiledesc>
     <revisiondesc>
       <change>
-        <date>2005MMDD</date>
+        <date>20150807</date>
+        <item>Added subjects.</item>
+      </change>
+      <change>
+        <date>2005</date>
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
@@ -36,7 +40,7 @@
       <origination>
         <corpname source="lcnaf" encodinganalog="110">University of Michigan. Hospitals. Business office.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Hospitals. Business office. (University of Michigan) records, 1926-1977 <unitdate type="inclusive" encodinganalog="245$f" normal="1926/1977">1926-1977</unitdate>, <unitdate type="inclusive" encodinganalog="245$g" normal="1950/1970">1950-1970</unitdate></unittitle>
+      <unittitle encodinganalog="245">Hospitals. Business office. (University of Michigan) records, <unitdate type="inclusive" encodinganalog="245$f" normal="1926/1977">1926-1977</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950/1970">1950-1970</unitdate></unittitle>
       <physdesc altrender="whole">
         <extent encodinganalog="300" altrender="materialtype spaceoccupied">20 linear feet</extent>
       </physdesc>
@@ -167,7 +171,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
       </p>
     </bioghist>
     <scopecontent encodinganalog="520">
-      <p>The Hospsitals Business Office record group contains financial reports, budget information and patient statistics for the major divisions of the University of Michigan Hospitals. The major divisions include the General Hospital/General Division, Neuropsychiatric Institute, Veterans Readjustment Center, Clinical Research Unit, and Psychiatric Division. The Hospitals Business Office records are divided into seven series. The majority of the series contain financial and statistical reports on the university hospital, bound into volumes by fiscal year. The fiscal year runs from July to June.</p>
+      <p>The Hospitals Business Office record group contains financial reports, budget information and patient statistics for the major divisions of the University of Michigan Hospitals. The major divisions include the General Hospital/General Division, Neuropsychiatric Institute, Veterans Readjustment Center, Clinical Research Unit, and Psychiatric Division. The Hospitals Business Office records are divided into seven series. The majority of the series contain financial and statistical reports on the university hospital, bound into volumes by fiscal year. The fiscal year runs from July to June.</p>
     </scopecontent>
     <controlaccess>
       <p>
@@ -175,30 +179,15 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname encodinganalog="600" source="lcnaf">persname.</persname>
-        <geogname encodinganalog="655" source="lcsh">geogname.</geogname>
-      </controlaccess>
-      <controlaccess>
-        <head>Subjects - Visual Materials:</head>
-        <corpname encodinganalog="610" source="lcnaf">corpname.</corpname>
-        <persname encodinganalog="600" source="lcnaf">persname.</persname>
-        <geogname encodinganalog="655" source="lcsh">geogname.</geogname>
-      </controlaccess>
-      <controlaccess>
-        <head>Subjects - Sound Recordings:</head>
-        <corpname encodinganalog="610" source="lcnaf">corpname.</corpname>
-        <persname encodinganalog="600" source="lcnaf">persname.</persname>
-        <geogname encodinganalog="655" source="lcsh">geogname.</geogname>
-      </controlaccess>
-      <controlaccess>
-        <head>Contributors:</head>
-        <corpname encodinganalog="710" source="lcnaf">corpname.</corpname>
-        <persname encodinganalog="700" source="lcnaf">persname.</persname>
-        <geogname encodinganalog="655" source="lcsh">geogname.</geogname>
+        <corpname encodinganalog="610" source="lcsh">University of Michigan.--Hospitals.--Business Office.</corpname>
+        <corpname encodinganalog="610" source="lcsh">University of Michigan.--Hospitals.</corpname>
+        <corpname encodinganalog="610" source="lcsh">University of Michigan.--Finance.</corpname>
+        <subject source="lcsh" encodinganalog="650">Hospitals--Finance--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Hospitals--Administration.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        
+        <genreform source="aat" encodinganalog="655">Budgets.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
