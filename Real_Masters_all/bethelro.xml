@@ -47,7 +47,7 @@
       <author>Finding aid prepared by: <lb/>Michelle Light, May 1999</author>
     </titlepage>
   </frontmatter>
-  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="marc21">
+  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
         <corpname encodinganalog="110" source="lcnaf">Emmanuel-Bethel United Church of Christ (Royal Oak, Mich.)</corpname>
@@ -207,9 +207,9 @@
       <controlaccess>
         <head>Subjects:</head>
         <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79018599">Niebuhr, Reinhold, 1892-1971.</persname>
-        <corpname source="lcnaf" audience="internal">Emmanuel United Church of Christ (Royal Oak, Mich.)</corpname>
-        <corpname source="lcnaf" audience="internal">Bethel Evangelical and Reformed Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" audience="internal">Emmanuel-Bethel United Church of Christ (Royal Oak, Mich.)</corpname>
+        <corpname source="lcnaf">Emmanuel United Church of Christ (Royal Oak, Mich.)</corpname>
+        <corpname source="lcnaf">Bethel Evangelical and Reformed Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf">Emmanuel-Bethel United Church of Christ (Royal Oak, Mich.)</corpname>
         <geogname source="lcsh">Detroit (Mich.)--Church history.</geogname>
         <geogname source="lcsh">Royal Oak (Mich.)--Church history.</geogname>
         <subject source="lcsh">Churches--Michigan--Detroit.</subject>
@@ -219,9 +219,9 @@
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79018599">Niebuhr, Reinhold, 1892-1971.</persname>
-        <corpname source="lcnaf" audience="internal">Emmanuel United Church of Christ (Royal Oak, Mich.)</corpname>
-        <corpname source="lcnaf" audience="internal">Bethel Evangelical and Reformed Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" audience="internal">Emmanuel-Bethel United Church of Christ (Royal Oak, Mich.)</corpname>
+        <corpname source="lcnaf">Emmanuel United Church of Christ (Royal Oak, Mich.)</corpname>
+        <corpname source="lcnaf">Bethel Evangelical and Reformed Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf">Emmanuel-Bethel United Church of Christ (Royal Oak, Mich.)</corpname>
         <geogname source="lcsh">Detroit (Mich.)--Church history.</geogname>
         <geogname source="lcsh">Royal Oak (Mich.)--Church history.</geogname>
         <subject source="lctgm">Churches--Michigan--Detroit.</subject>
@@ -670,7 +670,7 @@
             <did>
               <unittitle>"The Bethel Bulletin" <unitdate type="inclusive" normal="1938/1956">1938-1956</unitdate></unittitle>
             </did>
-            <c04>
+            <c04 level="file">
               <did>
                 <container label="Box" type="box">4</container>
                 <unittitle>
@@ -681,7 +681,7 @@
                 </physdesc>
               </did>
             </c04>
-            <c04>
+            <c04 level="file">
               <did>
                 <container label="Box" type="box">5</container>
                 <unittitle>

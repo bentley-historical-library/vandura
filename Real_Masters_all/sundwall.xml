@@ -43,22 +43,20 @@
       <author>Finding aid prepared by: <lb/>Bentley Historical Library Staff</author>
     </titlepage>
   </frontmatter>
-  <archdesc audience="external" type="inventory" level="collection" relatedencoding="marc21">
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
         <persname source="lcnaf" encodinganalog="100">Sundwall, John, 1880-1950.</persname>
       </origination>
       <unittitle encodinganalog="245">John Sundwall Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1921/1944">1921-1944</unitdate></unittitle>
-      <physdesc label="Quantity: " altrender="whole">
+      <physdesc altrender="whole">
         <extent encodinganalog="300" altrender="materialtype spaceoccupied">5 linear feet</extent>
       </physdesc>
       <abstract>Public health physician and director of the Division of Hygiene, Public Health, and Physical Education at the University of Michigan, 1921-1941, papers include correspondence, administrative reports and studies, working files, minutes of meetings attended, manuscripts of writings, and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86167 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
-      <physdesc label="Photographs: ">
-        <genreform>Photographs located in Box 5.</genreform>
-      </physdesc>
-      <physdesc label="Sound Recordings: ">Sound recordings located in Box 5.</physdesc>
+      <physloc>Photographs located in Box 5.</physloc>
+      <physloc>Sound recordings located in Box 5.</physloc>
       <physloc>Boxes 1-4 located offsite. Two days notice required for retrieval.</physloc>
       <repository encodinganalog="852">
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
@@ -67,7 +65,7 @@
     </did>
     <descgrp type="admin">
       <acqinfo encodinganalog="541">
-        <p>The Sundwall papers were donated by Mrs. John Sundwall (donor no. <num type="Donor" encodinganalog="541$e">3124</num>) in 1954.</p>
+        <p>The Sundwall papers were donated by Mrs. John Sundwall (donor no. <num type="donor" encodinganalog="541$e">3124</num>) in 1954.</p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research.</p>
@@ -102,16 +100,16 @@
       </p>
       <controlaccess>
         <persname source="lcnaf" encodinganalog="600">Sundwall, John, 1880-1950.</persname>
-        <corpname audience="internal" source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50054148">Committee on the Costs of Medical Care.</corpname>
-        <corpname audience="internal" source="lcnaf" encodinganalog="610">Good Teeth Council for Children.</corpname>
-        <corpname audience="internal" source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2003069746">Presidents' Committee of Fifty on College Hygiene.</corpname>
-        <corpname audience="internal" source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50054148">Committee on the Costs of Medical Care.</corpname>
-        <corpname audience="internal" source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79096730">United States. Public Health Service.</corpname>
-        <corpname audience="internal" source="lcnaf" encodinganalog="610">University of Michigan. Division of the Health Sciences.</corpname>
-        <corpname audience="internal" source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81098940">University of Michigan. Division of Hygiene and Public Health.</corpname>
-        <subject audience="internal" source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</subject>
-        <corpname audience="internal" source="lcnaf" encodinganalog="610">University of Michigan. University Health Service.</corpname>
-        <corpname audience="internal" source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50054148">Committee on the Costs of Medical Care.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Good Teeth Council for Children.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2003069746">Presidents' Committee of Fifty on College Hygiene.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50054148">Committee on the Costs of Medical Care.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79096730">United States. Public Health Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Division of the Health Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81098940">University of Michigan. Division of Hygiene and Public Health.</corpname>
+        <subject source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Health Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
         <subject source="lcsh" encodinganalog="650">Children--Health and hygiene--United States.</subject>
         <subject source="lcsh" encodinganalog="650">Health education.</subject>
         <subject source="lcsh" encodinganalog="650">Hygiene.</subject>
@@ -123,7 +121,7 @@
         <head>Subjects - Visual Material:</head>
         <famname source="lcnaf">Sundwall family.</famname>
         <persname source="lcnaf">Sundwall, John, 1880-1950.</persname>
-        <persname source="lcnaf" audience="internal">Sundwall, Mary.</persname>
+        <persname source="lcnaf">Sundwall, Mary.</persname>
         <geogname source="lcsh">Germany.</geogname>
         <geogname source="lcsh" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html">Ann Arbor (Mich.)</geogname>
       </controlaccess>

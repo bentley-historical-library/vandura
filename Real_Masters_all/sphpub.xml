@@ -51,7 +51,7 @@
       <author>Finding aid prepared by: <lb/>Stacy Foley Strumpfer, 1995 <lb/>Marilyn M. McNitt, April 1997 <lb/>Nancy Deromedi, 2005</author>
     </titlepage>
   </frontmatter>
-  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="marc21">
+  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
@@ -123,8 +123,8 @@
       </controlaccess>
       <controlaccess>
         <head>Publications:</head>
-        <title source="AACR2" encodinganalog="740">Photographic roster.</title>
-        <title source="AACR2" encodinganalog="740">School of Public Health newsletter.</title>
+        <title source="aacr2" encodinganalog="740">Photographic roster.</title>
+        <title source="aacr2" encodinganalog="740">School of Public Health newsletter.</title>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
@@ -191,7 +191,7 @@
             <did>
               <unittitle>General Bulletin</unittitle>
             </did>
-            <c04>
+            <c04 level="file">
               <did>
                 <container type="box" label="Box">1</container>
                 <unittitle>
@@ -202,7 +202,7 @@
                 </physdesc>
               </did>
             </c04>
-            <c04>
+            <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
                 <unittitle>
@@ -214,7 +214,7 @@
                 </physdesc>
               </did>
             </c04>
-            <c04>
+            <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
                 <unittitle>Degree Requirements <unitdate type="inclusive" normal="2007/2009">2007-2009</unitdate></unittitle>
