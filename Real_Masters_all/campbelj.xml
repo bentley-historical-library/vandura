@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20150820</date>
+        <item>Corrected extent in terms of oversize volume.</item>
+      </change>
+      <change>
         <date>20061031</date>
         <item>2006 accession added and some reprocessing.</item>
       </change>
@@ -41,10 +45,10 @@
         <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85363355">Campbell, James V. (James Valentine), 1823-1890.</persname>
       </origination>
       <unittitle encodinganalog="245">James V. Campbell papers <unitdate type="inclusive" encodinganalog="245$f" normal="1830/1941">1830-1941</unitdate></unittitle>
-      <physdesc altrender="whole">
+      <physdesc altrender="part">
         <extent encodinganalog="300" altrender="materialtype spaceoccupied">4.2 linear feet</extent>
         <extent encodinganalog="300" altrender="carrier">(in 5 boxes)</extent>
-      </physdesc>
+      </physdesc><physdesc altrender="part"><extent altrender="materialtype spaceoccupied">1 oversize volume</extent></physdesc>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85893 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>University of Michigan professor of law, Detroit, Michigan, attorney, Michigan Supreme Court justice. Family correspondence, journal of trip to Sandusky, Ohio, in 1844, and lecture materials; also papers of Valeria Campbell, corresponding secretary of the Soldiers' Aid Society of Detroit, U. S. Sanitary Commission, concerning the society, the Detroit Soldiers' Home, and other relief agencies; and University student letters, 1872-1876, of Henry M. Campbell.</abstract>
@@ -64,8 +68,7 @@
         <p>Copyright has not been transferred to the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-James V. Campbell papers, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, James V. Campbell papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -292,12 +295,9 @@ James V. Campbell papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="volume" label="Oversize Volume">1</container>
             <unittitle>Scrapbook relating to the death of James V. Campbell <unitdate type="inclusive" normal="1890">1890</unitdate></unittitle>
           </did>
-          <odd>
-            <p>(oversize volume)</p>
-          </odd>
         </c02>
       </c01>
       <c01 level="series">
