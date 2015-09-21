@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20150921</date>
+        <item>Corrected extent and container listing.</item>
+      </change>
+      <change>
         <date>20150715</date>
         <item>new accession: boxes 475-526</item>
       </change>
@@ -49,9 +53,9 @@
       <origination>
         <corpname source="lcnaf" encodinganalog="110">University of Michigan. President.</corpname>
       </origination>
-      <unittitle encodinganalog="245">President (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1967/2010">1967-2014</unitdate></unittitle>
+      <unittitle encodinganalog="245">President (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1967/2014">1967-2014</unitdate></unittitle>
       <physdesc>
-        <extent encodinganalog="300">526 linear feet, 2 oversize folders, 1 oversize volume, and digital files (online)</extent>
+        <extent encodinganalog="300">526 linear feet, 2 oversize folders, 1 oversize volume, and 228 MB (online)</extent>
       </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87274 Bimu B3 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
@@ -68196,7 +68200,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <physloc>Outsize Folder</physloc>
+                <container type="folder" label="Oversize Folder">UBImul/B3</container>
                 <unittitle>Inaugural Congratulations</unittitle>
                 <physdesc>
                   <extent>2 folders and 3 items located in outsize folder, call no. UBImul/B3</extent>
@@ -70754,8 +70758,8 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">442</container>
-                <unittitle>President's House Guest Book <unitdate type="inclusive" normal="1981/2004">1981-2004</unitdate> (outsize volume located separately)</unittitle>
+                <container type="volume" label="Oversize Volume">1</container>
+                <unittitle>President's House Guest Book <unitdate type="inclusive" normal="1981/2004">1981-2004</unitdate></unittitle>
               </did>
               <accessrestrict>
                 <p>[ER RESTRICTED until <date normal="2030-07-01" type="restriction">July 1, 2030</date>]</p>
@@ -80021,7 +80025,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <physloc>Outsize Folder</physloc>
+                  <container type="folder" label="Oversize Folder">UBImul/B3</container>
                   <unittitle>Flint Campus Commencement <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
                 </did>
                 <odd>
@@ -80030,7 +80034,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <physloc>Outsize Folder</physloc>
+                  <container type="folder" label="Oversize Folder">UBImul/B3</container>
                   <unittitle>Lovell, James and Duke Slater</unittitle>
                 </did>
                 <odd>
@@ -80042,7 +80046,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <physloc>Outsize Folder</physloc>
+                  <container type="folder" label="Oversize Folder">UBImul/B3</container>
                   <unittitle>McDivitt, James</unittitle>
                 </did>
                 <odd>
@@ -80092,7 +80096,7 @@
             </did>
             <c04 level="file">
               <did>
-                <physloc>Outsize Folder</physloc>
+                <container type="folder" label="Oversize Folder">UBImul/B3</container>
                 <unittitle>President's House</unittitle>
               </did>
               <odd>
@@ -80101,7 +80105,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <physloc>Outsize Folder</physloc>
+                <container type="folder" label="Oversize Folder">UBImul/B3</container>
                 <unittitle>School of Music <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
               </did>
               <odd>
@@ -80132,7 +80136,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <physloc>Outsize Folder</physloc>
+                <container type="folder" label="Oversize Folder">UBImul/B3</container>
                 <unittitle>Tanner Lecture Series Board <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
               </did>
               <odd>
@@ -80361,7 +80365,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <physloc>Outsize Folder</physloc>
+                <container type="folder" label="Oversize Folder">UBImul/B3</container>
                 <unittitle>University of Michigan Flags, color proofs</unittitle>
               </did>
               <odd>
@@ -80630,7 +80634,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <physloc>Outsize Folder</physloc>
+                <container type="folder" label="Oversize Folder">UBImul/B3</container>
                 <unittitle>Commencement with President George Bush, 20 x 24</unittitle>
                 <physdesc>
                   <extent>4 photos</extent>
@@ -80645,7 +80649,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <physloc>Outsize Folder</physloc>
+                <container type="folder" label="Oversize Folder">UBImul/B3</container>
                 <unittitle>Engineering Building</unittitle>
               </did>
               <odd>
@@ -80687,7 +80691,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <physloc>Outsize Folder</physloc>
+                <container type="folder" label="Oversize Folder">UBImul/B3</container>
                 <unittitle>Photograph of Bollinger, Gerald Ford and Henry Kissinger at the Naming of the Gerald R. Ford School of Public Policy (matted) <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
               </did>
               <odd>
@@ -80728,7 +80732,7 @@
             </did>
             <c04 level="file">
               <did>
-                <physloc>Outsize Folder</physloc>
+                <container type="folder" label="Oversize Folder">UBImul/B3</container>
                 <unittitle>Autographed Poster for the Naming Ceremony of the A. Alfred Taubman College of Architecture and Urban Planning <unitdate type="inclusive" normal="1999">1999</unitdate> (located in outsize folder, call no. UBImul/B3)</unittitle>
               </did>
               <accessrestrict>
@@ -80764,7 +80768,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <physloc>Outsize Folder</physloc>
+                <container type="folder" label="Oversize Folder">UBImul/B3</container>
                 <unittitle>Letter from Arthur Miller (matted) <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
               </did>
               <odd>
@@ -80798,7 +80802,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <physloc>Outsize Folder</physloc>
+                  <container type="folder" label="Oversize Folder">UBImul/B3</container>
                   <unittitle>Posters</unittitle>
                 </did>
                 <odd>
@@ -80810,7 +80814,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <physloc>Outsize Folder</physloc>
+                  <container type="folder" label="Oversize Folder">UBImul/B3</container>
                   <unittitle>Posterboard Containing Flag and Emblem Carried on 2nd Skylab Mission</unittitle>
                 </did>
                 <odd>
@@ -80831,7 +80835,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <physloc>Outsize Folder</physloc>
+                  <container type="folder" label="Oversize Folder">UBImul/B3</container>
                   <unittitle>"Resolution Honoring Lee C. Bollinger on His Departure from the University of Michigan," from Michigan House of Representatives <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
                 </did>
                 <odd>
@@ -80843,7 +80847,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <physloc>Outsize Folder</physloc>
+                  <container type="folder" label="Oversize Folder">UBImul/B3</container>
                   <unittitle>"Resolution Honoring Lee C. Bollinger on His Inauguration as the Twelfth President of the University of Michigan," from the City of Ann Arbor <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
                 </did>
                 <odd>
