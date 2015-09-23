@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20150923</date>
+        <item>Corrected extent and container listing.</item>
+      </change>
+      <change>
         <date>20091223</date>
         <item>Edited for style LAC</item>
       </change>
@@ -46,7 +50,7 @@
       </origination>
       <unittitle encodinganalog="245">James B. Sibley papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
       <physdesc>
-        <extent encodinganalog="300">1 folder</extent>
+        <extent encodinganalog="300">2 boxes and 2 folders</extent>
       </physdesc>
       <abstract>Soldier from Detroit, Mich., member of Co. E, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes diary of service in Russia, Nov.7, 1918-Jan.14, 1919 and other war-related papers.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86638 Aa 1</unitid>
@@ -104,7 +108,6 @@
         <c02 level="file">
           <did>
             <container type="folder" label="Folder">1</container>
-            <physloc>Aa 1 folder</physloc>
             <unittitle>
               <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate>
             </unittitle>
@@ -112,6 +115,9 @@
               <extent altrender="materialtype spaceoccupied">13 items</extent>
             </physdesc>
           </did>
+          <odd>
+            <p>(located at Aa)</p>
+          </odd>
         </c02>
       </c01>
       <c01 level="series">
@@ -121,11 +127,13 @@
         <c02 level="file">
           <did>
             <container type="folder" label="Folder">2</container>
-            <physloc>Aa 1 folder</physloc>
             <unittitle>Photographs</unittitle>
           </did>
           <odd>
             <p>Photographs have not been digitized</p>
+          </odd>
+          <odd>
+            <p>(located at Aa)</p>
           </odd>
         </c02>
       </c01>
@@ -135,26 +143,21 @@
         </did>
         <c02 level="file">
           <did>
-            <unittitle>Helmet, shell casing trench art (75 mm), 37 mm shell, VFW Post 436 cap, and uniform insignia</unittitle>
+            <container type="box" label="Box">1</container>
+            <unittitle>Shell casing trench art (75 mm), 37 mm shell, VFW Post 436 cap, and uniform insignia</unittitle>
           </did>
           <odd>
-            <p>Artifacts have not been digitized</p>
+            <p>(Artifacts have not been digitized)</p>
           </odd>
-          <c03 level="file">
-            <did>
-              <unittitle>Helmet, shell casing trench art (75 mm), 37 mm shell, VFW Post 436 cap, and uniform insignia</unittitle>
-              <container type="box" label="Box">1</container>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <unittitle>Helmet, shell casing trench art (75 mm), 37 mm shell, VFW Post 436 cap, and uniform insignia</unittitle>
-              <container type="box" label="Box">2</container>
-            </did>
-            <odd>
-              <p>(continued)</p>
-            </odd>
-          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Helmet</unittitle>
+          </did>
+          <odd>
+            <p>(Artifacts have not been digitized)</p>
+          </odd>
         </c02>
       </c01>
     </dsc>
