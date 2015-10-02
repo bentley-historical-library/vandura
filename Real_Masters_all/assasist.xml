@@ -42,9 +42,6 @@
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n80076415">Association for Asian Studies.</corpname>
       </origination>
       <unittitle encodinganalog="245">Association for Asian Studies records <unitdate type="inclusive" encodinganalog="245$f" normal="1947/1988">1947-1988</unitdate></unittitle>
-      <physdesc altrender="whole">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">48.5 linear feet</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8541 Bp 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Minutes, correspondence files, memoranda, financial material, and other miscellanea relating to the work of the organization.</abstract>
@@ -52,6 +49,9 @@
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">48.5 linear feet</extent>
+      </physdesc>
       <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
     </did>
     <descgrp type="admin">
@@ -2233,7 +2233,8 @@ Association for Asian Studies records, Bentley Historical Library, University of
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1949/1985">1949-1985</unitdate> (<unitdate normal="1970/1979" type="bulk">primarily 1970-1979</unitdate>)</unittitle></did>
+            <unittitle><unitdate type="inclusive" normal="1949/1985">1949-1985</unitdate> (<unitdate normal="1970/1979" type="bulk">primarily 1970-1979</unitdate>)</unittitle>
+          </did>
           <c03 level="file">
             <did>
               <unittitle>Administrative Officer Correspondence (Carol Johnson Chronological File)</unittitle>
@@ -2748,7 +2749,8 @@ Association for Asian Studies records, Bentley Historical Library, University of
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">26</container>
-                  <unittitle>Computarization, <unitdate normal="1975/1980" type="inclusive">1975-1980</unitdate></unittitle></did>
+                  <unittitle>Computarization, <unitdate normal="1975/1980" type="inclusive">1975-1980</unitdate></unittitle>
+                </did>
               </c05>
               <c05 level="file">
                 <did>
@@ -3135,8 +3137,12 @@ Association for Asian Studies records, Bentley Historical Library, University of
             <did>
               <container type="box" label="Box">29</container>
               <unittitle>International Congress of Orientalists (abstracts of papers) <unitdate type="inclusive" normal="1967-08">August 1967</unitdate></unittitle>
-              <physdesc>
-                <extent>4 volumes and 1 scrapbook</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+                <physfacet>scrapbook</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -3189,7 +3195,8 @@ Association for Asian Studies records, Bentley Historical Library, University of
             <c04 level="file">
               <did>
                 <container type="box" label="Box">29</container>
-                <unittitle><unitdate type="inclusive" normal="1953/1982">1953-1982</unitdate> (<unitdate normal="1971/1982" type="bulk">primarily 1971-1982</unitdate>)</unittitle><physdesc altrender="whole">
+                <unittitle><unitdate type="inclusive" normal="1953/1982">1953-1982</unitdate> (<unitdate normal="1971/1982" type="bulk">primarily 1971-1982</unitdate>)</unittitle>
+                <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
                 </physdesc>
               </did>

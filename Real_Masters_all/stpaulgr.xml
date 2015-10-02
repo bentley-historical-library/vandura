@@ -38,15 +38,15 @@
         <corpname source="lcnaf" encodinganalog="110">St. Paul’s Episcopal Church (Grand Rapids, Mich.).</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Paul’s Episcopal Church (Grand Rapids, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1870/2005">1870-2005</unitdate></unittitle>
-      <physdesc altrender="part">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">8 linear feet</extent>
-      </physdesc>
-      <physdesc encodinganalog="300" altrender="part">
-        <extent altrender="materialtype spaceoccupied">6 oversize volumes</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008009 Ba 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Episcopal church established in 1869 and defunct as of 2005. The record group includes registers of baptisms, marriages, burials, etc.; vestry minute books; historical and background information; and topical files.</abstract>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">8 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">6 oversize volumes</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -251,8 +251,8 @@ St. Paul’s Episcopal Church (Grand Rapids, Mich.) records, Bentley Historical 
               <unittitle>
                 <unitdate type="inclusive" normal="1952/1997">1952-1997</unitdate>
               </unittitle>
-              <physdesc>
-                <extent>2 binders</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
           </c03>
@@ -322,8 +322,11 @@ St. Paul’s Episcopal Church (Grand Rapids, Mich.) records, Bentley Historical 
           <did>
             <container type="box" label="Box">6</container>
             <unittitle>Albums containing photographs and clippings</unittitle>
-            <physdesc>
-              <extent>3 folders and 1 binder</extent>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>

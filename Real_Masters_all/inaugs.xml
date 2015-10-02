@@ -37,12 +37,15 @@
         <corpname source="lcnaf" encodinganalog="110">University of Michigan. Presidential Inaugurations.</corpname>
       </origination>
       <unittitle encodinganalog="245">Presidential Inaugurations (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1920/2003">1920-2003</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">2.5 linear feet, and 1 outsize folder</extent>
-      </physdesc>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0647 Bimu 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Materials related to the inaugurations of University of Michigan presidents, including Marion Leroy Burton (1920), Robben Fleming (1968), Harold T. Shapiro (1980) and Mary Sue Coleman (2003).</abstract>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2.5 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -172,8 +175,9 @@ Presidential Inaugurations (University of Michigan) Collection, Bentley Historic
           <did>
             <container type="box" label="Box">1</container>
             <unittitle>Greetings and Certificates</unittitle>
-            <physdesc>
-              <extent>5 folders and items in outsize folder</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              <extent altrender="carrier">(in oversize folder)</extent>
             </physdesc>
           </did>
         </c02>

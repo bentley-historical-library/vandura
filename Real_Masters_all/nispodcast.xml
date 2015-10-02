@@ -46,12 +46,16 @@
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/nr89008286">University of Michigan. News and Information Services.</corpname>
       </origination>
       <unittitle encodinganalog="245">News and Information Services (University of Michigan) Audiovisual Materials<unitdate type="inclusive" encodinganalog="245$f" normal="2006/2010">1975-2012</unitdate> <unitdate type="bulk" encodinganalog="245$g" normal="1985/2005">1985-2005</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">25 linear feet, 66.6 GB (online)</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87265.11 Bimu</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The University of Michigan News and Information Services (NIS) acts as the University's media relations office, disseminating information about university programs, research, events, and faculty activities. This collection includes audiovisual recordings of press releases, news briefs distributed to television and radio stations, web-based podcasts and digital videos, and externally produced materials about the University and its activities. Additionally, researchers will find copies of University-produced media from the 1970s to the early 2000s in both audio and video formats.</abstract>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">25 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">66.6 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="http://hdl.handle.net/bhladd" show="embed" actuate="onload"/>
@@ -2139,8 +2143,11 @@ The collection is divided into four series: Audio Materials, Video Materials, Au
             <did>
               <container type="box" label="Box">5</container>
               <unittitle>Interviews shortly before and during the 1980 reunion of UM Symphony Band members who toured the Soviet Union in 1961.</unittitle>
-              <physdesc>
-                <extent>4 audiotapes (reel-to-reel, 7-inch)</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">4 audiotapes (reel-to-reel</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">7-inch</extent>
               </physdesc>
               <abstract>Interviews include William Revelli, Donald Sinta, George Cavendish and Fred Moncrieff. Fred was director of the UM News Service in 1961 and traveled with the band.</abstract>
             </did>

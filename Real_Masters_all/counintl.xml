@@ -37,12 +37,12 @@
         <corpname source="lcnaf" encodinganalog="110">University of Michigan. Council for International Living.</corpname>
       </origination>
       <unittitle encodinganalog="245">Council for International Living. (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1949/1966">1949-1966</unitdate></unittitle>
-      <physdesc altrender="whole">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">0.5 linear feet</extent>
-      </physdesc>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">87123 Bimu F22 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The records of the Council for International Living, at the University of Michigan, contain administrative files, bylaws, financial records, meeting minutes, house policies, and newsletters.</abstract>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">0.5 linear feet</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -219,8 +219,10 @@ Council for International Living. (University of Michigan) Records, Bentley Hist
           <did>
             <container type="box" label="Box">1</container>
             <unittitle>Unidentified foreign students <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc>
-              <extent>1 8x10, black and white print</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 prints</extent>
+              <physfacet>black and white</physfacet>
+              <dimensions>8x10</dimensions>
             </physdesc>
           </did>
         </c02>

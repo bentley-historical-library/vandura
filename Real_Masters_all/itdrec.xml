@@ -41,9 +41,6 @@
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/nr92011114">University of Michigan. Information Technology Division.</corpname>
       </origination>
       <unittitle encodinganalog="245">Information Technology Division (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1956/1998">1956-1998</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1985/1997">1985-1997</unitdate></unittitle>
-      <physdesc altrender="whole">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">69 linear feet</extent>
-      </physdesc>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">921070 Bimu C565 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The information Technology Division, formed in 1985, consolidated academic and administrative computing at the University of Michigan. Douglas Van Houweling was named head of the unit and at the same time appointed to the new position of Vice Provost for Information Technology. During the 1980s, the unit oversaw a shift away from Michigan Terminal System (MTS) mainframe computing to a distributed, networked environment.
@@ -52,6 +49,9 @@ The Information Technology Division record group documents the development of ne
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">69 linear feet</extent>
+      </physdesc>
       <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
     </did>
     <descgrp type="admin">
@@ -912,7 +912,8 @@ Information Technology Division (University of Michigan) records, Bentley Histor
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">5</container>
-                  <unittitle>Networking, <unitdate normal="1985/1987" type="inclusive">1985-1987</unitdate>)</unittitle></did>
+                  <unittitle>Networking, <unitdate normal="1985/1987" type="inclusive">1985-1987</unitdate>)</unittitle>
+                </did>
                 <odd>
                   <p>(memos, reports, etc., re: proposals for campus computer networks)</p>
                 </odd>
@@ -1292,8 +1293,11 @@ Information Technology Division (University of Michigan) records, Bentley Histor
               <did>
                 <container type="box" label="Box">26</container>
                 <unittitle>Information Technology Policy Committee (ITPC) <unitdate type="inclusive" normal="1987/1996">1987-1996</unitdate></unittitle>
-                <physdesc>
-                  <extent>6 folders and 2 expandable folders</extent>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">6 folders</extent>
+                </physdesc>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
@@ -1325,8 +1329,8 @@ Information Technology Division (University of Michigan) records, Bentley Histor
               <did>
                 <container type="box" label="Box">26</container>
                 <unittitle>President's Council <unitdate type="inclusive" normal="1990/1996">1990-1996</unitdate></unittitle>
-                <physdesc>
-                  <extent>2 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
               <odd>
@@ -1602,7 +1606,7 @@ Information Technology Division (University of Michigan) records, Bentley Histor
                   <container type="box" label="Box">52</container>
                   <unittitle>Grievance Report <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
                   <physdesc altrender="whole">
-                    <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                    <extent altrender="materialtype spaceoccupied">1 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -1948,8 +1952,8 @@ Information Technology Division (University of Michigan) records, Bentley Histor
               <did>
                 <container type="box" label="Box">29</container>
                 <unittitle>X.500 <unitdate type="inclusive" normal="1991/1993">1991-1993</unitdate></unittitle>
-                <physdesc>
-                  <extent>4 expandable folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
               </did>
             </c04>
@@ -2211,8 +2215,8 @@ Information Technology Division (University of Michigan) records, Bentley Histor
                   <unittitle>
                     <unitdate type="inclusive" normal="1976/1977-08">1976-August 1977</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>5 files</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">5 files</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -2222,8 +2226,8 @@ Information Technology Division (University of Michigan) records, Bentley Histor
                   <unittitle>
                     <unitdate type="inclusive" normal="1977-09/1986">September 1977-1986</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>27 files</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">27 files</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -2430,8 +2434,8 @@ Information Technology Division (University of Michigan) records, Bentley Histor
                 <did>
                   <container type="box" label="Box">30</container>
                   <unittitle>Systems (Articles on file systems)</unittitle>
-                  <physdesc>
-                    <extent>1 expandable folder</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">1 folders</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -2439,8 +2443,8 @@ Information Technology Division (University of Michigan) records, Bentley Histor
                 <did>
                   <container type="box" label="Box">30</container>
                   <unittitle>General and Miscellaneous <unitdate type="inclusive" normal="1988/1992">1988-1992</unitdate></unittitle>
-                  <physdesc>
-                    <extent>1 expandable folder</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">1 folders</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -4617,7 +4621,7 @@ Information Technology Division (University of Michigan) records, Bentley Histor
                   <container type="box" label="Box">14</container>
                   <unittitle>Van Houweling Presentations</unittitle>
                   <physdesc altrender="whole">
-                    <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                    <extent altrender="materialtype spaceoccupied">1 folders</extent>
                   </physdesc>
                 </did>
                 <c06 level="file">
@@ -5170,7 +5174,7 @@ Information Technology Division (University of Michigan) records, Bentley Histor
                   <container type="box" label="Box">52</container>
                   <unittitle>Director Search <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
                   <physdesc altrender="whole">
-                    <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                    <extent altrender="materialtype spaceoccupied">1 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -7349,7 +7353,7 @@ Information Technology Division (University of Michigan) records, Bentley Histor
               <container type="box" label="Box">52</container>
               <unittitle>Grievances</unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
             <accessrestrict>
@@ -7532,8 +7536,8 @@ Information Technology Division (University of Michigan) records, Bentley Histor
               <did>
                 <container type="box" label="Box">42</container>
                 <unittitle>General</unittitle>
-                <physdesc>
-                  <extent>2 expandable folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
@@ -7668,8 +7672,8 @@ Information Technology Division (University of Michigan) records, Bentley Histor
             <did>
               <container type="box" label="Box">43</container>
               <unittitle>Networking</unittitle>
-              <physdesc>
-                <extent>2 expandable folders</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
@@ -7802,7 +7806,7 @@ Information Technology Division (University of Michigan) records, Bentley Histor
                 <container type="box" label="Box">52</container>
                 <unittitle>Network Systems Search</unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                  <extent altrender="materialtype spaceoccupied">1 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -7814,7 +7818,7 @@ Information Technology Division (University of Michigan) records, Bentley Histor
                 <container type="box" label="Box">52</container>
                 <unittitle>Salaries</unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                  <extent altrender="materialtype spaceoccupied">1 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -7925,8 +7929,8 @@ Information Technology Division (University of Michigan) records, Bentley Histor
             <did>
               <container type="box" label="Box">44</container>
               <unittitle>Scientific Computation Committee</unittitle>
-              <physdesc>
-                <extent>2 expandable folders</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
@@ -7940,8 +7944,8 @@ Information Technology Division (University of Michigan) records, Bentley Histor
             <did>
               <container type="box" label="Box">44</container>
               <unittitle>Senior Management</unittitle>
-              <physdesc>
-                <extent>2 expandable folders</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
@@ -8281,7 +8285,7 @@ Information Technology Division (University of Michigan) records, Bentley Histor
               <container type="box" label="Box">52</container>
               <unittitle>Grievances</unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
             <accessrestrict>
@@ -8325,8 +8329,11 @@ Information Technology Division (University of Michigan) records, Bentley Histor
             <did>
               <container type="box" label="Box">46</container>
               <unittitle>IFS (Institutional File System)</unittitle>
-              <physdesc>
-                <extent>4 folders and 2 expandable folders</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
@@ -8494,7 +8501,7 @@ Information Technology Division (University of Michigan) records, Bentley Histor
               <container type="box" label="Box">52</container>
               <unittitle>Network Systems Search</unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
             <accessrestrict>
@@ -8562,8 +8569,8 @@ Information Technology Division (University of Michigan) records, Bentley Histor
             <did>
               <container type="box" label="Box">52</container>
               <unittitle>Performance Reviews</unittitle>
-              <physdesc>
-                <extent>1 folder&gt;</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 folder&gt;</extent>
               </physdesc>
             </did>
             <accessrestrict>
@@ -8580,8 +8587,8 @@ Information Technology Division (University of Michigan) records, Bentley Histor
             <did>
               <container type="box" label="Box">52</container>
               <unittitle>Personnel</unittitle>
-              <physdesc>
-                <extent>1 expandable folder)</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
             <accessrestrict>
@@ -9160,7 +9167,7 @@ Information Technology Division (University of Michigan) records, Bentley Histor
               <container type="box" label="Box">51</container>
               <unittitle>Operations Lead Team (OLT) <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 expandable folder</extent>
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
           </c03>
@@ -12460,8 +12467,8 @@ Information Technology Division (University of Michigan) records, Bentley Histor
             <did>
               <container type="box" label="Box">69</container>
               <unittitle>Slides and photographs of buildings, people, events, systems <unitdate type="inclusive" normal="1986" certainty="approximate">circa 1986</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-              <physdesc>
-                <extent>2 binders</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
           </c03>

@@ -53,12 +53,12 @@
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n82020424">University of Michigan. College of Literature, Science, and the Arts.</corpname>
       </origination>
       <unittitle encodinganalog="245">College of Literature, Science and the Arts (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1871/9999">1871-[ongoing]</unitdate></unittitle>
-      <physdesc altrender="whole">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">11 linear feet</extent>
-      </physdesc>
       <abstract>Includes miscellaneous announcements, annual reports, bibliographies, brochures, bulletins, calendars, directories, flyers, guidebooks, manuals, newsletters and reports of the College of Literature, Science and the Arts and the Summer Session. Also includes newsletters from the Honors Program and reports of the Commission on Graduation Requirements, the Committee on the Underclass Experience, and Office of Faculty Counselors.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">0346 Bimu C22 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">11 linear feet</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -311,8 +311,11 @@
               <unittitle>
                 <unitdate type="inclusive" normal="1871/1924">1871/72-1923/24</unitdate>
               </unittitle>
-              <physdesc>
-                <extent>7 folders and 5 bound volumes</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">7 folders</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">5 volumes</extent>
               </physdesc>
             </did>
           </c03>
@@ -1188,7 +1191,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">10</container>
-              <unittitle>Annual Reports, <unitdate normal="1958/1976" type="inclusive">1958-1975/76</unitdate></unittitle></did>
+              <unittitle>Annual Reports, <unitdate normal="1958/1976" type="inclusive">1958-1975/76</unitdate></unittitle>
+            </did>
           </c03>
           <c03 level="file">
             <did>
@@ -1758,8 +1762,9 @@
           <did>
             <container type="box" label="CD Box">2</container>
             <unittitle>Website capture <unitdate type="inclusive" normal="2002-05-15">May 15, 2002</unitdate></unittitle>
-            <physdesc>
-              <extent>1 cd</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
+              <physfacet>CDs</physfacet>
             </physdesc>
           </did>
           <odd>
@@ -1770,8 +1775,9 @@
           <did>
             <container type="box" label="CD Box">2</container>
             <unittitle>Website capture <unitdate type="inclusive" normal="2003-06-23">June 23, 2003</unitdate></unittitle>
-            <physdesc>
-              <extent>1 cd</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
+              <physfacet>CDs</physfacet>
             </physdesc>
           </did>
           <odd>

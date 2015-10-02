@@ -38,12 +38,19 @@
         <corpname source="lcnaf" encodinganalog="110">Edwin S. George Reserve (Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Edwin S. George Reserve (Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1924/2013">1924-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1941/1995">1941-1995</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">15 linear feet (in 16 boxes), 12 outsize folders, and 4.58 MB</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013089 Bimu C459 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Records of the Edwin S. George Reserve, Livingston County, Michigan, operated by the University of Michigan as a natural area for scientific study. Collection includes administrative records, history, publications, research, photographs, maps, and other records relating to Reserve activities.</abstract>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">15 linear feet</extent>
+        <extent altrender="carrier">(in 16 boxes)</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">12 oversize folders</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">4.58 MB</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -424,7 +431,8 @@ Edwin S. George Reserve (Mich.) records, Bentley Historical Library, University 
           <c03 level="file">
             <did>
               <container type="box" label="Box">16</container>
-              <unittitle>Applications and Awards, <unitdate normal="1947/1948" type="inclusive">1947-1948</unitdate></unittitle></did>
+              <unittitle>Applications and Awards, <unitdate normal="1947/1948" type="inclusive">1947-1948</unitdate></unittitle>
+            </did>
             <accessrestrict>
               <p>[SR RESTRICTED until July 1 <date type="restriction" normal="2023-07-01">2023</date>]</p>
             </accessrestrict>
@@ -3907,8 +3915,8 @@ Edwin S. George Reserve (Mich.) records, Bentley Historical Library, University 
           <did>
             <container type="box" label="Box">13</container>
             <unittitle>Negative Albums</unittitle>
-            <physdesc>
-              <extent>4 albums</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 volumes</extent>
             </physdesc>
           </did>
         </c02>

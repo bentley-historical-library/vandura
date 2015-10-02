@@ -37,12 +37,12 @@
         <famname source="lcnaf" encodinganalog="100">Fletcher family.</famname>
       </origination>
       <unittitle encodinganalog="245">Fletcher Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1856/1936">1856-1936</unitdate></unittitle>
-      <physdesc altrender="whole">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">7 linear feet</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851292 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Family based in Detroit and Alpena, Michigan and engaged in many business enterprises; business records detailing involvement in lumbering, milling, paper manufacturing, and power and light companies, mainly in Alpena, Michigan.</abstract>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">7 linear feet</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -866,8 +866,11 @@ Fletcher Family Papers, Bentley Historical Library, University of Michigan</p>
             <did>
               <container type="box" label="Box">6</container>
               <unittitle>Exhibit materials</unittitle>
-              <physdesc>
-                <extent>1 volumes and 5 folders</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
           </c03>

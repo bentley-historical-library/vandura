@@ -37,9 +37,6 @@
         <title source="aacr2" encodinganalog="130">Michigan Masonic Publications</title>
       </origination>
       <unittitle encodinganalog="245">Michigan Masonic Publications <unitdate type="inclusive" encodinganalog="245$f" normal="1850/1989" certainty="approximate">[185-]-[198-]</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950/1970">1950-1970</unitdate></unittitle>
-      <physdesc altrender="whole">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">7 linear feet</extent>
-      </physdesc>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">93854 Bd 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Programs, flyers, handbooks, newsletters, bylaws, directories, rituals, and miscellaneous publications of a variety of Masonic organizations in Michigan.</abstract>
@@ -47,6 +44,9 @@
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">7 linear feet</extent>
+      </physdesc>
       <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
     </did>
     <descgrp type="admin">
@@ -667,7 +667,7 @@ Michigan Masonic Publications, Bentley Historical Library, University of Michiga
                 <container type="box" label="Box">4</container>
                 <unittitle>Law</unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                  <extent altrender="materialtype spaceoccupied">1 folders</extent>
                 </physdesc>
               </did>
             </c04>
@@ -676,7 +676,7 @@ Michigan Masonic Publications, Bentley Historical Library, University of Michiga
                 <container type="box" label="Box">5</container>
                 <unittitle>Law</unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 volume</extent>
+                  <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                 </physdesc>
               </did>
             </c04>
@@ -898,8 +898,11 @@ Michigan Masonic Publications, Bentley Historical Library, University of Michiga
           <did>
             <container type="box" label="Box">6</container>
             <unittitle>Michigan Masonic Home</unittitle>
-            <physdesc>
-              <extent>1 folder and 3 vols.</extent>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">1 folders</extent>
+            </physdesc>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
           </did>
         </c02>

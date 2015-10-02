@@ -42,12 +42,16 @@
         <corpname source="lcnaf" encodinganalog="110">Delta Sigma Delta.</corpname>
       </origination>
       <unittitle encodinganalog="245">Delta Sigma Delta records <unitdate type="inclusive" encodinganalog="245$f" normal="1882/1982">1882-1982</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">22 linear feet (20 boxes and bound records and artifacts on display in DSD Room) and 2 oversize items</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851133 Bd 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>National dental fraternity founded at University of Michigan. Constitution and by-laws, minutes, financial records, fraternity newsletter, memorabilia and artifacts, textbooks, citations and plaques, photographs, and miscellaneous manuscripts.</abstract>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">22 linear feet</extent>
+        <physfacet>20 boxes and bound records and artifacts on display in DSD Room</physfacet>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 oversize items</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -200,8 +204,11 @@ Delta Sigma Delta records, Bentley Historical Library, University of Michigan</p
           <did>
             <physloc>DSD Room</physloc>
             <unittitle><title render="italic">Desmos</title>, <unitdate type="inclusive" normal="1894/1975">1894-1975</unitdate>, <unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate></unittitle>
-            <physdesc>
-              <extent>27 volumes and 2 folders</extent>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">27 volumes</extent>
+            </physdesc>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
@@ -277,8 +284,9 @@ Delta Sigma Delta records, Bentley Historical Library, University of Michigan</p
             <did>
               <container type="box" label="Box">1</container>
               <unittitle>Council of Deputies Proceedings <unitdate type="inclusive" normal="1935/1964">1935-1964 (scattered dates)</unitdate></unittitle>
-              <physdesc>
-                <extent>23 booklets</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 volumes</extent>
+                <physfacet>booklets</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -314,7 +322,7 @@ Delta Sigma Delta records, Bentley Historical Library, University of Michigan</p
                 <container type="box" label="Box">2</container>
                 <unittitle>Minutes <unitdate type="inclusive" normal="1893/1914">1893-1914</unitdate></unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 volume</extent>
+                  <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                 </physdesc>
               </did>
             </c04>
@@ -323,7 +331,7 @@ Delta Sigma Delta records, Bentley Historical Library, University of Michigan</p
                 <container type="box" label="Box">2</container>
                 <unittitle>Minutes <unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate></unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 volume</extent>
+                  <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                 </physdesc>
               </did>
             </c04>
@@ -722,8 +730,9 @@ Delta Sigma Delta records, Bentley Historical Library, University of Michigan</p
           <did>
             <container type="box" label="Box">3</container>
             <unittitle>Jackie Jungman Party <unitdate type="inclusive" normal="1934" certainty="approximate">circa 1934</unitdate></unittitle>
-            <physdesc>
-              <extent>2 albums in 1 envelope</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+              <extent altrender="carrier">(in 1 envelope)</extent>
             </physdesc>
           </did>
         </c02>
@@ -975,8 +984,8 @@ Delta Sigma Delta records, Bentley Historical Library, University of Michigan</p
           <did>
             <container type="box" label="Box">19</container>
             <unittitle>Dance Cards</unittitle>
-            <physdesc>
-              <extent>2 envelopes</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
             </physdesc>
           </did>
         </c02>
@@ -1034,8 +1043,8 @@ Delta Sigma Delta records, Bentley Historical Library, University of Michigan</p
           <did>
             <container type="box" label="Box">17</container>
             <unittitle>Cleveland Graduate chapter ceremonial cups</unittitle>
-            <physdesc>
-              <extent>2 cups</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 cups</extent>
             </physdesc>
           </did>
         </c02>

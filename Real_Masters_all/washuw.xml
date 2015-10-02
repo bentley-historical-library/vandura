@@ -37,15 +37,15 @@
         <corpname source="lcnaf" encodinganalog="110">Washtenaw United Way.</corpname>
       </origination>
       <unittitle encodinganalog="245">Washtenaw United Way records <unitdate type="inclusive" encodinganalog="245$f" normal="1921/2001">1921-2001</unitdate></unittitle>
-      <physdesc altrender="part">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">18 linear feet</extent>
-      </physdesc>
-      <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied" encodinganalog="300">21 oversize volumes</extent>
-      </physdesc>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85456 Bj 2; BJ Outsize</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Records of the Washtenaw United Way and its predecessor organizations, the Ypsilanti Community Chest, 1932-1971, and the Ann Arbor Community Chest, 1921-1971. Executive committee and board of directors minutes, manuals, reports, and scrapbooks containing clippings, photographs, and other organization papers.</abstract>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">18 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">21 oversize volumes</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -228,7 +228,8 @@ Washtenaw United Way Records, Bentley Historical Library, University of Michigan
           <c03 level="file">
             <did>
               <container type="box" label="Box">4</container>
-              <unittitle><unitdate type="inclusive" normal="1930/1951">1930-1951</unitdate> (<unitdate normal="1942/1951" type="bulk">mainly 1942-1951</unitdate>)</unittitle></did>
+              <unittitle><unitdate type="inclusive" normal="1930/1951">1930-1951</unitdate> (<unitdate normal="1942/1951" type="bulk">mainly 1942-1951</unitdate>)</unittitle>
+            </did>
           </c03>
           <c03 level="file">
             <did>
@@ -325,8 +326,11 @@ Washtenaw United Way Records, Bentley Historical Library, University of Michigan
                 <unittitle>
                   <unitdate type="inclusive" normal="1921/1959">1921-1959</unitdate>
                 </unittitle>
-                <physdesc>
-                  <extent>6 volumes and 2 pocket folders</extent>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">6 volumes</extent>
+                </physdesc>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
@@ -336,8 +340,11 @@ Washtenaw United Way Records, Bentley Historical Library, University of Michigan
                 <unittitle>
                   <unitdate type="inclusive" normal="1960/1969">1960-1969</unitdate>
                 </unittitle>
-                <physdesc>
-                  <extent>2 volumes and 3 pocket folders</extent>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+                </physdesc>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
             </c04>
@@ -453,8 +460,11 @@ Washtenaw United Way Records, Bentley Historical Library, University of Michigan
             <did>
               <container type="box" label="Box">9</container>
               <unittitle>Budget files <unitdate type="inclusive" normal="1969/1973">1969-1973</unitdate></unittitle>
-              <physdesc>
-                <extent>5 volumes and 1 pocket folder</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">5 volumes</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
           </c03>
@@ -462,8 +472,8 @@ Washtenaw United Way Records, Bentley Historical Library, University of Michigan
             <did>
               <container type="box" label="Box">10</container>
               <unittitle>Planning committee files <unitdate type="inclusive" normal="1962/1970">1962-1970</unitdate></unittitle>
-              <physdesc>
-                <extent>2 pocket folders</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
