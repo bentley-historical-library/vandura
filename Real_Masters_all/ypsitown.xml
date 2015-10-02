@@ -38,12 +38,22 @@
         <corpname source="lcnaf" encodinganalog="110">Ypsilanti (Mich. : Township)</corpname>
       </origination>
       <unittitle encodinganalog="245">Ypsilanti (Mich. : Township) records <unitdate type="inclusive" encodinganalog="245$f" normal="1827/1923">1827-1923</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">12 volumes and ca. 30 items (in 1 box), 1 outsize folder, and 1 microfilm reel.</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85862 Cb 2; Cb Outsize; Cb Microcopy</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Township meeting minutes; highway commissioners, 1827-1831; assessment rolls, 1832-1838; also miscellaneous school records, districts 1 and 5; and election record books, 1827-1860.</abstract>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">12 volumes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">30 items</extent>
+        <extent altrender="carrier">(in 1 box)</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -94,7 +104,7 @@ Ypsilanti (Mich. : Township) records, Bentley Historical Library, University of 
             <container type="box" label="Box">1</container>
             <unittitle>Township meetings <unitdate type="inclusive" normal="1828/1833">1828-1833</unitdate></unittitle>
             <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>
@@ -103,7 +113,7 @@ Ypsilanti (Mich. : Township) records, Bentley Historical Library, University of 
             <container type="box" label="Box">1</container>
             <unittitle>Inspectors of elections <unitdate type="inclusive" normal="1827/1833">1827-1833</unitdate></unittitle>
             <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>
@@ -112,7 +122,7 @@ Ypsilanti (Mich. : Township) records, Bentley Historical Library, University of 
             <container type="box" label="Box">1</container>
             <unittitle>Highway Commission <unitdate type="inclusive" normal="1827/1831">1827-1831</unitdate></unittitle>
             <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>
@@ -148,8 +158,11 @@ Ypsilanti (Mich. : Township) records, Bentley Historical Library, University of 
             <did>
               <container type="box" label="Box">1</container>
               <unittitle>District No. 5 records <unitdate type="inclusive" normal="1837">1837</unitdate>, <unitdate type="inclusive" normal="1876">1876</unitdate>, <unitdate type="inclusive" normal="1878/1923">1878-1923</unitdate></unittitle>
-              <physdesc>
-                <extent>1 volumes and 1 folder</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
             <odd>
@@ -160,8 +173,9 @@ Ypsilanti (Mich. : Township) records, Bentley Historical Library, University of 
             <did>
               <container type="folder" label="Oversize Folder">Cb</container>
               <unittitle>District No. 8 records <unitdate type="inclusive" normal="1837">1837</unitdate></unittitle>
-              <physdesc>
-                <extent>1 item in outsize folder</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 items</extent>
+                <extent altrender="carrier">(in oversize folder)</extent>
               </physdesc>
             </did>
           </c03>

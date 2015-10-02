@@ -38,12 +38,13 @@
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n79140976">S.S. Kresge Company.</corpname>
       </origination>
       <unittitle encodinganalog="245">S. S. Kresge Company records [microform] <unitdate type="inclusive" encodinganalog="245$f" normal="1912/1978">1912-1978</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">8 microfilm reels (3 linear feet)</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861031 mf 273c-mf 280c</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Retail company based in Detroit, Michigan. Executive committee minutes, 1946-1960; record books of meetings and proceedings of directors, shareholders, and incorporators; minutes of various corporate committees; subject files detailing financial operations of this chain of variety stores; and files relating to the officers and directors of the company.</abstract>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">8 microfilms</extent>
+        <physfacet>3 linear feet</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -152,8 +153,9 @@ S. S. Kresge Company records, Bentley Historical Library, University of Michigan
           <did>
             <container type="reel" label="Roll">2</container>
             <unittitle>Detroit Trust Company Depository's Certificates of Participation in S.S. Kresge Company Fifteen-Year 5% First Mortgages <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
-            <physdesc>
-              <extent>2 bound documents</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+              <physfacet>bound documents</physfacet>
             </physdesc>
           </did>
         </c02>
@@ -199,8 +201,11 @@ S. S. Kresge Company records, Bentley Historical Library, University of Michigan
               <unittitle>
                 <unitdate type="inclusive" normal="1912/1916">1912-1916</unitdate>
               </unittitle>
-              <physdesc>
-                <extent>3 folders and 2 volumes</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
           </c03>

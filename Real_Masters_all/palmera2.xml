@@ -41,12 +41,12 @@
         <famname source="lcnaf" encodinganalog="100">Palmer family.</famname>
       </origination>
       <unittitle encodinganalog="245">Palmer Family Architectural Drawings <unitdate type="inclusive" encodinganalog="245$f" normal="1950">1950</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1963/1964">1963-1964</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1980">1980</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950">1950</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">3 oversize folders</extent>
-      </physdesc>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">93790 Aa</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor, Michigan family. Architectural drawings and renderings for their Ann Arbor, Michigan home designed by Frank Lloyd Wright and his associates.</abstract>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 oversize folders</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -194,8 +194,8 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
           <did>
             <container type="folder" label="Oversize Folder">2</container>
             <unittitle>Blueprint of precast perforated block <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-            <physdesc>
-              <extent>2 blueprints</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 blueprints</extent>
             </physdesc>
           </did>
           <odd>
@@ -206,8 +206,11 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
           <did>
             <container type="folder" label="Oversize Folder">2</container>
             <unittitle>Rug plan <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc>
-              <extent>2 blueprints and 1 whiteprint</extent>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">2 blueprints</extent>
+            </physdesc>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">1 prints</extent>
             </physdesc>
           </did>
           <odd>

@@ -46,12 +46,18 @@
         <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of Physiology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Department of Physiology (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1884/1979">1884-1979</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">3 linear feet, 1 outsize box, and 1 outsize film.</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87163 Bimu C46 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Files of Professors John W. Bean, Robert Gesell, Warren P. Lombard, and Henry Sewall, 1925-1979; miscellaneous departmental papers relating to the Hyperbaric Chamber Committee, the Institute for Human Adjustment, the Lombard Library, research funds, and teaching assignments; and publications of physiological laboratory; and collection of physiology textbooks, manuals, and monographs, mainly written by University of Michigan faculty; also photographs and films.</abstract>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">3 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize boxes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 film reels</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -627,7 +633,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">3</container>
-                <unittitle>Groups 1897, <unitdate normal="1938/1958" type="inclusive">circa 1938-1958</unitdate>, <unitdate type="inclusive" normal="1964" certainty="approximate">1964</unitdate> (includes some negatives)</unittitle></did>
+                <unittitle>Groups 1897, <unitdate normal="1938/1958" type="inclusive">circa 1938-1958</unitdate>, <unitdate type="inclusive" normal="1964" certainty="approximate">1964</unitdate> (includes some negatives)</unittitle>
+              </did>
             </c04>
             <c04 level="file">
               <did>
@@ -686,8 +693,9 @@
             <did>
               <container type="box" label="Box">3</container>
               <unittitle>Wiggers, Dr., (Tape of lecture to Medical Class of 1906 reunion) <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-              <physdesc>
-                <extent>2 reel-to-reel tapes</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 audiotapes</extent>
+                <physfacet>reel-to-reel tapes</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -833,8 +841,8 @@
               <container type="box" label="Box">3</container>
               <unitid>[92-025]</unitid>
               <unittitle>Home Movies of Dr. J. W. Bean <unitdate type="inclusive" normal="1950/1959" certainty="approximate">circa 1950s</unitdate></unittitle>
-              <physdesc>
-                <extent>3 reels</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 reels</extent>
               </physdesc>
               <physdesc>
                 <physfacet>16 mm, color]</physfacet>
@@ -849,8 +857,8 @@
               <container type="box" label="Box">3</container>
               <unitid>[92-037]</unitid>
               <unittitle>Experiments of Dr. J. W. Bean on adult rats <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
-              <physdesc>
-                <extent>2 reels</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 reels</extent>
               </physdesc>
               <physdesc>
                 <physfacet>16 mm, black and white]</physfacet>

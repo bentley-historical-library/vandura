@@ -37,15 +37,15 @@
         <corpname source="lcnaf" encodinganalog="110">St. Mark's Episcopal Church (Detroit, Mich. : 1927-)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Mark's Episcopal Church (Detroit, Mich. : 1927-) Records <unitdate type="inclusive" encodinganalog="245$f" normal="1927/1994">1927-1994</unitdate></unittitle>
-      <physdesc altrender="part">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">4 linear feet</extent>
-      </physdesc>
-      <physdesc encodinganalog="300" altrender="part">
-        <extent altrender="materialtype spaceoccupied">1 oversize volume</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0248 Ba 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Episcopal church located in the Seven Mile-Gratiot area of Detroit. Registers of baptisms, confirmations, marriages, burials, etc.; registers of church services; vestry minute books; records of church organizations; historical information; subject files; and photographs.</abstract>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 oversize volumes</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -109,8 +109,11 @@ St. Mark's Episcopal Church (Detroit, Mich. : 1927-) Records, Bentley Historical
           <did>
             <container type="box" label="Box">1</container>
             <unittitle>Membership directories and various other lists</unittitle>
-            <physdesc>
-              <extent>1 folder and 21 volumes</extent>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">1 folders</extent>
+            </physdesc>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">21 volumes</extent>
             </physdesc>
           </did>
         </c02>

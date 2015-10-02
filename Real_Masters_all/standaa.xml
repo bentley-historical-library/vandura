@@ -42,12 +42,18 @@
         <corpname source="lcnaf" encodinganalog="110">St. Andrew's Episcopal Church (Ann Arbor, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Andrew's Episcopal Church (Ann Arbor, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1834/1998">1834-1998</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">17.5 linear feet, 1 oversize volume, and 1 oversize bundle.</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86890 Ba 2; BA Outsize</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor, Michigan Episcopal Church; vestry and parish records, liturgical materials, Christian service and educational materials, administrative records, printed material, and photographs.</abstract>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">17.5 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize bundles</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -204,8 +210,8 @@ St. Andrew's Episcopal Church (Ann Arbor, Mich.) records, Bentley Historical Lib
             <did>
               <container type="box" label="Box">7</container>
               <unittitle>Notes of Vestry meetings made by Roger Barney <unitdate type="inclusive" normal="1971/1979">1971-1979</unitdate></unittitle>
-              <physdesc>
-                <extent>4 packets</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 packets</extent>
               </physdesc>
             </did>
           </c03>
@@ -1458,8 +1464,11 @@ St. Andrew's Episcopal Church (Ann Arbor, Mich.) records, Bentley Historical Lib
           <did>
             <container type="box" label="Box">18</container>
             <unittitle>Snapshots taken of areas of the church building needing repair and / or restoration</unittitle>
-            <physdesc>
-              <extent>1 folder and 1 oversize bundle</extent>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">1 folders</extent>
+            </physdesc>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">1 oversize bundles</extent>
             </physdesc>
           </did>
         </c02>

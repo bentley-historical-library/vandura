@@ -53,12 +53,15 @@
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n81033118">University of Michigan. School of Social Work.</corpname>
       </origination>
       <unittitle encodinganalog="245">School of Social Work (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1935/2010">1935-2010</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">36 linear feet and 2.35 GB</extent>
-      </physdesc>
       <abstract>Records of the School of Social Work (formerly the Institute of Social Work) include minutes, correspondence, curriculum records, and topical files, concerning the activities of the University's social work program under the direction of Robert Kelso, Arthur Dunham, Federle Fauri, Phillip Fellin, Harold R. Johnson, and Paula Allen-Meares.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">87315 Bimu C281 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">36 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2.35 GB</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -435,8 +438,8 @@
               <unittitle>
                 <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
               </unittitle>
-              <physdesc>
-                <extent>2 binders</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
             <odd>
@@ -1149,9 +1152,11 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">35</container>
-              <unittitle><unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
-              <physdesc>
-                <extent>1 expandable folder</extent>
+              <unittitle>
+                <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
             <accessrestrict>
@@ -1164,8 +1169,8 @@
               <unittitle>
                 <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate>
               </unittitle>
-              <physdesc>
-                <extent>1 expandable folder</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
             <accessrestrict>
@@ -1293,7 +1298,8 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">4</container>
-            <unittitle>Faculty Advisory Committee, <unitdate normal="1968/1969" type="inclusive">1968-1969</unitdate></unittitle></did>
+            <unittitle>Faculty Advisory Committee, <unitdate normal="1968/1969" type="inclusive">1968-1969</unitdate></unittitle>
+          </did>
           <odd>
             <p>(minutes and supporting documentation)</p>
           </odd>
@@ -2073,8 +2079,12 @@
             <did>
               <container type="box" label="Box">7</container>
               <unittitle>History of the School of Social Work</unittitle>
-              <physdesc>
-                <extent>2 folders, 1 scrapbook</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+                <physfacet>scrapbook</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -3084,8 +3094,12 @@
               <did>
                 <container type="box" label="Box">11</container>
                 <unittitle>Papers and <genreform normal="Sound recordings">audio tapes</genreform>, <unitdate normal="1967">1967</unitdate></unittitle>
-                <physdesc>
-                  <extent>2 folders and 2 reel-to-reel audio tapes 3 1/2 ips</extent>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">2 audiotapes</extent>
+                  <physfacet>3 1/2 ips; reel-to-reel tapes</physfacet>
                 </physdesc>
               </did>
             </c04>

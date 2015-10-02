@@ -53,12 +53,12 @@
         <corpname source="lcnaf">Michigan Initiative for Women's Health.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Initiative for Women's Health records <unitdate encodinganalog="245$f" type="inclusive" normal="1993/1997">1993-1997</unitdate></unittitle>
-      <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">1 linear foot</extent>
-      </physdesc>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9818 Bimu 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <abstract>A multidisciplinary program, based at the University of Michigan, formed in 1992 to promote research and education on women's health issues; includes correspondence, publicity material, grant files, and audiotapes of interviews and seminars.</abstract>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 linear feet</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -267,8 +267,8 @@
             <did>
               <container type="box" label="Box">1</container>
               <unittitle>Cassette tapes</unittitle>
-              <physdesc>
-                <extent encodinganalog="300">15 cassettes</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">15 audiocassettes</extent>
               </physdesc>
             </did>
           </c03>
@@ -276,8 +276,9 @@
             <did>
               <container type="box" label="Box">1</container>
               <unittitle>Microcassettes</unittitle>
-              <physdesc>
-                <extent>3 microcassettes</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 audiocassettes</extent>
+                <physfacet>microcassettes</physfacet>
               </physdesc>
             </did>
           </c03>

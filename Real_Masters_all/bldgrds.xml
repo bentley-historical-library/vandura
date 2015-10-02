@@ -45,12 +45,16 @@
         <corpname source="lcnaf" encodinganalog="110">University of Michigan. Buildings and Grounds Dept.</corpname>
       </origination>
       <unittitle encodinganalog="245">Buildings and Grounds Dept. (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1913/1956">1913-1956</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1922/1924">1922-1924</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">3.5 linear feet (in 5 boxes) and 1 outsize folder.</extent>
-      </physdesc>
       <abstract>Photographs, negatives, and lantern slides of university buildings, including photos of each building owned by the university in 1923, and detailed construction photos of Angell Hall, West Medical Building (later renamed C.C. Little Science Building), Central Heating Plant, University Hospital (Old Main). Also includes houses surrounding campus, heating tunnels, and Buildings and Grounds vehicles, horse teams, employees and equipment.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">87135 Bimu D13 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">3.5 linear feet</extent>
+        <extent altrender="carrier">(in 5 boxes)</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -631,8 +635,9 @@
           <did>
             <container type="box" label="Box">1</container>
             <unittitle>Health Service PWA Project No. Mich. 1691-F Photo Album <unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate></unittitle>
-            <physdesc>
-              <extent>28 prints in 1 bound album; no negatives</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">28 prints</extent>
+              <extent altrender="carrier">(in 1 bound album; no negatives)</extent>
             </physdesc>
           </did>
         </c02>

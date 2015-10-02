@@ -38,9 +38,6 @@
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n92074327">Michigan Public Health Association.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Public Health Association records <unitdate type="inclusive" encodinganalog="245$f" normal="1921/1989">1921-1989</unitdate></unittitle>
-      <physdesc altrender="whole">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">21 linear feet</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851869 Bf.4 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Minutes of board of directors, and house of delegates, reports of annual conferences, treasurer's records, newsletters, miscellaneous topical files, and photographs.</abstract>
@@ -48,6 +45,9 @@
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">21 linear feet</extent>
+      </physdesc>
       <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
     </did>
     <descgrp type="admin">
@@ -154,7 +154,7 @@ Michigan Public Health Association records, Bentley Historical Library, Universi
                   <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 volume</extent>
+                  <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                 </physdesc>
               </did>
             </c04>
@@ -169,8 +169,11 @@ Michigan Public Health Association records, Bentley Historical Library, Universi
                 <unittitle>
                   <unitdate type="inclusive" normal="1921/1965">1921-1965</unitdate>
                 </unittitle>
-                <physdesc>
-                  <extent>5 volumes, 44 reports</extent>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">5 volumes</extent>
+                </physdesc>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">44 reports</extent>
                 </physdesc>
               </did>
             </c04>
