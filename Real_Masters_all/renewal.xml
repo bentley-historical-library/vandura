@@ -42,11 +42,15 @@
         <corpname source="lcnaf" encodinganalog="110">Renewal Ministries.</corpname>
       </origination>
       <unittitle encodinganalog="245">Renewal Ministries videotapes <unitdate type="inclusive" encodinganalog="245$f" normal="1974/2009">1974-2009</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">27 linear feet and 32 oversize videotapes</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009079 Ba 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language> </langmaterial>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">27 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">32 videotapes</extent>
+        <physfacet>oversize</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -262,8 +266,13 @@ Renewal Ministries videotapes, Bentley Historical Library, University of Michiga
             <did>
               <container type="box" label="Box">1</container>
               <unittitle>Miscellaneous Lithuania videotapes</unittitle>
-              <physdesc>
-                <extent>4 betacams and 5 VHS videotapes</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">4 videotapes</extent>
+                <physfacet>Betacam (TM)</physfacet>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">5 videotapes</extent>
+                <physfacet>VHS (TM)</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -532,8 +541,9 @@ Renewal Ministries videotapes, Bentley Historical Library, University of Michiga
           <did>
             <container type="box" label="Box">3</container>
             <unittitle>The Times We Live In</unittitle>
-            <physdesc>
-              <extent>1 VHS videotape</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 videotapes</extent>
+              <physfacet>VHS (TM)</physfacet>
             </physdesc>
           </did>
         </c02>
@@ -4367,8 +4377,8 @@ Renewal Ministries videotapes, Bentley Historical Library, University of Michiga
           <did>
             <container type="box" label="Box">26</container>
             <unittitle>"Heart Basics" series</unittitle>
-            <physdesc>
-              <extent>12 videotapes</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">12 videotapes</extent>
             </physdesc>
           </did>
         </c02>
@@ -4416,8 +4426,8 @@ Renewal Ministries videotapes, Bentley Historical Library, University of Michiga
               <unittitle>
                 <title render="italic">Husbands, Wives, Parents, Children</title>
               </unittitle>
-              <physdesc>
-                <extent>2 copies</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 copies</extent>
               </physdesc>
             </did>
           </c03>

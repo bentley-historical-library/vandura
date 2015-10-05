@@ -61,9 +61,6 @@
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
       </origination>
       <unittitle encodinganalog="245">Medical School (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1850/2010">1850-2010</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">338 linear feet, 10 oversized volumes, and 6 oversized folders and 1.8 GB.</extent>
-      </physdesc>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">87253 Bimu C 46 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Dean's files, including minutes of executive committee; records of subordinate administrative officers; faculty records, including minutes of faculty and executive faculty meetings; and collected historical materials, 1850-1949.</abstract>
@@ -71,6 +68,18 @@
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">338 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">10 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">6 oversize folders</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1.8 GB</extent>
+      </physdesc>
       <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
     </did>
     <descgrp type="admin">
@@ -778,8 +787,8 @@
                   <did>
                     <container type="box" label="Box">3</container>
                     <unittitle>Background</unittitle>
-                    <physdesc>
-                      <extent>2 folder</extent>
+                    <physdesc altrender="whole">
+                      <extent altrender="materialtype spaceoccupied">2 folders</extent>
                     </physdesc>
                   </did>
                 </c06>
@@ -2510,8 +2519,8 @@
                   <unittitle>
                     <unitdate type="inclusive" normal="1990">1990</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>1 volume</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -2524,8 +2533,11 @@
                   <unittitle>
                     <unitdate type="inclusive" normal="1991/1995">1991-1995</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>4 volumes and 1 folder</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -4636,8 +4648,8 @@
                 <unittitle>
                   <unitdate type="inclusive" normal="1973">May-October 1973</unitdate>
                 </unittitle>
-                <physdesc>
-                  <extent>1 volume</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                 </physdesc>
               </did>
             </c04>
@@ -6685,8 +6697,11 @@
               <did>
                 <container type="box" label="Box">316</container>
                 <unittitle>Giles Bole <unitdate type="inclusive" normal="1993-07/1996-07">July 1993-July 1996</unitdate></unittitle>
-                <physdesc>
-                  <extent>6 volumes and 1 folder</extent>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">6 volumes</extent>
+                </physdesc>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">1 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -7592,7 +7607,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">238</container>
-                  <unittitle>Dr. Jonathan Ayres <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate> (Bates/Beer Professorship) 1978-1984</unittitle>
+                  <unittitle>Dr. Jonathan Ayres <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate> (Bates/Beer Professorship) <unitdate normal="1978/1984" type="inclusive">1978-1984</unitdate></unittitle>
                 </did>
                 <accessrestrict>
                   <p>[PR RESTRICTED until <date type="restriction" normal="2019-07-01">July 1, 2019</date>]</p>
@@ -12489,7 +12504,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">224</container>
-                <unittitle>Bole, Dr. Giles, 1985-1987</unittitle>
+                <unittitle>Bole, Dr. Giles, <unitdate normal="1985/1987" type="inclusive">1985-1987</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -17560,7 +17575,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">307</container>
-                <unittitle>Upjohn Center <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate> (with earlier background material, 1966-1983)</unittitle>
+                <unittitle>Upjohn Center <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate> (with earlier background material, <unitdate normal="1966/1983" type="inclusive">1966-1983</unitdate>)</unittitle>
               </did>
               <accessrestrict>
                 <p>[ER RESTRICTED until <date type="restriction" normal="2022-07-01">July 1, 2022</date>]</p>
@@ -17954,8 +17969,8 @@
                   <did>
                     <container type="box" label="Box">313</container>
                     <unittitle>Institutional Self-Study Report <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-                    <physdesc>
-                      <extent>1 volume</extent>
+                    <physdesc altrender="whole">
+                      <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                     </physdesc>
                   </did>
                   <accessrestrict>
@@ -17978,8 +17993,8 @@
                   <did>
                     <container type="box" label="Box">313</container>
                     <unittitle>Medical Education Data Base Section XI-A--Basic Science Departments <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-                    <physdesc>
-                      <extent>1 volume</extent>
+                    <physdesc altrender="whole">
+                      <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                     </physdesc>
                   </did>
                   <accessrestrict>
@@ -17990,8 +18005,8 @@
                   <did>
                     <container type="box" label="Box">314</container>
                     <unittitle>Medical Education Data Base Section XI-B--Clinical Science Departments <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
-                    <physdesc>
-                      <extent>1 volume</extent>
+                    <physdesc altrender="whole">
+                      <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                     </physdesc>
                   </did>
                   <accessrestrict>
@@ -22228,8 +22243,11 @@
                 <unittitle>
                   <unitdate type="inclusive" normal="1929/1948">1929-1948</unitdate>
                 </unittitle>
-                <physdesc>
-                  <extent>2 folders and 10 volumes</extent>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">10 volumes</extent>
                 </physdesc>
               </did>
             </c04>
@@ -23373,8 +23391,11 @@
                   <unittitle>
                     <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>1 folder, 1 binder</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 folders</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -23384,8 +23405,11 @@
                   <unittitle>
                     <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>1 folder, 1 binder</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 folders</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -23395,8 +23419,11 @@
                   <unittitle>
                     <unitdate type="inclusive" normal="1973">1973</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>1 folder; 1 binder</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 folders</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -24753,7 +24780,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">214</container>
-                  <unittitle>Five Year Budget Documents <unitdate type="inclusive" normal="1974">1974</unitdate> (covering 1975-1980)</unittitle>
+                  <unittitle>Five Year Budget Documents <unitdate type="inclusive" normal="1974">1974</unitdate> (covering <unitdate normal="1975/1980" type="inclusive">1975-1980</unitdate>)</unittitle>
                 </did>
               </c05>
               <c05 level="file">
@@ -26558,8 +26585,8 @@
               <did>
                 <container type="box" label="Box">320</container>
                 <unittitle>MI Provider Network <unitdate type="inclusive" normal="1993/1996">1993-1996</unitdate></unittitle>
-                <physdesc>
-                  <extent>2 hanging file folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 hanging file folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -26991,7 +27018,7 @@
                 <unitdate type="inclusive" normal="1850/1875">1850-1875</unitdate>
               </unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+                <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
             </did>
           </c03>
@@ -27515,7 +27542,7 @@
               <container type="folder" label="Oversize Folder">Bimu/C46</container>
               <unittitle>Charts Depicting Development of Departments in Medical School, ca. <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
           </c03>
@@ -27528,7 +27555,7 @@
                 <container type="folder" label="Oversize Folder">Bimu/C46</container>
                 <unittitle>Original Design</unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                  <extent altrender="materialtype spaceoccupied">1 folders</extent>
                 </physdesc>
               </did>
             </c04>
@@ -27537,7 +27564,7 @@
                 <container type="folder" label="Oversize Folder">Bimu/C46</container>
                 <unittitle>Statement</unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                  <extent altrender="materialtype spaceoccupied">1 folders</extent>
                 </physdesc>
               </did>
             </c04>
@@ -27551,7 +27578,7 @@
                 <container type="folder" label="Oversize Folder">Bimu/C46</container>
                 <unittitle>Resolutions Adopted by the Medical School Faculty <unitdate type="inclusive" normal="1930">1930</unitdate> (illuminated)</unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                  <extent altrender="materialtype spaceoccupied">1 folders</extent>
                 </physdesc>
               </did>
             </c04>
@@ -27560,7 +27587,7 @@
                 <container type="folder" label="Oversize Folder">Bimu/C46</container>
                 <unittitle>Faculty Meeting Minutes <unitdate type="inclusive" normal="1930-01-06">January 6, 1930</unitdate></unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                  <extent altrender="materialtype spaceoccupied">1 folders</extent>
                 </physdesc>
               </did>
             </c04>
@@ -27782,8 +27809,8 @@
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>Gibson Folder 1 <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
-                  <physdesc>
-                    <extent>18 items</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">18 items</extent>
                   </physdesc>
                   <dao href="87253-G-1" show="new" actuate="onrequest">
                     <daodesc>
@@ -27799,8 +27826,8 @@
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>Gibson Folder 2 <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
-                  <physdesc>
-                    <extent>17 items</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">17 items</extent>
                   </physdesc>
                   <dao href="87253-G-2" show="new" actuate="onrequest">
                     <daodesc>
@@ -27816,8 +27843,8 @@
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>Gibson Folder 3 <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
-                  <physdesc>
-                    <extent>22 items</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">22 items</extent>
                   </physdesc>
                   <dao href="87253-G-3" show="new" actuate="onrequest">
                     <daodesc>
@@ -27833,8 +27860,8 @@
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>Gibson Folder 4 <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
-                  <physdesc>
-                    <extent>14 items</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">14 items</extent>
                   </physdesc>
                   <dao href="87253-G-4" show="new" actuate="onrequest">
                     <daodesc>
@@ -27901,8 +27928,8 @@
               <did>
                 <container type="box" label="Box">136</container>
                 <unittitle>Histology Classes</unittitle>
-                <physdesc>
-                  <extent>3 items including 1 Gibson print</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 items including 1 Gibson print</extent>
                 </physdesc>
                 <dao href="87253-G-8" show="new" actuate="onrequest">
                   <daodesc>
@@ -27919,8 +27946,11 @@
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>Amphitheater Views, Dissections</unittitle>
-                  <physdesc>
-                    <extent>6 items, including 4 Gibson prints</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">6 items</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">including 4 Gibson prints</extent>
                   </physdesc>
                   <dao href="87253-G-6" show="new" actuate="onrequest">
                     <daodesc>
@@ -27933,8 +27963,11 @@
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>Groups, formal</unittitle>
-                  <physdesc>
-                    <extent>5 items, including 3 Gibson prints</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">5 items</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">including 3 Gibson prints</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -27942,8 +27975,11 @@
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>Groups, informal</unittitle>
-                  <physdesc>
-                    <extent>5 items, including 3 Gibson prints</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">5 items</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">including 3 Gibson prints</extent>
                   </physdesc>
                   <dao href="87253-G-7" show="new" actuate="onrequest">
                     <daodesc>
@@ -28303,8 +28339,9 @@
             <did>
               <container type="box" label="Box">136</container>
               <unittitle>University Hospital buildings and construction</unittitle>
-              <physdesc>
-                <extent>6 reels of 16 mm film</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 film reels</extent>
+                <physfacet>16 mm</physfacet>
               </physdesc>
             </did>
             <odd>
@@ -28315,8 +28352,9 @@
             <did>
               <container type="box" label="Box">136</container>
               <unittitle>Medical Alumni Conference 89th Annual Open Exercises <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-              <physdesc>
-                <extent>1 reel of 16 mm film</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 film reels</extent>
+                <physfacet>16 mm</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -28744,7 +28782,7 @@
               <container type="folder" label="Oversize Folder">8</container>
               <unittitle>Drawing of 1903 Medical Building <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
           </c03>
@@ -29202,8 +29240,8 @@
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>Gibson Folder 1 <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
-                  <physdesc>
-                    <extent>18 items</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">18 items</extent>
                   </physdesc>
                   <dao href="87253-G-1" show="new" actuate="onrequest">
                     <daodesc>
@@ -29219,8 +29257,8 @@
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>Gibson Folder 2 <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
-                  <physdesc>
-                    <extent>17 items</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">17 items</extent>
                   </physdesc>
                   <dao href="87253-G-2" show="new" actuate="onrequest">
                     <daodesc>
@@ -29236,8 +29274,8 @@
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>Gibson Folder 3 <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
-                  <physdesc>
-                    <extent>22 items</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">22 items</extent>
                   </physdesc>
                   <dao href="87253-G-3" show="new" actuate="onrequest">
                     <daodesc>
@@ -29253,8 +29291,8 @@
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>Gibson Folder 4 <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
-                  <physdesc>
-                    <extent>14 items</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">14 items</extent>
                   </physdesc>
                   <dao href="87253-G-4" show="new" actuate="onrequest">
                     <daodesc>
@@ -29318,8 +29356,8 @@
               <did>
                 <container type="box" label="Box">136</container>
                 <unittitle>Histology Classes</unittitle>
-                <physdesc>
-                  <extent>3 items including 1 Gibson print</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 items including 1 Gibson print</extent>
                 </physdesc>
                 <dao href="87253-G-8" show="new" actuate="onrequest">
                   <daodesc>
@@ -29336,8 +29374,11 @@
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>Amphitheater Views, Dissections</unittitle>
-                  <physdesc>
-                    <extent>6 items, including 4 Gibson prints</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">6 items</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">including 4 Gibson prints</extent>
                   </physdesc>
                   <dao href="87253-G-6" show="new" actuate="onrequest">
                     <daodesc>
@@ -29350,8 +29391,11 @@
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>Groups, formal</unittitle>
-                  <physdesc>
-                    <extent>5 items, including 3 Gibson prints</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">5 items</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">including 3 Gibson prints</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -29359,8 +29403,11 @@
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>Groups, informal</unittitle>
-                  <physdesc>
-                    <extent>5 items, including 3 Gibson prints</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">5 items</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">including 3 Gibson prints</extent>
                   </physdesc>
                   <dao href="87253-G-7" show="new" actuate="onrequest">
                     <daodesc>
@@ -29720,8 +29767,9 @@
             <did>
               <container type="box" label="Box">136</container>
               <unittitle>University Hospital buildings and construction</unittitle>
-              <physdesc>
-                <extent>6 reels of 16 mm film</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 film reels</extent>
+                <physfacet>16 mm</physfacet>
               </physdesc>
             </did>
             <odd>
@@ -29732,8 +29780,9 @@
             <did>
               <container type="box" label="Box">136</container>
               <unittitle>Medical Alumni Conference 89th Annual Open Exercises <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
-              <physdesc>
-                <extent>1 reel of 16 mm film</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 film reels</extent>
+                <physfacet>16 mm</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -30126,7 +30175,7 @@
               <container type="folder" label="Oversize Folder">UBImu/C46</container>
               <unittitle>Drawing of 1903 Medical Building <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
           </c03>

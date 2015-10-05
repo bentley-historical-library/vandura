@@ -37,12 +37,15 @@
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n2007068566">University of Michigan. Martha Cook building.</corpname>
       </origination>
       <unittitle encodinganalog="245">Martha Cook Building (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1967">Summer 1967</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">7.25 linear ft. and 1 outsize box.</extent>
-      </physdesc>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">Bimu F17 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The records of the Martha Cook Building at the University of Michigan (women's dormitory) contains adminsitrative files and historical information about the construction of the building.</abstract>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">7.25 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize boxes</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -125,7 +128,7 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Papers, 1913-1972</unittitle>
+          <unittitle>Papers, <unitdate normal="1913/1972" type="inclusive">1913-1972</unitdate></unittitle>
         </did>
         <scopecontent>
           <p>The PAPERS series (1 linear foot 1913-1972), arranged by date received, contains files on the construction of the building, including correspondence with the architects, and specifications and blueprints. It also contains papers related to receptions, petitions for house offices, room lists, and miscellaneous papers and correspondence.</p>
@@ -336,7 +339,7 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
               <container type="box" label="Box">4</container>
               <unittitle>Fiftieth Anniversary of the Martha Cook Building <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+                <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
             </did>
           </c03>
@@ -382,7 +385,7 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
                 <unitdate type="inclusive" normal="1949/1973">1949-1973</unitdate>
               </unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+                <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
             </did>
           </c03>
@@ -398,7 +401,7 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Correspondence, 1941-1968</unittitle>
+          <unittitle>Correspondence, <unitdate normal="1941/1968" type="inclusive">1941-1968</unitdate></unittitle>
         </did>
         <scopecontent>
           <p>The CORRESPONDENCE series (.5 linear feet, 1914-1968), arranged thematically, contains the Board of Governors correspondence, correspondence of the Business Office, miscellaneous correspondence, and the William W. Cook files containing both correspondence and news clippings from 1914 to 1930. Although contained in its own series, various types of correspondence are scattered throughout the accession.</p>
@@ -1157,8 +1160,17 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
           <did>
             <container type="box" label="Box">5</container>
             <unittitle>Negatives <unitdate type="inclusive" normal="1965-10">October 1965</unitdate></unittitle>
-            <physdesc>
-              <extent>109 negatives, in 20 strips, of furnishings, architecture, people and activities; 10/1965 by U-M News Service</extent>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">109 negatives</extent>
+            </physdesc>
+            <physdesc altrender="part">
+              <extent altrender="carrier">(in 20 strips, of furnishings and architecture; people)</extent>
+            </physdesc>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">activities</extent>
+            </physdesc>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">10/1965 by U-M News Service</extent>
             </physdesc>
           </did>
         </c02>
@@ -1178,8 +1190,10 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
                 <did>
                   <container type="box" label="Box">5</container>
                   <unittitle>General</unittitle>
-                  <physdesc>
-                    <extent>14 black &amp; white images, mostly 8x10</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">14 images, mostly</extent>
+                    <physfacet>black and white</physfacet>
+                    <dimensions>8x10</dimensions>
                   </physdesc>
                 </did>
               </c05>
@@ -1187,8 +1201,13 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
                 <did>
                   <container type="box" label="Box">5</container>
                   <unittitle>Construction views</unittitle>
-                  <physdesc>
-                    <extent>9 black &amp; white images, mostly 8x10; see na 9281-9282</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">9 images; mostly</extent>
+                    <physfacet>black and white</physfacet>
+                    <dimensions>8x10</dimensions>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">see na 9281-9282</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -1201,8 +1220,10 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
                 <did>
                   <container type="box" label="Box">5</container>
                   <unittitle>Corridor, Right</unittitle>
-                  <physdesc>
-                    <extent>4 black &amp; white images, mostly 7x9</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">4 images, mostly</extent>
+                    <physfacet>black and white</physfacet>
+                    <dimensions>7x9</dimensions>
                   </physdesc>
                 </did>
               </c05>
@@ -1210,8 +1231,10 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
                 <did>
                   <container type="box" label="Box">5</container>
                   <unittitle>Dining Room</unittitle>
-                  <physdesc>
-                    <extent>1 black &amp; white image, 8x10</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">1 images</extent>
+                    <physfacet>black and white</physfacet>
+                    <dimensions>8x10</dimensions>
                   </physdesc>
                 </did>
               </c05>
@@ -1219,8 +1242,10 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
                 <did>
                   <container type="box" label="Box">5</container>
                   <unittitle>Dormitory area</unittitle>
-                  <physdesc>
-                    <extent>1 black &amp; white image, 5x7</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">1 images</extent>
+                    <physfacet>black and white</physfacet>
+                    <dimensions>5x7</dimensions>
                   </physdesc>
                 </did>
               </c05>
@@ -1228,8 +1253,10 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
                 <did>
                   <container type="box" label="Box">5</container>
                   <unittitle>Large Parlor (Blue/Gold Room)</unittitle>
-                  <physdesc>
-                    <extent>8 black &amp; white images, mostly 8x10</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">8 images, mostly</extent>
+                    <physfacet>black and white</physfacet>
+                    <dimensions>8x10</dimensions>
                   </physdesc>
                 </did>
               </c05>
@@ -1237,8 +1264,10 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
                 <did>
                   <container type="box" label="Box">5</container>
                   <unittitle>Small Parlor (Red Room)</unittitle>
-                  <physdesc>
-                    <extent>1 black &amp; white images, 8x10</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">1 images</extent>
+                    <physfacet>black and white</physfacet>
+                    <dimensions>8x10</dimensions>
                   </physdesc>
                 </did>
               </c05>
@@ -1254,8 +1283,13 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
             <did>
               <container type="box" label="Box">5</container>
               <unittitle>Costumes</unittitle>
-              <physdesc>
-                <extent>11 black &amp; white, 4x6; see na 9280</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">11</extent>
+                <physfacet>black and white</physfacet>
+                <dimensions>4x6</dimensions>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">see na 9280</extent>
               </physdesc>
             </did>
           </c03>
@@ -1263,8 +1297,13 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
             <did>
               <container type="box" label="Box">5</container>
               <unittitle>Garden</unittitle>
-              <physdesc>
-                <extent>19 black &amp; white images, mostly 8x10 &amp; 5x7; see na 9283</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">19 images; mostly &amp;</extent>
+                <physfacet>black and white</physfacet>
+                <dimensions>8x10; 5x7</dimensions>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">see na 9283</extent>
               </physdesc>
             </did>
             <odd>
@@ -1275,8 +1314,14 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
             <did>
               <container type="box" label="Box">5</container>
               <unittitle>Groups</unittitle>
-              <physdesc>
-                <extent>6 black &amp; white, 1 color; mostly 8x10</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">6</extent>
+                <physfacet>black and white</physfacet>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 ; mostly</extent>
+                <physfacet>color</physfacet>
+                <dimensions>8x10</dimensions>
               </physdesc>
             </did>
           </c03>
@@ -1284,8 +1329,13 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
             <did>
               <container type="box" label="Box">5</container>
               <unittitle>Individuals</unittitle>
-              <physdesc>
-                <extent>12 black &amp; white images of varying size, 23 proofs, approx. 2x2-1/2</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">12 images of varying size</extent>
+                <physfacet>black and white</physfacet>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">23 proofs, approx</extent>
+                <dimensions>2x2-1/2</dimensions>
               </physdesc>
             </did>
           </c03>
@@ -1293,8 +1343,13 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
             <did>
               <container type="box" label="Box">5</container>
               <unittitle>May Day Party <unitdate type="inclusive" normal="1928-05-26">May 26, 1928</unitdate></unittitle>
-              <physdesc>
-                <extent>41 black &amp; white images, mostly 4x5 &amp; 2x4, and collage; see na 9278-9279</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">41 images, mostly &amp; ;collage</extent>
+                <physfacet>black and white</physfacet>
+                <dimensions>4x5; 2x4</dimensions>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">see na 9278-9279</extent>
               </physdesc>
             </did>
           </c03>
@@ -1302,8 +1357,9 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
             <did>
               <container type="box" label="Box">5</container>
               <unittitle>Sculptures</unittitle>
-              <physdesc>
-                <extent>5 black &amp; white images of Portia, varying size</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 images of Portia, varying size</extent>
+                <physfacet>black and white</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -1312,8 +1368,9 @@ Martha Cook Building (University of Michigan) Records, Bentley Historical Librar
           <did>
             <container type="box" label="Box">5</container>
             <unittitle>Prints</unittitle>
-            <physdesc>
-              <extent>7 images, 5x7</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">7 images</extent>
+              <dimensions>5x7</dimensions>
             </physdesc>
           </did>
         </c02>

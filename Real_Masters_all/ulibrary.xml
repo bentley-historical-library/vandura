@@ -45,15 +45,6 @@
         <corpname source="lcnaf" encodinganalog="110">University of Michigan. Library.</corpname>
       </origination>
       <unittitle encodinganalog="245">Library (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1837/2005">1837-2013</unitdate>, <unitdate type="bulk" normal="1920/2000">1920-2000</unitdate></unittitle>
-      <physdesc altrender="part">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">297.3 linear feet</extent>
-      </physdesc>
-      <physdesc encodinganalog="300" altrender="part">
-        <extent altrender="materialtype spaceoccupied">1 oversize volume</extent>
-      </physdesc>
-      <physdesc encodinganalog="300" altrender="part">
-        <extent altrender="materialtype spaceoccupied">1 oversize folder</extent>
-      </physdesc>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">87239 BImu Bimu C410 2 UBImum C410 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The University Library system at the University of Michigan provides information resources and services to faculty, students, staff, and the public, and is comprised of undergraduate, graduate, and subject-oriented divisional collections. The record group includes administrative files of library directors, reports, committee files, financial records, photographs, and publications.</abstract>
@@ -61,6 +52,15 @@
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">297.3 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+      </physdesc>
       <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
     </did>
     <descgrp type="admin">
@@ -11440,8 +11440,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>2 folders'</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders'</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -30919,7 +30919,7 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">62</container>
-                    <unittitle>Transportation, 1954-1955.</unittitle>
+                    <unittitle>Transportation, <unitdate normal="1954/1955" type="inclusive">1954-1955</unitdate>.</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
@@ -35193,8 +35193,11 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>1 folder and 2 v.</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 folders</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">2 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -35216,8 +35219,11 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>2 folders and 5 v.</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">5 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -36679,8 +36685,11 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <did>
                     <container type="box" label="Box">86</container>
                     <unittitle>National Survey .</unittitle>
-                    <physdesc>
-                      <extent>1 folder and 1 v.</extent>
+                    <physdesc altrender="part">
+                      <extent altrender="materialtype spaceoccupied">1 folders</extent>
+                    </physdesc>
+                    <physdesc altrender="part">
+                      <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                     </physdesc>
                   </did>
                 </c06>
@@ -36697,8 +36706,11 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <did>
                     <container type="box" label="Box">87</container>
                     <unittitle>Anti-Pornography Groups</unittitle>
-                    <physdesc>
-                      <extent>1 folder and 4 v.</extent>
+                    <physdesc altrender="part">
+                      <extent altrender="materialtype spaceoccupied">1 folders</extent>
+                    </physdesc>
+                    <physdesc altrender="part">
+                      <extent altrender="materialtype spaceoccupied">4 volumes</extent>
                     </physdesc>
                   </did>
                 </c06>
@@ -36739,8 +36751,11 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <did>
                     <container type="box" label="Box">87</container>
                     <unittitle>Miscellanea</unittitle>
-                    <physdesc>
-                      <extent>2 folders and 1 v.</extent>
+                    <physdesc altrender="part">
+                      <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                    </physdesc>
+                    <physdesc altrender="part">
+                      <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                     </physdesc>
                   </did>
                 </c06>
@@ -36749,8 +36764,11 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">88</container>
                   <unittitle>Miscellaneous reports</unittitle>
-                  <physdesc>
-                    <extent>2 folders and 2 v.</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">2 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -36822,8 +36840,11 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <did>
                     <container type="box" label="Box">89</container>
                     <unittitle>Draft</unittitle>
-                    <physdesc>
-                      <extent>2 folders and 1 v.</extent>
+                    <physdesc altrender="part">
+                      <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                    </physdesc>
+                    <physdesc altrender="part">
+                      <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                     </physdesc>
                   </did>
                 </c06>
@@ -36832,8 +36853,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">89</container>
                   <unittitle>Charles H. Keating Report</unittitle>
-                  <physdesc>
-                    <extent>3 v.</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -44110,8 +44131,11 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>5 folders and 6 v.</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">6 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -44121,8 +44145,11 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>2 folders and 2 v.</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">2 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -44143,8 +44170,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>3 v.</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -44154,8 +44181,11 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>2 folders and 2 v.</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">2 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -45975,8 +46005,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>2 binders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -45986,8 +46016,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>2 binders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -45997,8 +46027,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>2 binders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -46008,8 +46038,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>2 binders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -46019,8 +46049,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>2 binders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -46030,8 +46060,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>3 binders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -46041,8 +46071,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>4 binders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">4 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -46064,8 +46094,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>5 binders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">5 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -46075,8 +46105,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>4 binders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">4 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -46086,8 +46116,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>6 binders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">6 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -46097,8 +46127,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>3 binders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -46116,8 +46146,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>2 binders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -46127,8 +46157,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>2 binders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -46138,8 +46168,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                   <unittitle>
                     <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
                   </unittitle>
-                  <physdesc>
-                    <extent>2 binders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 volumes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -46153,7 +46183,7 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
           </c03>
           <c03 level="subseries">
             <did>
-              <unittitle><unitdate type="inclusive" normal="1965/1978">1965-1978</unitdate> (chiefly 1967-1978)</unittitle>
+              <unittitle><unitdate type="inclusive" normal="1965/1978">1965-1978</unitdate> (chiefly <unitdate normal="1967/1978" type="inclusive">1967-1978</unitdate>)</unittitle>
             </did>
             <c04 level="file">
               <did>
@@ -55500,7 +55530,7 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
           </c03>
           <c03 level="subseries">
             <did>
-              <unittitle><unitdate type="inclusive" normal="1978/1997">1978-1997</unitdate> (bulk 1988-1995)</unittitle>
+              <unittitle><unitdate type="inclusive" normal="1978/1997">1978-1997</unitdate> (<unitdate normal="1988/1995" type="bulk">bulk 1988-1995</unitdate>)</unittitle>
             </did>
             <scopecontent>
               <p>The Director’s Topical Files, 1978-1997 (bulk 1988-1995) (13.5 linear feet) consist of records maintained centrally in the administrative suite of the library director/dean. The date ranges span the tenures of four directors (Richard Dougherty, Robert Warner, Donald Riggs, and the beginning of William Gosling’s tenure). The bulk of the records are from the directorships of Warner and Riggs. Arranged in a single alphabetical run, the records illuminate the management of one of the ten largest research libraries in the country, with 350 employees, several divisional libraries, and a budget of over $20 million in the mid-1990s.</p>
@@ -56782,8 +56812,11 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
               <did>
                 <container type="box" label="Box">217</container>
                 <unittitle>Undergraduate Library Renovation <unitdate type="inclusive" normal="1987">1987</unitdate>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-                <physdesc>
-                  <extent>1 folder, 1 volume</extent>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">1 folders</extent>
+                </physdesc>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                 </physdesc>
               </did>
             </c04>
@@ -60660,7 +60693,7 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
             <c04 level="file">
               <did>
                 <container type="box" label="Box">252</container>
-                <unittitle>Film and Video Library <unitdate type="inclusive" normal="1986/1992">1986-1992</unitdate> (bulk 1991-1992)</unittitle>
+                <unittitle>Film and Video Library <unitdate type="inclusive" normal="1986/1992">1986-1992</unitdate> (<unitdate normal="1991/1992" type="bulk">bulk 1991-1992</unitdate>)</unittitle>
               </did>
               <accessrestrict>
                 <p>[ER RESTRICTED until <date normal="2029-07-01">July 1, 2029</date>]</p>
@@ -66139,8 +66172,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
               <did>
                 <container type="box" label="Box">294</container>
                 <unittitle>American Library Association (ALA), <unitdate type="inclusive" normal="2009/2011">2009-2011</unitdate> </unittitle>
-                <physdesc>
-                  <extent>4 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -66160,8 +66193,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
               <did>
                 <container type="box" label="Box">294</container>
                 <unittitle>Association of Research Libraries: Meeting Materials, Committees, and Reports, <unitdate type="inclusive" normal="2007/2011">2007-2011</unitdate> </unittitle>
-                <physdesc>
-                  <extent>23 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">23 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -66175,8 +66208,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
               <did>
                 <container type="box" label="Box">294</container>
                 <unittitle>Center for Research Libraries (CRL): Board Materials, Correspondence, and Membership, <unitdate type="inclusive" normal="2007/2012">2007-2012</unitdate> </unittitle>
-                <physdesc>
-                  <extent>32 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">32 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -66187,8 +66220,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
               <did>
                 <container type="box" label="Box">294</container>
                 <unittitle>Coalition for Networked Information (CNI), <unitdate type="inclusive" normal="2007/2011">2007-2011</unitdate> </unittitle>
-                <physdesc>
-                  <extent>8 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">8 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -66199,8 +66232,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
               <did>
                 <container type="box" label="Box">294</container>
                 <unittitle>Committee on Institutional Cooperation (CIC): Conferences, Directors' Meetings, and Collaboration, <unitdate type="inclusive" normal="2007/2012">2007-2012</unitdate> </unittitle>
-                <physdesc>
-                  <extent>17 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">17 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -66215,8 +66248,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">295</container>
                   <unittitle>Board of Directors Meeting Materials and Correspondence, <unitdate type="inclusive" normal="2009/2012">2009-2012</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>9 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">9 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -66227,8 +66260,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">295</container>
                   <unittitle>Initiatives and Activities (including Scholarly Fellows program), <unitdate type="inclusive" normal="2007/2011">2007-2011</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>13 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">13 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -66272,8 +66305,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
               <did>
                 <container type="box" label="Box">296</container>
                 <unittitle>Digital Library Federation (DLF): Reports, Meetings, and Executive Committee Materials, <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate> </unittitle>
-                <physdesc>
-                  <extent>6 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">6 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -66284,8 +66317,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
               <did>
                 <container type="box" label="Box">295</container>
                 <unittitle>DuraSpace, <unitdate type="inclusive" normal="2011/2012">2011-2012</unitdate> </unittitle>
-                <physdesc>
-                  <extent>2 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -66323,8 +66356,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
               <did>
                 <container type="box" label="Box">295</container>
                 <unittitle>Interuniversity Consortium for Political and Social Research (ICPSR), <unitdate type="inclusive" normal="2013">2013</unitdate> </unittitle>
-                <physdesc>
-                  <extent>2 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -66362,8 +66395,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
               <did>
                 <container type="box" label="Box">295</container>
                 <unittitle>OAIster, <unitdate type="inclusive" normal="2003/2008">2003-2008</unitdate> </unittitle>
-                <physdesc>
-                  <extent>2 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -66432,8 +66465,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">295</container>
                   <unittitle>Arcadia Lectures (United Kingdom), <unitdate type="inclusive" normal="2007">2007</unitdate> and <unitdate type="inclusive" normal="2011">2011</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>3 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -66489,8 +66522,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">295</container>
                   <unittitle>Blue Ribbon Task Force, <unitdate type="inclusive" normal="2008/2010">2008-2010</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>2 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -66531,8 +66564,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">295</container>
                   <unittitle>Canadian Library Association, <unitdate type="inclusive" normal="2009/2010">2009-2010</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>2 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -66615,8 +66648,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">297</container>
                   <unittitle>Educause ECAR Symposium, <unitdate type="inclusive" normal="2008">2008</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>2 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -66672,8 +66705,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">297</container>
                   <unittitle>Goldman School of Public Policy, UC Berkeley External Review Committee, <unitdate type="inclusive" normal="2010-10">October 2010</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>2 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -66717,8 +66750,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">297</container>
                   <unittitle>John Seely Brown (JSB) Symposium, <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>3 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -66747,8 +66780,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">297</container>
                   <unittitle>IMS Global Learning Consortium Summit, <unitdate type="inclusive" normal="2008">2008</unitdate> and <unitdate type="inclusive" normal="2012">2012</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>2 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -66777,8 +66810,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">297</container>
                   <unittitle>Kuali Days, <unitdate type="inclusive" normal="2010-11">November 2010</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>3 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -66894,8 +66927,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">297</container>
                   <unittitle>Property Tax Policy Roundtable, <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>2 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -66933,8 +66966,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">297</container>
                   <unittitle>Rotary Club, <unitdate type="inclusive" normal="2009">2009</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>2 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -66945,8 +66978,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">297</container>
                   <unittitle>Scholarly Communications Institute (SCI), <unitdate type="inclusive" normal="2008">2008</unitdate> and <unitdate type="inclusive" normal="2011">2011</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>2 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -66966,8 +66999,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">297</container>
                   <unittitle>Shanghai Jiao Toing University, <unitdate type="inclusive" normal="2008">2008</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>2 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -67059,8 +67092,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">297</container>
                   <unittitle>University of Washington, <unitdate type="inclusive" normal="2011">2011</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>2 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -67089,8 +67122,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">297</container>
                   <unittitle>Windsor Castle Consultation, <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>3 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -67102,8 +67135,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
               <did>
                 <container type="box" label="Box">297</container>
                 <unittitle>Research Libraries Group (RLG), <unitdate type="inclusive" normal="2008">2008</unitdate> </unittitle>
-                <physdesc>
-                  <extent>3 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -67114,8 +67147,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
               <did>
                 <container type="box" label="Box">297</container>
                 <unittitle>School of Education, <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate> </unittitle>
-                <physdesc>
-                  <extent>2 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -67129,8 +67162,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
               <did>
                 <container type="box" label="Box">297</container>
                 <unittitle>School of Information (SI), <unitdate type="inclusive" normal="2008">2008</unitdate> </unittitle>
-                <physdesc>
-                  <extent>4 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -67216,8 +67249,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">298</container>
                   <unittitle>Events, <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>5 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">5 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -67228,8 +67261,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">298</container>
                   <unittitle>Library Dean's Group, <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>2 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -67240,8 +67273,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
                 <did>
                   <container type="box" label="Box">298</container>
                   <unittitle>Library Updates, <unitdate type="inclusive" normal="2008/2012">2008-2012</unitdate> </unittitle>
-                  <physdesc>
-                    <extent>11 folders</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">11 folders</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -70377,8 +70410,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
             <did>
               <container type="box" label="Box">69</container>
               <unittitle>Records in relation to the construction of the Library Building <unitdate type="inclusive" normal="1881/1883">1881-1883</unitdate></unittitle>
-              <physdesc>
-                <extent>3 volumes</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 volumes</extent>
               </physdesc>
             </did>
           </c03>
@@ -70386,8 +70419,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
             <did>
               <container type="box" label="Box">69</container>
               <unittitle>Letterbooks of Library Director, Raymond C. Davis <unitdate type="inclusive" normal="1877/1902">1877-1902</unitdate></unittitle>
-              <physdesc>
-                <extent>3 volumes</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 volumes</extent>
               </physdesc>
             </did>
           </c03>
@@ -75368,7 +75401,7 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
             <c04 level="file">
               <did>
                 <container type="box" label="Box">252</container>
-                <unittitle>Film and Video Library <unitdate type="inclusive" normal="1986/1992">1986-1992</unitdate> (bulk 1991-1992)</unittitle>
+                <unittitle>Film and Video Library <unitdate type="inclusive" normal="1986/1992">1986-1992</unitdate> (<unitdate normal="1991/1992" type="bulk">bulk 1991-1992</unitdate>)</unittitle>
               </did>
               <accessrestrict>
                 <p>[ER RESTRICTED until <date normal="2029-07-01">July 1, 2029</date>]</p>
@@ -82644,8 +82677,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
               <did>
                 <container type="box" label="Box">219</container>
                 <unittitle>General <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
-                <physdesc>
-                  <extent>3 expandable folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
             </c04>
@@ -82994,8 +83027,8 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
             <did>
               <container type="box" label="Box">231</container>
               <unittitle>MIRLYN Training Guide <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-              <physdesc>
-                <extent>2 expandable folders</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
@@ -87705,7 +87738,7 @@ Library (University of Michigan) Record, Bentley Historical Library, University 
         </c02>
         <c02 level="series">
           <did>
-            <unittitle>LOUP, JEAN FILES <unitdate type="inclusive" normal="1977/2001">1977-2001</unitdate> (bulk 1992-2001)</unittitle>
+            <unittitle>LOUP, JEAN FILES <unitdate type="inclusive" normal="1977/2001">1977-2001</unitdate> (<unitdate normal="1992/2001" type="bulk">bulk 1992-2001</unitdate>)</unittitle>
           </did>
           <scopecontent>
             <p>The Loup, Jean Files series, 1977-2001 (bulk 1992-2001) is organized alphabetically and contains files related to the career and activities of librarian Jean Loup. Loup held several different offices and roles during her time with the University Library including assistant to the library dean, head of the Department of Communications, Public Relations, and Grant Writing, chair of the Academic Affairs Advisory Committee (AAAC), library delegate to the Senate Assembly, vice-chair and chair of the Senate Advisory Committee on University Affairs (SACUA), and leader in many projects including M-Quality (Regent's Proceedings). Topics that are particularly well-documented in this series include the AAAC (especially during Loup's tenure as chair), and M-Quality, a campus-wide initiative designed to encourage continuous improvement in everyday tasks (<title render="italic">Record</title> article).</p>

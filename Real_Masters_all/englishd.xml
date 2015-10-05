@@ -42,9 +42,6 @@
         <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of English Language and Literature.</corpname>
       </origination>
       <unittitle encodinganalog="245">Department of English Language and Literature (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1919/1994">1919-1994</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1979">1960-1979</unitdate></unittitle>
-      <physdesc altrender="whole">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">9.8 linear feet</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87142 Bimu C26 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Correspondence, topical files, photographs, and printed material relating to the operation and activities of the department, primarily after 1960 during the administrations of Warner Rice, Russell A. Fraser, John L. Styan, and Jay L. Robinson; also include scattered files before 1960 and after 1979.</abstract>
@@ -52,6 +49,9 @@
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">9.8 linear feet</extent>
+      </physdesc>
       <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
     </did>
     <descgrp type="admin">
@@ -258,7 +258,7 @@ Department of English Language and Literature (University of Michigan) records, 
             <c04 level="file">
               <did>
                 <container type="box" label="Box">1</container>
-                <unittitle>Carduner, Jean R. (Associate Dean) 1975-1976)</unittitle>
+                <unittitle>Carduner, Jean R. (Associate Dean) <unitdate normal="1975/1976" type="inclusive">1975-1976</unitdate>)</unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -696,8 +696,8 @@ Department of English Language and Literature (University of Michigan) records, 
                     <unittitle>
                       <unitdate type="inclusive" normal="1981/1984-06">1981-1984 June</unitdate>
                     </unittitle>
-                    <physdesc>
-                      <extent>4 folders</extent>
+                    <physdesc altrender="whole">
+                      <extent altrender="materialtype spaceoccupied">4 folders</extent>
                     </physdesc>
                   </did>
                 </c06>
@@ -2260,8 +2260,9 @@ Department of English Language and Literature (University of Michigan) records, 
           <did>
             <container type="box" label="Box">8</container>
             <unittitle>O.J. Campbell <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc>
-              <extent>1 black and white photograph</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 photographs</extent>
+              <physfacet>black and white</physfacet>
             </physdesc>
           </did>
         </c02>

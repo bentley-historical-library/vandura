@@ -45,9 +45,6 @@
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n79043490">University of Michigan. Institute of Gerontology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Institute of Gerontology (University of Michigan) Records <unitdate type="inclusive" encodinganalog="245$f" normal="1948/1987">1948-1987</unitdate></unittitle>
-      <physdesc altrender="whole">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">28 linear feet</extent>
-      </physdesc>
       <abstract>Interdisciplinary institute at the University of Michigan and Wayne State University for the study of aging. Records include administrative files relating to the activities, research, publications and conferences of the Institute's University of Michigan program; audio-visual material, and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86996 Bimu C6 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
@@ -55,6 +52,9 @@
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">28 linear feet</extent>
+      </physdesc>
       <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
     </did>
     <descgrp type="admin">
@@ -4275,8 +4275,9 @@
         <c02 level="file">
           <did>
             <unittitle>Institute of Gerontology collection of speeches, conferences, training sessions</unittitle>
-            <physdesc>
-              <extent>100 audiocassettes (approximate)</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">100 audiocassettes</extent>
+              <physfacet>approximate</physfacet>
             </physdesc>
           </did>
           <c03 level="file">

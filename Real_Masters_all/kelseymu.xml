@@ -41,13 +41,14 @@
         <corpname source="lcnaf" encodinganalog="110">Kelsey Museum of Archaeology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Kelsey Museum of Archaeology papers <unitdate type="inclusive" encodinganalog="245$f" normal="1890/1979">1890-1987</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">131.5 linear ft. (244 boxes)</extent>
-      </physdesc>
       <abstract>Papers of Francis W. Kelsey, University of Michigan professor of Latin (for whom Museum was named); papers of Museum directors and curators, principally Orma F. Butler, Enoch E. Peterson, Louise A. Shier, John G. Winter; papers of University faculty associated with the Museum or the study and teaching of classical and medieval studies, notably Arthur E.R. Boak, Campbell Bonner, Thomas S. Jerome, and Robert H. McDowell; also records of the Institute of Archaeological Research, and material on 1975-1979 Carthage expedition.</abstract>
       <physloc>Records are housed at the Bentley Historical Library with the exception of the subgroup titled "Kelsey Museum papers, 1891-1948" (1.3 linear ft.) which is still retained at the Kelsey Museum.</physloc>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">89487 Bimu C450 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">131.5 linear feet</extent>
+        <physfacet>244 boxes</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -787,8 +788,8 @@
       <c01 level="subgrp">
         <did>
           <unittitle>Campbell Bonner papers <unitdate type="inclusive" normal="1920/1950">1920-1950</unitdate></unittitle>
-          <physdesc>
-            <extent>0.5 linear ft.</extent>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">0.5 linear feet</extent>
           </physdesc>
         </did>
         <scopecontent>
@@ -916,7 +917,7 @@
         <did>
           <unittitle>Orma Fitch Butler Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1913/1938">1913-1938</unitdate></unittitle>
           <physdesc altrender="whole">
-            <extent encodinganalog="300" altrender="materialtype spaceoccupied">10.3 linear feet</extent>
+            <extent altrender="materialtype spaceoccupied">10.3 linear feet</extent>
           </physdesc>
         </did>
         <scopecontent encodinganalog="520">
@@ -3268,8 +3269,8 @@
       <c01 level="subgrp">
         <did>
           <unittitle>Institute for Archaeological Research records <unitdate type="inclusive" encodinganalog="245$f" normal="1924/1949">1924-1949</unitdate></unittitle>
-          <physdesc>
-            <extent encodinganalog="300">2 linear ft. and 11 inches</extent>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">2 linear feet and 11 inches</extent>
           </physdesc>
         </did>
         <scopecontent encodinganalog="520">
@@ -4283,7 +4284,7 @@
         <did>
           <unittitle>Thomas Spencer Jerome papers <unitdate type="inclusive" encodinganalog="245$f" normal="1900/1925">1900-1925</unitdate></unittitle>
           <physdesc altrender="whole">
-            <extent encodinganalog="300" altrender="materialtype spaceoccupied">8.5 linear feet</extent>
+            <extent altrender="materialtype spaceoccupied">8.5 linear feet</extent>
           </physdesc>
         </did>
         <scopecontent>
@@ -5742,7 +5743,7 @@
                   <did>
                     <container type="box" label="Box">12</container>
                     <container label="Folder" type="folder">6</container>
-                    <unittitle>List of books purchased. April 1, 1900-1909. Numbered and priced.</unittitle>
+                    <unittitle>List of books purchased. April 1, <unitdate normal="1900/1909" type="inclusive">1900-1909</unitdate>. Numbered and priced.</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
@@ -6404,7 +6405,7 @@
         <did>
           <unittitle>Francis Willey Kelsey papers <unitdate type="inclusive" encodinganalog="245$f" normal="1890/1927">1890-1927</unitdate></unittitle>
           <physdesc altrender="whole">
-            <extent encodinganalog="300" altrender="materialtype spaceoccupied">65.5 linear feet</extent>
+            <extent altrender="materialtype spaceoccupied">65.5 linear feet</extent>
           </physdesc>
         </did>
         <scopecontent encodinganalog="520">
@@ -18943,7 +18944,7 @@
         <did>
           <unittitle>Enoch Ernest Peterson papers <unitdate type="inclusive" encodinganalog="245$f" normal="1924/1962">1924-1962</unitdate></unittitle>
           <physdesc altrender="whole">
-            <extent encodinganalog="300" altrender="materialtype spaceoccupied">3.5 linear feet</extent>
+            <extent altrender="materialtype spaceoccupied">3.5 linear feet</extent>
           </physdesc>
         </did>
         <scopecontent encodinganalog="520">
@@ -19986,8 +19987,8 @@
       <c01 level="subgrp">
         <did>
           <unittitle>Louise Adele Shier papers <unitdate type="inclusive" encodinganalog="245$f" normal="1923/1977">1923-1987</unitdate></unittitle>
-          <physdesc>
-            <extent encodinganalog="300">4.5 linear feet</extent>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">4.5 linear feet</extent>
           </physdesc>
         </did>
         <scopecontent encodinganalog="520">
@@ -20665,7 +20666,8 @@
                 <container type="box" label="Box">9</container>
                 <unittitle>Photographs of lamps in Cairo</unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">150 envelopes (approximate)</extent>
+                  <extent altrender="materialtype spaceoccupied">150 envelopes</extent>
+                  <physfacet>approximate</physfacet>
                 </physdesc>
               </did>
               <odd>
@@ -20857,7 +20859,7 @@
         <did>
           <unittitle encodinganalog="245">John Garrett Winter Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1914/1949">1914-1949</unitdate></unittitle>
           <physdesc altrender="whole">
-            <extent encodinganalog="300" altrender="materialtype spaceoccupied">0.5 linear feet</extent>
+            <extent altrender="materialtype spaceoccupied">0.5 linear feet</extent>
           </physdesc>
         </did>
         <scopecontent encodinganalog="520">
@@ -21879,252 +21881,825 @@
     </dsc>
     <descgrp type="add">
       <descgrp>
-        <head>Indexes</head>
+      <head>Indexes</head>
         <list type="simple">
           <head>Indexes to Francis W. Kelsey Papers</head>
           <item>
             <list type="simple">
               <head>Francis W. Kelsey papers, Appendix A: Subject Index</head>
               <item>American Academy in Rome
-                <list type="simple"><item>Boring, William A. (4.2-4.3)</item><item>Butler, Nita L. (4.18)</item><item>Carter, Jesse B. (7.7-7.9)</item><item>Mead, William Rutherford (23.3)</item><item>Moses, Lionel (24.6)</item><item>Rand, E. K. (27.3-27.4)</item><item>Stevens, Graham P. (31.9-31.11)</item><item>Trowbridge, Breck (33.6)</item><item>Van Buren, Albert W. (33.12)</item><item>West, Andrew F. (35.5-35.7 and 56.4-56.6)</item></list>
+                <list type="simple">
+                  <item>Boring, William A. (4.2-4.3)</item>
+                  <item>Butler, Nita L. (4.18)</item>
+                  <item>Carter, Jesse B. (7.7-7.9)</item>
+                  <item>Mead, William Rutherford (23.3)</item>
+                  <item>Moses, Lionel (24.6)</item>
+                  <item>Rand, E. K. (27.3-27.4)</item>
+                  <item>Stevens, Graham P. (31.9-31.11)</item>
+                  <item>Trowbridge, Breck (33.6)</item>
+                  <item>Van Buren, Albert W. (33.12)</item>
+                  <item>West, Andrew F. (35.5-35.7 and 56.4-56.6)</item>
+                </list>
               </item>
               <item>American Philosophical Association
-                <list type="simple"><item>Bill, Clarence (3.7)</item></list>
+                <list type="simple">
+                  <item>Bill, Clarence (3.7)</item>
+                </list>
               </item>
               <item>American School in China
-                <list type="simple"><item>Freer, Charles (48.12 and 67.6)</item><item>Walcott, Charles (48.16)</item><item>Warner, Langdon (48.13 and 48.17)</item></list>
+                <list type="simple">
+                  <item>Freer, Charles (48.12 and 67.6)</item>
+                  <item>Walcott, Charles (48.16)</item>
+                  <item>Warner, Langdon (48.13 and 48.17)</item>
+                </list>
               </item>
               <item>American School in Jerusalem
-                <list type="simple"><item>Clay, Albert (7.17)</item><item>Coffin, William (9.1)</item></list>
+                <list type="simple">
+                  <item>Clay, Albert (7.17)</item>
+                  <item>Coffin, William (9.1)</item>
+                </list>
               </item>
               <item>American School in New Mexico
-                <list type="simple"><item>Hewett, Edgar L. (16.1-16.4)</item><item>Kelsey, Ruth (20.1-20.2)</item></list>
+                <list type="simple">
+                  <item>Hewett, Edgar L. (16.1-16.4)</item>
+                  <item>Kelsey, Ruth (20.1-20.2)</item>
+                </list>
               </item>
               <item>Archeological Institute of America
-                <list type="simple"><item>Carroll, Mitchell (6.1-6.13 and 7.1-7.6)</item><item>Clay, Robert (7.17)</item><item>Egbert, James C. (11.5-11.16)</item><item>Frothingham, A. L. (40.6)</item><item>Gotheil, Richard (14.3-14.5)</item><item>Magoffin, Ralph V. D. (22.3-22.6)</item><item>Seymour, Thomas D. (41.1-41.3)</item><item>Shipley, F. W. (30.7-30.10)</item><item>White, John Williams (40.9-40.10)</item><item>Wilson, Harry L. (36.4)</item></list>
+                <list type="simple">
+                  <item>Carroll, Mitchell (6.1-6.13 and 7.1-7.6)</item>
+                  <item>Clay, Robert (7.17)</item>
+                  <item>Egbert, James C. (11.5-11.16)</item>
+                  <item>Frothingham, A. L. (40.6)</item>
+                  <item>Gotheil, Richard (14.3-14.5)</item>
+                  <item>Magoffin, Ralph V. D. (22.3-22.6)</item>
+                  <item>Seymour, Thomas D. (41.1-41.3)</item>
+                  <item>Shipley, F. W. (30.7-30.10)</item>
+                  <item>White, John Williams (40.9-40.10)</item>
+                  <item>Wilson, Harry L. (36.4)</item>
+                </list>
               </item>
               <item>Armenian Manuscripts, see Manuscripts, Armenian\</item>
               <item>Armenian Massacre
-                <list type="simple"><item>Bristol, Mark L. (4.7)</item><item>Cratherns, C. F. H. (9.10)</item><item>Fuller, Harold De Wulf (13.8)</item><item>Merrill, John E. (23.6)</item><item>Witter, W. F. (38.7)</item></list>
+                <list type="simple">
+                  <item>Bristol, Mark L. (4.7)</item>
+                  <item>Cratherns, C. F. H. (9.10)</item>
+                  <item>Fuller, Harold De Wulf (13.8)</item>
+                  <item>Merrill, John E. (23.6)</item>
+                  <item>Witter, W. F. (38.7)</item>
+                </list>
               </item>
               <item>Art and Archaeology
-                <list type="simple"><item>Robinson, David M. (28.1)</item><item>Carroll, Mitchell</item></list>
+                <list type="simple">
+                  <item>Robinson, David M. (28.1)</item>
+                  <item>Carroll, Mitchell</item>
+                </list>
               </item>
               <item>Asiatic Institute
-                <list type="simple"><item>Mc Cormick, Frederick (23.2)</item></list>
+                <list type="simple">
+                  <item>Mc Cormick, Frederick (23.2)</item>
+                </list>
               </item>
               <item>Askren Glass and Pottery
-                <list type="simple"><item>Askren, David (82.4)</item><item>Harden, D. B. (15.12)</item></list>
+                <list type="simple">
+                  <item>Askren, David (82.4)</item>
+                  <item>Harden, D. B. (15.12)</item>
+                </list>
               </item>
               <item>Assyrian Tablets, see Tablets, Assyrian</item>
               <item>August Mau
-                <list type="simple"><item>Amelung, Walter (1.6 and 44.6)</item><item>Delbrueck, R. (44.7)</item><item>Dodge, Cleveland (44.6)</item><item>Mau, August (44.2)</item><item>Warren, Langford H. (44.8)</item></list>
+                <list type="simple">
+                  <item>Amelung, Walter (1.6 and 44.6)</item>
+                  <item>Delbrueck, R. (44.7)</item>
+                  <item>Dodge, Cleveland (44.6)</item>
+                  <item>Mau, August (44.2)</item>
+                  <item>Warren, Langford H. (44.8)</item>
+                </list>
               </item>
               <item>Beautus Manuscript see Manuscripts, Beautus</item>
               <item>Belgian Relief Committee
-                <list type="simple"><item>Baker, George Barr (2.7 and 86.3)</item><item>Ottoway, E. J. (86.6)</item><item>Sink, Charles A. (86.10)</item><item>Sleeper, A. E. (86.11)</item></list>
+                <list type="simple">
+                  <item>Baker, George Barr (2.7 and 86.3)</item>
+                  <item>Ottoway, E. J. (86.6)</item>
+                  <item>Sink, Charles A. (86.10)</item>
+                  <item>Sleeper, A. E. (86.11)</item>
+                </list>
               </item>
               <item>Bement Coins, see Coins, Bement</item>
               <item>Benefactors
-                <list type="simple"><item>Anderson, John W. (1.7)</item><item>Backus, Standish (2.5)</item><item>Boyer, Joseph (4.4-4.5)</item><item>Ferry, Dexter M. (12.13)</item><item>Freer, Charles (13.11, 67.1-67.8 and 68.1-68.9)</item><item>Gray, David (14.7)</item><item>Gray, Philip (14.11)</item><item>Inglis, James (18.5)</item><item>Longyear, Mary Beecher (21.12)</item><item>Murphy, William H. (24.7-24.8)</item><item>Pendleton, Catherine B. (25.14-25.15)</item><item>Russel, John R (28.8-28.9)</item><item>Stearnsm Frederick K. (31.6)</item><item>Warburg, Paul (34.12)</item><item>Webber, Oscar (35.1)</item><item>Webber, Richard (35.2)</item></list>
+                <list type="simple">
+                  <item>Anderson, John W. (1.7)</item>
+                  <item>Backus, Standish (2.5)</item>
+                  <item>Boyer, Joseph (4.4-4.5)</item>
+                  <item>Ferry, Dexter M. (12.13)</item>
+                  <item>Freer, Charles (13.11, 67.1-67.8 and 68.1-68.9)</item>
+                  <item>Gray, David (14.7)</item>
+                  <item>Gray, Philip (14.11)</item>
+                  <item>Inglis, James (18.5)</item>
+                  <item>Longyear, Mary Beecher (21.12)</item>
+                  <item>Murphy, William H. (24.7-24.8)</item>
+                  <item>Pendleton, Catherine B. (25.14-25.15)</item>
+                  <item>Russel, John R (28.8-28.9)</item>
+                  <item>Stearnsm Frederick K. (31.6)</item>
+                  <item>Warburg, Paul (34.12)</item>
+                  <item>Webber, Oscar (35.1)</item>
+                  <item>Webber, Richard (35.2)</item>
+                </list>
               </item>
               <item>British Museum
-                <list type="simple"><item>Bell, H. Idris (82.10-82.12)</item><item>Budge, E. Wallace (83.7)</item><item>Cooke, C. P. (9.6)</item><item>Crumm, W. E. (9.13)</item><item>Edwards, E. (83.7)</item><item>Gilson, J. P. (13.13)</item><item>Hall, H. R. (18.1)</item><item>Hill, George F. (84.5)</item><item>Read, Hercules (27.5)</item></list>
+                <list type="simple">
+                  <item>Bell, H. Idris (82.10-82.12)</item>
+                  <item>Budge, E. Wallace (83.7)</item>
+                  <item>Cooke, C. P. (9.6)</item>
+                  <item>Crumm, W. E. (9.13)</item>
+                  <item>Edwards, E. (83.7)</item>
+                  <item>Gilson, J. P. (13.13)</item>
+                  <item>Hall, H. R. (18.1)</item>
+                  <item>Hill, George F. (84.5)</item>
+                  <item>Read, Hercules (27.5)</item>
+                </list>
               </item>
               <item>Carnegie Foundation
-                <list type="simple"><item>Finch, George A. (12.14)</item><item>Scott, James Brown (30.4-30.5)</item></list>
+                <list type="simple">
+                  <item>Finch, George A. (12.14)</item>
+                  <item>Scott, James Brown (30.4-30.5)</item>
+                </list>
               </item>
               <item>Casts, Slides
-                <list type="simple"><item>Ashby, Thomas (2.4)</item></list>
+                <list type="simple">
+                  <item>Ashby, Thomas (2.4)</item>
+                </list>
               </item>
               <item>China
-                <list type="simple"><item>Freer, Charles (48.12 and 67.8)</item><item>Warner, Langdon (34.13)</item></list>
+                <list type="simple">
+                  <item>Freer, Charles (48.12 and 67.8)</item>
+                  <item>Warner, Langdon (34.13)</item>
+                </list>
               </item>
               <item>Classical Association of the Middle West and South
-                <list type="simple"><item>Barber, Grove (44.3)</item><item>Barton, H. J. (2.11)</item><item>Lord, Louis E. (21.16)</item><item>Miller, Walter (23.9)</item><item>Smiley, Charles N. (32.6)</item></list>
+                <list type="simple">
+                  <item>Barber, Grove (44.3)</item>
+                  <item>Barton, H. J. (2.11)</item>
+                  <item>Lord, Louis E. (21.16)</item>
+                  <item>Miller, Walter (23.9)</item>
+                  <item>Smiley, Charles N. (32.6)</item>
+                </list>
               </item>
               <item>Classical Journal
-                <list type="simple"><item>Miller, Frank J. (24.11 and 90.9)</item></list>
+                <list type="simple">
+                  <item>Miller, Frank J. (24.11 and 90.9)</item>
+                </list>
               </item>
               <item>Coins
-                <list type="simple"><item>Bement
-                    <list type="simple"><item>Bement, Clarence (5.2)</item><item>Moore, Bertha Bement (24.11)</item></list>
-                  </item><item>Dattari
-                    <list type="simple"><item>Askren, David (82.2)</item><item>Bement, Clarence (5.2)</item><item>Cooke, C. P. (9.6)</item><item>Freer, Charles (67.3-67.4 and 67.7)</item><item>Greene, Belle Da Costa (14.4)</item><item>Harden, D. B. (15.12)</item><item>Hutchins, Harvey B. (64.9)</item><item>Sanders, Henry A. (29.3)</item><item>Smith, Shirley W. (66.3-66.5)</item></list>
-                  </item><item>Eastman
-                    <list type="simple"><item>Hutchins, Harvey B. (65.5)</item></list>
-                  </item><item>Electrotypes
-                    <list type="simple"><item>Cooke, C. P. (9.6)</item></list>
-                  </item><item>Harsha
-                    <list type="simple"><item>Hutchins, Harvey B. (65.3)</item><item>Smith, Shirley W. (66.6)</item></list>
-                  </item><item>Karanis
-                    <list type="simple"><item>Bell, H. Idris (82.12)</item></list>
-                  </item><item>Wines
-                    <list type="simple"><item>Hutchins, Harvey B. (65.3)</item></list>
-                  </item><item>Miscellaneous
-                    <list type="simple"><item>Askren, David (82.2-82.3)</item><item>Bishop, William W. (63.6)</item><item>Breccia, E. (5.4)</item><item>Gilson, J. P. (13.13)</item><item>Greene, Belle Da Costa (14.14)</item><item>Harden, D. B. (15.12)</item><item>Hutchins, Harvey B. (65.4)</item><item>Seltman, C. L. (112.1)</item><item>Wood, Howland (38.8)</item></list>
-                  </item></list>
+                <list type="simple">
+                  <item>Bement
+                    <list type="simple">
+                      <item>Bement, Clarence (5.2)</item>
+                      <item>Moore, Bertha Bement (24.11)</item>
+                    </list>
+                  </item>
+                  <item>Dattari
+                    <list type="simple">
+                      <item>Askren, David (82.2)</item>
+                      <item>Bement, Clarence (5.2)</item>
+                      <item>Cooke, C. P. (9.6)</item>
+                      <item>Freer, Charles (67.3-67.4 and 67.7)</item>
+                      <item>Greene, Belle Da Costa (14.4)</item>
+                      <item>Harden, D. B. (15.12)</item>
+                      <item>Hutchins, Harvey B. (64.9)</item>
+                      <item>Sanders, Henry A. (29.3)</item>
+                      <item>Smith, Shirley W. (66.3-66.5)</item>
+                    </list>
+                  </item>
+                  <item>Eastman
+                    <list type="simple">
+                      <item>Hutchins, Harvey B. (65.5)</item>
+                    </list>
+                  </item>
+                  <item>Electrotypes
+                    <list type="simple">
+                      <item>Cooke, C. P. (9.6)</item>
+                    </list>
+                  </item>
+                  <item>Harsha
+                    <list type="simple">
+                      <item>Hutchins, Harvey B. (65.3)</item>
+                      <item>Smith, Shirley W. (66.6)</item>
+                    </list>
+                  </item>
+                  <item>Karanis
+                    <list type="simple">
+                      <item>Bell, H. Idris (82.12)</item>
+                    </list>
+                  </item>
+                  <item>Wines
+                    <list type="simple">
+                      <item>Hutchins, Harvey B. (65.3)</item>
+                    </list>
+                  </item>
+                  <item>Miscellaneous
+                    <list type="simple">
+                      <item>Askren, David (82.2-82.3)</item>
+                      <item>Bishop, William W. (63.6)</item>
+                      <item>Breccia, E. (5.4)</item>
+                      <item>Gilson, J. P. (13.13)</item>
+                      <item>Greene, Belle Da Costa (14.14)</item>
+                      <item>Harden, D. B. (15.12)</item>
+                      <item>Hutchins, Harvey B. (65.4)</item>
+                      <item>Seltman, C. L. (112.1)</item>
+                      <item>Wood, Howland (38.8)</item>
+                    </list>
+                  </item>
+                </list>
               </item>
               <item>Colleagues
-                <list type="simple"><item>Abroad
-                    <list type="simple"><item>Ashby, Thomas (2.4)</item><item>Bezard, J. (3.6)</item><item>Cagnat, Rene (5.7)</item><item>Diamantopolis (11.11)</item><item>Dittman, G. (11.1)</item><item>Gardner, Percy (13.12)</item><item>Grenfell, Bernard (15.13)</item><item>Harris, Rendel (15.13)</item><item>Jones, H. Stuart (18.12)</item><item>Reid, James S. (27.6)</item></list>
-                  </item><item>United States
-                    <list type="simple"><item>Anderson, E. H. (2.4)</item><item>Breasted, James H. (4.6)</item><item>Butler, Nicholas Murray (4.7)</item><item>Clark, Charles Upson (7.15)</item><item>Cook, Walter W. S. (9.5)</item><item>Fairbanks, Arthur (12.5-12.7)</item><item>Gottheil, Richard (14.3-14.5)</item><item>Hyvernat, Henry (17.11-17.15)</item><item>Lodge, J. E. (21.8)</item><item>Lythgoe, Albert M. (21.19)</item><item>Mc Cormick, Frederick (23.2)</item><item>Merriam, John C. (23.5)</item><item>Miller, Walter (23.10)</item><item>Rhees, Rush (27.7)</item><item>Richter, Gisela (27.9)</item><item>Smiley, Charles (32.6)</item><item>Springer, Frank (31.4)</item><item>Wace, A. J. B. (34.5)</item><item>Walcott, Charles S. (34.6-34.7, 48.16)</item><item>Warner, Langdon (34.13)</item><item>West, Andrew (35.5-35.7)</item><item>Westermann, W. L. (35.8-35.10)</item><item>Wilson, Harry L. (36.4)</item><item>Wissler, Clark (38.7)</item><item>Wood, Howland (38.8)</item><item>Woodward, Robert (36.10)</item><item>Worrel, W. H. (37.1-37.9)</item></list>
-                  </item></list>
+                <list type="simple">
+                  <item>Abroad
+                    <list type="simple">
+                      <item>Ashby, Thomas (2.4)</item>
+                      <item>Bezard, J. (3.6)</item>
+                      <item>Cagnat, Rene (5.7)</item>
+                      <item>Diamantopolis (11.11)</item>
+                      <item>Dittman, G. (11.1)</item>
+                      <item>Gardner, Percy (13.12)</item>
+                      <item>Grenfell, Bernard (15.13)</item>
+                      <item>Harris, Rendel (15.13)</item>
+                      <item>Jones, H. Stuart (18.12)</item>
+                      <item>Reid, James S. (27.6)</item>
+                    </list>
+                  </item>
+                  <item>United States
+                    <list type="simple">
+                      <item>Anderson, E. H. (2.4)</item>
+                      <item>Breasted, James H. (4.6)</item>
+                      <item>Butler, Nicholas Murray (4.7)</item>
+                      <item>Clark, Charles Upson (7.15)</item>
+                      <item>Cook, Walter W. S. (9.5)</item>
+                      <item>Fairbanks, Arthur (12.5-12.7)</item>
+                      <item>Gottheil, Richard (14.3-14.5)</item>
+                      <item>Hyvernat, Henry (17.11-17.15)</item>
+                      <item>Lodge, J. E. (21.8)</item>
+                      <item>Lythgoe, Albert M. (21.19)</item>
+                      <item>Mc Cormick, Frederick (23.2)</item>
+                      <item>Merriam, John C. (23.5)</item>
+                      <item>Miller, Walter (23.10)</item>
+                      <item>Rhees, Rush (27.7)</item>
+                      <item>Richter, Gisela (27.9)</item>
+                      <item>Smiley, Charles (32.6)</item>
+                      <item>Springer, Frank (31.4)</item>
+                      <item>Wace, A. J. B. (34.5)</item>
+                      <item>Walcott, Charles S. (34.6-34.7, 48.16)</item>
+                      <item>Warner, Langdon (34.13)</item>
+                      <item>West, Andrew (35.5-35.7)</item>
+                      <item>Westermann, W. L. (35.8-35.10)</item>
+                      <item>Wilson, Harry L. (36.4)</item>
+                      <item>Wissler, Clark (38.7)</item>
+                      <item>Wood, Howland (38.8)</item>
+                      <item>Woodward, Robert (36.10)</item>
+                      <item>Worrel, W. H. (37.1-37.9)</item>
+                    </list>
+                  </item>
+                </list>
               </item>
               <item>Coptic Manuscripts, see Manuscripts, Coptic</item>
               <item>Coptic Type
-                <list type="simple"><item>Freer, Charles (67.5)</item><item>Hecker, Frank J. (15.14)\</item></list>
+                <list type="simple">
+                  <item>Freer, Charles (67.5)</item>
+                  <item>Hecker, Frank J. (15.14)\</item>
+                </list>
               </item>
               <item>Cuneform Tablets, see Tablets, Cuneform</item>
               <item>Cyrene, see Expeditions, Cyrene</item>
               <item>Dattari Coins, see Coins, Dattari</item>
               <item>Dignitaries
-                <list type="simple"><item>Miscellaneous
-                    <list type="simple"><item>Bryce, James (4.13)</item><item>Belin, F. L. (5.2)</item><item>Berenson, Bernard (5.2)</item><item>Capps, Edward (5.6)</item><item>Carr, Wilbur (5.12)</item><item>Dana, John Cotton (11.10)</item><item>Hughes, Charles Evans (17.9)</item><item>Mc Cormick, Cyrus H. M. (23.1)</item><item>Morgan, J. Pierpont (24.5)</item><item>Morgenthau, Henry (24.11)</item><item>Sleeper, A. E. (86.1)</item><item>Van Horne, William (34.1)</item><item>Wilson, Woodrow (36.5)</item><item>Worcester, Dean C. (36.11-36.12)</item></list>
-                  </item><item>U.S. Congressmen
-                    <list type="simple"><item>Beakes, Samuel W. (3.1)</item><item>Michener, Earl C. (24.11)</item></list>
-                  </item><item>U.S. Senators
-                    <list type="simple"><item>Borah, William E. (5.4)</item><item>Couzens, James (9.8)</item><item>Newberry, Truman H. (25.1)</item></list>
-                  </item></list>
+                <list type="simple">
+                  <item>Miscellaneous
+                    <list type="simple">
+                      <item>Bryce, James (4.13)</item>
+                      <item>Belin, F. L. (5.2)</item>
+                      <item>Berenson, Bernard (5.2)</item>
+                      <item>Capps, Edward (5.6)</item>
+                      <item>Carr, Wilbur (5.12)</item>
+                      <item>Dana, John Cotton (11.10)</item>
+                      <item>Hughes, Charles Evans (17.9)</item>
+                      <item>Mc Cormick, Cyrus H. M. (23.1)</item>
+                      <item>Morgan, J. Pierpont (24.5)</item>
+                      <item>Morgenthau, Henry (24.11)</item>
+                      <item>Sleeper, A. E. (86.1)</item>
+                      <item>Van Horne, William (34.1)</item>
+                      <item>Wilson, Woodrow (36.5)</item>
+                      <item>Worcester, Dean C. (36.11-36.12)</item>
+                    </list>
+                  </item>
+                  <item>U.S. Congressmen
+                    <list type="simple">
+                      <item>Beakes, Samuel W. (3.1)</item>
+                      <item>Michener, Earl C. (24.11)</item>
+                    </list>
+                  </item>
+                  <item>U.S. Senators
+                    <list type="simple">
+                      <item>Borah, William E. (5.4)</item>
+                      <item>Couzens, James (9.8)</item>
+                      <item>Newberry, Truman H. (25.1)</item>
+                    </list>
+                  </item>
+                </list>
               </item>
               <item>Eastman Coins, see Coins, Eastman</item>
               <item>Editors
-                <list type="simple"><item>Graves, R. H. (14.6)</item><item>More, Paul E. (24.1)</item><item>Paton, James M. (28.1)</item><item>Robinson, David M. (28.1)</item><item>Sedgewick, Ellery (30.6)</item><item>Williams, Charles R. (36.2)</item></list>
+                <list type="simple">
+                  <item>Graves, R. H. (14.6)</item>
+                  <item>More, Paul E. (24.1)</item>
+                  <item>Paton, James M. (28.1)</item>
+                  <item>Robinson, David M. (28.1)</item>
+                  <item>Sedgewick, Ellery (30.6)</item>
+                  <item>Williams, Charles R. (36.2)</item>
+                </list>
               </item>
               <item>Emergency Society for German and Austrian Art and Science
-                <list type="simple"><item>Boaz, Franz (3.12)</item></list>
+                <list type="simple">
+                  <item>Boaz, Franz (3.12)</item>
+                </list>
               </item>
               <item>Electrotype Coins, see Coins, Electrotype</item>
               <item>Expeditions
-                <list type="simple"><item>Cyrene
-                    <list type="simple"><item>Armour, Allison (1.11, 70.7)</item><item>Brooks, Noah W. (70.8)</item><item>Fairbanks, Arthur (12.5-12.7, 70.9)</item><item>Hoppin, Joseph C. (70.12)</item><item>Lane, Gardner (70.6, 70.13-70.15)</item><item>Norton, Richard (25.4-25.5, 70.1-70.6)</item></list>
-                  </item><item>Palestine
-                    <list type="simple"><item>Rowe, Alan (28.6)</item></list>
-                  </item><item>1920-1921
-                    <list type="simple"><item>Allen, Henry (1.4)</item><item>Backus, Standish (2.5)</item><item>Bishop, William W. (83.1)</item><item>Boyer, Joseph (4.4-4.5)</item><item>Bristol, Mark (4.7)</item><item>Ferry, Dexter M. Jr. (12.13)</item><item>Freer, Charles (68.9)</item><item>Gerassimos, Father (71.8)</item><item>Gray, David (14.7)</item><item>Gray, Phillip (14.11)</item><item>Greene, Belle Da Coasta (14.15)</item><item>Hutchins, Harvey B. (65.5)</item><item>Stevens, Henry G. (32.7)</item></list>
-                  </item><item>1924-1925
-                    <list type="simple"><item>Askren, David (82.6)</item><item>Buckler, William H. (4.14)</item><item>French, George (79.6)</item><item>Gsell, S. (79.7)</item><item>Harden, D. B. (15.12, 79.8)</item><item>Jones, H. Stuart (18.12)</item><item>Maloney, William J. M. A. (22.7)</item><item>Merriam, John C. (23.5, 79.9-79.10)</item><item>Ponssot, Louis (79.1-79.2, 80.1)</item><item>Stanley, Albert A. (62.9)</item><item>Stoever, Edward R. (80.2)</item><item>Swain, George (73.3, 111.1-111.4)</item><item>Wace, A. J. B. (34.5)</item><item>White, H. G. Evelyn (80.3)</item></list>
-                  </item></list>
+                <list type="simple">
+                  <item>Cyrene
+                    <list type="simple">
+                      <item>Armour, Allison (1.11, 70.7)</item>
+                      <item>Brooks, Noah W. (70.8)</item>
+                      <item>Fairbanks, Arthur (12.5-12.7, 70.9)</item>
+                      <item>Hoppin, Joseph C. (70.12)</item>
+                      <item>Lane, Gardner (70.6, 70.13-70.15)</item>
+                      <item>Norton, Richard (25.4-25.5, 70.1-70.6)</item>
+                    </list>
+                  </item>
+                  <item>Palestine
+                    <list type="simple">
+                      <item>Rowe, Alan (28.6)</item>
+                    </list>
+                  </item>
+                  <item>1920-1921
+                    <list type="simple">
+                      <item>Allen, Henry (1.4)</item>
+                      <item>Backus, Standish (2.5)</item>
+                      <item>Bishop, William W. (83.1)</item>
+                      <item>Boyer, Joseph (4.4-4.5)</item>
+                      <item>Bristol, Mark (4.7)</item>
+                      <item>Ferry, Dexter M. Jr. (12.13)</item>
+                      <item>Freer, Charles (68.9)</item>
+                      <item>Gerassimos, Father (71.8)</item>
+                      <item>Gray, David (14.7)</item>
+                      <item>Gray, Phillip (14.11)</item>
+                      <item>Greene, Belle Da Coasta (14.15)</item>
+                      <item>Hutchins, Harvey B. (65.5)</item>
+                      <item>Stevens, Henry G. (32.7)</item>
+                    </list>
+                  </item>
+                  <item>1924-1925
+                    <list type="simple">
+                      <item>Askren, David (82.6)</item>
+                      <item>Buckler, William H. (4.14)</item>
+                      <item>French, George (79.6)</item>
+                      <item>Gsell, S. (79.7)</item>
+                      <item>Harden, D. B. (15.12, 79.8)</item>
+                      <item>Jones, H. Stuart (18.12)</item>
+                      <item>Maloney, William J. M. A. (22.7)</item>
+                      <item>Merriam, John C. (23.5, 79.9-79.10)</item>
+                      <item>Ponssot, Louis (79.1-79.2, 80.1)</item>
+                      <item>Stanley, Albert A. (62.9)</item>
+                      <item>Stoever, Edward R. (80.2)</item>
+                      <item>Swain, George (73.3, 111.1-111.4)</item>
+                      <item>Wace, A. J. B. (34.5)</item>
+                      <item>White, H. G. Evelyn (80.3)</item>
+                    </list>
+                  </item>
+                </list>
               </item>
               <item>Freer Estate
-                <list type="simple"><item>1919-1921 (13.3)</item><item>Hecker, Frank J. (15.14)</item><item>Rhodes, Katherine N. (27.9)</item></list>
+                <list type="simple">
+                  <item>1919-1921 (13.3)</item>
+                  <item>Hecker, Frank J. (15.14)</item>
+                  <item>Rhodes, Katherine N. (27.9)</item>
+                </list>
               </item>
               <item>Freer Gallery
-                <list type="simple"><item>1922-1923 (13.4)</item><item>Freer, Charles (67.6)</item></list>
+                <list type="simple">
+                  <item>1922-1923 (13.4)</item>
+                  <item>Freer, Charles (67.6)</item>
+                </list>
               </item>
               <item>Freer Manuscripts, see Manuscripts, Freer</item>
               <item>Freer Miniatures
-                <list type="simple"><item>Morey, Charles (24.2-24.4)</item></list>
+                <list type="simple">
+                  <item>Morey, Charles (24.2-24.4)</item>
+                </list>
               </item>
               <item>Frieze Diary
-                <list type="simple"><item>Bishop, William W. (83.1)</item><item>Butler, Orma (85.5)</item><item>Hutchins, Harvey B. (65.4-65.5)</item><item>Kelsey, Ruth (20.2)</item><item>Walker, Bryant (34.9)</item></list>
+                <list type="simple">
+                  <item>Bishop, William W. (83.1)</item>
+                  <item>Butler, Orma (85.5)</item>
+                  <item>Hutchins, Harvey B. (65.4-65.5)</item>
+                  <item>Kelsey, Ruth (20.2)</item>
+                  <item>Walker, Bryant (34.9)</item>
+                </list>
               </item>
               <item>German Archeological Institute
-                <list type="simple"><item>Adams, Edward (2.4)</item><item>Amelung, Walter (1.6)</item></list>
+                <list type="simple">
+                  <item>Adams, Edward (2.4)</item>
+                  <item>Amelung, Walter (1.6)</item>
+                </list>
               </item>
               <item>Gold Monograph, see Humanistic Series</item>
               <item>Gold Objects
-                <list type="simple"><item>Angell, James B. (64.3)</item><item>Breasted, James H. (4.6)</item><item>Dennison, Walter (10.8-10.11)</item><item>Freer, Charles (67.4, 67.6-67.7)</item></list>
+                <list type="simple">
+                  <item>Angell, James B. (64.3)</item>
+                  <item>Breasted, James H. (4.6)</item>
+                  <item>Dennison, Walter (10.8-10.11)</item>
+                  <item>Freer, Charles (67.4, 67.6-67.7)</item>
+                </list>
               </item>
               <item>Harsha Coins, see Coins, Harsha</item>
               <item>E. C. Hegler Fund
-                <list type="simple"><item>Carus, Paul (7.10)</item></list>
+                <list type="simple">
+                  <item>Carus, Paul (7.10)</item>
+                </list>
               </item>
               <item>Hill Auditorium
-                <list type="simple"><item>Carus, Paul (7.10)</item><item>Coppicus, F. C. (9.7)</item><item>Hutchins, Harvey B. (64.9)</item><item>Kahn, Albert (19.1)</item></list>
+                <list type="simple">
+                  <item>Carus, Paul (7.10)</item>
+                  <item>Coppicus, F. C. (9.7)</item>
+                  <item>Hutchins, Harvey B. (64.9)</item>
+                  <item>Kahn, Albert (19.1)</item>
+                </list>
               </item>
               <item>Humanistic Series
-                <list type="simple"><item>Anderson, John W. (1.7)</item><item>Backus, Standish (2.5)</item><item>Burton, Marion L. (64.4-64.8)</item><item>Clements, W. R. (53.2)</item><item>Freer, Charles (67.1-68.10)</item><item>Hutchins, Harvey B. (65.4)</item><item>Research and Publications Memo (69.7)</item><item>Smith, Shirley (66.7)</item></list>
+                <list type="simple">
+                  <item>Anderson, John W. (1.7)</item>
+                  <item>Backus, Standish (2.5)</item>
+                  <item>Burton, Marion L. (64.4-64.8)</item>
+                  <item>Clements, W. R. (53.2)</item>
+                  <item>Freer, Charles (67.1-68.10)</item>
+                  <item>Hutchins, Harvey B. (65.4)</item>
+                  <item>Research and Publications Memo (69.7)</item>
+                  <item>Smith, Shirley (66.7)</item>
+                </list>
               </item>
               <item>Inscriptions
-                <list type="simple"><item>Box 84a</item></list>
+                <list type="simple">
+                  <item>Box 84a</item>
+                </list>
               </item>
               <item>Thomas Spencer Jerome
-                <list type="simple"><item>Andrews, Alice Tweed (1.9)</item><item>Andrews, Edith (1.10)</item><item>Buckley, Paul (66.2)</item><item>Burton, Marion L. (64.6)</item><item>Byington, Homer (5.6)</item><item>Carr, Wilbur J. (5.12)</item><item>Carter, Jesse B. (7.9)</item><item>Cerio, Ignazio (10.2)</item><item>Freer, Charles (67.7, 68.1, 68.5-68.7)</item><item>Gardner, Percy (13.12)</item><item>Hecker, Frank J. (15.14)</item><item>Hoyt, Hobart (17.5-17.8)</item><item>Hutchins, Harvey B. (65.1)</item><item>Koch, Theodore (63.13)</item><item>Magoffin, Ralph V. D. (22.5)</item><item>Moore, Charles (23.1, 23.12-23.14)</item><item>Pendleton, Catherine B. (25.14)</item><item>Pine, John B. (26.1)</item><item>Putman, George H. (26.5-26.7)</item><item>Rand, E. K. (27.3-27.4)\</item><item>Robbins, Nathaniel (28.12)</item><item>Smith, Shirley W. (66.8)</item><item>Stevens, Graham P. (31.9-31.11)</item><item>Van Buren, Albert W. (33.12)</item><item>West, Andrew (35.5)</item><item>Westermann, W. L. (35.8-35.10)</item><item>Winter, John G. (36.9)</item></list>
+                <list type="simple">
+                  <item>Andrews, Alice Tweed (1.9)</item>
+                  <item>Andrews, Edith (1.10)</item>
+                  <item>Buckley, Paul (66.2)</item>
+                  <item>Burton, Marion L. (64.6)</item>
+                  <item>Byington, Homer (5.6)</item>
+                  <item>Carr, Wilbur J. (5.12)</item>
+                  <item>Carter, Jesse B. (7.9)</item>
+                  <item>Cerio, Ignazio (10.2)</item>
+                  <item>Freer, Charles (67.7, 68.1, 68.5-68.7)</item>
+                  <item>Gardner, Percy (13.12)</item>
+                  <item>Hecker, Frank J. (15.14)</item>
+                  <item>Hoyt, Hobart (17.5-17.8)</item>
+                  <item>Hutchins, Harvey B. (65.1)</item>
+                  <item>Koch, Theodore (63.13)</item>
+                  <item>Magoffin, Ralph V. D. (22.5)</item>
+                  <item>Moore, Charles (23.1, 23.12-23.14)</item>
+                  <item>Pendleton, Catherine B. (25.14)</item>
+                  <item>Pine, John B. (26.1)</item>
+                  <item>Putman, George H. (26.5-26.7)</item>
+                  <item>Rand, E. K. (27.3-27.4)\</item>
+                  <item>Robbins, Nathaniel (28.12)</item>
+                  <item>Smith, Shirley W. (66.8)</item>
+                  <item>Stevens, Graham P. (31.9-31.11)</item>
+                  <item>Van Buren, Albert W. (33.12)</item>
+                  <item>West, Andrew (35.5)</item>
+                  <item>Westermann, W. L. (35.8-35.10)</item>
+                  <item>Winter, John G. (36.9)</item>
+                </list>
               </item>
               <item>Karanis Coins, see Coins, Karanis</item>
               <item>Karanis Tapestries
-                <list type="simple"><item>Valentioner, W. R. (33.11)</item></list>
+                <list type="simple">
+                  <item>Valentioner, W. R. (33.11)</item>
+                </list>
               </item>
               <item>Kelsey, Francis Willey
-                <list type="simple"><item>Personal Data
-                    <list type="simple"><item>Askren, Alice (1.12)</item><item>Askren, Charles (1.13)</item><item>Askren, David (1.14)</item><item>Askren, Leslie (2.1-2.2)</item><item>Buckley, Paul (66.2)</item><item>Colby, Fred (9.2)</item><item>Cowie, David M. (10.3)</item><item>Fay, Harriet K. (12.11)</item><item>Howard, Horace H. (18.3)</item><item>Howes, William E. (17.4)</item><item>Kelsey, Charlotte (19.5, 54.5-54.6)</item><item>Kelsey, Frederick T. (19.7)</item><item>Kelsey, Frederick W. (19.8)</item><item>Kelsey, Horatio Nelson (19.9)</item><item>Kelsey, Ruth (20.1-20.2)</item><item>Little, Clarence (65.7)</item><item>Stearns, Alfred E. (31.5)</item><item>Underwood, William (33.10)</item><item>Wilgus, H. L. (36.1)</item><item>Williams, Charles R. (36.2)</item><item>Wiltsie, Charles (36.6-36.8)</item></list>
-                  </item></list>
+                <list type="simple">
+                  <item>Personal Data
+                    <list type="simple">
+                      <item>Askren, Alice (1.12)</item>
+                      <item>Askren, Charles (1.13)</item>
+                      <item>Askren, David (1.14)</item>
+                      <item>Askren, Leslie (2.1-2.2)</item>
+                      <item>Buckley, Paul (66.2)</item>
+                      <item>Colby, Fred (9.2)</item>
+                      <item>Cowie, David M. (10.3)</item>
+                      <item>Fay, Harriet K. (12.11)</item>
+                      <item>Howard, Horace H. (18.3)</item>
+                      <item>Howes, William E. (17.4)</item>
+                      <item>Kelsey, Charlotte (19.5, 54.5-54.6)</item>
+                      <item>Kelsey, Frederick T. (19.7)</item>
+                      <item>Kelsey, Frederick W. (19.8)</item>
+                      <item>Kelsey, Horatio Nelson (19.9)</item>
+                      <item>Kelsey, Ruth (20.1-20.2)</item>
+                      <item>Little, Clarence (65.7)</item>
+                      <item>Stearns, Alfred E. (31.5)</item>
+                      <item>Underwood, William (33.10)</item>
+                      <item>Wilgus, H. L. (36.1)</item>
+                      <item>Williams, Charles R. (36.2)</item>
+                      <item>Wiltsie, Charles (36.6-36.8)</item>
+                    </list>
+                  </item>
+                </list>
               </item>
               <item>Lausane Treaty
-                <list type="simple"><item>Borah, Williams E. (5.4)</item><item>Hughes, Charles Evans (17.9)</item></list>
+                <list type="simple">
+                  <item>Borah, Williams E. (5.4)</item>
+                  <item>Hughes, Charles Evans (17.9)</item>
+                </list>
               </item>
               <item>Manuscripts
-                <list type="simple"><item>Armenian
-                    <list type="simple"><item>Anderson, E. H. (2.4)</item><item>Beach, Joseph (5.2)</item><item>Bishop, William W. (83.5)</item><item>Gardner, Percy (13.12)</item><item>Monroe, Paul (24.11)</item><item>Tonapetean, P. (33.4)</item><item>White, Lee A. (35.15)</item></list>
-                  </item><item>Beautus
-                    <list type="simple"><item>Cook, Walter W. S. (9.5)</item></list>
-                  </item><item>Dealers
-                    <list type="simple"><item>Beatty, Chester (3.3)</item></list>
-                  </item><item>Coptic
-                    <list type="simple"><item>Askren, David (1.14)</item><item>Crumm, W. E. (9.13)</item><item>Diamantopoulis (11.11)</item><item>Freer, Charles (67.3)</item><item>Gottheil, Richard (14.3-14.5)</item><item>Grote-Hahn, Frau K. (15.4)</item><item>Hutchins, Harvey B. (64.9)</item><item>Hyvernat, Henry (17.11-17.15)</item></list>
-                  </item><item>Freer
-                    <list type="simple"><item>Askren, David (82.2)</item><item>Breasted, James H. (4.6)</item><item>J. Cushing Company (69.12)</item><item>Dennison, Walter (10.8-10.11, 69.3)</item><item>Freer, Charles (69.1-69.12)</item><item>Gottheil, Richard (14.3-14.5)</item><item>Hyvernat, Henry (17.11-17.15)</item><item>Kenyon, Frederick (69.4)</item><item>Lodge, J. E. (21.8)</item><item>Ramsay, William C. (27.1-27.2, 69.6)</item><item>Sanders, Henry A. (69.2)</item><item>Smith, Shirley W. (66.3-66.4)</item><item>Worrell, W. H. (37.1-37.9)</item></list>
-                  </item><item>Grotious
-                    <list type="simple"><item>Breasted, James H. (4.6)</item><item>De Groot. Memos (94.11)</item><item>Finch, George A. (12.14, 94.5)</item><item>Johnson, J. de M. (18.13)</item><item>Scott, James Brown (30.4-30.5, 94.7)</item><item>Wright, Herbert F. (94.8)</item></list>
-                  </item><item>Morgan
-                    <list type="simple"><item>Breasted, James H. (4.6)</item><item>Dennison, Walter (10.18-10.11)</item><item>Freer, Charles (67.5)</item><item>Gottheil, Richard (14.3-14.5)</item><item>Greene, Belle da Costa (14.12-14.16)</item><item>Gregory, Casper R. (15.2)</item><item>Hyvernat, Henry (17.11-17.15)</item><item>Morgan, J. Pierpont (24.5)</item><item>Thurston, Ada (33.2)</item></list>
-                  </item><item>Norton
-                    <list type="simple"><item>Fairbanks, Arthur (12.5-12.7)</item><item>Norton, Richard (25.4-25.5)</item></list>
-                  </item><item>Virgil
-                    <list type="simple"><item>Dennison, Walter (136.5)</item></list>
-                  </item><item>Miscellaneous
-                    <list type="simple"><item>Diamantopolis (11.11)</item><item>Goldstein, Fred (13.15)</item><item>Hall, H. R. (18.1)</item><item>Horton, George (17.1)</item><item>Hoskier, H. C. (17.2)</item><item>Lodge, J. E. (21.8)</item><item>Lowe, E. A. (21.17)</item><item>Peet, William W. (25.13)</item><item>Robbins, Frank E. (27.10)</item></list>
-                  </item></list>
+                <list type="simple">
+                  <item>Armenian
+                    <list type="simple">
+                      <item>Anderson, E. H. (2.4)</item>
+                      <item>Beach, Joseph (5.2)</item>
+                      <item>Bishop, William W. (83.5)</item>
+                      <item>Gardner, Percy (13.12)</item>
+                      <item>Monroe, Paul (24.11)</item>
+                      <item>Tonapetean, P. (33.4)</item>
+                      <item>White, Lee A. (35.15)</item>
+                    </list>
+                  </item>
+                  <item>Beautus
+                    <list type="simple">
+                      <item>Cook, Walter W. S. (9.5)</item>
+                    </list>
+                  </item>
+                  <item>Dealers
+                    <list type="simple">
+                      <item>Beatty, Chester (3.3)</item>
+                    </list>
+                  </item>
+                  <item>Coptic
+                    <list type="simple">
+                      <item>Askren, David (1.14)</item>
+                      <item>Crumm, W. E. (9.13)</item>
+                      <item>Diamantopoulis (11.11)</item>
+                      <item>Freer, Charles (67.3)</item>
+                      <item>Gottheil, Richard (14.3-14.5)</item>
+                      <item>Grote-Hahn, Frau K. (15.4)</item>
+                      <item>Hutchins, Harvey B. (64.9)</item>
+                      <item>Hyvernat, Henry (17.11-17.15)</item>
+                    </list>
+                  </item>
+                  <item>Freer
+                    <list type="simple">
+                      <item>Askren, David (82.2)</item>
+                      <item>Breasted, James H. (4.6)</item>
+                      <item>J. Cushing Company (69.12)</item>
+                      <item>Dennison, Walter (10.8-10.11, 69.3)</item>
+                      <item>Freer, Charles (69.1-69.12)</item>
+                      <item>Gottheil, Richard (14.3-14.5)</item>
+                      <item>Hyvernat, Henry (17.11-17.15)</item>
+                      <item>Kenyon, Frederick (69.4)</item>
+                      <item>Lodge, J. E. (21.8)</item>
+                      <item>Ramsay, William C. (27.1-27.2, 69.6)</item>
+                      <item>Sanders, Henry A. (69.2)</item>
+                      <item>Smith, Shirley W. (66.3-66.4)</item>
+                      <item>Worrell, W. H. (37.1-37.9)</item>
+                    </list>
+                  </item>
+                  <item>Grotious
+                    <list type="simple">
+                      <item>Breasted, James H. (4.6)</item>
+                      <item>De Groot. Memos (94.11)</item>
+                      <item>Finch, George A. (12.14, 94.5)</item>
+                      <item>Johnson, J. de M. (18.13)</item>
+                      <item>Scott, James Brown (30.4-30.5, 94.7)</item>
+                      <item>Wright, Herbert F. (94.8)</item>
+                    </list>
+                  </item>
+                  <item>Morgan
+                    <list type="simple">
+                      <item>Breasted, James H. (4.6)</item>
+                      <item>Dennison, Walter (10.18-10.11)</item>
+                      <item>Freer, Charles (67.5)</item>
+                      <item>Gottheil, Richard (14.3-14.5)</item>
+                      <item>Greene, Belle da Costa (14.12-14.16)</item>
+                      <item>Gregory, Casper R. (15.2)</item>
+                      <item>Hyvernat, Henry (17.11-17.15)</item>
+                      <item>Morgan, J. Pierpont (24.5)</item>
+                      <item>Thurston, Ada (33.2)</item>
+                    </list>
+                  </item>
+                  <item>Norton
+                    <list type="simple">
+                      <item>Fairbanks, Arthur (12.5-12.7)</item>
+                      <item>Norton, Richard (25.4-25.5)</item>
+                    </list>
+                  </item>
+                  <item>Virgil
+                    <list type="simple">
+                      <item>Dennison, Walter (136.5)</item>
+                    </list>
+                  </item>
+                  <item>Miscellaneous
+                    <list type="simple">
+                      <item>Diamantopolis (11.11)</item>
+                      <item>Goldstein, Fred (13.15)</item>
+                      <item>Hall, H. R. (18.1)</item>
+                      <item>Horton, George (17.1)</item>
+                      <item>Hoskier, H. C. (17.2)</item>
+                      <item>Lodge, J. E. (21.8)</item>
+                      <item>Lowe, E. A. (21.17)</item>
+                      <item>Peet, William W. (25.13)</item>
+                      <item>Robbins, Frank E. (27.10)</item>
+                    </list>
+                  </item>
+                </list>
               </item>
               <item>Military History
-                <list type="simple"><item>Spaulding, Oliver L. (31.1-31.3)</item></list>
+                <list type="simple">
+                  <item>Spaulding, Oliver L. (31.1-31.3)</item>
+                </list>
               </item>
               <item>Multi-Areas
-                <list type="simple"><item>Freer, Charles (13.3-13.4, 13.11, 67.1-67.8, 68.1-68.10, 69.1-69.16)</item><item>Greene, Belle da Costa (14.2-14.16)</item><item>Hyvernat, Henry (17.11-17.15)</item><item>Moore, Charles (23.12-23.14)</item><item>Sanders, Henry A. (29.3-29.9, 69.2, 136.5)</item><item>Swain, George (32.1-32.3)</item></list>
+                <list type="simple">
+                  <item>Freer, Charles (13.3-13.4, 13.11, 67.1-67.8, 68.1-68.10, 69.1-69.16)</item>
+                  <item>Greene, Belle da Costa (14.2-14.16)</item>
+                  <item>Hyvernat, Henry (17.11-17.15)</item>
+                  <item>Moore, Charles (23.12-23.14)</item>
+                  <item>Sanders, Henry A. (29.3-29.9, 69.2, 136.5)</item>
+                  <item>Swain, George (32.1-32.3)</item>
+                </list>
               </item>
               <item>Music
-                <list type="simple"><item>Kelsey, Ruth (20.1-20.2)</item><item>Lockwood, Albert (21.7)</item><item>Sink, Charles (61.5-65.9, 62.1-62.4)</item><item>Stanley, Albert A. (62.5-62.9)</item></list>
+                <list type="simple">
+                  <item>Kelsey, Ruth (20.1-20.2)</item>
+                  <item>Lockwood, Albert (21.7)</item>
+                  <item>Sink, Charles (61.5-65.9, 62.1-62.4)</item>
+                  <item>Stanley, Albert A. (62.5-62.9)</item>
+                </list>
               </item>
               <item>Papyri
-                <list type="simple"><item>Anderson, John W. (1.7, 82.1)</item><item>Askren, David (1.14, 82.2-82.9)</item><item>Austin, Willard (2.3)</item><item>Bacon, Paul (2.6)</item><item>Baird, Charles (5.1)</item><item>Bell, H. Idris (82.10-82.12)</item><item>Bill, Clarence (3.7, 83.7)</item><item>Bishop, William W. (83.11-83.6)</item><item>Boak, Arthur E. R. (3.11)</item><item>Bonner, Campbell (3.14)</item><item>Breasted, James H. (4.6)</item><item>Brummer, Joseph (83.7)</item><item>Budge, E. Wallace (83.7)</item><item>Burton, Marion L. (64.4-64.8, 83.7)</item><item>Capps, Edward (5.10)</item><item>Crumm, W. E. (9.13)</item><item>Cumont, Franz (10.4)</item><item>Diamantopoulis (11.11)</item><item>Djoannu, John E. (83.7)</item><item>Edgar, C. C. (83.7)</item><item>Edwards, E. (83.7)</item><item>Eitrem, S. (83.7)</item><item>Garrett, Robert (84.5)</item><item>Gejou, I. Elias (83.8-83.9)</item><item>Goudi, Mr. (84.5)</item><item>Greene, Belle da Costa (14.16, 84.5)</item><item>Grenfell, Bernard (15.3-15.4)</item><item>Harris, Rendel (15.13)</item><item>Hecker, Frank J. (15.14)</item><item>Hill, George F. (84.5)</item><item>Hunt, A. S. (64.1)</item><item>Hutchins, Harvey B. (65.5)</item><item>Hyvernat, Henry (17.14)</item><item>Johnson, A. C. (64.5)</item><item>Kalebdjian, Freres (84.5)</item><item>Kenyon, Frederick (84.2)</item><item>Kondilios, A. N. (20.10)</item><item>Kraemer, Casper J. (84.5)</item><item>Lacau, P. (84.11)</item><item>Laird, A. G. (22.1)</item><item>Lake, Kirsopp (84.6)</item><item>Lamacraft, Charles (84.11)</item><item>Lloyd, Alfred H. (56.2-56.6)</item><item>Lodge, J. E. (84.11)</item><item>Longyear, Mary Beecher (21.12-21.14)</item><item>Lybyer, Albert H. (84.14)</item><item>Nahman, Maurice (84.7)</item><item>Peet, W. M. W. (25.13)</item><item>Petrie, W. M. F. (84.11)</item><item>Reeves, Jesse S. (27.5)</item><item>Russel, John R. (28.8-28.9)</item><item>Schmidt, Carl (84.11)</item><item>Shammas, W. G. (84.11)</item><item>Smith, Shirley W. (66.8)</item><item>Stearns, Wallace (84.11)</item><item>Van Hoesen, Henry B. (84.11)</item><item>Voynich, Wilfrid M. (84.10)</item><item>Webber, Oscar (35.1)</item><item>Webber, Richard (35.2)</item><item>Westermann, W. L. (35.8-35.10)</item><item>White, H. G. Evelyn (35.14)</item><item>Winter, John G. (36.9)</item></list>
+                <list type="simple">
+                  <item>Anderson, John W. (1.7, 82.1)</item>
+                  <item>Askren, David (1.14, 82.2-82.9)</item>
+                  <item>Austin, Willard (2.3)</item>
+                  <item>Bacon, Paul (2.6)</item>
+                  <item>Baird, Charles (5.1)</item>
+                  <item>Bell, H. Idris (82.10-82.12)</item>
+                  <item>Bill, Clarence (3.7, 83.7)</item>
+                  <item>Bishop, William W. (83.11-83.6)</item>
+                  <item>Boak, Arthur E. R. (3.11)</item>
+                  <item>Bonner, Campbell (3.14)</item>
+                  <item>Breasted, James H. (4.6)</item>
+                  <item>Brummer, Joseph (83.7)</item>
+                  <item>Budge, E. Wallace (83.7)</item>
+                  <item>Burton, Marion L. (64.4-64.8, 83.7)</item>
+                  <item>Capps, Edward (5.10)</item>
+                  <item>Crumm, W. E. (9.13)</item>
+                  <item>Cumont, Franz (10.4)</item>
+                  <item>Diamantopoulis (11.11)</item>
+                  <item>Djoannu, John E. (83.7)</item>
+                  <item>Edgar, C. C. (83.7)</item>
+                  <item>Edwards, E. (83.7)</item>
+                  <item>Eitrem, S. (83.7)</item>
+                  <item>Garrett, Robert (84.5)</item>
+                  <item>Gejou, I. Elias (83.8-83.9)</item>
+                  <item>Goudi, Mr. (84.5)</item>
+                  <item>Greene, Belle da Costa (14.16, 84.5)</item>
+                  <item>Grenfell, Bernard (15.3-15.4)</item>
+                  <item>Harris, Rendel (15.13)</item>
+                  <item>Hecker, Frank J. (15.14)</item>
+                  <item>Hill, George F. (84.5)</item>
+                  <item>Hunt, A. S. (64.1)</item>
+                  <item>Hutchins, Harvey B. (65.5)</item>
+                  <item>Hyvernat, Henry (17.14)</item>
+                  <item>Johnson, A. C. (64.5)</item>
+                  <item>Kalebdjian, Freres (84.5)</item>
+                  <item>Kenyon, Frederick (84.2)</item>
+                  <item>Kondilios, A. N. (20.10)</item>
+                  <item>Kraemer, Casper J. (84.5)</item>
+                  <item>Lacau, P. (84.11)</item>
+                  <item>Laird, A. G. (22.1)</item>
+                  <item>Lake, Kirsopp (84.6)</item>
+                  <item>Lamacraft, Charles (84.11)</item>
+                  <item>Lloyd, Alfred H. (56.2-56.6)</item>
+                  <item>Lodge, J. E. (84.11)</item>
+                  <item>Longyear, Mary Beecher (21.12-21.14)</item>
+                  <item>Lybyer, Albert H. (84.14)</item>
+                  <item>Nahman, Maurice (84.7)</item>
+                  <item>Peet, W. M. W. (25.13)</item>
+                  <item>Petrie, W. M. F. (84.11)</item>
+                  <item>Reeves, Jesse S. (27.5)</item>
+                  <item>Russel, John R. (28.8-28.9)</item>
+                  <item>Schmidt, Carl (84.11)</item>
+                  <item>Shammas, W. G. (84.11)</item>
+                  <item>Smith, Shirley W. (66.8)</item>
+                  <item>Stearns, Wallace (84.11)</item>
+                  <item>Van Hoesen, Henry B. (84.11)</item>
+                  <item>Voynich, Wilfrid M. (84.10)</item>
+                  <item>Webber, Oscar (35.1)</item>
+                  <item>Webber, Richard (35.2)</item>
+                  <item>Westermann, W. L. (35.8-35.10)</item>
+                  <item>White, H. G. Evelyn (35.14)</item>
+                  <item>Winter, John G. (36.9)</item>
+                </list>
               </item>
               <item>Pendleton Library
-                <list type="simple"><item>Buckley, Paul (66.2)</item><item>Hall, Arthur G. (66.1)</item><item>Hutchins, Harvey B. (65.6)</item><item>Pendleton, Catherine B. (25.14-25.15)</item><item>Stillings, J. S. (32.8)</item></list>
+                <list type="simple">
+                  <item>Buckley, Paul (66.2)</item>
+                  <item>Hall, Arthur G. (66.1)</item>
+                  <item>Hutchins, Harvey B. (65.6)</item>
+                  <item>Pendleton, Catherine B. (25.14-25.15)</item>
+                  <item>Stillings, J. S. (32.8)</item>
+                </list>
               </item>
               <item>Pendleton Scholarships
-                <list type="simple"><item>Pendleton, Catherine B. (24.14-15.15)</item><item>Stillings, J. S. (32.8)</item></list>
+                <list type="simple">
+                  <item>Pendleton, Catherine B. (24.14-15.15)</item>
+                  <item>Stillings, J. S. (32.8)</item>
+                </list>
               </item>
               <item>Photographers
-                <list type="simple"><item>Blake, Robert P. (3.9)</item><item>Swain, George (32.1-32.3, 152.6-152.9)</item></list>
+                <list type="simple">
+                  <item>Blake, Robert P. (3.9)</item>
+                  <item>Swain, George (32.1-32.3, 152.6-152.9)</item>
+                </list>
               </item>
               <item>Pompeii Wall Paintings
-                <list type="simple"><item>Merriam, John C. (23.5)</item></list>
+                <list type="simple">
+                  <item>Merriam, John C. (23.5)</item>
+                </list>
               </item>
               <item>Relief Work (see also Belgian Relief Committee)
-                <list type="simple"><item>Nichole, James H. (25.2)</item><item>Norton, Ellen (25.3)</item><item>Trowbridge, Stephen (33.7)</item></list>
+                <list type="simple">
+                  <item>Nichole, James H. (25.2)</item>
+                  <item>Norton, Ellen (25.3)</item>
+                  <item>Trowbridge, Stephen (33.7)</item>
+                </list>
               </item>
               <item>Tablets
-                <list type="simple"><item>Assyrian
-                    <list type="simple"><item>Anderson, John W. (1.7)</item></list>
-                  </item><item>Cuneform
-                    <list type="simple"><item>Fleming, R. B. (12.15)</item><item>Jackson, J. B. (18.13)</item><item>Wilson, Dwight A. (38.7)</item></list>
-                  </item><item>Wax
-                    <list type="simple"><item>Lythgoe, Albert M. 21.19</item></list>
-                  </item></list>
+                <list type="simple">
+                  <item>Assyrian
+                    <list type="simple">
+                      <item>Anderson, John W. (1.7)</item>
+                    </list>
+                  </item>
+                  <item>Cuneform
+                    <list type="simple">
+                      <item>Fleming, R. B. (12.15)</item>
+                      <item>Jackson, J. B. (18.13)</item>
+                      <item>Wilson, Dwight A. (38.7)</item>
+                    </list>
+                  </item>
+                  <item>Wax
+                    <list type="simple">
+                      <item>Lythgoe, Albert M. 21.19</item>
+                    </list>
+                  </item>
+                </list>
               </item>
               <item>Thesaurus
-                <list type="simple"><item>Dittman, G. (11.1)</item></list>
+                <list type="simple">
+                  <item>Dittman, G. (11.1)</item>
+                </list>
               </item>
               <item>Washington's Bust
-                <list type="simple"><item>Barmore, Charles (2.9)</item></list>
+                <list type="simple">
+                  <item>Barmore, Charles (2.9)</item>
+                </list>
               </item>
               <item>World War, Peace
-                <list type="simple"><item>Bezard, J. (3.6)</item><item>Hoskier, H. C. (17.2)</item><item>Hutchins, Harvey B. (65.4)</item><item>Kelsey, Charlotte (19.5)</item><item>Kelsey, Ruth (20.1-20.2)</item><item>Mc Allister, Tom (22.9)</item><item>Monroe, Robert (53.6)</item><item>Norton, Richard (25.4-25.5)</item><item>Parker, Lee Norton (151.2)</item><item>Reid, James S. (27.6)</item><item>Waldo, Lewis (34.8)</item><item>White, Henry (38.6)</item><item>Wilner, George (38.7)</item><item>Wilson, Clarence (53.6)</item><item>Wilson, George (53.6)</item></list>
+                <list type="simple">
+                  <item>Bezard, J. (3.6)</item>
+                  <item>Hoskier, H. C. (17.2)</item>
+                  <item>Hutchins, Harvey B. (65.4)</item>
+                  <item>Kelsey, Charlotte (19.5)</item>
+                  <item>Kelsey, Ruth (20.1-20.2)</item>
+                  <item>Mc Allister, Tom (22.9)</item>
+                  <item>Monroe, Robert (53.6)</item>
+                  <item>Norton, Richard (25.4-25.5)</item>
+                  <item>Parker, Lee Norton (151.2)</item>
+                  <item>Reid, James S. (27.6)</item>
+                  <item>Waldo, Lewis (34.8)</item>
+                  <item>White, Henry (38.6)</item>
+                  <item>Wilner, George (38.7)</item>
+                  <item>Wilson, Clarence (53.6)</item>
+                  <item>Wilson, George (53.6)</item>
+                </list>
               </item>
               <item>Y.M.C.A.
-                <list type="simple"><item>Snyder, Harry J. (30.14)</item></list>
+                <list type="simple">
+                  <item>Snyder, Harry J. (30.14)</item>
+                </list>
               </item>
             </list>
           </item>

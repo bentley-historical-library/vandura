@@ -53,9 +53,6 @@
         <corpname source="lcnaf" encodinganalog="110">University of Michigan. School of Natural Resources and Environment.</corpname>
       </origination>
       <unittitle encodinganalog="245">School of Natural Resources and Environment (University of Michigan) records <unitdate type="inclusive" normal="1903/2012" encodinganalog="245$f">1903-2012</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">75 linear feet, 1 outsize box, 1 outsize folder, 1 outsize volume, and 989 MB.</extent>
-      </physdesc>
       <abstract>Academic unit of the University of Michigan established in 1903 as the Department of Forestry. Records include dean's administrative files, correspondence, minutes, reports and photographs documenting the administration of the school as well as classroom and field activities.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">87308 Bimu C241 2 BImu Out</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
@@ -63,6 +60,21 @@
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">75 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize boxes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">989 MB</extent>
+      </physdesc>
       <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
     </did>
     <descgrp type="admin">
@@ -278,8 +290,11 @@
             <unittitle>
               <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
             </unittitle>
-            <physdesc>
-              <extent>1 volume and 2 folders</extent>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+            </physdesc>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
@@ -300,8 +315,11 @@
             <unittitle>
               <unitdate type="inclusive" normal="1978/1980">1978/79-1979/80</unitdate>
             </unittitle>
-            <physdesc>
-              <extent>1 volume and 2 folders</extent>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+            </physdesc>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
@@ -480,7 +498,7 @@
                 <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
               </unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+                <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
             </did>
           </c03>
@@ -798,7 +816,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">4</container>
-                <unittitle>Faculty Policy Decisions 1927-1953, A Record of</unittitle>
+                <unittitle>Faculty Policy Decisions <unitdate normal="1927/1953" type="inclusive">1927-1953</unitdate>, A Record of</unittitle>
               </did>
             </c04>
           </c03>
@@ -2432,8 +2450,8 @@
                 <did>
                   <container type="folder" label="Oversize Folder">1</container>
                   <unittitle>Ringwood Forest <unitdate type="inclusive" normal="1931">1931</unitdate>, <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-                  <physdesc>
-                    <extent>3 maps</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 maps</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -2444,8 +2462,8 @@
                 <did>
                   <container type="folder" label="Oversize Folder">1</container>
                   <unittitle>Saginaw Forest <unitdate type="inclusive" normal="1932/1963">1932-1963</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>9 maps</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">9 maps</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -2456,8 +2474,8 @@
                 <did>
                   <container type="folder" label="Oversize Folder">1</container>
                   <unittitle>Stinchfield Woods <unitdate type="inclusive" normal="1936/1964">1936-1964</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>14 maps</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">14 maps</extent>
                   </physdesc>
                 </did>
                 <accessrestrict>
@@ -8473,7 +8491,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Associate Dean's Correspondence Files, 1983-1989</unittitle>
+          <unittitle>Associate Dean's Correspondence Files, <unitdate normal="1983/1989" type="inclusive">1983-1989</unitdate></unittitle>
         </did>
         <scopecontent>
           <p>The Associate Dean's Correspondence Files series (3 linear ft.) consists of outgoing correspondence of Associate Dean John Bassett arranged chronologically. Topics generally relate to academic and curricular issues and cover the years 1983/84 through 1989.</p>
@@ -8689,8 +8707,9 @@
               <did>
                 <container type="box" label="Box">49</container>
                 <unittitle>Alumni <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
-                <physdesc>
-                  <extent>1 black and white image</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 images</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -8702,8 +8721,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Annual Banquets <unitdate type="inclusive" normal="1904">1904</unitdate>, <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
-                  <physdesc>
-                    <extent>2 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -8711,8 +8731,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Banquet in Honor of Gifford Pinchot <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
-                  <physdesc>
-                    <extent>1 b&amp;w image</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">1 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -8734,8 +8755,12 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Baxter, Dow V. <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>1 b&amp;w image and 2 negatives</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 images</extent>
+                    <physfacet>black and white</physfacet>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">2 negatives</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -8779,8 +8804,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Kauffman, C.H. <unitdate type="inclusive" normal="1930">1930</unitdate> (bas relief of)</unittitle>
-                  <physdesc>
-                    <extent>2 b&amp;w images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -8806,8 +8832,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Roth, Filibert <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>2 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -8821,8 +8848,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Spurr, Stephen H. <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>3 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -8837,8 +8865,9 @@
               <did>
                 <container type="box" label="Box">49</container>
                 <unittitle>Silvics Laboratory <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
-                <physdesc>
-                  <extent>1 black and white image</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 images</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -8846,8 +8875,9 @@
               <did>
                 <container type="box" label="Box">49</container>
                 <unittitle>Stinchfield Woods <unitdate type="inclusive" normal="1932" certainty="approximate">1932 undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>13 black and white images</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">13 images</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -8859,8 +8889,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>General <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>2 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -8986,8 +9017,9 @@
               <did>
                 <container type="box" label="Box">49</container>
                 <unittitle>Au Sable Forest Farm <unitdate>undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>4 black and white images</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 images</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -8995,8 +9027,9 @@
               <did>
                 <container type="box" label="Box">49</container>
                 <unittitle>Blaney Park <unitdate>undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>11 black and white images</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">11 images</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -9004,8 +9037,9 @@
               <did>
                 <container type="box" label="Box">49</container>
                 <unittitle>David Ward Estate <unitdate type="inclusive" normal="1908" certainty="approximate">1908 undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>50 black and white images</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">50 images</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -9013,8 +9047,9 @@
               <did>
                 <container type="box" label="Box">49</container>
                 <unittitle>Huron National Forest <unitdate>undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>2 black and white images</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 images</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -9022,8 +9057,9 @@
               <did>
                 <container type="box" label="Box">49</container>
                 <unittitle>Lake States Forest Experiment Station <unitdate>undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>4 b&amp;w images</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 images</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -9035,8 +9071,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Benzie Co. and Betsie River <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>10 b&amp;w images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">10 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9044,8 +9081,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Cadillac (mostly Cobbs and Mitchell Inc.) <unitdate type="inclusive" normal="1911">1911</unitdate>, <unitdate type="inclusive" normal="1920/1921">1920-1921</unitdate>, <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>17 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">17 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9053,8 +9091,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Grand Traverse County <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>16 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">16 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9062,8 +9101,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Johannesburg (North Mill and Johannesburg Sawmill) <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>25 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">25 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9071,8 +9111,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Leelanau County <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>4 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">4 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9080,16 +9121,18 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Loud Lumber Co. (Charles, MI) <unitdate type="inclusive" normal="1914/1915">1914-1915</unitdate></unittitle>
-                  <physdesc>
-                    <extent>5 b&amp;w images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">5 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
                   <unittitle>W.J. Brinen's Photos of W.J. Brinen Lumber Co., Thayer Lumber Co., and L.G. Mason Lumber Co. <unitdate type="inclusive" normal="1938/1941">1938-1941</unitdate></unittitle>
-                  <physdesc>
-                    <extent>31 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">31 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
                 <odd>
@@ -9107,8 +9150,9 @@
               <did>
                 <container type="box" label="Box">49</container>
                 <unittitle>Rock Harbor Lighthouse <unitdate>undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>2 black and white images</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 images</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -9116,8 +9160,9 @@
               <did>
                 <container type="box" label="Box">49</container>
                 <unittitle>Tindal and Jackson Estate <unitdate>undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>5 black and white images</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 images</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -9136,8 +9181,9 @@
               <did>
                 <container type="box" label="Box">49</container>
                 <unittitle>Firefighters (includes camp scenes) <unitdate>undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>11 b&amp;w images</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">11 images</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -9145,8 +9191,9 @@
               <did>
                 <container type="box" label="Box">49</container>
                 <unittitle>Forest Fires and Related Activities (includes fire trains) <unitdate type="inclusive" normal="1926">1926</unitdate>, <unitdate type="inclusive" normal="1929" certainty="approximate">1929 undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>30 black and white images</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">30 images</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -9158,8 +9205,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Fishery Management <unitdate type="inclusive" normal="1911" certainty="approximate">1911 undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>5 b&amp;w images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">5 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9167,8 +9215,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Lookout Stations (interiors and exteriors) <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>11 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">11 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9176,8 +9225,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Reforestation Activities <unitdate type="inclusive" normal="1914" certainty="approximate">1914 undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>28 b&amp;w images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">28 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9185,8 +9235,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Research and Forest Activities <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>18 b&amp;w images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">18 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9199,8 +9250,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Alabama and Arkansas (primarily Dierks Lumber and Coal Company) <unitdate type="inclusive" normal="1926" certainty="approximate">1926 undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>18 b&amp;w images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">18 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9208,8 +9260,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Arizona (primarily Saginaw and Manistee Lumber Company) <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>6 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">6 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9217,8 +9270,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>California <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>8 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">8 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9226,8 +9280,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Georgia <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>12 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">12 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9235,8 +9290,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Idaho <unitdate type="inclusive" normal="1910" certainty="approximate">1910 undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>7 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">7 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9244,8 +9300,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Louisiana <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>9 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">9 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9253,8 +9310,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Mississippi <unitdate type="inclusive" normal="1920" certainty="approximate">1920 undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>8 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">8 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9262,8 +9320,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Montana <unitdate type="inclusive" normal="1905/1914">1905-1914</unitdate>, <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>20 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">20 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9271,8 +9330,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>New York <unitdate type="inclusive" normal="1919" certainty="approximate">1919 undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>8 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">8 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9280,8 +9340,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Oklahoma, Oregon <unitdate>undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>25 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">25 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9289,8 +9350,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>South Carolina <unitdate type="inclusive" normal="1946" certainty="approximate">1946 undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>3 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9298,8 +9360,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Washington <unitdate type="inclusive" normal="1915">1915</unitdate>, <unitdate type="inclusive" normal="1918" certainty="approximate">1918 undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>20 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">20 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
                 <odd>
@@ -9310,8 +9373,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Miscellaneous States and Unidentified</unittitle>
-                  <physdesc>
-                    <extent>2 folders of 34 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders of 34 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9320,8 +9384,9 @@
               <did>
                 <container type="box" label="Box">49</container>
                 <unittitle>Machinery <unitdate>undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>25 black and white images</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">25 images</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -9333,8 +9398,9 @@
                 <did>
                   <container type="box" label="Box">49</container>
                   <unittitle>Akley, Minnesota <unitdate type="inclusive" normal="1905/1906">1905-1906</unitdate></unittitle>
-                  <physdesc>
-                    <extent>11 black and white images</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">11 images</extent>
+                    <physfacet>black and white</physfacet>
                   </physdesc>
                 </did>
               </c05>
@@ -9346,8 +9412,9 @@
                   <did>
                     <container type="box" label="Box">49</container>
                     <unittitle>Aberdeen <unitdate type="inclusive" normal="1907" certainty="approximate">1907 undated</unitdate></unittitle>
-                    <physdesc>
-                      <extent>3 black and white images</extent>
+                    <physdesc altrender="whole">
+                      <extent altrender="materialtype spaceoccupied">3 images</extent>
+                      <physfacet>black and white</physfacet>
                     </physdesc>
                   </did>
                 </c06>
@@ -9355,8 +9422,9 @@
                   <did>
                     <container type="folder" label="Oversize Folder">1</container>
                     <unittitle>Buckley <unitdate type="inclusive" normal="1900/1908">1900-1908</unitdate>, <unitdate>undated</unitdate></unittitle>
-                    <physdesc>
-                      <extent>7 black and white images</extent>
+                    <physdesc altrender="whole">
+                      <extent altrender="materialtype spaceoccupied">7 images</extent>
+                      <physfacet>black and white</physfacet>
                     </physdesc>
                   </did>
                   <odd>
@@ -9596,8 +9664,12 @@
                 <did>
                   <container type="box" label="Box">70</container>
                   <unittitle>First Four Deans, circa <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-                  <physdesc>
-                    <extent>1 folder and 1 outsize located in box 76</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 folders</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 oversize</extent>
+                    <extent altrender="carrier">(located in box 76)</extent>
                   </physdesc>
                 </did>
                 <odd>
@@ -9632,8 +9704,12 @@
                 <did>
                   <container type="box" label="Box">70</container>
                   <unittitle>Arnold, Keith <unitdate type="inclusive">undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>1 folder and 1 outsize located in box 76</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 folders</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 oversize</extent>
+                    <extent altrender="carrier">(located in box 76)</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -9785,8 +9861,12 @@
                 <did>
                   <container type="box" label="Box">70</container>
                   <unittitle>Carow, John <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-                  <physdesc>
-                    <extent>1 folder and 1 outsize located in box 76</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 folders</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 oversize</extent>
+                    <extent altrender="carrier">(located in box 76)</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -10463,8 +10543,12 @@
                 <did>
                   <container type="box" label="Box">71</container>
                   <unittitle>Spurr, Stephen <unitdate type="inclusive">undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>1 folder and 1 outsize located in box 76</extent>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 folders</extent>
+                  </physdesc>
+                  <physdesc altrender="part">
+                    <extent altrender="materialtype spaceoccupied">1 oversize</extent>
+                    <extent altrender="carrier">(located in box 76)</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -10656,8 +10740,12 @@
               <did>
                 <container type="box" label="Box">71</container>
                 <unittitle>Saginaw Forest <unitdate type="inclusive" normal="1904/1945">1904-1945</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>8 photographs, outsize located in outsize folder in Box 76</extent>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">8 photographs</extent>
+                </physdesc>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">oversize</extent>
+                  <extent altrender="carrier">(located in oversize folder in Box 76)</extent>
                 </physdesc>
               </did>
             </c04>
@@ -10733,8 +10821,8 @@
               <did>
                 <container type="box" label="Box">50A</container>
                 <unittitle>Dodge Munuscong State Park</unittitle>
-                <physdesc>
-                  <extent>3 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -10748,8 +10836,8 @@
               <did>
                 <container type="box" label="Box">50A</container>
                 <unittitle>Fort Wilkins State Park</unittitle>
-                <physdesc>
-                  <extent>5 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -10769,8 +10857,8 @@
               <did>
                 <container type="box" label="Box">50A</container>
                 <unittitle>Highway 94, Munising to Marquette</unittitle>
-                <physdesc>
-                  <extent>2 slide</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -10782,8 +10870,8 @@
                 <did>
                   <container type="box" label="Box">50A</container>
                   <unittitle>Ives Lake</unittitle>
-                  <physdesc>
-                    <extent>2 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -10844,8 +10932,8 @@
                 <did>
                   <container type="box" label="Box">50A</container>
                   <unittitle>Duncan Bay</unittitle>
-                  <physdesc>
-                    <extent>2 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -10853,8 +10941,8 @@
                 <did>
                   <container type="box" label="Box">50A</container>
                   <unittitle>Fire of 1936 at Siskowit Bay (includes aftermath) <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-                  <physdesc>
-                    <extent>20 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">20 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -10862,8 +10950,8 @@
                 <did>
                   <container type="box" label="Box">50A</container>
                   <unittitle>McCargoes Cove</unittitle>
-                  <physdesc>
-                    <extent>2 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -10899,8 +10987,8 @@
                   <did>
                     <container type="box" label="Box">50A</container>
                     <unittitle>Small Island near</unittitle>
-                    <physdesc>
-                      <extent>4 slides</extent>
+                    <physdesc altrender="whole">
+                      <extent altrender="materialtype spaceoccupied">4 slides</extent>
                     </physdesc>
                   </did>
                 </c06>
@@ -10943,8 +11031,8 @@
                   <did>
                     <container type="box" label="Box">50A</container>
                     <unittitle>Trees and Lumber</unittitle>
-                    <physdesc>
-                      <extent>3 slides</extent>
+                    <physdesc altrender="whole">
+                      <extent altrender="materialtype spaceoccupied">3 slides</extent>
                     </physdesc>
                   </did>
                 </c06>
@@ -10959,8 +11047,8 @@
                 <did>
                   <container type="box" label="Box">50A</container>
                   <unittitle>Siskowit Lake Outlet</unittitle>
-                  <physdesc>
-                    <extent>2 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -10987,8 +11075,8 @@
               <did>
                 <container type="box" label="Box">50A</container>
                 <unittitle>Mackinac Island</unittitle>
-                <physdesc>
-                  <extent>2 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11002,8 +11090,8 @@
               <did>
                 <container type="box" label="Box">50B</container>
                 <unittitle>Menominee River</unittitle>
-                <physdesc>
-                  <extent>3 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11017,8 +11105,8 @@
               <did>
                 <container type="box" label="Box">50B</container>
                 <unittitle>Porcupine Mountains</unittitle>
-                <physdesc>
-                  <extent>6 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">6 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11038,8 +11126,8 @@
               <did>
                 <container type="box" label="Box">50B</container>
                 <unittitle>Tahquamenon River and Falls</unittitle>
-                <physdesc>
-                  <extent>17 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">17 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11064,8 +11152,8 @@
               <did>
                 <container type="box" label="Box">50B</container>
                 <unittitle>Au Sable River</unittitle>
-                <physdesc>
-                  <extent>2 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11079,8 +11167,8 @@
               <did>
                 <container type="box" label="Box">50B</container>
                 <unittitle>Camp Algonquin, Burt Lake</unittitle>
-                <physdesc>
-                  <extent>3 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11088,8 +11176,8 @@
               <did>
                 <container type="box" label="Box">50B</container>
                 <unittitle>Camp Hayo-Went-Ha, Torch Lake</unittitle>
-                <physdesc>
-                  <extent>2 slide</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11103,8 +11191,8 @@
               <did>
                 <container type="box" label="Box">50B</container>
                 <unittitle>Glen Haven State Park</unittitle>
-                <physdesc>
-                  <extent>2 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11112,8 +11200,8 @@
               <did>
                 <container type="box" label="Box">50B</container>
                 <unittitle>Harrisville State Park</unittitle>
-                <physdesc>
-                  <extent>2 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11121,8 +11209,8 @@
               <did>
                 <container type="box" label="Box">50B</container>
                 <unittitle>Hartwick Pines State Park</unittitle>
-                <physdesc>
-                  <extent>2 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11130,8 +11218,8 @@
               <did>
                 <container type="box" label="Box">50B</container>
                 <unittitle>Higgins Lake State Park</unittitle>
-                <physdesc>
-                  <extent>3 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11139,16 +11227,16 @@
               <did>
                 <container type="box" label="Box">50B</container>
                 <unittitle>Hubbard Lake</unittitle>
-                <physdesc>
-                  <extent>6 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">6 slides</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <unittitle>Ludington State Park</unittitle>
-                <physdesc>
-                  <extent>8 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">8 slides</extent>
                 </physdesc>
               </did>
               <c05 level="file">
@@ -11168,8 +11256,8 @@
               <did>
                 <container type="box" label="Box">50C</container>
                 <unittitle>Petoskey</unittitle>
-                <physdesc>
-                  <extent>3 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11228,8 +11316,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>Island Park</unittitle>
-                  <physdesc>
-                    <extent>2 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11249,8 +11337,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>Mullett Pond <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
-                  <physdesc>
-                    <extent>2 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11258,8 +11346,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>Packard Road Residences</unittitle>
-                  <physdesc>
-                    <extent>2 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11273,8 +11361,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>Stevens, F.W., Garden of</unittitle>
-                  <physdesc>
-                    <extent>2 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11288,8 +11376,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>Tealdi Garden</unittitle>
-                  <physdesc>
-                    <extent>6 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">6 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11303,8 +11391,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>University of Michigan Central Campus Trees and Foliage <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
-                  <physdesc>
-                    <extent>5 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">5 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11312,8 +11400,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>Warthin, A.S., Residence of</unittitle>
-                  <physdesc>
-                    <extent>4 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">4 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11322,8 +11410,8 @@
               <did>
                 <container type="box" label="Box">50C</container>
                 <unittitle>Belle Isle</unittitle>
-                <physdesc>
-                  <extent>7 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">7 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11401,8 +11489,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>Utica</unittitle>
-                  <physdesc>
-                    <extent>2 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11417,8 +11505,8 @@
               <did>
                 <container type="box" label="Box">50C</container>
                 <unittitle>Cranbrook Institute</unittitle>
-                <physdesc>
-                  <extent>8 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">8 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11436,8 +11524,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>Woodlawn Cemetery</unittitle>
-                  <physdesc>
-                    <extent>7 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">7 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11446,8 +11534,8 @@
               <did>
                 <container type="box" label="Box">50C</container>
                 <unittitle>Dexter-Huron Park</unittitle>
-                <physdesc>
-                  <extent>3 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11490,8 +11578,8 @@
               <did>
                 <container type="box" label="Box">50C</container>
                 <unittitle>Grand Rapids, Tree Moving <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
-                <physdesc>
-                  <extent>7 slide</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">7 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11532,8 +11620,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>Franklin School</unittitle>
-                  <physdesc>
-                    <extent>2 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11541,8 +11629,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>High School</unittitle>
-                  <physdesc>
-                    <extent>4 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">4 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11550,8 +11638,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>Methodist Church</unittitle>
-                  <physdesc>
-                    <extent>3 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11571,8 +11659,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>Waldenwoods</unittitle>
-                  <physdesc>
-                    <extent>4 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">4 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11585,8 +11673,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>General</unittitle>
-                  <physdesc>
-                    <extent>2 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11683,8 +11771,8 @@
                 <did>
                   <container type="box" label="Box">50C</container>
                   <unittitle>Ford Lake</unittitle>
-                  <physdesc>
-                    <extent>5 slides</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">5 slides</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -11782,8 +11870,8 @@
               <did>
                 <container type="box" label="Box">50C</container>
                 <unittitle>Midland Courthouse</unittitle>
-                <physdesc>
-                  <extent>2 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11809,8 +11897,8 @@
               <did>
                 <container type="box" label="Box">50C</container>
                 <unittitle>Williamston Kettle Hole Project</unittitle>
-                <physdesc>
-                  <extent>2 slides</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 slides</extent>
                 </physdesc>
               </did>
             </c04>
@@ -11825,8 +11913,8 @@
             <did>
               <container type="box" label="Box">72</container>
               <unittitle>Douglas Lake Release Cutting <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
-              <physdesc>
-                <extent>1 small box</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 boxes</extent>
               </physdesc>
             </did>
           </c03>
@@ -11834,8 +11922,8 @@
             <did>
               <container type="box" label="Box">72</container>
               <unittitle>Miscellaneous</unittitle>
-              <physdesc>
-                <extent>1 small box</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 boxes</extent>
               </physdesc>
             </did>
           </c03>
@@ -11843,8 +11931,8 @@
             <did>
               <container type="box" label="Box">72</container>
               <unittitle>Saginaw Forest <unitdate type="inclusive" normal="1915/1925">1915-1925</unitdate></unittitle>
-              <physdesc>
-                <extent>6 small boxes</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 boxes</extent>
               </physdesc>
             </did>
           </c03>
@@ -11852,8 +11940,8 @@
             <did>
               <container type="box" label="Box">72</container>
               <unittitle>Stinchfield Woods</unittitle>
-              <physdesc>
-                <extent>3 small boxes</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 boxes</extent>
               </physdesc>
             </did>
           </c03>
@@ -11861,8 +11949,9 @@
             <did>
               <container type="box" label="Box">72</container>
               <unittitle>Tree Species</unittitle>
-              <physdesc>
-                <extent>11 slides in plastic bag</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 slides</extent>
+                <extent altrender="carrier">(in plastic bag)</extent>
               </physdesc>
             </did>
           </c03>
@@ -11870,8 +11959,8 @@
             <did>
               <container type="box" label="Box">72</container>
               <unittitle>Unidentified</unittitle>
-              <physdesc>
-                <extent>1 small box</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 boxes</extent>
               </physdesc>
             </did>
           </c03>
@@ -12026,8 +12115,8 @@
               <did>
                 <container type="box" label="Box">73</container>
                 <unittitle><unitdate type="inclusive" normal="1928">1928</unitdate> Forestry Sequences -- Saginaw Forest, Camp Filibert Roth</unittitle>
-                <physdesc>
-                  <extent>3 tapes</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 tapes</extent>
                 </physdesc>
               </did>
             </c04>
@@ -12118,8 +12207,8 @@
               <did>
                 <container type="box" label="Box">74</container>
                 <unittitle>Camp Filibert Roth <unitdate type="inclusive">undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>2 reels</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 reels</extent>
                 </physdesc>
               </did>
             </c04>
@@ -12275,8 +12364,8 @@
                 <did>
                   <container type="box" label="Box">75</container>
                   <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate></unittitle>
-                  <physdesc>
-                    <extent>2 tapes</extent>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 tapes</extent>
                   </physdesc>
                 </did>
               </c05>
@@ -12290,8 +12379,8 @@
               <did>
                 <container type="box" label="Box">75</container>
                 <unittitle>Bob Grese, Ken Polakowski, and Ian Grandison <unitdate type="inclusive">undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>3 tapes</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 tapes</extent>
                 </physdesc>
               </did>
             </c04>
@@ -12315,8 +12404,8 @@
               <did>
                 <container type="box" label="Box">75</container>
                 <unittitle>General Program Information <unitdate type="inclusive">undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>3 tapes</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 tapes</extent>
                 </physdesc>
               </did>
             </c04>

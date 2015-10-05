@@ -38,11 +38,11 @@
         <corpname source="lcnaf" encodinganalog="110">Bentley Historical Library.</corpname>
       </origination>
       <unittitle encodinganalog="245">Commercial catalog collection <unitdate type="inclusive" encodinganalog="245$f" normal="1870/2009" certainty="approximate">1870s-2000s</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">527 items</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">FB 2; C357; M678</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">527 items</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -774,7 +774,7 @@ Commercial catalog collection, Bentley Historical Library, University of Michiga
               <container type="box" label="Box">2</container>
               <unittitle><unitdate type="inclusive">Undated</unitdate>, Oliver 35 Tractor</unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
           </c03>
@@ -783,7 +783,7 @@ Commercial catalog collection, Bentley Historical Library, University of Michiga
               <container type="box" label="Box">2</container>
               <unittitle><unitdate type="inclusive">Undated</unitdate>, Oliver Model 20 Tractor</unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
           </c03>
@@ -792,7 +792,7 @@ Commercial catalog collection, Bentley Historical Library, University of Michiga
               <container type="box" label="Box">2</container>
               <unittitle><unitdate type="inclusive">Undated</unitdate>, Oliver Model 25 Tractor</unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
           </c03>
@@ -3167,8 +3167,9 @@ Commercial catalog collection, Bentley Historical Library, University of Michiga
             <did>
               <container type="box" label="Box">13</container>
               <unittitle>[Leaflet for roofing tile <unitdate type="inclusive">undated</unitdate></unittitle>
-              <physdesc>
-                <extent>4 p. (1 sheet folded)</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 p</extent>
+                <physfacet>1 sheet folded</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -4165,8 +4166,11 @@ Commercial catalog collection, Bentley Historical Library, University of Michiga
             <did>
               <container type="box" label="Box">15</container>
               <unittitle>Physical apparatus catalogue [instruments used for physics classes] <unitdate type="inclusive">after 1913</unitdate></unittitle>
-              <physdesc>
-                <extent>2 copies, 1 with later additions tipped in</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">2 copies</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 with later additions tipped in</extent>
               </physdesc>
             </did>
           </c03>
@@ -4475,8 +4479,8 @@ Commercial catalog collection, Bentley Historical Library, University of Michiga
             <did>
               <container type="box" label="Box">16</container>
               <unittitle>Folder <unitdate type="inclusive" normal="1895" certainty="approximate">circa 1895</unitdate></unittitle>
-              <physdesc>
-                <extent>3 leaves</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 leaves</extent>
               </physdesc>
             </did>
           </c03>

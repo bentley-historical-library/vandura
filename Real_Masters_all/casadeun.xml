@@ -42,15 +42,15 @@
         <corpname source="lcnaf" encodinganalog="110">Casa de Unidad (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Casa de Unidad records <unitdate type="inclusive" encodinganalog="245$f" normal="1980/2006">1980-2006</unitdate></unittitle>
-      <physdesc altrender="part">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">7 linear feet</extent>
-      </physdesc>
-      <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied" encodinganalog="300">1 oversize folder</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009121 Bd 2; Bd Outsize</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language> and <language langcode="spa" encodinganalog="041">Spanish</language></langmaterial>
       <abstract>The records of the Casa de Unidad Cultural Arts and Media Center cover the organization’s efforts to promote, develop, and celebrate Hispanic and Latino arts and traditions in Southwest Detroit. The record group consists primarily of correspondence, board minutes, grant proposals and reports, newsletters, event and program budgets, event flyers, educational workshop reports and audio material.</abstract>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">7 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -621,8 +621,11 @@ Casa de Unidad records, Bentley Historical Library, University of Michigan</p>
             <did>
               <container type="box" label="Box">4</container>
               <unittitle>Machito Memorial Concert <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-              <physdesc>
-                <extent>2 folders and 1 oversize poster</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
               </physdesc>
             </did>
           </c03>

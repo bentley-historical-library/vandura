@@ -38,12 +38,19 @@
         <persname source="lcnaf" encodinganalog="100"> Gonzales, Jesse </persname>
       </origination>
       <unittitle encodinganalog="245"> Jesse Gonzales papers <unitdate type="inclusive" encodinganalog="245$f"> 1968-2014 </unitdate> <unitdate type="bulk" encodinganalog="245$g"> 1982-2012 </unitdate> </unittitle>
-      <physdesc>
-        <extent encodinganalog="300">1 linear foot, 1 oversize folder, and 7.7GB (online) </extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number"> 2014079 Aa 2 UAl </unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language> </langmaterial>
       <abstract> The papers of Jesse Gonzales document the Latino and Hispanic communities in Michigan, primarily within the Lansing area, and elsewhere. Materials include photographs, both analog and digital, as well as personal and biographical information about Gonzales and his family, his poetry and selected writings. Additionally, the papers contain printed materials about cultural and art programs and festivals in the state. </abstract>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">7.7GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan </corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -211,8 +218,8 @@
             <did>
               <container type="box" label="Box">1</container>
               <unittitle>Festival programs, <unitdate type="inclusive" normal="2001/2013">2001-2013</unitdate> </unittitle>
-              <physdesc>
-                <extent>2 folders</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
@@ -1301,8 +1308,9 @@
             <did>
               <container type="folder" label="Oversize">1</container>
               <unittitle>No Es Lejos <unitdate type="inclusive" normal="2001">2001</unitdate> </unittitle>
-              <physdesc>
-                <extent>2 mounted color photographs</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 mounted photographs</extent>
+                <physfacet>color</physfacet>
               </physdesc>
             </did>
           </c03>

@@ -38,12 +38,15 @@
         <corpname source="lcnaf" encodinganalog="110">Bay View Association.</corpname>
       </origination>
       <unittitle encodinganalog="245">Bay View Association records <unitdate type="inclusive" encodinganalog="245$f" normal="1875/1997">1875-1997</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">0.5 linear feet and 43 microfilm rolls</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8571 Bp 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Leases, lot books, and assessment rolls; annual reports, minutes of trustees' meetings, published material, and transcripts of interviews with residents.</abstract>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">0.5 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">43 microfilms</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -965,8 +968,8 @@ Bay View Association records, Bentley Historical Library, University of Michigan
           <did>
             <container type="box" label="Box">1</container>
             <unittitle>Videotape (VHS): "In Celebration of Bay View, A National Historic Landmark," <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-            <physdesc>
-              <extent>2 copies</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 copies</extent>
             </physdesc>
           </did>
         </c02>

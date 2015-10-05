@@ -57,16 +57,16 @@
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
       </origination>
       <unittitle encodinganalog="245">College of Engineering (University of Michigan) records <unitdate type="inclusive" encodinganalog="245 $f" normal="1860/2010">1860-2010</unitdate>, <unitdate type="inclusive" encodinganalog="245 $g" normal="1900/1980">1900-1980</unitdate></unittitle>
-      <physdesc altrender="part">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">101 linear feet</extent>
-      </physdesc>
-      <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied" encodinganalog="300">3 oversize folders</extent>
-      </physdesc>
       <abstract>Records of the University of Michigan College of Engineering include histories, correspondence and topical files of deans; minutes of the executive and other committees; faculty records, including minutes of meetings and faculty biographies; miscellaneous student and alumni records; and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">8781 Bimu C141 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>Boxes 1-37 stored offsite. Two days notice required for retrieval.</physloc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">101 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 oversize folders</extent>
+      </physdesc>
       <repository encodinganalog="852">
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -2579,7 +2579,7 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">39</container>
-                    <unittitle>National Advisory Committee, 1984-1989</unittitle>
+                    <unittitle>National Advisory Committee, <unitdate normal="1984/1989" type="inclusive">1984-1989</unitdate></unittitle>
                     <physdesc altrender="whole">
                       <extent altrender="materialtype spaceoccupied">6 folders</extent>
                     </physdesc>
@@ -3213,7 +3213,7 @@
                   <c07 level="file">
                     <did>
                       <container type="box" label="Box">41</container>
-                      <unittitle>Visits by and Trips to GM, 1987-1989</unittitle>
+                      <unittitle>Visits by and Trips to GM, <unitdate normal="1987/1989" type="inclusive">1987-1989</unitdate></unittitle>
                       <physdesc altrender="whole">
                         <extent altrender="materialtype spaceoccupied">6 folders</extent>
                       </physdesc>
@@ -3254,7 +3254,7 @@
                   <c07 level="file">
                     <did>
                       <container type="box" label="Box">42</container>
-                      <unittitle>Visits by and Trips to IBM, 1986-1988</unittitle>
+                      <unittitle>Visits by and Trips to IBM, <unitdate normal="1986/1988" type="inclusive">1986-1988</unitdate></unittitle>
                       <physdesc altrender="whole">
                         <extent altrender="materialtype spaceoccupied">3 folders</extent>
                       </physdesc>
@@ -3660,7 +3660,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">43</container>
-                  <unittitle>Research Excellence Fund, 1985-1989</unittitle>
+                  <unittitle>Research Excellence Fund, <unitdate normal="1985/1989" type="inclusive">1985-1989</unitdate></unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
@@ -4979,7 +4979,7 @@
                 <unitdate type="inclusive" normal="1984/1988">1984-1988</unitdate>
               </unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
             <accessrestrict>
@@ -5368,7 +5368,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">51</container>
-                  <unittitle>Appointments and Recruitment, 1986-1987</unittitle>
+                  <unittitle>Appointments and Recruitment, <unitdate normal="1986/1987" type="inclusive">1986-1987</unitdate></unittitle>
                 </did>
                 <accessrestrict>
                   <p>[PR RESTRICTED until <date type="restriction" normal="2062-01-01">Jan. 1, 2062</date>]</p>
@@ -5506,7 +5506,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">45</container>
-                  <unittitle>Review of Engineering Programs, 1984-1985</unittitle>
+                  <unittitle>Review of Engineering Programs, <unitdate normal="1984/1985" type="inclusive">1984-1985</unitdate></unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
@@ -5924,7 +5924,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">46</container>
-                  <unittitle>Science Development Council, 1988-1989</unittitle>
+                  <unittitle>Science Development Council, <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate></unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">3 folders</extent>
                   </physdesc>
@@ -6880,8 +6880,11 @@
             <did>
               <container type="box" label="Box">61</container>
               <unittitle>Sea Grant Proposal <unitdate type="inclusive" normal="1969/1978">1969-1978</unitdate></unittitle>
-              <physdesc>
-                <extent>1 volume, 1 folder</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
           </c03>
@@ -7240,8 +7243,11 @@
                 <unittitle>
                   <unitdate type="inclusive" normal="1980/1984-07">1980-July 1984</unitdate>
                 </unittitle>
-                <physdesc>
-                  <extent>3 binders, 13 folders</extent>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+                </physdesc>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">13 folders</extent>
                 </physdesc>
               </did>
             </c04>
@@ -7396,8 +7402,11 @@
           <c03 level="file">
             <did>
               <unittitle>Administrative Committee <unitdate type="inclusive" normal="1946/1982">1946-1982</unitdate></unittitle>
-              <physdesc>
-                <extent>5 volumes, 3 folders</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">5 volumes</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
             <c04 level="file">
@@ -7463,8 +7472,11 @@
           <c03 level="file">
             <did>
               <unittitle>Scholastic Standing <unitdate type="inclusive" normal="1959/1984">1959-1984</unitdate></unittitle>
-              <physdesc>
-                <extent>5 volumes and 1 folder</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">5 volumes</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
             <c04 level="file">
@@ -7720,8 +7732,9 @@
                 <unittitle>
                   <unitdate type="inclusive" normal="1895/1901">1895-1901</unitdate>
                 </unittitle>
-                <physdesc>
-                  <extent>2 sets in 4 volumes</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 sets</extent>
+                  <extent altrender="carrier">(in 4 volumes)</extent>
                 </physdesc>
               </did>
             </c04>
@@ -7857,8 +7870,8 @@
               <did>
                 <container type="box" label="Box">35</container>
                 <unittitle>The University College, 1927-28</unittitle>
-                <physdesc>
-                  <extent>1 volume</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 volumes</extent>
                 </physdesc>
               </did>
             </c04>
@@ -8391,8 +8404,8 @@
               <did>
                 <container type="box" label="Box">92</container>
                 <unittitle>Moore, Arthur, <unitdate type="inclusive" normal="1960/1990">1960-1990</unitdate></unittitle>
-                <physdesc>
-                  <extent>2 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
@@ -8640,7 +8653,7 @@
               <container label="Box" type="box">35</container>
               <unittitle>Admissions <unitdate type="inclusive" normal="1895/1904">1895-1904</unitdate></unittitle>
               <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+                <extent altrender="materialtype spaceoccupied">1 volumes</extent>
               </physdesc>
             </did>
           </c03>
@@ -8742,7 +8755,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">77</container>
-                <unittitle>General Correspondence <unitdate type="inclusive" normal="1904/1961">1904-1961</unitdate> (bulk 1924-1929)</unittitle>
+                <unittitle>General Correspondence <unitdate type="inclusive" normal="1904/1961">1904-1961</unitdate> (<unitdate normal="1924/1929" type="bulk">bulk 1924-1929</unitdate>)</unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -9166,8 +9179,8 @@
             <did>
               <container type="box" label="Box">62</container>
               <unittitle>Enrollment Statistics <unitdate type="inclusive" normal="1947/1953">1947-1953</unitdate></unittitle>
-              <physdesc>
-                <extent>7 volumes</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">7 volumes</extent>
               </physdesc>
             </did>
           </c03>
@@ -9175,8 +9188,8 @@
             <did>
               <container label="Box" type="box">63</container>
               <unittitle>Enrollment Statistics <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate></unittitle>
-              <physdesc>
-                <extent>2 volumes</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
           </c03>
@@ -9801,8 +9814,11 @@
           <c03 level="file">
             <did>
               <unittitle>Budgets <unitdate type="inclusive" normal="1937/1979">1937-1979</unitdate></unittitle>
-              <physdesc>
-                <extent>8 volumes, 1 folder</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">8 volumes</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 folders</extent>
               </physdesc>
             </did>
             <c04 level="file">
@@ -11123,8 +11139,9 @@
               <did>
                 <container type="box" label="Box">50</container>
                 <unittitle>Michigan Aviation Hall of Fame event,C. Vest receiving plaque <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-                <physdesc>
-                  <extent>1 color positive print</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 prints</extent>
+                  <physfacet>color</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -11142,8 +11159,9 @@
             <did>
               <container type="box" label="Box">50</container>
               <unittitle>Chrysler Institute of Engineering, Junior Engineers, Classes of <unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></unittitle>
-              <physdesc>
-                <extent>1 portrait book, black and white</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+                <physfacet>black and white</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -11277,8 +11295,9 @@
             <did>
               <container label="Box" type="box">82</container>
               <unittitle>Aerial and Construction Views of North Campus <unitdate type="inclusive" normal="1955" certainty="approximate">circa 1955</unitdate>, <unitdate type="inclusive" normal="1964">1964</unitdate>, <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-              <physdesc>
-                <extent>5 black and white prints</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 prints</extent>
+                <physfacet>black and white</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -11290,8 +11309,9 @@
               <did>
                 <container type="box" label="Box">82</container>
                 <unittitle>Class of 1904 Reunions <unitdate type="inclusive" normal="1914/1954">1914-1954</unitdate>, <unitdate>undated</unitdate></unittitle>
-                <physdesc>
-                  <extent>25 black and white prints</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">25 prints</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -11299,8 +11319,9 @@
               <did>
                 <container type="box" label="Box">82</container>
                 <unittitle>Class of '42 E Plaza <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-                <physdesc>
-                  <extent>3 color prints</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 prints</extent>
+                  <physfacet>color</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -11308,8 +11329,9 @@
               <did>
                 <container type="box" label="Box">82</container>
                 <unittitle>Classes of <unitdate type="inclusive" normal="1911">1911</unitdate>, <unitdate type="inclusive" normal="1920">1920</unitdate>, <unitdate type="inclusive" normal="1930">1930</unitdate>, <unitdate type="inclusive" normal="1938">1938</unitdate>, <unitdate type="inclusive" normal="1936/1973">1936-1973</unitdate></unittitle>
-                <physdesc>
-                  <extent>4 black and white prints</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 prints</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -11318,8 +11340,13 @@
             <did>
               <container type="box" label="Box">82</container>
               <unittitle>Building Exteriors <unitdate type="inclusive" normal="1961/1988">1961-1988</unitdate>, <unitdate>undated</unitdate></unittitle>
-              <physdesc>
-                <extent>13 black and white, 3 color prints</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">13</extent>
+                <physfacet>black and white</physfacet>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">3 prints</extent>
+                <physfacet>color</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -11327,8 +11354,9 @@
             <did>
               <container type="box" label="Box">82</container>
               <unittitle>Building Interiors <unitdate type="inclusive" normal="1930/1939" certainty="approximate">circa 1930s</unitdate></unittitle>
-              <physdesc>
-                <extent>4 black and white prints</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 prints</extent>
+                <physfacet>black and white</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -11336,8 +11364,9 @@
             <did>
               <container type="box" label="Box">82</container>
               <unittitle>Camp Davis and Surveying Groups <unitdate type="inclusive" normal="1875">1875</unitdate>, <unitdate type="inclusive" normal="1917">1917</unitdate>, <unitdate>undated</unitdate></unittitle>
-              <physdesc>
-                <extent>5 black and white prints</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 prints</extent>
+                <physfacet>black and white</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -11351,8 +11380,9 @@
             <did>
               <container type="box" label="Box">82</container>
               <unittitle>Diversity Day (includes picture of Andrew Young) <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
-              <physdesc>
-                <extent>9 black and white prints</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">9 prints</extent>
+                <physfacet>black and white</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -11364,8 +11394,9 @@
               <did>
                 <container type="box" label="Box">82</container>
                 <unittitle>Group Portraits <unitdate type="inclusive" normal="1928/1930">1928-1930</unitdate></unittitle>
-                <physdesc>
-                  <extent>10 black and white prints</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">10 prints</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -11373,8 +11404,10 @@
               <did>
                 <container type="box" label="Box">82</container>
                 <unittitle>Individual Portraits <unitdate type="inclusive" normal="1950/1989" certainty="approximate">circa 1950s-1980s</unitdate></unittitle>
-                <physdesc>
-                  <extent>50 black and white portraits in 2 folders</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">50 portraits</extent>
+                  <extent altrender="carrier">(in 2 folders)</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -11383,8 +11416,10 @@
             <did>
               <container type="box" label="Box">82</container>
               <unittitle>Laboratories and Equipment <unitdate type="inclusive" normal="1910/1929" certainty="approximate">circa 1910s-1920s</unitdate></unittitle>
-              <physdesc>
-                <extent>38 black and white prints in 2 folders</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">38 prints</extent>
+                <extent altrender="carrier">(in 2 folders)</extent>
+                <physfacet>black and white</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -11392,8 +11427,10 @@
             <did>
               <container type="box" label="Box">82</container>
               <unittitle>Laboratory and Library Scenes <unitdate type="inclusive" normal="1920/1929" certainty="approximate">circa 1920s</unitdate></unittitle>
-              <physdesc>
-                <extent>17 black and white prints in 1 binder</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">17 prints</extent>
+                <extent altrender="carrier">(in 1 binder)</extent>
+                <physfacet>black and white</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -11407,8 +11444,9 @@
               <did>
                 <container type="box" label="Box">82</container>
                 <unittitle>Experimental Car <unitdate type="inclusive" normal="1970" certainty="approximate">circa 1970</unitdate></unittitle>
-                <physdesc>
-                  <extent>4 black and white prints</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 prints</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -11416,8 +11454,9 @@
               <did>
                 <container type="box" label="Box">82</container>
                 <unittitle>Laboratory scenes <unitdate type="inclusive" normal="1970/1979" certainty="approximate">circa 1970s</unitdate></unittitle>
-                <physdesc>
-                  <extent>9 black and white prints</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">9 prints</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -11425,8 +11464,9 @@
               <did>
                 <container type="box" label="Box">82</container>
                 <unittitle>Student Life <unitdate type="inclusive" normal="1970/1979" certainty="approximate">circa 1970s</unitdate></unittitle>
-                <physdesc>
-                  <extent>30 black and white prints</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">30 prints</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -11434,8 +11474,9 @@
               <did>
                 <container type="box" label="Box">82</container>
                 <unittitle>Student Life, incl. Society of Women Engineers Career Fair <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></unittitle>
-                <physdesc>
-                  <extent>5 black and white contact sheets, a few negatives</extent>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 contact sheets, a few negatives</extent>
+                  <physfacet>black and white</physfacet>
                 </physdesc>
               </did>
             </c04>
@@ -11444,8 +11485,13 @@
             <did>
               <container type="box" label="Box">82</container>
               <unittitle>Miscellaneous <unitdate type="inclusive" normal="1970/1989" certainty="approximate">circa 1970s-1980s</unitdate></unittitle>
-              <physdesc>
-                <extent>4 color and 12 black and white positive prints</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">4</extent>
+                <physfacet>color</physfacet>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">12 prints</extent>
+                <physfacet>black and white</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -11453,8 +11499,9 @@
             <did>
               <container type="box" label="Box">82</container>
               <unittitle>Miscellaneous Buildings and Faculty <unitdate type="inclusive" normal="1850/1939" certainty="approximate">circa 1850s-1930s</unitdate></unittitle>
-              <physdesc>
-                <extent>114 black and white prints1 binder</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">114 prints1 binder</extent>
+                <physfacet>black and white</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -11462,8 +11509,10 @@
             <did>
               <container type="box" label="Box">82</container>
               <unittitle>Negatives-some may match prints <unitdate type="inclusive" normal="1910/1929" certainty="approximate">circa 1910s-1920s</unitdate></unittitle>
-              <physdesc>
-                <extent>28 black and white 8x10 negatives</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">28 negatives</extent>
+                <physfacet>black and white</physfacet>
+                <dimensions>8x10</dimensions>
               </physdesc>
             </did>
           </c03>
@@ -11471,8 +11520,9 @@
             <did>
               <container type="box" label="Box">82</container>
               <unittitle>North Campus Scenes <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-              <physdesc>
-                <extent>17 black and white prints</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">17 prints</extent>
+                <physfacet>black and white</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -11480,8 +11530,13 @@
             <did>
               <container type="box" label="Box">82</container>
               <unittitle>Recruitment Fair <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
-              <physdesc>
-                <extent>2 black and white, 7 color prints</extent>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">2</extent>
+                <physfacet>black and white</physfacet>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">7 prints</extent>
+                <physfacet>color</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -11702,8 +11757,8 @@
             <did>
               <container type="box" label="Box">83</container>
               <unittitle>Portraits of Prominent Alumni <unitdate type="inclusive" normal="1910/1929" certainty="approximate">circa 1910s-1920s</unitdate></unittitle>
-              <physdesc>
-                <extent>26 prints</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">26 prints</extent>
               </physdesc>
             </did>
           </c03>
@@ -12668,8 +12723,9 @@
           <did>
             <container type="box" label="CD Box">2</container>
             <unittitle>Website capture <unitdate type="inclusive" normal="2002-05-15">May 15, 2002</unitdate></unittitle>
-            <physdesc>
-              <extent>1 cd</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
+              <physfacet>CDs</physfacet>
             </physdesc>
           </did>
           <odd>
@@ -12680,8 +12736,9 @@
           <did>
             <container type="box" label="CD Box">2</container>
             <unittitle>Website capture <unitdate type="inclusive" normal="2003-06-23">June 23, 2003</unitdate></unittitle>
-            <physdesc>
-              <extent>1 cd</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
+              <physfacet>CDs</physfacet>
             </physdesc>
           </did>
           <odd>

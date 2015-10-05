@@ -42,12 +42,12 @@
         <corpname source="lcnaf" encodinganalog="110">Norse Civic Association.</corpname>
       </origination>
       <unittitle encodinganalog="245">Norse Civic Association records <unitdate type="inclusive" encodinganalog="245$f" normal="1934/2007">1934-2007</unitdate></unittitle>
-      <physdesc altrender="whole">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">6 linear feet</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852017 Bd 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Detroit area Scandinavian-American civic organization; organizational records; files relating to Scandinavian-American history, organizations, and personages.</abstract>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">6 linear feet</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -211,8 +211,11 @@
           <did>
             <container type="box" label="Box">6</container>
             <unittitle>Membership material</unittitle>
-            <physdesc>
-              <extent>4 volumes and 1 folder</extent>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+            </physdesc>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">1 folders</extent>
             </physdesc>
           </did>
         </c02>
@@ -220,8 +223,8 @@
           <did>
             <container type="box" label="Box">3</container>
             <unittitle>Membership card file</unittitle>
-            <physdesc>
-              <extent>2 boxes</extent>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 boxes</extent>
             </physdesc>
           </did>
         </c02>

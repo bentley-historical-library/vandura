@@ -42,12 +42,16 @@
         <corpname source="lcnaf" encodinganalog="110">University of Michigan. Faculty Women’s Club.</corpname>
       </origination>
       <unittitle encodinganalog="245">University of Michigan. Faculty Women’s Club records <unitdate type="inclusive" encodinganalog="245$f" normal="1921/2004">1921-2004</unitdate></unittitle>
-      <physdesc altrender="whole">
-        <extent encodinganalog="300" altrender="materialtype spaceoccupied">14.5 linear feet (in 15 boxes) and 1 oversize volume</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87165 Bimu;M3;2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Proceedings, treasurer's reports, committee reports, scrapbooks, and various administrative records.</abstract>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">14.5 linear feet</extent>
+        <extent altrender="carrier">(in 15 boxes)</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize volumes</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -1723,8 +1727,8 @@ University of Michigan Faculty Women’s Club records, Bentley Historical Librar
             <did>
               <container type="box" label="Box">12</container>
               <unittitle>Audiotapes <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-              <physdesc>
-                <extent>6 audio-cassettes</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 audiocassettes</extent>
               </physdesc>
             </did>
           </c03>

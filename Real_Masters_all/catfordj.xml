@@ -38,12 +38,16 @@
         <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87150218">Catford, J. C. (John Cunnison), 1917-</persname>
       </origination>
       <unittitle encodinganalog="245">J. C. Catford papers <unitdate type="inclusive" encodinganalog="245$f" normal="1969/1985">1969-1985</unitdate></unittitle>
-      <physdesc>
-        <extent encodinganalog="300">0.3 linear feet, 2.97 GB (online)</extent>
-      </physdesc>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012026 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of linguistics at the University of Michigan from 1964 to 1986; includes eight lectures given by Catford on the occasion of his retirement, handouts from the lectures, a letter supporting Catford's nomination for the Distinguished Faculty Achievement Award, an article about Catford in <title render="italic">Michigan Today</title>.</abstract>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">0.3 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2.97 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -276,8 +280,9 @@ J. C. Catford papers, Bentley Historical Library, University of Michigan</p>
             <did>
               <container type="box" label="Box">1</container>
               <unittitle>Lectures 1-8</unittitle>
-              <physdesc>
-                <extent>8 dvds</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">8 optical disks</extent>
+                <physfacet>DVDs</physfacet>
               </physdesc>
             </did>
           </c03>
@@ -285,8 +290,9 @@ J. C. Catford papers, Bentley Historical Library, University of Michigan</p>
             <did>
               <container type="box" label="Box">1</container>
               <unittitle>Lectures 1-8</unittitle>
-              <physdesc>
-                <extent>8 mini DV tapes</extent>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">8 videotapes</extent>
+                <physfacet>Mini-DV</physfacet>
               </physdesc>
             </did>
             <accessrestrict>
@@ -297,7 +303,6 @@ J. C. Catford papers, Bentley Historical Library, University of Michigan</p>
             <did>
               <container type="box" label="Box">1</container>
               <unittitle>Lectures 1-8</unittitle>
-              <physdesc>4 DVCPRO tapes</physdesc>
             </did>
             <accessrestrict>
               <p>Staff use only</p>
