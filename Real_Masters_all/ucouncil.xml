@@ -5,7 +5,7 @@
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::ucouncil.xml//EN" encodinganalog="identifier">umich-bhl-87338</eadid>
     <filedesc>
       <titlestmt>
-        <titleproper encodinganalog="title">Finding Aid for University Council (University of Michigan) records, 1931-1948</titleproper>
+        <titleproper encodinganalog="title">Finding Aid for University Council (University of Michigan) records, 1931-1948 and 1970-1989</titleproper>
         <author encodinganalog="creator">Collection processed and finding aid created by Bentley Staff</author>
       </titlestmt>
       <publicationstmt>
@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20151013</date>
+        <item>Added missing series.</item>
+      </change>
+      <change>
         <date>20050131</date>
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
@@ -27,7 +31,7 @@
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
-      <titleproper>Finding aid for <lb/>University Council <lb/>(University of Michigan), <lb/>Records, 1931-1948</titleproper>
+      <titleproper>Finding aid for <lb/>University Council <lb/>(University of Michigan), <lb/>Records, 1931-1948 and 1970-1989</titleproper>
       <author>Finding aid created by <lb/>Bentley Staff</author>
     </titlepage>
   </frontmatter>
@@ -36,12 +40,12 @@
       <origination>
         <corpname source="lcnaf" encodinganalog="110">University of Michigan. University Council.</corpname>
       </origination>
-      <unittitle encodinganalog="245">University Council (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1931/1948">1931-1948</unitdate></unittitle>
+      <unittitle encodinganalog="245">University Council (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1931/1948">1931-1948</unitdate> and <unitdate type="inclusive" encodinganalog="245$f" normal="1970/1989">1970-1989</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">87338 Bimu B31a 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The University Council was originally created to replace the Senate Council in 1931. Membership consisted of the President of the University, members selected by the President, and representatives elected by the different schools and colleges of the University. The Council was concerned with academic policies affecting the University as a whole, or policy questions which concerned two or more schools or colleges. In 1948 The Council was disbanded and most of its functions were taken over by a reconstituted and much more powerful Senate Advisory Committee on Academic Affairs (SACUA). The record group consists of minutes of meetings, 1931-1947 (3 v.); accompanying documents, 1931-1945 (13 v.); committee reports, scattered correspondence, topical files, and material on reconstituted University Council, 1970-1987.</abstract>
       <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+        <extent altrender="materialtype spaceoccupied">2.25 linear feet</extent>
       </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
@@ -73,7 +77,7 @@ University Council (University of Michigan) Records, Bentley Historical Library,
       <p>In 1948, upon recommendation of the Provost, the Regents approved a resolution which abolished the University Council. Most of its functions were taken over by a reconstituted and much more powerful Senate Advisory Committee on Academic Affairs (SACUA).</p>
     </bioghist>
     <scopecontent encodinganalog="520">
-      <p>The University Council Records include seven series: Standing Committees, Committees (reports), Correspondence and Other Papers, Correspondence with Board of Regents, Topical Files, Minutes (bound volumes), and Accompanying Documents (bound volumes).</p>
+      <p>The University Council records include eight series: Standing Committees, Committees (reports), Correspondence and Other Papers, Correspondence with Board of Regents, Topical Files, Minutes (bound volumes), Accompanying Documents (bound volumes), and University Council, 1970-1989. The records primarily document the original University Council in operation from 1931 to 1948. Records from this period present a broad overview of campus issues and policies. The materials offer insight into how the university adapted to changes brought about during World War II..</p>
     </scopecontent>
     <controlaccess>
       <p>
@@ -348,7 +352,12 @@ University Council (University of Michigan) Records, Bentley Historical Library,
             </unittitle>
           </did>
         </c02>
-        <c02 level="file">
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Accompanying Documents (bound volumes)</unittitle>
+        </did>
+      <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
             <unittitle>
@@ -366,7 +375,7 @@ University Council (University of Michigan) Records, Bentley Historical Library,
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box">2</container>
             <unittitle>
               <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>
             </unittitle>
@@ -374,7 +383,7 @@ University Council (University of Michigan) Records, Bentley Historical Library,
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box">2</container>
             <unittitle>
               <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
             </unittitle>
@@ -382,7 +391,7 @@ University Council (University of Michigan) Records, Bentley Historical Library,
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box">2</container>
             <unittitle>
               <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate>
             </unittitle>
@@ -390,7 +399,7 @@ University Council (University of Michigan) Records, Bentley Historical Library,
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box">2</container>
             <unittitle>
               <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
             </unittitle>
@@ -398,7 +407,7 @@ University Council (University of Michigan) Records, Bentley Historical Library,
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box">2</container>
             <unittitle>
               <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
             </unittitle>
@@ -406,7 +415,7 @@ University Council (University of Michigan) Records, Bentley Historical Library,
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box">2</container>
             <unittitle>
               <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
             </unittitle>
@@ -414,7 +423,7 @@ University Council (University of Michigan) Records, Bentley Historical Library,
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box">2</container>
             <unittitle>
               <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
             </unittitle>
@@ -422,7 +431,7 @@ University Council (University of Michigan) Records, Bentley Historical Library,
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box">2</container>
             <unittitle>
               <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
             </unittitle>
@@ -430,7 +439,7 @@ University Council (University of Michigan) Records, Bentley Historical Library,
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box">2</container>
             <unittitle>
               <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate>
             </unittitle>
@@ -438,7 +447,7 @@ University Council (University of Michigan) Records, Bentley Historical Library,
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box">2</container>
             <unittitle>
               <unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
             </unittitle>
@@ -446,10 +455,174 @@ University Council (University of Michigan) Records, Bentley Historical Library,
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box">2</container>
             <unittitle>
               <unitdate type="inclusive" normal="1943/1945">1943-1945</unitdate>
             </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>University Council</unittitle>
+        </did>
+        <scopecontent>
+          <p>The University Council, 1970-1989 (.75 linear feet) series contains documents representing the later University Council activities. A significant portion of the series relates to the council's attempts to redefine bylaw 7.02 before its expiration. Correspondence with the Board of Regents and President Duderstadt are also present in the discussion to determine the future of the council. Other topics of interest include studies determining the need for campus police, firearm registration, noise on the Diag, and policy for protests on University property. Minutes in this series are partial at best.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Articles of Interest <unitdate type="inclusive" normal="1988-06/1988-09">June-September 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Civil Liberties and Civil Liberties Board <unitdate type="inclusive" normal="1986-04/1989-05">April 1986-May 1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Croxton, Tom <unitdate type="inclusive" normal="1989-02/1989-04">February-April 1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Emergency Guidelines Drafts and Communications <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Establishment of Campus Police <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate></unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Firearm Regulations <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Freedom of Speech <unitdate type="inclusive" normal="1988-05/1989-11">May 1988-November 1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Formal Mechanisms <unitdate type="inclusive" normal="1989-01/1989-11">January-November 1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>History <unitdate type="inclusive" normal="1988-12/1989-06">December 1988-June 1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Member Communication <unitdate type="inclusive" normal="1988-05/1989-09">May 1988-September 1989</unitdate> and <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Membership <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Minutes <unitdate type="inclusive" normal="1970-05/1974-02">May 1970-February 1974</unitdate></unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Minutes <unitdate type="inclusive" normal="1989-02/1989-12">February-December 1989</unitdate> and <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Neutral Observer <unitdate type="inclusive" normal="1988-06/09">June 1988-March 1989</unitdate> and <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Noise on the Diag <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Notes <unitdate type="inclusive" normal="1988-11/1989-05">November 1988-May 1989</unitdate> and <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Ordinance Governing Use of Arboretum <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Organization <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Other Schools' Procedures <unitdate type="inclusive" normal="1971/1988-11">1971-November 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Racism <unitdate type="inclusive" normal="1989-02">February 1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Regents Action <unitdate type="inclusive" normal="1988-07/1989-05">July 1988-May 1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Regents Bylaws 2.01, 5.09, 7.02 <unitdate type="inclusive" normal="1975-10/1988-11">October 1975-November 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Report on Campus Police Protection <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Rules of the University Community Drafts and Communication <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>University Council Rules and Procedures <unitdate type="inclusive" normal="1973-03/1989-02">March 1973-February 1989</unitdate></unittitle>
           </did>
         </c02>
       </c01>
