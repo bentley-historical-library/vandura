@@ -61,10 +61,10 @@
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">8781 Bimu C141 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>Boxes 1-37 stored offsite. Two days notice required for retrieval.</physloc>
-      <physdesc altrender="whole">
+      <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">101 linear feet</extent>
       </physdesc>
-      <physdesc altrender="whole">
+      <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">3 oversize folders</extent>
       </physdesc>
       <repository encodinganalog="852">
@@ -12769,13 +12769,37 @@
           </did>
         </c02>
       </c01>
-      <c01 level="series"><did><unittitle>Committees</unittitle></did><scopecontent><p>The 2004 accession consists of three volumes relating to the College of Engineering's strategic plan for future years. It adds a new subseries, Strategic Planning Committee, 2004, to the Committee Records series. In addition to the general College of Engineering Strategic Plan, dated April 1, 2004, the accession includes an August 2004 report from the Strategic Planning Implementation Communication Committee and a May 2004 volume from the Strategic Planning Implementation Faculty Committee. </p></scopecontent>
-
-
-<c02 level="subseries"><did><unittitle>Strategic Plan, <unitdate type="inclusive">2004</unitdate></unittitle></did>
-<c03 level="file"><did><container type="box" label="Box">102</container><unittitle>Strategic Plan, <unitdate type="inclusive">April 1, 2004</unitdate></unittitle></did></c03>
-<c03 level="file"><did><container type="box" label="Box">102</container><unittitle>Strategic Planning Implementation Communication Committee Report, <unitdate type="inclusive">August 2004</unitdate></unittitle></did></c03>
-<c03 level="file"><did><container type="box" label="Box">102</container><unittitle>Strategic Planning Implementation Faculty Committee Report, <unitdate type="inclusive">May 2004</unitdate></unittitle></did></c03></c02></c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Committees</unittitle>
+        </did>
+        <scopecontent>
+          <p>The 2004 accession consists of three volumes relating to the College of Engineering's strategic plan for future years. It adds a new subseries, Strategic Planning Committee, 2004, to the Committee Records series. In addition to the general College of Engineering Strategic Plan, dated April 1, 2004, the accession includes an August 2004 report from the Strategic Planning Implementation Communication Committee and a May 2004 volume from the Strategic Planning Implementation Faculty Committee. </p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Strategic Plan, <unitdate type="inclusive">2004</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">102</container>
+              <unittitle>Strategic Plan, <unitdate type="inclusive">April 1, 2004</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">102</container>
+              <unittitle>Strategic Planning Implementation Communication Committee Report, <unitdate type="inclusive">August 2004</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">102</container>
+              <unittitle>Strategic Planning Implementation Faculty Committee Report, <unitdate type="inclusive">May 2004</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
     </dsc>
   </archdesc>
 </ead>
