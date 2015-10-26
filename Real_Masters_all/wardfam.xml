@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20151013</date>
+        <item>2015 accession added.</item>
+      </change>
+      <change>
         <date>20150723</date>
         <item>Corrected extent, dates, and container listing.</item>
       </change>
@@ -36,27 +40,27 @@
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding Aid for <lb/>Ward Family Papers, <date type="inclusive">1860-1964</date></titleproper>
-      <author>Finding aid prepared by: <lb/>Christine Weideman, 1987 <lb/>Amy Scott, 2003 accession</author>
+      <author>Finding aid prepared by: <lb/>Christine Weideman, 1987 <lb/>Amy Scott, 2003 <lb/>Elena Colon-Marrero, 2015</author>
     </titlepage>
   </frontmatter>
-  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="marc21">
     <did>
       <origination>
         <famname source="lcnaf" encodinganalog="100">Ward family.</famname>
       </origination>
       <unittitle encodinganalog="245">Ward Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1964">1860-1964</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1900/1940">1900-1940</unitdate></unittitle>
+      <physdesc altrender="part">		
+        <extent altrender="materialtype spaceoccupied">31.2 linear feet</extent>		
+      </physdesc>		
+      <physdesc altrender="part">		
+        <extent altrender="materialtype spaceoccupied">1 oversize volumes</extent>		
+      </physdesc>		
+      <physdesc altrender="part">		
+        <extent altrender="materialtype spaceoccupied">8 oversize folders</extent>		
+      </physdesc>
       <abstract>Orchard Lake, Michigan, family, with various business interests, including lumbering and land transactions (in Michigan, California, West Virginia, and British Columbia), and also active in the development of the Orchard Lake area, especially from the 1920s to the 1940s; Correspondence files of individual family members, subject files detailing family interests and activities, business and legal records, maps, blueprints, and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">87212 Aa 2 AC</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
-      <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">29.2 linear feet</extent>
-      </physdesc>
-      <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">1 oversize volumes</extent>
-      </physdesc>
-      <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">8 oversize folders</extent>
-      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -64,7 +68,7 @@
     </did>
     <descgrp type="admin">
       <acqinfo encodinganalog="541">
-        <p>The collection was donated by Elizabeth Devine, Dolly Golding, and Ann Spaeth, daughters of Harold Ward (donor no. <num type="donor" encodinganalog="541$e">7249</num>) in 1985. Additional materials were donated by Susan Devine, daughter of Elizabeth Devine, in 2003.</p>
+        <p>The collection was donated by Elizabeth Devine, Dolly Golding, and Ann Spaeth, daughters of Harold Ward (donor no. <num type="donor" encodinganalog="541$e">7249</num>) in 1985. Additional materials were donated by Suzanne Devine (donor no. <num type="donor" encodinganalog="541$e">11259</num>), daughter of Elizabeth Devine, in 2015.</p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research.</p>
@@ -267,6 +271,12 @@
               <unittitle>Writings on Lumber Industry (no author) <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">31</container>
+              <unittitle>Obituaries, <unitdate normal="1834/1944">1834-1944</unitdate></unittitle>
+            </did>
+          </c03>
         </c02>
         <c02 level="subseries">
           <did>
@@ -380,7 +390,7 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">3</container>
-                    <unittitle>April 1, 1907-March 28, 1908</unittitle>
+                    <unittitle>April 1, 1907-March 28, l908</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
@@ -630,6 +640,24 @@
                 <unittitle>Receipts <unitdate type="inclusive" normal="1860/1919" certainty="approximate">1860s-1910s</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">31</container>
+                <unittitle>Student Notebook  </unittitle>
+                </did>
+            <odd>
+                  <p>(University of Michigan Medical School)</p>
+                </odd>
+              </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">31</container>
+                <unittitle>Correspondence <unitdate type="inclusive" normal="1885/1896">1885-1896</unitdate></unittitle>
+                <physdesc>
+                  <extent>15 folders</extent>
                 </physdesc>
               </did>
             </c04>
@@ -1309,9 +1337,17 @@
                 <unittitle>
                   <unitdate type="inclusive" normal="1931/1937">1931-1937</unitdate>
                 </unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">0.5 linear feet</extent>
+                <physdesc>
+                  <extent>0.5 linear feet</extent>
                 </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">31</container>
+                <unittitle>Incoming correspondence,
+                  <unitdate normal="1889">1889</unitdate>
+                </unittitle>
               </did>
             </c04>
           </c03>
@@ -1810,6 +1846,24 @@
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">31</container>
+              <unittitle>Kanawa and Elk River Railroad</unittitle>
+              <physdesc>
+                <extent> 2 folders</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">31</container>
+              <unittitle>Coit</unittitle>
+              <physdesc>
+                <extent> 7 folders</extent>
+              </physdesc>
+            </did>
+          </c03>
         </c02>
       </c01>
       <c01 level="series">
@@ -1904,8 +1958,8 @@
             <did>
               <container type="box" label="Box">28</container>
               <unittitle>Russia (Vladivostok harbor) <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">4 negatives</extent>
+              <physdesc>
+                <extent>4 negatives</extent>
               </physdesc>
             </did>
           </c03>
@@ -2096,8 +2150,8 @@
             <container label="Drawer" type="map-case">1</container>
             <container label="Folder" type="folder">3</container>
             <unittitle>British Columbia</unittitle>
-            <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">5 maps</extent>
+            <physdesc>
+              <extent>5 maps</extent>
             </physdesc>
           </did>
           <odd>
@@ -2109,8 +2163,8 @@
             <container label="Drawer" type="map-case">1</container>
             <container label="Folder" type="folder">3</container>
             <unittitle>West Virginia</unittitle>
-            <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">2 maps</extent>
+            <physdesc>
+              <extent>2 maps</extent>
             </physdesc>
           </did>
           <odd>
@@ -2122,8 +2176,8 @@
             <container label="Drawer" type="map-case">1</container>
             <container label="Folder" type="folder">4</container>
             <unittitle>California</unittitle>
-            <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">19 maps</extent>
+            <physdesc>
+              <extent>19 maps</extent>
             </physdesc>
           </did>
           <odd>
@@ -2143,8 +2197,8 @@
                 <container label="Drawer" type="map-case">1</container>
                 <container label="Folder" type="folder">5</container>
                 <unittitle>David Ward estate land holdings <unitdate type="inclusive" normal="1914/1925">1914-1925</unitdate>, <unitdate>undated</unitdate></unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">13 maps</extent>
+                <physdesc>
+                  <extent>13 maps</extent>
                 </physdesc>
               </did>
               <odd>
@@ -2156,8 +2210,8 @@
                 <container label="Drawer" type="map-case">1</container>
                 <container label="Folder" type="folder">6</container>
                 <unittitle>Land ownership maps of townships <unitdate type="inclusive" normal="1882/1889">1882-1889</unitdate>, <unitdate>undated</unitdate></unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">43 maps</extent>
+                <physdesc>
+                  <extent>43 maps</extent>
                 </physdesc>
               </did>
               <odd>
@@ -2169,8 +2223,8 @@
                 <container label="Drawer" type="map-case">1</container>
                 <container label="Folder" type="folder">7</container>
                 <unittitle>Logging operations in Antrim and Otsego Counties <unitdate type="inclusive" normal="1886/1911">1886-1911</unitdate>, <unitdate>undated</unitdate></unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">37 maps</extent>
+                <physdesc>
+                  <extent>37 maps</extent>
                 </physdesc>
               </did>
               <odd>
@@ -2183,8 +2237,8 @@
               <container label="Drawer" type="map-case">1</container>
               <container label="Folder" type="folder">8</container>
               <unittitle>Orchard Lake area <unitdate type="inclusive" normal="1922/1956">1922-1956</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">14 maps</extent>
+              <physdesc>
+                <extent>14 maps</extent>
               </physdesc>
             </did>
             <odd>
@@ -2194,5 +2248,11 @@
         </c02>
       </c01>
     </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Related Material</head>
+        <p>The Bentley Historical Library holds related material in  the <title href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-8978" show="new" actuate="onrequest">Palmer Family papers</title> and <title href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-2015052">Edmond DeVine papers</title>. </p>
+      </relatedmaterial>
+    </descgrp>
   </archdesc>
 </ead>
