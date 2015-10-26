@@ -43,24 +43,18 @@
       <author>Finding aid prepared by: <lb/>Christine Weideman, 1987 <lb/>Amy Scott, 2003 <lb/>Elena Colon-Marrero, 2015</author>
     </titlepage>
   </frontmatter>
-  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="marc21">
     <did>
       <origination>
         <famname source="lcnaf" encodinganalog="100">Ward family.</famname>
       </origination>
       <unittitle encodinganalog="245">Ward Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1964">1860-1964</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1900/1940">1900-1940</unitdate></unittitle>
+      <physdesc>
+        <extent encodinganalog="300">31.2 linear feet, 1 oversize volume, and 8 oversize folders</extent>
+      </physdesc>
       <abstract>Orchard Lake, Michigan, family, with various business interests, including lumbering and land transactions (in Michigan, California, West Virginia, and British Columbia), and also active in the development of the Orchard Lake area, especially from the 1920s to the 1940s; Correspondence files of individual family members, subject files detailing family interests and activities, business and legal records, maps, blueprints, and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">87212 Aa 2 AC</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
-      <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">31.2 linear feet</extent>
-      </physdesc>
-      <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">1 oversize volumes</extent>
-      </physdesc>
-      <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">8 oversize folders</extent>
-      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -150,7 +144,7 @@
         <genreform source="aat" encodinganalog="655">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
- <dsc type="combined">
+    <dsc type="combined">
       <c01 level="series">
         <did>
           <unittitle>Personal</unittitle>
@@ -270,10 +264,11 @@
               <container type="box" label="Box">1</container>
               <unittitle>Writings on Lumber Industry (no author) <unitdate>undated</unitdate></unittitle>
             </did>
-          </c03><c03 level="file">
+          </c03>
+          <c03 level="file">
             <did>
               <container type="box" label="Box">31</container>
-              <unittitle>Obituaries, <unitdate>1834-1944</unitdate></unittitle>
+              <unittitle>Obituaries, <unitdate normal="1834/1944">1834-1944</unitdate></unittitle>
             </did>
           </c03>
         </c02>
@@ -642,27 +637,25 @@
                 </physdesc>
               </did>
             </c04>
-          
-<c04 level="file">
+            <c04 level="file">
               <did>
                 <container type="box" label="Box">31</container>
                 <unittitle>Student Notebook  </unittitle>
-<note><p>(University of Michigan Medical School)</p></note>                
-              </did>
-            </c04><c04 level="file">
+                </did>
+            <odd>
+                  <p>(University of Michigan Medical School)</p>
+                </odd>
+              </c04>
+            <c04 level="file">
               <did>
                 <container type="box" label="Box">31</container>
-                <unittitle>Correspondence <unitdate type="inclusive">1885-1896</unitdate></unittitle>
+                <unittitle>Correspondence <unitdate type="inclusive" normal="1885/1896">1885-1896</unitdate></unittitle>
                 <physdesc>
-                <extent>15 folders</extent>
+                  <extent>15 folders</extent>
                 </physdesc>
               </did>
-            </c04>			 
-			 
-			 
-			 </c03>
-
-			 
+            </c04>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">4</container>
@@ -1343,18 +1336,15 @@
                 </physdesc>
               </did>
             </c04>
-          
-<c04 level="file">
+            <c04 level="file">
               <did>
                 <container type="box" label="Box">31</container>
                 <unittitle>Incoming correspondence,
-                  <unitdate>1889</unitdate>
+                  <unitdate normal="1889">1889</unitdate>
                 </unittitle>
-                 
               </did>
-            </c04>			 
-			 
-			 </c03>
+            </c04>
+          </c03>
         </c02>
         <c02 level="subseries">
           <did>
@@ -1850,25 +1840,25 @@
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
-        
- <c03 level="file">
+          <c03 level="file">
             <did>
               <container type="box" label="Box">31</container>
-              <unittitle>Kanawa and Elk River Railroad</unittitle><physdesc>
-              <extent>2 folders</extent>
+              <unittitle>Kanawa and Elk River Railroad</unittitle>
+              <physdesc>
+                <extent> 2 folders</extent>
               </physdesc>
             </did>
-          </c03>		  
-		  
-<c03 level="file">
+          </c03>
+          <c03 level="file">
             <did>
               <container type="box" label="Box">31</container>
-              <unittitle>Coit</unittitle><physdesc>
-              <extent>7 folders</extent>
+              <unittitle>Coit</unittitle>
+              <physdesc>
+                <extent> 7 folders</extent>
               </physdesc>
             </did>
-          </c03>		  		  
-		  </c02>
+          </c03>
+        </c02>
       </c01>
       <c01 level="series">
         <did>
@@ -2250,12 +2240,13 @@
             </odd>
           </c03>
         </c02>
-      </c01> </dsc>
-
-<descgrp type="add"><relatedmaterial><head>Related Material</head><p>The Bentley Historical Library holds related material in  the <title href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-8978" show="new" actuate="onrequest">Palmer Family papers</title> and <title href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-2015052">Edmond DeVine papers</title>. </p></relatedmaterial></descgrp>
-
-
-		
-   
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Related Material</head>
+        <p>The Bentley Historical Library holds related material in  the <title href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-8978" show="new" actuate="onrequest">Palmer Family papers</title> and <title href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-2015052">Edmond DeVine papers</title>. </p>
+      </relatedmaterial>
+    </descgrp>
   </archdesc>
 </ead>
