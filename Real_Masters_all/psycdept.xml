@@ -18,7 +18,10 @@
       <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
       <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
     </profiledesc>
-    <revisiondesc>
+    <revisiondesc><change>
+        <date>2015-10-27</date>
+        <item>Digital file added.</item>
+      </change>
       <change>
         <date>2015-01-21</date>
         <item>re-encoding after major revision from Word 2007 file using Word macros and Xmetal.</item>
@@ -33,7 +36,7 @@
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Department of Psychology <lb/>(University of Michigan) <lb/>records, 1903-1998</titleproper>
-      <author>Finding aid created by <lb/>Matthew Schaefer, 1990; <lb/>Nika Kayne, 1994; <lb/>Nancy Deromedi, 2006; <lb/>updated by Hannah Gulick, 2014</author>
+      <author>Finding aid created by <lb/>Matthew Schaefer, 1990; <lb/>Nika Kayne, 1994; <lb/>Nancy Deromedi, 2006; <lb/>updated by Hannah Gulick, 2014; <lb/>Max Eckart, 2015</author>
     </titlepage>
   </frontmatter>
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
@@ -42,13 +45,17 @@
         <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of Psychology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Department of Psychology (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1903/1998">1903-1998</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1990">1960-1990</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87162 Bimu C26 2</unitid>
+      <physdesc altrender="whole">
+        <extent encodinganalog="300" altrender="materialtype spaceoccupied">10.25 linear feet</extent>
+        <extent encodinganalog="300" altrender="carrier">(in 10 boxes)</extent>
+      </physdesc>
+      <physdesc>
+        <extent encodinganalog="300" altrender="materialtype spaceoccupied">437 KB</extent>
+        <extent encodinganalog="300" altrender="carrier">(online)</extent>
+      </physdesc>
+      <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number">87162 Bimu C26 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Teaching and research unit of the College of Literature, Science and the Arts of the University of Michigan. Records include administrative files, committee minutes, reports, some course material and a topical file which contains some information on student antiwar activities, 1966-1967. Also several photos of the psychology laboratories, 1903-1915.</abstract>
-      <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">9.25 linear feet</extent>
-        <extent altrender="carrier">(in 10 boxes)</extent>
-      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -197,8 +204,8 @@ Department of Psychology (University of Michigan) records, Bentley Historical Li
             <did>
               <container type="box" label="Box">1</container>
               <unittitle>Photographs, Psychology Laboratory <unitdate type="inclusive" normal="1903/1910" certainty="approximate">circa 1903-1910</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">2 photographs</extent>
+              <physdesc>
+                <extent>2 photographs</extent>
               </physdesc>
             </did>
           </c03>
@@ -309,11 +316,11 @@ Department of Psychology (University of Michigan) records, Bentley Historical Li
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Administrative Committees <unitdate type="inclusive" normal="1960/1998">1960-1998</unitdate></unittitle>
+          <unittitle>Administrative Committees <unitdate type="inclusive" normal="1960/1998">1960-1998</unitdate>, 2006</unittitle>
         </did>
         <scopecontent>
-          <p>The Administrative Committees series (3 linear feet, 1960-1989) includes materials created by the department-wide, policy-making bodies. This is mostly material from the Executive Committee and Staff Meetings although there is also some minimal information created by the Ad Hoc Committee on Departmental Structure and Function, the Committee on Undergraduate Studies, and the Committee on Graduate Studies.</p>
-          <p>The Administrative Committees series deals mostly with everyday activities and issues of curriculum, policy, and research as well as faculty and student enrollment, placement, funding, and graduation. The Executive Committee meeting minutes are excellent in that they run from 1960 to 1998 with few chronological gaps. All of the records are organized into two sub-series, 1960-1989 and 1983-1998, and arranged chronologically under the title of the committee.</p>
+          <p>The Administrative Committees series (3 linear feet, 437 KB (online); 1960-1998 and 2006) includes materials created by the department-wide, policy-making bodies. This is mostly material from the Executive Committee and Staff Meetings although there is also some minimal information created by the Ad Hoc Committee on Departmental Structure and Function, the Committee on Undergraduate Studies, and the Committee on Graduate Studies.</p>
+          <p>The Administrative Committees series deals mostly with everyday activities and issues of curriculum, policy, and research as well as faculty and student enrollment, placement, funding, and graduation. The Executive Committee meeting minutes are excellent in that they run from 1960 to 1998 with few chronological gaps. All of the records are organized into two sub-series, 1960-1989 and 1983-1998, 2006;  and arranged chronologically under the title of the committee.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
@@ -530,7 +537,7 @@ Department of Psychology (University of Michigan) records, Bentley Historical Li
         <c02 level="subseries">
           <did>
             <unittitle>
-              <unitdate type="inclusive" normal="1983/1998">1983-1998</unitdate>
+              <unitdate type="inclusive" normal="1983/1998">1983-1998, 2006</unitdate>
             </unittitle>
           </did>
           <c03 level="file">
@@ -644,6 +651,35 @@ Department of Psychology (University of Michigan) records, Bentley Historical Li
               </did>
             </c04>
           </c03>
+
+
+<c03>
+            <did>
+              
+              <unittitle>Psychology Graduate Office </unittitle>
+            </did>
+
+
+<c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Requirements, Policies and Procedures Manual,
+<unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate>                  
+                </unittitle><dao href="http://hdl.handle.net/2027.42/115472" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao>
+              </did>
+            </c04>
+
+
+				
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Staff Meetings Process File <unitdate type="inclusive" normal="1994/1998">1994-1998</unitdate></unittitle>
+            </did>
+          </c03>
+
+			 
           <c03 level="file">
             <did>
               <container type="box" label="Box">7</container>
@@ -1787,8 +1823,8 @@ Department of Psychology (University of Michigan) records, Bentley Historical Li
     <descgrp type="add">
       <relatedmaterial>
         <head>Related Material</head>
-        <p>For additional documentation of the activities of the University of Michigan's Department of Psychology see the collections of the faculty members: Clyde Coombs, Daniel Katz, E. Lowell Kelly, Richard Mann, Wilbert J. McKeachie, Theodore Newcomb, Walter Pillsbury, and the Shepard family, which includes lecture notes and notebooks of John F. Shepard, Professor of Psychology.</p>
-        <p>An unpublished history by Robert Pachella, "Creating the Modern Michigan Psychology Department: the Chairmanship of Donald Marquis (1945-1957)" details the dramatic post-World War II growth of the department. A copy of the history is available at the Bentley as well as online at http://deepblue.lib.umich.edu/handle/2027.42/102730.</p>
+        <p>For additional documentation of the activities of the University of Michigan's Department of Psychology see the collections of the faculty members: <title show="new" actuate="onrequest" href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-90144">Clyde Coombs</title>, <title show="new" actuate="onrequest" href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-90190">Daniel Katz</title>, <title show="new" actuate="onrequest" href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-88402">E. Lowell Kelly</title>, <title show="new" actuate="onrequest" href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-88244">Richard Mann</title>, <title show="new" actuate="onrequest" href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-921087">Wilbert J. McKeachie</title>, <title show="new" actuate="onrequest" href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-851934">Theodore Newcomb</title>, <title show="new" actuate="onrequest" href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-852269">Walter Pillsbury</title>, and the <title show="new" actuate="onrequest" href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-85540">Shepard family</title>, which includes lecture notes and notebooks of John F. Shepard, Professor of Psychology.</p>
+        <p>An unpublished history by Robert Pachella, <title href="http://deepblue.lib.umich.edu/handle/2027.42/102730" show="new" actuate="onrequest">"Creating the Modern Michigan Psychology Department: the Chairmanship of Donald Marquis (1945-1957)"</title> details the dramatic post-World War II growth of the department. A copy of the history is available at the Bentley as well as online.</p>
       </relatedmaterial>
     </descgrp>
   </archdesc>
