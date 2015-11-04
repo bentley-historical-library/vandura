@@ -5,8 +5,8 @@
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::hullfam.xml//EN" encodinganalog="identifier"> umich-bhl-91437 </eadid>
     <filedesc>
       <titlestmt>
-        <titleproper encodinganalog="title">Finding Aid for Hull Family Papers, 1869-1960 </titleproper>
-        <author encodinganalog="creator">Collection processed and finding aid created by Jan Martz, 1990, Alexis A. Antracoli, 2009 </author>
+        <titleproper encodinganalog="title">Finding Aid for Hull Family Papers, 1869-1984</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid created by Jan Martz, 1990, Alexis A. Antracoli, 2009</author>
       </titlestmt>
       <publicationstmt>
         <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
@@ -20,7 +20,7 @@
     <revisiondesc>
       <change>
         <date>2015-10-27</date>
-        <item>Complete reencoding using Word 2010 macros and Xmetal with addition of new material..</item>
+        <item>Complete reencoding using Word 2010 macros and Xmetal with addition of new material.</item>
       </change>
       <change>
         <date>2010-04-15</date>
@@ -35,21 +35,24 @@
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections<lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
-      <titleproper>Finding aid for<lb/> Hull Family Papers, 1870-1970</titleproper>
+      <titleproper>Finding aid for<lb/> Hull Family Papers, 1869-1984</titleproper>
       <author>Finding aid created by<lb/> Jan Martz, 1990 <lb/>Alexis A. Antracoli, 2009</author>
     </titlepage>
   </frontmatter>
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="marc21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100"> Hull Family </famname>
+        <famname source="lcnaf" encodinganalog="100">Hull Family</famname>
       </origination>
-      <unittitle encodinganalog="245"> Hull Family Papers, <unitdate type="inclusive" encodinganalog="245$f"> 1869-1984 </unitdate> <unitdate type="bulk" encodinganalog="245$f">1869-1960</unitdate> </unittitle>
+      <unittitle encodinganalog="245"> Hull Family Papers, <unitdate type="inclusive" encodinganalog="245$f" normal="1869/1984">1869-1984</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1869/1960">1869-1960</unitdate></unittitle>
       <physdesc altrender="part">
         <extent encodinganalog="300">4 linear feet</extent>
       </physdesc>
       <physdesc altrender="part">
         <extent encodinganalog="300">3 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent encodinganalog="300">1 phonograph records</extent>
       </physdesc>
       <unitid encodinganalog="099" repositorycode="miu-h" countrycode="us" type="call number"> 91437 Aa 2 </unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language> </langmaterial>
@@ -61,16 +64,16 @@
     </did>
     <descgrp type="admin">
       <acqinfo encodinganalog="541">
-        <p>The collection was donated by Mrs. Jean Hull Ruhman and Mr. John Ruhman (donor no. 7826) in July 1990, and Ann Ruhman (donor no.<num type="donor" encodinganalog="541$e">7826</num> ) in November 2009.</p>
+        <p>The collection was donated by Mrs. Jean Hull Ruhman and Mr. John Ruhman (donor no. <num type="donor" encodinganalog="541$e">7826</num>) in July 1990, and Ann Ruhman (donor no. <num type="donor" encodinganalog="541$e">7826</num>) in November 2009.</p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
-        <p> The collection is open to research. </p>
+        <p> The collection is open to research.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
-        <p> Copyright has been transferred to the Regents of the University of Michigan. </p>
+        <p> Copyright has been transferred to the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box, Hull Family Papers , Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Hull Family Papers , Bentley Historical Library, University of Michigan.</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -707,8 +710,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <physloc>Phono Records</physloc>
-            <unittitle>Phonograph Record, "The Yellow and the Blue" (side A) and "The Victor's March " (side B), <unitdate type="inclusive">1908</unitdate></unittitle>
+            <container type="box" label="Sound Disc">1</container>
+            <unittitle>Phonograph Record, "The Yellow and the Blue" (side A) and "The Victor's March" (side B), <unitdate type="inclusive">1926</unitdate></unittitle>
           </did>
         </c02>
       </c01>
