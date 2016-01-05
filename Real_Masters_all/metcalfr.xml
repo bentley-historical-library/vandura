@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::metcalfr.xml//EN" encodinganalog="Identifier">umich-bhl-2009179</eadid>
@@ -18,7 +18,10 @@
       <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
       <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
     </profiledesc>
-    <revisiondesc>
+    <revisiondesc><change>
+        <date>20151216</date>
+        <item>added 2015 accessioned drawings</item>
+      </change>
       <change>
         <date>20150702</date>
         <item>Separated boxes for use with Aeon and added written notes from paper finding aid.</item>
@@ -49,7 +52,7 @@
         <extent altrender="materialtype spaceoccupied">12 linear feet</extent>
       </physdesc>
       <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">4372 drawings</extent>
+        <extent altrender="materialtype spaceoccupied">4392 drawings</extent>
       </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
