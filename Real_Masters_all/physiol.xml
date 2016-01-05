@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::physiol.xml//EN" encodinganalog="Identifier">umich-bhl-87163</eadid>
@@ -18,7 +18,10 @@
       <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
       <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
     </profiledesc>
-    <revisiondesc>
+    <revisiondesc><change>
+      <date>20151212</date>
+      <item>Added 1960 folder in curiccula and course materials.</item>
+    </change>
       <change>
         <date>20150805</date>
         <item>Corrected container listing and added written notes from paper finding aid and removed missing folders.</item>
@@ -274,6 +277,13 @@
             <did>
               <container type="box" label="Box">1</container>
               <unittitle>Laboratory Course in Physiology, 1904/1905 (typed notes)</unittitle>
+            </did>
+          </c03> <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Physiology 320, Spring 1960</unittitle><physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
             </did>
           </c03>
           <c03 level="file">
@@ -843,9 +853,11 @@
               <unittitle>Home Movies of Dr. J. W. Bean <unitdate type="inclusive" normal="1950/1959" certainty="approximate">circa 1950s</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 reels</extent>
-              <physfacet>16 mm, color]</physfacet>
               </physdesc>
-              </did>
+              <physdesc>
+                <physfacet>16 mm, color]</physfacet>
+              </physdesc>
+            </did>
             <odd>
               <p>(Niagara Falls-Vacation scenes of Niagara falls and family; 11-Dorothy, Tommy, and Baby-More scenes of family and Niagara Falls. Also shots of chickens in the front yard of a home suffering the paralysis of high 02; Ill Dr. Bean's Family--Shots of Dr. Bean's family, (Mother, Father, etc.). Film is upside down.</p>
             </odd>
@@ -857,9 +869,11 @@
               <unittitle>Experiments of Dr. J. W. Bean on adult rats <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 reels</extent>
-              <physfacet>16 mm, black and white]</physfacet>
               </physdesc>
-              </did>
+              <physdesc>
+                <physfacet>16 mm, black and white]</physfacet>
+              </physdesc>
+            </did>
             <odd>
               <p>(research films taken by Dr. Bean, 1950-51)</p>
             </odd>
