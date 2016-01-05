@@ -18,7 +18,10 @@
       <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
       <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
     </profiledesc>
-    <revisiondesc>
+    <revisiondesc><change>
+        <date>2015-01-10</date>
+        <item>Digital files added</item>
+      </change>
       <change>
         <date>2014-01-20</date>
         <item>Changes made with accession of additional material</item>
@@ -37,7 +40,7 @@
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Prison Creative Arts Project collection, 1992-2013</titleproper>
-      <author>Finding aid created by <lb/>Olga Virakhovskaya, 2011 and 2013</author>
+      <author>Finding aid created by <lb/>Olga Virakhovskaya, 2011 and 2013 <lb/>Max Eckard in 2015</author>
     </titlepage>
   </frontmatter>
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
@@ -49,8 +52,12 @@
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010177 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Collected creative writing publications and recorded theatrical productions of adults and youth incarcerated in correctional facilities across the state of Michigan. Also included poetry and photographs of Michigan high school students.</abstract>
-      <physdesc altrender="whole">
+      <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">2.4 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">6 GB</extent>
+        <physfacet>online</physfacet>
       </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
@@ -108,6 +115,7 @@ Prison Creative Arts Project collection, Bentley Historical Library, University 
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
+<genreform source="aat" encodinganalog="655">Digital file formats.</genreform>		  
         <genreform source="aat" encodinganalog="655">DVDs.</genreform>
         <genreform source="aat" encodinganalog="655">Playbills.</genreform>
         <genreform source="aat" encodinganalog="655">Photographs.</genreform>
@@ -1237,7 +1245,7 @@ Prison Creative Arts Project collection, Bentley Historical Library, University 
           <unittitle>Audiovisual Material</unittitle>
         </did>
         <scopecontent>
-          <p>The Audio Visual series includes DVDs with theatrical productions recorded between 1994 and 2013. The productions created by male and female groups of inmates and relate to their background and prison experience. Production titles and dates were taken from the disc labels. Also included DVDs documenting art and opening receptions of ten Annual Exhibitions of Art by Michigan Prisoners that took place between 1996 and 2012.</p>
+          <p>The Audio Visual material series includes DVDs with theatrical productions recorded between 1994 and 2013. The productions created by male and female groups of inmates and relate to their background and prison experience. Production titles and dates were taken from the disc labels. Also included DVDs documenting art and opening receptions of ten Annual Exhibitions of Art by Michigan Prisoners that took place between 1996 and 2012. "Junkie," performed by The Sisters Within Theater Troupe (6 GB) is available online. </p>
         </scopecontent>
         <c02 level="file">
           <did>
@@ -1251,12 +1259,8 @@ Prison Creative Arts Project collection, Bentley Historical Library, University 
             <unittitle><title render="italic">A time when...</title>, Western Wayne Players, <unitdate type="inclusive" normal="1992-04">April 1992</unitdate></unittitle>
           </did>
         </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">3</container>
-            <unittitle><title render="italic">Junkie</title>, Sisters Within Theater Troupe, <unitdate type="inclusive" normal="1992-11-21">November 21, 1992</unitdate></unittitle>
-          </did>
-        </c02>
+<c02 level="file"><did><physloc>Online </physloc><unittitle><title render="italic">Junkie</title> Sisters Within Theater Troupe, <unitdate type="inclusive">November 21, 1992</unitdate> </unittitle><dao href="http://hdl.handle.net/2027.42/114391" show="new" actuate="onrequest"><daodesc><p>[download item]</p></daodesc></dao></did></c02>        
+        
         <c02 level="file">
           <did>
             <container type="box" label="Box">3</container>
