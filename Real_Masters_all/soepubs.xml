@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::soepubs.xml//EN" encodinganalog="identifier">umich-bhl-0347</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="title">Finding Aid for School of Education (University of Michigan) Publications <date>1880-[ongoing]</date></titleproper>
-        <author encodinganalog="creator">Collection processed and finding aid prepared by Marilyn M. McNitt, 1995, Jennifer Jacobs, 1999; <lb/>Elise Reynolds, 2013.</author>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Marilyn M. McNitt, 1995, Jennifer Jacobs, 1999; <lb/></author>
       </titlestmt>
       <publicationstmt>
         <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
@@ -17,7 +17,10 @@
       <creation>Encoded finding aid created by Greg Kinney <date>Feb. 2003</date></creation>
       <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
     </profiledesc>
-    <revisiondesc>
+    <revisiondesc><change>
+        <date>20151210</date>
+        <item>added 2015 accession.</item>
+      </change>
       <change>
         <date>20150812</date>
         <item>Corrected extent.</item>
@@ -40,7 +43,7 @@
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding Aid for <lb/>School of Education <lb/>(University of Michigan) <lb/>Publications, 1880-[ongoing] (bulk 1923-1995)</titleproper>
-      <author>Finding aid prepared by: <lb/>Marilyn M. McNitt, 1995 <lb/>Jennifer Jacobs, 1999 <lb/>Elise Reynolds, 2013.</author>
+      <author>Finding aid prepared by: <lb/>Marilyn M. McNitt, 1995 <lb/>Jennifer Jacobs, 1999 <lb/>Elise Reynolds, 2013<lb/>Claire De Witt, 2015<lb/>Last update: December 2015</author>
     </titlepage>
   </frontmatter>
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
@@ -53,7 +56,7 @@
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">0347 BImu C202 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">13.5 linear feet</extent>
+        <extent altrender="materialtype spaceoccupied">14.5 linear feet</extent>
       </physdesc>
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">1.5 MB</extent>
@@ -234,7 +237,7 @@
         <corpname source="lcnaf" encodinganalog="610">ERIC Clearinghouse on Counseling and Personnel Services.</corpname>
         <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n89645611">National Center for Research to Improve Postsecondary Teaching and Learning.</corpname>
         <corpname source="lcnaf" encodinganalog="610">University of Michigan. Program in Adult and Continuing Education.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90709792">University of Michigan. Program for Educational Opportunity.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90709792">University of Michigan. Programs for Educational Opportunity.</corpname>
         <corpname source="lcnaf" encodinganalog="610">University of Michigan. Summer Session.</corpname>
         <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79041783">Phi Delta Kappa.</corpname>
         <corpname source="lcnaf" encodinganalog="610">Phi Kappa Phi. University of Michigan chapter.</corpname>
@@ -250,7 +253,7 @@
         <corpname source="lcnaf" encodinganalog="710">ERIC Clearinghouse on Counseling and Personnel Services.</corpname>
         <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n89645611">National Center for Research to Improve Postsecondary Teaching and Learning.</corpname>
         <corpname source="lcnaf" encodinganalog="710">University of Michigan. Program in Adult and Continuing Education.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n90709792">University of Michigan. Program for Educational Opportunity.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n90709792">University of Michigan. Programs for Educational Opportunity.</corpname>
         <corpname source="lcnaf" encodinganalog="710">University of Michigan. Summer Session.</corpname>
         <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79041783">Phi Delta Kappa.</corpname>
         <corpname source="lcnaf" encodinganalog="710">Phi Kappa Phi. University of Michigan chapter.</corpname>
@@ -1030,7 +1033,28 @@
             </did>
           </c03>
         </c02>
-      </c01>
+
+
+ <c02 level="file"><did><unittitle>Brochures</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>Making a World of Difference, <unitdate type="inclusive">2004</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>Teacher Education, <unitdate type="inclusive">May 2011</unitdate></unittitle></did></c03></c02>
+<c02 level="file"><did><unittitle>Bulletins</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>Facing the Challenges // Making a Difference, <unitdate type="inclusive">Undated</unitdate></unittitle></did></c03></c02>
+<c02 level="file"><did><unittitle>Directories</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>Faculty Profiles, <unitdate type="inclusive">Undated</unitdate></unittitle></did></c03></c02>
+<c02 level="file"><did><unittitle>Manuals</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>Master of Arts with Certification -- Elementary, <unitdate type="inclusive">Undated</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>Master of Arts with Certification -- Secondary, <unitdate type="inclusive">Undated</unitdate></unittitle></did></c03></c02>
+<c02 level="file"><did><unittitle>Newsletters</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>Innovator, <unitdate type="inclusive">2004-2006</unitdate></unittitle></did></c03></c02>
+<c02 level="file"><did><unittitle>Programs</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>Spring Commencement, <unitdate type="inclusive">2012</unitdate></unittitle></did></c03></c02>
+<c02 level="file"><did><unittitle>Reports</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>Cultural Audit, <unitdate type="inclusive">October 2001</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>Economic Education in America: Applying Experiential Learning to Economic Education, <unitdate type="inclusive">1978</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>A Primer on Michigan School Finance 3rd Edition, <unitdate type="inclusive">1994</unitdate></unittitle></did></c03></c02></c01>
+		  		  
+      
       <c01 level="series">
         <did>
           <unittitle>Sub-Unit Publications</unittitle>
@@ -3833,6 +3857,48 @@
             </c04>
           </c03>
         </c02>
+
+<c02 level="file"><did><unittitle>Business Roundtable Michigan Education Task Force</unittitle></did>
+<c03 level="file"><did><unittitle>Reports</unittitle></did>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Education Excellence: An Agenda for Education Reform in Michigan, <unitdate type="inclusive">Undated</unitdate></unittitle></did></c04></c03></c02>
+<c02 level="file"><did><unittitle>Center for the Study of Higher and Postsecondary Education</unittitle></did>
+<c03 level="file"><did><unittitle>50th Anniversary Conference</unittitle></did>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Conference Packet, <unitdate type="inclusive">October 2007</unitdate></unittitle></did></c04></c03>
+<c03 level="file"><did><unittitle>Brochure</unittitle></did>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>A World of Difference, <unitdate type="inclusive">2004</unitdate></unittitle></did></c04></c03></c02>
+<c02 level="file"><did><unittitle>Detroit Public Schools Partnership</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>Photograph Book, <unitdate type="inclusive">2011</unitdate></unittitle></did></c03></c02>
+<c02 level="file"><did><unittitle>Early Childhood Longitudinal Study</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>Kindergarten Class of <unitdate type="inclusive">1998-1999  July 19</unitdate>97</unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>Kindergarten Class of <unitdate type="inclusive">1998-1999  August 19</unitdate>97</unittitle></did></c03></c02>
+<c02 level="file"><did><unittitle>Educational Studies Program</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">15</container><unittitle>A World of Difference, <unitdate type="inclusive">2004</unitdate></unittitle></did></c03></c02>
+<c02 level="file"><did><unittitle>National Center for Research to Improve Postsecondary Teaching and Learning</unittitle></did>
+<c03 level="file"><did><unittitle>Reports</unittitle></did>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Assessing the Organizational and Administrative Context for Teaching and Learning: An Institutional Self-Study Manual, <unitdate type="inclusive">1991</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Assessing Students' Organization of Concepts: A Manual for Measuring Course-Specific Knowledge Structures, <unitdate type="inclusive">1991</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Course Planning Exploration for Program Self-Study User's Manual, <unitdate type="inclusive">1991</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Design in Context: A Conceptual Framework for the Study of Computer Software in Higher Education, <unitdate type="inclusive">1987</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Designing the Learning Plan: A Review of Research and Theory Related to College Curricula, <unitdate type="inclusive">1986</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Electronic Information: Literacy Skills for a Computer Age, <unitdate type="inclusive">1986</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Faculty as a Key Resource: A Manual for Institutional Self-Study, <unitdate type="inclusive">1991</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Faculty as a Key Resource: A Review of the Research Literature, <unitdate type="inclusive">1986</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>A Manual for the Use of the Motivated Strategies for Learning Questionnaire (MSLQ), <unitdate type="inclusive">1991</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Planning a College Course: A Guidebook for the Graduate Teaching Assistant, <unitdate type="inclusive">1989</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Reflection on Course Planning: Faculty and Students Consider Influences and Goals, <unitdate type="inclusive">1988</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Student Goals Exploration User's Manual: Classroom Research Guide, <unitdate type="inclusive">1991</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Student Goals Exploration User's Manual: Institutional Research Guide, <unitdate type="inclusive">1991</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Teaching Tips for Users of the Motivated Strategies for Learning Questionnaire, <unitdate type="inclusive">1991</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Teaching and Learning in the College Classroom: A Review of the Research Literature, <unitdate type="inclusive">1986</unitdate></unittitle></did></c04></c03></c02>
+<c02 level="file"><did><unittitle>Programs for Educational Opportunity</unittitle></did>
+<c03 level="file"><did><unittitle>Journals</unittitle></did>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Approaches for Achieving a Multicultural Curriculum, <unitdate type="inclusive">1979</unitdate></unittitle></did></c04></c03>
+<c03 level="file"><did><unittitle>Newsletters</unittitle></did>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>Breakthrough, <unitdate type="inclusive">1984</unitdate></unittitle></did></c04></c03>
+<c03 level="file"><did><unittitle>Secondary School Teaching Guide</unittitle></did>
+<c04 level="file"><did><container type="box" label="Box">15</container><unittitle>"From Jumpstreet: A Story of Black Music," <unitdate type="inclusive">1980</unitdate></unittitle></did></c04></c03></c02>    
+
+		  
       </c01>
       <c01 level="series">
         <did>
