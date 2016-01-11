@@ -19,6 +19,10 @@
       <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
     </profiledesc>
     <revisiondesc>
+ <change>
+        <date>2015-12-22</date>
+        <item>Added DeepBlue links for: 2027.42/113212-2027.42/113222; a/v dates update for dig in Scope note; corrected a misspelling</item>
+      </change>	 
       <change>
         <date>20150921</date>
         <item>Corrected extent and container listing.</item>
@@ -39,13 +43,14 @@
         <date>2011-01-06</date>
         <item>Original encoding from Word 2003 file using Word macros and Xmetal. Complete reencoding of revised finding aid.</item>
       </change>
+     
     </revisiondesc>
   </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>President <lb/>(University of Michigan) <lb/>Records, 1967-2014</titleproper>
-      <author>Finding aid created by <lb/>Bentley Historical Library staff, previous accessions. <lb/>Christine Di Bella, January 2002, <lb/>Brian Williams, December 2002, <lb/>Lisa Barney, October 2010<lb/>Chris Schunter, April 2015<lb/>Last update: July 2015</author>
+      <author>Finding aid created by <lb/>Bentley Historical Library staff, previous accessions. <lb/>Christine Di Bella, January 2002 <lb/>Brian Williams, December 2002 <lb/>Lisa Barney, October 2010<lb/>Chris Schunter, April 2015<lb/>Last update: December 2015</author>
     </titlepage>
   </frontmatter>
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
@@ -67,7 +72,7 @@
         <extent altrender="materialtype spaceoccupied">1 oversize volumes</extent>
       </physdesc>
       <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">228 MB</extent>
+        <extent altrender="materialtype spaceoccupied">17.31 GB</extent>
         <physfacet>online</physfacet>
       </physdesc>
       <repository>
@@ -628,7 +633,8 @@
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="gmgpc" encodinganalog="655">Drawings.</genreform>
+<genreform source="aat" encodinganalog="655">Digital file formats.</genreform>        
+		  <genreform source="gmgpc" encodinganalog="655">Drawings.</genreform>
         <genreform source="lcsh" encodinganalog="655">Motion pictures.</genreform>
         <subject source="gmgpc" encodinganalog="650">Paintings.</subject>
         <genreform source="aat" encodinganalog="655">Photographs.</genreform>
@@ -45710,7 +45716,7 @@
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
                 <physdesc altrender="part">
-                  <extent>2 zip disks</extent>
+                  <physfacet>2 zip disks included</physfacet>
                 </physdesc>
               </did>
               <accessrestrict>
@@ -55644,7 +55650,7 @@
             </unittitle>
           </did>
           <scopecontent>
-            <p>The Topical Files series continues the series from earlier accessions and consists of annual files covering the day to day functions of the president's office. In this addition, the topical files cover the academic years 2007/2008. The files are arranged chronologically according to academic year, and within each academic year sub-series, the files are arranged alphabetically by topic. </p>
+            <p>The Topical Files series continues the series from earlier accessions and consists of annual files covering the day to day functions of the president's office. In this addition, the topical files cover the academic years 2007/2008. The files are arranged chronologically according to academic year, and within each academic year sub-series, the files are arranged alphabetically by topic. The CEO Coach of the Year Award file is online.</p>
           </scopecontent>
           <c03 level="file">
             <did>
@@ -55661,6 +55667,23 @@
               <accessrestrict>
                 <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
               </accessrestrict>
+              <c05 level="file">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>CEO Coach of the Year Award, <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
+                  <physdesc>
+                    <physfacet>.ZIP and .MP4 files</physfacet>
+                  </physdesc>
+                  <dao href="http://hdl.handle.net/2027.42/113212" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[download item]</p>
+                    </daodesc>
+                  </dao>
+                </did>
+                <accessrestrict>
+                  <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date></p>
+                </accessrestrict>
+              </c05>
             </c04>
             <c04 level="file">
               <did>
@@ -65854,7 +65877,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">485</container>
-                <unittitle>Student Code <unitdate type="inclusive" normal="1981/1987">1981-1987</unitdate></unittitle>
+                <unittitle>Student Code <unitdate type="inclusive" normal="1981/1987">1981-1987</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">6 folders</extent>
                 </physdesc>
@@ -67618,7 +67641,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">485</container>
-                <unittitle>Requests, <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
+                <unittitle>Requests, <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -67638,7 +67661,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">485</container>
-                <unittitle>Council on a Multicultural University (COMU) Retreat, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+                <unittitle>Council on a Multicultural University (COMU) Retreat, <unitdate type="inclusive" normal="1994">1994</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -67650,7 +67673,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">485</container>
-                <unittitle>Minority Journalism Program, <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
+                <unittitle>Minority Journalism Program, <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
@@ -67665,7 +67688,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">485</container>
-                <unittitle>Presentation, "A Strategic Linking of Excellence and Diversity", <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+                <unittitle>Presentation, "A Strategic Linking of Excellence and Diversity", <unitdate type="inclusive" normal="1988">1988</unitdate> </unittitle>
               </did>
               <odd>
                 <p>(color slides)</p>
@@ -67677,7 +67700,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">485</container>
-                <unittitle>Sarah Goddard Power Memorial Fund, <unitdate type="inclusive" normal="1987/1997">1987-1997</unitdate></unittitle>
+                <unittitle>Sarah Goddard Power Memorial Fund, <unitdate type="inclusive" normal="1987/1997">1987-1997</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -67717,7 +67740,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">516</container>
-                <unittitle>Recommendations, <unitdate type="inclusive" normal="1988/1996">1988-1996</unitdate></unittitle>
+                <unittitle>Recommendations, <unitdate type="inclusive" normal="1988/1996">1988-1996</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">17 folders</extent>
                 </physdesc>
@@ -67768,7 +67791,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">486</container>
-                  <unittitle>Students, <unitdate type="inclusive" normal="1989/1992">1989-1992</unitdate></unittitle>
+                  <unittitle>Students, <unitdate type="inclusive" normal="1989/1992">1989-1992</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">8 folders</extent>
                   </physdesc>
@@ -67838,7 +67861,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">517</container>
-                <unittitle>Student Code, <unitdate type="inclusive" normal="1988/1995">1988-1995</unitdate></unittitle>
+                <unittitle>Student Code, <unitdate type="inclusive" normal="1988/1995">1988-1995</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
                 </physdesc>
@@ -67850,7 +67873,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">486</container>
-                <unittitle>Tappan Among the Teutons: From Advanced Study to Graduate School at the University of Michigan-The Decline of the German Model of Erudition, <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+                <unittitle>Tappan Among the Teutons: From Advanced Study to Graduate School at the University of Michigan-The Decline of the German Model of Erudition, <unitdate type="inclusive" normal="1988">1988</unitdate> </unittitle>
               </did>
               <odd>
                 <p>(50th anniversary of Rackham Building)</p>
@@ -67862,7 +67885,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">486</container>
-                <unittitle>Teaching and Undergraduate Education/Research and Scholarship, <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></unittitle>
+                <unittitle>Teaching and Undergraduate Education/Research and Scholarship, <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
@@ -67962,7 +67985,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">487</container>
-                <unittitle>Requests, <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
+                <unittitle>Requests, <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate> </unittitle>
               </did>
               <accessrestrict>
                 <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date>]</p>
@@ -70564,7 +70587,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">487</container>
-                <unittitle>Correspondence, <unitdate type="inclusive" normal="1998/2002">1998-2002</unitdate></unittitle>
+                <unittitle>Correspondence, <unitdate type="inclusive" normal="1998/2002">1998-2002</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
@@ -70584,7 +70607,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">487</container>
-                <unittitle>Requests, <unitdate type="inclusive" normal="1997/2000">1997-2000</unitdate></unittitle>
+                <unittitle>Requests, <unitdate type="inclusive" normal="1997/2000">1997-2000</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
@@ -70639,7 +70662,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">487</container>
-                <unittitle>Michigan Life Sciences Corridor, <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate></unittitle>
+                <unittitle>Michigan Life Sciences Corridor, <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
@@ -70664,7 +70687,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">488</container>
-                <unittitle>A-Z, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+                <unittitle>A-Z, <unitdate type="inclusive" normal="2002">2002</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">26 folders</extent>
                 </physdesc>
@@ -70696,7 +70719,7 @@
               <unittitle>Events</unittitle>
             </did>
             <scopecontent>
-              <p>The Events sub-subseries, 2001-2008 (0.8 linear feet), includes files on several events including the March 2003 Royal Shakespeare Company residency, a visit by the Dalai Lama, and perhaps most notable, September 11, 2001. The national tragedy involved airplanes crashing into the World Trade Center in New York, the Pentagon in Washington D.C., and in a field in Pennsylvania, was deeply devastating to the University of Michigan community. Students, faculty, and staff were affected by the tragedy, and eighteen alumni lost their lives in the attacks. The files contain materials on the university's response to the attacks, including the establishment of a scholarship fund for children of the alumni killed in the attacks that would be available if they chose to attend the University of Michigan.</p>
+              <p>The Events sub-subseries, 2001-2008 (0.8 linear feet), includes files on several events including Salk Vaccine 50th Anniversary, online, the March 2003 Royal Shakespeare Company residency, a visit by the Dalai Lama, and perhaps most notable, September 11, 2001. The national tragedy involved airplanes crashing into the World Trade Center in New York, the Pentagon in Washington D.C., and in a field in Pennsylvania, was deeply devastating to the University of Michigan community. Students, faculty, and staff were affected by the tragedy, and eighteen alumni lost their lives in the attacks. The files contain materials on the university's response to the attacks, including the establishment of a scholarship fund for children of the alumni killed in the attacks that would be available if they chose to attend the University of Michigan.</p>
             </scopecontent>
             <c04 level="file">
               <did>
@@ -70734,6 +70757,42 @@
                   </accessrestrict>
                 </c06>
               </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Salk Vaccine 50th Anniversary, <unitdate certainty="approximate" type="inclusive" normal="2005">2005</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date></p>
+              </accessrestrict>
+                <c05 level="file">
+                  <did>
+                    <physloc>Online</physloc>
+                    <unittitle>Panel Discussion</unittitle>
+                    <physdesc>
+                      <physfacet>.ZIP and .MP4 files</physfacet>
+                    </physdesc>
+                    <dao href="http://hdl.handle.net/2027.42/113218" show="new" actuate="onrequest">
+                      <daodesc>
+                        <p>[download item]</p>
+                      </daodesc>
+                    </dao>
+                  </did>
+                </c05>
+                <c05 level="file">
+                  <did>
+                    <physloc>Online</physloc>
+                    <unittitle>Last Mile</unittitle>
+                    <physdesc>
+                      <physfacet>.ZIP and .MP4 files</physfacet>
+                    </physdesc>
+                    <dao href="http://hdl.handle.net/2027.42/113219" show="new" actuate="onrequest">
+                      <daodesc>
+                        <p>[download item]</p>
+                      </daodesc>
+                    </dao>
+                  </did>
+                </c05>
             </c04>
             <c04 level="file">
               <did>
@@ -70852,7 +70911,7 @@
               <unittitle>Reports</unittitle>
             </did>
             <scopecontent>
-              <p>The Reports sub-subseries, 2005 (1 linear foot) consists entirely of reports from the Accreditation Board for Engineering Technology's (ABET) visit to the College of Engineering in 2005. Included are the College of Engineering's Institutional Profile, and self study reports from the departments within the College of Engineering. The reports provide a comprehensive picture of the state of the College of Engineering at the time of the ABET accreditation visit.</p>
+              <p>The Reports sub-subseries, 2005 (1 linear foot and 0.72 GBs) consists entirely of reports from the Accreditation Board for Engineering Technology's (ABET) visit to the College of Engineering in 2005. Included are the College of Engineering's Institutional Profile, and self study reports from the departments within the College of Engineering. The reports provide a comprehensive picture of the state of the College of Engineering at the time of the ABET accreditation visit, as well as responses to the House Committee on the Judiciary, Subcommittee on Courts, the Internet and Intellectual Property Survey of Network and Data Integrity Practices, online.</p>
             </scopecontent>
             <c04 level="file">
               <did>
@@ -70978,6 +71037,23 @@
                 </c06>
               </c05>
             </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Responses to House Committee on the Judiciary, Subcommittee on Courts, the Internet and Intellectual Property Survey of Network and Data Integrity Practices, <unitdate certainty="approximate" type="inclusive" normal="2007">ca. 2007</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.MOV and .JPG files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/113215" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date></p>
+              </accessrestrict>
+            </c04>
           </c03>
           <c03 level="otherlevel" otherlevel="sub-subseries">
             <did>
@@ -71014,7 +71090,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">488</container>
-                <unittitle>Appeal of the University of Michigan of Portions of the Report of the NCAA Division I Committee on Infractions, <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+                <unittitle>Appeal of the University of Michigan of Portions of the Report of the NCAA Division I Committee on Infractions, <unitdate type="inclusive" normal="2003">2003</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -71058,7 +71134,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">488</container>
-                <unittitle>Compliance Progress Report Attachments 73-130, <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
+                <unittitle>Compliance Progress Report Attachments 73-130, <unitdate type="inclusive" normal="2005">2005</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
@@ -71083,7 +71159,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">517</container>
-                  <unittitle>General, <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></unittitle>
+                  <unittitle>General, <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">3 folders</extent>
                   </physdesc>
@@ -71121,7 +71197,7 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">489</container>
-                    <unittitle>Resource Book, <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate></unittitle>
+                    <unittitle>Resource Book, <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate> </unittitle>
                     <physdesc altrender="whole">
                       <extent altrender="materialtype spaceoccupied">2 folders</extent>
                     </physdesc>
@@ -71133,7 +71209,7 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">489</container>
-                    <unittitle>Retreats, <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate></unittitle>
+                    <unittitle>Retreats, <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate> </unittitle>
                     <physdesc altrender="whole">
                       <extent altrender="materialtype spaceoccupied">4 folders</extent>
                     </physdesc>
@@ -71155,7 +71231,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">489</container>
-                  <unittitle>Executive Committee, <unitdate type="inclusive" normal="2009/2011">2009-2011</unitdate></unittitle>
+                  <unittitle>Executive Committee, <unitdate type="inclusive" normal="2009/2011">2009-2011</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">7 folders</extent>
                   </physdesc>
@@ -71194,7 +71270,7 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">489</container>
-                    <unittitle>Information Manual, <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate></unittitle>
+                    <unittitle>Information Manual, <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate> </unittitle>
                     <physdesc altrender="whole">
                       <extent altrender="materialtype spaceoccupied">2 folders</extent>
                     </physdesc>
@@ -71206,7 +71282,7 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">489</container>
-                    <unittitle>Meetings, <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate></unittitle>
+                    <unittitle>Meetings, <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate> </unittitle>
                     <physdesc altrender="whole">
                       <extent altrender="materialtype spaceoccupied">4 folders</extent>
                     </physdesc>
@@ -71218,7 +71294,7 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">490</container>
-                    <unittitle>Meetings, <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate></unittitle>
+                    <unittitle>Meetings, <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate> </unittitle>
                     <physdesc altrender="whole">
                       <extent altrender="materialtype spaceoccupied">7 folders</extent>
                     </physdesc>
@@ -71240,7 +71316,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">490</container>
-                  <unittitle>Executive Committee, <unitdate type="inclusive" normal="2007/2009">2007-2009</unitdate></unittitle>
+                  <unittitle>Executive Committee, <unitdate type="inclusive" normal="2007/2009">2007-2009</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">9 folders</extent>
                   </physdesc>
@@ -71253,7 +71329,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">490</container>
-                <unittitle>Internet2 Board of Trustees, <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></unittitle>
+                <unittitle>Internet2 Board of Trustees, <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">6 folders</extent>
                 </physdesc>
@@ -71268,7 +71344,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">491</container>
-                <unittitle>Lieutenant Governor's Commission on Higher Education and Economic Growth, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+                <unittitle>Lieutenant Governor's Commission on Higher Education and Economic Growth, <unitdate type="inclusive" normal="2004">2004</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -71329,7 +71405,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">491</container>
-                  <unittitle>Meetings, <unitdate type="inclusive" normal="2006/2009">2006-2009</unitdate></unittitle>
+                  <unittitle>Meetings, <unitdate type="inclusive" normal="2006/2009">2006-2009</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">17 folders</extent>
                   </physdesc>
@@ -71341,7 +71417,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">492</container>
-                  <unittitle>Meetings, <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+                  <unittitle>Meetings, <unitdate type="inclusive" normal="2009">2009</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">4 folders</extent>
                   </physdesc>
@@ -71358,7 +71434,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">492</container>
-                  <unittitle>Investment Advisory Committee, <unitdate type="inclusive" normal="2006/2010">2006-2010</unitdate></unittitle>
+                  <unittitle>Investment Advisory Committee, <unitdate type="inclusive" normal="2006/2010">2006-2010</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">7 folders</extent>
                   </physdesc>
@@ -71370,7 +71446,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">492</container>
-                  <unittitle>Rackham Board of Governors, <unitdate type="inclusive" normal="2007/2010">2007-2010</unitdate></unittitle>
+                  <unittitle>Rackham Board of Governors, <unitdate type="inclusive" normal="2007/2010">2007-2010</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">4 folders</extent>
                   </physdesc>
@@ -71409,7 +71485,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">493</container>
-                <unittitle>China Trip Briefing Notebook, <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
+                <unittitle>China Trip Briefing Notebook, <unitdate type="inclusive" normal="2005">2005</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -71546,7 +71622,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">493</container>
-                  <unittitle>General, <unitdate type="inclusive" normal="2004/2006">2004-2006</unitdate></unittitle>
+                  <unittitle>General, <unitdate type="inclusive" normal="2004/2006">2004-2006</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">6 folders</extent>
                   </physdesc>
@@ -71567,7 +71643,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">494</container>
-                  <unittitle>Planning Meetings, <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></unittitle>
+                  <unittitle>Planning Meetings, <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">6 folders</extent>
                   </physdesc>
@@ -71615,7 +71691,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">494</container>
-                <unittitle>Affirmative Action Program for Women and Minorities, <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+                <unittitle>Affirmative Action Program for Women and Minorities, <unitdate type="inclusive" normal="2009">2009</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -71627,7 +71703,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">494</container>
-                <unittitle>Audits, <unitdate type="inclusive" normal="1998/2004">1998-2004</unitdate></unittitle>
+                <unittitle>Audits, <unitdate type="inclusive" normal="1998/2004">1998-2004</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
@@ -71652,7 +71728,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">494</container>
-                  <unittitle>Funding the University of Michigan: One-Year Update, <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
+                  <unittitle>Funding the University of Michigan: One-Year Update, <unitdate type="inclusive" normal="2007">2007</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
@@ -71752,7 +71828,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">495</container>
-                <unittitle>Interdisciplinary Junior Faculty Initiative, <unitdate type="inclusive" normal="2008/2010">2008-2010</unitdate></unittitle>
+                <unittitle>Interdisciplinary Junior Faculty Initiative, <unitdate type="inclusive" normal="2008/2010">2008-2010</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
@@ -71773,7 +71849,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">517</container>
-                <unittitle>Investigation Report Regarding Claims of Unlawful Racial Discrimination, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+                <unittitle>Investigation Report Regarding Claims of Unlawful Racial Discrimination, <unitdate type="inclusive" normal="2006">2006</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -71785,7 +71861,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">517</container>
-                <unittitle>Investigation Report Regarding Claims of Unlawful Racial and Gender Discrimination, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+                <unittitle>Investigation Report Regarding Claims of Unlawful Racial and Gender Discrimination, <unitdate type="inclusive" normal="2006">2006</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -71797,7 +71873,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">495</container>
-                <unittitle>Life Sciences Institute-Quarterly Reports-Fiscal Years <unitdate type="inclusive" normal="2004/2009">2004-2009</unitdate></unittitle>
+                <unittitle>Life Sciences Institute-Quarterly Reports-Fiscal Years <unitdate type="inclusive" normal="2004/2009">2004-2009</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">24 folders</extent>
                 </physdesc>
@@ -71845,7 +71921,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">496</container>
-                <unittitle>Reports/Surveys on Campus Climate, <unitdate type="inclusive" normal="1995/2006">1995-2006</unitdate></unittitle>
+                <unittitle>Reports/Surveys on Campus Climate, <unitdate type="inclusive" normal="1995/2006">1995-2006</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -71857,7 +71933,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">496</container>
-                <unittitle>Responses to House Committee on the Judiciary, Subcommittee on Courts, the Internet and Intellectual Property "Survey of Network and Data Integrity Practices", <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
+                <unittitle>Responses to House Committee on the Judiciary, Subcommittee on Courts, the Internet and Intellectual Property "Survey of Network and Data Integrity Practices", <unitdate type="inclusive" normal="2007">2007</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -71869,7 +71945,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">517</container>
-                <unittitle>Student Loan Practices Briefing Report, <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
+                <unittitle>Student Loan Practices Briefing Report, <unitdate type="inclusive" normal="2007">2007</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -71896,7 +71972,7 @@
               <unittitle>Speeches</unittitle>
             </did>
             <scopecontent>
-              <p>The Speeches sub-subseries contains a chronologically-arranged, comprehensive set of President Coleman's speeches beginning with her tenure as president of the University of Iowa in 1996 and continuing through March 2011. Audiences include various University of Michigan units and groups, organizations around the state, and other college and universities, including international ones such as several Chinese universities during a 2005 trip to China and the University of Cape Town during a visit to South Africa in 2008.</p>
+              <p>The Speeches sub-subseries contains a chronologically-arranged, comprehensive set of President Coleman's speeches beginning with her tenure as president of the University of Iowa in 1996 and continuing through March 2011. Audiences include various University of Michigan units and groups, including slides from a Waggoner Lecture, organizations around the state and region, including the City Club of Cleveland, and other college and universities, including international ones such as several Chinese universities during a 2005 trip to China and the University of Cape Town during a visit to South Africa in 2008.</p>
             </scopecontent>
             <c04 level="file">
               <did>
@@ -71928,6 +72004,20 @@
               <accessrestrict>
                 <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date></p>
               </accessrestrict>
+              <c05 level="file">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>Waggoner Lecture Slides, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+                  <physdesc>
+                    <physfacet>.PPT and .PPTX files</physfacet>
+                  </physdesc>
+                  <dao href="http://hdl.handle.net/2027.42/113213" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[download item]</p>
+                    </daodesc>
+                  </dao>
+                </did>
+              </c05>
             </c04>
             <c04 level="file">
               <did>
@@ -71956,6 +72046,20 @@
               <accessrestrict>
                 <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date></p>
               </accessrestrict>
+              <c05 level="file">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>City Club of Cleveland, <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+                  <physdesc>
+                    <physfacet>.ZIP and .MP4 files</physfacet>
+                  </physdesc>
+                  <dao href="http://hdl.handle.net/2027.42/113221" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[download item]</p>
+                    </daodesc>
+                  </dao>
+                </did>
+              </c05>
             </c04>
             <c04 level="file">
               <did>
@@ -71977,7 +72081,7 @@
               <unittitle>Subject Files</unittitle>
             </did>
             <scopecontent>
-              <p>The Subject Files sub-subseries contains files on a wide variety of subjects and organizations. Its composition is similar to that of the Topical Files series, although it is not arranged chronologically according to academic year. Some of the more prominent subjects in this sub sub-series include environmental stewardship, funding for the arts, and commencement planning. While the majority of the records are from the Coleman era, some of the materials date from previous administrations. </p>
+              <p>The Subject Files sub-subseries contains files on a wide variety of subjects and organizations. Its composition is similar to that of the Topical Files series, although it is not arranged chronologically according to academic year. Some of the more prominent subjects in this sub sub-series include environmental stewardship, funding for the arts, and commencement planning. While the majority of the records are from the Coleman era, incuding a University of Toledo commencement address, online, and facilities files, some of the materials date from previous administrations. </p>
             </scopecontent>
             <c04 level="file">
               <did>
@@ -71986,7 +72090,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">499</container>
-                  <unittitle>Amici Brochure, <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+                  <unittitle>Amici Brochure, <unitdate type="inclusive" normal="2003">2003</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
@@ -71998,7 +72102,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">520</container>
-                  <unittitle>Briefing Book as Prepared for President Mary Sue Coleman, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+                  <unittitle>Briefing Book as Prepared for President Mary Sue Coleman, <unitdate type="inclusive" normal="2002">2002</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
@@ -72029,7 +72133,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">499</container>
-                <unittitle>Alumni Club Affiliates, <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+                <unittitle>Alumni Club Affiliates, <unitdate type="inclusive" normal="2001">2001</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -72063,7 +72167,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">499</container>
-                  <unittitle>General, <unitdate type="inclusive" normal="2001/2004">2001-2004</unitdate></unittitle>
+                  <unittitle>General, <unitdate type="inclusive" normal="2001/2004">2001-2004</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">3 folders</extent>
                   </physdesc>
@@ -72139,7 +72243,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">499</container>
-                  <unittitle>General, <unitdate type="inclusive" normal="1997/2001">1997-2001</unitdate></unittitle>
+                  <unittitle>General, <unitdate type="inclusive" normal="1997/2001">1997-2001</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
@@ -72151,7 +72255,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">499</container>
-                  <unittitle>International Letters, <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+                  <unittitle>International Letters, <unitdate type="inclusive" normal="2001">2001</unitdate> </unittitle>
                 </did>
                 <odd>
                   <p>September 11, 2001</p>
@@ -72318,7 +72422,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">500</container>
-                  <unittitle>General, <unitdate type="inclusive" normal="2001/2003">2001-2003</unitdate></unittitle>
+                  <unittitle>General, <unitdate type="inclusive" normal="2001/2003">2001-2003</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">4 folders</extent>
                   </physdesc>
@@ -72352,7 +72456,7 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">500</container>
-                    <unittitle>General, <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></unittitle>
+                    <unittitle>General, <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate> </unittitle>
                     <physdesc altrender="whole">
                       <extent altrender="materialtype spaceoccupied">7 folders</extent>
                     </physdesc>
@@ -72374,7 +72478,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">501</container>
-                  <unittitle>Green Clean Day, <unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate></unittitle>
+                  <unittitle>Green Clean Day, <unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
@@ -72431,6 +72535,23 @@
             </c04>
             <c04 level="file">
               <did>
+                <physloc>Online</physloc>
+                <unittitle>Facilities, <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.PPT and .PPTX files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/113217" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date></p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
                 <unittitle>Faculty Receptions</unittitle>
               </did>
               <c05 level="file">
@@ -72468,7 +72589,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">501</container>
-                  <unittitle>General, <unitdate type="inclusive" normal="1998/2001">1998-2001</unitdate></unittitle>
+                  <unittitle>General, <unitdate type="inclusive" normal="1998/2001">1998-2001</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">3 folders</extent>
                   </physdesc>
@@ -72576,7 +72697,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">501</container>
-                <unittitle>Little Caesar's Contract Termination, <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></unittitle>
+                <unittitle>Little Caesar's Contract Termination, <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate> </unittitle>
               </did>
               <accessrestrict>
                 <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date></p>
@@ -72597,7 +72718,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">501</container>
-                <unittitle>Michigan Transfer Initiative for Emerging Scholars (M-TIES), <unitdate type="inclusive" normal="1998/2000">1998-2000</unitdate></unittitle>
+                <unittitle>Michigan Transfer Initiative for Emerging Scholars (M-TIES), <unitdate type="inclusive" normal="1998/2000">1998-2000</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
@@ -72645,7 +72766,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">502</container>
-                <unittitle>President's Office Email and Letters, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+                <unittitle>President's Office Email and Letters, <unitdate type="inclusive" normal="2004">2004</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -72661,7 +72782,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">502</container>
-                  <unittitle>General, <unitdate type="inclusive" normal="1999/2004">1999-2004</unitdate></unittitle>
+                  <unittitle>General, <unitdate type="inclusive" normal="1999/2004">1999-2004</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">3 folders</extent>
                   </physdesc>
@@ -72682,7 +72803,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">502</container>
-                  <unittitle>Web Research, <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+                  <unittitle>Web Research, <unitdate type="inclusive" normal="2000">2000</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">3 folders</extent>
                   </physdesc>
@@ -72704,7 +72825,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">502</container>
-                <unittitle>Purchasing Task Force, <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></unittitle>
+                <unittitle>Purchasing Task Force, <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
@@ -72716,7 +72837,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">502</container>
-                <unittitle>Rasmussen, William, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+                <unittitle>Rasmussen, William, <unitdate type="inclusive" normal="2004">2004</unitdate> </unittitle>
               </did>
               <odd>
                 <p>(FOIA request)</p>
@@ -72732,7 +72853,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">520</container>
-                  <unittitle>UM Dearborn Chancellor Dan Little Review, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+                  <unittitle>UM Dearborn Chancellor Dan Little Review, <unitdate type="inclusive" normal="2004">2004</unitdate> </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
@@ -72799,7 +72920,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">502</container>
-                <unittitle>Successful Intelligence, <unitdate type="inclusive" normal="2000/2002">2000-2002</unitdate></unittitle>
+                <unittitle>Successful Intelligence, <unitdate type="inclusive" normal="2000/2002">2000-2002</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
@@ -72815,7 +72936,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">502</container>
-                  <unittitle>Foege, William, <unitdate type="inclusive" normal="1999/2005">1999-2005</unitdate></unittitle>
+                  <unittitle>Foege, William, <unitdate type="inclusive" normal="1999/2005">1999-2005</unitdate> </unittitle>
                 </did>
                 <odd>
                   <p>(includes materials relating to Polio vaccine 50th anniversary)</p>
@@ -72859,6 +72980,42 @@
             </c04>
             <c04 level="file">
               <did>
+                <unittitle>University of Toledo commencement address, <unitdate certainty="approximate" type="inclusive" normal="2007">2007</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date></p>
+              </accessrestrict>
+              <c05 level="file">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>Videos</unittitle>
+                  <physdesc>
+                    <physfacet>.ZIP files</physfacet>
+                  </physdesc>
+                  <dao href="http://hdl.handle.net/2027.42/113216" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[download item]</p>
+                    </daodesc>
+                  </dao>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>Images</unittitle>
+                  <physdesc>
+                    <physfacet>.ZIP file</physfacet>
+                  </physdesc>
+                  <dao href="http://hdl.handle.net/2027.42/113220" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[download item]</p>
+                    </daodesc>
+                  </dao>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
                 <container type="box" label="Box">503</container>
                 <unittitle>Washtenaw County Youth Initiative, <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></unittitle>
               </did>
@@ -72869,7 +73026,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">503</container>
-                <unittitle>Washtenaw in Motion, <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+                <unittitle>Washtenaw in Motion, <unitdate type="inclusive" normal="2003">2003</unitdate> </unittitle>
               </did>
               <odd>
                 <p>(Michigan Environmental Council)</p>
@@ -72881,7 +73038,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">503</container>
-                <unittitle>Weil-Reyes, Edward, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+                <unittitle>Weil-Reyes, Edward, <unitdate type="inclusive" normal="2004">2004</unitdate> </unittitle>
               </did>
               <odd>
                 <p>(Manager of Supplier Diversity position)</p>
@@ -72893,7 +73050,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">503</container>
-                <unittitle>White, B. Joseph, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+                <unittitle>White, B. Joseph, <unitdate type="inclusive" normal="2002">2002</unitdate> </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -79435,7 +79592,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">505</container>
-            <unittitle>Michigan Difference Seminars in Florida, <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
+            <unittitle>Michigan Difference Seminars in Florida, <unitdate type="inclusive" normal="2007">2007</unitdate> </unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
@@ -79447,7 +79604,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">505</container>
-            <unittitle>Prospects, <unitdate type="inclusive" normal="1998/2004">1998-2004</unitdate></unittitle>
+            <unittitle>Prospects, <unitdate type="inclusive" normal="1998/2004">1998-2004</unitdate> </unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">9 folders</extent>
             </physdesc>
@@ -79459,7 +79616,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">505</container>
-            <unittitle>Reports, <unitdate type="inclusive" normal="1991/1999">1991-1999</unitdate></unittitle>
+            <unittitle>Reports, <unitdate type="inclusive" normal="1991/1999">1991-1999</unitdate> </unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
@@ -79488,7 +79645,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">522</container>
-            <unittitle>Campus Plan, <unitdate type="inclusive" normal="2001/2004">2001-2004</unitdate></unittitle>
+            <unittitle>Campus Plan, <unitdate type="inclusive" normal="2001/2004">2001-2004</unitdate> </unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
@@ -79505,7 +79662,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">506</container>
-              <unittitle>General, <unitdate type="inclusive" normal="1969/2001">1969-2001</unitdate></unittitle>
+              <unittitle>General, <unitdate type="inclusive" normal="1969/2001">1969-2001</unitdate> </unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
               </physdesc>
@@ -79860,7 +80017,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">507</container>
-            <unittitle>Hill Auditorium-Restore America National Preservation Honor Award Nomination, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+            <unittitle>Hill Auditorium-Restore America National Preservation Honor Award Nomination, <unitdate type="inclusive" normal="2004">2004</unitdate> </unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
@@ -79920,7 +80077,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">507</container>
-            <unittitle>Policies and Guidelines, <unitdate type="inclusive" normal="1976/1989">1976-1989</unitdate></unittitle>
+            <unittitle>Policies and Guidelines, <unitdate type="inclusive" normal="1976/1989">1976-1989</unitdate> </unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
@@ -79932,7 +80089,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">522</container>
-            <unittitle>Requests, <unitdate type="inclusive" normal="1989/2004">1989-2004</unitdate></unittitle>
+            <unittitle>Requests, <unitdate type="inclusive" normal="1989/2004">1989-2004</unitdate> </unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
@@ -79944,7 +80101,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">523</container>
-            <unittitle>Requests, <unitdate type="inclusive" normal="1989/2004">1989-2004</unitdate></unittitle>
+            <unittitle>Requests, <unitdate type="inclusive" normal="1989/2004">1989-2004</unitdate> </unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
@@ -80012,7 +80169,7 @@
           <unittitle>Audio and Visual Materials</unittitle>
         </did>
         <scopecontent>
-          <p>The Audio and Visual Materials series, 1967-2005 (4.5 linear feet), consists of photographs, films, audiocassette tapes, videocassette tapes, DVDs, paintings, and drawings relating to the official and ceremonial functions of the president, the president's house, meetings with visiting dignitaries, and student activities. Within the series are subseries for the presidential administrations of Fleming, Shapiro, Duderstadt, Neal, Bollinger, and Coleman.</p>
+          <p>The Audio and Visual Materials series, 1967-2006 (4.5 linear feet and 2.26 GB), consists of photographs, films, audiocassette tapes, online files, videocassette tapes, DVDs, paintings, and drawings relating to the official and ceremonial functions of the president, the president's house, meetings with visiting dignitaries, and student activities. Within the series are subseries for the presidential administrations of Fleming, Shapiro, Duderstadt, Neal, Bollinger, and Coleman.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
@@ -80579,9 +80736,43 @@
           <did>
             <unittitle>Mary Sue Coleman Administration</unittitle>
           </did>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Best of Michigan A Cappella (Various groups), <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/113214" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date></p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Ford Foundation: Mont's Tribute, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP and .MP4 files</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/113222" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date normal="2031-07-01" type="restriction">July 1, 2031</date></p>
+            </accessrestrict>
+          </c03>
           <c03 level="otherlevel" otherlevel="sub-subseries">
             <did>
-              <unittitle>DVD's</unittitle>
+              <unittitle>DVDs</unittitle>
             </did>
             <c04 level="file">
               <did>
