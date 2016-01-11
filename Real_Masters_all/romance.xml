@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::romance.xml//EN" encodinganalog="identifier">umich-bhl-0048</eadid>
     <filedesc>
       <titlestmt>
-        <titleproper encodinganalog="title">Finding Aid for Dept. of Romance Languages and Literatures (University of Michigan) Records <date>1907-2003</date></titleproper>
+        <titleproper encodinganalog="title">Finding Aid for Department of Romance Languages and Literatures (University of Michigan) Records <date>1907-2003</date></titleproper>
         <author encodinganalog="creator">Collection processed and finding aid prepared by Riva Pollard, October 1999</author>
       </titlestmt>
       <publicationstmt>
@@ -17,7 +17,10 @@
       <creation>Encoded finding aid created by Greg Kinney <date>Aug. 2001</date></creation>
       <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
     </profiledesc>
-    <revisiondesc>
+    <revisiondesc> <change>
+        <date>20151224</date>
+        <item>Updated dates.</item>
+      </change>
       <change>
         <date>20150805</date>
         <item>Corrected collection dates, container list, and added written notes from paper finding aid.</item>
@@ -39,16 +42,16 @@
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
-      <titleproper>Finding Aid for <lb/>Dept. of Romance Languages and Literatures <lb/>(University of Michigan) <lb/>Records, 1907-2003</titleproper>
+      <titleproper>Finding Aid for <lb/>Department of Romance Languages and Literatures <lb/>(University of Michigan) <lb/>Records, 1907-2003</titleproper>
       <author>Finding aid prepared by: <lb/>Riva Pollard, October 1999 <lb/>Alicia Kildau, March 2013</author>
     </titlepage>
   </frontmatter>
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n82143110">University of Michigan. Dept. of Romance Languages.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n82143110">University of Michigan. Department of Romance Languages.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Dept. of Romance Languages and Literatures (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1907/2003">1907-2003</unitdate>, <unitdate type="bulk" encodinganalog="245$f" normal="1920/1970">1920-1970</unitdate></unittitle>
+      <unittitle encodinganalog="245">Department of Romance Languages and Literatures (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1907/2003">1907-2003</unitdate>, <unitdate type="bulk" encodinganalog="245$f" normal="1920/1970">1920-1998</unitdate></unittitle>
       <abstract>Records of the University of Michigan Department of Romance Languages and Literatures. The collection contains administrative and topical files of the Department, records of associated student organizations, photographs, and audio material. Of particular note is the extensive run of photographs (1908-1955) of photographs of the Cercle Français' annual French-language play.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">0048 Bimu 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
@@ -93,7 +96,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82143110">University of Michigan. Dept. of Romance Languages.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82143110">University of Michigan. Department of Romance Languages.</corpname>
         <subject source="lcsh" encodinganalog="650">Language and languages--Study and teaching.</subject>
         <subject source="lcsh" encodinganalog="650">Language and education.</subject>
         <subject source="lcsh" encodinganalog="650">Romance languages--Study and teaching.</subject>
@@ -106,7 +109,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82143110">University of Michigan. Dept. of Romance Languages.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82143110">University of Michigan. Department of Romance Languages.</corpname>
         <subject source="lcsh" encodinganalog="650">French language--Societies, etc.</subject>
         <subject source="lcsh" encodinganalog="650">Spanish language--Societies, etc.</subject>
         <corpname source="lcnaf" encodinganalog="610">University of Michigan. Cercle Français.</corpname>
