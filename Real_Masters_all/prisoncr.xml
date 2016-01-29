@@ -18,7 +18,8 @@
       <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
       <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
     </profiledesc>
-    <revisiondesc><change>
+    <revisiondesc>
+      <change>
         <date>2015-01-10</date>
         <item>Digital files added</item>
       </change>
@@ -115,7 +116,7 @@ Prison Creative Arts Project collection, Bentley Historical Library, University 
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-<genreform source="aat" encodinganalog="655">Digital file formats.</genreform>		  
+        <genreform source="aat" encodinganalog="655">Digital file formats.</genreform>
         <genreform source="aat" encodinganalog="655">DVDs.</genreform>
         <genreform source="aat" encodinganalog="655">Playbills.</genreform>
         <genreform source="aat" encodinganalog="655">Photographs.</genreform>
@@ -1259,8 +1260,17 @@ Prison Creative Arts Project collection, Bentley Historical Library, University 
             <unittitle><title render="italic">A time when...</title>, Western Wayne Players, <unitdate type="inclusive" normal="1992-04">April 1992</unitdate></unittitle>
           </did>
         </c02>
-<c02 level="file"><did><physloc>Online </physloc><unittitle><title render="italic">Junkie</title> Sisters Within Theater Troupe, <unitdate type="inclusive">November 21, 1992</unitdate> </unittitle><dao href="http://hdl.handle.net/2027.42/114391" show="new" actuate="onrequest"><daodesc><p>[download item]</p></daodesc></dao></did></c02>        
-        
+        <c02 level="file">
+          <did>
+            <physloc>Online </physloc>
+            <unittitle><title render="italic">Junkie</title> Sisters Within Theater Troupe, <unitdate type="inclusive">November 21, 1992</unitdate> </unittitle>
+            <dao href="http://hdl.handle.net/2027.42/114391" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">3</container>
