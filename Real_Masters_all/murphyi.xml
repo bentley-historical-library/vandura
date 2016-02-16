@@ -22,7 +22,8 @@
       <change>
         <date>20160209</date>
         <item>Added digitized audio</item>
-      </change><change>
+      </change>
+      <change>
         <date>2007-03-20</date>
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
@@ -47,9 +48,10 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">3.2 linear feet</extent>
       </physdesc>
-       <physdesc altrender="part">
+      <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">502 MB</extent>
-      </physdesc><repository>
+      </physdesc>
+      <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -60,8 +62,9 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open to research.</p>
-      <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.
-</p></accessrestrict>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.
+</p>
+      </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright is held by the Regents of the University of Michigan.</p>
       </userestrict>
@@ -69,12 +72,15 @@
         <p>[item], folder, box,
 Irene Ellis Murphy papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
-    <altformavail>
-  <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid.  Original sound recordings are only available for staff use.</p>
-</altformavail>
-
-<processinfo><p><extptr href="digitalproc" show="embed" actuate="onload"/></p>
-</processinfo></descgrp>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid.  Original sound recordings are only available for staff use.</p>
+      </altformavail>
+      <processinfo>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
+    </descgrp>
     <bioghist encodinganalog="545">
       <p>Irene Ellis Murphy was born in Connersville, Indiana in the years 1900. She received her M.A. from the University of Michigan in 1928 and began a career as a social worker with the Detroit Department of Public Welfare and the Council of Social Agencies. She worked here until 1945.</p>
       <p>In 1929, she had married J. Harold Murphy, the brother of then Detroit Mayor Frank Murphy. When Murphy left to become Governor General of the Philippine Islands (1933-1935), he took many members of his family with him. From her stay in the Philippines in the mid-1930s, Irene Murphy would develop a life-long interest in the people and politics of the Islands.</p>
@@ -529,11 +535,34 @@ Irene Ellis Murphy papers, Bentley Historical Library, University of Michigan</p
             <genreform normal="Sound recordings">Sound recording</genreform>
           </unittitle>
         </did>
-        
-      
-<accessrestrict><p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
-</accessrestrict><c02 level="otherlevel" otherlevel="item-main"><did><unittitle>Irene Murphy interviewed by Voice of America, <unitdate type="inclusive">1959 June 08</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet></physdesc></did><c03 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[851917-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="851917-SR-1-1" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Alan Strong from Voice of America interviews Irene Murphy. She discusses her stays in the Philippines, including her work as a social worker and in nurturing village industries after World War II.)</abstract></did></c03></c02>	
-		</c01>
+        <accessrestrict>
+          <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Irene Murphy interviewed by Voice of America, <unitdate type="inclusive">1959 June 08</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[851917-SR-1-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="851917-SR-1-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Alan Strong from Voice of America interviews Irene Murphy. She discusses her stays in the Philippines, including her work as a social worker and in nurturing village industries after World War II.)</abstract>
+            </did>
+          </c03>
+        </c02>
+      </c01>
       <c01 level="series">
         <did>
           <unittitle>
