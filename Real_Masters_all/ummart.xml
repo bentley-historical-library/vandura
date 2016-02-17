@@ -19,6 +19,9 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160609</date>
+        <item>Added digitized audio</item>
+      </change><change>
         <date>20150810</date>
         <item>Added written notes from paper finding aid.</item>
       </change>
@@ -47,7 +50,9 @@
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">26.3 linear feet</extent>
       </physdesc>
-      <repository>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">691 GB </extent>
+      </physdesc><repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -58,7 +63,8 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The records of Museum of Art are open roe research use with the exception of certain of certain administrative records that are closed in accord with university policy and applicable law. Closed files in the Museum of Art record group include: <list type="simple"><item>Executive Officers Records -- Box 19</item></list></p>
-        <p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.
+</p><p>
           <extptr href="uarpacc" show="embed" actuate="onload"/>
         </p>
       </accessrestrict>
@@ -66,9 +72,15 @@
         <p>Copyright is held by the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box, Museum of Art (University of Michigan) Records, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box,
+Museum of Art (University of Michigan) Records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
-    </descgrp>
+    <altformavail>
+  <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid.  Original sound recordings are only available for staff use.</p>
+</altformavail>
+
+<processinfo><p><extptr href="digitalproc" show="embed" actuate="onload"/></p>
+</processinfo></descgrp>
     <bioghist encodinganalog="545">
       <p>The University of Michigan Museum of Art (UMMA) houses the second largest art collection in the state of Michigan, offering a rich permanent collection supplemented by an active special exhibition program. In addition, the many and varying art collections assist in teaching at the university. The collections of Chinese and Japanese paintings and ceramics; Old Master and contemporary prints and drawings; and Whistler prints are particularly strong.</p>
       <p>The museum was established in its present form in 1946. The University Regents declared in November 1945 that the Museum of Art and Archaeology be abolished and that two separate units (the Museum of Art and the Museum of Archaeology) take its place. At their January 1946 meeting, the Regents further stipulated that the Museum of Art be maintained as "a separate administrative unit for the purpose of collection, conservation, study and exhibition of works of art and the preparation of publications with respect thereunto." The university's art collections had their origins long before 1946, however. Early systematic collecting began in 1855 when Professor Henry S. Frieze purchased a number of art works, chiefly engravings and plaster casts, to illustrate his courses in classical art and archaeology. In 1862 Frieze was instrumental in acquiring the university's first significant original work of art, Randolph Rogers' <title render="italic">Nydia, the Blind Flower Girl of Pompeii.</title></p>
@@ -163,7 +175,8 @@
       </p>
     </bioghist>
     <scopecontent encodinganalog="520">
-      <p>The records of the University of Michigan Museum of Art document its exhibition program, administration and its educational function through the Museum Practice Program. The UMMA record group has been arranged into seven series: Exhibition Files, Executive Files, Photographs, Publicity, Museum Practice Program, Historical Background, and Docents. The records include correspondence, committee minutes, publicity material and photographs. Exhibit catalogs and other publications are described separately in the Museum of Art Publications finding aid.</p>
+      <p>The records of the University of Michigan Museum of Art document its exhibition program, administration and its educational function through the Museum Practice Program. The UMMA record group has been arranged into seven series: Exhibition Files, Executive Files, Photographs, Publicity, Museum Practice Program, Historical Background, and Docents.
+The records include correspondence, committee minutes, publicity material and photographs. Exhibit catalogs and other publications are described separately in the Museum of Art Publications finding aid.</p>
     </scopecontent>
     <controlaccess>
       <p>
@@ -171,8 +184,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80040326">University of Michigan. Museum of Art.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81137738">University of Michigan. Museum Practice Program.</corpname>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Museum of Art.</corpname>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Museum Practice Program.</corpname>
         <corpname encodinganalog="610" source="lcnaf">University of Michigan. Graduate Seminar in Museum Practice.</corpname>
         <subject encodinganalog="650" source="aat">Art.</subject>
         <subject encodinganalog="650" source="aat">Art--Exhibitions.</subject>
@@ -12197,7 +12210,11 @@
             </physdesc>
           </did>
         </c02>
-      </c01>
+      </c01><c01 level="series"><did><unittitle>Sound Recordings</unittitle></did><accessrestrict><p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+</accessrestrict><c02><did><unittitle>Photography Lectures</unittitle></did><c03 level="otherlevel" otherlevel="item-main"><did><unittitle>Walker Evans Photography, Lecture, <unitdate type="inclusive">1971</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[0475-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc> <abstract>(Talk by Walker Evans in connection with the Walker Evans Photography exhibition (Oct. 27 - Dec. 5, 1971).)</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><unittitle>Walker Evans Photography, Old, <unitdate type="inclusive">1971 October 29</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 7 inch</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[0475-SR-2-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="0475-SR-2-1" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Walker Evans discusses art and artists, their relationships with society and faith.)</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><unittitle>Walker Evans Photography, New, <unitdate type="inclusive">1971 October 29</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[0475-SR-3-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="0475-SR-3-1" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Walker Evans discusses his life and his own connection art.)</abstract></did></c04></c03><c03 level="otherlevel" otherlevel="item-main"><did><unittitle>The Impact of Photography on Other Forms of Two Dimensional Art, <unitdate type="inclusive">1976 March 26</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[0475-SR-4-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="0475-SR-4-1" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Discussion of  “The Impact of Photography on Other Forms of Two Dimensional Art,” with Rudolf Arnheim, Philip Davis, Diane Kirkpatrick and Ira Licht (curator, Museum of Contemporary Art Chicago). The discussion complements the exhibition "One Eye View" presently on view in the museum.)</abstract></did></c04>
+<c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 2]</unittitle><unitid>[0475-SR-4-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="0475-SR-4-2" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao><abstract>(Discussion of  “The Impact of Photography on Other Forms of Two Dimensional Art,” with Rudolf Arnheim, Philip Davis, Diane Kirkpatrick and Ira Licht (curator, Museum of Contemporary Art Chicago). The discussion complements the exhibition "One Eye View" presently on view in the museum.)</abstract></did></c04></c03></c02></c01>
     </dsc>
     <descgrp type="add">
       <relatedmaterial>
