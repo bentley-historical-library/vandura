@@ -19,6 +19,9 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160609</date>
+        <item>Added digitized audio</item>
+      </change><change>
         <date>2014-12-11</date>
         <item>Card index to correspondence is added, boxes 100-103</item>
       </change>
@@ -74,7 +77,7 @@
       </physdesc>
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">23 linear feet</extent>
-        <extent altrender="carrier">in 103 boxes, not microfilmed</extent>
+        <extent altrender="carrier">(in 103 boxes, not microfilmed)</extent>
       </physdesc>
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">7 oversize volumes</extent>
@@ -82,7 +85,9 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">2 oversize folders</extent>
       </physdesc>
-      <repository>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">474 MB </extent>
+      </physdesc><repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -93,16 +98,19 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research. User's must sign a Murphy Papers Contract stipulating certain conditions for use. Copies of the contract are available from the Bentley Library reference archivist. For the portions of the collection which have been microfilmed, the original documents are closed, researchers must use the microfilm edition. The microfilm edition is available through inter-library loan.</p>
-      </accessrestrict>
+      <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.
+</p></accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
       </userestrict>
-      <processinfo>
-        <p>This finding aid combines the microfilm edition and the portions of the Murphy papers that were not microfilmed in a single listing which reflects the intellectual arrangement of the collection. The contents list integrates Roll numbers and Box numbers. The microfilmed portions are listed as Rolls 1-165. The unfilmed materials are listed as part of boxes. Among the materials not microfilmed are routine personal and business papers, appointment books, printed material and audio-visual material.</p>
-      </processinfo>
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., Frank Murphy Papers, Bentley Historical Library, University of Michigan</p>
-      </prefercite>
+      </prefercite><altformavail>
+  <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid.  Original sound recordings are only available for staff use.</p>
+</altformavail><processinfo>
+        <p>This finding aid combines the microfilm edition and the portions of the Murphy papers that were not microfilmed in a single listing which reflects the intellectual arrangement of the collection. The contents list integrates Roll numbers and Box numbers. The microfilmed portions are listed as Rolls 1-165. The unfilmed materials are listed as part of boxes. Among the materials not microfilmed are routine personal and business papers, appointment books, printed material and audio-visual material.</p>
+      <p><extptr href="digitalproc" show="embed" actuate="onload"/></p></processinfo>
+      
     </descgrp>
     <bioghist encodinganalog="545">
       <p>The career of Frank Murphy was distinguished by the varied scope of his public service. For three decades, he was Michigan's best-known public servant, a consummate politician, known and respected by thousands. Murphy was born April 13, 1890 in Sand Beach (later Harbor Beach), Michigan. He graduated from the University of Michigan Law School in 1914, served in the infantry during World War I, and upon his discharge received appointment as first assistant United States attorney for the Eastern District of Michigan.</p>
@@ -115,11 +123,31 @@
       <p>
         <list type="simple">
           <item>Series I: Correspondence, 1908-1949. - Rolls 1-91 Index to correspondence. -Boxes 100-103</item>
-          <item>Series II: Other Papers, 1890-1949. - Rolls 91-121 <list type="simple"><item>Pre-Detroit Mayoralty, 1890-1929. - Rolls 91-97</item><item>Mayor of Detroit, 1930-1933. Rolls 97-98</item><item>P.I. Governor General/High Commissioner, 1933-1936. - Rolls 98-108</item><item>Governor of Michigan, 1936-1938. - Rolls 108-111</item><item>U.S. Attorney General, 1939-1940. - Rolls 111-116</item><item>U.S. Supreme Court Justice, 1940-1949. - Rolls 117-120</item></list> </item>
+          <item>Series II: Other Papers, 1890-1949. - Rolls 91-121
+            <list type="simple">
+              <item>Pre-Detroit Mayoralty, 1890-1929. - Rolls 91-97</item>
+              <item>Mayor of Detroit, 1930-1933. Rolls 97-98</item>
+              <item>P.I. Governor General/High Commissioner, 1933-1936. - Rolls 98-108</item>
+              <item>Governor of Michigan, 1936-1938. - Rolls 108-111</item>
+              <item>U.S. Attorney General, 1939-1940. - Rolls 111-116</item>
+              <item>U.S. Supreme Court Justice, 1940-1949. - Rolls 117-120</item>
+            </list>
+          </item>
           <item>Series III: Supreme Court Case Files. - Rolls 121-141</item>
           <item>Series IV: Speech File. - Rolls 141-146</item>
-          <item>Series V: Speech Material. <list type="simple"><item>Frank Murphy related. - Rolls 146-147</item><item>Non-Frank Murphy. - Boxes 78-83</item></list> </item>
-          <item>Series VI: Miscellaneous Material - Rolls 147-154; Boxes 84-85, 87-94 <list type="simple"><item>Personal correspondence</item><item>Appointment calendars</item><item>Printed material</item></list> </item>
+          <item>Series V: Speech Material.
+            <list type="simple">
+              <item>Frank Murphy related. - Rolls 146-147</item>
+              <item>Non-Frank Murphy. - Boxes 78-83</item>
+            </list>
+          </item>
+          <item>Series VI: Miscellaneous Material - Rolls 147-154; Boxes 84-85, 87-94
+            <list type="simple">
+              <item>Personal correspondence</item>
+              <item>Appointment calendars</item>
+              <item>Printed material</item>
+            </list>
+          </item>
           <item>Series VII: Visual Materials - Boxes 95-98; oversize folders</item>
           <item>Series VIII: Newsclippings/Scrapbooks - Rolls 155-165</item>
           <item>Finding Aid - Roll 166</item>
@@ -139,7 +167,7 @@
         <subject source="lcsh" encodinganalog="650">Civil service.</subject>
         <subject source="lcsh" encodinganalog="650">Courts--Michigan.</subject>
         <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html">Detroit (Mich.)</geogname>
         <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85185363">Detroit (Mich.). Mayor.</corpname>
         <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92061700">Detroit (Mich.). Recorder's Court.</corpname>
         <subject source="lcsh" encodinganalog="650">Judges--United States.</subject>
@@ -171,7 +199,7 @@
         <subject source="lctgm" encodinganalog="650">Clothing and dress--1931-1940.</subject>
         <subject source="lctgm" encodinganalog="650">Crowds.</subject>
         <subject source="lctgm" encodinganalog="650">Demonstrations.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html">Detroit (Mich.)</geogname>
         <geogname source="lctgm" encodinganalog="651">Detroit (Mich.)--Mayors.</geogname>
         <geogname source="lctgm" encodinganalog="651">Detroit (Mich.)--Newspaper industry.</geogname>
         <subject source="lctgm" encodinganalog="650">Dentistry--Michigan.</subject>
@@ -183,7 +211,7 @@
         <subject source="lctgm" encodinganalog="650">Galleries and museums--Michigan--Harbor Beach.</subject>
         <subject source="lctgm" encodinganalog="650">Governors--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650">Governors--Philippines.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85115336">Harbor Beach (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85115336.html">Harbor Beach (Mich.)</geogname>
         <geogname source="lctgm" encodinganalog="651">Harbor Beach (Mich.)--Dwellings.</geogname>
         <geogname source="lctgm" encodinganalog="651">Harbor Beach (Mich.)--Galleries and museums.</geogname>
         <subject source="lctgm" encodinganalog="650">Horseback riding.</subject>
@@ -250,7 +278,7 @@
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045732">Borah, William Edgar, 1865-1940.</persname>
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79018108">Brandeis, Louis Dembitz, 1856-1941.</persname>
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82162115">Browder, Earl, 1891-1973.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007125178">Brown, Prentiss M. (Prentiss Marsh), 1889-1973.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007125178">Brown, Prentiss Marsh, 1889-1973.</persname>
         <persname source="lcnaf" encodinganalog="700">Bumgardner, Eleanor M. (Eleanor Margaret)</persname>
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50034180">Burton, Harold H. (Harold Hitz), 1888-1964.</persname>
         <persname source="lcnaf" encodinganalog="700">Butler, Pierce.</persname>
@@ -308,7 +336,7 @@
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91003443">Hillman, Sidney, 1887-1946.</persname>
         <persname source="lcnaf" encodinganalog="700">Hoffman, Clare Eugene, 1875-1967.</persname>
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79077374">Hoover, J. Edgar (John Edgar), 1895-1972.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50028471">Hopkins, Harry L. (Harry Lloyd), 1890-1946.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50028471">Hopkins, Harry Lloyd, 1890-1946.</persname>
         <persname source="lcnaf" encodinganalog="700">Hotzoff, Alexander.</persname>
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89118383">Howe, Louis McHenry, 1871-1936.</persname>
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79006704">Hughes, Charles Evans, 1862-1948.</persname>
@@ -409,7 +437,7 @@
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79084411">Sheen, Fulton J. (Fulton John), 1895-1979.</persname>
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008161935">Shields, Edmund Claude, 1871-1947.</persname>
         <persname source="lcnaf" encodinganalog="700">Sigler, Kim, b. 1894.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89115529">Sloan, Alfred P. (Alfred Pritchard), 1875-1966.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89115529">Sloan, Alfred Pritchard, 1875-1966.</persname>
         <persname source="lcnaf" encodinganalog="700">Smathers, William H.</persname>
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50016436">Smith, Alfred Emanuel, 1873-1944.</persname>
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90657980">Snyder, John W. (John Wesley), 1895-1985.</persname>
@@ -419,7 +447,7 @@
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80098082">Stason, E. Blythe (Edwin Blythe), 1891-1972.</persname>
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50022542">Stettinius, Edward R. (Edward Reilly), 1900-1949.</persname>
         <persname source="lcnaf" encodinganalog="700">Stidger, William L. (William LeRoy), 1886-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50011364">Stimson, Henry L. (Henry Lewis), 1867-1950.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50011364">Stimson, Henry Lewis, 1867-1950.</persname>
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86114718">Stone, Harlan Fiske, 1872-1946.</persname>
         <persname source="lcnaf" encodinganalog="700">Straus, Nathan.</persname>
         <persname source="lcnaf" encodinganalog="700">Summers, Halton W.</persname>
@@ -2714,7 +2742,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>1939 <unitdate type="inclusive" normal="1939">1939</unitdate> Term</unittitle>
+            <unittitle>1939  Term, <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -2772,7 +2800,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>1939 <unitdate type="inclusive" normal="1940">1940</unitdate> Term</unittitle>
+            <unittitle>1939-1940  Term, <unitdate type="inclusive" normal="1940">1939-1940</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -3028,7 +3056,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>1941 <unitdate type="inclusive" normal="1941">1941</unitdate> Term</unittitle>
+            <unittitle>1941  Term</unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -3414,7 +3442,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>1942 <unitdate type="inclusive" normal="1942">1942</unitdate> Special Term</unittitle>
+            <unittitle>1942  Special Term, <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -3425,7 +3453,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>1943 <unitdate type="inclusive" normal="1943">1943</unitdate> Term</unittitle>
+            <unittitle>1943  Term, <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -3615,12 +3643,12 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>1944 <unitdate type="inclusive" normal="1944">1944</unitdate> Term</unittitle>
+            <unittitle>1944  Term, <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
               <container label="Roll" type="reel">129</container>
-              <unittitle>Korematsu vs. U.S. (# 22) [conference notes filed with: <unitdate type="inclusive" normal="1944">1944</unitdate> Term, Other cases, # 20]</unittitle>
+              <unittitle>Korematsu vs. U.S. (# 22) [conference notes filed with: 1944 Term, Other cases, # 20]</unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -3901,7 +3929,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>1945 <unitdate type="inclusive" normal="1945">1945</unitdate> Term</unittitle>
+            <unittitle>1945  Term, <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -4175,7 +4203,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>1946 <unitdate type="inclusive" normal="1946">1946</unitdate> Term</unittitle>
+            <unittitle>1946  Term, <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -4407,7 +4435,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>1947 <unitdate type="inclusive" normal="1947">1947</unitdate> Term</unittitle>
+            <unittitle>1947  Term, <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -4543,7 +4571,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>1948 <unitdate type="inclusive" normal="1948">1948</unitdate> Term</unittitle>
+            <unittitle>1948  Term, <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -7111,7 +7139,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Visual Materials</unittitle>
+          <unittitle>Audio-Visual Materials</unittitle>
         </did>
         <scopecontent>
           <p>Visual Materials: photographs, films, drawings, and newspaper cartoons, ca. 1900-1949 (Boxes 95-98, and Ac and UAl oversize folders). This series was not included in the microfilm project.</p>
@@ -7648,7 +7676,8 @@
               </did>
             </c04>
           </c03>
-        </c02>
+        </c02><c02 level="subseries"><did><unittitle>Sound Recordings</unittitle></did><accessrestrict><p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+</accessrestrict><c03 level="otherlevel" otherlevel="item-main"><did><unittitle>Interview discussing duties and responsibilities of the attorney general of the United States., <unitdate type="inclusive">1939-05</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[86734-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="86734-SR-1-1" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Murphy answers a series of questions about the job of Attorney General.  Part of series of interviews with cabinet members by Lowell Mellet, broadcast on NBC radio June 6, 1939.)</abstract></did></c04></c03></c02>
         <c02 level="subseries">
           <did>
             <unittitle>Oversized <genreform>photographs</genreform> and other visual material</unittitle>
