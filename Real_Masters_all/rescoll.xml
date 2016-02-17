@@ -18,7 +18,8 @@
       <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
       <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
     </profiledesc>
-    <revisiondesc><change>
+    <revisiondesc>
+      <change>
         <date>2015-12-22</date>
         <item>Added link to e-mail files in Deep Blue; updated digital size.</item>
       </change>
@@ -88,8 +89,7 @@
         <p>Copyright is held by the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-Residential College (University of Michigan) records, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Residential College (University of Michigan) records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -1540,7 +1540,17 @@ Residential College (University of Michigan) records, Bentley Historical Library
               <unittitle>Directing News <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
             </did>
           </c03>
-<c03 level="file"><did><unittitle>Email Correspondence, <unitdate type="inclusive">2001-2011</unitdate> </unittitle> <physdesc><physfacet>.ZIP file) </physfacet></physdesc></did> <accessrestrict><p>[SR Restricted until  July 1, <date type="restriction" normal="2086-07-01">2086</date>]</p></accessrestrict> </c03>          
+          <c03 level="file">
+            <did>
+              <unittitle>Email Correspondence, <unitdate type="inclusive">2001-2011</unitdate> </unittitle>
+              <physdesc>
+                <physfacet>.ZIP file) </physfacet>
+              </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[SR Restricted until July 1, <date type="restriction" normal="2086-07-01">2086</date>]</p>
+            </accessrestrict>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">18</container>
@@ -4495,10 +4505,10 @@ Residential College (University of Michigan) records, Bentley Historical Library
                 <physfacet>.MP4 and .avi files</physfacet>
               </physdesc>
               <dao href="http://hdl.handle.net/2027.42/110254" show="new" actuate="onrequest">
-              <daodesc>
-                <p>[download item]</p>
-              </daodesc>
-            </dao>
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
             </did>
             <odd>
               <p>(Includes materials from courses on "Nonviolence in Action" and Afro-Cuban drumming.)</p>
