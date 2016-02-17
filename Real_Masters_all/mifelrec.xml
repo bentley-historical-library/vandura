@@ -20,6 +20,9 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160609</date>
+        <item>Added digitized audio</item>
+      </change><change>
         <date>2006-11-22</date>
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
@@ -44,7 +47,9 @@
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
       </physdesc>
-      <repository>
+       <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2.09 GB  </extent>
+      </physdesc><repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -55,14 +60,21 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The record group is open to research.</p>
-      </accessrestrict>
+      <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.
+</p></accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box, Michigan Fellowship of Reconciliation records, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box,
+Michigan Fellowship of Reconciliation records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
-    </descgrp>
+    <altformavail>
+  <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid.  Original sound recordings are only available for staff use.</p>
+</altformavail>
+
+<processinfo><p><extptr href="digitalproc" show="embed" actuate="onload"/></p></processinfo>
+</descgrp>
     <bioghist encodinganalog="545">
       <p>The Fellowship of Reconciliation is a religious pacifist organization which was founded in England and soon spread to the United States. The Michigan branch was organized at a convention in Detroit on April 15, 1940. This organization remained active in its opposition to wars and militarism at least until the late 1960's when its newsletter stopped appearing.</p>
     </bioghist>
@@ -273,12 +285,10 @@
             <unittitle>Religious Literature</unittitle>
           </did>
         </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Sound recording of address of Dr. Martin Niemoeller before the National Conference of the Fellowship of Reconciliation <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-          </did>
-        </c02>
+        <c02 level="otherlevel" otherlevel="item-main"><did><unittitle>Speech of Martin Niemöller before the National Conference of the Fellowship of Reconciliation, Ohio, <unitdate type="inclusive">1954</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 5 inch, 3 ¾ ips</physfacet></physdesc></did><accessrestrict><p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+</accessrestrict><c03 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[851326-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="851326-SR-1-1" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Martin Niemöller discussing the World War II, Nazi Germany, and contemporary issues of the 1950s.)</abstract></did></c03>
+<c03 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 2]</unittitle><unitid>[851326-SR-1-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="851326-SR-1-2" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao><abstract>(Martin Niemöller discussing the World War II, Nazi Germany, and contemporary issues of the 1950s and his pacifist beliefs.)</abstract></did></c03></c02>
+
       </c01>
     </dsc>
     <descgrp type="add">
