@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Digital audio added</item>
+      </change>
+      <change>
         <date>20150611</date>
         <item>Separated boxes for use with Aeon.</item>
       </change>
@@ -59,6 +63,9 @@
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">26 linear feet</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2.08 GB</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -70,6 +77,7 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The record group is open for research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers. </p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright to the letters written by Arnold Gingrich has been transferred to the Regents of the University of Michigan; copyright to other materials has not been transferred.</p>
@@ -77,6 +85,14 @@
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., Esquire, Inc. Records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
+      <processinfo>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
     </descgrp>
     <bioghist encodinganalog="545">
       <p><title render="italic">Esquire</title> was founded in 1933 by David A. Smart and William H. Weintraub, publishers, and Arnold Gingrich, editor. Advertised as a magazine for men, <title render="italic">Esquire</title> published fiction, travel, and fashion news for an affluent audience. The magazine was immediately successful, and Esquire, Inc. expanded into other areas, including publication of <title render="italic">Coronet</title> beginning in 1936. Gingrich attracted many of the most prominent authors in America to <title render="italic">Esquire</title>, from Hemingway and Fitzgerald in the 1930s to Styron and Mailer in the 1960s.</p>
@@ -5083,7 +5099,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">26</container>
-              <unittitle><unitdate type="inclusive" normal="1961">1961</unitdate> re. <title render="italic">Infinity</title></unittitle>
+              <unittitle><unitdate type="inclusive" normal="1961">1961</unitdate> re. <title render="italic">Infinity</title> </unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -5243,6 +5259,38 @@
             <container type="box" label="Box">26</container>
             <unittitle>Legal Review Record Book <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
           </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Audio Recording</unittitle>
+        </did>
+        <accessrestrict>
+          <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Recording of literary conversation between William Styron and James Jones, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85177-SR-1-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="85177-SR-1-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Discusses "The Confessions of Nat Turner" and Southern America, Slavery, and social strife of the time.)</abstract>
+            </did>
+          </c03>
         </c02>
       </c01>
     </dsc>

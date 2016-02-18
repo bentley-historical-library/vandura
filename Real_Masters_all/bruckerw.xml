@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio tapes.</item>
+      </change>
+      <change>
         <date>20150602</date>
         <item>Separated boxes for use with Aeon.</item>
       </change>
@@ -55,6 +59,9 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">2 oversize folders</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">22 GB</extent>
+      </physdesc>
       <repository encodinganalog="852">
         <corpname><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -66,6 +73,7 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers. </p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Wilber M. Brucker, Jr. transferred his copyright in his father's papers to the University of Michigan.</p>
@@ -73,6 +81,14 @@
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., Wilber M. Brucker Papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
+      <processinfo>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>Wilber Marion Brucker, government official and governor, was born in Saginaw, Michigan, June 23, 1894, the son of Ferdinand and Roberta (Hawn) Brucker. His father was a judge and congressman. Wilber M. Brucker received his preliminary education at public schools in his native city and was graduated LL.B. in 1916 at The University of Michigan. He was admitted to the Michigan bar in the same year. He helped earn his way through school by waiting on tables, selling newspapers, and doing various summer jobs.</p>
@@ -2676,6 +2692,9 @@
             <container type="box" label="Box">28</container>
             <unittitle>Speeches of the Secretary of the Army</unittitle>
           </did>
+          <accessrestrict>
+            <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+          </accessrestrict>
           <c03 level="file">
             <did>
               <unittitle>
@@ -2708,14 +2727,29 @@
               <p>(Tape 1)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">29</container>
-              <unittitle><unitdate type="inclusive" normal="1955-07-21">July 21, 1955</unitdate> Swearing-in of Wilber Brucker as Secretary of the Army</unittitle>
+              <unittitle>Swearing-in of Wilber Brucker as Secretary of the Army, <unitdate type="inclusive">1955 July 21</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(Tape 2)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-2-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-2-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Swearing-in of Wilber Brucker as Secretary of the Army, Office of the Secretary of Defense, Pentagon 21 July, 1955.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -2726,14 +2760,29 @@
               <p>(Tape 3)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">29</container>
-              <unittitle><unitdate type="inclusive" normal="1955-08-09">August 9, 1955</unitdate> Soo Locks Centennial</unittitle>
+              <unittitle>Soo Locks Centennial, <unitdate type="inclusive">1955 August 09</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(Tape 4)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-4-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-4-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Wilber M. Brucker remarks at "Soo" Locks Centennial, Sault Ste. Marie, MI 9 August, 1955.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -2762,14 +2811,45 @@
               <p>(Tape 7)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">29</container>
-              <unittitle><unitdate type="inclusive" normal="1955-09-25">September 25, 1955</unitdate> "Meet the Press"</unittitle>
+              <unittitle>"Meet the Press"; Recording of a Memorial Day Service in Japan for Korean War Dead, <unitdate type="inclusive">1955 September 25, [Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(Tape 8)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-8-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-8-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Interview of Hon. Wilber M. Brucker on "Meet the Press" NBC program September 25, 1955. Brucker discusses budget issues in the Army, the Red Scare, nuclear weapons and the Army, and the draft.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[85874-SR-8-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-8-2" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Unknown speakers commemorating Korean War Dead in Japan)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -2942,14 +3022,53 @@
               <p>(Tape 33)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">29</container>
-              <unittitle><unitdate type="inclusive" normal="1956-05-28">May 28, 1956</unitdate> Economic Club of Detroit</unittitle>
+              <unittitle>Economic Club of Detroit, <unitdate type="inclusive">1956 September 28</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(Tapes 34, 35)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-34-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-34-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 1; Brucker discusses the threat of Communism and the Army's role in the Cold War.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Economic Club of Detroit, <unitdate type="inclusive">1956 May 28</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-35-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-35-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 2; Brucker discusses the threat of Communism and the Army's role in the Cold War, concludes with a story about the USS Arizona at Pearl Harbor.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -2987,14 +3106,53 @@
               <p>(Tapes 40, 41)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">30</container>
-              <unittitle><unitdate type="inclusive" normal="1956-06-14">June 14, 1956</unitdate> Major Mayer (Army Med. Corps.) discusses POWs</unittitle>
+              <unittitle>Major Mayer (Army Med. Corps.) discusses POWs, <unitdate type="inclusive">1956 June 14</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(Tapes 42, 43)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-42-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-42-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 1; Major William E. Mayer, on the medical staff at Fort Sam Houston, talks about the subject on POWs from the Korean War and their psychological health.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Major Mayer (Army Medical Corps) discusses POWs, <unitdate type="inclusive">1956 June 14</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-43-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-43-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 2; Major William E. Mayer, on the medical staff at Fort Sam Houston, talks about the subject on POWs from the Korean War and their psychological health.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -3041,14 +3199,173 @@
               <p>(Tape 48)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">30</container>
-              <unittitle><unitdate type="inclusive" normal="1956-07-14">July 14, 1956</unitdate> Rainbow Division Reunion</unittitle>
+              <unittitle>Rainbow Division Reunion, <unitdate type="inclusive">1956 July 14</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(Tapes 49-55)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-49-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-49-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 1; Rainbow Division Reunion, Dallas. Consists of a series of speeches from Rainbow Division members.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Rainbow Division Reunion, <unitdate type="inclusive">1956 July 14</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-50-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-50-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 2; Rainbow Division Reunion, Dallas. Consists of a series of speeches from Rainbow Division members.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Rainbow Division Reunion, <unitdate type="inclusive">1956 July 14</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-51-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-51-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 3; Rainbow Division Reunion, Dallas. Consists of a series of speeches from Rainbow Division members.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Rainbow Division Reunion, <unitdate type="inclusive">1956 July 14</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-52-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-52-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 4; Rainbow Division Reunion, Dallas. Consists of a series of speeches from Rainbow Division members.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Rainbow Division Reunion, <unitdate type="inclusive">1956 July 14</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-53-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-53-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 5; Rainbow Division Reunion, Dallas. Consists of a series of speeches from Rainbow Division members.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Rainbow Division Reunion, <unitdate type="inclusive">1956 July 14</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-54-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-54-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 6; Rainbow Division Reunion, Dallas. Consists of a series of speeches from Rainbow Division members.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Rainbow Division Reunion, <unitdate type="inclusive">1956 July 14</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-55-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-55-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 7; Rainbow Division Reunion, Dallas. Consists of a series of speeches from Rainbow Division members.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -3140,14 +3457,29 @@
               <p>(Tape 65)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">30</container>
-              <unittitle><unitdate type="inclusive" normal="1956-09-28">September 28, 1956</unitdate> St. Lawrence Seaway Luncheon</unittitle>
+              <unittitle>St. Lawrence Seaway Luncheon, <unitdate type="inclusive">1956 September 28</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(Tape 66)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-66-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-66-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Secretary Brucker's remarks at the St. Lawrence Seaway Luncheon, Cornwall, Ontario, Canada. Commemorating the U.S. - Canada relations on the St. Lawrence Seaway.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -3203,14 +3535,29 @@
               <p>(Tape 73)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">30</container>
-              <unittitle><unitdate type="inclusive" normal="1956-11-11">November 11, 1956</unitdate> Dedication of Army Song and Review of Honoring Soldiers Home</unittitle>
+              <unittitle>Dedication of Army Song and Review of Honoring Soldiers Home, <unitdate type="inclusive">1956 November 11</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(Tape 74)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-74-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-74-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Review Honoring Governor, staff and soldiers of United States Soldiers' Home including remarks by the Hon. Wilber M. Brucker, S/A and dedication of the official Army song. Fort Myer, Virginia Veteran's Day November 11, 1956. Fades out periodically - silence between 11:10 - 13:04.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -3239,14 +3586,29 @@
               <p>(Tape 78)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">31</container>
-              <unittitle><unitdate type="inclusive" normal="1956-11-19">November 19, 1956</unitdate> Hungarian Refugees Arrival at Camp Kilmer</unittitle>
+              <unittitle>Hungarian Refugees Arrival at Camp Kilmer, <unitdate type="inclusive">1956 November 19</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(Tape 79)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-79-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-79-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Arrival of first Hungarian Refugees at Camp Kilmer, NJ. Remarks by Secretary of the Army, Wilber M. Brucker - November 19, 1956.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -3779,14 +4141,29 @@
               <p>(Tapes 174-180)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">33</container>
-              <unittitle><unitdate type="inclusive" normal="1958-02-10">February 10, 1958</unitdate> Interview with Senator Potter</unittitle>
+              <unittitle>Interview with Senator Potter, <unitdate type="inclusive">1958 February 10</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(Tape 148)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-148-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-148-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Interview with Senator Potter in the Capitol Building about defense spending in Michigan, defense contracts in the state, and Jupiter missile production. February 10, 1958. Included sheet)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -3863,14 +4240,29 @@
               <p>(Tape 158)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">33</container>
-              <unittitle><unitdate type="inclusive" normal="1958-06-28">June 28, 1958</unitdate> Mackinac Bridge Dedication</unittitle>
+              <unittitle>Mackinac Bridge Dedication, <unitdate type="inclusive">1958 June 28</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(Tape 159)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-159-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-159-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Mr. Brucker gives a speech at the Mackinac Bridge Dedication event.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -3953,18 +4345,173 @@
               <p>(Tapes 172, 173)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">33</container>
-              <unittitle><unitdate type="inclusive" normal="1958-01-31">January 31, 1958</unitdate> Explorer Launching</unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">7 audiotapes</extent>
-                <physfacet>reel-to-reel tapes</physfacet>
+              <unittitle>Explorer Launching, <unitdate type="inclusive">1958 January 31</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
               </physdesc>
             </did>
-            <odd>
-              <p>(Tapes 174-180)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-174-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-174-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 1; Radio broadcast from the Explorer 1 launch and the ballistic missiles used to launch it from WTOP.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Explorer Launching, <unitdate type="inclusive">1958 January 31</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-175-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-175-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 2; Radio broadcast from the Explorer 1 launch and the ballistic missiles used to launch it from WTOP.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Explorer Launching, <unitdate type="inclusive">1958 January 31</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-176-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-176-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 3; Radio broadcast from the Explorer 1 launch and the ballistic missiles used to launch it from WTOP.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Explorer Launching, <unitdate type="inclusive">1958 January 31</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-177-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-177-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 4; Radio broadcast from the Explorer 1 launch and the ballistic missiles used to launch it from WTOP.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Explorer Launching, <unitdate type="inclusive">1958 January 31</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-178-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-178-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 5; Radio broadcast from the Explorer 1 launch and the ballistic missiles used to launch it from WTOP.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Explorer Launching, <unitdate type="inclusive">1958 January 31</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-179-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-179-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 6; Radio broadcast from the Explorer 1 launch and the ballistic missiles used to launch it from WTOP.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Explorer Launching, <unitdate type="inclusive">1958 January 31</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85874-SR-180-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85874-SR-180-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Reel 7; Radio broadcast from the Explorer 1 launch and the ballistic missiles used to launch it from WTOP.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
