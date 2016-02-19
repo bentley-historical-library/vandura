@@ -35,11 +35,15 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Motors Liquidation Company </corpname>
+        <corpname source="lcnaf" encodinganalog="110">Motors Liquidation Company</corpname>
       </origination>
       <unittitle encodinganalog="245"> General Motors Bankruptcy Collection Web Archives <unitdate type="inclusive" encodinganalog="245$f"> 2009-ongoing </unitdate> </unittitle>
       <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">1.03 GB</extent>
+        <extent encodinganalog="300" altrender="materialtype spaceoccupied">1.03 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 archived websites</extent>
         <physfacet>online</physfacet>
       </physdesc>
       <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number"> 2013139 Aa 3 </unitid>
@@ -124,7 +128,7 @@
             <did>
               <physloc>Online </physloc>
               <unittitle>Motors Liquidation Company website </unittitle>
-              <dao href="2014025-w-1" show="new" actuate="onrequest">
+              <dao href="https://wayback.archive-it.org/org-934/*/http://www.motorsliquidationdocket.com" show="new" actuate="onrequest">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
