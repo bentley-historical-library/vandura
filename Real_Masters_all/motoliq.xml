@@ -27,7 +27,7 @@
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher><lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
       <titleproper>Finding aid for<lb/> General Motors Bankruptcy Collection Web Archives. </titleproper>
       <author>Finding aid created by<lb/> Max Eckard, in January, 2016. </author>
     </titlepage>
@@ -35,11 +35,16 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Motors Liquidation Company </corpname>
+        <corpname source="lcnaf" encodinganalog="110">Motors Liquidation Company</corpname>
       </origination>
       <unittitle encodinganalog="245"> General Motors Bankruptcy Collection Web Archives <unitdate type="inclusive" encodinganalog="245$f"> 2009-ongoing </unitdate> </unittitle>
-      <physdesc>
-        <extent encodinganalog="300"> 1.03 GB (online) and 2 archived websites (online) </extent>
+      <physdesc altrender="part">
+        <extent encodinganalog="300" altrender="materialtype spaceoccupied">1.03 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 archived websites</extent>
+        <physfacet>online</physfacet>
       </physdesc>
       <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number"> 2013139 Aa 3 </unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language> </langmaterial>
@@ -84,12 +89,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">General Motors Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79079577">General Motors Corporation.</corpname>
         <subject source="lcsh" encodinganalog="650">Bankruptcy--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650">Liquidation--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650">Corporations--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651">Michigan.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)</geogname>
         <subject source="local" encodinganalog="690">Commerce and industry.</subject>
       </controlaccess>
       <controlaccess>
