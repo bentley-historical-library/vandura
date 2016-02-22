@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160609</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>20150629</date>
         <item>Added written notes from paper finding aid.</item>
       </change>
@@ -56,7 +60,10 @@
         <extent altrender="materialtype spaceoccupied">33 linear feet</extent>
       </physdesc>
       <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+        <extent altrender="materialtype spaceoccupied">1 oversize folders </extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1.55 GB </extent>
       </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
@@ -69,10 +76,15 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright has not been transferred to the Regents of the University of Michigan.</p>
       </userestrict>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+        <p><emph render="bold">Microfilm:</emph> Portions of the Case Files subseries (Box 18), including the files on the shooting of Walter Reuther, are available on microfilm.</p>
+      </altformavail>
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., Donald S. Leonard Papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
@@ -162,7 +174,7 @@
         <subject source="lctgm" encodinganalog="650">Automobiles.</subject>
         <subject source="lctgm" encodinganalog="650">Civil defense.</subject>
         <corpname source="lcnaf" encodinganalog="610">Detroit (Mich.). Police Dept.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396.html">Flint (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396">Flint (Mich.)</geogname>
         <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80085248">Ford Motor Company.</corpname>
         <geogname source="lcsh" encodinganalog="651">Great Britain.</geogname>
         <subject source="lctgm" encodinganalog="650">Horses.</subject>
@@ -177,11 +189,11 @@
         <subject source="lctgm" encodinganalog="650">Political elections--1952.</subject>
         <subject source="lctgm" encodinganalog="650">Political elections--1954.</subject>
         <subject source="lctgm" encodinganalog="650">Politics and government--1946-1960.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021.html">Port Huron (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021">Port Huron (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650">Radio broadcasting--Michigan.</subject>
         <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50045219">Reuther, Walter, 1907-1970.</persname>
         <subject source="lctgm" encodinganalog="650">Riots.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784.html">Sault Sainte Marie (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784">Sault Sainte Marie (Mich.)</geogname>
         <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009151217">Shakespeare Company (Kalamazoo, Mich.)</corpname>
         <persname source="lcnaf" encodinganalog="600">Sigler, Kim, b. 1894.</persname>
         <corpname source="lcnaf" encodinganalog="610">State Prison of Southern Michigan.</corpname>
@@ -5982,14 +5994,48 @@
               <genreform normal="Sound recording">Sound Recording</genreform>
             </unittitle>
           </did>
-          <c03 level="file">
+          <accessrestrict>
+            <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+          </accessrestrict>
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container label="Box" type="box">33</container>
-              <unittitle>Speech given during campaign for governor in <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+              <unittitle>Speech given during campaign for governor, <unitdate type="inclusive">1952</unitdate></unittitle>
               <physdesc>
-                <physfacet>5 in. reel-to-reel tape;1 7/8 ips.</physfacet>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 1 7/8 ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85530-SR-1-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85530-SR-1-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape content does not match original description; recording of a crowd of people clapping. Separate recording of the Bob Hope Show with Bing Crosby.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[85530-SR-1-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="85530-SR-1-2" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Discussing the economy, the threat of Communism, and Federal control of state and local governments.)</abstract>
+              </did>
+            </c04>
           </c03>
         </c02>
       </c01>

@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160609</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>20150909</date>
         <item>Added bulk dates</item>
       </change>
@@ -56,6 +60,9 @@
         <extent altrender="materialtype spaceoccupied">51 linear feet</extent>
         <extent altrender="carrier">in 54 boxes</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">10.1 GB</extent>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -67,9 +74,7 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The records are open for research.</p>
-        <p>
-          <extptr href="uarpacc" show="embed" actuate="onload"/>
-        </p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers. </p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>The record group is open without restriction</p>
@@ -77,6 +82,14 @@
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., Michigan Memorial Phoenix Project Records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
+      <processinfo>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>In 1947, a War Memorial Committee appointed by the Regents of the university and chaired by Dean of Students, Erich A. Walter, launched a mission to gather ideas and suggestions from prominent individuals around the world for a living memorial to the 583 students and faculty who lost their lives in World War II. On May 1, 1948, the Regents approved the recommendation of the committee for a research center that would become a "comprehensive, non-classified, university-wide program of study of the peaceful applications and implications of atomic energy, as it affects society, education, industry, technology, and the whole body of scientific knowledge." (Box 4, Background Material, "The Phoenix Associates of the University of Michigan.") The program was given a name that evoked powerful symbols of hope and new life arising from the ashes of war. Within ten years, the Michigan Memorial Phoenix Project was foremost among educational institutions of the world in exploring and developing peaceful uses of the atom.</p>
@@ -14348,110 +14361,219 @@
         <scopecontent>
           <p>The Audio Material series, 1961 and undated (0.5 linear ft.), include recordings of the first two Dewey F. Fagerburg Memorial Lectures given by Donald Glaser and Robert Oppenheimer; director William Kerr interviews with Voice of America and WUOM; and ten "Age of the Atom" radio programs.</p>
         </scopecontent>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <container type="box" label="Box">52</container>
-            <unittitle>Reel-to-reel</unittitle>
+            <unittitle>Age of the Atom Programs 1 through 5, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <unittitle>Age of the Atom</unittitle>
-            </did>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">52</container>
-                <unittitle>Programs 1 through 5 <unitdate>undated</unitdate></unittitle>
-                <physdesc>
-                  <physfacet>7 inch reel</physfacet>
-                </physdesc>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">52</container>
-                <unittitle>Programs 6 through 10 <unitdate>undated</unitdate></unittitle>
-                <physdesc>
-                  <physfacet>7 inch reel</physfacet>
-                </physdesc>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <unittitle>Glaser Lectures <unitdate type="inclusive" normal="1961-01-25">January 25, 1961</unitdate></unittitle>
-              </did>
-              <c05 level="file">
-                <did>
-                  <container type="box" label="Box">52</container>
-                  <unittitle>Lecture I</unittitle>
-                  <physdesc>
-                    <physfacet>7 inch reel; 7-1/2 ips</physfacet>
-                  </physdesc>
-                </did>
-              </c05>
-              <c05 level="file">
-                <did>
-                  <container type="box" label="Box">52</container>
-                  <unittitle>Lecture II</unittitle>
-                  <physdesc>
-                    <physfacet>7 inch reel; 7-1/2 ips</physfacet>
-                  </physdesc>
-                </did>
-              </c05>
-            </c04>
-          </c03>
-          <c03 level="file">
-            <did>
-              <unittitle>Kerr, Walter, Interviews</unittitle>
-            </did>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">52</container>
-                <unittitle>Voice of America <unitdate type="inclusive" normal="1961-04-22">April 22, 1961</unitdate></unittitle>
-                <physdesc>
-                  <physfacet>5 inch reel</physfacet>
-                </physdesc>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">52</container>
-                <unittitle>WUOM <unitdate type="inclusive" normal="1961-04-25">April 25, 1961</unitdate></unittitle>
-                <physdesc>
-                  <physfacet>5 inch reel</physfacet>
-                </physdesc>
-              </did>
-            </c04>
-          </c03>
-          <c03 level="file">
-            <did>
-              <unittitle>Oppenheimer</unittitle>
-            </did>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">52</container>
-                <unittitle>Lecture 1</unittitle>
-                <physdesc>
-                  <physfacet>7 inch reel</physfacet>
-                </physdesc>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">52</container>
-                <unittitle>Lecture II</unittitle>
-                <physdesc>
-                  <physfacet>7 inch reel</physfacet>
-                </physdesc>
-              </did>
-            </c04>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">52</container>
-              <unittitle>Oppenheimer / Fagerburg <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[87278-SR-1-1]</unitid>
               <physdesc>
-                <physfacet>7 inch reel</physfacet>
+                <physfacet>mp3 file</physfacet>
               </physdesc>
+              <dao href="87278-SR-1-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Broadcast on WJR radio, discusses the Michigan Memorial Phoenix, it's facilities, and work.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Age of the Atom Programs 6 through 10, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[87278-SR-2-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="87278-SR-2-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(WJR radio program interview discussing the legal issues, medical uses, and other practical uses of nuclear energy.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Donald A. Glaser Lectures Lecture I, <unitdate type="inclusive">1961 January 25</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[87278-SR-3-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="87278-SR-3-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Glaser lectures on the basics of nuclear physics and his bubble chamber after receiving the Nobel Prize.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Donald A. Glaser Lectures Lecture II, <unitdate type="inclusive">1961 January 25</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[87278-SR-4-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="87278-SR-4-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Glaser lectures on the basics of nuclear physics and his bubble chamber after receiving the Nobel Prize.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>William Kerr, Curt Knight; Interviews Voice of America, <unitdate type="inclusive">1961 April 22</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 5 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[87278-SR-5-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="87278-SR-5-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(William Kerr discusses the Memorial Phoenix's efforts to develop nuclear energy in other countries.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>William Kerr Interview with WUOM on Campus News, <unitdate type="inclusive">1961 April 25</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 5 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[87278-SR-6-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="87278-SR-6-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(William Kerr discusses the Memorial Phoenix's efforts to develop nuclear energy in other countries and international students studying at the Phoenix Project.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>J. Robert Oppenheimer Lecture I, <unitdate type="inclusive">1962</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[87278-SR-7-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="87278-SR-7-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Oppenheimer discusses nuclear physics at a lecture at the University of Michigan.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>J. Robert Oppenheimer Lecture II, <unitdate type="inclusive">1962</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[87278-SR-8-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="87278-SR-8-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Oppenheimer discusses nuclear physics at a lecture at the University of Michigan.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>J. Robert Oppenheimer / Dewey Fagerburg Memorial Lecture, <unitdate type="inclusive">1962</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[87278-SR-9-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="87278-SR-9-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Oppenheimer discusses nuclear physics at a lecture at the University of Michigan. This speech is identical to 87278-SR-7 and 87278-SR-8.)</abstract>
             </did>
           </c03>
         </c02>

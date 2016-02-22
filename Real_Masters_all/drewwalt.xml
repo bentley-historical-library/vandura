@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>2016-02-08</date>
+        <item>Digitized audio added</item>
+      </change>
+      <change>
         <date>2012-06-14</date>
         <item>Changes made with additions</item>
       </change>
@@ -66,6 +70,10 @@
         <extent altrender="materialtype spaceoccupied">3.5 linear feet</extent>
         <physfacet>Non-microfilmed materials</physfacet>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">4.32 GB</extent>
+        <physfacet>Non-microfilmed materials</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -80,13 +88,20 @@
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright has not been transferred to the Regents of the University of Michigan.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers. </p>
       </userestrict>
-      <altformavail>
-        <p>Originals of microfilmed material have been retained and are located in boxes 1-36. Access to these originals is restricted for preservation reasons.</p>
-      </altformavail>
       <prefercite encodinganalog="524">
         <p>item, folder title, roll no., Walter Drew Papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph>MIcrofilm: </emph>Originals of microfilmed material have been retained and are located in boxes 1-36. Access to these originals is restricted for preservation reasons.</p>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
+      <processinfo>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>Walter W. Drew was born September 13, 1873 in Williamston, Michigan. His father, Walter J., was trained in the law, but made his fortune with the Michigan Carpet Sweeper Company. As the firm's co-founder, he benefited handsomely when it merged with the Bissell Company. Walter J. continued to prosper subsequently as one of Bissell's chief product designers.</p>
@@ -166,29 +181,8 @@
       <p>
         <list type="simple">
           <head>Summary Contents List</head>
-          <item>Topical Files, arranged alphabetically (Rolls 1-42)
-            <list type="simple">
-              <item>National Erectors' Association (Rolls 28-32)</item>
-            </list>
-          </item>
-          <item>Special Files (Rolls 43-73)
-            <list type="simple">
-              <item>James A. Emery (NAM spokesman) (Rolls 43-45)</item>
-              <item>Robert J. Foster (Roll 45)</item>
-              <item>IABSIW (Rolls 46-48)</item>
-              <item>Iron League of New Jersey (Roll 49)</item>
-              <item>S.P. Mitchell (Roll 49)</item>
-              <item>Pennsylvania Railroad case (Rolls 50-52)</item>
-              <item>Personal material relating to Drew (Rolls 52-54)
-                <list type="simple">
-                  <item>Personal financial materials (not microfilmed; in box 29 of original papers)</item>
-                  <item>Sound recording of Drew speaking (reel-to-reel tape and cassette copy in box 36 of original papers)</item>
-                </list>
-              </item>
-              <item>Remington Rand Corporation (Rolls 54-56)</item>
-              <item>U.S. v. Ryan (Rolls 56-73)</item>
-            </list>
-          </item>
+          <item>Topical Files, arranged alphabetically (Rolls 1-42) <list type="simple"><item>National Erectors' Association (Rolls 28-32)</item></list> </item>
+          <item>Special Files (Rolls 43-73) <list type="simple"><item>James A. Emery (NAM spokesman) (Rolls 43-45)</item><item>Robert J. Foster (Roll 45)</item><item>IABSIW (Rolls 46-48)</item><item>Iron League of New Jersey (Roll 49)</item><item>S.P. Mitchell (Roll 49)</item><item>Pennsylvania Railroad case (Rolls 50-52)</item><item>Personal material relating to Drew (Rolls 52-54) <list type="simple"><item>Personal financial materials (not microfilmed; in box 29 of original papers)</item><item>Sound recording of Drew speaking (reel-to-reel tape and cassette copy in box 36 of original papers)</item></list> </item><item>Remington Rand Corporation (Rolls 54-56)</item><item>U.S. v. Ryan (Rolls 56-73)</item></list> </item>
           <item>Drew papers collected by Dallas Jones (Roll 74)</item>
           <item>Photographs (Roll 74; also available in Box 36 of original papers)</item>
           <item>Originals of microfilmed materials (Boxes 1-36)</item>
@@ -4003,7 +3997,7 @@
             <unittitle>Originals of microfilmed papers</unittitle>
           </did>
           <accessrestrict>
-            <p>[Staff use only, available on microfilm]</p>
+            <p>[Boxes 1-35, staff use only, available on microfilm]</p>
           </accessrestrict>
           <c03 level="file">
             <did>
@@ -4317,6 +4311,15 @@
               <p>(continued)</p>
             </odd>
           </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Originals of microfilmed papers</unittitle>
+              <container type="box" label="Box">36</container>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
         </c02>
       </c01>
       <c01 level="series">
@@ -4413,114 +4416,46 @@
         <odd>
           <p>(A compilation of 8 excerpts of conversations and other events. recorded at various dates on 1 one reel-to reel tape; (also includes cassette copy). According to enclosed note, WD was not aware that he was being taped)</p>
         </odd>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Excerpt 1</unittitle>
+            <unittitle>Recording of earlier conversations and sound discs with Walter Drew discussing religion, art, and labor unions, <unitdate type="inclusive">1962</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3.75</physfacet>
+            </physdesc>
           </did>
-          <c03 level="file">
+          <accessrestrict>
+            <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+          </accessrestrict>
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="Box">36</container>
-              <unittitle>W.D. discussing religion, art, unions, etc. with his family at N.Y. apartment about <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[9616-SR-1-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="9616-SR-1-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(1. Walter Drew discussing religion, art, and labor unions with hs family at NY Apartment, ca. 1952; 2. Letters to Sherers, 1956 (W.D.'s sister and family; 3. Excerpts from wax disc - W.D., Mrs. Carned (W.D.'s mother in law) Mrs. Drew, W.D. calling the housekeeper, W.D. at the home of a friend for dinner, 4. Conversation of Judge Garnett and Mrs. Drew; 5. Concert at home in Conn.; 6. Tea at Proschomski's discussing art and painting; 7.Recording of Robert J. Foster; 8. Letter from Sherer on labor question.)</abstract>
             </did>
           </c03>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Excerpt 2</unittitle>
-          </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="Box">36</container>
-              <unittitle>Letters to Sherers -- <unitdate type="inclusive" normal="1956">1956</unitdate> (W.D.'s sister &amp; family)</unittitle>
-            </did>
-          </c03>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Excerpt 3</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <unittitle>Excerpts from old white wax disc recording</unittitle>
-            </did>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">36</container>
-                <unittitle>W.D., Mrs. Carned (W.D.'s mother in law), Mrs. Drew</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">36</container>
-                <unittitle>W.D. calling the housekeeper</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">36</container>
-                <unittitle>W.D. at the home of a friend for dinner</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">36</container>
-                <unittitle>W.D. tea with Sherers (W.D.'s sister &amp; family) in NY apt.</unittitle>
-              </did>
-            </c04>
-          </c03>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Excerpt 4</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">36</container>
-              <unittitle>Conversation of Judge Garnett (Eugene) with Mrs. Drew at NY Apt. (Judge Garnett has one of W.D.'s closest friends &amp; roommate at Michigan).</unittitle>
-            </did>
-          </c03>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Excerpt 5</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">36</container>
-              <unittitle>Concert at home in Conn. discussing voice of Julia Gilbert who had sleeping sickness and voice of Mrs. Drew <unitdate type="inclusive" normal="1960-08">August 1960</unitdate></unittitle>
-            </did>
-          </c03>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Excerpt 6</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">36</container>
-              <unittitle>Mr. &amp; Mrs. Frantz Proschowski for tea at NY apt., W.D. discusses art &amp; painting</unittitle>
-            </did>
-          </c03>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Excerpt 7</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">36</container>
-              <unittitle>Copy of disc recording of Robert J. Foster, close friend of W.D. and worked under him on dynamite cases; he was also private detective</unittitle>
-            </did>
-          </c03>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Excerpt 8</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">36</container>
-              <unittitle>Taped letter from Renslow P. Sherer (W.D.'s Brother-in-law) to W.D. on the labor question</unittitle>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[9616-SR-1-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="9616-SR-1-2" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(1. Walter Drew discussing religion, art, and labor unions with hs family at NY Apartment, ca. 1952; 2. Letters to Sherers, 1956 (W.D.'s sister and family; 3. Excerpts from wax disc - W.D., Mrs. Carned (W.D.'s mother in law) Mrs. Drew, W.D. calling the housekeeper, W.D. at the home of a friend for dinner, 4. Conversation of Judge Garnett and Mrs. Drew; 5. Concert at home in Conn.; 6. Tea at Proschomski's discussing art and painting; 7.Recording of Robert J. Foster; 8. Letter from Sherer on labor question.)</abstract>
             </did>
           </c03>
         </c02>

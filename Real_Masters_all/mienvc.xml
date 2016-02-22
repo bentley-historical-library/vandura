@@ -51,7 +51,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n80056569">Michigan Environmental Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="110">Michigan Environmental Council.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Environmental Council records <unitdate type="inclusive" encodinganalog="245$f" normal="1925/2012">1925-2012</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1980/2005">1980-2005</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">93847 Aa 2</unitid>
@@ -83,8 +83,7 @@
         <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-Michigan Environmental Council records, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Michigan Environmental Council records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -109,7 +108,7 @@ Michigan Environmental Council records, Bentley Historical Library, University o
         <geogname source="lcsh" encodinganalog="651">Great Lakes (North America)--Environmental conditions.</geogname>
         <subject source="lcsh" encodinganalog="650">Hazardous wastes--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650">Land use--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80056569">Michigan Environmental Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Environmental Council.</corpname>
         <subject source="lcsh" encodinganalog="650">Mines and mineral resources--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650">Pesticides--Government policy--Michigan.</subject>
         <persname source="lcnaf" encodinganalog="600">Pollack, Lana, 1942-</persname>
@@ -123,7 +122,7 @@ Michigan Environmental Council records, Bentley Historical Library, University o
         <subject source="lctgm" encodinganalog="650">Conservation of material resources--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651">Great Lakes (North America)--Environmental conditions.</geogname>
         <subject source="lcsh" encodinganalog="650">Groundwater--Pollution--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80056569">Michigan Environmental Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Environmental Council.</corpname>
         <subject source="lctgm" encodinganalog="650">Water pollution--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650">Wetlands--Michigan.</subject>
       </controlaccess>
@@ -3925,10 +3924,14 @@ Michigan Environmental Council records, Bentley Historical Library, University o
           <did>
             <container type="box" label="Box">22</container>
             <unittitle>Immaculate Heart of Mary <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-            <physdesc>
-              <physfacet>includes <genreform normal="CD-ROMs">CD-ROM</genreform> about convent</physfacet>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
+              <physfacet>CD-ROMs</physfacet>
             </physdesc>
           </did>
+          <odd>
+            <p>includes CD-ROM about convent</p>
+          </odd>
         </c02>
         <c02 level="file">
           <did>
@@ -4165,6 +4168,10 @@ Michigan Environmental Council records, Bentley Historical Library, University o
               <did>
                 <container type="box" label="Box">24</container>
                 <unittitle>General <unitdate type="inclusive" normal="1997/2003">1997-2003</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 floppy disks</extent>
+                  <physfacet>3.5"</physfacet>
+                </physdesc>
               </did>
               <odd>
                 <p>(includes MS Word documents on 4 3.5 in. floppy disks)</p>
@@ -6648,6 +6655,10 @@ Michigan Environmental Council records, Bentley Historical Library, University o
               <did>
                 <container type="box" label="Box">34</container>
                 <unittitle>Writings (and Supporting Materials) <unitdate type="inclusive" normal="1999/2002">1999-2002</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 floppy disks</extent>
+                  <physfacet>3.5"</physfacet>
+                </physdesc>
               </did>
               <odd>
                 <p>(includes 3.5" floppy disc with MS Word Documents)</p>
@@ -8359,7 +8370,7 @@ Michigan Environmental Council records, Bentley Historical Library, University o
           <c03 level="file">
             <did>
               <container type="box" label="Box">55</container>
-              <unittitle>Field Reports Year 4 <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate> &gt;</unittitle>
+              <unittitle>Field Reports Year 4 <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -8682,10 +8693,14 @@ Michigan Environmental Council records, Bentley Historical Library, University o
             <did>
               <container type="box" label="Box">37</container>
               <unittitle>Photographs <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></unittitle>
-              <physdesc>
-                <physfacet>includes a JPEG image on CD and images in a Microsoft Publisher document on CD</physfacet>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
+                <physfacet>CD-ROMs</physfacet>
               </physdesc>
             </did>
+            <odd>
+              <p>includes a JPEG image on CD and images in a Microsoft Publisher document on CD</p>
+            </odd>
           </c03>
         </c02>
         <c02 level="subseries">

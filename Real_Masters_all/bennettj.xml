@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>2016-01-08</date>
+        <item>Digital audio added</item>
+      </change>
+      <change>
         <date>2007-10-30</date>
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
@@ -41,8 +45,11 @@
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85529 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Republican Congressman from Ontonagon in Michigan's Upper Peninsula. Correspondence, campaign materials, copies of bills introduced in Congress, and files concerning congressional reapportionment and the problems of the Upper Peninsula.</abstract>
-      <physdesc altrender="whole">
+      <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">0.98 GB</extent>
       </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
@@ -63,9 +70,13 @@
         <p>Copyright is held by the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-John B. Bennett papers, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, John B. Bennett papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <processinfo>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>John Bonifas Bennett was a Representative from Michigan. He was born in Garden, Delta County, Mich. on January 10, 1904. He attended the public schools, and graduated from Watersmeet High School in Michigan, and from Marquette University Law School in Milwaukee, Wisconsin, in 1925. Bennett took a postgraduate course at Chicago, IL University Law School in 1926, and was admitted to the Wisconsin bar in 1925 and the Michigan bar in 1926. He practiced law in Ontonagon, Michigan from 1926-1942. Bennett was a prosecuting attorney of Ontonagon County from 1929-1934, deputy commissioner of the Michigan Department of Labor and Industry from 1935-1937, and was elected as a republican to the Seventy-eighty Congress from January 3, 1943-January 3, 1945. He was an unsuccessful candidate for reelection in 1944 to the Seventy-ninth Congress, and resumed the practice of law. In 1946, Bennett was elected to the Eightieth and to the eight succeeding Congresses and served from January 3, 1947, until his death, August 9, 1964.</p>
@@ -643,17 +654,53 @@ John B. Bennett papers, Bentley Historical Library, University of Michigan</p>
             <physfacet>reel-to-reel tapes</physfacet>
           </physdesc>
         </did>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Radio program <unitdate type="inclusive" normal="1954-05">May 1954</unitdate> with Bennett and congressman <persname>Victor A. Knox</persname> on the subject of social security</unittitle>
+            <unittitle>Radio program with Bennett and congressman Victor A. Knox on the subject of social security, <unitdate type="inclusive">1954 May</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 5 inch, 7 ½ ips</physfacet>
+            </physdesc>
           </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85529-SR-1-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="85529-SR-1-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Bennett and Knox discuss changes and amendments to the Social Security act.)</abstract>
+            </did>
+          </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Campaign message <unitdate type="inclusive" normal="1954">1954</unitdate> discussing the issues of special relevance to the voters of the Upper Peninsula</unittitle>
+            <unittitle>Campaign message discussing the issues of special relevance to the voters of the Upper Peninsula, <unitdate type="inclusive">1954</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
+            </physdesc>
           </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85529-SR-2-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="85529-SR-2-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Campaign message also discusses the Korean War, taxes, government spending, and mining.)</abstract>
+            </did>
+          </c03>
         </c02>
       </c01>
     </dsc>
