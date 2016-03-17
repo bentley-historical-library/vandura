@@ -17,7 +17,10 @@
       <creation>Encoded finding aid created by Thomas E. Powers <date>January 2004</date></creation>
       <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
     </profiledesc>
-    <revisiondesc>
+    <revisiondesc><change>
+        <date>20160303</date>
+        <item>Added bulk dates and folder with publications</item>
+      </change>
       <change>
         <date>20031010</date>
         <item>Converted to EAD2002 using Word macro and Xmetal</item>
@@ -32,7 +35,7 @@
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding Aid for <lb/>Joseph L. Hudson Papers, <date type="inclusive">1967-1983</date></titleproper>
-      <author>Finding aid prepared by: <lb/>Karen M. Mason</author>
+      <author>Finding aid prepared by: <lb/>Karen M. Mason, in 1985</author>
     </titlepage>
   </frontmatter>
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
@@ -40,7 +43,12 @@
       <origination>
         <persname source="lcnaf" encodinganalog="100">Hudson, Joseph L. (Joseph Lowthian), 1931-</persname>
       </origination>
-      <unittitle encodinganalog="245">Joseph L. Hudson Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1967/1983">1967-1983</unitdate></unittitle>
+      <unittitle encodinganalog="245">Joseph L. Hudson Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1967/1983">1967-1983</unitdate>
+<unitdate type="bulk" encodinganalog="245$g">
+1967-1969
+</unitdate>		
+		
+		</unittitle>
       <abstract>Detroit (Mich.) businessman and chairman of New Detroit Committee, organization established after the 1967 Detroit Riot to investigate and remedy the causes of that civil disturbance. Correspondence, reports, speeches, articles, photographs, and printed material relating to the riot and to his work with New Detroit.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85215 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
@@ -67,7 +75,7 @@
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
-      <p>Joseph Lowthian Hudson, Jr., was born in Buffalo, New York, on July 4,1931, the son of Joseph L. and Elizabeth (Gilbert) Hudson. He married Jean Bent Wright in 1952. In 1953 he received a bachelor's degree from Yale University and began work at J.L. Hudson's, the Detroit department store founded by his grandfather. Hudson was president of the J.L. Hudson Company from 1961 until 1972 and became chairman and chief executive officer of the Company in 1972.</p>
+      <p>Joseph Lowthian Hudson, Jr., was born in Buffalo, New York, on July 4, 1931, the son of Joseph L. and Elizabeth (Gilbert) Hudson. He married Jean Bent Wright in 1952. In 1953 he received a bachelor's degree from Yale University and began work at J.L. Hudson's, the Detroit department store founded by his grandfather. Hudson was president of the J.L. Hudson Company from 1961 until 1972 and became chairman and chief executive officer of the Company in 1972.</p>
       <p>In the wake of the Detroit riot of July 1967, Governor George Romney and Detroit mayor Jerome Cavanagh called a meeting of community leaders to discuss the rebuilding of Detroit. Romney and Cavanagh appointed Hudson chairman of the New Detroit Committee, a 39-member committee composed of business, labor, governmental, and civic leaders, including militant and moderate spokespersons for the black community of Detroit. The Committee was to address the problems that had led to the riot and develop proposals to improve conditions for blacks in the areas of housing, employment, education, recreation, youth affairs, economic development, community services, the law, and communications. New Detroit was to be a coordinating agency, referring proposals to the appropriate government and private agencies rather than taking action itself.</p>
       <p>At the end of its first year of operation, New Detroit could report some accomplishments. It had facilitated cooperative programs between Detroit businesses and schools, had encouraged corporations such as Michigan Bell and the Ford Motor Company to establish recruitment and training programs aimed at ghetto residents, had pressed for open housing laws and construction of low-cost housing, and provided grants for work training and other pilot projects in the Detroit schools. Yet New Detroit had been less than successful in gaining the confidence of black residents of Detroit and was regarded with suspicion by sections of the white community as well. The Committee was also hindered by inadequate funding, as it relied on government funding and donations from private agencies. Therefore, New Detroit decided to incorporate in August 1968. Joseph Hudson resigned as chairman at that time and was succeeded by Max Fisher. Hudson continued to serve on the board of trustees through the 1970s and into the 1980s.</p>
     </bioghist>
@@ -84,7 +92,7 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650">African Americans--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Race relations.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539">Detroit (Mich.)--Race relations.</geogname>
         <subject source="lcsh" encodinganalog="650">Riots--Michigan--Detroit.</subject>
         <persname source="lcnaf" encodinganalog="600">Hudson, Joseph L. (Joseph Lowthian), 1931-</persname>
         <corpname source="lcnaf" encodinganalog="610">New Detroit Committee.</corpname>
@@ -159,6 +167,12 @@
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
+<c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Publications, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>		  
         <c02 level="file">
           <did>
             <unittitle>Newspaper Clippings</unittitle>
