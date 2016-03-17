@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>2006-05-30</date>
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
@@ -40,9 +44,13 @@
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8740 Bimu C484 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Minutes, correspondence, audiovisual materials, and other records documenting the founding, public programs, research projects, day-to-day administrative activities, and individual staff members of the University of Michigan's Center for the Education of Women.</abstract>
-      <physdesc altrender="whole">
+      <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">42 linear feet</extent>
         <extent altrender="carrier">in 43 boxes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 GB</extent>
+        <physfacet>online</physfacet>
       </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
@@ -57,6 +65,7 @@
         <p>The Center for Education of Women records are open for research except for certain records restricted by statute or university policy. Restricted material includes personnel-related files, including search, review, promotion, and tenure files; student educational records; client/patient records; and records of executive officers of the university.</p>
         <p>The Center for Education of Women record group includes restricted material in the following categories: <list type="simple"><item>Personnel Related Records -- Boxes 42-43</item><item>Student Academic Records -- Boxes 42-43</item></list> </p>
         <p>In the course of processing, the decision was made to restrict access to various files that contained sensitive personal information, most notably and predominantly Social Security Numbers and student academic records. These files were removed from the main run of records. See the access restrictions page for information on the type and length of restrictions on the materials.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers. </p>
         <p>
           <extptr href="uarpacc" show="embed" actuate="onload"/>
         </p>
@@ -67,6 +76,9 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Center for the Education of Women (University of Michigan) Records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>Designed to serve the needs of women students as well as women returning to school or work, CEW (then known as the Center for the Continuing Education of Women) was founded with a three part mission of service, advocacy, and research. CEW maintains that mission today, serving University students, staff and faculty, community members, women and men, facing educational, employment or other life issues.</p>
@@ -2287,7 +2299,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">11</container>
-                <unittitle>New Research on Women I and II (Conferences 3/15/1973 and 3/19/1975), <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate></unittitle>
+                <unittitle>New Research on Women I and II (Conferences <unitdate type="inclusive" normal="1973-03-15">3/15/1973</unitdate> and 3/19/1975), <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -4430,7 +4442,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">23</container>
-                <unittitle>Miscellaneous Speeches <unitdate type="inclusive" normal="1966/1977">1966-1977</unitdate>, <unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate></unittitle>
+                <unittitle>Miscellaneous Speeches <unitdate type="inclusive" normal="1966/1977">1966-1977</unitdate> and circa <unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -8417,12 +8429,8 @@
           <did>
             <unittitle>Audio reels (7-inch)</unittitle>
           </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">41</container>
-              <unittitle>Louise Cain moderating WUOM broadcast on Continuing Education for Women, ca <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
-            </did>
-          </c03>
+          <c03 level="otherlevel" otherlevel="item-main"><did><unittitle>Louise Cain moderating WUOM broadcast on Continuing Education for Women, <unitdate type="inclusive">[1963, 1964?]</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 7 inch</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[8740-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_cibo2ut8" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Louise Cain; Gretchen Groth; Hope Davis; Deborah Friedman; Helen Tanner; Radio panel discussing contemporary women's issues.)</abstract></did><accessrestrict><p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+          </accessrestrict></c04></c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">41</container>
