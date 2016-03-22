@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160309</date>
+        <item>Added digitized removable media; removed extra series (oversize)</item>
+      </change>
+      <change>
         <date>20151216</date>
         <item>added 2015 accessioned drawings</item>
       </change>
@@ -37,7 +41,7 @@
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Robert C. Metcalf papers, <lb/>1950-2008 (bulk 1950-1999)</titleproper>
-      <author>Finding aid created by <lb/>Kate Donovan Jarvis, April 2010</author>
+      <author>Finding aid created by <lb/>Kate Donovan Jarvis, April 2010<lb/>Updated by Emily Riippa in March 2016</author>
     </titlepage>
   </frontmatter>
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
@@ -54,6 +58,9 @@
       </physdesc>
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">4392 drawings</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">5.6 GB (online)</extent>
       </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
@@ -78,6 +85,10 @@
       </prefercite>
       <processinfo>
         <p>As received by the Bentley, the client files for each architectural project were labeled with a job number, but filed alphabetically by client name, while the architectural drawings and presentation boards were both labeled and filed by job number. In processing the collection, the decision was made to organize and file both the client files and the architectural drawings by job number, in order to reflect the chronological order in which they were created. Thus, the current schema organizes all materials for a given job (the client file, drawings, presentation boards, slides, etc.) under that job number. However, while all of the materials are grouped together intellectually, the large format drawings, presentation boards, and slides are housed separately from the client and graphics files.</p>
+        <p> </p>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
       </processinfo>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -1538,7 +1549,7 @@
         <head>Genre Terms:</head>
         <genreform source="aat" encodinganalog="655">Architectural records.</genreform>
         <genreform source="aat" encodinganalog="655">Architectural drawings.</genreform>
-        <genreform source="aat" encodinganalog="655">CD-ROMs.</genreform>
+        <genreform source="aat" encodinganalog="655">Digital file formats.</genreform>
         <genreform source="aat" encodinganalog="655">Negatives (photographic)</genreform>
         <genreform source="aat" encodinganalog="655">Photographs.</genreform>
         <genreform source="aat" encodinganalog="655">Slides (photographs)</genreform>
@@ -1550,7 +1561,7 @@
           <unittitle>Project Files</unittitle>
         </did>
         <scopecontent>
-          <p>The Project Files series, 1950-2008, (10.5 linear feet and 4,372 drawings) comprises the core of the collection and consists of textual and visual materials related to Metcalf's architectural projects, including new buildings, renovations, and additions. The series is divided into two subseries: Projects by Job Number and Projects without Job Numbers.</p>
+          <p>The Project Files series, 1950-2008, (10.5 linear feet, 4,372 drawings, and board presentations) comprises the core of the collection and consists of textual and visual materials related to Metcalf's architectural projects, including new buildings, renovations, and additions. The series is divided into two subseries: Projects by Job Number and Projects without Job Numbers. Not all projects have drawings or presentation boards.</p>
           <p>The Projects by Job Number subseries is organized chronologically by project number and year, and includes the client name and address of the building project. The material within this subseries typically include architectural drawings, as well as a client file containing client correspondence, design development materials, client specifications, and billing information. Metcalf's careful attention to detail is reflected superbly in the drawings in this collection. The description of the architectural drawings includes measurements for the individual drawings, medium (such as pencil on vellum or blueline print) and type of drawing (elevation, section, detail, etc.). Many of the client files also include real estate listings for the house that give a sense of its market valuation over time, as well as information on original and subsequent owners. In addition to the client file and architectural drawings, many projects also include graphic materials, photographs, slides, and presentation boards.</p>
           <p>Among the project files in this series are documents relating to the building, construction, and renovation of Robert and Bettie Metcalf's home in Ann Arbor. Of special note are two personal journals of "work done" that record the daily activities necessary to build the Metcalf house ca. 1952-1953. Hours were tallied for both Robert and Bettie and show the determination that they both had in building their own house. The journals reflect Robert's construction learning experience and are in his hand.</p>
           <p>The majority of Metcalf's project files consist of those with job numbers assigned by the architect. Metcalf labeled the client files, architectural drawings, presentation boards, and other materials with the job number. The job number reflects the project's sequence in the work done by Metcalf and his firm, combined with the year in which the project was contracted. For instance, job 2-54 is the second job of Metcalf's professional practice and was commissioned in 1954. In addition to job numbers, Metcalf also referred to projects by the client's surname. Although the majority of Metcalf's projects are organized by job number, there is also an index of jobs by surname following the Processing Note in this finding aid.</p>
@@ -8466,15 +8477,12 @@
           <unittitle>Audio Visual Materials</unittitle>
         </did>
         <scopecontent>
-          <p>The Audio Visual series, 1950-2005 (1.5 linear feet), contains photographic prints, negatives, slides, and photographs on compact disc of Metcalf, his colleagues, and his architectural projects. The series is divided into two subseries: Photographs and Negatives, and Slides.</p>
+          <p>The Audio Visual series, 1950-2005 (1.5 linear feet and 5.6 GB), contains photographic prints, negatives, slides, and digital photographs of Metcalf, his colleagues, and his architectural projects. The series is divided into two subseries: Photographs and Negatives, and Slides.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
             <unittitle>Photographs and Negatives</unittitle>
           </did>
-          <scopecontent>
-            <p>The Photographs and Negatives subseries includes prints, negatives, and photographs of Metcalf houses on eleven compact discs. Many of the images were taken by Fred Golden whom Metcalf commissioned to photograph his buildings.</p>
-          </scopecontent>
           <c03 level="file">
             <did>
               <container type="box" label="Box">11</container>
@@ -8483,134 +8491,150 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Photographs on CD of select Metcalf houses</unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">11 optical disks</extent>
-                <physfacet>CDs</physfacet>
-              </physdesc>
+              <unittitle>Digital photographs of select Metcalf houses</unittitle>
             </did>
             <c04 level="file">
               <did>
-                <unittitle>Compact Disc 1</unittitle>
+                <physloc>Online </physloc>
+                <unittitle>Job 84-64, Holland (I) (.ZIP file) </unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117391" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
               </did>
-              <c05 level="file">
-                <did>
-                  <container type="box" label="Box">11</container>
-                  <unittitle>Job 84-64, Holland (I)</unittitle>
-                </did>
-              </c05>
-              <c05 level="file">
-                <did>
-                  <container type="box" label="Box">11</container>
-                  <unittitle>Job 94-66, Gilbert (I)</unittitle>
-                </did>
-              </c05>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Compact Disc 2</unittitle>
+                <physloc>Online </physloc>
+                <unittitle>ob 94-66, Gilbert (I) (2 .ZIP files) </unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117389" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
               </did>
-              <c05 level="file">
-                <did>
-                  <container type="box" label="Box">11</container>
-                  <unittitle>Job 31-57, Fajans</unittitle>
-                </did>
-              </c05>
-              <c05 level="file">
-                <did>
-                  <container type="box" label="Box">11</container>
-                  <unittitle>Job 96-67, Higgins</unittitle>
-                </did>
-              </c05>
-              <c05 level="file">
-                <did>
-                  <container type="box" label="Box">11</container>
-                  <unittitle>Job 100-68, Steiner</unittitle>
-                </did>
-              </c05>
-              <c05 level="file">
-                <did>
-                  <container type="box" label="Box">11</container>
-                  <unittitle>Job 107-78, Claeys</unittitle>
-                </did>
-              </c05>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Compact Disc 3</unittitle>
+                <physloc>Online </physloc>
+                <unittitle>Job 31-57, Fajans (.ZIP file) </unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117388" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
               </did>
-              <c05 level="file">
-                <did>
-                  <container type="box" label="Box">11</container>
-                  <unittitle>Job 76-62, Van Boven</unittitle>
-                </did>
-              </c05>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Compact Discs 4 &amp; 5</unittitle>
+                <physloc>Online </physloc>
+                <unittitle>Job 96-67, Higgins (.ZIP file) </unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117390" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
               </did>
-              <c05 level="item">
-                <did>
-                  <container type="box" label="Box">11</container>
-                  <unittitle>Job 108-80, Watson/Akil</unittitle>
-                </did>
-              </c05>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Compact Disc 6</unittitle>
+                <physloc>Online </physloc>
+                <unittitle>Job 100-68, Steiner (.ZIP file) </unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117392" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
               </did>
-              <c05 level="file">
-                <did>
-                  <container type="box" label="Box">11</container>
-                  <unittitle>Job 147-03, Berkowitz</unittitle>
-                </did>
-              </c05>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Compact Disc 7</unittitle>
+                <physloc>Online </physloc>
+                <unittitle>Job 107-78, Claeys (.ZIP file) </unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117386" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
               </did>
-              <c05 level="file">
-                <did>
-                  <container type="box" label="Box">11</container>
-                  <unittitle>Job 131-97, Darian</unittitle>
-                </did>
-              </c05>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Compact Disc 8</unittitle>
+                <physloc>Online </physloc>
+                <unittitle>Job 76-62, Van Boven </unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117393" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
               </did>
-              <c05 level="file">
-                <did>
-                  <container type="box" label="Box">11</container>
-                  <unittitle>Job 94-66, Gilbert (I)</unittitle>
-                </did>
-              </c05>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Compact Disc 9</unittitle>
+                <physloc>Online </physloc>
+                <unittitle>Job 108-80, Watson/Akil (.ZIP file)</unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117394" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
               </did>
-              <c05 level="file">
-                <did>
-                  <container type="box" label="Box">11</container>
-                  <unittitle>Job 149-05, Morshidi / Moazzami</unittitle>
-                </did>
-              </c05>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Compact Discs 10 &amp; 11</unittitle>
+                <physloc>Online </physloc>
+                <unittitle>Job 147-03, Berkowitz (.ZIP file) </unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117385" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
               </did>
-              <c05 level="file">
-                <did>
-                  <container type="box" label="Box">11</container>
-                  <unittitle>Job 90-65, Miller</unittitle>
-                </did>
-              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online </physloc>
+                <unittitle>Job 131-97, Darian (.ZIP file) </unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117387" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online </physloc>
+                <unittitle>Job 149-05, Morshidi / Moazzami </unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117398" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online </physloc>
+                <unittitle>Job 90-65, Miller (three image files) </unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117395" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online </physloc>
+                <unittitle>Job number unknown, Akil </unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117384" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
             </c04>
           </c03>
           <c03 level="file">
@@ -9477,1503 +9501,6 @@
                 </did>
               </c05>
             </c04>
-          </c03>
-        </c02>
-      </c01>
-      <c01 level="series">
-        <did>
-          <unittitle>Oversized Drawings and Presentation Boards</unittitle>
-        </did>
-        <odd>
-          <p>(Filed in Metcalf Filing Cabinets by Job Number, from bottom of drawer up. the drawings and presentation boards are also listed n the Project Files series which includes a fuller description of the project and the type and number of drawings for a project. Not all projects have drawings or presentation boards.)</p>
-        </odd>
-        <c02 level="subseries">
-          <did>
-            <unittitle>Drawings</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1950">1950</unitdate> Brechbuhler</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1951">1951</unitdate> Bagent</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 1-53, Crane</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1953">1953</unitdate> Bull</unittitle>
-            </did>
-            <odd>
-              <p>(alterations)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1953">1953</unitdate> Heller</unittitle>
-            </did>
-            <odd>
-              <p>(addition)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 2-54, Service</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 61-60)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 3-54, Elving</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 4-54, Dennison</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 5-54, Stockon</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 6-54, Williams, B.</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1954">1954</unitdate> Warren</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 7-55, Forsythe</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 57-60)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 8-55, Moore</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 133-98)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 9-55, Jones</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 56-60)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 10-55, Wollam Restaurant</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 11-55, Terwilliger</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 12-55, Gamma Phi Beta</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 13-55, Hodges</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 14-55, King</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 15-55, Phillips</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 110-83)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 16-55, VW Agency</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 17-56, O'Hara</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 18-56, Sponseller</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 19-56, Paradise</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 20-56, Reynolds</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 21-56, Gerard</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 135-99)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 23-56, Duckek (I)</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 130-96)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 24-56, Vaughn</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">1</container>
-              <unittitle>Job 25-56, ICC Mark VIII House</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 26-56, Woods</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 143-02)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 27-56, Patterson</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 28-57, Magee</unittitle>
-            </did>
-            <odd>
-              <p>(includes drawing for Nordman 1990)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 29-57, Lyon</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 30-57, Riskey</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 31-57, Fajans</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 32-57, Gottlieb</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 33-57, Botch</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 34-57, Weid</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 35-57, Church of the Good Shepherd United Church of Christ</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 36-57, Sahlins</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1957">1957</unitdate> Black</unittitle>
-            </did>
-            <odd>
-              <p>(remodel)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 37-58, Harvey</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 38-57, Willits</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 39-58, Pryor</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 137-99)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">3</container>
-              <unittitle>Job 40-58, Campbell</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">4</container>
-              <unittitle>Job 41-58, Titiev (includes Job 55- 60)</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">4</container>
-              <unittitle>Job 42-58, Les Strang</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">4</container>
-              <unittitle>Job 43-58, Brown</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">4</container>
-              <unittitle>Job 44-58, West Park Shelter</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">4</container>
-              <unittitle>Job 45-59, Dingman</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">4</container>
-              <unittitle>Job 46-59, Peter (includes Job 112-86)</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">4</container>
-              <unittitle>Job 47-59, Carr</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">4</container>
-              <unittitle>Job 48-59, Grimord (includes Jobs 66-61 &amp; 126-95)</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">4</container>
-              <unittitle>Job 49-59, Busard</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">4</container>
-              <unittitle>Job 50-59, St. Andrew's United Church of Christ</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">4</container>
-              <unittitle>Job 51-59, Chen</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">4</container>
-              <unittitle>Job 52-59, Moyer</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">4</container>
-              <unittitle>Job 53-59, Wilde</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">4</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1959">1959</unitdate> Furstenberg</unittitle>
-            </did>
-            <odd>
-              <p>(alterations)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 54-60, Emerick</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 55-60, Titiev</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 41-58)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 56-60, Jones</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 9-55)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 57-60, Forsythe</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 7-55)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 58-60, Parry</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 59-60, Mulchahey</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 60-60, Greenbaum</unittitle>
-            </did>
-            <odd>
-              <p>(not all additions built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 61-60, Service</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 2-54)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 62-60, Tannenbaum</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 63-60, Beutler</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 64-60, Elliott</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 132-97)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 65-60, Case</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1960">1960</unitdate> Kleaveland</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 66-61, Grimord</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 48-59)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 67-61, Breed</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 68-61, Richard</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 69-61, Spencer</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 70-61, Ogden</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 71-61, Fuller/Hodges Travel Agency</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job 72-61, Davidson/Sherwin</unittitle>
-            </did>
-            <odd>
-              <p>(designed for Davidson; revised and built for Sherwin)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1961">1961</unitdate> Hall</unittitle>
-            </did>
-            <odd>
-              <p>(alterations not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">5</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1961">1961</unitdate> Likert</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1961">1961</unitdate> L. Price</unittitle>
-            </did>
-            <odd>
-              <p>(addition)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1961">1961</unitdate> Spurr</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job 73-62, Island Park Shelter</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job 74-62, Duckek (II)</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job 75-62, Root</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job 76-62, Van Boven</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job 77-62, Churchill</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job 78-62, Krigbaum</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1962">1962</unitdate> Alpha Delta Pi (Werner)</unittitle>
-            </did>
-            <odd>
-              <p>(addition)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1962">1962</unitdate> Radock</unittitle>
-            </did>
-            <odd>
-              <p>(addition)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job 79-63, BBON Venture Medical Office</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job 80-63, Cage &amp; Smeckert Dental Office</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job 81-63, Heywood</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job 82-63, Laird (I)</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">6</container>
-              <unittitle>Job 83-64, Swartz</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">7</container>
-              <unittitle>Job 84-64, Holland (I)</unittitle>
-            </did>
-            <odd>
-              <p>(includes Jobs 109-83, 134-99, &amp; 151-08)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">7</container>
-              <unittitle>Job 85-64, Mann</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">7</container>
-              <unittitle>Job 86-64, Olds</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 129-96)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">7</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1964">1964</unitdate> Phi Alpha Kappa (Werner)</unittitle>
-            </did>
-            <odd>
-              <p>(addition not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">7</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1964">1964</unitdate> Warner (Werner)</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">7</container>
-              <unittitle>Job 87-65, Leabo</unittitle>
-            </did>
-            <odd>
-              <p>(includes Jobs 142-02 &amp; 148-03)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">7</container>
-              <unittitle>Job 88-65, Eberbach</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">7</container>
-              <unittitle>Job 89-65, Courtland Corp.</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">7</container>
-              <unittitle>Job 90-65, Miller</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">7</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1965">1965</unitdate> Bookstein</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">7</container>
-              <unittitle>Job 91-65, Hutt</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Job 92-66, K. Siegel</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Job 93-66, Swanson</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Job 94-66, Gilbert (I)</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 141-02)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1966">1966</unitdate> St. Luke's Lutheran Church</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1966">1966</unitdate> Chatas (Werner)</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Job 95-67, Metcalf Office</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Job 96-67, Higgins</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 114-88)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1967">1967</unitdate> Lewis</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1967">1967</unitdate> Wilkes</unittitle>
-            </did>
-            <odd>
-              <p>(remodel)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Job 97-68, Towner Medical Office</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Jobs 98-68 &amp; 99-68 Bentley Park Shelter &amp; Bentley Park Bandstand</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Job 100-68, Steiner</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Job 101-69, Nu Sigma Nu</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Job 102-71, Mayerson</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">8</container>
-              <unittitle>Job 103-71, Ecorse Medical Office</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1971">1971</unitdate> Edwards</unittitle>
-            </did>
-            <odd>
-              <p>(addition)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1971">1971</unitdate> UM Lorch Hall</unittitle>
-            </did>
-            <odd>
-              <p>(office remodel)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 105-74, Laird (II)</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 122-92)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1974">1974</unitdate> Paul</unittitle>
-            </did>
-            <odd>
-              <p>(remodel)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1974">1974</unitdate> Warner (Werner)</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 106-75, Huebner</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 107-78, Claeys</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 108-80, Watson/Akil</unittitle>
-            </did>
-            <odd>
-              <p>(includes Jobs 123-93, 140-01, &amp; 146-03)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 109-83, Holland (II)</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 84-64)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 110-83, Phillips</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 15-55)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 111-85, Kienholz</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 112-86, Stein</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 46-59)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 113-88, Bartell</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 114-88, Higgins</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 96-67)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 115-88, Ferriell</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 117-89, Fox/Bockenstedt</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 118-89, Gilbert/Verbrugge (II)</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 119-89, Robinson</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 120-91, Holland (II)</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 121-91, Yao</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 122-92, Laird (II)</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 105-74)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1992">1992</unitdate> Gutstein</unittitle>
-            </did>
-            <odd>
-              <p>(modifications not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1992">1992</unitdate> Jahnke</unittitle>
-            </did>
-            <odd>
-              <p>(modifications not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 123-93, Watson/Akil</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 108-80)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1993">1993</unitdate> Saladin</unittitle>
-            </did>
-            <odd>
-              <p>(remodel not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 124-94, Hitchman/Hewitt</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-            <odd>
-              <p>(see Job 139- 01)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 125-95, Bareham</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-            <odd>
-              <p>(see Job 145-03)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 126-95, Siegel, R.</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 48-59)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">9</container>
-              <unittitle>Job 127-95, DeLosh</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 128-96, Oak Valley Dental Associates</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 129-96, Valenstein</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 86-64)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 130-96, Waggoner</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 23-56)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 131-97, Darian</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 132-97, Hinman/Young</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 64-60)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 133-98, Seguino</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 8-55)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 134-99 Holland (I)</unittitle>
-            </did>
-            <odd>
-              <p>(addition not built)</p>
-            </odd>
-            <odd>
-              <p>(see Job 84-64)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 135-99, Eckstein</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-            <odd>
-              <p>(see Job 21-56)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 136-99, McCoy/Steele</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 137-99, Newhouse</unittitle>
-            </did>
-            <odd>
-              <p>(not built)</p>
-            </odd>
-            <odd>
-              <p>(see Job 39-58)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 138-99, Ann Arbor Airport</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="2000">2000</unitdate> Owyang</unittitle>
-            </did>
-            <odd>
-              <p>(remodel not built)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 139-01, Hitchman/Hewitt</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 124-94)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 140-01, Watson/Akil</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 108-80)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 141-02, Gilbert/Verbrugge</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 94-66)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 142-02, Grizzle/McCauley</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 87-65)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 143-02, Cohen</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 26-56)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 144-02, Hurtado</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 145-03, Bareham</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 125-95)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 146-03, Watson/Akil</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 108-80)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 147-03, Berkowitz</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 148-03, Grizzle/McCauley</unittitle>
-            </did>
-            <odd>
-              <p>(see Job 87-65)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 149-05, Morshidi/Moazzami</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 150-07, Deromedi</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">10</container>
-              <unittitle>Job 151-08, Holland (I)</unittitle>
-            </did>
-            <odd>
-              <p>(see Job. 84-64)</p>
-            </odd>
-          </c03>
-        </c02>
-        <c02 level="subseries">
-          <did>
-            <unittitle>Presentation Boards</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">11</container>
-              <unittitle>Job 0-52, Metcalf</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">11</container>
-              <unittitle>Job 4-54, Dennison</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">11</container>
-              <unittitle>Job 6-54, B. Williams</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">11</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1954">1954</unitdate> Morton Arboretum Competition</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">11</container>
-              <unittitle>Job 11-55, Terwilliger</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">11</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1955">1955</unitdate> Porcelain Enamel Competition</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">11</container>
-              <unittitle>Job 24-56, Vaughn</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">12</container>
-              <unittitle>Job 27-56, Patterson</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">12</container>
-              <unittitle>Job 28-57, Magee</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">12</container>
-              <unittitle>Job 31-57, Fajans</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">12</container>
-              <unittitle>Job 35-57, Church of the Good Shepherd</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">13</container>
-              <unittitle>Job 42-58, Les Strang</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">13</container>
-              <unittitle>Job 71-61, Fuller / Hodges Travel Agency</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">13</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1961">1961</unitdate> Spurr</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">13</container>
-              <unittitle>Job Misc. <unitdate type="inclusive" normal="1962">1962</unitdate> Alpha Delta Pi (Werner</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">13</container>
-              <unittitle>Job 84-64, Holland</unittitle>
-            </did>
-            <odd>
-              <p>(includes Job 134-99)</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">14</container>
-              <unittitle>Job 86-64, Olds</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">14</container>
-              <unittitle>Job 92-66, Siegel, K.</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">14</container>
-              <unittitle>Job 94-66, Gilbert/Verbrugge</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">14</container>
-              <unittitle>Job 95-67, Metcalf Office</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">14</container>
-              <unittitle>Job 96-67, Higgins</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">14</container>
-              <unittitle>Job 97-68, Towner Medical Office</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">14</container>
-              <unittitle>Job 100-68, Steiner</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">14</container>
-              <unittitle>Job 101-69, Nu Sigma Nu</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">14</container>
-              <unittitle>Job 106-75, Huebner</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">14</container>
-              <unittitle>Job 108-80, Watson/Akil</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="map-case" label="Drawer">14</container>
-              <unittitle>Job 128-96, Oak Valley Dental</unittitle>
-            </did>
           </c03>
         </c02>
       </c01>
