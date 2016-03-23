@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>20130811</date>
         <item>added IA and DB website links</item>
       </change>
@@ -65,7 +69,7 @@
         <extent altrender="carrier">in 18 boxes</extent>
       </physdesc>
       <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">3.97 GB</extent>
+        <extent altrender="materialtype spaceoccupied">10.2 GB</extent>
       </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
@@ -79,6 +83,7 @@
       <accessrestrict encodinganalog="506">
         <p>The Gerald R. Ford School of Public Policy records are open for research except for certain records restricted by statute or university policy. Restricted material includes personnel-related files, including search, review, promotion, and tenure files; student educational records; client/patient records; and records of executive officers of the university.</p>
         <p>The Gerald R. Ford School of Public Policy record group includes restricted material in the following categories: <list type="simple"><item>Personnel Related Records -- Boxes 16-17</item><item>Executive Officer Records -- Boxes 15-18</item></list></p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
         <p>
           <extptr href="uarpacc" show="embed" actuate="onload"/>
         </p>
@@ -89,6 +94,9 @@
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., Gerald R. Ford School of Public Policy (University of Michigan) Records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
       <processinfo>
         <p>
           <extptr href="digitalproc" show="embed" actuate="onload"/>
@@ -813,12 +821,8 @@
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">6</container>
-            <unittitle>Tape Recording of the Rededication of Rizal Hall (Harold Stassen speaker?) <unitdate type="inclusive" normal="1954-02-22">February 22, 1954</unitdate> (reel-to-reel)</unittitle>
-          </did>
-        </c02>
+        <c02 level="otherlevel" otherlevel="item-main"><did><unittitle>Philippine Institute of Public Administration Project – Rededication of Rizal Hall, <unitdate type="inclusive">1954 February 22</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet></physdesc></did><c03 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[87209-SR-4-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_66u2r1mw" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Dedication event to Rizal Hall at the University of the Philippines. Includes several speeches from different speakers.)</abstract></did><accessrestrict><p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict></c03></c02>
       </c01>
       <c01 level="series">
         <did>
@@ -2206,16 +2210,12 @@
         <scopecontent>
           <p>The Sound Recordings series (11 cassette tapes and 3 reel-to-reel tapes) contains recordings of the celebration of the fiftieth anniversary of public administration at the University of Michigan in 1964, also recordings of round tables held at the Institute of Public Policy's twenty-fifth anniversary celebration in 1993.</p>
         </scopecontent>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">14</container>
-            <unittitle>Fiftieth Anniversary Symposium <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">3 audiotapes</extent>
-              <physfacet>3 3/4 ips, 7 inches; reel-to-reel tapes</physfacet>
-            </physdesc>
-          </did>
-        </c02>
+        <c02 level="otherlevel" otherlevel="item-main"><did><unittitle>Fiftieth Anniversary Symposium, <unitdate type="inclusive">1964</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet></physdesc></did><c03 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[87209-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_bxvk2tcv" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Reel 1; Symposium for the 50th Anniversary of the Institute of Public Administration. John David Millett speaking.)</abstract></did><accessrestrict><p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict></c03></c02>
+        <c02 level="otherlevel" otherlevel="item-main"><did><unittitle>Fiftieth Anniversary Symposium, <unitdate type="inclusive">1964</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet></physdesc></did><c03 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[87209-SR-2-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_ewssdom9" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Reel 2; Symposium for the 50th Anniversary of the Institute of Public Administration. Dr. John William Lederle, President of the University of Massachusetts, A Dr. Reed and other unidentified speakers.)</abstract></did><accessrestrict><p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict></c03></c02>
+        <c02 level="otherlevel" otherlevel="item-main"><did><unittitle>Fiftieth Anniversary Symposium, <unitdate type="inclusive">1964</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet></physdesc></did><c03 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[87209-SR-3-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_ckjsfhd6" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Reel 3; Symposium for the 50th Anniversary of the Institute of Public Administration. Names referenced include Arthur Mailman, Professor Mackinzie, Amos Halley, and others.)</abstract></did><accessrestrict><p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict></c03></c02>
         <c02 level="file">
           <did>
             <unittitle>Institute for Public Policy 25th Anniversary Symposium <unitdate type="inclusive" normal="1993-10-22/1993-10-23">October 22-23, 1993</unitdate></unittitle>
