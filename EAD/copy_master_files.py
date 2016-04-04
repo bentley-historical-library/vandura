@@ -1,4 +1,4 @@
-import os
+from os.path import join
 
 from vandura.config import ead_dir, real_masters_all
 
