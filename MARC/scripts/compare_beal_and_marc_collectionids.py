@@ -1,3 +1,5 @@
+from vandura.config import marc_dir, real_masters_all, shared_dir
+
 import csv
 from lxml import etree
 import os
@@ -59,14 +61,11 @@ def write_unique_collectionids_to_document(unique_collectionids_list, unique_col
 
 
 def main():
-	project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-	marc_base_dir = join(project_dir, "MARC")
-	vandura_dir = join(project_dir, "vandura", "Real_Masters_all")
-	marc_dir = join(marc_base_dir, 'marcxml_no_ead')
-	locations_csv = join(project_dir, "shared", "locations.csv")
-	unique_collectionids_document = join(marc_base_dir, "beal_unique_collectionids.txt")
-	ead_collectionids = make_ead_collectionids_list(vandura_dir)
-	marc_collectionsids = make_marc_collectionids_list(marc_dir)
+	marcxml_dir = join(marc_dir, 'marcxml_no_ead')
+	locations_csv = join(shared_dir, "locations.csv")
+	unique_collectionids_document = join(marc_dir, "beal_unique_collectionids.txt")
+	ead_collectionids = make_ead_collectionids_list(real_masters_all)
+	marc_collectionsids = make_marc_collectionids_list(marcxml_dir)
 	beal_collectionids = make_beal_collectionids_list(locations_csv)
 	unique_beal_collectionids = make_unique_beal_collectionids_list(beal_collectionids, ead_collectionids, marc_collectionsids)
 	write_unique_collectionids_to_document(unique_beal_collectionids, unique_collectionids_document)

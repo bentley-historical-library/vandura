@@ -1,11 +1,12 @@
+from vandura.config import marc_dir
+
 from lxml import etree
 import os
 from os.path import join
 
 ns = {'marc': 'http://www.loc.gov/MARC21/slim'}
 
-project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-marcxml_dir = join(project_dir, "marcxml_no_ead_joined")
+marcxml_dir = join(marc_dir, "marcxml_no_ead_joined")
 
 no_main_record = []
 for filename in os.listdir(marcxml_dir):

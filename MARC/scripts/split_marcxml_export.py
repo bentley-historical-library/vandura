@@ -1,3 +1,5 @@
+from vandura.config import marc_dir
+
 import lxml
 from lxml import etree
 import xml.etree.cElementTree as cElementTree
@@ -23,8 +25,7 @@ def split_marcxml_exports(exports, dst_dir):
                     print filename
 
 if __name__ == "__main__":
-    project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    dst_dir = join(project_dir, 'marcxml_all')
+    dst_dir = join(marc_dir, 'marcxml_all')
     marcxml_basedir = 'C:/Users/djpillen/GitHub/marc_xml-all/mlibrary_exports'
     marcxml_has_ead = join(marcxml_basedir, 'bent_marc_has_ead.xml')
     marcxml_no_ead = join(marcxml_basedir, 'bent_marc_no_ead.xml')

@@ -1,3 +1,5 @@
+from vandura.config import marc_dir
+
 import requests
 import json
 import os
@@ -63,10 +65,9 @@ Errors encountered in: {4} files""".format(script_start_time, script_end_time, s
         f.write(converter_stats)
 
 def main():
-    project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    aspace_ead_dir = join(project_dir, 'converted_eads')
-    json_dir = join(project_dir, 'json')
-    migration_stats_dir = join(project_dir, 'migration_stats')
+    aspace_ead_dir = join(marc_dir, 'converted_eads')
+    json_dir = join(marc_dir, 'json')
+    migration_stats_dir = join(marc_dir, 'migration_stats')
     aspace_url = 'http://localhost:8089'
     username = 'admin'
     password = 'admin'

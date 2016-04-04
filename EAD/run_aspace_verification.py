@@ -1,19 +1,21 @@
+from vandura.config import ead_dir
+
 from lxml import etree
 import csv
 import os
 from os.path import join
 import re
 
-ead_dir = 'eads'
-ead_errors_csv = 'ead_verification_errors.csv'
+aspace_ead_dir = join(ead_dir, 'eads')
+ead_errors_csv = join(ead_dir, 'ead_verification_errors.csv')
 
 tags = ['subject','geogname','genreform','title','persname','corpname','famname']
 
 ead_errors = []
 
-for filename in os.listdir(ead_dir):
+for filename in os.listdir(aspace_ead_dir):
 	print "Checking for errors in {0}".format(filename)
-	tree = etree.parse(join(ead_dir,filename))
+	tree = etree.parse(join(aspace_ead_dir,filename))
 	components = tree.xpath("//dsc//*[starts-with(local-name(), 'c0')]")
 	classifications = tree.xpath('//classification')
 	notes = tree.xpath('//scopecontent') + tree.xpath('//odd') + tree.xpath('//abstract')

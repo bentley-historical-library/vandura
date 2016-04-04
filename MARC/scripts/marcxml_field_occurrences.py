@@ -1,11 +1,12 @@
+from vandura.config import marc_dir
+
 from lxml import etree
 import os
 from os.path import join
 import csv
 
-project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-marc_path = join(project_dir, 'marcxml_no_ead')
-field_occurrences_csv = join(project_dir, 'marc_field_occurrences.csv')
+marc_path = join(marc_dir, 'marcxml_no_ead')
+field_occurrences_csv = join(marc_dir, 'marc_field_occurrences.csv')
 
 marc_fields = {}
 

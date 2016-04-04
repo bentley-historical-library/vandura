@@ -1,3 +1,5 @@
+from vandura.config import marc_dir
+
 import json
 from lxml import etree
 import os
@@ -28,10 +30,9 @@ def add_uris(subject_to_aspace_id_map, agent_to_aspace_id_map, ead_dir):
 
 
 def main():
-	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-	ead_dir = join(project_dir, "converted_eads")
-	subject_to_aspace_id_map = json.load(open(join(project_dir, "subjects_to_aspace_ids.json")))
-	agent_to_aspace_id_map = json.load(open(join(project_dir, "agents_to_aspace_ids.json")))
+	ead_dir = join(marc_dir, "converted_eads")
+	subject_to_aspace_id_map = json.load(open(join(marc_dir, "subjects_to_aspace_ids.json")))
+	agent_to_aspace_id_map = json.load(open(join(marc_dir, "agents_to_aspace_ids.json")))
 	add_uris(subject_to_aspace_id_map, agent_to_aspace_id_map, ead_dir)
 
 if __name__ == "__main__":

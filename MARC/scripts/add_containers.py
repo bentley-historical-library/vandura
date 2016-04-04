@@ -1,3 +1,5 @@
+from vandura.config import marc_dir, shared_dir
+
 import csv
 from lxml import etree
 import os
@@ -77,11 +79,9 @@ def make_beal_container_dict(beal_locations_csv):
 	return beal_container_dict
 
 def main():
-	project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-	marc_base_dir = join(project_dir, "MARC")
-	ead_dir = join(marc_base_dir, "converted_eads")
-	beal_locations_csv = join(project_dir, "shared", "locations.csv")
-	no_container_file = join(marc_base_dir, "no_containers.csv")
+	ead_dir = join(marc_dir, "converted_eads")
+	beal_locations_csv = join(shared_dir, "locations.csv")
+	no_container_file = join(marc_dir, "no_containers.csv")
 	beal_container_dict = make_beal_container_dict(beal_locations_csv)
 	no_containers = add_containers(ead_dir, beal_container_dict)
 	with open(no_container_file,'wb') as csvfile:

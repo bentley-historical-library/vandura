@@ -1,3 +1,5 @@
+from vandura.config import marc_dir
+
 import json
 from lxml import etree
 import os
@@ -231,9 +233,8 @@ def extract_id(response):
 	return aspace_id
 
 def main():
-	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-	ead_dir = join(project_dir, "converted_eads")
-	agents_to_aspace_ids_file = join(project_dir, "agents_to_aspace_ids.json")
+	ead_dir = join(marc_dir, "converted_eads")
+	agents_to_aspace_ids_file = join(marc_dir, "agents_to_aspace_ids.json")
 	agents = get_all_agents(ead_dir)
 	agent_json = make_agent_json(agents)
 	agents_to_aspace_ids = post_agents(agent_json)

@@ -1,9 +1,10 @@
+from vandura.config import marc_dir
+
 from lxml import etree
 import os
 from os.path import join
 
-project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ead_dir = join(project_dir, 'converted_eads')
+ead_dir = join(marc_dir, 'converted_eads')
 
 container_labels = []
 container_label_to_type_dict = {"Box":"box", "Folder":"folder", "Box out.":"box", "Vol.":"volume", "Video Box":"box",

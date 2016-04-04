@@ -1,3 +1,5 @@
+from vandura.config import marc_dir
+
 from lxml.builder import E
 from lxml import etree
 import os
@@ -858,8 +860,7 @@ def convert_marcxml_to_ead(marcxml_dir, ead_dir, unconverted_dir):
 			shutil.copy(join(marcxml_dir, filename), unconverted_dir)
 
 if __name__ == "__main__":
-	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-	marcxml_dir = join(project_dir, "marcxml_no_ead_joined")
-	ead_dir = join(project_dir, "converted_eads")
-	unconverted_dir = join(project_dir, "unconverted_marcxml")
+	marcxml_dir = join(marc_dir, "marcxml_no_ead_joined")
+	ead_dir = join(marc_dir, "converted_eads")
+	unconverted_dir = join(marc_dir, "unconverted_marcxml")
 	convert_marcxml_to_ead(marcxml_dir, ead_dir, unconverted_dir)

@@ -1,10 +1,11 @@
+from vandura.config import marc_dir
+
 from lxml import etree
 import os
 from os.path import join
 import re
 
-project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-converted_eads = join(project_dir, 'converted_eads')
+converted_eads = join(marc_dir, 'converted_eads')
 
 for filename in os.listdir(converted_eads):
 	print filename

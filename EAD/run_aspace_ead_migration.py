@@ -1,3 +1,4 @@
+from vandura.config import ead_dir
 import getpass
 import os
 from os.path import join
@@ -20,10 +21,10 @@ def run_aspace_ead_migration(ead_dir, json_dir, resources_dir, migration_stats_d
 			print "*** ALL RESOURCES IMPORTED SUCCESSFULLY ***"
 
 def main():
-	aspace_ead_dir = 'eads'
-	json_dir = 'json'
-	resources_dir = 'resources'
-	migration_stats_dir = 'migration_stats'
+	aspace_ead_dir = join(ead_dir, 'eads')
+	json_dir = join(ead_dir, 'json')
+	resources_dir = join(ead_dir, 'resources')
+	migration_stats_dir = join(ead_dir, 'migration_stats')
 	aspace_url = 'http://localhost:8089'
 	username = 'admin'
 	print "*************************************************************"

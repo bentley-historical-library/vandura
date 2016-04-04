@@ -1,3 +1,5 @@
+from vandura.config import marc_dir
+
 from lxml import etree
 import os
 from os.path import join
@@ -40,8 +42,7 @@ def propagate_agent_sources(ead_dir):
 
 
 def main():
-	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-	ead_dir = join(project_dir, "converted_eads")
+	ead_dir = join(marc_dir, "converted_eads")
 	propagate_agent_sources(ead_dir)
 
 if __name__ == "__main__":

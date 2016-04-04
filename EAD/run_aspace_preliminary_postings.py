@@ -1,3 +1,5 @@
+from vandura.config import ead_dir, dspace_mets_dir
+
 import getpass
 from os.path import join
 import os
@@ -24,14 +26,13 @@ def run_aspace_preliminary_postings(aspace_ead_dir, subjects_agents_dir, digital
 				print filename
 
 def main():
-	project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-	aspace_ead_dir = 'eads'
-	subjects_agents_dir = 'subjects_agents'
-	digital_objects_dir = 'digital_objects'
-	json_dir = 'json'
-	resources_dir = 'resources'
-	migration_stats_dir = 'migration_stats'
-	dspace_mets_dir = join(project_dir, 'dspace_mets')
+	aspace_ead_dir = join(ead_dir, 'eads')
+	subjects_agents_dir = join(ead_dir, 'subjects_agents')
+	digital_objects_dir = join(ead_dir, 'digital_objects')
+	json_dir = join(ead_dir, 'json')
+	resources_dir = join(ead_dir, 'resources')
+	migration_stats_dir = join(ead_dir, 'migration_stats')
+	dspace_mets_dir = dspace_mets_dir
 	aspace_url = 'http://localhost:8089'
 	username = 'admin'
 	print "*** RUN THE FOLLOWING SCRIPTS ***"

@@ -1,11 +1,11 @@
-from aspace_prep.copy_eads import copy_eads
 import os
 
-project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+from vandura.config import ead_dir, real_masters_all
 
-vandura_base_dir = os.path.join(project_dir, 'vandura')
-vandura_real_masters_all = os.path.join(vandura_base_dir, 'Real_Masters_all')
-aspace_ead_dir = 'eads'
+from aspace_prep.copy_eads import copy_eads
 
-copy_eads(vandura_base_dir, aspace_ead_dir)
-copy_eads(vandura_real_masters_all, aspace_ead_dir)
+aspace_ead_dir = join(ead_dir, "eads")
+muschenheim_dir = join(ead_dir, "muschenheim")
+
+copy_eads(muschenheim_dir, aspace_ead_dir)
+copy_eads(real_masters_all, aspace_ead_dir)
