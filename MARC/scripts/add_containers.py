@@ -80,7 +80,7 @@ def make_beal_container_dict(beal_locations_csv):
 
 def main():
 	ead_dir = join(marc_dir, "converted_eads")
-	beal_locations_csv = join(shared_dir, "locations.csv")
+	beal_locations_csv = join(shared_dir, "CSVs", "locations.csv")
 	no_container_file = join(marc_dir, "no_containers.csv")
 	beal_container_dict = make_beal_container_dict(beal_locations_csv)
 	no_containers = add_containers(ead_dir, beal_container_dict)

@@ -62,7 +62,7 @@ def write_unique_collectionids_to_document(unique_collectionids_list, unique_col
 
 def main():
 	marcxml_dir = join(marc_dir, 'marcxml_no_ead')
-	locations_csv = join(shared_dir, "locations.csv")
+	locations_csv = join(shared_dir, "CSVs", "locations.csv")
 	unique_collectionids_document = join(marc_dir, "beal_unique_collectionids.txt")
 	ead_collectionids = make_ead_collectionids_list(real_masters_all)
 	marc_collectionsids = make_marc_collectionids_list(marcxml_dir)

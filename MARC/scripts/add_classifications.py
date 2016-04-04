@@ -74,7 +74,7 @@ def add_classifications(ead_dir, beal_classifications):
 
 def main():
 	ead_dir = join(marc_dir, 'converted_eads')
-	beal_classifications = join(shared_dir, "beal_classifications.csv")
+	beal_classifications = join(shared_dir, "CSVs", "beal_classifications.csv")
 	add_classifications(ead_dir, beal_classifications)
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-from vandura.config import dspace_mets_dir, real_masters_all 
+from vandura.config import dspace_mets_dir, ead_dir, real_masters_all 
 
 from os.path import join
 import os
@@ -40,7 +40,6 @@ def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir):
 	print "*** COPY THE MASTER FILES TO THE LOCAL EAD DIR"
 
 def main():
-	dspace_mets_dir = dspace_mets_dir
 	aspace_ead_dir = join(ead_dir, 'eads')
 	muschenheim_dir = join(ead_dir, 'muschenheim')
 	run_pre_aspace_cleanup(muschenheim_dir, dspace_mets_dir)
