@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>20150615</date>
         <item>Separated boxes for use with Aeon, corrected collection dates, added written notes from paper finding aid and missing box.</item>
       </change>
@@ -60,6 +64,10 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">5.9 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -74,6 +82,7 @@
       </accruals>
       <accessrestrict encodinganalog="506">
         <p>The collection is open to research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>The donor retains copyright to his writings.</p>
@@ -81,6 +90,9 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, R. W. Fleming papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>Robben Fleming was born in Paw Paw, Illinois, on December 18, 1916. He was active in student affairs and athletics throughout his student life. Fleming received his Bachelor of Arts degree in 1938 from Beloit College and went on to the University of Wisconsin where he received his LL.B. in 1941.</p>
@@ -806,7 +818,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">11</container>
-              <unittitle>College of Law (faculty minutes <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>)</unittitle>
+              <unittitle>College of Law (faculty minutes) <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -1206,7 +1218,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">13</container>
-                  <unittitle>Television (NBC <unitdate type="inclusive" normal="1968-08-16">August 16, 1968</unitdate>)</unittitle>
+                  <unittitle>Television (NBC) <unitdate type="inclusive" normal="1968-08-16">August 16, 1968</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
@@ -5982,23 +5994,59 @@
               <genreform normal="Sound recordings">Sound recordings</genreform>
             </unittitle>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">49</container>
-              <unittitle>RWF's inauguration ceremonies <unitdate type="inclusive" normal="1968-03-11">March 11, 1968</unitdate></unittitle>
+              <unittitle>Robben Wright Fleming's inauguration ceremonies, <unitdate type="inclusive">1968 March 11</unitdate></unittitle>
               <physdesc>
-                <physfacet>7 in. reel-to-reel; 3 3/4 ips</physfacet>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85232-SR-1-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_rv08ljbr" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Robben Fleming inauguration ceremonies including invocation, speeches from regents, members of the Alumni Association.)</abstract>
+              </did>
+              <accessrestrict>
+                <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+              </accessrestrict>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">49</container>
-              <unittitle>University of Michigan Law Club evening dinner <unitdate type="inclusive" normal="1978-10-27">October 27, 1978</unitdate></unittitle>
+              <unittitle>University of Michigan Law Club Evening Dinner, <unitdate type="inclusive">1978 October 27</unitdate></unittitle>
               <physdesc>
-                <physfacet>7 in. reel-to-reel; 3 3/4 ips</physfacet>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85232-SR-2-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_pvl2u70h" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Various speakers giving speeches about Robben Fleming on his accomplishments at the University of Michigan.)</abstract>
+              </did>
+              <accessrestrict>
+                <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+              </accessrestrict>
+            </c04>
           </c03>
           <c03 level="file">
             <did>

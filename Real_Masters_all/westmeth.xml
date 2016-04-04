@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>2006-09-07</date>
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
@@ -37,13 +41,17 @@
       <origination>
         <corpname source="lcnaf" encodinganalog="110">West Side United Methodist Church (Ann Arbor, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">West Side United Methodist Church (Ann Arbor, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1846/2000">1846-2000</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950/1999">1950-1999</unitdate></unittitle>
+      <unittitle encodinganalog="245">West Side United Methodist Church (Ann Arbor, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1846/2000">1846-2000</unitdate> <unitdate type="bulk" encodinganalog="245$g" normal="1950/1999">1950-1999</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">06100 Ba 2</unitid>
       <langmaterial>The material is primarily in <language langcode="eng" encodinganalog="041">English</language> with a some items, mainly prior to 1925, in German.</langmaterial>
       <abstract>Church originally established by German immigrant families to Ann Arbor, Michigan. Quarterly and annual reports of the church, records of church boards and commissions, Sunday School minutes and reports, subject files, publications, visual materials, and sound recordings.</abstract>
-      <physdesc altrender="whole">
+      <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">16 linear feet</extent>
         <extent altrender="carrier">in 17 boxes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">12.7 GB</extent>
+        <physfacet>online</physfacet>
       </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
@@ -56,6 +64,7 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The record group is open to research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright was transferred to the Regents of the University of Michigan.</p>
@@ -63,6 +72,9 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, West Side United Methodist Church (Ann Arbor, Mich.) Records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>German immigrant families founded the Erste Deutsche Methodisten Kirche in 1847 and built a church at the corner of East Liberty and South Division. Over the next half century the congregation gradually outgrew this building, so in 1895 they purchased a new site in the heart of the German section of Ann Arbor, now known as the Old West Side. The new church, completed in 1896, was located at the corner of West Jefferson and Fourth Streets.</p>
@@ -3298,40 +3310,384 @@
         <scopecontent>
           <p>The Audiotapes series includes audiotapes of the 1951 groundbreaking, 110th anniversary events, and oral history interviews conducted during 140th anniversary celebrations.</p>
         </scopecontent>
-        <c02 level="file">
+        <accessrestrict>
+          <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict>
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Anniversaries</unittitle>
+            <unittitle>Anniversaries, 110th, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="Box">15</container>
-              <unittitle>110th <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[06100-SR-21-1-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
               </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_ppu8ijjq" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(110 Anniversary Tape 1; Bell-Busching, Very noisy recording, appears to contain news reports and phone conversations.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[06100-SR-21-1-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_asf2f5e9" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(110 Anniversary Tape 1; Bell-Busching. Unknown speakers discussing missionary work in Chile as well as church work in Gainesville, Florida.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[06100-SR-21-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_l4hl2cwd" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(110 Anniversary Tape 1; Bell-Busching; Silence between 9:25 and 13:50. Recording of a sermon until about 9:25. After 13:50, a speaker discussing an event at the Church.)</abstract>
             </did>
           </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <container type="box" label="Box">15</container>
-            <unittitle>Christmas Pageant <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">15</container>
-            <unittitle>Christmas Songs <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">15</container>
-            <unittitle>Church Groundbreaking <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-            <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            <unittitle>Anniversaries, 110th, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
             </physdesc>
           </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[06100-SR-22-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_rvpse376" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(110 Anniversary Tape 2: Benish Fletchhall. Pastor discussing the history of the building and development of the church and the renovation of the basement.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[06100-SR-22-2-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_as4pgr43" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(110 Anniversary Tape 2: Benish Fletchhall. Brief invocation on the groundbreaking or consecration of a church.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[06100-SR-22-2-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_dcsdib0a" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(110 Anniversary Tape 2: Benish Fletchhall. Unknown male speaker discussing renovations and the history of the Church.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[06100-SR-22-2-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_dcsdib0a" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(110 Anniversary Tape 2: Benish Fletchhall. Unknown male speaker discussing renovations and the history of the Church.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Anniversaries, 110th, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[06100-SR-23-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_6ylr7ly7" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Begins with church bells ringing, dictations from multiple Church members who went to West Side United Methodist Church and participated in missionary work in South America during the early 1900s.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Anniversaries, 110th, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[06100-SR-24-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_gwjcgv3x" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(110 Anniversary; Shilling. Recording of a church service with sermons and hymn singing.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Church Groundbreaking (2 track), <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[06100-SR-25-1-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_90h81cdl" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Church dedication part 2 and 3. Recording of a dedication and discussing of renovations and building on the Church.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[06100-SR-25-1-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_g9mgcqv2" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Church dedication part 2 and 3; Content is very quiet and appears to be a radio recording of a baseball game.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[06100-SR-25-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_lycwf9mb" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Church dedication part 2 and 3. Content difficult to hear, appears to be a sermon or related to the dedication of the West Side United Methodist Church. Some organ music played at 12:00. At 22:10 content switches to a more audible dedication of the Church.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Church Groundbreaking (single track), <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[06100-SR-26-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_m3ei9crz" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Dedication I single track. Recording of a sermon and the singing of hymns in the Church.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Church Groundbreaking, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[06100-SR-27-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_fxceddid" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Groundbreaking; Pentron. Unidentified speaker dedicating the church with a prayer and invocation for the Church.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[06100-SR-27-2-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_1ubboviq" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Groundbreaking; Pentron. Discussion of the new church and speeches from members of the church about Youth Group and Sunday School.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[06100-SR-27-2-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_4rw6m0zx" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Groundbreaking; Pentron. Silence for the first minute, speaker giving instructions on how to use tape recorder; very distorted.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[06100-SR-27-2-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_4rw6m0zx" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Groundbreaking; Pentron. Silence for the first minute, speaker giving instructions on how to use tape recorder; very distorted.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Church Groundbreaking, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[06100-SR-28-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_suvetqy9" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Chorus church dedication. Recording of a dinner or family gathering, no other content.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Easter Service, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[06100-SR-29-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_oivjssq6" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Sermon for Easter Service given by male speaker.)</abstract>
+            </did>
+          </c03>
         </c02>
         <c02 level="file">
           <did>

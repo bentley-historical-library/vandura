@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>20150714</date>
         <item>Separated boxes for use with Aeon.</item>
       </change>
@@ -52,13 +56,16 @@
       <origination>
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no2003122412">Republican Party (Mich.). State Central Committee.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Republican Party (Mich.) State Central Committee Records <unitdate type="inclusive" encodinganalog="245$f" normal="1958/1979">1958-1979</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1962/1978">1962-1978</unitdate></unittitle>
+      <unittitle encodinganalog="245">Republican Party (Mich.) State Central Committee Records <unitdate type="inclusive" encodinganalog="245$f" normal="1958/1979">1958-1979</unitdate> <unitdate type="bulk" encodinganalog="245$g" normal="1962/1978">1962-1978</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85816 Bt 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>Portions of the collection are located offsite; two days notice required for retrieval.</physloc>
       <abstract>Office files and papers of state chairpersons William F. McLaughlin, Arthur Elliott and Elly Peterson, executive director Jerry Roe, public relations director Hugh Humphrey, and Joseph Hunting, executive director of the Republican State Finance Committee. The principal series in this record group include: Annual reports/Executive Committee meetings; Chairperson's files; Staff/Departments; Topical Files; Campaign Files; Convention Files; Miscellaneous; Sound Recordings; and Photographs.</abstract>
-      <physdesc altrender="whole">
+      <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">71 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">57.3 GB (online)</extent>
       </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
@@ -71,6 +78,7 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>The SCC has transferred its copyright to the regents of the University of Michigan. William McLaughlin has not made a transfer of copyright.</p>
@@ -78,6 +86,9 @@
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., Republican Party (Mich.). State Central Committee, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>The exact date when the Republican State Central Committee was organized is not clear but it was probably very soon after the establishment of the party in 1854. In the library, there is a pamphlet published around 1856 with the citation "printed by the Michigan Republican Committee." What the responsibilities of this committee were is not certain, but the name obviously implies some degree of party organization and function such as might have been performed by the agency known in 1883, when its membership was first listed in the Michigan Manual, as the state central committee.</p>
@@ -4540,20 +4551,536 @@
         <scopecontent>
           <p>Sound recordings consists of reel-to-reel tapes of Republican events such as state conventions.</p>
         </scopecontent>
-        <c02 level="file">
+        <accessrestrict>
+          <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict>
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <container label="Box" type="box">69</container>
-            <unittitle>Audio-tapes of state conventions, etc.</unittitle>
+            <unittitle>Republican State Convention, <unitdate type="inclusive">1966 August 27</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
           </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85816-SR-3-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_cbveym7h" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Michigan Republican State Convention in Detroit . Speeches by Gerald Ford and Bob Griffin. Includes voting and precedures for the convention.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[85816-SR-3-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_i27vz24b" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Michigan Republican State Convention in Detroit . Speeches by Gerald Ford and Bob Griffin. Includes voting and precedures for the convention.)</abstract>
+            </did>
+          </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <container label="Box" type="box">70</container>
-            <unittitle>Audio-tapes of state conventions, etc.</unittitle>
+            <unittitle>Republican State Convention, <unitdate type="inclusive">1966 August 27</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
           </did>
-          <odd>
-            <p>(continued)</p>
-          </odd>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85816-SR-4-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_27d7gzkj" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Michigan Republican State Convention in Detroit. Begins with a nominating speech by Trudy Huebner. Includes speeches, voting, and precedures. )</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>George Romney before GOP Leadership Meeting, Detroit, <unitdate type="inclusive">1967 November 18</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85816-SR-6-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_e69ku0fo" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Romney remarks on Open Housing and Human Dignity.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Michigan Republican Seminar on Metropolitan Area Problems, <unitdate type="inclusive">1968 January 19, 20</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85816-SR-7-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_gtsrixmt" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Unexpected content; commercial tape of Herb Albert's Tijuana Brass Band Vol. 2, no other content.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[85816-SR-7-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_i8z04o6y" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Unexpected content; commercial tape of Herb Albert's Tijuana Brass Band Vol. 2, no other content.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Michigan Republican Seminar on Metropolitan Area Problems, <unitdate type="inclusive">1968 January 19, 20</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85816-SR-8-1-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_bi86ll5s" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Reel 3, Parts 5 and 6. Ten separate announcements discussing political platforms ranging from the Michigan Constitution, taxes, and highway building and funding.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85816-SR-8-1-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_j1jgirfq" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Unknown speakers discussing juvenile detention centers.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[85816-SR-8-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_23gde1y4" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>("Face Michigan" Radio program, hosted by Fred Douglas interviewing James Hare, then Michigan Secretary of State.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Michigan Republican Seminar on Metropolitan Area Problems, <unitdate type="inclusive">1968 January 19, 20</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85816-SR-9-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_wxa60dxb" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Reel 4; Parts 7 and 8. Includes speech from Congressman Jim Harvey. Governor Milliken in attendance)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[85816-SR-9-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_31nbstwi" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape is very quiet. Discussing metropolitan problems and their effects on taxes and society.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Michigan Republican Seminar on Metropolitan Area Problems, <unitdate type="inclusive">1968 January 19, 20</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85816-SR-10-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_0xnwy7cy" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Miscellaneous speeches discussing politics. Tape is very quiet and speakers are unidentified.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[85816-SR-10-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_99jd433c" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Speech by James Goetz by Lieutenant Governor of Minnesota. References Governor William Milliken and others.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Michigan Republican Seminar on Metropolitan Area Problems, <unitdate type="inclusive">1968 January 19, 20</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85816-SR-11-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_sxpufoq6" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Various speeches discussing metropolitan problems in the United States. )</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[85816-SR-11-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_wkqsdvuw" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Includes speech from Congressman Jim Harvey. Governor Milliken in attendance. Content is identical to 85816-SR-9-1.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Michigan Republican Seminar on Metropolitan Area Problems, <unitdate type="inclusive">1968 January 19, 20</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85816-SR-12-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_zt9cwj4t" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Seminar, Dr. Wright . Various speakers discussing racial relations in metropolitan areas.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[85816-SR-12-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_znw8zt4v" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Seminar, Dr. Wright . Various speakers discussing racial relations in metropolitan areas.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>8th Biennial Mackinac Leader Conference, Saturday Brunch Honoring Michigan Congressmen, <unitdate type="inclusive">1968 September 14-16</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85816-SR-13-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_tyfdhf83" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Al Sederberg, leader of the Titanic Ten, and others give speeches.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>8th Biennial Mackinac Leader Conference, Saturday Dinner, <unitdate type="inclusive">1968 September 14-16</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85816-SR-14-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_2fhtctos" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Gift raffle at Saturday Dinner and recording of dinner.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>8th Biennial Mackinac Leader Conference, Sunday Brunch, <unitdate type="inclusive">1968 September 14-16</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85816-SR-15-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_qa51hzud" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Concluding session at the Grand Hotel. Includes invocation and speeches and addresses wrapping up conference.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>8th Biennial Mackinac Leader Conference, Reform Revision; McLaughlin; Bush; Ray, <unitdate type="inclusive">1968 September 14-16</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85816-SR-16-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_48n1wny8" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Appears to be three segments spliced together. Various speeches discussing the role of the Republican party and issues relevant to the party's platform.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Republican State Convention, <unitdate type="inclusive">1972 September 2</unitdate></unittitle>
+            <physdesc>
+              <physfacet>5 Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Tape 1, Part 1]</unittitle>
+              <unitid>[85816-SR-17-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_5ix7lhdy" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 1; Voting and precedures as part of the 1972 State Republic Convention.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Tape 2, Part 1]</unittitle>
+              <unitid>[85816-SR-18-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_hbvd3dzj" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 2; Voting and precedures as part of the 1972 State Republic Convention.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Tape 3, Part 1]</unittitle>
+              <unitid>[85816-SR-19-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_858ljoh3" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 3; Voting and precedures as part of the 1972 State Republic Convention.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Tape 4, Part 1]</unittitle>
+              <unitid>[85816-SR-20-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_bnxuc6n9" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 4; Voting and precedures as part of the 1972 State Republic Convention.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Tape 5, Part 1]</unittitle>
+              <unitid>[85816-SR-21-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_6e9e80jc" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 5; Voting and precedures as part of the 1972 State Republic Convention.)</abstract>
+            </did>
+          </c03>
         </c02>
       </c01>
       <c01 level="series">
