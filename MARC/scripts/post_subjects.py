@@ -1,4 +1,5 @@
 from vandura.config import marc_dir
+from vandura.shared.scripts.archivesspace_authenticate import authenticate
 
 import json
 from lxml import etree
@@ -56,19 +57,19 @@ def normalize_source(source):
 
 	return source.strip(".").strip("]")
 
-def post_subjects(subjects_json):
+def post_subjects(subjects_json, aspace_url, username, password):
 	subjects_to_aspace_ids = {}
 
-	auth = requests.post("http://localhost:8089/users/admin/login?password=admin").json()
-	session = auth["session"]
-	headers = {"X-ArchivesSpace-Session":session}
+	s = authenticate(aspace_url, username, password)
+	s.headers.update({"Content-type":"application/json"})
 
 	for subject in subjects_json:
 		subject_json = subjects_json[subject]
-		response = requests.post("http://localhost:8089/subjects", headers=headers, data=json.dumps(subject_json)).json()
+		response = requests.post("{}/subjects".format(aspace_url), data=json.dumps(subject_json)).json()
 		print response
 		subjects_to_aspace_ids[subject] = extract_id(response)
 
+	s.post("{}/logout".format(aspace_url))
 	return subjects_to_aspace_ids
 
 def extract_id(response):
@@ -80,11 +81,14 @@ def extract_id(response):
 	return aspace_id
 
 def main():
+	aspace_url = "http://localhost:8089"
+	username = "admin"
+	password = getpass.getpass("Password:")
 	ead_dir = join(marc_dir, "converted_eads")
 	subjects_to_aspace_ids_file = join(marc_dir, "subjects_to_aspace_ids.json")
 	subjects = get_subjects(ead_dir)
 	subjects_json = make_subjects_json(subjects)
-	subjects_to_aspace_ids = post_subjects(subjects_json)
+	subjects_to_aspace_ids = post_subjects(subjects_json, aspace_url, username, password)
 
 	with open(subjects_to_aspace_ids_file,"wb") as f:
 		f.write(json.dumps(subjects_to_aspace_ids))

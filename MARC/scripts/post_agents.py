@@ -1,4 +1,5 @@
 from vandura.config import marc_dir
+from vandura.shared.scripts.archivesspace_authenticate import authenticate
 
 import json
 from lxml import etree
@@ -198,29 +199,29 @@ def make_persname_json(persname, source):
 
 	return persname_json
 
-def post_agents(agent_json):
+def post_agents(agent_json, aspace_url, username, password):
 	agents_to_aspace_ids = {}
 
-	auth = requests.post("http://localhost:8089/users/admin/login?password=admin").json()
-	session = auth["session"]
-	headers = {"X-ArchivesSpace-Session":session}
+	s = authenticate(aspace_url, username, password)
+	s.headers.update({"Content-type":"application/json"})
 
 	for persname in agent_json["persname"]:
 		aspace_json = agent_json["persname"][persname]
-		response = requests.post("http://localhost:8089/agents/people", headers=headers, data=json.dumps(aspace_json)).json()
+		response = s.post("{}/agents/people".format(aspace_url), data=json.dumps(aspace_json)).json()
 		agents_to_aspace_ids[persname] = extract_id(response)
 		print response
 	for corpname in agent_json["corpname"]:
 		aspace_json = agent_json["corpname"][corpname]
-		response = requests.post("http://localhost:8089/agents/corporate_entities", headers=headers, data=json.dumps(aspace_json)).json()
+		response = s.post("{}/agents/corporate_entities".format(aspace_url), data=json.dumps(aspace_json)).json()
 		agents_to_aspace_ids[corpname] = extract_id(response)
 		print response
 	for famname in agent_json["famname"]:
 		aspace_json = agent_json["famname"][famname]
-		response = requests.post("http://localhost:8089/agents/families", headers=headers, data=json.dumps(aspace_json)).json()
+		response = s.post("{}/agents/families".format(aspace_url), data=json.dumps(aspace_json)).json()
 		agents_to_aspace_ids[famname] = extract_id(response)
 		print response
 
+	s.post("{}/logout".format(aspace_url))
 	return agents_to_aspace_ids
 
 def extract_id(response):
@@ -233,11 +234,14 @@ def extract_id(response):
 	return aspace_id
 
 def main():
+	aspace_url = "http://localhost:8089"
+	username = "admin"
+	password = getpass.getpass("Password:")
 	ead_dir = join(marc_dir, "converted_eads")
 	agents_to_aspace_ids_file = join(marc_dir, "agents_to_aspace_ids.json")
 	agents = get_all_agents(ead_dir)
 	agent_json = make_agent_json(agents)
-	agents_to_aspace_ids = post_agents(agent_json)
+	agents_to_aspace_ids = post_agents(agent_json, aspace_url, username, password)
 
 	with open(agents_to_aspace_ids_file,"wb") as f:
 		f.write(json.dumps(agents_to_aspace_ids))

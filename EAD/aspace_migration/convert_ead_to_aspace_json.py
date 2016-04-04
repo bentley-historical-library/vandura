@@ -1,15 +1,11 @@
+from vandura.shared.scripts.archivesspace_authenticate import authenticate
+
 import requests
 import json
 import os
 from os.path import join
 import time
 from datetime import datetime
-
-def authenticate(aspace_url, username, password):
-    auth = requests.post(aspace_url + '/users/'+username+'/login?password='+password+'&expiring=false').json()
-    session = auth["session"]
-    headers = {'Content-type': 'text/html; charset=utf-8', 'X-ArchivesSpace-Session': session}
-    return headers
 
 def convert_ead_to_aspace_json(ead_dir, json_dir, migration_stats_dir, aspace_url, username, password):
     if not os.path.exists(json_dir):
@@ -25,8 +21,8 @@ def convert_ead_to_aspace_json(ead_dir, json_dir, migration_stats_dir, aspace_ur
             os.remove(txt_document)
     attempts = 0
     errors = 0
-    s = requests.session()
-    s.headers.update(authenticate(aspace_url, username, password))
+    s = authenticate(aspace_url, username, password)
+    s.headers.update({"Content-type":"text/html; charset=utf-8"})
     for filename in os.listdir(ead_dir):
         if filename + '.json' not in os.listdir(json_dir):
             print "Converting {0} to ASpace JSON".format(filename)
@@ -57,6 +53,8 @@ Errors encountered in: {4} files""".format(script_start_time, script_end_time, s
     
     with open(converter_stats_file, 'w') as f:
         f.write(converter_stats)
+
+    s.post("{}/logout".format(aspace_url))
 
 def main():
     project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

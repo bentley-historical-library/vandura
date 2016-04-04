@@ -1,3 +1,6 @@
+from vandura.shared.scripts.archivesspace_authenticate import authenticate
+
+import getpass
 import requests
 from lxml import etree
 import os
@@ -35,9 +38,8 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
                 if href not in already_posted:
                     already_posted.append(href)
 
-    auth = requests.post(aspace_url+'/users/'+username+'/login?password='+password+'&expiring=false').json()
-    session = auth['session']
-    headers = {'X-ArchivesSpace-Session':session}
+    s = authenticate(aspace_url, username, password)
+    s.headers.update({"Content-type":"application/json"})
 
      # Iterate through EADs. If you find a dao href that is a DSpace handle, open the METS from the dspace_mets folder
      # Assemble the digital object and the components as such:
@@ -96,7 +98,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
                     digital_object['file_versions'] = [{'file_uri':href,'xlink_show_attribute':show,'xlink_actuate_attribute':xlink_actuate}]
                     if digital_object_note:
                         digital_object['notes'] = [{'type':'note','publish':True,'content':[digital_object_note],'jsonmodel_type':'note_digital_object'}]
-                    digital_object_post = requests.post(aspace_url+'/repositories/2/digital_objects',headers=headers,data=json.dumps(digital_object)).json()
+                    digital_object_post = s.post(aspace_url+'/repositories/2/digital_objects',data=json.dumps(digital_object)).json()
 
                     print digital_object_post
 
@@ -137,7 +139,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
                         position += 1
 
                     for component in digital_object_components:
-                        digital_object_component_post = requests.post(aspace_url+'/repositories/2/digital_object_components',headers=headers,data=json.dumps(component)).json()
+                        digital_object_component_post = s.post(aspace_url+'/repositories/2/digital_object_components',data=json.dumps(component)).json()
                         print digital_object_component_post
 
                         if 'error' in digital_object_component_post:
@@ -166,7 +168,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
                 digital_object['file_versions'] = [{'file_uri':href,'xlink_show_attribute':show,'xlink_actuate_attribute':xlink_actuate}]
                 if digital_object_note:
                     digital_object['notes'] = [{'type':'note','publish':True,'content':[digital_object_note],'jsonmodel_type':'note_digital_object'}]
-                digital_object_post = requests.post(aspace_url+'/repositories/2/digital_objects',headers=headers,data=json.dumps(digital_object)).json()
+                digital_object_post = s.post(aspace_url+'/repositories/2/digital_objects',data=json.dumps(digital_object)).json()
 
                 print digital_object_post
 
@@ -182,6 +184,8 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
                     writer = csv.writer(csvfile)
                     writer.writerow([href,digital_object_uri])
 
+    s.post("{}/logout".format(aspace_url))
+
 def main():
     project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     aspace_ead_dir = join(project_dir, 'eads')
@@ -189,5 +193,5 @@ def main():
     dspace_mets_dir = 'C:/Users/djpillen/GitHub/dspace_mets'
     aspace_url = 'http://localhost:8089'
     username = 'admin'
-    password = 'admin'
+    password = getpass.getpass("Password:")
     post_digital_objects(aspace_ead_dir, digital_objects_dir, dspace_mets_dir, aspace_url, username, password)

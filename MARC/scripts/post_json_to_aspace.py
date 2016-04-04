@@ -1,17 +1,13 @@
 from vandura.config import marc_dir
+from vandura.shared.scripts.archivesspace_authenticate import authenticate
 
+import getpass
 import requests
 import os
 from os.path import join
 import json
 import time
 from datetime import datetime
-
-def authenticate(aspace_url, username, password):
-    auth = requests.post(aspace_url + '/users/'+username+'/login?password='+password+'&expiring=false').json()
-    session = auth["session"]
-    headers = {'Content-type': 'application/json', 'X-ArchivesSpace-Session': session}
-    return headers
 
 def post_json_to_aspace(json_dir, resources_dir, migration_stats_dir, aspace_url, username, password):
     if not os.path.exists(resources_dir):
@@ -29,8 +25,8 @@ def post_json_to_aspace(json_dir, resources_dir, migration_stats_dir, aspace_url
     errors = []
     successes = []
 
-    s = requests.session()
-    s.headers.update(authenticate(aspace_url, username, password))
+    s = authenticate(aspace_url, username, password)
+    s.headers.update({"Content-type":"application/json"})
     for filename in os.listdir(json_dir):
         if filename not in os.listdir(resources_dir):
             print "Posting {0}".format(filename)
@@ -77,13 +73,15 @@ Errors encountered in: {4} files""".format(script_start_time, script_end_time, s
     with open(importer_stats_file,'w') as f:
         f.write(importer_stats)
 
+    s.post("{}/logout".format(aspace_url))
+
 def main():
     json_dir = join(marc_dir, 'json')
     resources_dir = join(marc_dir, 'resources')
     migration_stats_dir = join(marc_dir, 'migration_stats')
     aspace_url = 'http://localhost:8089'
     username = 'admin'
-    password = 'admin'
+    password = getpass.getpass("Password:")
     post_json_to_aspace(json_dir, resources_dir, migration_stats_dir, aspace_url, username, password)
 
 if __name__ == "__main__":

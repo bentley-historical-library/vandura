@@ -1,3 +1,5 @@
+from vandura.shared.scripts.archivesspace_authenticate import authenticate
+
 import csv
 import json
 import requests
@@ -16,9 +18,8 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
             authfilenumber = row[1]
             text_to_authfilenumber[sub_text] = authfilenumber
 
-    auth = requests.post(aspace_url + '/users/'+username+'/login?password='+password).json()
-    session = auth["session"]
-    headers = {'X-ArchivesSpace-Session':session}
+    s = authenticate(aspace_url, username, password)
+    s.headers.update({"Content-type":"application/json"})
 
     subjects_data = []
     with open(subjects_csv,'rb') as csvfile:
@@ -42,7 +43,7 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
                 terms_list.append(terms_dict)
 
             data = json.dumps({"authority_id":authfilenumber,"source":source,"vocabulary":"/vocabularies/1","terms":[i for i in terms_list]})
-            subjects = requests.post(aspace_url+'/subjects', headers=headers, data=data).json()
+            subjects = s.post(aspace_url+'/subjects', data=data).json()
             if 'status' in subjects:
                 if subjects['status'] == 'Created':
                     print subjects
@@ -54,13 +55,15 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
         writer = csv.writer(csv_out)
         writer.writerows(subjects_data)
 
+    s.post("{}/logout".format(aspace_url))
+
 def main():
     project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     aspace_ead_dir = join(project_dir, 'eads')
     subjects_agents_dir = join(project_dir,'subjects_agents')
     aspace_url = 'http://localhost:8089'
     username = 'admin'
-    password = 'admin'
+    password = getpass.getpass("Password:")
     post_subjects(aspace_ead_dir, subjects_agents_dir, aspace_url, username, password)
 
 if __name__ == "__main__":
