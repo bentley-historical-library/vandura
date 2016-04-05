@@ -65,7 +65,7 @@ def post_defaults(aspace_url, username, password):
 	faculty_classification = {'title':'Faculty Papers', 'identifier':'Faculty'}
 	rcs_classification = {'title':'Records Center Storage','identifier':'RCS'}
 
-	for classification in [mhc_classification, uarp_classification, rcs_classification, faculty_classification]:
+	for classification in [mhc_classification, uarp_classification, faculty_classification, rcs_classification]:
 		classification_post = s.post(aspace_url + '/repositories/2/classifications',data=json.dumps(classification)).json()
 		print classification_post
 		
