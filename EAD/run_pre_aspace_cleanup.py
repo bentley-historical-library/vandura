@@ -18,7 +18,7 @@ from pre_aspace_cleanup.remove_nested_genreforms import remove_nested_genreforms
 from pre_aspace_cleanup.remove_unitdates_from_ps import remove_unitdates_from_ps
 from pre_aspace_cleanup.wrap_unwrapped_unitdates import wrap_unwrapped_unitdates
 
-from utilities.ead_cleanup.prettifydirectory import prettify_xml_in_directory
+from vandura.shared.utilities.ead_cleanup.prettifydirectory import prettify_xml_in_directory
 
 def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir):
 	fix_collection_level_unittitle_commas(ead_dir)
