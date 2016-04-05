@@ -30,22 +30,26 @@ def post_json_to_aspace(json_dir, resources_dir, migration_stats_dir, aspace_url
     for filename in os.listdir(json_dir):
         if filename not in os.listdir(resources_dir):
             print "Posting {0}".format(filename)
-            #headers = authenticate(aspace_url, username, password)
             data = open(join(json_dir, filename), 'rb')
             jsontoresource = s.post(aspace_url + '/repositories/2/batch_imports', data=data).json()
-            for result in jsontoresource:
-                if 'saved' in result and not 'errors' in result:
-                    if filename not in successes:
-                        successes.append(filename)
-                elif 'errors' in result:
-                    if filename not in errors:
-                        errors.append(filename)
-            with open(join(resources_dir,filename),'w') as json_out:
-                json_out.write(json.dumps(jsontoresource))
-            if filename in errors:
-                print "Error posting {0}".format(filename)
-            elif filename in successes:
-                print "{0} posted successfully".format(filename)
+            try:
+                response = jsontoresource.json()
+                for result in response:
+                    if 'saved' in result and not 'errors' in result:
+                        if filename not in successes:
+                            successes.append(filename)
+                    elif 'errors' in result:
+                        if filename not in errors:
+                            errors.append(filename)
+                with open(join(resources_dir,filename),'w') as json_out:
+                    json_out.write(json.dumps(response))
+                if filename in errors:
+                    print "Error posting {0}".format(filename)
+                elif filename in successes:
+                    print "{0} posted successfully".format(filename)
+            except:
+                print jsontoresource.content 
+                quit()
 
     if errors:
         with open(json_to_aspace_errors,'w') as f:

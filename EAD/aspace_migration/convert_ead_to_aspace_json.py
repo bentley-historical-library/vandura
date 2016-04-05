@@ -27,16 +27,20 @@ def convert_ead_to_aspace_json(ead_dir, json_dir, migration_stats_dir, aspace_ur
         if filename + '.json' not in os.listdir(json_dir):
             print "Converting {0} to ASpace JSON".format(filename)
             attempts += 1
-            #headers = authenticate(aspace_url, username, password)
-            data = open(join(ead_dir, filename), 'rb')
-            eadtojson = s.post(aspace_url + '/plugins/jsonmodel_from_format/resource/ead', data=data).json()
-            for result in eadtojson:
-                if 'invalid_object' in result:
-                    with open(ead_to_json_errors,'a') as f:
-                        f.write(filename + '\n')
-                    errors += 1
-            with open(join(json_dir,filename+'.json'),'w') as json_out:
-                json_out.write(json.dumps(eadtojson))
+            with open(join(ead_dir, filename),'rb') as data:
+                eadtojson = s.post(aspace_url + '/plugins/jsonmodel_from_format/resource/ead', data=data)
+                try:
+                    response = eadtojson.json()
+                    for result in response:
+                        if 'invalid_object' in result:
+                            with open(ead_to_json_errors,'a') as f:
+                                f.write(filename + '\n')
+                            errors += 1
+                    with open(join(json_dir,filename+'.json'),'w') as json_out:
+                        json_out.write(json.dumps(response))
+                except:
+                    print eadtojson.content 
+                    quit()
 
     end_time = datetime.now()
 
