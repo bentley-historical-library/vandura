@@ -1,4 +1,4 @@
-from vandura.config import marc_dir
+from vandura.config import marc_dir, ead_dir
 
 import csv
 from lxml import etree
@@ -61,10 +61,10 @@ def propagate_sources(lcsh_list, aat_list, ead_dir):
 	print "Remaining local:", remaining_local
 
 def main():
-	ead_dir = join(marc_dir, 'converted_eads')
-	ead_subject_csv = join(marc_dir, "ead_unique_subjects.csv")
-	lcsh_list, aat_list = make_source_lists(ead_subject_csv, ead_dir)
-	propagate_sources(lcsh_list, aat_list, ead_dir)
+	converted_ead_dir = join(marc_dir, 'converted_eads')
+	ead_subject_csv = join(ead_dir, "subjects_agents", "ead_unique_subjects.csv")
+	lcsh_list, aat_list = make_source_lists(ead_subject_csv, converted_ead_dir)
+	propagate_sources(lcsh_list, aat_list, converted_ead_dir)
 
 if __name__ == "__main__":
 	main()

@@ -15,8 +15,9 @@ for filename in os.listdir(converted_eads):
 	extent_statement = extent.text.strip()
 	starts_with_digits = re.compile(r"^\d")
 	starts_without_digits = re.compile(r"^[^\d]")
+	starts_with_digit_letter = re.compile(r"^\d[A-Za-z]")
 	if extent_statement.lower().startswith("ca"):
-		approximation = re.findall(r"^[A-Za-z\.]+\s",extent_statement)
+		approximation = re.findall(r"^[A-Za-z\.]+\s?",extent_statement)
 		extent_statement = extent_statement.replace(approximation[0], "")
 		extent_statement += " (number approximate)"
 	if starts_with_digits.match(extent_statement):
@@ -26,6 +27,8 @@ for filename in os.listdir(converted_eads):
 			extent_statement = extent_statement.replace(extent_number, extent_number_sanitized)
 	if "[" in extent_statement:
 		extent_statement.replace("[", "").replace("]", "")
+	if starts_with_digit_letter.match(extent_statement):
+		extent_statement = re.sub(r"^(\d+)([A-Za-z])", r"\1 \2", extent_statement)
 	if starts_without_digits.match(extent_statement):
 		extent_statement = "1 " + extent_statement + " [fake number supplied]"
 	extent.text = extent_statement.strip()

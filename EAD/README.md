@@ -10,7 +10,6 @@ EAD cleanup, prep, conversion, and posting scripts for the Bentley's ArchivesSpa
 2. Walker's [extent normalization](https://github.com/walkerdb/bentley_code/tree/master/normalization/aspaceify_extents)
 3. copy_master_files.py
 4. run_aspace_prep.py
-5. archivesspace_defaults.py
 6. Walker's [agent mapping](https://github.com/walkerdb/bentley_code/tree/master/mapping/aspace_agent_mapping)
 7. run_aspace_preliminary_postings.py
 8. Walker's [unitdate_unittitle_fix](https://github.com/walkerdb/bentley_code/tree/master/normalization/unitdates_in_unittitles)
