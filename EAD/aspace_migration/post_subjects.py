@@ -6,6 +6,7 @@ import requests
 from os.path import join
 
 def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
+    print "Posting subjects..."
     subjects_csv = join(subjects_agents_dir, 'aspace_subjects.csv')
     posted_csv = join(subjects_agents_dir, 'posted_subjects.csv')
     text_to_authfilenumber_csv = join(subjects_agents_dir, 'text_to_authfilenumber.csv')
@@ -46,10 +47,11 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
             subjects = s.post(aspace_url+'/subjects', data=data).json()
             if 'status' in subjects:
                 if subjects['status'] == 'Created':
-                    print subjects
                     subject_uri = subjects['uri']
                     row.append(subject_uri)
                     subjects_data.append(row)
+            else:
+                print subjects
 
     with open(posted_csv,'wb') as csv_out:
         writer = csv.writer(csv_out)

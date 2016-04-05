@@ -32,7 +32,6 @@ def main():
 	json_dir = join(ead_dir, 'json')
 	resources_dir = join(ead_dir, 'resources')
 	migration_stats_dir = join(ead_dir, 'migration_stats')
-	dspace_mets_dir = dspace_mets_dir
 	aspace_url = 'http://localhost:8089'
 	username = 'admin'
 	print "*** RUN THE FOLLOWING SCRIPTS ***"

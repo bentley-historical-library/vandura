@@ -71,7 +71,7 @@ def post_defaults(aspace_url, username, password):
 		
 	add_enum_values(s, aspace_url, 23, ['lcnaf', 'lctgm', 'aacr2', 'lcgft', 'ftamc'])  # subject sources
 	add_enum_values(s, aspace_url, 4, ['lcnaf'])  # name sources
-	add_enum_values(s, aspace_url 55, ["on file", "pending", "sent", "n/a", "other"])  # user defined enum 1 values (gift agreement status)
+	add_enum_values(s, aspace_url, 55, ["on file", "pending", "sent", "n/a", "other"])  # user defined enum 1 values (gift agreement status)
 
 
 	repo_preferences = {

@@ -74,7 +74,6 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
                 handlepath = urlparse.urlparse(href).path
                 the_id = handlepath.split('/')[-1]
                 if the_id + '.xml' in os.listdir(dspace_mets_dir):
-                    print "Parsing DSpace METS for", href
                     metstree = etree.parse(join(dspace_mets_dir, the_id + '.xml'))
                     ns = {'mets':'http://www.loc.gov/METS/','dim': 'http://www.dspace.org/xmlns/dspace/dim','xlink':'http://www.w3.org/TR/xlink/'}
                     XLINK = 'http://www.w3.org/TR/xlink/'
@@ -100,7 +99,6 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
                         digital_object['notes'] = [{'type':'note','publish':True,'content':[digital_object_note],'jsonmodel_type':'note_digital_object'}]
                     digital_object_post = s.post(aspace_url+'/repositories/2/digital_objects',data=json.dumps(digital_object)).json()
 
-                    print digital_object_post
 
                     if 'error' in digital_object_post:
                         with open(error_file,'a') as f:
@@ -140,7 +138,6 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
 
                     for component in digital_object_components:
                         digital_object_component_post = s.post(aspace_url+'/repositories/2/digital_object_components',data=json.dumps(component)).json()
-                        print digital_object_component_post
 
                         if 'error' in digital_object_component_post:
                             with open(error_file,'a') as f:
@@ -170,7 +167,6 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
                     digital_object['notes'] = [{'type':'note','publish':True,'content':[digital_object_note],'jsonmodel_type':'note_digital_object'}]
                 digital_object_post = s.post(aspace_url+'/repositories/2/digital_objects',data=json.dumps(digital_object)).json()
 
-                print digital_object_post
 
                 if 'invalid_object' in digital_object_post:
                     with open(error_file,'a') as f:

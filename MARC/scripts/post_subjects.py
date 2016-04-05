@@ -66,7 +66,8 @@ def post_subjects(subjects_json, aspace_url, username, password):
 	for subject in subjects_json:
 		subject_json = subjects_json[subject]
 		response = requests.post("{}/subjects".format(aspace_url), data=json.dumps(subject_json)).json()
-		print response
+		if "error" in response:
+			print response
 		subjects_to_aspace_ids[subject] = extract_id(response)
 
 	s.post("{}/logout".format(aspace_url))

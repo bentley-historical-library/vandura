@@ -209,17 +209,14 @@ def post_agents(agent_json, aspace_url, username, password):
 		aspace_json = agent_json["persname"][persname]
 		response = s.post("{}/agents/people".format(aspace_url), data=json.dumps(aspace_json)).json()
 		agents_to_aspace_ids[persname] = extract_id(response)
-		print response
 	for corpname in agent_json["corpname"]:
 		aspace_json = agent_json["corpname"][corpname]
 		response = s.post("{}/agents/corporate_entities".format(aspace_url), data=json.dumps(aspace_json)).json()
 		agents_to_aspace_ids[corpname] = extract_id(response)
-		print response
 	for famname in agent_json["famname"]:
 		aspace_json = agent_json["famname"][famname]
 		response = s.post("{}/agents/families".format(aspace_url), data=json.dumps(aspace_json)).json()
 		agents_to_aspace_ids[famname] = extract_id(response)
-		print response
 
 	s.post("{}/logout".format(aspace_url))
 	return agents_to_aspace_ids
@@ -229,6 +226,7 @@ def extract_id(response):
 		aspace_id = response[u"uri"]
 
 	if u"error" in response:
+		print response
 		aspace_id = response[u"error"][u"conflicting_record"][0]
 
 	return aspace_id
