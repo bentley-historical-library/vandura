@@ -1,11 +1,12 @@
 from vandura.config import ead_dir, dspace_mets_dir
+from vandura.config import aspace_credentials
 
 import getpass
 from os.path import join
 import os
 
-from aspace_prep.add_compound_agent_terms import add_compound_agent_terms
-
+from aspace_migration.add_compound_agent_terms import add_compound_agent_terms
+from aspace_migration.post_agents_to_aspace import post_agents_to_aspace
 from aspace_migration.post_subjects import post_subjects
 from aspace_migration.update_posted_subjects import update_posted_subjects
 from aspace_migration.post_digital_objects import post_digital_objects
@@ -13,6 +14,7 @@ from aspace_migration.update_posted_digital_objects import update_posted_digital
 from aspace_migration.find_missing_refs import find_missing_refs
 
 def run_aspace_preliminary_postings(aspace_ead_dir, subjects_agents_dir, digital_objects_dir, json_dir, resources_dir, migration_stats_dir, dspace_mets_dir, aspace_url, username, password):
+	post_agents_to_aspace(aspace_ead_dir, subjects_agents_dir, aspace_url, username, password)
 	post_subjects(aspace_ead_dir, subjects_agents_dir, aspace_url, username, password)
 	update_posted_subjects(aspace_ead_dir, subjects_agents_dir)
 	post_digital_objects(aspace_ead_dir, digital_objects_dir, dspace_mets_dir, aspace_url, username, password,delete_csvs=True)
@@ -32,30 +34,10 @@ def main():
 	json_dir = join(ead_dir, 'json')
 	resources_dir = join(ead_dir, 'resources')
 	migration_stats_dir = join(ead_dir, 'migration_stats')
-	aspace_url = 'http://localhost:8089'
-	username = 'admin'
-	print "*** RUN THE FOLLOWING SCRIPTS ***"
-	print "* archivesspace_defaults"
-	print "* Walker's aspace_agent_mapping"
-	print "****************************************"
-	ready_to_go = raw_input("Have the scripts been run? (y/n): ")
-	if ready_to_go.lower() == 'y':
-		print "*** ArchivesSpace Information ***"
-		print "URL: {0}".format(aspace_url)
-		print "Username: {0}".format(username)
-		print "*********************************"
-		aspace_info_correct = raw_input("Is the above ASpace information correct? (y/n): ")
-		if aspace_info_correct.lower() == 'y':
-			password = getpass.getpass("Enter your ASpace password: ")
-			run_aspace_preliminary_postings(aspace_ead_dir, subjects_agents_dir, digital_objects_dir, json_dir, resources_dir, migration_stats_dir, dspace_mets_dir, aspace_url, username, password)
-			print "*** RUN WALKER'S UNITDATE_UNITTITLE_FIX SCRIPT ***"
-			print "*** RUN THE RUN_UNITDATE_UNITTITLE_FIX_POST SCRIPT ***"
-		else:
-			print "Please fix the incorrect values and run the script again"
-			quit()
-	else:
-		print "Please run the scripts and run this script again"
-		quit()
+	aspace_url, username, password = aspace_credentials()
+	run_aspace_preliminary_postings(aspace_ead_dir, subjects_agents_dir, digital_objects_dir, json_dir, resources_dir, migration_stats_dir, dspace_mets_dir, aspace_url, username, password)
+	print "*** RUN WALKER'S UNITDATE_UNITTITLE_FIX SCRIPT ***"
+	print "*** RUN THE RUN_UNITDATE_UNITTITLE_FIX_POST SCRIPT ***"
 
 if __name__ == "__main__":
 	main()

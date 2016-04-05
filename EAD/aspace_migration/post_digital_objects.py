@@ -1,4 +1,6 @@
 from vandura.shared.scripts.archivesspace_authenticate import authenticate
+from vandura.config import ead_dir, dspace_mets_dir
+from vandura.config import aspace_credentials
 
 import getpass
 import requests
@@ -183,11 +185,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, aspace_u
     s.post("{}/logout".format(aspace_url))
 
 def main():
-    project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    aspace_ead_dir = join(project_dir, 'eads')
-    digital_objects_dir = join(project_dir,'digital_objects')
-    dspace_mets_dir = 'C:/Users/djpillen/GitHub/dspace_mets'
-    aspace_url = 'http://localhost:8089'
-    username = 'admin'
-    password = getpass.getpass("Password:")
+    aspace_ead_dir = join(ead_dir, 'eads')
+    digital_objects_dir = join(ead_dir,'digital_objects')
+    aspace_url, username, password = aspace_credentials()
     post_digital_objects(aspace_ead_dir, digital_objects_dir, dspace_mets_dir, aspace_url, username, password)

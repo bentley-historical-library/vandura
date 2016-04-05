@@ -1,8 +1,11 @@
+from vandura.config import accessions_dir
+
 import csv
 import os
+from os.path import join
 
 # Include the path to the starting, freshly exported csv
-base_csv = 'C:/Users/djpillen/GitHub/accessions/accessions_20160226.csv'
+base_csv = join(accessions_dir, "beal_exports", "accessions_20160226.csv")
 
 # Set up the filenames for the additional csvs that will be created
 no_null_csv = base_csv.replace('.','-nonull.')

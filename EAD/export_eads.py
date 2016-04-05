@@ -1,0 +1,56 @@
+from vandura.config import ead_dir
+from vandura.config import aspace_credentials
+from vandura.shared.scripts.archivesspace_authenticate import authenticate
+
+import getpass
+import requests
+import json
+from os.path import join
+import time
+from datetime import datetime
+import os
+
+migration_stats_dir = join(ead_dir, "migration_stats")
+export_stats_file = join(migration_stats_dir, "exporter_stats.txt")
+exports_dir = join(ead_dir, "exports")
+if not os.path.exists(exports_dir):
+    os.makedirs(exports_dir)
+
+aspace_url, username, password = aspace_credentials()
+s = authenticate(aspace_url, username, password)
+
+start_time = datetime.now()
+
+all_ids = s.get(aspace_url+'/repositories/2/resources?all_ids=true', headers=headers).json()
+
+def pad_id(resource_id):
+    file_id = str(resource_id)
+    while len(file_id) < 4:
+        file_id = '0' + file_id
+    return file_id
+
+for resource_id in all_ids:
+    file_id = pad_id(resource_id)
+    ead = s.get(aspace_url+'/repositories/2/resource_descriptions/'+str(resource_id)+'.xml?include_unpublished=true&include_daos=true&numbered_cs=true',headers=headers, stream=True)
+    with open(join(ead_directory, file_id +'.xml'),'wb') as ead_out:
+         for chunk in ead.iter_content(10240):
+                ead_out.write(chunk)
+    print "Wrote {0}".format(resource_id)
+
+end_time = datetime.now()
+
+script_start_time = start_time.strftime("%Y-%m-%d %H:%M:%S %p")
+script_end_time = end_time.strftime("%Y-%m-%d %H:%M:%S %p")
+script_running_time = end_time - start_time
+
+print "Script start time:", script_start_time
+print "Script end time:", script_end_time
+print "Script running time:", script_running_time
+
+exporter_stats = """
+Script start time: {0}
+Script end time: {1}
+Script running time: {2}""".format(script_start_time, script_end_time, script_running_time)
+
+with open(exporter_stats_file, "w") as f:
+    f.write(export_stats)
