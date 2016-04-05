@@ -11,6 +11,7 @@ from vandura.shared.aspace_agent_mapping.scripts.prepare_agents_for_aspace impor
 
 from vandura.shared.scripts.archivesspace_authenticate import authenticate
 from vandura.config import ead_dir
+from vandura.config import aspace_credentials
 
 # code to extract agents from EADs, post them to an ASpace instance, then write the new ASpace
 # references for each agent back to the EAD files
@@ -44,7 +45,5 @@ def post_agents_to_aspace(aspace_ead_dir, subjects_agents_dir, aspace_url, usern
 if __name__ == "__main__":
     aspace_ead_dir = join(ead_dir, "eads")
     subjects_agents_dir = join(ead_dir, "subjects_agents")
-    aspace_url = "http://localhost:8089"
-    username = "admin"
-    password = getpass.getpass("Password:")
+    aspace_url, username, password = aspace_credentials()
     post_agents_to_aspace(aspace_ead_dir, subjects_agents_dir, aspace_url, username, password)

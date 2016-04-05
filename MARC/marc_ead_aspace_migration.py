@@ -1,4 +1,5 @@
 from vandura.config import marc_dir
+from vandura.config import aspace_credentials
 from vandura.shared.scripts.convert_ead_to_aspace_json import convert_ead_to_aspace_json
 from vandura.shared.scripts.post_json_to_aspace import post_json_to_aspace
 
@@ -22,9 +23,6 @@ def run_aspace_ead_migration(marc_dir, aspace_ead_dir, aspace_url, username, pas
 			print "*** ALL RESOURCES IMPORTED SUCCESSFULLY ***"
 
 def main():
-	aspace_ead_dir = join(marc_dir, 'converted_eads')
-	aspace_url = 'http://localhost:8089'
-	username = 'admin'
 	print "*************************************************************"
 	print "YOU ARE ABOUT TO RUN THE ARCHIVESSPACE EAD MIGRATION SCRIPT"
 	print "Before doing so, confirm that the following have been run:"
@@ -33,17 +31,8 @@ def main():
 	print "*************************************************************"
 	ready_to_go = raw_input("Has everything been run? (y/n): ")
 	if ready_to_go.lower() == 'y':
-		print "*** ArchivesSpace Information ***"
-		print "URL: {0}".format(aspace_url)
-		print "Username: {0}".format(username)
-		print "*********************************"
-		aspace_info_correct = raw_input("Is the above ASpace information correct? (y/n): ")
-		if aspace_info_correct.lower() == 'y':
-			password = getpass.getpass("Enter your ASpace password: ")
-			run_aspace_ead_migration(marc_dir, aspace_ead_dir, aspace_url, username, password)
-		else:
-			print "Please fix the incorrect values and run the script again"
-			quit()
+		aspace_url, username, password = aspace_credentials()
+		run_aspace_ead_migration(marc_dir, aspace_ead_dir, aspace_url, username, password)
 	else:
 		print "Please run everything that needs to be run and then run this script again"
 		quit()

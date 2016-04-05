@@ -1,25 +1,11 @@
 from vandura.shared.scripts.archivesspace_authenticate import authenticate
+from vandura.config import aspace_credentials
 
 import requests
 import time
 import json
 import getpass
 from pprint import pprint
-
-def confirm_information(information):
-	aspace_url = information['aspace_url']
-	username = information['username']
-	print "You are about to connect to an instance of ArchivesSpace using the following information"
-	print "Backend URL:", aspace_url
-	print "Username:", username
-	correct = raw_input("Is this information correct? (y/n): ")
-	if correct.lower() == 'y':
-		return aspace_url, username
-	else:
-		print "Enter the correct information below"
-		aspace_url = raw_input("ArchivesSpace URL: ")
-		username = raw_input("Username: ")
-		return aspace_url, username
 
 def add_enum_values(session, aspace_url, enum_set_id, new_values_to_add):
 		enum_address = aspace_url + '/config/enumerations/{}'.format(enum_set_id)
@@ -84,9 +70,7 @@ def post_defaults(aspace_url, username, password):
 
 
 def main():
-	pre_configured_info = {'aspace_url':'http://localhost:8089', 'username':'admin'}
-	aspace_url, username = confirm_information(pre_configured_info)
-	password = getpass.getpass("Password:")
+	aspace_url, username, password = aspace_credentials()
 	post_defaults(aspace_url, username, password)
 
 if __name__ == "__main__":

@@ -1,4 +1,5 @@
 from vandura.config import marc_dir
+from vandura.config import aspace_credentials
 from vandura.shared.scripts.archivesspace_authenticate import authenticate
 
 import json
@@ -244,9 +245,7 @@ def get_and_post_agents(marc_dir, aspace_url, username, password):
 		f.write(json.dumps(agents_to_aspace_ids))
 
 def main():
-	aspace_url = "http://localhost:8089"
-	username = "admin"
-	password = getpass.getpass("Password:")
+	aspace_url, username, password = aspace_credentials()
 	get_and_post_agents(marc_dir, aspace_url, username, password)
 
 if __name__ == "__main__":

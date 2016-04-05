@@ -1,4 +1,6 @@
 from vandura.shared.scripts.archivesspace_authenticate import authenticate
+from vandura.config import ead_dir
+from vandura.config import aspace_credentials
 
 import csv
 import json
@@ -60,12 +62,9 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
     s.post("{}/logout".format(aspace_url))
 
 def main():
-    project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    aspace_ead_dir = join(project_dir, 'eads')
-    subjects_agents_dir = join(project_dir,'subjects_agents')
-    aspace_url = 'http://localhost:8089'
-    username = 'admin'
-    password = getpass.getpass("Password:")
+    aspace_ead_dir = join(ead_dir, 'eads')
+    subjects_agents_dir = join(ead_dir,'subjects_agents')
+    aspace_url, username, password = aspace_credentials()
     post_subjects(aspace_ead_dir, subjects_agents_dir, aspace_url, username, password)
 
 if __name__ == "__main__":

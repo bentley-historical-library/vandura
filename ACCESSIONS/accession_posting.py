@@ -1,7 +1,7 @@
 from vandura.config import accessions_dir
+from vandura.config import aspace_credentials
 from vandura.shared.scripts.archivesspace_authenticate import authenticate
 
-import getpass
 import json
 from os.path import join
 from pprint import pprint
@@ -9,9 +9,7 @@ import requests
 
 from tqdm import tqdm
 
-aspace_url = "http://localhost:8089"
-username = "admin"
-password = getpass.getpass("Password:")
+aspace_url, username, password = aspace_credentials()
 s = authenticate(aspace_url, username, password)
 s.headers.update({"Content-type":"application/json"})
 

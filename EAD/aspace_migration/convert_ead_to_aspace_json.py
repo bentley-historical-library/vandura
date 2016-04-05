@@ -1,4 +1,5 @@
 from vandura.shared.scripts.archivesspace_authenticate import authenticate
+from vandura.config import aspace_credentials
 
 import requests
 import json
@@ -65,9 +66,7 @@ def main():
     aspace_ead_dir = join(project_dir, 'eads')
     json_dir = join(project_dir, 'json')
     migration_stats_dir = join(project_dir, 'migration_stats')
-    aspace_url = 'http://localhost:8089'
-    username = 'admin'
-    password = 'admin'
+    aspace_url, username, password = aspace_credentials()
     convert_ead_to_aspace_json(aspace_ead_dir, json_dir, migration_stats_dir, aspace_url, username, password)
 
 if __name__ == "__main__":

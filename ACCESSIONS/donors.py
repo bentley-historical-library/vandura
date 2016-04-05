@@ -1,4 +1,5 @@
 from vandura.config import accessions_dir, ead_dir
+from vandura.config import aspace_credentials
 from vandura.shared.scripts.archivesspace_authenticate import authenticate
 
 import csv
@@ -17,9 +18,7 @@ from vandura.shared.aspace_agent_mapping.scripts.post_agents import update_poste
 
 
 def main():
-    aspace_url = "http://localhost:8089"
-    username = "admin"
-    password = getpass.getpass("Password:")
+    aspace_url, username, password = aspace_credentials()
     session = authenticate(aspace_url, username, password)
     print("loading data...")
     beal_export_dir = join(accessions_dir, "beal_exports")
