@@ -6,7 +6,12 @@ import os
 from os.path import join
 import re
 
-def add_containers(ead_dir, beal_container_dict):
+def add_containers(marc_dir, shared_dir):
+	ead_dir = join(marc_dir, "converted_eads")
+	beal_locations_csv = join(shared_dir, "CSVs", "locations.csv")
+
+	beal_container_dict = make_beal_container_dict(beal_locations_csv)
+
 	no_containers = []
 	for filename in os.listdir(ead_dir):
 		print "Adding containers to {}".format(filename)
@@ -14,21 +19,31 @@ def add_containers(ead_dir, beal_container_dict):
 		archdesc = tree.xpath("//archdesc")[0]
 		collectionid = filename.replace(".xml","").strip()
 		unitid = tree.xpath("//unitid")[0].text.strip()
+		rewrite = False
 		if collectionid in beal_container_dict:
-			if not tree.xpath("//container"):
-				for container_type in beal_container_dict[collectionid]:
-					for container in beal_container_dict[collectionid][container_type]:
-						container_element = etree.Element("container")
-						container_element.attrib["label"] = container_type
-						container_element.text = str(container)
-						archdesc.append(container_element)
+			rewrite = True
+			for container_type in beal_container_dict[collectionid]:
+				for container in beal_container_dict[collectionid][container_type]:
+					container_element = etree.Element("container")
+					container_element.attrib["label"] = container_type
+					container_element.text = str(container)
+					archdesc.append(container_element)
 		else:
 			no_containers.append(unitid)
+			
+		if rewrite:
+			with open(join(ead_dir, filename), 'w') as f:
+				f.write(etree.tostring(tree, encoding="utf-8", xml_declaration=True, pretty_print=True))
 
-		with open(join(ead_dir, filename), 'w') as f:
-			f.write(etree.tostring(tree, encoding="utf-8", xml_declaration=True, pretty_print=True))
+	make_no_containers_csv(marc_dir, no_containers)
 
-	return no_containers
+def make_no_containers_csv(marc_dir, no_containers):
+	no_container_file = join(marc_dir, "CSVs", "no_containers.csv")
+
+	with open(no_container_file,'wb') as csvfile:
+		writer = csv.writer(csvfile)
+		for unitid in no_containers:
+			writer.writerow([unitid])
 
 def make_beal_container_dict(beal_locations_csv):
 	beal_container_dict = {}
@@ -78,16 +93,5 @@ def make_beal_container_dict(beal_locations_csv):
 
 	return beal_container_dict
 
-def main():
-	ead_dir = join(marc_dir, "converted_eads")
-	beal_locations_csv = join(shared_dir, "CSVs", "locations.csv")
-	no_container_file = join(marc_dir, "no_containers.csv")
-	beal_container_dict = make_beal_container_dict(beal_locations_csv)
-	no_containers = add_containers(ead_dir, beal_container_dict)
-	with open(no_container_file,'wb') as csvfile:
-		writer = csv.writer(csvfile)
-		for unitid in no_containers:
-			writer.writerow([unitid])
-
 if __name__ == "__main__":
-	main()
+	add_containers(marc_dir, shared_dir)

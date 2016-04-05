@@ -1,5 +1,7 @@
-from vandura.config import marc_dir
+from vandura.shared.scripts.archivesspace_authenticate import authenticate
+from vandura.config import marc_dir, ead_dir
 
+import getpass
 import requests
 import os
 from os.path import join
@@ -7,15 +9,15 @@ import json
 import time
 from datetime import datetime
 
-def authenticate(aspace_url, username, password):
-    auth = requests.post(aspace_url + '/users/'+username+'/login?password='+password+'&expiring=false').json()
-    session = auth["session"]
-    headers = {'Content-type': 'application/json', 'X-ArchivesSpace-Session': session}
-    return headers
+def post_json_to_aspace(base_dir, aspace_url, username, password):
+    json_dir = join(base_dir, "json")
+    resources_dir = join(base_dir, "resources")
+    migration_stats_dir = join(base_dir, "migration_stats")
 
-def post_json_to_aspace(json_dir, resources_dir, migration_stats_dir, aspace_url, username, password):
-    if not os.path.exists(resources_dir):
-        os.makedirs(resources_dir)
+    for directory in [resources_dir, migration_stats_dir]:
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+
     importer_stats_file = join(migration_stats_dir, 'json_to_aspace_stats.txt')
     json_to_aspace_errors = join(migration_stats_dir, 'json_to_aspace_errors.txt')
     json_to_aspace_successes = join(migration_stats_dir, 'json_to_aspace_successes.txt')
@@ -29,27 +31,31 @@ def post_json_to_aspace(json_dir, resources_dir, migration_stats_dir, aspace_url
     errors = []
     successes = []
 
-    s = requests.session()
-    s.headers.update(authenticate(aspace_url, username, password))
+    s = authenticate(aspace_url, username, password)
+    s.headers.update({"Content-type":"application/json"})
     for filename in os.listdir(json_dir):
         if filename not in os.listdir(resources_dir):
             print "Posting {0}".format(filename)
-            #headers = authenticate(aspace_url, username, password)
             data = open(join(json_dir, filename), 'rb')
             jsontoresource = s.post(aspace_url + '/repositories/2/batch_imports', data=data).json()
-            for result in jsontoresource:
-                if 'saved' in result and not 'errors' in result:
-                    if filename not in successes:
-                        successes.append(filename)
-                elif 'errors' in result:
-                    if filename not in errors:
-                        errors.append(filename)
-            with open(join(resources_dir,filename),'w') as json_out:
-                json_out.write(json.dumps(jsontoresource))
-            if filename in errors:
-                print "Error posting {0}".format(filename)
-            elif filename in successes:
-                print "{0} posted successfully".format(filename)
+            try:
+                response = jsontoresource.json()
+                for result in response:
+                    if 'saved' in result and not 'errors' in result:
+                        if filename not in successes:
+                            successes.append(filename)
+                    elif 'errors' in result:
+                        if filename not in errors:
+                            errors.append(filename)
+                with open(join(resources_dir,filename),'w') as json_out:
+                    json_out.write(json.dumps(response))
+                if filename in errors:
+                    print "Error posting {0}".format(filename)
+                elif filename in successes:
+                    print "{0} posted successfully".format(filename)
+            except:
+                print jsontoresource.content 
+                quit()
 
     if errors:
         with open(json_to_aspace_errors,'w') as f:
@@ -77,14 +83,14 @@ Errors encountered in: {4} files""".format(script_start_time, script_end_time, s
     with open(importer_stats_file,'w') as f:
         f.write(importer_stats)
 
+    s.post("{}/logout".format(aspace_url))
+
 def main():
-    json_dir = join(marc_dir, 'json')
-    resources_dir = join(marc_dir, 'resources')
-    migration_stats_dir = join(marc_dir, 'migration_stats')
+    base_dir = marc_dir or ead_dir
     aspace_url = 'http://localhost:8089'
     username = 'admin'
-    password = 'admin'
-    post_json_to_aspace(json_dir, resources_dir, migration_stats_dir, aspace_url, username, password)
+    password = getpass.getpass("Password:")
+    post_json_to_aspace(base_dir, aspace_url, username, password)
 
 if __name__ == "__main__":
     main()

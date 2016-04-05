@@ -6,7 +6,7 @@ from os.path import join
 import csv
 
 marc_path = join(marc_dir, 'marcxml_no_ead')
-field_occurrences_csv = join(marc_dir, 'marc_field_occurrences.csv')
+field_occurrences_csv = join(marc_dir, "CSVs","marc_field_occurrences.csv")
 
 marc_fields = {}
 

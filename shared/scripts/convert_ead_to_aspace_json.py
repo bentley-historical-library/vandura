@@ -1,5 +1,7 @@
+from vandura.config import marc_dir, ead_dir
 from vandura.shared.scripts.archivesspace_authenticate import authenticate
 
+import getpass
 import requests
 import json
 import os
@@ -7,27 +9,31 @@ from os.path import join
 import time
 from datetime import datetime
 
-def convert_ead_to_aspace_json(ead_dir, json_dir, migration_stats_dir, aspace_url, username, password):
-    if not os.path.exists(json_dir):
-        os.makedirs(json_dir)
-    if not os.path.exists(migration_stats_dir):
-        os.makedirs(migration_stats_dir)
-        
+def convert_ead_to_aspace_json(base_dir, aspace_ead_dir, aspace_url, username, password):
     start_time = datetime.now()
+
+    json_dir = join(base_dir, "json")
+    migration_stats_dir = join(base_dir, "migration_stats")
+
+    for directory in [json_dir, migration_stats_dir]:
+        if not os.path.exits(directory):
+            os.makedirs(directory)
+        
     converter_stats_file = join(migration_stats_dir, 'ead_to_json_converter_stats.txt')
     ead_to_json_errors = join(migration_stats_dir, 'ead_to_json_errors.txt')
     for txt_document in [converter_stats_file, ead_to_json_errors]:
         if os.path.exists(txt_document):
             os.remove(txt_document)
+
     attempts = 0
     errors = 0
     s = authenticate(aspace_url, username, password)
     s.headers.update({"Content-type":"text/html; charset=utf-8"})
-    for filename in os.listdir(ead_dir):
+    for filename in os.listdir(aspace_ead_dir):
         if filename + '.json' not in os.listdir(json_dir):
             print "Converting {0} to ASpace JSON".format(filename)
             attempts += 1
-            with open(join(ead_dir, filename),'rb') as data:
+            with open(join(aspace_ead_dir, filename), 'rb') as data:
                 eadtojson = s.post(aspace_url + '/plugins/jsonmodel_from_format/resource/ead', data=data)
                 try:
                     response = eadtojson.json()
@@ -39,7 +45,7 @@ def convert_ead_to_aspace_json(ead_dir, json_dir, migration_stats_dir, aspace_ur
                     with open(join(json_dir,filename+'.json'),'w') as json_out:
                         json_out.write(json.dumps(response))
                 except:
-                    print eadtojson.content 
+                    print eadtojson.content
                     quit()
 
     end_time = datetime.now()
@@ -61,14 +67,12 @@ Errors encountered in: {4} files""".format(script_start_time, script_end_time, s
     s.post("{}/logout".format(aspace_url))
 
 def main():
-    project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    aspace_ead_dir = join(project_dir, 'eads')
-    json_dir = join(project_dir, 'json')
-    migration_stats_dir = join(project_dir, 'migration_stats')
+    base_dir = marc_dir or ead_dir
+    aspace_ead_dir = join(base_dir, "converted_eads") or join(base_dir, "eads")
     aspace_url = 'http://localhost:8089'
     username = 'admin'
-    password = 'admin'
-    convert_ead_to_aspace_json(aspace_ead_dir, json_dir, migration_stats_dir, aspace_url, username, password)
+    password = getpass.getpass("Password:")
+    convert_ead_to_aspace_json(base_dir, aspace_ead_dir, aspace_url, username, password)
 
 if __name__ == "__main__":
     main()

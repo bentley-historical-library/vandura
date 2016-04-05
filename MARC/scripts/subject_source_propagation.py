@@ -1,4 +1,4 @@
-from vandura.config import marc_dir
+from vandura.config import marc_dir, ead_dir
 
 import csv
 from lxml import etree
@@ -34,40 +34,35 @@ def make_source_lists(subject_csv, ead_dir):
 
 	return lcsh_list, aat_list
 
-def propagate_sources(lcsh_list, aat_list, ead_dir):
-	sources_added = 0
-	remaining_local = 0
-	for filename in os.listdir(ead_dir):
+def propagate_sources(lcsh_list, aat_list, converted_ead_dir):
+	for filename in os.listdir(converted_ead_dir):
 		print "Propagating sources in {}".format(filename)
-		tree = etree.parse(join(ead_dir, filename))
+		tree = etree.parse(join(converted_ead_dir, filename))
 		subjects = tree.xpath("//subject")
+		rewrite = False
 		for subject in subjects:
 			source = subject.get("source", "")
 			if source == "local":
 				subject_joined = "--".join([subfield.text.strip() for subfield in subject.xpath("./*")])
 				if subject_joined in lcsh_list:
 					subject.attrib["source"] = "lcsh"
-					sources_added += 1
+					rewrite = True
 				elif subject_joined in aat_list:
 					subject.attrib["source"] = "aat"
-					sources_added += 1
-				else:
-					remaining_local += 1
+					rewrite = True
 
-		with open(join(ead_dir, filename), 'w') as f:
-			f.write(etree.tostring(tree, encoding="utf-8", xml_declaration=True, pretty_print=True))
+		if rewrite:
+			with open(join(converted_ead_dir, filename), 'w') as f:
+				f.write(etree.tostring(tree, encoding="utf-8", xml_declaration=True, pretty_print=True))
 
-	print "Sources added:", sources_added
-	print "Remaining local:", remaining_local
-
-def main():
-	ead_dir = join(marc_dir, 'converted_eads')
-	ead_subject_csv = join(marc_dir, "ead_unique_subjects.csv")
-	lcsh_list, aat_list = make_source_lists(ead_subject_csv, ead_dir)
-	propagate_sources(lcsh_list, aat_list, ead_dir)
+def subject_source_propagation(ead_dir, marc_dir):
+	converted_eads = join(marc_dir, "converted_eads")
+	ead_subject_csv = join(ead_dir, "subjects_agents", "ead_unique_subjects.csv")
+	lcsh_list, aat_list = make_source_lists(ead_subject_csv, converted_eads)
+	propagate_sources(lcsh_list, aat_list, convert_eads)
 
 if __name__ == "__main__":
-	main()
+	subject_source_propagation(ead_dir, marc_dir)
 
 
 

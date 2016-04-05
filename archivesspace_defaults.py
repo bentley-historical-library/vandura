@@ -1,3 +1,5 @@
+from vandura.shared.scripts.archivesspace_authenticate import authenticate
+
 import requests
 import time
 import json
@@ -19,22 +21,16 @@ def confirm_information(information):
 		username = raw_input("Username: ")
 		return aspace_url, username
 
-def authenticate(aspace_url, username, password):
-	auth = requests.post(aspace_url + '/users/' + username + '/login?password=' + password).json()
-	if 'session' in auth:
-		session = auth['session']
-		headers = {'X-ArchivesSpace-Session':session}
-		return True, headers
-	else:
-		return False, auth
-
-def add_enum_values(aspace_url, headers, enum_set_id, new_values_to_add):
+def add_enum_values(session, aspace_url, enum_set_id, new_values_to_add):
 		enum_address = aspace_url + '/config/enumerations/{}'.format(enum_set_id)
-		existing_enums_json = requests.get(enum_address, headers=headers).json()
+		existing_enums_json = session.get(enum_address).json()
 		existing_enums_json["values"].extend(new_values_to_add)
-		pprint(requests.post(enum_address, headers=headers, data=json.dumps(existing_enums_json)).json())
+		pprint(session.post(enum_address, data=json.dumps(existing_enums_json)).json())
 
-def post_defaults(aspace_url, headers):
+def post_defaults(aspace_url, username, password):
+	s = authenticate(aspace_url, username, password)
+	s.headers.update({"Content-type":"application/json"})
+
 	bhl_repo = {
 			'name':'Bentley Historical Library',
 			'org_code':'MiU-H',
@@ -42,7 +38,7 @@ def post_defaults(aspace_url, headers):
 			'parent_institution_name':'University of Michigan'
 			}
 
-	post_repo = requests.post(aspace_url + '/repositories',headers=headers,data=json.dumps(bhl_repo)).json()
+	post_repo = s.post(aspace_url + '/repositories',data=json.dumps(bhl_repo)).json()
 	print post_repo
 
 	'''
@@ -70,12 +66,12 @@ def post_defaults(aspace_url, headers):
 	rcs_classification = {'title':'Records Center Storage','identifier':'RCS'}
 
 	for classification in [mhc_classification, uarp_classification, rcs_classification, faculty_classification]:
-		classification_post = requests.post(aspace_url + '/repositories/2/classifications',headers=headers,data=json.dumps(classification)).json()
+		classification_post = s.post(aspace_url + '/repositories/2/classifications',data=json.dumps(classification)).json()
 		print classification_post
 		
-	add_enum_values(aspace_url, headers, 23, ['lcnaf', 'lctgm', 'aacr2', 'lcgft', 'ftamc'])  # subject sources
-	add_enum_values(aspace_url, headers, 4, ['lcnaf'])  # name sources
-	add_enum_values(aspace_url, headers, 55, ["on file", "pending", "sent", "n/a", "other"])  # user defined enum 1 values (gift agreement status)
+	add_enum_values(s, aspace_url, 23, ['lcnaf', 'lctgm', 'aacr2', 'lcgft', 'ftamc'])  # subject sources
+	add_enum_values(s, aspace_url, 4, ['lcnaf'])  # name sources
+	add_enum_values(s, aspace_url, 55, ["on file", "pending", "sent", "n/a", "other"])  # user defined enum 1 values (gift agreement status)
 
 
 	repo_preferences = {
@@ -83,7 +79,7 @@ def post_defaults(aspace_url, headers):
 		'defaults':{'publish':True}
 		}
 
-	repo_preferences_post = requests.post(aspace_url + '/repositories/2/preferences',headers=headers, data=json.dumps(repo_preferences)).json()
+	repo_preferences_post = s.post(aspace_url + '/repositories/2/preferences',data=json.dumps(repo_preferences)).json()
 	print repo_preferences_post
 
 
@@ -91,12 +87,7 @@ def main():
 	pre_configured_info = {'aspace_url':'http://localhost:8089', 'username':'admin'}
 	aspace_url, username = confirm_information(pre_configured_info)
 	password = getpass.getpass("Password:")
-	status, auth_info = authenticate(aspace_url, username, password)
-	if status:
-		post_defaults(aspace_url, auth_info)
-	else:
-		print "Problem establishing a session"
-		print auth_info
+	post_defaults(aspace_url, username, password)
 
 if __name__ == "__main__":
 	main()

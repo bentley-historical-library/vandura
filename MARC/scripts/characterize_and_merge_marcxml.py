@@ -96,20 +96,21 @@ def merge_records(no_ead_dir, joined_dir):
 			with open(join(joined_dir,dst_filename),'w') as f:
 				f.write(etree.tostring(collection))
 
-def main():
-	ead_dir = real_masters_all
-	marcxml_dir = join(marc_dir, 'marcxml_all')
-	has_ead_dir = join(marc_dir, 'marcxml_has_ead')
-	no_ead_dir = join(marc_dir, 'marcxml_no_ead')
-	unknown_dir = join(marc_dir, 'marcxml_unknown')
-	joined_dir = join(marc_dir, 'marcxml_no_ead_joined')
+def characterize_and_merge_marcxml(ead_dir, marc_dir):
+	marcxml_dir = join(marc_dir, "marcxml_all")
+	has_ead_dir = join(marc_dir, "marcxml_has_ead")
+	no_ead_dir = join(marc_dir, "marcxml_no_ead")
+	unknown_dir = join(marc_dir, "marcxml_unknown")
+	joined_dir = join(marc_dir, "marcxml_no_ead_joined")
+	converted_dir = join(marc_dir, "converted_eads")
+	unconverted_dir = join(marc_dir, "unconverted_marcxml")
 
-	make_directories([has_ead_dir, no_ead_dir, unknown_dir, joined_dir])
-	clear_directories([has_ead_dir, no_ead_dir, unknown_dir, joined_dir])
+	make_directories([has_ead_dir, no_ead_dir, unknown_dir, joined_dir, converted_dir, unconverted_dir])
+	clear_directories([has_ead_dir, no_ead_dir, unknown_dir, joined_dir, converted_dir, unconverted_dir])
 
 	ead_callnumbers, ead_collectionids = extract_ead_callnumbers_and_collectionids(ead_dir)
 	characterize_marcxmls(marcxml_dir, has_ead_dir, no_ead_dir, unknown_dir, ead_callnumbers, ead_collectionids)
 	merge_records(no_ead_dir, joined_dir)
 
 if __name__ == "__main__":
-	main()
+	characterize_and_merge_marcxml(real_masters_all, marc_dir)
