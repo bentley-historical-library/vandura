@@ -22,7 +22,8 @@ def build_agent_source_dict(ead_dir):
 	return agent_sources
 
 
-def propagate_agent_sources(ead_dir):
+def agent_source_propagation(marc_dir):
+	ead_dir = join(marc_dir, "converted_eads")
 	agent_sources = build_agent_source_dict(ead_dir)
 
 	for filename in os.listdir(ead_dir):
@@ -37,13 +38,7 @@ def propagate_agent_sources(ead_dir):
 				agent.attrib["source"] = "local"
 
 		with open(join(ead_dir, filename), 'w') as f:
-			f.write(etree.tostring(tree, encoding="utf-8", xml_declaration=True, pretty_print=True))
-
-
-
-def main():
-	ead_dir = join(marc_dir, "converted_eads")
-	propagate_agent_sources(ead_dir)
+			f.write(etree.tostring(tree, encoding="utf-8", xml_declaration=True, pretty_print=True))	
 
 if __name__ == "__main__":
-	main()
+	propagate_agent_sources(marc_dir)

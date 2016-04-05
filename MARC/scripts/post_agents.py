@@ -231,18 +231,23 @@ def extract_id(response):
 
 	return aspace_id
 
+def get_and_post_agents(marc_dir, aspace_url, username, password):
+	ead_dir = join(marc_dir, "converted_eads")
+	subjects_and_agents_dir = join(marc_dir, "subjects_agents")
+	if not os.path.exists(subjects_and_agents_dir):
+		os.makedirs(subjects_and_agents_dir)
+	agents_to_aspace_ids_file = join(subjects_and_agents_dir, "agents_to_aspace_ids.json")
+	agents = get_all_agents(ead_dir)
+	agent_json = make_agent_json(agents)
+	agents_to_aspace_ids = post_agents(agent_json, aspace_url, username, password)
+	with open(agents_to_aspace_ids_file, "wb") as f:
+		f.write(json.dumps(agents_to_aspace_ids))
+
 def main():
 	aspace_url = "http://localhost:8089"
 	username = "admin"
 	password = getpass.getpass("Password:")
-	ead_dir = join(marc_dir, "converted_eads")
-	agents_to_aspace_ids_file = join(marc_dir, "agents_to_aspace_ids.json")
-	agents = get_all_agents(ead_dir)
-	agent_json = make_agent_json(agents)
-	agents_to_aspace_ids = post_agents(agent_json, aspace_url, username, password)
-
-	with open(agents_to_aspace_ids_file,"wb") as f:
-		f.write(json.dumps(agents_to_aspace_ids))
+	get_and_post_agents(marc_dir, aspace_url, username, password)
 
 if __name__ == "__main__":
 	main()

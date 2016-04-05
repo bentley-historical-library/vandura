@@ -23,17 +23,20 @@ def make_beal_classifications_dict(beal_classifications):
 
 	return collection_types, faculty_collections
 
-def add_classifications(ead_dir, beal_classifications):
+def add_classifications(marc_dir, shared_dir):
+	converted_eads = join(marc_dir, "converted_eads")
+	beal_classifications_csv = join(shared_dir, "CSVs", "beal_classifications.csv")
+
 	classification_base = '/repositories/2/classifications/'
 	mhc_classification = classification_base + '1'
 	uarp_classification = classification_base + '2'
 	faculty_classification = classification_base + '3'
 
-	collection_types, faculty_collections = make_beal_classifications_dict(beal_classifications)
+	collection_types, faculty_collections = make_beal_classifications_dict(beal_classifications_csv)
 
-	for filename in os.listdir(ead_dir):
+	for filename in os.listdir(converted_eads):
 		print "Adding classifications to {0}".format(filename)
-		tree = etree.parse(join(ead_dir,filename))
+		tree = etree.parse(join(converted_eads,filename))
 		eadheader = tree.xpath('//eadheader')[0]
 
 
@@ -69,13 +72,8 @@ def add_classifications(ead_dir, beal_classifications):
 			classification.attrib['ref'] = classification_id
 			eadheader.append(classification)
 
-		with open(join(ead_dir,filename),'w') as ead_out:
+		with open(join(converted_eads,filename),'w') as ead_out:
 			ead_out.write(etree.tostring(tree,encoding='utf-8',xml_declaration=True,pretty_print=True))
 
-def main():
-	ead_dir = join(marc_dir, 'converted_eads')
-	beal_classifications = join(shared_dir, "CSVs", "beal_classifications.csv")
-	add_classifications(ead_dir, beal_classifications)
-
 if __name__ == "__main__":
-	main()
+	add_classifications(marc_dir, shared_dir)

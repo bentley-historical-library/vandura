@@ -81,18 +81,24 @@ def extract_id(response):
 
 	return aspace_id
 
-def main():
-	aspace_url = "http://localhost:8089"
-	username = "admin"
-	password = getpass.getpass("Password:")
+def get_and_post_subjects(marc_dir, aspace_url, username, password):
 	ead_dir = join(marc_dir, "converted_eads")
-	subjects_to_aspace_ids_file = join(marc_dir, "subjects_to_aspace_ids.json")
+	subjects_and_agents_dir = join(marc_dir, "subjects_agents")
+	if not os.path.exists(subjects_and_agents_dir):
+		os.makedirs(subjects_and_agents_dir)
+	subjects_to_aspace_ids_file = join(subjects_and_agents_dir, "subjects_to_aspace_ids.json")
 	subjects = get_subjects(ead_dir)
 	subjects_json = make_subjects_json(subjects)
 	subjects_to_aspace_ids = post_subjects(subjects_json, aspace_url, username, password)
 
-	with open(subjects_to_aspace_ids_file,"wb") as f:
+	with open(subjects_to_aspace_ids_file, "wb") as f:
 		f.write(json.dumps(subjects_to_aspace_ids))
+
+def main():
+	aspace_url = "http://localhost:8089"
+	username = "admin"
+	password = getpass.getpass("Password:")
+	get_and_post_subjects(marc_dir, aspace_url, username, password)
 
 if __name__ == "__main__":
 	main()
