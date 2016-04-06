@@ -1,4 +1,5 @@
 from vandura.shared.scripts.archivesspace_authenticate import authenticate
+from vandura.config import aspace_credentials
 from vandura.config import marc_dir, ead_dir
 
 import getpass
@@ -37,7 +38,7 @@ def post_json_to_aspace(base_dir, aspace_url, username, password):
         if filename not in os.listdir(resources_dir):
             print "Posting {0}".format(filename)
             data = open(join(json_dir, filename), 'rb')
-            jsontoresource = s.post(aspace_url + '/repositories/2/batch_imports', data=data).json()
+            jsontoresource = s.post(aspace_url + '/repositories/2/batch_imports', data=data)
             try:
                 response = jsontoresource.json()
                 for result in response:
@@ -86,10 +87,16 @@ Errors encountered in: {4} files""".format(script_start_time, script_end_time, s
     s.post("{}/logout".format(aspace_url))
 
 def main():
-    base_dir = marc_dir or ead_dir
-    aspace_url = 'http://localhost:8089'
-    username = 'admin'
-    password = getpass.getpass("Password:")
+    options = {"EAD":ead_dir, "MARC":marc_dir}
+    for key in options:
+        print "* {}".format(key)
+    dir_to_migrate = raw_input("Which type? ")
+    try:
+        base_dir = options[dir_to_migrate]
+    except:
+        print "Please try again"
+        quit()
+    aspace_url, username, password = aspace_credentials()
     post_json_to_aspace(base_dir, aspace_url, username, password)
 
 if __name__ == "__main__":

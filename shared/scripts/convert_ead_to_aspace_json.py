@@ -1,4 +1,5 @@
 from vandura.config import marc_dir, ead_dir
+from vandura.config import aspace_credentials
 from vandura.shared.scripts.archivesspace_authenticate import authenticate
 
 import getpass
@@ -67,11 +68,18 @@ Errors encountered in: {4} files""".format(script_start_time, script_end_time, s
     s.post("{}/logout".format(aspace_url))
 
 def main():
-    base_dir = marc_dir or ead_dir
-    aspace_ead_dir = join(base_dir, "converted_eads") or join(base_dir, "eads")
-    aspace_url = 'http://localhost:8089'
-    username = 'admin'
-    password = getpass.getpass("Password:")
+    options = {"EAD":ead_dir, "MARC":marc_dir}
+    aspace_ead_dirs = {"EAD":"eads", "MARC":"converted_eads"}
+    for key in options:
+        print "* {}".format(key)
+    dir_to_migrate = raw_input("Which type? ")
+    try:
+        base_dir = options[dir_to_migrate]
+        aspace_ead_dir = join(base_dir, aspace_ead_dirs[dir_to_migrate])
+    except:
+        print "Please try again"
+        quit()
+    aspace_url, username, password = aspace_credentials()
     convert_ead_to_aspace_json(base_dir, aspace_ead_dir, aspace_url, username, password)
 
 if __name__ == "__main__":
