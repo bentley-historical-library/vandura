@@ -21,7 +21,7 @@ s = authenticate(aspace_url, username, password)
 
 start_time = datetime.now()
 
-all_ids = s.get(aspace_url+'/repositories/2/resources?all_ids=true', headers=headers).json()
+all_ids = s.get('{}/repositories/2/resources?all_ids=true'.format(aspace_url)).json()
 
 def pad_id(resource_id):
     file_id = str(resource_id)
@@ -31,11 +31,12 @@ def pad_id(resource_id):
 
 for resource_id in all_ids:
     file_id = pad_id(resource_id)
-    ead = s.get(aspace_url+'/repositories/2/resource_descriptions/'+str(resource_id)+'.xml?include_unpublished=true&include_daos=true&numbered_cs=true',headers=headers, stream=True)
-    with open(join(ead_directory, file_id +'.xml'),'wb') as ead_out:
-         for chunk in ead.iter_content(10240):
-                ead_out.write(chunk)
-    print "Wrote {0}".format(resource_id)
+    if file_id not in os.listdir(exports_dir):
+        ead = s.get('{0}/repositories/2/resource_descriptions/{1}.xml?include_unpublished=true&include_daos=true&numbered_cs=true'.format(aspace_url, resource_id),stream=True)
+        with open(join(exports_dir, file_id +'.xml'),'wb') as ead_out:
+             for chunk in ead.iter_content(10240):
+                    ead_out.write(chunk)
+        print "Wrote {0}".format(resource_id)
 
 end_time = datetime.now()
 
@@ -54,3 +55,5 @@ Script running time: {2}""".format(script_start_time, script_end_time, script_ru
 
 with open(exporter_stats_file, "w") as f:
     f.write(export_stats)
+
+s.post("{}/logout".format(aspace_url))

@@ -59,7 +59,7 @@ def subject_source_propagation(ead_dir, marc_dir):
 	converted_eads = join(marc_dir, "converted_eads")
 	ead_subject_csv = join(ead_dir, "subjects_agents", "ead_unique_subjects.csv")
 	lcsh_list, aat_list = make_source_lists(ead_subject_csv, converted_eads)
-	propagate_sources(lcsh_list, aat_list, convert_eads)
+	propagate_sources(lcsh_list, aat_list, converted_eads)
 
 if __name__ == "__main__":
 	subject_source_propagation(ead_dir, marc_dir)

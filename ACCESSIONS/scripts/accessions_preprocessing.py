@@ -5,7 +5,7 @@ import os
 from os.path import join
 
 # Include the path to the starting, freshly exported csv
-base_csv = join(accessions_dir, "beal_exports", "accessions_20160226.csv")
+base_csv = join(accessions_dir, "beal_exports", "accessions_20160406.csv")
 
 # Set up the filenames for the additional csvs that will be created
 no_null_csv = base_csv.replace('.','-nonull.')
@@ -24,6 +24,7 @@ no_nulls.write(data.replace('\x00',''))
 no_nulls.close()
 
 # Open the csv
+no_blank_row_data = []
 with open(no_null_csv,'rb') as csvfile:
     reader = csv.reader(csvfile)
     # FileMaker exports some fields with the same headers
@@ -36,7 +37,7 @@ with open(no_null_csv,'rb') as csvfile:
     # Add a header for the to-be-concatenated location info
     headers.append('LocationInfo')
     # Start a new csv by writing the new header row
-    with open(no_blank_rows_csv,'ab') as csvout:
+    with open(no_blank_rows_csv,'wb') as csvout:
         writer = csv.writer(csvout)
         writer.writerow(headers)
     # Remove entirely blank rows
@@ -56,9 +57,11 @@ with open(no_null_csv,'rb') as csvfile:
                         content = True
         # Rewrite the csv with no blank rows
         if content:
-            with open(no_blank_rows_csv, 'ab') as csvout:
-                writer = csv.writer(csvout)
-                writer.writerow(row)
+            no_blank_row_data.append(row)
+
+with open(no_blank_rows_csv, 'ab') as csvout:
+    writer = csv.writer(csvout)
+    writer.writerows(no_blank_row_data)
 
 
 rows = {}
@@ -117,15 +120,18 @@ for count in missingid:
                 if the_id not in differences:
                     differences.append(the_id)
 
-print sorted([int(i) for i in differences])
+#print sorted([int(i) for i in differences])
 
 # Finally, write a csv with no null bytes, no blank rows, and all values for each accession id in one row
-with open(no_blank_ids_csv,'ab') as csvfile:
+no_blank_id_data = []
+for count in rows:
+    current_row = rows[count]
+    if len(current_row[2]) != 0:
+        no_blank_id_data.append(current_row)
+
+with open(no_blank_ids_csv,'wb') as csvfile:
     writer = csv.writer(csvfile)
-    for count in rows:
-        current_row = rows[count]
-        if len(current_row[2]) != 0:
-            writer.writerow(current_row)
+    writer.writerows(no_blank_id_data)
 
 # Remove the working csvs
 # TO DO: Rewrite this so you don't need to create working csvs

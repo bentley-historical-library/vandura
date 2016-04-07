@@ -8,7 +8,7 @@ from os.path import join
 
 
 # Replace this with the path to the preprocesed csv created by accessions_preprocessing.py
-accessions_file = join(accessions_dir, "beal_exports", "accessions_20160226-noblankIDs.csv")
+accessions_file = join(accessions_dir, "beal_exports", "accessions_20160406-noblankIDs.csv")
 date_fix = accessions_file.replace('-noblankIDs','-datefix')
 final_csv = accessions_file.replace('-noblankIDs','-final')
 

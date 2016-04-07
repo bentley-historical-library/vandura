@@ -2,6 +2,7 @@ from vandura.config import accessions_dir
 
 import csv
 import json
+from os.path import join
 import re
 from tqdm import tqdm
 
@@ -10,7 +11,7 @@ def main():
     # CHANGE THIS
     beal_export_dir = join(accessions_dir, "beal_exports")
     json_dir = join(accessions_dir, "json")
-    input_filepath = join(beal_export_dir, "accessions_20160226-final.csv")
+    input_filepath = join(beal_export_dir, "accessions_20160406-final.csv")
 
     donornumberid_to_contactid_filepath = join(beal_export_dir, "DonorNumberID_to_ContactID.csv")
     donornumberid_to_contactid_map = make_donornumberid_to_contactid_map(donornumberid_to_contactid_filepath)

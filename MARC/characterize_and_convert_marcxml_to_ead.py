@@ -3,7 +3,7 @@ from vandura.config import ead_dir, marc_dir, real_masters_all, shared_dir
 from scripts.add_classifications import add_classifications
 from scripts.add_containers import add_containers
 from scripts.add_container_types import add_container_types
-from scripts.agent_role_normalize import normalize_agent_roles
+from scripts.agent_role_normalization import normalize_agent_roles
 from scripts.agent_source_propagation import agent_source_propagation
 from scripts.characterize_and_merge_marcxml import characterize_and_merge_marcxml
 from scripts.convert_marcxml_to_ead import convert_marcxml_to_ead
