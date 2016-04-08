@@ -23,7 +23,7 @@ start_time = datetime.now()
 
 # Uncomment one of these to export everything or select resources
 #ids_to_export = s.get('{}/repositories/2/resources?all_ids=true'.format(aspace_url)).json()
-ids_to_export = ["776", "1378", "1809", "2327", "2369"]
+ids_to_export = ["248"]
 
 
 def pad_id(resource_id):
