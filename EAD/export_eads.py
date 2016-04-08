@@ -11,7 +11,7 @@ from datetime import datetime
 import os
 
 migration_stats_dir = join(ead_dir, "migration_stats")
-export_stats_file = join(migration_stats_dir, "exporter_stats.txt")
+exporter_stats_file = join(migration_stats_dir, "exporter_stats.txt")
 exports_dir = join(ead_dir, "exports")
 if not os.path.exists(exports_dir):
     os.makedirs(exports_dir)
@@ -21,7 +21,10 @@ s = authenticate(aspace_url, username, password)
 
 start_time = datetime.now()
 
-all_ids = s.get('{}/repositories/2/resources?all_ids=true'.format(aspace_url)).json()
+# Uncomment one of these to export everything or select resources
+#ids_to_export = s.get('{}/repositories/2/resources?all_ids=true'.format(aspace_url)).json()
+ids_to_export = ["776", "1378", "1809", "2327", "2369"]
+
 
 def pad_id(resource_id):
     file_id = str(resource_id)
@@ -29,7 +32,7 @@ def pad_id(resource_id):
         file_id = '0' + file_id
     return file_id
 
-for resource_id in all_ids:
+for resource_id in ids_to_export:
     file_id = pad_id(resource_id)
     if file_id not in os.listdir(exports_dir):
         ead = s.get('{0}/repositories/2/resource_descriptions/{1}.xml?include_unpublished=true&include_daos=true&numbered_cs=true'.format(aspace_url, resource_id),stream=True)
@@ -54,6 +57,6 @@ Script end time: {1}
 Script running time: {2}""".format(script_start_time, script_end_time, script_running_time)
 
 with open(exporter_stats_file, "w") as f:
-    f.write(export_stats)
+    f.write(exporter_stats)
 
 s.post("{}/logout".format(aspace_url))
