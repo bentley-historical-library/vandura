@@ -25,14 +25,17 @@ def add_container_barcodes(ead_dir):
         for container in containers:
             if 'type' in container.attrib:
                 if container.attrib['type'] == 'avbox':
-                    if container.text not in av_boxes:
-                        av_boxes[container.text] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
+                    indicator = container.text.strip()
+                    if indicator not in av_boxes:
+                        av_boxes[indicator] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
                 if container.attrib['label'] == 'DVD Box':
-                    if container.text not in dvd_boxes:
-                        dvd_boxes[container.text] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
+                    indicator = container.text.strip()
+                    if indicator not in dvd_boxes:
+                        dvd_boxes[indicator] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
                 if container.attrib['label'] == 'CD Box':
-                    if container.text not in cd_boxes:
-                        cd_boxes[container.text] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
+                    indicator = container.text.strip()
+                    if indicator not in cd_boxes:
+                        cd_boxes[indicator] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
 
     for filename in os.listdir(ead_dir):
         print "Adding container barcodes in {0}".format(filename)
@@ -45,14 +48,15 @@ def add_container_barcodes(ead_dir):
                 if c_containers:
                     container = c_containers[0]
                     if 'type' in container.attrib and container.text:
-                        container_type_label_num = container.attrib['type'] + container.attrib['label'] + container.text
+                        indicator = container.text.strip()
+                        container_type_label_num = container.attrib['type'] + container.attrib['label'] + indicator
                         if container_type_label_num not in container_ids:
                             if container.attrib['type'] == 'avbox':
-                                container_ids[container_type_label_num] = av_boxes[container.text]
+                                container_ids[container_type_label_num] = av_boxes[indicator]
                             elif container.attrib['label'] == 'DVD Box':
-                                container_ids[container_type_label_num] = dvd_boxes[container.text]
+                                container_ids[container_type_label_num] = dvd_boxes[indicator]
                             elif container.attrib['label'] == 'CD Box':
-                                container_ids[container_type_label_num] = cd_boxes[container.text]
+                                container_ids[container_type_label_num] = cd_boxes[indicator]
                             elif container_type_label_num not in container_ids:
                                 container_ids[container_type_label_num] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
 
@@ -60,11 +64,12 @@ def add_container_barcodes(ead_dir):
             containers = tree.xpath('//did/container')
             for container in containers:
                 if 'type' in container.attrib and container.text:
-                    container_type_label_num = container.attrib['type'] + container.attrib['label'] + container.text
+                    indicator = container.text.strip()
+                    container_type_label_num = container.attrib['type'] + container.attrib['label'] + indicator
                     if container_type_label_num in container_ids:
                         if existing_barcodes.search(container.attrib['label']):
                             container.attrib['label'] = re.sub(r'\[[0-9]+\]','',container.attrib['label']).strip()
-                        container.attrib['label'] = container.attrib['label'] + ' ['+str(container_ids[container_type_label_num])+']'
+                        container.attrib['label'] = "{0} [{1}]".format(container.attrib['label'], container_ids[container_type_label_num])
 
         elif filename in subgrp_filenames:
             subgrps = tree.xpath('//c01')
@@ -76,18 +81,20 @@ def add_container_barcodes(ead_dir):
                     if c_containers:
                         container = c_containers[0]
                         if 'type' in container.attrib:
-                            container_type_label_num = container.attrib['type'] + container.attrib['label'] + container.text
+                            indicator = container.text.strip()
+                            container_type_label_num = container.attrib['type'] + container.attrib['label'] + indicator
                             if container_type_label_num not in container_ids:
                                 container_ids[container_type_label_num] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
 
                 containers = subgrp.xpath('.//did/container')
                 for container in containers:
                     if 'type' in container.attrib:
-                        container_type_label_num = container.attrib['type'] + container.attrib['label'] + container.text
+                        indicator = container.text.strip()
+                        container_type_label_num = container.attrib['type'] + container.attrib['label'] + indicator
                         if container_type_label_num in container_ids:
                             if existing_barcodes.search(container.attrib['label']):
                                 container.attrib['label'] = re.sub(r'\[[0-9]+\]','',container.attrib['label']).strip()
-                            container.attrib['label'] = container.attrib['label'] + ' ['+str(container_ids[container_type_label_num])+']'
+                            container.attrib['label'] = "{0} [{1}]".format(container.attrib['label'], container_ids[container_type_label_num])
 
         elif filename in alumni_filenames:
             container_ids = {}
@@ -97,17 +104,19 @@ def add_container_barcodes(ead_dir):
                 if c_containers:
                     container = c_containers[0]
                     if 'type' in container.attrib:
-                        container_type_label_num = container.attrib['type'] + container.attrib['label'] + container.text
+                        indicator = container.text.strip()
+                        container_type_label_num = container.attrib['type'] + container.attrib['label'] + indicator
                         if container_type_label_num not in alumni_barcodes:
                             alumni_barcodes[container_type_label_num] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
             containers = tree.xpath('//did/container')
             for container in containers:
                 if 'type' in container.attrib:
-                    container_type_label_num = container.attrib['type'] + container.attrib['label'] + container.text
+                    indicator = container.text.strip()
+                    container_type_label_num = container.attrib['type'] + container.attrib['label'] + indicator
                     if container_type_label_num in alumni_barcodes:
                         if existing_barcodes.search(container.attrib['label']):
                             container.attrib['label'] = re.sub(r'\[[0-9]+\]','',container.attrib['label']).strip()
-                        container.attrib['label'] = container.attrib['label'] + ' ['+str(alumni_barcodes[container_type_label_num])+']'
+                        container.attrib['label'] = "{0} [{1}]".format(container.attrib['label'], alumni_barcodes[container_type_label_num])
 
         with open(join(ead_dir,filename),'w') as eadout:
             eadout.write(etree.tostring(tree,xml_declaration=True,encoding="utf-8",pretty_print=True))

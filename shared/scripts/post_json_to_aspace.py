@@ -15,7 +15,7 @@ def post_json_to_aspace(base_dir, aspace_url, username, password):
     json_success_dir = join(json_dir, "successes")
     resources_dir = join(base_dir, "resources")
     resource_error_dir = join(resources_dir, "errors")
-    resource_success_dir = join(resource_dir, "successes")
+    resource_success_dir = join(resources_dir, "successes")
     migration_stats_dir = join(base_dir, "migration_stats")
 
     for directory in [resources_dir, resource_error_dir, resource_success_dir, migration_stats_dir]:
@@ -25,7 +25,7 @@ def post_json_to_aspace(base_dir, aspace_url, username, password):
     importer_stats_file = join(migration_stats_dir, 'json_to_aspace_stats.txt')
     json_to_aspace_errors = join(migration_stats_dir, 'json_to_aspace_errors.txt')
 
-    for txt_document in [importer_stats_file, json_to_aspace_successes, json_to_aspace_errors]:
+    for txt_document in [importer_stats_file, json_to_aspace_errors]:
         if os.path.exists(txt_document):
             os.remove(txt_document)
 
@@ -42,31 +42,31 @@ def post_json_to_aspace(base_dir, aspace_url, username, password):
     
     for filename in files_to_post:
         print "Posting {0}".format(filename)
-        with open(join(json_success_dir, filename), 'rb') as data:
-            jsontoresource = s.post(aspace_url + '/repositories/2/resources', data=data)
-            try:
-                response = jsontoresource.json()
-                for result in response:
-                    if 'saved' in result and not 'errors' in result:
-                        if filename not in successes:
-                            successes.append(filename)
-                    elif 'errors' in result:
-                        if filename not in errors:
-                            errors.append(filename)
-                            with open(json_to_aspace_errors, 'a') as f:
-                                f.write(filename+"\n")
-                if filename in successes:
-                    print "{0} posted successfully".format(filename)
-                    with open(join(resource_success_dir,filename),'w') as f:
-                        f.write(json.dumps(response))
-                elif filename in errors:
-                    print "Error posting {0}".format(filename)
-                    with open(join(resource_error_dir, filename)'w') as f:
-                        f.write(json.dumps(response))                    
-            except:
-                print jsontoresource.content 
-                quit()
-            time.sleep(2)
+        resource = open(join(json_success_dir, filename), "rb")
+        jsontoresource = s.post("{0}/repositories/2/resources".format(aspace_url), data=resource)
+        try:
+            response = jsontoresource.json()
+            for result in response:
+                if 'saved' in result and not 'errors' in result:
+                    if filename not in successes:
+                        successes.append(filename)
+                elif 'errors' in result:
+                    if filename not in errors:
+                        errors.append(filename)
+                        with open(json_to_aspace_errors, 'a') as f:
+                            f.write(filename+"\n")
+            if filename in successes:
+                print "{0} posted successfully".format(filename)
+                with open(join(resource_success_dir,filename),'w') as f:
+                    f.write(json.dumps(response))
+            elif filename in errors:
+                print "Error posting {0}".format(filename)
+                with open(join(resource_error_dir, filename), 'w') as f:
+                    f.write(json.dumps(response))                    
+        except:
+            print jsontoresource.content 
+            quit()
+        time.sleep(2)
 
     end_time = datetime.now()
 
