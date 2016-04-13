@@ -3,7 +3,7 @@ from vandura.config import aspace_credentials
 from vandura.shared.scripts.convert_ead_to_aspace_json import convert_ead_to_aspace_json
 from vandura.shared.scripts.post_json_to_aspace import post_json_to_aspace
 
-import getpass
+import os
 from os.path import join
 
 
@@ -11,8 +11,10 @@ def run_aspace_ead_migration(marc_dir, aspace_ead_dir, aspace_url, username, pas
 	convert_ead_to_aspace_json(marc_dir, aspace_ead_dir, aspace_url, username, password)
 	migration_stats_dir = join(marc_dir, "migration_stats")
 	ead_to_json_errors = join(migration_stats_dir, 'ead_to_json_errors.txt')
-	if os.path.exists(ead_to_json_errors):
-		print "*** ERRORS DETECTED IN EAD TO ASPACE JSON CONVERSION ***"
+	#if os.path.exists(ead_to_json_errors):
+		#print "*** ERRORS DETECTED IN EAD TO ASPACE JSON CONVERSION ***"
+		#quit()
+	if False:
 		quit()
 	else:
 		post_json_to_aspace(marc_dir, aspace_url, username, password)
@@ -31,6 +33,7 @@ def main():
 	print "*************************************************************"
 	ready_to_go = raw_input("Has everything been run? (y/n): ")
 	if ready_to_go.lower() == 'y':
+		aspace_ead_dir = join(marc_dir, "converted_eads")
 		aspace_url, username, password = aspace_credentials()
 		run_aspace_ead_migration(marc_dir, aspace_ead_dir, aspace_url, username, password)
 	else:

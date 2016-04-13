@@ -27,7 +27,10 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
     subjects_data = []
     with open(subjects_csv,'rb') as csvfile:
         reader = csv.reader(csvfile)
+        total_subjects = len(reader)
+        count = 1
         for row in reader:
+            print "{}/{}".format(count, total_subjects)
             row_indexes = len(row) - 1
             source = row[1]
             full_text = row[2]
@@ -54,12 +57,13 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
                     subjects_data.append(row)
             else:
                 print subjects
+            count += 1
 
     with open(posted_csv,'wb') as csv_out:
         writer = csv.writer(csv_out)
         writer.writerows(subjects_data)
 
-    s.post("{}/logout".format(aspace_url))
+    #s.post("{}/logout".format(aspace_url))
 
 def main():
     aspace_ead_dir = join(ead_dir, 'eads')

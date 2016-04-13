@@ -12,7 +12,6 @@ from aspace_prep.get_compound_agents import get_compound_agents
 from aspace_prep.get_subjects import get_subjects
 from aspace_prep.skip_nested_items import skip_nested_items
 from aspace_prep.subject_term_identification import subject_term_identification
-from aspace_prep.add_compound_agent_terms import add_compound_agent_terms
 from aspace_prep.remove_online_physlocs import remove_online_physlocs
 
 def run_aspace_prep(aspace_ead_dir, subjects_agents_dir, beal_classifications, dspace_mets_dir):

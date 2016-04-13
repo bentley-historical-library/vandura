@@ -33,7 +33,7 @@ def post_agents_to_aspace(aspace_ead_dir, subjects_agents_dir, aspace_url, usern
     # send these formatted entries to aspace and retrieve their new IDs
     local_name_to_aspace_id_map = post_agents_and_record_ids(session, aspace_url, prepped_agents)
 
-    session.post("{}/logout".format(aspace_url))
+    #session.post("{}/logout".format(aspace_url))
     with open(join(subjects_agents_dir, "local_to_aspace_agent_name_map.p"),"wb") as pickle_out:
         pickle.dump(local_name_to_aspace_id_map, pickle_out)
     # add these ids to our EAD files to map properly

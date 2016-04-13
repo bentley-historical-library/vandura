@@ -66,9 +66,7 @@ def post_subjects(subjects_json, aspace_url, username, password):
 
 	for subject in subjects_json:
 		subject_json = subjects_json[subject]
-		response = requests.post("{}/subjects".format(aspace_url), data=json.dumps(subject_json)).json()
-		if "error" in response:
-			print response
+		response = s.post("{}/subjects".format(aspace_url), data=json.dumps(subject_json)).json()
 		subjects_to_aspace_ids[subject] = extract_id(response)
 
 	s.post("{}/logout".format(aspace_url))
@@ -78,6 +76,7 @@ def extract_id(response):
 	if u"status" in response:
 		aspace_id = response[u"uri"]
 	if u"error" in response:
+		print response
 		aspace_id = response[u"error"][u"conflicting_record"][0]
 
 	return aspace_id
