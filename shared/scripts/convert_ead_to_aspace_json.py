@@ -39,24 +39,25 @@ def convert_ead_to_aspace_json(base_dir, aspace_ead_dir, aspace_url, username, p
     
     for filename in files_to_convert:
         print "Converting {0} to ASpace JSON".format(filename)
-        with open(join(aspace_ead_dir, filename), 'rb') as data:
-            eadtojson = s.post(aspace_url + '/plugins/jsonmodel_from_format/resource/ead', data=data)
-            try:
-                response = eadtojson.json()
-                for result in response:
-                    if 'invalid_object' in result and filename not in errors:
-                        errors.append(filename)
-                        with open(ead_to_json_errors,'a') as f:
-                            f.write(filename + '\n')
-                        with open(join(json_error_dir,filename+'.json'),'w') as f:
-                            f.write(json.dumps(response))
-                    elif filename not in successes:
-                        successes.append(filename)
-                        with open(join(json_success_dir, filename+'.json'),'w') as f:
-                            f.write(json.dumps(response))
-            except:
-                print eadtojson.content
-                quit()
+        ead = open(join(aspace_ead_dir, filename), 'rb')
+        eadtojson = s.post("{}/plugins/jsonmodel_from_format/resource/ead".format(aspace_url), data=ead)
+        ead.close()
+        try:
+            response = eadtojson.json()
+            for result in response:
+                if 'invalid_object' in result and filename not in errors:
+                    errors.append(filename)
+                    with open(ead_to_json_errors,'a') as f:
+                        f.write(filename + '\n')
+                    with open(join(json_error_dir,filename+'.json'),'w') as f:
+                        f.write(json.dumps(response))
+                elif filename not in successes:
+                    successes.append(filename)
+                    with open(join(json_success_dir, filename+'.json'),'w') as f:
+                        f.write(json.dumps(response))
+        except:
+            print eadtojson.content
+            quit()
         time.sleep(2)
 
     end_time = datetime.now()

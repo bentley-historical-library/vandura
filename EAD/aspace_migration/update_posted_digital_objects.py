@@ -9,12 +9,13 @@ def update_posted_digital_objects(ead_dir, digital_objects_dir):
 
 	digital_object_refs = {}
 
-	with open(digital_object_csv,'rb') as csvfile:
-		reader = csv.reader(csvfile)
-		for row in reader:
-			dao_href = row[0]
-			aspace_ref = row[1]
-			digital_object_refs[dao_href] = aspace_ref
+	if os.path.exists(digital_object_csv):
+		with open(digital_object_csv,'rb') as csvfile:
+			reader = csv.reader(csvfile)
+			for row in reader:
+				dao_href = row[0]
+				aspace_ref = row[1]
+				digital_object_refs[dao_href] = aspace_ref
 
 	for filename in os.listdir(ead_dir):
 		print "Updating posted digital objects with uris in {0}".format(filename)

@@ -43,7 +43,8 @@ def post_json_to_aspace(base_dir, aspace_url, username, password):
     for filename in files_to_post:
         print "Posting {0}".format(filename)
         resource = open(join(json_success_dir, filename), "rb")
-        jsontoresource = s.post("{0}/repositories/2/resources".format(aspace_url), data=resource)
+        jsontoresource = s.post("{0}/repositories/2/batch_imports".format(aspace_url), data=resource)
+        resource.close()
         try:
             response = jsontoresource.json()
             for result in response:

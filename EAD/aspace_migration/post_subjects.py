@@ -27,10 +27,7 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
     subjects_data = []
     with open(subjects_csv,'rb') as csvfile:
         reader = csv.reader(csvfile)
-        total_subjects = len(reader)
-        count = 1
         for row in reader:
-            print "{}/{}".format(count, total_subjects)
             row_indexes = len(row) - 1
             source = row[1]
             full_text = row[2]
@@ -55,9 +52,13 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
                     subject_uri = subjects['uri']
                     row.append(subject_uri)
                     subjects_data.append(row)
+            elif "error" in subjects:
+                if "conflicting_record" in subjects["error"]:
+                    subject_uri = subjects["error"]["conflicting_record"][0]
+                    row.append(subject_uri)
+                    subjects_data.append(row)
             else:
                 print subjects
-            count += 1
 
     with open(posted_csv,'wb') as csv_out:
         writer = csv.writer(csv_out)

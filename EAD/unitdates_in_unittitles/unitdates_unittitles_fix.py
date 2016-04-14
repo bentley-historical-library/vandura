@@ -2,6 +2,7 @@ from vandura.config import ead_dir
 
 import csv
 import os
+from os.path import join
 import re
 from copy import deepcopy
 
@@ -26,7 +27,7 @@ def grab_suspects(input_dir):
                 text_without_tags = " ".join(re.sub(tag_regex, "", text_with_tags).split()).strip()
                 data.append([ead, tree.getpath(unittitle), text_with_tags, text_without_tags, action])
 
-    with open('wonky_unitdate_display_candidates.csv', mode="wb") as f:
+    with open(join(ead_dir, "unitdates_in_unittitles", 'wonky_unitdate_display_candidates.csv'), mode="wb") as f:
         writer = csv.writer(f)
         writer.writerows(data)
         print(len(data))
@@ -39,7 +40,7 @@ def fix_suspects(input_dir, output_dir):
     skipped_items = []
     count = 0
 
-    with open("wonky_unitdate_display_candidates.csv", mode="r") as f:
+    with open(join(ead_dir, "unitdates_in_unittitles", 'wonky_unitdate_display_candidates.csv'), mode="r") as f:
         example_dict = {}
         reader = csv.reader(f)
         items = list(reader)

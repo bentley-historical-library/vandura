@@ -1,6 +1,7 @@
 from vandura.config import dspace_mets_dir, ead_dir, shared_dir
 
 from os.path import join
+import os
 
 from aspace_prep.camelcase_attributes import camelcase_attributes
 from aspace_prep.add_classifications import add_classifications
@@ -17,10 +18,11 @@ from aspace_prep.remove_online_physlocs import remove_online_physlocs
 def run_aspace_prep(aspace_ead_dir, subjects_agents_dir, beal_classifications, dspace_mets_dir):
 	camelcase_attributes(aspace_ead_dir)
 	remove_online_physlocs(aspace_ead_dir)
-	add_classifications(aspace_ead_dir, beal_classifications)
+	if os.path.exists(beal_classifications):
+		add_classifications(aspace_ead_dir, beal_classifications)
 	amend_duplicate_call_numbers(aspace_ead_dir)
 	skip_nested_items(aspace_ead_dir)
-	dspace_abstract_to_odd(aspace_ead_dir, dspace_mets_dir)
+	#dspace_abstract_to_odd(aspace_ead_dir, dspace_mets_dir)
 	add_container_parent_ids(aspace_ead_dir)
 	add_container_barcodes(aspace_ead_dir)
 	get_compound_agents(aspace_ead_dir, subjects_agents_dir)
