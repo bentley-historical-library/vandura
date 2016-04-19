@@ -17,7 +17,8 @@
       <creation>Encoded finding aid created by Greg Kinney <date>July 2001</date></creation>
       <langusage>The finding aid is written in <language encodinganalog="Language" langcode="eng">English.</language></langusage>
     </profiledesc>
-    <revisiondesc>  <change>
+    <revisiondesc>
+      <change>
         <date>2016-04-06</date>
         <item>Updated, added boxes 186-188</item>
       </change>
@@ -85,7 +86,8 @@
         <extent altrender="materialtype spaceoccupied">20 oversize items</extent>
       </physdesc>
       <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">298.4 MB (online)</extent>
+        <extent altrender="materialtype spaceoccupied">298.4 MB</extent>
+        <physfacet>online</physfacet>
       </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
@@ -351,16 +353,19 @@
                   <extent altrender="materialtype spaceoccupied">1 oversize volume</extent>
                 </physdesc>
               </did>
-            </c04> </c03>
-
-
-<c03 level="file"><did><physloc>Online </physloc><unittitle>Bylaws, trademark policy, parking and traffic ordinances, <unitdate type="inclusive">2004</unitdate> (.pdf files)  </unittitle><dao href="http://hdl.handle.net/2027.42/117502" show="new" actuate="onrequest"><daodesc><p>[view item]</p></daodesc></dao></did>
-				
+            </c04>
           </c03>
-
-
-
-			 
+          <c03 level="file">
+            <did>
+              <physloc>Online </physloc>
+              <unittitle>Bylaws, trademark policy, parking and traffic ordinances, <unitdate type="inclusive" normal="2004">2004</unitdate> (.pdf files) </unittitle>
+              <dao href="http://hdl.handle.net/2027.42/117502" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
         </c02>
       </c01>
       <c01 level="series">
@@ -10410,17 +10415,20 @@
               <container type="box" label="Box">185</container>
               <unittitle>December 1988-April 1989</unittitle>
             </did>
-          </c03><c03 level="file">
+          </c03>
+          <c03 level="file">
             <did>
               <container type="box" label="Box">186</container>
               <unittitle>May 1989-July 1989</unittitle>
             </did>
-          </c03><c03 level="file">
+          </c03>
+          <c03 level="file">
             <did>
               <container type="box" label="Box">187</container>
               <unittitle>August 1989-November 1989</unittitle>
             </did>
-          </c03><c03 level="file">
+          </c03>
+          <c03 level="file">
             <did>
               <container type="box" label="Box">188</container>
               <unittitle>December 1989</unittitle>
@@ -11894,7 +11902,7 @@
           <unittitle>Correspondence Files</unittitle>
         </did>
         <scopecontent>
-          <p>The Correspondence series, 1963-1973 series consists of alphabetically an chronologically organized files relating to gifts to the university and general university business. Some correspondence dated  2001-2006 is found in the Topical Files series. General correspondence (1892-1907 and 1969-1970) contains exchanges on various topics. General correspondence dated 1892-1907 was discovered in a vault at Wolverine Tower.</p>
+          <p>The Correspondence series, 1963-1973 series consists of alphabetically an chronologically organized files relating to gifts to the university and general university business. Some correspondence dated 2001-2006 is found in the Topical Files series. General correspondence (1892-1907 and 1969-1970) contains exchanges on various topics. General correspondence dated 1892-1907 was discovered in a vault at Wolverine Tower.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
@@ -12123,10 +12131,13 @@
           <c03 level="file">
             <did>
               <unittitle>General Regents' Correspondence</unittitle>
-            </did><c04 level="file">
+            </did>
+            <c04 level="file">
               <did>
                 <container type="box" label="Box">107</container>
-                <unittitle><unitdate type="inclusive" normal="1892/1907">1892-1907</unitdate>  </unittitle>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1892/1907">1892-1907</unitdate>
+                </unittitle>
               </did>
             </c04>
             <c04 level="file">
