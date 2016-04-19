@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::nurshist.xml//EN" encodinganalog="identifier">umich-bhl-89158</eadid>
     <filedesc>
       <titlestmt>
-        <titleproper encodinganalog="Title">Finding Aid for Nursing History Society (University of Michigan) records, ca. 1940-1995</titleproper>
+        <titleproper encodinganalog="Title">Finding Aid for Nursing History Society (University of Michigan) records, 1936-2003</titleproper>
         <author encodinganalog="Creator">Collection processed and finding aid created by Katherine Owen, February 1989.</author>
       </titlestmt>
       <publicationstmt>
@@ -14,10 +14,13 @@
       </publicationstmt>
     </filedesc>
     <profiledesc>
-      <creation>Encoded finding aid created by Greg Kinney <date>2006-05-1</date></creation>
+      <creation>Encoded finding aid created by Greg Kinney <date>2006-05-01</date></creation>
       <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
     </profiledesc>
-    <revisiondesc>
+    <revisiondesc><change>
+        <date>2016-04-06</date>
+        <item>Transferred two boxes to school of nursing; updated extent, dates, expired restrictions.</item>
+      </change>
       <change>
         <date>2006-05-01</date>
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
@@ -27,8 +30,8 @@
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
-      <titleproper>Finding aid for <lb/>Nursing History Society <lb/>(University of Michigan) <lb/>Records, ca. 1940-1995</titleproper>
-      <author>Finding aid created by <lb/>Katherine Owen, February 1989 <lb/>Riva Pollard, 2000</author>
+      <titleproper>Finding aid for <lb/> (University of Michigan) <lb/>records, 1936-2003</titleproper>
+      <author>Finding aid created by <lb/>Katherine Owen, 1989 <lb/>Riva Pollard, 2000  <lb/>Amy Scott, 2003<lb/>Kate Donovan, 2009<lb/>Benjamin Bond, 2016</author>
     </titlepage>
   </frontmatter>
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
@@ -36,15 +39,25 @@
       <origination>
         <corpname source="lcnaf" encodinganalog="110">University of Michigan. Nursing History Society.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Nursing History Society (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1940/1995">1940-1995</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89158 Bimu C275 2</unitid>
-      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
-      <abstract>Society formed in 1983 with the purpose of engaging in activities directed toward the preservation of the history of nursing at the University of Michigan. Administrative files, 1983-1989, including minutes, programs, membership materials, and reports; and historical files, ca. 1940-ca. 1988, collected respecting nursing history, including class notes, nursing manuals, oral history tapes, and photographs.</abstract>
+      <unittitle encodinganalog="245">Nursing History Society (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1940/1995">1936-2003</unitdate>
+
+<unitdate type="bulk" encodinganalog="245$g">
+1956-2003
+</unitdate>		
+		
+		
+		
+		
+		</unittitle>
       <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">1.5 linear feet</extent>
-      </physdesc>
+        <extent altrender="materialtype spaceoccupied">8 linear feet</extent>.
+      </physdesc><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89158 Bimu C275 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English.</language></langmaterial>
+      <abstract>The Nursing History Society aims to preserve the history of nursing at the University of Michigan. Society was officially formed in 1983 with the purpose of engaging in activities directed toward the preservation of the history of nursing at the University of Michigan. Records include administrative files, meeting minutes, programs, membership materials, and reports; historical files date from 1936 and include materials on the subject of nursing history, class notes, nursing manuals, oral history tapes, and photographs.
+</abstract>
+      
       <repository>
-        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan.</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
     </did>
@@ -68,8 +81,13 @@
     <bioghist encodinganalog="545">
       <p>The Nursing History Society of the University of Michigan was officially organized by Linda Strodtman in the summer of 1983, with the purpose of engaging in activities directed toward the preservation of the history at the University of Michigan. The activities of the organization include researching and recording aspects of nursing history at the University of Michigan and educating others about nursing history through the sponsoring of educational programs and the assembling of historical material. Other activities include mounting exhibits and presenting lectures on nursing history.</p>
     </bioghist>
+
+<arrangement encodinganalog="351">
+<p>
+The records have been arranged into four series: Organizational Records, 1982-1995; Historical Files, 1936-1990; Collected Material, 1956-2002; and Audio-Visual Material, 1966-2003.</p>
+</arrangement>	 
     <scopecontent>
-      <p>The records for the Nursing History Society consist of Administrative files, 1983-1989, including minutes, programs, membership materials, and reports; and historical files, ca. 1940-ca. 1988, collected respecting nursing history, including class notes, nursing manuals, oral history tapes, and photographs. The records have been arranged into three series: Organizational Records, 1982-1995, Historical Files, 1936-1984, and Audio-Visual Material, 1966-1984.</p>
+      <p>The records for the Nursing History Society consist of administrative records, including minutes, programs, membership materials, and reports; historical files dating back to 1936, collected material on the subject of nursing history, University of Michigan nursing class notes, nursing manuals, oral history tapes, and photographs. </p>
     </scopecontent>
     <controlaccess>
       <p>
@@ -100,259 +118,236 @@
           <unittitle>Organizational Records <unitdate type="inclusive" normal="1983/1995">1983-1995</unitdate></unittitle>
         </did>
         <scopecontent>
-          <p>The Organizational Records series, 1983-1995, 0.25 linear ft., is comprised of the administrative files of the Society itself. Among materials included are annual reports, meeting minutes and agendas, correspondence regarding Society sponsored programming and the donation of materials, officer lists, program announcements and treasurer's reports.</p>
+<p>The Organizational Records series, 1983 to 1995, (0.25 linear feet) is comprised of the administrative files of the Society itself.  Among materials included are annual reports, meeting minutes and agendas, correspondence regarding Society-sponsored programming and the donation of materials, officer lists, program announcements and treasurer's reports.</p>          
         </scopecontent>
-        <c02 level="file">
+ <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Annual Reports <unitdate type="inclusive" normal="1984/1992">1984-1992</unitdate></unittitle>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Conditions for Loans</unittitle>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Donor List <unitdate type="inclusive" normal="1983/1985">1983-1985</unitdate></unittitle>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Meeting Minutes and Agendas <unitdate type="inclusive" normal="1982/1995">1982-1995</unitdate></unittitle>
-            <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">2 folders</extent>
-            </physdesc>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Membership Lists <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Officers <unitdate type="inclusive" normal="1984/1996">1984-1996</unitdate></unittitle>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Program Planning and Announcements <unitdate type="inclusive" normal="1984/1995">1984-1995</unitdate></unittitle>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Publications</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Centennial Calendar, "A Century of Leadership: Nursing at the University of Michigan, 1891-1991"</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Membership Application Brochure</unittitle>
-            </did>
-          </c03>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Treasurer's Reports <unitdate type="inclusive" normal="1985/1995">1985-1995</unitdate></unittitle>
-          </did>
-        </c02>
+            <container type="box" label="Box">1</container><unittitle>Annual Reports, <unitdate type="inclusive">1984-1992</unitdate></unittitle></did></c02>
+<c02 level="file"><did><container type="box" label="Box">1</container><unittitle>Conditions for Loans</unittitle></did></c02>
+<c02 level="file"><did><container type="box" label="Box">1</container><unittitle>Donor List, <unitdate type="inclusive">1983-1985</unitdate></unittitle></did></c02>
+<c02 level="file"><did><container type="box" label="Box">1</container><unittitle>Meeting Minutes and Agendas, <unitdate type="inclusive">1982-1985</unitdate> </unittitle> <physdesc><extent>2 folders</extent></physdesc></did></c02>
+<c02 level="file"><did><container type="box" label="Box">1</container><unittitle>Membership List, <unitdate type="inclusive">1986</unitdate></unittitle></did></c02>
+<c02 level="file"><did><container type="box" label="Box">1</container><unittitle>Officers, <unitdate type="inclusive">1984-1996</unitdate></unittitle></did></c02>
+<c02 level="file"><did><container type="box" label="Box">1</container><unittitle>Program Planning and Announcements, <unitdate type="inclusive">1984-1995</unitdate></unittitle></did></c02>
+<c02 level="file"><did><unittitle>Publications</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>Centennial Calendar, "A Century of Leadership: Nursing at the University of Michigan, 1891-1991"</unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>Membership Application Brochure</unittitle></did></c03></c02>
+<c02 level="file"><did><container type="box" label="Box">1</container><unittitle>Treasurer's Reports, <unitdate type="inclusive">1985-1995</unitdate></unittitle></did></c02>
+        
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Historical Files <unitdate type="inclusive" normal="1936/1984" certainty="approximate">circa 1936-1984</unitdate></unittitle>
+          <unittitle>Historical Files <unitdate type="inclusive" normal="1936/1984" certainty="approximate">1936-1990</unitdate></unittitle>
         </did>
         <scopecontent>
-          <p>The Historical Files series, which spans 1.25 linear ft., contains materials pertaining to the history of nursing, collected by the society. Excepting one folder of issues of the Cadet Nurse Corps News published by the U.S. Public Health Service Division of Nurse Education, and one unidentified photocopy of a letter from 1889 describing war-time nursing conditions, all of these materials relate to the teaching and practice of nursing at the University of Michigan. The bulk of the series is comprised of class notes and instructional materials dating from 1936 to 1962. In cases in which the professor or student of the class whose materials they were was identified, this name has been included in parentheses in the box list below. Also of interest in this series are several nursing handbooks and manuals for use by nurses at the University of Michigan hospital.</p>
+<p>The Historical Files series, 1936 to 1990, (1.5 linear feet) contains materials pertaining to the history of nursing, collected by the Society.  Excepting one folder of issues of the Cadet Nurse Corps News published by the U.S. Public Health Service Division of Nurse Education, and one unidentified photocopy of a letter from 1889 describing war-time nursing conditions, all of these materials relate to the teaching and practice of nursing at the University of Michigan.  The bulk of the series is comprised of class notes and instructional materials dating from 1936 to 1962.  In cases in which the professor or student of the class who owned the materials is known, her name has been included in parentheses in the box list below.  Also of interest in this series are several nursing handbooks and manuals for use by nurses at the University of Michigan hospital.</p>          
         </scopecontent>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Alumnae Correspondence and Poetry <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <title render="italic">Cadet Nurse Corps News</title>
-              <unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate>
-            </unittitle>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Class Notes and Instructional Material <unitdate type="inclusive" normal="1936/1962">1936-1962</unitdate></unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Advanced Nursing Arts (L. Hannig) <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Elementary Materia Medica, (L. Hannig) <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Elementary Nursing Arts (L. Hannig) <unitdate type="inclusive" normal="1939/1942">1939-1942</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Foundations of Nursing (Amy Hofing) <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Maternity Nursing / N360, (Amy Hofing) <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Medical Surgical Nursing II (Amy Hofing) <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Nurse aides procedures (L. Hannig) <unitdate type="inclusive" normal="1936/1956">1936-1956</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Nurse aides procedures (Mae Simpson) <unitdate type="inclusive" normal="1945/1954">1945-1954</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>N320 (Amy Hofing) <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>N330 (Amy Hofing) <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>N370 (Amy Hofing) <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Miscellaneous and Undated</unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">2 folders</extent>
-              </physdesc>
-            </did>
-          </c03>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1889">1889</unitdate></unittitle>
-          </did>
-          <odd>
-            <p>(photocopy of original)</p>
-          </odd>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Handbooks and Manuals</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Advanced Nursing Procedures <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Elementary Nursing Procedures <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Handbook for Nurse Aides <unitdate type="inclusive" normal="1965">1965</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Manual of Diagnostic Procedures for Nurses <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Nursing policy <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-            </did>
-          </c03>
-        </c02>
-      </c01>
-      <c01 level="series">
-        <did>
-          <unittitle>Audio-Visual Material <unitdate type="inclusive" normal="1966/1984">1966-1984</unitdate></unittitle>
-        </did>
-        <scopecontent>
-          <p>The Audio-Visual Material series, which spans .25 linear feet, is comprised of two oral history tape reels, recorded in 1966, and photographs of hospital nursing staff, dated 1978-1984, and the 1984 attendants of the Gordon Research Center Proctor Academy in Laconia, New Hampshire.</p>
-        </scopecontent>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Oral History Tapes <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">2 tapes</extent>
-              <physfacet>7 inch, 7-1/2 ips and unknown ips</physfacet>
-            </physdesc>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Photographs</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Nursing Staff <unitdate type="inclusive" normal="1978/1984">1978-1984</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Gordon Research Conference, Proctor Academy <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-            </did>
-          </c03>
-        </c02>
-      </c01>
+<c02 level="file"><did><container type="box" label="Box">1</container><unittitle>Alumnae Correspondence and Poetry, <unitdate type="inclusive">1983-1984</unitdate></unittitle></did></c02>
+<c02 level="file"><did><container type="box" label="Box">1</container><unittitle>Cadet Nurse Corps News, <unitdate type="inclusive">1945-1947</unitdate></unittitle></did></c02>
+<c02 level="file"><did> <unittitle>Class Notes and Instructional Materials, <unitdate type="inclusive">1936-1990</unitdate></unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>Advanced Nursing Arts (L. Hannig), <unitdate type="inclusive">1940</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>Elementary Material Medica (L. Hannig), <unitdate type="inclusive">1940</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>Elementary Nursing Arts (L. Hannig), <unitdate type="inclusive">1939-1942</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>Foundations of Nursing I (Amy Hofing), <unitdate type="inclusive">1960-1961</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>Maternity Nursing/N3 60 (Amy Hofing), <unitdate type="inclusive">1962</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>Medical-Surgical Nursing II (Amy Hofing), <unitdate type="inclusive">1961</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>M.S. Core Courses (includes syllabi &amp; faculty meeting materials), <unitdate type="inclusive">1986-1990</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>Nurse Aides Procedures (L. Hannig), <unitdate type="inclusive">1936-1954</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>Nurse Aides Procedures (Mae Simpson), <unitdate type="inclusive">1945-1954</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>N320 (Amy Hofing), <unitdate type="inclusive">1961</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>N3 30 (Amy Hofing), <unitdate type="inclusive">1961</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>N3 70 (Amy Hofing), <unitdate type="inclusive">1962</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">2</container><unittitle>Nursing Arts Notebook (Jean Hoyt), <unitdate type="inclusive">undated</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">2</container><unittitle>Nursing Intervention in the Care of the Adult/N431, <unitdate type="inclusive">1972</unitdate> miscellaneous, and <unitdate type="inclusive">undated</unitdate> </unittitle> <physdesc><extent>2 folders</extent></physdesc></did></c03></c02>
+<c02 level="file"><did><container type="box" label="Box">2</container><unittitle>Correspondence (photocopy of original), <unitdate type="inclusive">1889</unitdate></unittitle></did></c02>
+<c02 level="file"><did><container type="box" label="Box">2</container><unittitle>Curriculum vitae, scattered </unittitle> <physdesc><extent>2 folders</extent></physdesc></did></c02>
+<c02 level="file"><did> <unittitle>Handbooks and Manuals</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">2</container><unittitle>Advanced Nursing Procedures, <unitdate type="inclusive">1937</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">2</container><unittitle>Elementary Nursing Procedures, <unitdate type="inclusive">1937</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">2</container><unittitle>Handbook for Nurse Aides, <unitdate type="inclusive">1965</unitdate> and <unitdate type="inclusive">undated</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">2</container><unittitle>Manual of Diagnostic Procedures for Nursing, <unitdate type="inclusive">1968</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">2</container><unittitle>Nursing Policy, <unitdate type="inclusive">1974</unitdate></unittitle></did></c03></c02>
+<c02 level="file"><did><container type="box" label="Box">2</container><unittitle>International Nursing Interest Group, <unitdate type="inclusive">1981-1982</unitdate></unittitle></did></c02>
+
+</c01>
+
+<c01 level="series"><did><unittitle>Collected Material, <unitdate type="inclusive">1956-2002</unitdate></unittitle></did><scopecontent><p>The Collected Material series, 1956 to 2002, (0.5 linear feet) is the result of the Society's accumulation of documents from a number of different sources.  The series is arranged in subseries according to the material's original owner and/or creator.  Karen Wolters Dutil was a nursing student at the University of Michigan in the late 1950s.  This subseries includes original correspondence to her parents while she was in school as well as Dutil's own annotated transcription of the letters ("Long Ago and Far Away: Letters from Ann Arbor").  These provide a detailed view of life as a nursing student in those days, from classes to work in the hospitals to dating.  The Kathleen Fischer subseries is comprised of historically valuable documents from the late 1960s and 1970s.  Fischer has served as the Director of Educational Services for Nursing since 1981.  Within this subseries, Topical Files include documents on the development of the Clinical Nurse Specialist Program the decentralization of nursing, the role of Physician's Assistants, and other issues that had a lasting impact on Michigan nursing.  Additionally, the Fischer series contains papers that Fischer in turn had acquired from Marjorie Jackson, Director of Nursing at the University of Michigan Hospitals in the 1970s.  Particularly important in these records is the Miscellaneous file, a set of diverse papers that Jackson or Fischer apparently grouped together because of the documents' seminal importance for the profession of nursing.  Norma Osborn, a 1973 graduate of the university's nursing program, had a strong interest in international nursing.  This subseries documents some of her work in India and Saudi Arabia in addition to her career in the Boston area.  Also of interest is Osborn's mother's packing list for the Army Nurse Corps during World War II.</p></scopecontent>
+<c02 level="subseries"><did><unittitle>Karen Wolters Dutil</unittitle></did>
+<c03 level="file"><did><unittitle>Letters</unittitle></did>
+<c04 level="file"><did><container type="box" label="Box">2</container><unittitle><unitdate type="inclusive">1956</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">2</container><unittitle><unitdate type="inclusive">1957</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">2</container><unittitle><unitdate type="inclusive">1958</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">2</container><unittitle>"Long Ago and Far Away: Letters from Ann Arbor," <unitdate type="inclusive">1994</unitdate> (includes electronic copy on 3 1/2" floppy disk)</unittitle></did></c04></c03></c02>
+<c02 level="subseries"><did><unittitle>Kathleen Fischer</unittitle></did>
+<c03 level="file"><did><unittitle>Topical Files</unittitle></did>
+<c04 level="file"><did><container type="box" label="Box">2</container><unittitle>Clinical Nurse II program development, <unitdate type="inclusive">1972-1979</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">2</container><unittitle>Clinical Nurse Specialist Program and expanded practice , <unitdate type="inclusive">1970-1975</unitdate></unittitle></did><note><p>(correspondence and reports)</p></note></c04>
+<c04 level="file"><did><container type="box" label="Box">2</container><unittitle>Decentralization of Nursing, <unitdate type="inclusive">1966-1972</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">3</container><unittitle>Physician's Assistants (relationship to nursing), <unitdate type="inclusive">1975-1979</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">3</container><unittitle>Quality of nursing care (patient correspondence), <unitdate type="inclusive">1976-1979</unitdate></unittitle></did></c04>
+<c04 level="file"><did><container type="box" label="Box">3</container><unittitle>Rhoda Russell patient report (Dean of the School of Nursing), <unitdate type="inclusive">1979</unitdate></unittitle></did></c04></c03></c02>
+<c02 level="subseries"><did><unittitle>Marjorie Jackson (Director of Nursing, University Hospital) files, <unitdate type="inclusive">1970-1979</unitdate></unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Annual Report, Office of the Chief of Nursing (1976/77 report and background materials for earlier reports), <unitdate type="inclusive">1974-1977</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Miscellaneous, <unitdate type="inclusive">1970-1979</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Nursing wages, <unitdate type="inclusive">1971-1978</unitdate></unittitle></did></c03></c02>
+<c02 level="subseries"><did><unittitle>Norma Osborn</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Correspondence: Nursing History Society, <unitdate type="inclusive">2000-2002</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>General, <unitdate type="inclusive">1971-2001</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Army Nurse Corps packing list: World War II, <unitdate type="inclusive">undated</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>India, <unitdate type="inclusive">1993-1994</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Saudi Arabia , <unitdate type="inclusive">1978-1979</unitdate></unittitle></did><note><p>(includes photographs)</p></note></c03></c02></c01>
+
+
+
+
+ 
+<c01 level="series"><did><unittitle>Audio-Visual Material, <unitdate type="inclusive">1966-2003</unitdate></unittitle></did><scopecontent><p>The Audio-Visual Material series, 1966 to 2003, (5.75 linear feet) includes both photographs and audio and video cassettes.  Photographs depict hospital nursing staff dated 1978-1984, and the 1984 attendants of the Gordon Research Center Proctor Academy in Laconia, New Hampshire.  The cassettes have been artificially arranged by the processor in an attempt to group recordings in a more meaningful way.  Creating oral histories was an ongoing project of the Society, and these recordings constitute the first subseries.  Another subseries, University of Michigan Nursing, documents events either at the School of Nursing or within the University Hospital system.  A large part of the Educational subseries represents materials that had once been held at the Educational Services for Nursing.  These recordings are often general to the practice of nursing, but were produced by the university.  The Lectures/Panels subseries documents such events sponsored by the school or hospital generally relating to broader issues in the field of nursing.</p></scopecontent>
+<c02 level="subseries"><did><unittitle>Photographs</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Nursing staff, <unitdate type="inclusive">1978-1984</unitdate></unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Gordon Research Conference Proctor Academy, <unitdate type="inclusive">1984</unitdate></unittitle></did></c03></c02>
+<c02 level="subseries"><did><unittitle>Oral Histories</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Various, (Ella McNeil &amp; Johanna Wiese, Helen Sellman, Genieve Read &amp; others), <unitdate type="inclusive">1966</unitdate> </unittitle><physdesc><extent>2 reels: 7 in., 7 1/2 ips and unknown ips</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Dr. Mel Barclay, <unitdate type="inclusive">1990</unitdate> </unittitle><physdesc><extent>1 audiocassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Leone Shrider Barker, <unitdate type="inclusive">2003</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Barbara Colwell, <unitdate type="inclusive">1990</unitdate> </unittitle><physdesc><extent>1 audiocassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Dorothy A. Crim, <unitdate type="inclusive">2003</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Linda Daniel, <unitdate type="inclusive">2001</unitdate> </unittitle><physdesc><extent>2 mini DVC cassettes</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Angela Delvechhio, <unitdate type="inclusive">2001</unitdate></unittitle> <physdesc><extent>2 DVCAM cassettes</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Dorothy Doss, <unitdate type="inclusive">2001</unitdate> </unittitle><physdesc><extent>1 mini DVC cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Barbara Dubler, <unitdate type="inclusive">1990</unitdate></unittitle> <physdesc><extent> audiocassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Rhetaugh Dumas, <unitdate type="inclusive">1998</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Lois Gage, <unitdate type="inclusive">2002</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Arlene Howe, <unitdate type="inclusive">2001</unitdate></unittitle> <physdesc><extent>3 mini DVC cassettes</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Ruth Husung, <unitdate type="inclusive">2001</unitdate> </unittitle><physdesc><extent>2 mini DVC cassettes</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Marjorie Jackson, <unitdate type="inclusive">2000</unitdate></unittitle> <physdesc><extent>3 DVCAM cassettes</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Judy Judd, <unitdate type="inclusive">1999</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Betty Kemnitz, <unitdate type="inclusive">2002</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Nadine Korc, <unitdate type="inclusive">1990</unitdate></unittitle> <physdesc><extent>1 audiocassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Mary Lirones, <unitdate type="inclusive">2002</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Bette Lowe, <unitdate type="inclusive">2002</unitdate> </unittitle><physdesc><extent>2 mini DVC cassettes</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Marjorie Murphy, <unitdate type="inclusive">2000</unitdate></unittitle> <physdesc><extent>2 DVCAM cassettes</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Janet L. Nelson, <unitdate type="inclusive">2003</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Nancy Nelson, <unitdate type="inclusive">2001</unitdate></unittitle> <physdesc><extent>2 mini DVC cassettes</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Sheila Peterson, <unitdate type="inclusive">1990</unitdate></unittitle> <physdesc><extent>1 audiocassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Evelyn Piehl, <unitdate type="inclusive">1990</unitdate></unittitle> <physdesc><extent>1 audiocassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Diana Richards, <unitdate type="inclusive">1990</unitdate></unittitle> <physdesc><extent>1 audiocassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Mary Sexton, <unitdate type="inclusive">2000</unitdate></unittitle> <physdesc><extent>2 DVCAM cassettes</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">3</container><unittitle>Lillian Simms, <unitdate type="inclusive">2001</unitdate></unittitle> <physdesc><extent>2 mini DVC cassettes</extent></physdesc></did></c03></c02>
+
+
+
+<c02 level="subseries"><did><unittitle>University of Michigan Nursing</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>Alumni Society: Janice Lindberg, Distinguished Alumni Service Award, <unitdate type="inclusive">1998</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>Doctoral Reunion and Visiting Committee</unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>Evening program, <unitdate type="inclusive">1997</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>Public presentations, <unitdate type="inclusive">1997</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>French School of Nursing Endowment Chair Ceremony, Mary Lou Willard French Professorship in Oncology Nursing Research, <unitdate type="inclusive">1998</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>"Health as an International Issue: Role of the University of Michigan World Health Organization Collaborating Center," with accompanying brochures, <unitdate type="inclusive">1998</unitdate> </unittitle><physdesc><extent>2 VHS cassettes</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>HEARTH video, <unitdate type="inclusive">undated</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>Josephine M. Sana, Professor Emeritus, Retirement Reception, <unitdate type="inclusive">1985</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><unittitle>Larry Warren's Employee Forum</unittitle></did>
+<c04 level="file"><did><container type="box" label="Box">4</container><unittitle><unitdate type="inclusive">July 1998</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc> </did></c04>
+<c04 level="file"><did><container type="box" label="Box">4</container><unittitle><unitdate type="inclusive">November 1998</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc> </did></c04>
+<c04 level="file"><did><container type="box" label="Box">4</container><unittitle><unitdate type="inclusive">January 1999</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc> </did></c04>
+<c04 level="file"><did><container type="box" label="Box">4</container><unittitle><unitdate type="inclusive">March 1999</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc></did></c04>
+<c04 level="file"><did><container type="box" label="Box">4</container><unittitle><unitdate type="inclusive">July 1999</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c04>
+<c04 level="file"><did><container type="box" label="Box">4</container><unittitle><unitdate type="inclusive">September 1999</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c04>
+<c04 level="file"><did><container type="box" label="Box">4</container><unittitle><unitdate type="inclusive">November 1999</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc></did></c04></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>Martin Luther King, Jr. Celebration, School of Nursing <unitdate type="inclusive">1990</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>"North Campus Nursing Center," aired on WUOM-FM, <unitdate type="inclusive">1994</unitdate></unittitle> <physdesc><extent>1 audiocassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>NLN [National League for Nursing] Greeting from University of Michigan, Dean Rhetaugh Graves Dumas, <unitdate type="inclusive">1993</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>MNA information session, Tape 2 of 3, <unitdate type="inclusive">undated</unitdate> (RIFF and Recall)</unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>"Past Reflections-Future Images," Kathy A. Okun, <unitdate type="inclusive">1991</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><unittitle>School of Nursing: Office of Multicultural Affairs and Office of Student Affairs</unittitle></did>
+<c04 level="file"><did><container type="box" label="Box">4</container><unittitle>The Michigan Study, <unitdate type="inclusive">1992</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c04>
+<c04 level="file"><did><container type="box" label="Box">4</container><unittitle>Research issues, <unitdate type="inclusive">undated</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c04>
+<c04 level="file"><did><container type="box" label="Box">4</container><unittitle>Second series session, student panel, <unitdate type="inclusive">undated</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c04></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>"Stepping Out: A Tribute to Rehtaugh Graves Dumas, PhD. RN, FAAN," <unitdate type="inclusive">1994</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>Strategic Planning Advance Stakeholders Panel, <unitdate type="inclusive">1992</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>University of Michigan Golden Apple Award for Outstanding Teaching, Sixth Annual, Dr. Carol Boyd's "last lecture," <unitdate type="inclusive">1996</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>University of Michigan Health System</unittitle></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>Joint Management/UMPNC Contract Orientation, <unitdate type="inclusive">1998</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">4</container><unittitle>UMPNC Contract Education Part 2, <unitdate type="inclusive">1998</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><unittitle>"University of Michigan Nursing Video," <unitdate type="inclusive">1995</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc> </did></c03>
+
+<c03 level="file"><did> <unittitle>Visiting Committee</unittitle></did>
+<c04 level="file"><did><container type="box" label="Box">4</container><unittitle><unitdate type="inclusive">1995</unitdate></unittitle> <physdesc><extent>2 VHS cassettes</extent></physdesc> </did></c04>
+<c04 level="file"><did><container type="box" label="Box">4</container><unittitle><unitdate type="inclusive">1995</unitdate> </unittitle><physdesc><extent>2 audiocassettes</extent></physdesc> </did></c04>
+<c04 level="file"><did><container type="box" label="Box">4</container><unittitle><unitdate type="inclusive">1996</unitdate></unittitle> <physdesc><extent>2 audiocassettes</extent></physdesc></did></c04></c03></c02>
+
+<c02 level="subseries"><did> <unittitle>Instructional</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">5</container><unittitle>"Advanced Directives for Health Care Providers," Dean Burrows, <unitdate type="inclusive">1991</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">5</container><unittitle>"Adverse Transfusion Reactions," Dallas Forshew, <unitdate type="inclusive">1988</unitdate> </unittitle><physdesc><extent>1 u-matic cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">5</container><unittitle>"Assertiveness Training: Vignettes," Laurie Watson, <unitdate type="inclusive">1979</unitdate></unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">5</container><unittitle>"Back Care: Safety for Nurses," Roseanne Crompton, <unitdate type="inclusive">1991</unitdate> </unittitle><physdesc><extent>1 u-matic cassette</extent></physdesc></did></c03>
+
+
+<c03 level="file"><did><container type="box" label="Box">5</container><unittitle>"Bed Briefing," Christina Rourke, <unitdate type="inclusive">1991</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did> 
+</c03>
+<c03 level="file"><did><container type="box" label="Box">5</container><unittitle>"Beds in Motion," Wendy Lightner, Ressa Cofield, <unitdate type="inclusive">1982</unitdate></unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc></did></c03>
+
+
+<c03 level="file"><did><container type="box" label="Box">5</container><unittitle>"Body Substance Exposure," Nancy Kaatz, <unitdate type="inclusive">1991</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">5</container><unittitle>"Central Venous Catheter Care," Debra Kovacevich, et al., <unitdate type="inclusive">1984</unitdate> </unittitle><physdesc><extent>1 u-matic cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">5</container><unittitle>"Children in Pain: A Special Challenge," Sandy I. Merkel, et al., <unitdate type="inclusive">1988</unitdate></unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">5</container><unittitle>"Collaborative Practice: Designs for the Future, Parts 1-4," <unitdate type="inclusive">1985</unitdate> </unittitle><physdesc><extent>4 u-matic cassettes</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">5</container><unittitle>"Competency Based Education with Suzanne Brunner," <unitdate type="inclusive">1984</unitdate> </unittitle><physdesc><extent>1 u-matic cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">5</container><unittitle>"Ethics in Nursing," Gail Benjamin, <unitdate type="inclusive">1990</unitdate> </unittitle><physdesc><extent>1 u-matic cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>"Evaluation with Suzanne Brunner," <unitdate type="inclusive">1984</unitdate></unittitle> <physdesc><extent>2 u-matic cassettes</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>"Fire and Safety at the U of M Health System, Hospitals and Health Centers," Dept. of Safety, Building &amp; Environmental Management, <unitdate type="inclusive">1988</unitdate> </unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>"Health Care Reform Challenge: UMMC and Nursing Services Strategies," <unitdate type="inclusive">1994</unitdate> </unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>"Humor in Health Care: Laughter is the Shortest Distance Between People," <unitdate type="inclusive">undated</unitdate></unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>"Humor in Health Care: The Lighter Side of Change," <unitdate type="inclusive">undated</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>Humor workshop, Lila Green, <unitdate type="inclusive">undated</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>"Implementation of a Nursing Model in Nursing Practice," Helen Erickson, <unitdate type="inclusive">1980</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>"Initiating PPM on the Unit: Parts I-III," <unitdate type="inclusive">1996</unitdate> </unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>"Inservice Fire Safety for Nurses," Nancy Kaatz, <unitdate type="inclusive">1992</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>"Interviewing Children: The Initial Assessment," Bonnie Hagerty, <unitdate type="inclusive">1983</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>"Introduction to Computer Systems at the University of Michigan Hospitals: The IBM Workstation," Kathy Lee, <unitdate type="inclusive">1987</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>Lamson Airtube "Operator Training," <unitdate type="inclusive">1985</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>"Listen to Me: A Cultural Awareness Video," UM Nursing School, <unitdate type="inclusive">1990</unitdate> </unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>"The Magic of Humor," Lila Green, <unitdate type="inclusive">1991</unitdate> </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">6</container><unittitle>"Narcotic Administration: Nurses' Roles and Responsibilities," Terry Vanden Bosch, <unitdate type="inclusive">1985</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc></did></c03>
+<c03 level="file"><did><container type="box" label="Box">7</container><unittitle>""The Nurse as Expert Witness," Martha McGugin, <unitdate type="inclusive">1984</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">7</container><unittitle>"Nursing, Risk Management and the Law," Dean Burroughs, <unitdate type="inclusive">1990</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">7</container><unittitle>Nursing Role Play, Conflict, Vignettes 1-4, Martha McGugin, George Sproule, <unitdate type="inclusive">1982</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">7</container><unittitle>"Patient Rights and Responsibilities," Joanne Desmond, Ann Munro, James Schulz, <unitdate type="inclusive">1982</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">7</container><unittitle>"The PERL Project: Promoting Effective Recovery from Labor," <unitdate type="inclusive">1996</unitdate></unittitle>  <physdesc><extent>1 VHS cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">7</container><unittitle>"Professional Nurse in Court," Martha McGugin, Edward Goldman, Jan Anderson, <unitdate type="inclusive">1984</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">7</container><unittitle>"Professional Practice Model: Moving Toward the Future," Michael Williams, <unitdate type="inclusive">1994</unitdate> </unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">7</container><unittitle>"Professional Practice Model Bylaws: Another Step Forward," Michael Williams, <unitdate type="inclusive">1996</unitdate></unittitle>  <physdesc><extent>1 VHS cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">7</container><unittitle>"Professional Practice Model Orientation, <unitdate type="inclusive">1993</unitdate> </unittitle> <physdesc><extent>3 VHS cassettes</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">7</container><unittitle>"Safety for Nurses: Recognizing the Impaired Professional," Nancy Kaatz, <unitdate type="inclusive">1989</unitdate> </unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">7</container><unittitle>"Shared Governance," Marlys Peterson, <unitdate type="inclusive">1988</unitdate> </unittitle> <physdesc><extent>2 u-matic cassettes</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">7</container><unittitle>"Shared Governance," Timothy Porter O'Grady and Kathy Fisher, <unitdate type="inclusive">1990</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">7</container><unittitle>"Talking Sense: A Nurse's Guide to Effective Communication," Sheila Norris, Marianne Glassanos, <unitdate type="inclusive">1983</unitdate> </unittitle> <physdesc><extent>1 u-matic cassette</extent></physdesc> </did></c03></c02>
+
+
+<c02 level="subseries"><did>  <unittitle>Lectures/Panels</unittitle></did>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"Applications for Nursing Research in Clinical Settings" N. Reame, Moderator, <unitdate type="inclusive">undated</unitdate> </unittitle> <physdesc><extent>2 audiocassettes</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"Challenges and Initiatives for Nursing Research," Ada Sue Hinshaw, <unitdate type="inclusive">undated</unitdate></unittitle>  <physdesc><extent>1 VHS cassette</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"Child Health Policy and the Next American Presidency," Sara Rosenbaum, <unitdate type="inclusive">2000</unitdate> </unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"Creative Solutions to Current Problems in Nursing Practice," R. Redman, Moderator, <unitdate type="inclusive">undated</unitdate> </unittitle> <physdesc><extent>2 audiocassettes</extent></physdesc> </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>French Professorship to Visiting Committee, Laurel Northouse, <unitdate type="inclusive">2000</unitdate></unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>Health System Reform, <unitdate type="inclusive">undated</unitdate> </unittitle> <physdesc><extent>2 VHS cassettes</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"Improving Children's Health: How Research Can Inform Public Policy," <unitdate type="inclusive">1998</unitdate> </unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"Influencing Public Policy: Nursing's Role," B. Kalisch, Moderator, <unitdate type="inclusive">undated</unitdate></unittitle>  <physdesc><extent>2 audiocassettes</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>Infusing Research into Nursing Practice," N. Pender, Moderator, <unitdate type="inclusive">undated</unitdate></unittitle> <physdesc><extent>2 audiocassettes</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>N536 Dr. Pierce-Nancy Stryker, <unitdate type="inclusive">2000</unitdate>  </unittitle><physdesc><extent>1 VHS cassette</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"NIC [Nursing Interventions Classification]," Maurita Titler, <unitdate type="inclusive">1996</unitdate> </unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"Nurse Entrepreneurship," S. Hacker, Moderator, <unitdate type="inclusive">undated</unitdate> </unittitle> <physdesc><extent>1 audiocassette</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"Nursing Informatics: Facilitating Nursing Practice," Y. Abdoo, Moderator, <unitdate type="inclusive">undated</unitdate> </unittitle> <physdesc><extent>2 audiocassettes</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"Progressivism and the Rise of Public Health Nursing," Cheryl Easley, <unitdate type="inclusive">1989</unitdate></unittitle>  <physdesc><extent>1 audiocassette</extent></physdesc>  </did></c03>
+<c03 level="file"><did> <unittitle>"A Second Century of Leadership"</unittitle></did>
+<c04 level="file"><did><container type="box" label="Box">8</container><unittitle>Welcome and Opening Remarks, <unitdate type="inclusive">undated</unitdate></unittitle>  <physdesc><extent>1 audiocassette</extent></physdesc>  </did></c04>
+<c04 level="file"><did><container type="box" label="Box">8</container><unittitle>Keynote Address, Claire Fagan </unittitle><physdesc><extent>1 audiocassette</extent></physdesc>  </did></c04>
+<c04 level="file"><did><container type="box" label="Box">8</container><unittitle>Address, Angela B. McBride </unittitle> <physdesc><extent>1 audiocassette</extent></physdesc> </did></c04></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"Shaping Health Policy Through Nursing Research," Ada Sue Hinshaw, <unitdate type="inclusive">1995</unitdate> </unittitle> <physdesc><extent>1 VHS cassette</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"Shaping Practice Through Nursing Theory," S. Ketefian, Moderator, <unitdate type="inclusive">undated</unitdate> </unittitle> <physdesc><extent>2 audiocassettes</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"University of Michigan Leadership Conference Management of Quality: Changing Today for Tomorrow," <unitdate type="inclusive">1993</unitdate></unittitle> <physdesc><extent>6 audiocassettes</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"University of Michigan School of Nursing, Dean Dumas' Symposium," <unitdate type="inclusive">1994</unitdate></unittitle>  <physdesc><extent>1 VHS cassette</extent></physdesc>  </did></c03>
+<c03 level="file"><did><container type="box" label="Box">8</container><unittitle>"View from the Top: Nursing in the 21st Century," Kathy A. Okun, <unitdate type="inclusive">1991</unitdate></unittitle>  <physdesc><extent>1 VHS cassette</extent></physdesc>  </did></c03></c02></c01>
+     
     </dsc>
   </archdesc>
 </ead>
