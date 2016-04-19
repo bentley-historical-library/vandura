@@ -1,23 +1,34 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
 <ead>
-  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
-    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::gingrich.xml//EN" encodinganalog="identifier">umich-bhl-85188</eadid>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511"
+    dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H"
+      publicid="-//us::MiU-H//TEXT us::MiU-H::gingrich.xml//EN" encodinganalog="identifier"
+      >umich-bhl-85188</eadid>
     <filedesc>
       <titlestmt>
-        <titleproper encodinganalog="title">Finding Aid for Arnold Gingrich Papers <date>1932-1975</date></titleproper>
-        <author encodinganalog="creator">Collection processed and Finding aid prepared by Marilyn McNitt</author>
+        <titleproper encodinganalog="title">Finding Aid for Arnold Gingrich Papers
+            <date>1932-1975</date></titleproper>
+        <author encodinganalog="creator">Collection processed and Finding aid prepared by Marilyn
+          McNitt</author>
       </titlestmt>
       <publicationstmt>
-        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of
+          Michigan</publisher>
         <date encodinganalog="date">1977</date>
       </publicationstmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created by Thomas E. Powers <date>August 1998</date></creation>
-      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng"
+          >English.</language></langusage>
     </profiledesc>
     <revisiondesc>
+      <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
       <change>
         <date>2012-02-07</date>
         <item>Changes made with the addition of digital copies of sound recordings.</item>
@@ -42,53 +53,117 @@
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
-      <titleproper>Finding Aid for <lb/>Arnold Gingrich Papers, <date type="inclusive">1932-1975</date></titleproper>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of
+        Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Arnold Gingrich Papers, <date type="inclusive"
+          >1932-1975</date></titleproper>
       <author>Finding aid prepared by: <lb/>Marilyn McNitt</author>
     </titlepage>
   </frontmatter>
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50029911">Gingrich, Arnold.</persname>
+        <persname encodinganalog="100" source="lcnaf"
+          authfilenumber="http://id.loc.gov/authorities/names/n50029911">Gingrich,
+          Arnold.</persname>
       </origination>
-      <unittitle encodinganalog="245">Arnold Gingrich Papers <unitdate encodinganalog="245$f" type="inclusive" normal="1932/1975">1932-1975</unitdate></unittitle>
-      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85188 Aa/2</unitid>
-      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
-      <abstract>Founding editor of <title render="italic">Esquire</title> magazine; collection is a mix of personal papers and business records, biographical information, personal correspondence with or about many of the authors who contributed to the magazine, speeches and photographs.</abstract>
+      <unittitle encodinganalog="245">Arnold Gingrich Papers <unitdate encodinganalog="245$f"
+          type="inclusive" normal="1932/1975">1932-1975</unitdate></unittitle>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85188
+        Aa/2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng"
+          >English.</language></langmaterial>
+      <abstract>Founding editor of <title render="italic">Esquire</title> magazine; collection is a
+        mix of personal papers and business records, biographical information, personal
+        correspondence with or about many of the authors who contributed to the magazine, speeches
+        and photographs.</abstract>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">24.5 linear feet</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">4.98 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
-        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of
+          Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
     </did>
     <descgrp type="admin">
       <acqinfo encodinganalog="541">
-        <p>The collection was the gift of the Arnold Gingrich estate and came to the library in December 1976. Donor no. <num encodinganalog="541$e" type="donor">5972</num></p>
+        <p>The collection was the gift of the Arnold Gingrich estate and came to the library in
+          December 1976. Donor no. <num encodinganalog="541$e" type="donor">5972</num></p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source
+          tapes are for staff use only. Audio files are only available in the Bentley Historical
+          Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
-        <p>The Gingrich estate has transferred his copyright to the Regents of the University of Michigan.</p>
+        <p>The Gingrich estate has transferred his copyright to the Regents of the University of
+          Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>item, folder title, box no., Arnold Gingrich Papers, Bentley Historical Library, University of Michigan</p>
+        <p>item, folder title, box no., Arnold Gingrich Papers, Bentley Historical Library,
+          University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p>All 2-inch videotapes and 16mm films in the Romney collection were digitized in 2009 and
+          are available for use in the reading room on DVD. Streaming files were also created all
+          streaming files are listed in this finding aid, but only a small selections are currently
+          online. The latter can be viewed using the 'view video: link</p>
+      </altformavail>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a
+          number of sound recordings within this collection. The resulting audio files are available
+          for playback only in the Bentley Library Reading Room. Links to item images and additional
+          information are available within this finding aid. Original sound recordings are only
+          available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
-      <p>Founding editor of Esquire Magazine in 1933 and its publisher beginning in 1952, Arnold Gingrich was a distinguished author, journalist, and nurturer of literary talent. Born in Grand Rapids, Michigan December 5, 1903, he graduated from the University of Michigan in 1925. He began his career writing advertising copy for a group of Chicago-based trade magazines. In 1931, he became the first editor of Apparel Arts (which later became Gentlemen's Quarterly). In 1933, along with David Smart, a publisher, and his partner William Weintraub, Gingrich helped to found Esquire, and where he given the title of editor and vice president. In 1936, he took on additional responsibilities as editor of Coronet. At Esquire, in its early years, Gingrich was responsible for attracting famous authors to write for the magazine. These included Ernest Hemingway, F. Scott Fitzgerald, John O'Hara, John Steinbeck, H.L. Mencken, and Sinclair Lewis. Published in later years were such authors as Vladimir Nabokov, John Updike, Saul Bellow, James Baldwin, and Truman Capote. He continued with all of these responsibility until 1945 when moved to Switzerland serving as European editor of Esquire and Coronet (1945-1949).</p>
-      <p>Gingrich returned to the United States in 1949 becoming vice president of Cowles Magazines, Inc. where he worked until 1951. In 1952 he was named publisher and senior vice president of Esquire. Here he was responsible for much of the magazine's renewed popularity in the 1950s, 60s, and 70s when the magazine became more journalistic in its content. Gingrich served in this responsibility until 1974 when he was named senior vice president and editor-in-chief of Esquire and Gentlemen's Quarterly.</p>
-      <p>In addition to his publishing responsibilities, Gingrich was a notable author of books and articles, many of them dealing with his passion for fly-fishing. Also as an avocation, Gingrich was a collector of old violins.</p>
+      <p>Founding editor of Esquire Magazine in 1933 and its publisher beginning in 1952, Arnold
+        Gingrich was a distinguished author, journalist, and nurturer of literary talent. Born in
+        Grand Rapids, Michigan December 5, 1903, he graduated from the University of Michigan in
+        1925. He began his career writing advertising copy for a group of Chicago-based trade
+        magazines. In 1931, he became the first editor of Apparel Arts (which later became
+        Gentlemen's Quarterly). In 1933, along with David Smart, a publisher, and his partner
+        William Weintraub, Gingrich helped to found Esquire, and where he given the title of editor
+        and vice president. In 1936, he took on additional responsibilities as editor of Coronet. At
+        Esquire, in its early years, Gingrich was responsible for attracting famous authors to write
+        for the magazine. These included Ernest Hemingway, F. Scott Fitzgerald, John O'Hara, John
+        Steinbeck, H.L. Mencken, and Sinclair Lewis. Published in later years were such authors as
+        Vladimir Nabokov, John Updike, Saul Bellow, James Baldwin, and Truman Capote. He continued
+        with all of these responsibility until 1945 when moved to Switzerland serving as European
+        editor of Esquire and Coronet (1945-1949).</p>
+      <p>Gingrich returned to the United States in 1949 becoming vice president of Cowles Magazines,
+        Inc. where he worked until 1951. In 1952 he was named publisher and senior vice president of
+        Esquire. Here he was responsible for much of the magazine's renewed popularity in the 1950s,
+        60s, and 70s when the magazine became more journalistic in its content. Gingrich served in
+        this responsibility until 1974 when he was named senior vice president and editor-in-chief
+        of Esquire and Gentlemen's Quarterly.</p>
+      <p>In addition to his publishing responsibilities, Gingrich was a notable author of books and
+        articles, many of them dealing with his passion for fly-fishing. Also as an avocation,
+        Gingrich was a collector of old violins.</p>
       <p>Gingrich died July 9, 1976.</p>
     </bioghist>
     <arrangement encodinganalog="351">
-      <p>The Gingrich collection which covers the period of 1932 to 1975 has been arranged into ten series: Biographical/personal; Authors - Special; Personal correspondence; Speeches/Symposia; Esquire Magazine Office Files; Arnold Gingrich Writing Projects; Organizational Affiliations; Fly-fishing; Sound Recordings; and Photographs.</p>
+      <p>The Gingrich collection which covers the period of 1932 to 1975 has been arranged into ten
+        series: Biographical/personal; Authors - Special; Personal correspondence;
+        Speeches/Symposia; Esquire Magazine Office Files; Arnold Gingrich Writing Projects;
+        Organizational Affiliations; Fly-fishing; Sound Recordings; and Photographs.</p>
     </arrangement>
     <scopecontent encodinganalog="520">
-      <p>The Gingrich papers consists of a mixture of personal and office files detailing the management of Esquire magazine and Gingrich's various other interests and activities. The collection, consisting of correspondence, speeches, photographs, and subject files, should be used in conjunction with the files of Esquire Magazine which came to the library at the same time but with a separate deed of gift. The two collections together are indispensable for any study of Esquire, Gingrich's career as a publisher, and the influence of Gingrich on the careers of some of America's most important literary figures of the twentieth century.</p>
+      <p>The Gingrich papers consists of a mixture of personal and office files detailing the
+        management of Esquire magazine and Gingrich's various other interests and activities. The
+        collection, consisting of correspondence, speeches, photographs, and subject files, should
+        be used in conjunction with the files of Esquire Magazine which came to the library at the
+        same time but with a separate deed of gift. The two collections together are indispensable
+        for any study of Esquire, Gingrich's career as a publisher, and the influence of Gingrich on
+        the careers of some of America's most important literary figures of the twentieth
+        century.</p>
     </scopecontent>
     <controlaccess>
       <p>
@@ -100,7 +175,8 @@
         <corpname source="lcnaf" encodinganalog="610">Esquire, Inc.</corpname>
         <subject source="lcsh" encodinganalog="650">Fishing.</subject>
         <subject source="lcsh" encodinganalog="650">Fly fishing.</subject>
-        <subject source="lcsh" encodinganalog="650">Periodicals, Publishing of--New York (State)--New York.</subject>
+        <subject source="lcsh" encodinganalog="650">Periodicals, Publishing of--New York
+          (State)--New York.</subject>
         <subject source="lcsh" encodinganalog="650">Violin music.</subject>
         <subject source="lcsh" encodinganalog="611">Esquire (New York, N.Y.)</subject>
       </controlaccess>
@@ -109,32 +185,67 @@
         <subject source="lctgm" encodinganalog="650">Boats.</subject>
         <geogname source="lcsh" encodinganalog="651">Detroit River (Mich. and Ont.)</geogname>
         <subject source="lctgm" encodinganalog="650">Dwellings.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50029911">Gingrich, Arnold.</persname>
+        <persname source="lcnaf" encodinganalog="600"
+          authfilenumber="http://id.loc.gov/authorities/names/n50029911">Gingrich,
+          Arnold.</persname>
         <famname source="lcnaf" encodinganalog="600">Gingrich family.</famname>
         <subject source="lctgm" encodinganalog="650">Musicians.</subject>
         <subject source="lctgm" encodinganalog="650">Studios and workshops.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Alumni and alumnae.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463">Williams, G. Mennen, 1911-1988.</persname>
+        <corpname source="lcnaf" encodinganalog="610"
+          authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of
+          Michigan--Alumni and alumnae.</corpname>
+        <persname source="lcnaf" encodinganalog="600"
+          authfilenumber="http://id.loc.gov/authorities/names/n80084463">Williams, G. Mennen,
+          1911-1988.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
         <persname source="lcnaf" encodinganalog="700">Armstrong, Louis, 1900-1971.</persname>
         <persname source="lcnaf" encodinganalog="700">Bourjaily, Vance Nye.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79133727">Buchwald, Art.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80001431">Dos Passos, John, 1896-1970.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79084424">Engle, Paul, 1908-1991</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79006871">Fitzgerald, F. Scott (Francis Scott), 1896-1940.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79114016">Gallico, Paul, 1897-1976</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2005003977">Helck, Peter, 1893-1988</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78078534">Hemingway, Ernest, 1899-1961.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78086441">Hoff, Syd, 1912-2004</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80057246">Huxley, Aldous, 1894-1963.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86134128">Knopf, Alfred A., 1892-1984.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79055883">Levin, Meyer, 1905-1981</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50037447">MacDonald, Dwight.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86001732">Pegler, Westbrook, 1894-1969.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80051100">Rosten, Leo, 1908-1997</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83020792">Seager, Allan, 1906-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n79133727">Buchwald, Art.</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n80001431">Dos Passos, John,
+          1896-1970.</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n79084424">Engle, Paul,
+          1908-1991</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n79006871">Fitzgerald, F. Scott
+          (Francis Scott), 1896-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n79114016">Gallico, Paul,
+          1897-1976</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n2005003977">Helck, Peter,
+          1893-1988</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n78078534">Hemingway, Ernest,
+          1899-1961.</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n78086441">Hoff, Syd,
+          1912-2004</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n80057246">Huxley, Aldous,
+          1894-1963.</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n86134128">Knopf, Alfred A.,
+          1892-1984.</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n79055883">Levin, Meyer,
+          1905-1981</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n50037447">MacDonald,
+          Dwight.</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n86001732">Pegler, Westbrook,
+          1894-1969.</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n80051100">Rosten, Leo,
+          1908-1997</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n83020792">Seager, Allan,
+          1906-1968.</persname>
         <persname source="lcnaf" encodinganalog="700">Stuart, Jesse, 1907-</persname>
       </controlaccess>
       <controlaccess>
@@ -149,7 +260,11 @@
           <unittitle>Biographical/personal</unittitle>
         </did>
         <scopecontent>
-          <p>The Biographical/personal series consists of clippings and biographical information collected about Gingrich as well as substantial materials relating to his family's genealogy. The Biographical/personal series consists of clippings and biographical information collected about Gingrich as well as substantial materials relating to his family's genealogy.</p>
+          <p>The Biographical/personal series consists of clippings and biographical information
+            collected about Gingrich as well as substantial materials relating to his family's
+            genealogy. The Biographical/personal series consists of clippings and biographical
+            information collected about Gingrich as well as substantial materials relating to his
+            family's genealogy.</p>
         </scopecontent>
         <c02 level="file">
           <did>
@@ -177,7 +292,14 @@
           <unittitle>Authors-Special</unittitle>
         </did>
         <scopecontent>
-          <p>The Authors - Special File consists of materials pulled together by Gingrich most probably because of their special meaning to him. These are his files on F. Scott Fitzgerald and Ernest Hemingway. The Fitzgerald files cover the years 1934 to 1939 and consist of telegrams, correspondence, and copies of the "Pat Hobb" stories that the author wrote for Esquire. Much of this material is photocopied. The Ernest Hemingway files date from 1933 to 1939 and include correspondence and typed drafts of articles written for Esquire, notably "The Snows of Kilimanjaro." Most of the correspondence is also photocopied, but the drafts of articles are original.</p>
+          <p>The Authors - Special File consists of materials pulled together by Gingrich most
+            probably because of their special meaning to him. These are his files on F. Scott
+            Fitzgerald and Ernest Hemingway. The Fitzgerald files cover the years 1934 to 1939 and
+            consist of telegrams, correspondence, and copies of the "Pat Hobb" stories that the
+            author wrote for Esquire. Much of this material is photocopied. The Ernest Hemingway
+            files date from 1933 to 1939 and include correspondence and typed drafts of articles
+            written for Esquire, notably "The Snows of Kilimanjaro." Most of the correspondence is
+            also photocopied, but the drafts of articles are original.</p>
         </scopecontent>
         <c02 level="file">
           <did>
@@ -187,13 +309,15 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Telegrams <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></unittitle>
+              <unittitle>Telegrams <unitdate type="inclusive" normal="1934/1935"
+                  >1934-1935</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Correspondence and "Pat Hobby" stories <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
+              <unittitle>Correspondence and "Pat Hobby" stories <unitdate type="inclusive"
+                  normal="1939">1939</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
@@ -205,7 +329,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>"Pasting it Together" <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
+              <unittitle>"Pasting it Together" <unitdate type="inclusive" normal="1936"
+                  >1936</unitdate></unittitle>
             </did>
             <odd>
               <p>(photocopies)</p>
@@ -225,7 +350,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Correspondence with <unitdate type="inclusive" normal="1933/1939">1933-1939</unitdate></unittitle>
+              <unittitle>Correspondence with <unitdate type="inclusive" normal="1933/1939"
+                  >1933-1939</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">9 folders</extent>
               </physdesc>
@@ -243,7 +369,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Drafts of letter from Africa and other articles for <title render="italic">Esquire Magazine</title></unittitle>
+              <unittitle>Drafts of letter from Africa and other articles for <title render="italic"
+                  >Esquire Magazine</title></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
@@ -256,11 +383,28 @@
           <unittitle>Personal correspondence</unittitle>
         </did>
         <scopecontent>
-          <p>Personal Correspondence covers the period of 1932 to 1975 and is made up of two subseries: the first covering the years 1932 to 1950 is arranged chronologically, the second which is arranged alphabetically covers the period of 1951 to 1975. The letters in these files document Gingrich's many interests, apart from Esquire Magazine: violins and violin collecting, fishing, conservation, club memberships, and involvement with arts organizations. Because the magazine was so much a part of his life, this series obviously has importance to the study of Esquire and should be researched in conjunction with the Esquire Magazine Office File series (which follows) and the Esquire Magazine record group also on file at the library. Personal Correspondence covers the period of 1932 to 1975 and is made up of two subseries: the first covering the years 1932 to 1950 is arranged chronologically, the second which is arranged alphabetically covers the period of 1951 to 1975. The letters in these files document Gingrich's many interests, apart from Esquire Magazine: violins and violin collecting, fishing, conservation, club memberships, and involvement with arts organizations. Because the magazine was so much a part of his life, this series obviously has importance to the study of Esquire and should be researched in conjunction with the Esquire Magazine Office File series (which follows) and the Esquire Magazine record group also on file at the library.</p>
+          <p>Personal Correspondence covers the period of 1932 to 1975 and is made up of two
+            subseries: the first covering the years 1932 to 1950 is arranged chronologically, the
+            second which is arranged alphabetically covers the period of 1951 to 1975. The letters
+            in these files document Gingrich's many interests, apart from Esquire Magazine: violins
+            and violin collecting, fishing, conservation, club memberships, and involvement with
+            arts organizations. Because the magazine was so much a part of his life, this series
+            obviously has importance to the study of Esquire and should be researched in conjunction
+            with the Esquire Magazine Office File series (which follows) and the Esquire Magazine
+            record group also on file at the library. Personal Correspondence covers the period of
+            1932 to 1975 and is made up of two subseries: the first covering the years 1932 to 1950
+            is arranged chronologically, the second which is arranged alphabetically covers the
+            period of 1951 to 1975. The letters in these files document Gingrich's many interests,
+            apart from Esquire Magazine: violins and violin collecting, fishing, conservation, club
+            memberships, and involvement with arts organizations. Because the magazine was so much a
+            part of his life, this series obviously has importance to the study of Esquire and
+            should be researched in conjunction with the Esquire Magazine Office File series (which
+            follows) and the Esquire Magazine record group also on file at the library.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1932/1950">1932-1950</unitdate> (Chronological File)</unittitle>
+            <unittitle><unitdate type="inclusive" normal="1932/1950">1932-1950</unitdate>
+              (Chronological File)</unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -287,7 +431,8 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1951/1975">1951-1975</unitdate> (Alphabetical File)</unittitle>
+            <unittitle><unitdate type="inclusive" normal="1951/1975">1951-1975</unitdate>
+              (Alphabetical File)</unittitle>
           </did>
           <odd>
             <p>(includes some earlier dated papers)</p>
@@ -601,7 +746,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">3</container>
-                <unittitle>Correspondence concerning <unitdate type="inclusive" normal="1960/1973">1960-1973</unitdate></unittitle>
+                <unittitle>Correspondence concerning <unitdate type="inclusive" normal="1960/1973"
+                    >1960-1973</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
@@ -1418,7 +1564,11 @@
           <unittitle>Speeches/Symposia</unittitle>
         </did>
         <scopecontent>
-          <p>Speeches/Symposia is a series of speeches given by Gingrich in the period of 1958 to 1975. Topics in this file are often recurring and include art and the business world, publishing, advertising, and customer tastes, fly-fishing, and freedom of expression. Also included here are files pertaining to Gingrich's participation in the Esquire Magazine symposium in the period 1958 to 1965.</p>
+          <p>Speeches/Symposia is a series of speeches given by Gingrich in the period of 1958 to
+            1975. Topics in this file are often recurring and include art and the business world,
+            publishing, advertising, and customer tastes, fly-fishing, and freedom of expression.
+            Also included here are files pertaining to Gingrich's participation in the Esquire
+            Magazine symposium in the period 1958 to 1965.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
@@ -1433,7 +1583,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>Poor Richard Club, Philadelphia <unitdate type="inclusive" normal="1958-09-18">September 18, 1958</unitdate></unittitle>
+                <unittitle>Poor Richard Club, Philadelphia <unitdate type="inclusive"
+                    normal="1958-09-18">September 18, 1958</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-1]</p>
@@ -1442,7 +1593,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>Advertising Club of Washington <unitdate type="inclusive" normal="1958-09-30">September 30, 1958</unitdate></unittitle>
+                <unittitle>Advertising Club of Washington <unitdate type="inclusive"
+                    normal="1958-09-30">September 30, 1958</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-2]</p>
@@ -1451,7 +1603,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>Chicago Federated Advertising Club <unitdate type="inclusive" normal="1958-10-22">October 22, 1958</unitdate></unittitle>
+                <unittitle>Chicago Federated Advertising Club <unitdate type="inclusive"
+                    normal="1958-10-22">October 22, 1958</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-3]</p>
@@ -1467,7 +1620,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Moral Responsibilities of the Press." Institut Francais de Presse of the University of Paris <unitdate type="inclusive" normal="1959-04-24">April 24, 1959</unitdate></unittitle>
+                <unittitle>"Moral Responsibilities of the Press." Institut Francais de Presse of the
+                  University of Paris <unitdate type="inclusive" normal="1959-04-24">April 24,
+                    1959</unitdate></unittitle>
               </did>
               <odd>
                 <p>[audio-tape in box 24]</p>
@@ -1495,7 +1650,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"The Maturing of American Taste" <unitdate type="inclusive" normal="1961-10-27">October 27, 1961</unitdate></unittitle>
+                <unittitle>"The Maturing of American Taste" <unitdate type="inclusive"
+                    normal="1961-10-27">October 27, 1961</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -1517,7 +1673,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Magazines and the Culture Boom. Association of Publication Production Managers <unitdate type="inclusive" normal="1962-03-13">March 13, 1962</unitdate></unittitle>
+                <unittitle>"Magazines and the Culture Boom. Association of Publication Production
+                  Managers <unitdate type="inclusive" normal="1962-03-13">March 13,
+                  1962</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-7]</p>
@@ -1526,7 +1684,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>Maturing of American Taste. Botany-Daroff <unitdate type="inclusive" normal="1962-03-14">March 14, 1962</unitdate></unittitle>
+                <unittitle>Maturing of American Taste. Botany-Daroff <unitdate type="inclusive"
+                    normal="1962-03-14">March 14, 1962</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-8]</p>
@@ -1535,7 +1694,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"The Uncommon Market". Poor Richard Club, Philadelphia, April 3,1962</unittitle>
+                <unittitle>"The Uncommon Market". Poor Richard Club, Philadelphia, April
+                  3,1962</unittitle>
               </did>
               <odd>
                 <p>[8-9]</p>
@@ -1544,7 +1704,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"The Maturing of American Taste." Insurance Advertising Conference, Lido, Long Island <unitdate type="inclusive" normal="1962-06-25">June 25, 1962</unitdate></unittitle>
+                <unittitle>"The Maturing of American Taste." Insurance Advertising Conference, Lido,
+                  Long Island <unitdate type="inclusive" normal="1962-06-25">June 25,
+                    1962</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-10]</p>
@@ -1553,7 +1715,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Today's Reading: A Reflection of American Taste." Medill School of Journalism, Northwestern University <unitdate type="inclusive" normal="1962-10-25">October 25, 1962</unitdate></unittitle>
+                <unittitle>"Today's Reading: A Reflection of American Taste." Medill School of
+                  Journalism, Northwestern University <unitdate type="inclusive" normal="1962-10-25"
+                    >October 25, 1962</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -1565,7 +1729,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"The Uncommon Market of the Uncommon Man." Advertising Club of Louisville <unitdate type="inclusive" normal="1962-11-16">November 16, 1962</unitdate></unittitle>
+                <unittitle>"The Uncommon Market of the Uncommon Man." Advertising Club of Louisville
+                    <unitdate type="inclusive" normal="1962-11-16">November 16,
+                  1962</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-13]</p>
@@ -1581,7 +1747,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Today"s New Customer." Cleveland Advertising Club <unitdate type="inclusive" normal="1963-01-29">January 29, 1963</unitdate></unittitle>
+                <unittitle>"Today"s New Customer." Cleveland Advertising Club <unitdate
+                    type="inclusive" normal="1963-01-29">January 29, 1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-14]</p>
@@ -1590,7 +1757,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Today's Customer." Los Angeles Advertising Club <unitdate type="inclusive" normal="1963-03-26">March 26, 1963</unitdate></unittitle>
+                <unittitle>"Today's Customer." Los Angeles Advertising Club <unitdate
+                    type="inclusive" normal="1963-03-26">March 26, 1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-15]</p>
@@ -1599,7 +1767,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Today's Customer." Public Relations Society of America, San Francisco <unitdate type="inclusive" normal="1963-03-29">March 29, 1963</unitdate></unittitle>
+                <unittitle>"Today's Customer." Public Relations Society of America, San Francisco
+                    <unitdate type="inclusive" normal="1963-03-29">March 29,
+                  1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-16]</p>
@@ -1608,7 +1778,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Today's Reading: A Reflection of American Taste." University of California, Berkeley <unitdate type="inclusive" normal="1963-03-28">March 28, 1963</unitdate></unittitle>
+                <unittitle>"Today's Reading: A Reflection of American Taste." University of
+                  California, Berkeley <unitdate type="inclusive" normal="1963-03-28">March 28,
+                    1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-17]</p>
@@ -1617,7 +1789,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>Papers concerning California speaking tour,March <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+                <unittitle>Papers concerning California speaking tour,March <unitdate
+                    type="inclusive" normal="1963">1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-18]</p>
@@ -1626,7 +1799,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Today's Reading: A Reflection of American Taste." University of Minnesota <unitdate type="inclusive" normal="1963-04">April 1963</unitdate></unittitle>
+                <unittitle>"Today's Reading: A Reflection of American Taste." University of
+                  Minnesota <unitdate type="inclusive" normal="1963-04">April
+                  1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-19]</p>
@@ -1635,7 +1810,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>Washington's Advertising Club <unitdate type="inclusive" normal="1963-05-28">May 28, 1963</unitdate></unittitle>
+                <unittitle>Washington's Advertising Club <unitdate type="inclusive"
+                    normal="1963-05-28">May 28, 1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-20]</p>
@@ -1644,7 +1820,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"The Facts of Life and Death in the Magazine World." Association for Education in Journalism, Lincoln,-Neb. <unitdate type="inclusive" normal="1963-08-28">August 28, 1963</unitdate></unittitle>
+                <unittitle>"The Facts of Life and Death in the Magazine World." Association for
+                  Education in Journalism, Lincoln,-Neb. <unitdate type="inclusive"
+                    normal="1963-08-28">August 28, 1963</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -1656,7 +1834,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>Southern Methodist University, Dallas, Texas <unitdate type="inclusive" normal="1963-10-12">October 12, 1963</unitdate></unittitle>
+                <unittitle>Southern Methodist University, Dallas, Texas <unitdate type="inclusive"
+                    normal="1963-10-12">October 12, 1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-23]</p>
@@ -1665,7 +1844,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>Wayne State University, Detroit Michigan <unitdate type="inclusive" normal="1963-10-16">October 16, 1963</unitdate></unittitle>
+                <unittitle>Wayne State University, Detroit Michigan <unitdate type="inclusive"
+                    normal="1963-10-16">October 16, 1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-24]</p>
@@ -1674,7 +1854,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Today's Customer." Twin Cities Advertising Club <unitdate type="inclusive" normal="1963-10-24">October 24, 1963</unitdate></unittitle>
+                <unittitle>"Today's Customer." Twin Cities Advertising Club <unitdate
+                    type="inclusive" normal="1963-10-24">October 24, 1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-25]</p>
@@ -1683,7 +1864,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Today's Reading: A Reflection of American Taste." Southern Industrial Editors Institute <unitdate type="inclusive" normal="1963-11-01">November 1, 1963</unitdate></unittitle>
+                <unittitle>"Today's Reading: A Reflection of American Taste." Southern Industrial
+                  Editors Institute <unitdate type="inclusive" normal="1963-11-01">November 1,
+                    1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-26]</p>
@@ -1692,7 +1875,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>Stanford University <unitdate type="inclusive" normal="1963-11-05">November 5, 1963</unitdate></unittitle>
+                <unittitle>Stanford University <unitdate type="inclusive" normal="1963-11-05"
+                    >November 5, 1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-27]</p>
@@ -1701,7 +1885,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Today's Customer." Advertising Club, San Francisco <unitdate type="inclusive" normal="1963-11-06">November 6, 1963</unitdate></unittitle>
+                <unittitle>"Today's Customer." Advertising Club, San Francisco <unitdate
+                    type="inclusive" normal="1963-11-06">November 6, 1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-28]</p>
@@ -1710,7 +1895,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"New Consumer Demands and Motivation in an Affluent Society." American Marketing Association, Louisville, Ky. <unitdate type="inclusive" normal="1963-11-12">November 12, 1963</unitdate></unittitle>
+                <unittitle>"New Consumer Demands and Motivation in an Affluent Society." American
+                  Marketing Association, Louisville, Ky. <unitdate type="inclusive"
+                    normal="1963-11-12">November 12, 1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-29]</p>
@@ -1719,7 +1906,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Today's Reading: A Reflection of American Taste." Twentieth Century Club, Cleveland, Ohio <unitdate type="inclusive" normal="1963-11-27">November 27, 1963</unitdate></unittitle>
+                <unittitle>"Today's Reading: A Reflection of American Taste." Twentieth Century
+                  Club, Cleveland, Ohio <unitdate type="inclusive" normal="1963-11-27">November 27,
+                    1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-30]</p>
@@ -1728,7 +1917,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>Overseas Press Club, New York City <unitdate type="inclusive" normal="1963-01-09">January 9, 1963</unitdate></unittitle>
+                <unittitle>Overseas Press Club, New York City <unitdate type="inclusive"
+                    normal="1963-01-09">January 9, 1963</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-31]</p>
@@ -1744,7 +1934,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Today's Customer." Advertising Club of Des Moines <unitdate type="inclusive" normal="1964-01-14">January 14, 1964</unitdate></unittitle>
+                <unittitle>"Today's Customer." Advertising Club of Des Moines <unitdate
+                    type="inclusive" normal="1964-01-14">January 14, 1964</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-32]</p>
@@ -1753,7 +1944,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>University of Texas <unitdate type="inclusive" normal="1964-05-07">May 7, 1964</unitdate></unittitle>
+                <unittitle>University of Texas <unitdate type="inclusive" normal="1964-05-07">May 7,
+                    1964</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-33]</p>
@@ -1762,7 +1954,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Today's Customer." Advertising Club of Des Moines <unitdate type="inclusive" normal="1964-05-12">May 12, 1964</unitdate></unittitle>
+                <unittitle>"Today's Customer." Advertising Club of Des Moines <unitdate
+                    type="inclusive" normal="1964-05-12">May 12, 1964</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-34]</p>
@@ -1771,7 +1964,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>University of Illinois School of Journalism <unitdate type="inclusive" normal="1964-05-13">May 13, 1964</unitdate></unittitle>
+                <unittitle>University of Illinois School of Journalism <unitdate type="inclusive"
+                    normal="1964-05-13">May 13, 1964</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-35]</p>
@@ -1780,7 +1974,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>University of Colorado Telelecture <unitdate type="inclusive" normal="1964-05-19">May 19, 1964</unitdate></unittitle>
+                <unittitle>University of Colorado Telelecture <unitdate type="inclusive"
+                    normal="1964-05-19">May 19, 1964</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-36]</p>
@@ -1789,7 +1984,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>Grand Rapids Junior College <unitdate type="inclusive" normal="1964-06-12">June 12, 1964</unitdate></unittitle>
+                <unittitle>Grand Rapids Junior College <unitdate type="inclusive"
+                    normal="1964-06-12">June 12, 1964</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-37]</p>
@@ -1798,7 +1994,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>Georgetown Writers Conference, Washington, D.C. <unitdate type="inclusive" normal="1964-08-13">August 13, 1964</unitdate></unittitle>
+                <unittitle>Georgetown Writers Conference, Washington, D.C. <unitdate
+                    type="inclusive" normal="1964-08-13">August 13, 1964</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-38]</p>
@@ -1807,7 +2004,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"The Day the Editors Wrote Promotion." The Magazine Promotion Managers Association <unitdate type="inclusive" normal="1964-11-11">November 11, 1964</unitdate></unittitle>
+                <unittitle>"The Day the Editors Wrote Promotion." The Magazine Promotion Managers
+                  Association <unitdate type="inclusive" normal="1964-11-11">November 11,
+                    1964</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-39]</p>
@@ -1823,7 +2022,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Is Culture the Business of Business?" New York Board of Trade <unitdate type="inclusive" normal="1965-06-03">June 3, 1965</unitdate></unittitle>
+                <unittitle>"Is Culture the Business of Business?" New York Board of Trade <unitdate
+                    type="inclusive" normal="1965-06-03">June 3, 1965</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -1835,7 +2035,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>Brigham Young University Telelecture <unitdate type="inclusive" normal="1965-10-25">October 25, 1965</unitdate></unittitle>
+                <unittitle>Brigham Young University Telelecture <unitdate type="inclusive"
+                    normal="1965-10-25">October 25, 1965</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-42]</p>
@@ -1844,7 +2045,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>American Management Association Conference <unitdate type="inclusive" normal="1965-10-29">October 29, 1965</unitdate></unittitle>
+                <unittitle>American Management Association Conference <unitdate type="inclusive"
+                    normal="1965-10-29">October 29, 1965</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-43]</p>
@@ -1860,7 +2062,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Business and Culture." Public Relations Society of America <unitdate type="inclusive" normal="1965-11-23">November 23, 1965</unitdate></unittitle>
+                <unittitle>"Business and Culture." Public Relations Society of America <unitdate
+                    type="inclusive" normal="1965-11-23">November 23, 1965</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -1879,7 +2082,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>New York Board of Trade: Business and the Arts Conference <unitdate type="inclusive" normal="1966-03-28">March 28, 1966</unitdate></unittitle>
+                <unittitle>New York Board of Trade: Business and the Arts Conference <unitdate
+                    type="inclusive" normal="1966-03-28">March 28, 1966</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-46]</p>
@@ -1888,7 +2092,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Arts in the Board Room." Executives' Club, Chicago <unitdate type="inclusive" normal="1966-04-29">April 29, 1966</unitdate></unittitle>
+                <unittitle>"Arts in the Board Room." Executives' Club, Chicago <unitdate
+                    type="inclusive" normal="1966-04-29">April 29, 1966</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -1900,7 +2105,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">8</container>
-                <unittitle>"Communicating with a Sophisticated Society. Western States Advertising Agencies Association, Inc. <unitdate type="inclusive" normal="1966-05-20">May 20, 1966</unitdate></unittitle>
+                <unittitle>"Communicating with a Sophisticated Society. Western States Advertising
+                  Agencies Association, Inc. <unitdate type="inclusive" normal="1966-05-20">May 20,
+                    1966</unitdate></unittitle>
               </did>
               <odd>
                 <p>[8-49]</p>
@@ -1909,7 +2116,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>Creative Arts Conference, San Francisco, California <unitdate type="inclusive" normal="1966-05-21">May 21, 1966</unitdate></unittitle>
+                <unittitle>Creative Arts Conference, San Francisco, California <unitdate
+                    type="inclusive" normal="1966-05-21">May 21, 1966</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-1]</p>
@@ -1925,7 +2133,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>George Polk Memorial Awards <unitdate type="inclusive" normal="1967-03-21">March 21, 1967</unitdate></unittitle>
+                <unittitle>George Polk Memorial Awards <unitdate type="inclusive"
+                    normal="1967-03-21">March 21, 1967</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-2]</p>
@@ -1934,7 +2143,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>Article for <title render="italic">Arts Management</title> Newsletter, <unitdate type="inclusive" normal="1967-03/1967-04">March-April, 1967</unitdate></unittitle>
+                <unittitle>Article for <title render="italic">Arts Management</title> Newsletter,
+                    <unitdate type="inclusive" normal="1967-03/1967-04">March-April,
+                  1967</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-3]</p>
@@ -1943,7 +2154,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>University of Michigan Sesquicentennial Conference on the Right of Free Expression <unitdate type="inclusive" normal="1967-03-02">March 2, 1967</unitdate></unittitle>
+                <unittitle>University of Michigan Sesquicentennial Conference on the Right of Free
+                  Expression <unitdate type="inclusive" normal="1967-03-02">March 2,
+                  1967</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-4]</p>
@@ -1952,7 +2165,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>"The Partnership of Fly Fishing." Anglers' Club of Chicago <unitdate type="inclusive" normal="1967-04-04">April 4, 1967</unitdate></unittitle>
+                <unittitle>"The Partnership of Fly Fishing." Anglers' Club of Chicago <unitdate
+                    type="inclusive" normal="1967-04-04">April 4, 1967</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-5]</p>
@@ -1961,7 +2175,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>Festival of the Arts. National College of Education, Evanston, Ill. <unitdate type="inclusive" normal="1967-04-03/1967-04-05">April 3-5, 1967</unitdate></unittitle>
+                <unittitle>Festival of the Arts. National College of Education, Evanston, Ill.
+                    <unitdate type="inclusive" normal="1967-04-03/1967-04-05">April 3-5,
+                    1967</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-6]</p>
@@ -1970,7 +2186,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>Association for Womens' Committees for Symphony Orchestras <unitdate type="inclusive" normal="1967-04-26">April 26, 1967</unitdate></unittitle>
+                <unittitle>Association for Womens' Committees for Symphony Orchestras <unitdate
+                    type="inclusive" normal="1967-04-26">April 26, 1967</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-7]</p>
@@ -1979,7 +2196,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>"Words will always count." Magazine Publishers Association, White Sulphur Springs, West Virginia <unitdate type="inclusive" normal="1967-06-03">June 3, 1967</unitdate></unittitle>
+                <unittitle>"Words will always count." Magazine Publishers Association, White Sulphur
+                  Springs, West Virginia <unitdate type="inclusive" normal="1967-06-03">June 3,
+                    1967</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-8]</p>
@@ -1988,7 +2207,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>"10 Dares for the Writer." <title render="italic">Writer's Digest</title> Conference, University of Cincinnati, <unitdate type="inclusive" normal="1967-06-10">June 10, 1967</unitdate></unittitle>
+                <unittitle>"10 Dares for the Writer." <title render="italic">Writer's Digest</title>
+                  Conference, University of Cincinnati, <unitdate type="inclusive"
+                    normal="1967-06-10">June 10, 1967</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-9]</p>
@@ -1997,7 +2218,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>Air Transportation Conference, Wings Conference <unitdate type="inclusive" normal="1967-06-28">June 28, 1967</unitdate></unittitle>
+                <unittitle>Air Transportation Conference, Wings Conference <unitdate
+                    type="inclusive" normal="1967-06-28">June 28, 1967</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
@@ -2009,7 +2231,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>"The Dinosaur was the Biggest Thing Around. Magazine Industry Seminar, Harvard Business School <unitdate type="inclusive" normal="1967-07-31">July 31, 1967</unitdate></unittitle>
+                <unittitle>"The Dinosaur was the Biggest Thing Around. Magazine Industry Seminar,
+                  Harvard Business School <unitdate type="inclusive" normal="1967-07-31">July 31,
+                    1967</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-14]</p>
@@ -2018,7 +2242,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>American Management Association: Business and Arts Conference <unitdate type="inclusive" normal="1967-10-02/1967-10-04">October 2-4, 1967</unitdate></unittitle>
+                <unittitle>American Management Association: Business and Arts Conference <unitdate
+                    type="inclusive" normal="1967-10-02/1967-10-04">October 2-4,
+                  1967</unitdate></unittitle>
               </did>
               <odd>
                 <p>[cancelled]</p>
@@ -2030,7 +2256,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>American Society of Magazine Editors Seminar <unitdate type="inclusive" normal="1967-10-30">October 30, 1967</unitdate></unittitle>
+                <unittitle>American Society of Magazine Editors Seminar <unitdate type="inclusive"
+                    normal="1967-10-30">October 30, 1967</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-16]</p>
@@ -2039,7 +2266,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>Medaille Hoteliere Award <unitdate type="inclusive" normal="1967-11-21">November 21, 1967</unitdate></unittitle>
+                <unittitle>Medaille Hoteliere Award <unitdate type="inclusive" normal="1967-11-21"
+                    >November 21, 1967</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-17]</p>
@@ -2055,7 +2283,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>Museum of Contemporary Art of Chicago <unitdate type="inclusive" normal="1968-01-22">January 22, 1968</unitdate></unittitle>
+                <unittitle>Museum of Contemporary Art of Chicago <unitdate type="inclusive"
+                    normal="1968-01-22">January 22, 1968</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-18]</p>
@@ -2064,7 +2293,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>Talk on Angling Literature. Flyfishers' Club of Harrisburg, Pa. <unitdate type="inclusive" normal="1968-04-05">April 5, 1968</unitdate></unittitle>
+                <unittitle>Talk on Angling Literature. Flyfishers' Club of Harrisburg, Pa. <unitdate
+                    type="inclusive" normal="1968-04-05">April 5, 1968</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-19]</p>
@@ -2073,7 +2303,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>Art Directors Club 13th Annual Communications Conference <unitdate type="inclusive" normal="1968-04-08/1968-04-09">April 8-9, 1968</unitdate></unittitle>
+                <unittitle>Art Directors Club 13th Annual Communications Conference <unitdate
+                    type="inclusive" normal="1968-04-08/1968-04-09">April 8-9,
+                  1968</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-20]</p>
@@ -2082,7 +2314,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>Business and Arts Conference, Bangor, Maine <unitdate type="inclusive" normal="1968-05-07">May 7, 1968</unitdate></unittitle>
+                <unittitle>Business and Arts Conference, Bangor, Maine <unitdate type="inclusive"
+                    normal="1968-05-07">May 7, 1968</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-21]</p>
@@ -2091,7 +2324,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>"Magazines at the Moment." Northwestern University Medill School of Journalism <unitdate type="inclusive" normal="1968-05-16">May 16, 1968</unitdate></unittitle>
+                <unittitle>"Magazines at the Moment." Northwestern University Medill School of
+                  Journalism <unitdate type="inclusive" normal="1968-05-16">May 16,
+                  1968</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -2103,7 +2338,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>"Selling the Arts". American Symphony Orchestra League Conference <unitdate type="inclusive" normal="1968-06-03">June 3, 1968</unitdate></unittitle>
+                <unittitle>"Selling the Arts". American Symphony Orchestra League Conference
+                    <unitdate type="inclusive" normal="1968-06-03">June 3,
+                  1968</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -2115,7 +2352,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>"Salvaging the 20th Century" Esquire Seminar <unitdate type="inclusive" normal="1968-06-11">June 11, 1968</unitdate></unittitle>
+                <unittitle>"Salvaging the 20th Century" Esquire Seminar <unitdate type="inclusive"
+                    normal="1968-06-11">June 11, 1968</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
@@ -2127,7 +2365,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>"Unfinished Business." Henry Johnson Fisher Award <unitdate type="inclusive" normal="1968-09-17">September 17, 1968</unitdate></unittitle>
+                <unittitle>"Unfinished Business." Henry Johnson Fisher Award <unitdate
+                    type="inclusive" normal="1968-09-17">September 17, 1968</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -2139,7 +2378,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>Corporate Seminar, Saratoga Performing Arts Center <unitdate type="inclusive" normal="1968-10-04">October 4, 1968</unitdate></unittitle>
+                <unittitle>Corporate Seminar, Saratoga Performing Arts Center <unitdate
+                    type="inclusive" normal="1968-10-04">October 4, 1968</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-32]</p>
@@ -2148,7 +2388,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>"Communications Media, and People." Illinois-Library Association. Conference <unitdate type="inclusive" normal="1968-10-18">October 18, 1968</unitdate></unittitle>
+                <unittitle>"Communications Media, and People." Illinois-Library Association.
+                  Conference <unitdate type="inclusive" normal="1968-10-18">October 18,
+                    1968</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-33]</p>
@@ -2164,7 +2406,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>"Selling the Arts." Women's Committee of Chicago Symphony <unitdate type="inclusive" normal="1969-02-04">February 4, 1969</unitdate></unittitle>
+                <unittitle>"Selling the Arts." Women's Committee of Chicago Symphony <unitdate
+                    type="inclusive" normal="1969-02-04">February 4, 1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-34]</p>
@@ -2173,7 +2416,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>National Music Council, New York City <unitdate type="inclusive" normal="1969-02-21">February 21, 1969</unitdate></unittitle>
+                <unittitle>National Music Council, New York City <unitdate type="inclusive"
+                    normal="1969-02-21">February 21, 1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-35]</p>
@@ -2182,7 +2426,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>American Management Association, New York City <unitdate type="inclusive" normal="1969-03-10">March 10, 1969</unitdate></unittitle>
+                <unittitle>American Management Association, New York City <unitdate type="inclusive"
+                    normal="1969-03-10">March 10, 1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-36]</p>
@@ -2191,7 +2436,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>Art Directors Club, New York City <unitdate type="inclusive" normal="1969-03-26">March 26, 1969</unitdate></unittitle>
+                <unittitle>Art Directors Club, New York City <unitdate type="inclusive"
+                    normal="1969-03-26">March 26, 1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-37]</p>
@@ -2200,7 +2446,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>"Culture and Its Institutions: Can They Keep Pace?" Oklahoma Library Association Conference <unitdate type="inclusive" normal="1969-04-24">April 24, 1969</unitdate></unittitle>
+                <unittitle>"Culture and Its Institutions: Can They Keep Pace?" Oklahoma Library
+                  Association Conference <unitdate type="inclusive" normal="1969-04-24">April 24,
+                    1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-38]</p>
@@ -2209,7 +2457,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>"Selling the Arts." Minnesota Orchestral Association <unitdate type="inclusive" normal="1969-05-01">May 1, 1969</unitdate></unittitle>
+                <unittitle>"Selling the Arts." Minnesota Orchestral Association <unitdate
+                    type="inclusive" normal="1969-05-01">May 1, 1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-39]</p>
@@ -2218,7 +2467,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>Woman's Club of Englewood Library Dedication <unitdate type="inclusive" normal="1969-05-02">May 2, 1969</unitdate></unittitle>
+                <unittitle>Woman's Club of Englewood Library Dedication <unitdate type="inclusive"
+                    normal="1969-05-02">May 2, 1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-40]</p>
@@ -2227,7 +2477,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">9</container>
-                <unittitle>National Telephone Communications Conference <unitdate type="inclusive" normal="1969-05-23">May 23, 1969</unitdate></unittitle>
+                <unittitle>National Telephone Communications Conference <unitdate type="inclusive"
+                    normal="1969-05-23">May 23, 1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[9-41]</p>
@@ -2236,7 +2487,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>"The Role of the Publisher in Terms of New Directions in Communications." 12th Annual International Marketing Promotion Conference <unitdate type="inclusive" normal="1969-05-27">May 27, 1969</unitdate></unittitle>
+                <unittitle>"The Role of the Publisher in Terms of New Directions in Communications."
+                  12th Annual International Marketing Promotion Conference <unitdate
+                    type="inclusive" normal="1969-05-27">May 27, 1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-1]</p>
@@ -2245,7 +2498,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>Commencement Address. Manhattan School of Music <unitdate type="inclusive" normal="1969-06-03">June 3, 1969</unitdate></unittitle>
+                <unittitle>Commencement Address. Manhattan School of Music <unitdate
+                    type="inclusive" normal="1969-06-03">June 3, 1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-2]</p>
@@ -2254,7 +2508,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>Saint Paul Council of Arts and Sciences <unitdate type="inclusive" normal="1969-06-23">June 23, 1969</unitdate></unittitle>
+                <unittitle>Saint Paul Council of Arts and Sciences <unitdate type="inclusive"
+                    normal="1969-06-23">June 23, 1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-3]</p>
@@ -2263,7 +2518,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>"The Coming Come Back of the Printed Word." 12th Annual Advertising Age Workshop, Chicago, Ill. <unitdate type="inclusive" normal="1969-07-31">July 31, 1969</unitdate></unittitle>
+                <unittitle>"The Coming Come Back of the Printed Word." 12th Annual Advertising Age
+                  Workshop, Chicago, Ill. <unitdate type="inclusive" normal="1969-07-31">July 31,
+                    1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-4]</p>
@@ -2272,7 +2529,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>Esquire Round Table Luncheon, Detroit, Mich. <unitdate type="inclusive" normal="1969-08-13">August 13, 1969</unitdate></unittitle>
+                <unittitle>Esquire Round Table Luncheon, Detroit, Mich. <unitdate type="inclusive"
+                    normal="1969-08-13">August 13, 1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-5]</p>
@@ -2281,7 +2539,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>"Business and the Arts: the Ecology of Survival." Arts Award, New York Board of Trade <unitdate type="inclusive" normal="1969-09-18">September 18, 1969</unitdate></unittitle>
+                <unittitle>"Business and the Arts: the Ecology of Survival." Arts Award, New York
+                  Board of Trade <unitdate type="inclusive" normal="1969-09-18">September 18,
+                    1969</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -2293,7 +2553,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>"Historic Preservation and the Business Community." 23rd Annual Meeting, National Trust for Historic Preservation <unitdate type="inclusive" normal="1969-10-04">October 4, 1969</unitdate></unittitle>
+                <unittitle>"Historic Preservation and the Business Community." 23rd Annual Meeting,
+                  National Trust for Historic Preservation <unitdate type="inclusive"
+                    normal="1969-10-04">October 4, 1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-8]</p>
@@ -2302,7 +2564,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>"Business and Youth." Publishers page, Esquire Magazine <unitdate type="inclusive" normal="1969-10">October 1969</unitdate></unittitle>
+                <unittitle>"Business and Youth." Publishers page, Esquire Magazine <unitdate
+                    type="inclusive" normal="1969-10">October 1969</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -2314,7 +2577,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>"What So Gladly You Teach." Annual Convention of National Guild of Community Music Schools, New York City <unitdate type="inclusive" normal="1969-11-10">November 10, 1969</unitdate></unittitle>
+                <unittitle>"What So Gladly You Teach." Annual Convention of National Guild of
+                  Community Music Schools, New York City <unitdate type="inclusive"
+                    normal="1969-11-10">November 10, 1969</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-11]</p>
@@ -2330,7 +2595,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle><title render="italic">Outstanding Consumer Magazine</title> Executive Award, <unitdate type="inclusive" normal="1970-01">January 1970</unitdate></unittitle>
+                <unittitle><title render="italic">Outstanding Consumer Magazine</title> Executive
+                  Award, <unitdate type="inclusive" normal="1970-01">January
+                  1970</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-12]</p>
@@ -2339,7 +2606,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>"The Business End of the Arts." Avant-Garde Group of the Fort Lauderdale Museum of Art, Fort Lauderdale, Fla. <unitdate type="inclusive" normal="1970-01-08">January 8, 1970</unitdate></unittitle>
+                <unittitle>"The Business End of the Arts." Avant-Garde Group of the Fort Lauderdale
+                  Museum of Art, Fort Lauderdale, Fla. <unitdate type="inclusive"
+                    normal="1970-01-08">January 8, 1970</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-13]</p>
@@ -2348,7 +2617,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>Palm Beach Round Table <unitdate type="inclusive" normal="1970-03-18">March 18, 1970</unitdate></unittitle>
+                <unittitle>Palm Beach Round Table <unitdate type="inclusive" normal="1970-03-18"
+                    >March 18, 1970</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-14]</p>
@@ -2357,7 +2627,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>"The Coming Comeback of the Printed Word. Advertising Council, Rochester, N.Y. <unitdate type="inclusive" normal="1970-04-01">April 1, 1970</unitdate></unittitle>
+                <unittitle>"The Coming Comeback of the Printed Word. Advertising Council, Rochester,
+                  N.Y. <unitdate type="inclusive" normal="1970-04-01">April 1,
+                  1970</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-15]</p>
@@ -2366,7 +2638,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>"The Business End of the Arts. Forum of the Oklahoma City Chamber of Commerce <unitdate type="inclusive" normal="1970-05-01">May 1, 1970</unitdate></unittitle>
+                <unittitle>"The Business End of the Arts. Forum of the Oklahoma City Chamber of
+                  Commerce <unitdate type="inclusive" normal="1970-05-01">May 1,
+                  1970</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-16]</p>
@@ -2375,7 +2649,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>"A Concern for Quality." Phi Beta Kappa Society, Oklahoma City <unitdate type="inclusive" normal="1970-05-01">May 1, 1970</unitdate></unittitle>
+                <unittitle>"A Concern for Quality." Phi Beta Kappa Society, Oklahoma City <unitdate
+                    type="inclusive" normal="1970-05-01">May 1, 1970</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-17]</p>
@@ -2384,7 +2659,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>21st Annual Dinner Meeting of the Arts Council, Winston-Salem, N.C. <unitdate type="inclusive" normal="1970-05-14">May 14, 1970</unitdate></unittitle>
+                <unittitle>21st Annual Dinner Meeting of the Arts Council, Winston-Salem, N.C.
+                    <unitdate type="inclusive" normal="1970-05-14">May 14,
+                  1970</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-18]</p>
@@ -2393,7 +2670,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>"Business End of the Arts." 4th Annual Esquire-BCA awards <unitdate type="inclusive" normal="1970-05-21">May 21, 1970</unitdate></unittitle>
+                <unittitle>"Business End of the Arts." 4th Annual Esquire-BCA awards <unitdate
+                    type="inclusive" normal="1970-05-21">May 21, 1970</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-19]</p>
@@ -2402,7 +2680,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>6th Annual Meeting of the Seattle Opera Association <unitdate type="inclusive" normal="1970-06-02">June 2, 1970</unitdate></unittitle>
+                <unittitle>6th Annual Meeting of the Seattle Opera Association <unitdate
+                    type="inclusive" normal="1970-06-02">June 2, 1970</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-20]</p>
@@ -2411,7 +2690,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>American Educational Theatre Conference <unitdate type="inclusive" normal="1970-08-25">August 25, 1970</unitdate></unittitle>
+                <unittitle>American Educational Theatre Conference <unitdate type="inclusive"
+                    normal="1970-08-25">August 25, 1970</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-21]</p>
@@ -2420,7 +2700,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>Symposium, Iowa State Arts Council, Davenport, Iowa <unitdate type="inclusive" normal="1970-10-23">October 23, 1970</unitdate></unittitle>
+                <unittitle>Symposium, Iowa State Arts Council, Davenport, Iowa <unitdate
+                    type="inclusive" normal="1970-10-23">October 23, 1970</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-22]</p>
@@ -2429,7 +2710,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>National Guild of Community Music Schools, Cleveland, Ohio <unitdate type="inclusive" normal="1970-11-09">November 9, 1970</unitdate></unittitle>
+                <unittitle>National Guild of Community Music Schools, Cleveland, Ohio <unitdate
+                    type="inclusive" normal="1970-11-09">November 9, 1970</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-23]</p>
@@ -2445,7 +2727,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>Mannes College of Music, New York City <unitdate type="inclusive" normal="1971-03-04">March 4, 1971</unitdate></unittitle>
+                <unittitle>Mannes College of Music, New York City <unitdate type="inclusive"
+                    normal="1971-03-04">March 4, 1971</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-24]</p>
@@ -2454,7 +2737,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>Bridgeport Area Chamber of Commerce and Bridgeport Commission on the Arts <unitdate type="inclusive" normal="1971-09-27">September 27, 1971</unitdate></unittitle>
+                <unittitle>Bridgeport Area Chamber of Commerce and Bridgeport Commission on the Arts
+                    <unitdate type="inclusive" normal="1971-09-27">September 27,
+                  1971</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-25]</p>
@@ -2463,7 +2748,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>Twentieth Century Club, Cleveland, Ohio <unitdate type="inclusive" normal="1971-11-24">November 24, 1971</unitdate></unittitle>
+                <unittitle>Twentieth Century Club, Cleveland, Ohio <unitdate type="inclusive"
+                    normal="1971-11-24">November 24, 1971</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-26]</p>
@@ -2479,7 +2765,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>Council for the Arts in Westchester at Ciba-Geigys Corp. Ardsley, New York <unitdate type="inclusive" normal="1972-06-01">June 1, 1972</unitdate></unittitle>
+                <unittitle>Council for the Arts in Westchester at Ciba-Geigys Corp. Ardsley, New
+                  York <unitdate type="inclusive" normal="1972-06-01">June 1,
+                  1972</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-27]</p>
@@ -2488,7 +2776,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>American Symphony Orchestra League Conference, Cincinnati, Ohio <unitdate type="inclusive" normal="1972-06-16">June 16, 1972</unitdate></unittitle>
+                <unittitle>American Symphony Orchestra League Conference, Cincinnati, Ohio <unitdate
+                    type="inclusive" normal="1972-06-16">June 16, 1972</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-28]</p>
@@ -2497,7 +2786,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>"Museums and Money: Separate Worlds?" Phoenix (Ariz.) Art Museum <unitdate type="inclusive" normal="1972-10-26">October 26, 1972</unitdate></unittitle>
+                <unittitle>"Museums and Money: Separate Worlds?" Phoenix (Ariz.) Art Museum
+                    <unitdate type="inclusive" normal="1972-10-26">October 26,
+                  1972</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-29]</p>
@@ -2513,7 +2804,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>Lakefront Festival of Arts, Milwaukee, Wis. <unitdate type="inclusive" normal="1973-01-23">January 23, 1973</unitdate></unittitle>
+                <unittitle>Lakefront Festival of Arts, Milwaukee, Wis. <unitdate type="inclusive"
+                    normal="1973-01-23">January 23, 1973</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-30]</p>
@@ -2522,7 +2814,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>First Annual Corporate Social Responsibility Advertising Award speech; Department of Journalism talk, University of Michigan <unitdate type="inclusive" normal="1973-09">September 1973</unitdate></unittitle>
+                <unittitle>First Annual Corporate Social Responsibility Advertising Award speech;
+                  Department of Journalism talk, University of Michigan <unitdate type="inclusive"
+                    normal="1973-09">September 1973</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-31]</p>
@@ -2538,7 +2832,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>ABC Encore Awards Luncheon, New York City <unitdate type="inclusive" normal="1974-11-20">November 20, 1974</unitdate></unittitle>
+                <unittitle>ABC Encore Awards Luncheon, New York City <unitdate type="inclusive"
+                    normal="1974-11-20">November 20, 1974</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-32]</p>
@@ -2555,7 +2850,7 @@
               <did>
                 <container type="box" label="Box">10</container>
                 <unittitle>
-                  <unitdate type="inclusive">undated</unitdate>
+                  <unitdate>undated</unitdate>
                 </unittitle>
               </did>
               <odd>
@@ -2565,7 +2860,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>Philadelphia Orchestra's Women's Committee Membership Campaign <unitdate type="inclusive" normal="1975-03-06">March 6, 1975</unitdate></unittitle>
+                <unittitle>Philadelphia Orchestra's Women's Committee Membership Campaign <unitdate
+                    type="inclusive" normal="1975-03-06">March 6, 1975</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-34]</p>
@@ -2574,7 +2870,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>Northeast Trout Forum <unitdate type="inclusive" normal="1975-03-22">March 22, 1975</unitdate></unittitle>
+                <unittitle>Northeast Trout Forum <unitdate type="inclusive" normal="1975-03-22"
+                    >March 22, 1975</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-35]</p>
@@ -2583,7 +2880,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">10</container>
-                <unittitle>Eastern Council Conclave <unitdate type="inclusive" normal="1975-05-30">May 30, 1975</unitdate></unittitle>
+                <unittitle>Eastern Council Conclave <unitdate type="inclusive" normal="1975-05-30"
+                    >May 30, 1975</unitdate></unittitle>
               </did>
               <odd>
                 <p>[10-36]</p>
@@ -2610,7 +2908,9 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">10</container>
-              <unittitle><title render="italic">Esquire</title> Magazine Symposium, <unitdate type="inclusive" normal="1958-10-09/1958-10-10">October 9-10, 1958</unitdate> "The Role of the Writer in America"</unittitle>
+              <unittitle><title render="italic">Esquire</title> Magazine Symposium, <unitdate
+                  type="inclusive" normal="1958-10-09/1958-10-10">October 9-10, 1958</unitdate> "The
+                Role of the Writer in America"</unittitle>
             </did>
             <odd>
               <p>[10-41]</p>
@@ -2619,7 +2919,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">10</container>
-              <unittitle><title render="italic">Esquire</title> Magazine Symposium, October 20-21, 1960:, "Writing in America Today"</unittitle>
+              <unittitle><title render="italic">Esquire</title> Magazine Symposium, October 20-21,
+                1960:, "Writing in America Today"</unittitle>
             </did>
             <odd>
               <p>[10-42]</p>
@@ -2628,7 +2929,9 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">10</container>
-              <unittitle><title render="italic">Esquire</title> Magazine Symposium, <unitdate type="inclusive" normal="1963-04-19/1963-04-20">April 19-20, 1963</unitdate> "The Pursuit of Excellence in the Creative Arts"</unittitle>
+              <unittitle><title render="italic">Esquire</title> Magazine Symposium, <unitdate
+                  type="inclusive" normal="1963-04-19/1963-04-20">April 19-20, 1963</unitdate> "The
+                Pursuit of Excellence in the Creative Arts"</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
@@ -2640,7 +2943,9 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">10</container>
-              <unittitle><title render="italic">Esquire</title> Magazine Symposium, <unitdate type="inclusive" normal="1964-04-29">April 29, 1964</unitdate> "The State of Theatre"</unittitle>
+              <unittitle><title render="italic">Esquire</title> Magazine Symposium, <unitdate
+                  type="inclusive" normal="1964-04-29">April 29, 1964</unitdate> "The State of
+                Theatre"</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
@@ -2652,7 +2957,9 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">10</container>
-              <unittitle><title render="italic">Esquire</title> Magazine Symposium, <unitdate type="inclusive" normal="1965-04-05/1965-04-06">April 5-6, 1965</unitdate> Chapel Hill, North Carolina</unittitle>
+              <unittitle><title render="italic">Esquire</title> Magazine Symposium, <unitdate
+                  type="inclusive" normal="1965-04-05/1965-04-06">April 5-6, 1965</unitdate> Chapel
+                Hill, North Carolina</unittitle>
             </did>
             <odd>
               <p>[10-48]</p>
@@ -2661,7 +2968,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">10</container>
-              <unittitle><title render="italic">Esquire</title> Magazine Symposium (General)</unittitle>
+              <unittitle><title render="italic">Esquire</title> Magazine Symposium
+                (General)</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
@@ -2677,7 +2985,14 @@
           <unittitle>Esquire Magazine Office Files</unittitle>
         </did>
         <scopecontent>
-          <p>The Esquire Magazine Office Files is the largest series in the collection. Arranged alphabetically, this series, although received as part of the Gingrich accession, is more properly the files of the Esquire office. The largest portions of this series pertain to artists and the art department, authors writing for Esquire, personnel, readers' mail, and subject files. The authors files are from the more recent period in Esquire's history, from the mid-1950s to the 1970s. There are files for such individuals as Vance Bourjaily, Howard Fast, Aldous Huxley, Dwight MacDonald, Westbrook Pegler, Allan Seager, and Jesse Stuart.</p>
+          <p>The Esquire Magazine Office Files is the largest series in the collection. Arranged
+            alphabetically, this series, although received as part of the Gingrich accession, is
+            more properly the files of the Esquire office. The largest portions of this series
+            pertain to artists and the art department, authors writing for Esquire, personnel,
+            readers' mail, and subject files. The authors files are from the more recent period in
+            Esquire's history, from the mid-1950s to the 1970s. There are files for such individuals
+            as Vance Bourjaily, Howard Fast, Aldous Huxley, Dwight MacDonald, Westbrook Pegler,
+            Allan Seager, and Jesse Stuart.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
@@ -2736,7 +3051,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">11</container>
-              <unittitle>Advertising Complaint s <unitdate type="inclusive" normal="1962/1971">1962-1971</unitdate></unittitle>
+              <unittitle>Advertising Complaint s <unitdate type="inclusive" normal="1962/1971"
+                  >1962-1971</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -3258,7 +3574,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">14</container>
-                <unittitle>Complaints <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></unittitle>
+                <unittitle>Complaints <unitdate type="inclusive" normal="1966/1969"
+                    >1966-1969</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
@@ -3314,13 +3631,15 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">14</container>
-                <unittitle>Record <unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate> of manuscripts received</unittitle>
+                <unittitle>Record <unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate>
+                  of manuscripts received</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">14</container>
-                <unittitle>Silver Anniversary Issue <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
+                <unittitle>Silver Anniversary Issue <unitdate type="inclusive" normal="1958"
+                    >1958</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -3454,7 +3773,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">15</container>
-                <unittitle>Aspen Institute for Humanistic Studies <unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate></unittitle>
+                <unittitle>Aspen Institute for Humanistic Studies <unitdate type="inclusive"
+                    normal="1961/1964">1961-1964</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -3924,19 +4244,25 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">19</container>
-                <unittitle><title render="italic">New York Herald Tribune</title>.(Sunday), <unitdate type="inclusive" normal="1964-05-24">May 24, 1964</unitdate></unittitle>
+                <unittitle><title render="italic">New York Herald Tribune</title>.(Sunday),
+                    <unitdate type="inclusive" normal="1964-05-24">May 24,
+                  1964</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">19</container>
-                <unittitle>Sunday <title render="italic">Times</title> (England), <unitdate type="inclusive" normal="1966-01-02">January 2, 1966</unitdate></unittitle>
+                <unittitle>Sunday <title render="italic">Times</title> (England), <unitdate
+                    type="inclusive" normal="1966-01-02">January 2, 1966</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">19</container>
-                <unittitle><title render="italic">Detroit Magazine</title>, "Flyrod Man with a Magazine: Michigan's Arnold Gingrich, <title render="italic">Esquire</title>," <unitdate type="inclusive" normal="1966-02-20">February 20, 1966</unitdate></unittitle>
+                <unittitle><title render="italic">Detroit Magazine</title>, "Flyrod Man with a
+                  Magazine: Michigan's Arnold Gingrich, <title render="italic">Esquire</title>,"
+                    <unitdate type="inclusive" normal="1966-02-20">February 20,
+                  1966</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -3948,49 +4274,62 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">19</container>
-                <unittitle>CBC Telescope Program, "Arnold Gingrich, Esquire," <unitdate type="inclusive" normal="1968-01">January 1968</unitdate></unittitle>
+                <unittitle>CBC Telescope Program, "Arnold Gingrich, Esquire," <unitdate
+                    type="inclusive" normal="1968-01">January 1968</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">19</container>
-                <unittitle><title render="italic">New York Times</title>, <unitdate type="inclusive" normal="1968-04-25">April 25, 1968</unitdate></unittitle>
+                <unittitle><title render="italic">New York Times</title>, <unitdate type="inclusive"
+                    normal="1968-04-25">April 25, 1968</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">19</container>
-                <unittitle><title render="italic">Wall Street Journal</title>, <unitdate type="inclusive" normal="1968-05-09">May 9, 1968</unitdate></unittitle>
+                <unittitle><title render="italic">Wall Street Journal</title>, <unitdate
+                    type="inclusive" normal="1968-05-09">May 9, 1968</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">19</container>
-                <unittitle><title render="italic">Chicago Magazine</title>, "Meyer Levin Remembers Esquire," <unitdate type="inclusive" normal="1972-04">April 1972</unitdate></unittitle>
+                <unittitle><title render="italic">Chicago Magazine</title>, "Meyer Levin Remembers
+                  Esquire," <unitdate type="inclusive" normal="1972-04">April
+                  1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">19</container>
-                <unittitle><title render="italic">New Review</title>, Interview with Arnold Gingrich, Spring, <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+                <unittitle><title render="italic">New Review</title>, Interview with Arnold
+                  Gingrich, Spring, <unitdate type="inclusive" normal="1973"
+                  >1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">19</container>
-                <unittitle><title render="italic">The Record</title> (Bergen Co., New Jersey), <unitdate type="inclusive" normal="1973-10-04">October 4, 1973</unitdate></unittitle>
+                <unittitle><title render="italic">The Record</title> (Bergen Co., New Jersey),
+                    <unitdate type="inclusive" normal="1973-10-04">October 4,
+                  1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">19</container>
-                <unittitle><title render="italic">New York Times</title> advertisement, "The Buck Must Stop Somewhere, ", <unitdate type="inclusive" normal="1973-12-07">December 7, 1973</unitdate></unittitle>
+                <unittitle><title render="italic">New York Times</title> advertisement, "The Buck
+                  Must Stop Somewhere, ", <unitdate type="inclusive" normal="1973-12-07">December 7,
+                    1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">19</container>
-                <unittitle><title render="italic">Business Week</title> advertisement, "This Man Wants Your Company," <unitdate type="inclusive" normal="1974-04-06">April 6, 1974</unitdate></unittitle>
+                <unittitle><title render="italic">Business Week</title> advertisement, "This Man
+                  Wants Your Company," <unitdate type="inclusive" normal="1974-04-06">April 6,
+                    1974</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -4016,7 +4355,8 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">19</container>
-                  <unittitle><unitdate type="inclusive" normal="1962">1962</unitdate> re caricatures of Kennedy family</unittitle>
+                  <unittitle><unitdate type="inclusive" normal="1962">1962</unitdate> re caricatures
+                    of Kennedy family</unittitle>
                 </did>
               </c05>
               <c05 level="file">
@@ -4213,7 +4553,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">21</container>
-              <unittitle><title render="italic">Gentlemen's Quarterly</title>- <title render="italic">Apparel Arts</title></unittitle>
+              <unittitle><title render="italic">Gentlemen's Quarterly</title>- <title
+                  render="italic">Apparel Arts</title></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -4257,7 +4598,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">21</container>
-              <unittitle>Television program <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+              <unittitle>Television program <unitdate type="inclusive" normal="1956"
+                >1956</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -4273,7 +4615,10 @@
           <unittitle>Arnold Gingrich Writing Projects</unittitle>
         </did>
         <scopecontent>
-          <p>The series - Arnold Gingrich Writing Projects - contains drafts of Gingrich's essays, reviews and clippings of some of his writings, and copies of articles that he wrote for Esquire and other magazines. This series also includes copies of books written by Gingrich.</p>
+          <p>The series - Arnold Gingrich Writing Projects - contains drafts of Gingrich's essays,
+            reviews and clippings of some of his writings, and copies of articles that he wrote for
+            Esquire and other magazines. This series also includes copies of books written by
+            Gingrich.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
@@ -4288,7 +4633,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">21</container>
-              <unittitle>"Why an Editor" from <title render="italic">Nothing But People</title></unittitle>
+              <unittitle>"Why an Editor" from <title render="italic">Nothing But
+                People</title></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -4314,7 +4660,7 @@
               <did>
                 <container type="box" label="Box">21</container>
                 <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
+                  <unitdate>Undated</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -4362,13 +4708,15 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">22</container>
-              <unittitle>Miscellaneous magazine articles <unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate></unittitle>
+              <unittitle>Miscellaneous magazine articles <unitdate type="inclusive"
+                  normal="1930/1939" certainty="approximate">1930s</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">22</container>
-              <unittitle>Miscellaneous magazine articles <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
+              <unittitle>Miscellaneous magazine articles <unitdate type="inclusive"
+                  normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -4455,7 +4803,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>"The Truth as Private Property" <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
+              <unittitle>"The Truth as Private Property" <unitdate type="inclusive"
+                  normal="1966/1967">1966-1967</unitdate></unittitle>
             </did>
           </c03>
         </c02>
@@ -4534,7 +4883,8 @@
           <unittitle>Organizational Affiliations (largely musical and art)</unittitle>
         </did>
         <scopecontent>
-          <p>Organizational Affiliations contains files of materials accumulated and pertaining to Gingrich's participation in business, arts, and other cultural organizations.</p>
+          <p>Organizational Affiliations contains files of materials accumulated and pertaining to
+            Gingrich's participation in business, arts, and other cultural organizations.</p>
         </scopecontent>
         <c02 level="file">
           <did>
@@ -4706,12 +5056,16 @@
           <unittitle>Fly-fishing</unittitle>
         </did>
         <scopecontent>
-          <p>The Fly-fishing series concerns Gingrich's participation fly-fishing organization, reviews written of fly-fishing books, and reviews and correspondence received pertaining to his own writings on fly-fishing, most notably <title render="italic">The Joys of Trout.</title></p>
+          <p>The Fly-fishing series concerns Gingrich's participation fly-fishing organization,
+            reviews written of fly-fishing books, and reviews and correspondence received pertaining
+            to his own writings on fly-fishing, most notably <title render="italic">The Joys of
+              Trout.</title></p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container label="Box" type="box">24</container>
-            <unittitle>Theodore Gordon Flyfishers <unitdate type="inclusive" normal="1964/1974">1964-1974</unitdate></unittitle>
+            <unittitle>Theodore Gordon Flyfishers <unitdate type="inclusive" normal="1964/1974"
+                >1964-1974</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">10 folders</extent>
             </physdesc>
@@ -4720,7 +5074,8 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">24</container>
-            <unittitle><title render="italic">The Complete Fly Fisherman</title> by John McDonald</unittitle>
+            <unittitle><title render="italic">The Complete Fly Fisherman</title> by John
+              McDonald</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
@@ -4741,7 +5096,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">24</container>
-              <unittitle>Papers <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate></unittitle>
+              <unittitle>Papers <unitdate type="inclusive" normal="1963/1966"
+                >1963-1966</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
               </physdesc>
@@ -4799,37 +5155,127 @@
           </unittitle>
         </did>
         <scopecontent>
-          <p>Sound Recordings is a series of reel-to-reel audio-tapes of radio programs and seminars in which Gingrich participated. The topic of one of these was "The Moral Responsibilities of the Press." Compact discs have been made of these recordings.</p>
+          <p>Sound Recordings is a series of reel-to-reel audio-tapes of radio programs and seminars
+            in which Gingrich participated. The topic of one of these was "The Moral
+            Responsibilities of the Press." Compact discs have been made of these recordings.</p>
         </scopecontent>
-        <c02 level="file">
+        <accessrestrict>
+          <p>[Digitized audio files are only available in the Bentley Historical Library reading
+            room on designated Bentley Library computers.]</p>
+        </accessrestrict>
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <container label="Box" type="box">25</container>
-            <unittitle>Mutual Broadcasting System Network <unitdate type="inclusive" normal="1967-06-17">June 17, 1967</unitdate></unittitle>
+            <unittitle>Mutual Broadcasting System Network, <unitdate type="inclusive">1967 June
+                17</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 5 inch, 7 1/2 ips</physfacet></physdesc>
           </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85188-SR-1-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_4c625nfi" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Viewpoint broadcast over Mutual Broadcasting System Network)</abstract>
+            </did>
+          </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <container type="box" label="Box">25</container>
-            <unittitle>Celebrity's choice with Dick Hubert, WABC-FM <unitdate type="inclusive" normal="1966-09-25">September 25, 1966</unitdate></unittitle>
+            <unittitle>Celebrity's choice with Dick Hubert, WABC-FM, <unitdate type="inclusive">1966
+                September 25</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet></physdesc>
           </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85188-SR-2-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_0z7d1sr6" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Interview with Arnold Gingrich on Celebrity's Choice. Sunday September 25,
+                1966 8:00 - 9:00pm)</abstract>
+            </did>
+          </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <container type="box" label="Box">25</container>
-            <unittitle>NBC Radio Monitor <unitdate type="inclusive" normal="1964-01-20">January 20, 1964</unitdate></unittitle>
+            <unittitle>NBC Radio Monitor, <unitdate type="inclusive">1964 January
+              20</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet></physdesc>
           </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85188-SR-3-1-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_qq3kt7fk" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(NBC Radio Monitor Gingrich interview )</abstract>
+            </did>
+          </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <container type="box" label="Box">25</container>
-            <unittitle>National Council of the Episcopal Church radio program <unitdate type="inclusive" normal="1963" certainty="approximate">circa 1963</unitdate></unittitle>
+            <unittitle>National Council of the Episcopal Church radio program, <unitdate
+                type="inclusive">1963?</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 5 inch, 7 1/2 ips</physfacet></physdesc>
           </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85188-SR-4-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_rndzgtus" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Jane Martin interviewing Arnold Gingrich for radio show "Good Life". Topics
+                discussed include fashion, Esquire writers, and how Esquire got its name. Note in
+                box: may have been done for Esquire's 30th anniversary in 1963.)</abstract>
+            </did>
+          </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <container type="box" label="Box">25</container>
-            <unittitle>"Moral Responsibilities of the Press" Institute Francois de Presse of the University of Paris <unitdate type="inclusive" normal="1959-04-24">April 24, 1959</unitdate></unittitle>
+            <unittitle>"Moral Responsibilities of the Press" , <unitdate type="inclusive">1959 April
+                24</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 3 inch</physfacet></physdesc>
           </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85188-SR-5-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_xh05bkvb" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Program recorded in French; recorded at Institute Francois de Presse of the
+                University of Paris.)</abstract>
+            </did>
+          </c03>
         </c02>
       </c01>
       <c01 level="series">
@@ -4839,7 +5285,10 @@
           </unittitle>
         </did>
         <scopecontent>
-          <p>The Visual Materials series consists of ten envelopes of photographs of Gingrich, alone and as part of larger groups, receiving awards, and with his family and friends; also one envelope of violin photographs. There are three DVDs of various television appearances of Gingrich.</p>
+          <p>The Visual Materials series consists of ten envelopes of photographs of Gingrich, alone
+            and as part of larger groups, receiving awards, and with his family and friends; also
+            one envelope of violin photographs. There are three DVDs of various television
+            appearances of Gingrich.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
@@ -4848,7 +5297,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">25</container>
-              <unittitle>"Alumni Fun" broadcast <unitdate type="inclusive" normal="1966-01-23">January 23, 1966</unitdate></unittitle>
+              <unittitle>"Alumni Fun" broadcast <unitdate type="inclusive" normal="1966-01-23"
+                  >January 23, 1966</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -4866,7 +5316,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">25</container>
-              <unittitle>Detroit boat race <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
+              <unittitle>Detroit boat race <unitdate type="inclusive" normal="1949"
+                >1949</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -4884,7 +5335,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">25</container>
-              <unittitle>Oklahoma Library Association conference <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+              <unittitle>Oklahoma Library Association conference <unitdate type="inclusive"
+                  normal="1969">1969</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -4926,7 +5378,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">25</container>
-              <unittitle>AG television appearance on Conversation program WILL TV, host Bill Dale <unitdate type="inclusive" normal="1964-05-13">May 13, 1964</unitdate></unittitle>
+              <unittitle>AG television appearance on Conversation program WILL TV, host Bill Dale
+                  <unitdate type="inclusive" normal="1964-05-13">May 13, 1964</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -4941,7 +5394,8 @@
     <descgrp type="add">
       <relatedmaterial>
         <head>Related Material</head>
-        <archref>The records of Esquire Magazine are also held by the Bentley Library and should be used in conjunction with the Gingrich papers.</archref>
+        <archref>The records of Esquire Magazine are also held by the Bentley Library and should be
+          used in conjunction with the Gingrich papers.</archref>
       </relatedmaterial>
     </descgrp>
   </archdesc>
