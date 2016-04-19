@@ -1,23 +1,34 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
 <ead>
-  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
-    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::hartwick.xml//EN" encodinganalog="identifier">umich-bhl-85199</eadid>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511"
+    dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H"
+      publicid="us//::miu-h//TXT us::miu-h::hartwick.xml//EN" encodinganalog="identifier"
+      >umich-bhl-85199</eadid>
     <filedesc>
       <titlestmt>
-        <titleproper encodinganalog="title">Finding Aid for Edward N. Hartwick Papers, 1898-1978</titleproper>
-        <author encodinganalog="creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+        <titleproper encodinganalog="title">Finding Aid for Edward N. Hartwick Papers,
+          1898-1978</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid created by Michigan
+          Historical Collections staff</author>
       </titlestmt>
       <publicationstmt>
-        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of
+          Michigan</publisher>
         <date encodinganalog="date">2005</date>
       </publicationstmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created by Thomas E. Powers <date>October 2005</date></creation>
-      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <langusage>The finding aid is written in <language langcode="eng"
+        >English</language></langusage>
     </profiledesc>
     <revisiondesc>
+      <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
       <change>
         <date>20051025</date>
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
@@ -26,7 +37,8 @@
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of
+        Michigan</publisher>
       <titleproper>Finding aid for <lb/>Edward N. Hartwick Papers, 1898-1978</titleproper>
       <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
     </titlepage>
@@ -36,38 +48,73 @@
       <origination>
         <persname source="lcnaf" encodinganalog="100">Hartwick, Edward N.</persname>
       </origination>
-      <unittitle encodinganalog="245">Edward N. Hartwick Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1898/1978">1898-1978</unitdate> <unitdate type="bulk" encodinganalog="245$g" normal="1940/1960">1940-1960</unitdate></unittitle>
-      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85199 Aa 2</unitid>
-      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
-      <abstract>President of the Wayne County Republican Precinct Organization and member of the 14th Congressional District Republican Committee; files relating to political activities; also photographs, motion pictures, and sound recordings.</abstract>
+      <unittitle encodinganalog="245">Edward N. Hartwick Papers <unitdate type="inclusive"
+          encodinganalog="245$f" normal="1898/1978">1898-1978</unitdate>, <unitdate type="bulk"
+          encodinganalog="245$g" normal="1940/1960">1940-1960</unitdate></unittitle>
+      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85199
+        Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041"
+          >English</language></langmaterial>
+      <abstract>President of the Wayne County Republican Precinct Organization and member of the
+        14th Congressional District Republican Committee; files relating to political activities;
+        also photographs, motion pictures, and sound recordings.</abstract>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">3 linear feet</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">25.4 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
-        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of
+          Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
     </did>
     <descgrp type="admin">
       <acqinfo encodinganalog="541">
-        <p>The collection was the fit of Mrs. Louis Hartwick (Donor no. <num type="donor" encodinganalog="541$e">5892</num>) and came to the library in several accessions beginning in 1976.</p>
+        <p>The collection was the fit of Mrs. Louis Hartwick (Donor no. <num type="donor"
+            encodinganalog="541$e">5892</num>) and came to the library in several accessions
+          beginning in 1976.</p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open to research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source
+          tapes are for staff use only. Audio files are only available in the Bentley Historical
+          Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright is held by the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box, Edward N. Hartwick Papers, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Edward N. Hartwick Papers, Bentley Historical Library, University of
+          Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a
+          number of sound recordings within this collection. The resulting audio files are available
+          for playback only in the Bentley Library Reading Room. Links to item images and additional
+          information are available within this finding aid. Original sound recordings are only
+          available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
-      <p>Edward N. Hartwick was active in Michigan Republican Party politics in the 1940s and 1950s. He served as president of the Wayne County Republican Precinct Organization, a reform group created to oppose "boss" control of the local party structure. He was also a member of the 14th Congressional District Republican Committee and a delegate to National Republican Conventions, most notably in 1952.</p>
+      <p>Edward N. Hartwick was active in Michigan Republican Party politics in the 1940s and 1950s.
+        He served as president of the Wayne County Republican Precinct Organization, a reform group
+        created to oppose "boss" control of the local party structure. He was also a member of the
+        14th Congressional District Republican Committee and a delegate to National Republican
+        Conventions, most notably in 1952.</p>
     </bioghist>
     <scopecontent encodinganalog="520">
-      <p>The papers of Edward N. Hartwick center around his involvement in the Republican party in the Wayne County area, and on the state and national level. The series in the collection are Wayne County Republican Party Activities; State Republican Central Committee; Election of 1952; Miscellaneous Political Files; Personal; Visual Materials; and Sound Recordings.</p>
-      <p>Included in the collection are meeting minutes, party organizational materials, and other materials relating to his activities within the Wayne County party organization and the Michigan State Central Committee. In addition, there are papers dealing with Hartwick's role as a delegate to the 1952 Republican National Convention. He received many letters urging him to support the various candidates - Eisenhower, MacArthur, and Taft.</p>
+      <p>The papers of Edward N. Hartwick center around his involvement in the Republican party in
+        the Wayne County area, and on the state and national level. The series in the collection are
+        Wayne County Republican Party Activities; State Republican Central Committee; Election of
+        1952; Miscellaneous Political Files; Personal; Visual Materials; and Sound Recordings.</p>
+      <p>Included in the collection are meeting minutes, party organizational materials, and other
+        materials relating to his activities within the Wayne County party organization and the
+        Michigan State Central Committee. In addition, there are papers dealing with Hartwick's role
+        as a delegate to the 1952 Republican National Convention. He received many letters urging
+        him to support the various candidates - Eisenhower, MacArthur, and Taft.</p>
     </scopecontent>
     <controlaccess>
       <p>
@@ -75,31 +122,54 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066408">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79054196">MacArthur, Douglas, 1880-1964.</persname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1939-1945.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1946-1960.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1961-1970.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1837-1950.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.). 14th Congressional District Republican Committee.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2003122412">Republican Party (Mich.). State Central Committee.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.). Wayne County Republican Precinct Organization.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83125299">Taft, Robert A. (Robert Alphonso), 1889-1953.</persname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1945-1953.</geogname>
+        <persname source="lcnaf" encodinganalog="600"
+          authfilenumber="http://id.loc.gov/authorities/names/n79066408">Eisenhower, Dwight D.
+          (Dwight David), 1890-1969.</persname>
+        <persname source="lcnaf" encodinganalog="600"
+          authfilenumber="http://id.loc.gov/authorities/names/n79054196">MacArthur, Douglas,
+          1880-1964.</persname>
+        <geogname source="local" encodinganalog="691">Michigan--Politics and
+          government--1939-1945.</geogname>
+        <geogname source="local" encodinganalog="691">Michigan--Politics and
+          government--1946-1960.</geogname>
+        <geogname source="local" encodinganalog="691">Michigan--Politics and
+          government--1961-1970.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and
+          government--1837-1950.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and
+          government--1951-</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.). 14th Congressional
+          District Republican Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610"
+          authfilenumber="http://id.loc.gov/authorities/names/no2003122412">Republican Party
+          (Mich.). State Central Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.). Wayne County
+          Republican Precinct Organization.</corpname>
+        <persname source="lcnaf" encodinganalog="600"
+          authfilenumber="http://id.loc.gov/authorities/names/n83125299">Taft, Robert A. (Robert
+          Alphonso), 1889-1953.</persname>
+        <geogname source="lcsh" encodinganalog="651">United States--Politics and
+          government--1945-1953.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <geogname source="lcsh" encodinganalog="651">Au Sable River (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009000162">Brake, D. Hale, 1891-1979</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190172">Cleary, Owen J., 1900-1960.</persname>
+        <persname source="lcnaf" encodinganalog="600"
+          authfilenumber="http://id.loc.gov/authorities/names/no2009000162">Brake, D. Hale,
+          1891-1979</persname>
+        <persname source="lcnaf" encodinganalog="600"
+          authfilenumber="http://id.loc.gov/authorities/names/no2008190172">Cleary, Owen J.,
+          1900-1960.</persname>
         <persname source="lcnaf" encodinganalog="600">Hartwick, Edward N.</persname>
         <famname source="lcnaf" encodinganalog="600">Hartwick family.</famname>
         <geogname source="lcsh" encodinganalog="651">Hartwick Pines State Park (Mich.)</geogname>
         <persname source="lcnaf" encodinganalog="600">King, Charles.</persname>
         <persname source="lcnaf" encodinganalog="600">Martin, John Butlin, 1909-</persname>
-        <persname source="lcnaf" encodinganalog="600">Millard, Frank G. (Frank Gurnee), 1897-1976.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79018757">Nixon, Richard M. (Richard Milhous), 1913-1994.</persname>
+        <persname source="lcnaf" encodinganalog="600">Millard, Frank G. (Frank Gurnee),
+          1897-1976.</persname>
+        <persname source="lcnaf" encodinganalog="600"
+          authfilenumber="http://id.loc.gov/authorities/names/n79018757">Nixon, Richard M. (Richard
+          Milhous), 1913-1994.</persname>
         <subject source="lctgm" encodinganalog="650">Parks--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650">Political elections--1952.</subject>
         <subject source="lctgm" encodinganalog="650">Political elections--1956.</subject>
@@ -116,24 +186,43 @@
         <subject source="lcsh" encodinganalog="650">Communism--United States.</subject>
         <subject source="lcsh" encodinganalog="650">Elections--Michigan--1952.</subject>
         <subject source="lcsh" encodinganalog="650">Elections--Michigan--1954.</subject>
-        <subject source="lcsh" encodinganalog="650">Labor movement--United States--Political activity.</subject>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1946-1960.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
+        <subject source="lcsh" encodinganalog="650">Labor movement--United States--Political
+          activity.</subject>
+        <geogname source="local" encodinganalog="691">Michigan--Politics and
+          government--1946-1960.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and
+          government--1951-</geogname>
         <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors: Sound Recordings</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93027752">Ayres, William H. (William Hanes), 1916-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85057581">Curtis, Carl T. (Carl Thomas), 1905-2000</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009000079">Feikens, John, 1917-2011</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79144788">Goldwater, Barry M. (Barry Morris), 1909-1998.</persname>
-        <persname source="lcnaf" encodinganalog="700">Humphrey, George M. (George Magoffin), b. 1890.</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n93027752">Ayres, William H. (William
+          Hanes), 1916-</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n85057581">Curtis, Carl T. (Carl
+          Thomas), 1905-2000</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/no2009000079">Feikens, John,
+          1917-2011</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n79144788">Goldwater, Barry M. (Barry
+          Morris), 1909-1998.</persname>
+        <persname source="lcnaf" encodinganalog="700">Humphrey, George M. (George Magoffin), b.
+          1890.</persname>
         <persname source="lcnaf" encodinganalog="700">Lipscomb, Glenard Paul, 1915-</persname>
         <persname source="lcnaf" encodinganalog="700">Mitchell, James Paul, 1900-1964.</persname>
-        <persname source="lcnaf" encodinganalog="700">Morrow, E. Frederic (Everett Frederic), 1909-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79018757">Nixon, Richard M. (Richard Milhous), 1913-1994.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80139271">Stassen, Harold E. (Harold Edward), 1907-2001</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2004028534">Summerfield, Arthur Ellsworth, 1899-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700">Morrow, E. Frederic (Everett Frederic),
+          1909-</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n79018757">Nixon, Richard M. (Richard
+          Milhous), 1913-1994.</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/n80139271">Stassen, Harold E. (Harold
+          Edward), 1907-2001</persname>
+        <persname source="lcnaf" encodinganalog="700"
+          authfilenumber="http://id.loc.gov/authorities/names/no2004028534">Summerfield, Arthur
+          Ellsworth, 1899-1972.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
@@ -160,37 +249,43 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Organization <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
+              <unittitle>Organization <unitdate type="inclusive">undated</unitdate>, <unitdate
+                  type="inclusive" normal="1940">1940</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Board of directors <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Board of directors <unitdate type="inclusive"
+                >undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1940/1956">1940-1956</unitdate></unittitle>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1940/1956"
+                  >1940-1956</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Minute Book <unitdate type="inclusive" normal="1941/1949">1941-1949</unitdate></unittitle>
+              <unittitle>Minute Book <unitdate type="inclusive" normal="1941/1949"
+                  >1941-1949</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Contributors <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></unittitle>
+              <unittitle>Contributors <unitdate type="inclusive" normal="1949/1950"
+                  >1949-1950</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Finance <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate></unittitle>
+              <unittitle>Finance <unitdate type="inclusive">undated</unitdate>, <unitdate
+                  type="inclusive" normal="1952/1954">1952-1954</unitdate></unittitle>
             </did>
           </c03>
         </c02>
@@ -258,19 +353,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Convention platform <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
+              <unittitle>Convention platform <unitdate type="inclusive" normal="1949"
+                  >1949</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Section book <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+              <unittitle>Section book <unitdate type="inclusive" normal="1953"
+                >1953</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Finances <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1946/1956">1946-1956</unitdate></unittitle>
+              <unittitle>Finances <unitdate type="inclusive">undated</unitdate>, <unitdate
+                  type="inclusive" normal="1946/1956">1946-1956</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -282,32 +380,37 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Newsletter <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
+              <unittitle>Newsletter <unitdate type="inclusive" normal="1958"
+                >1958</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Precinct delegate election results <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
+              <unittitle>Precinct delegate election results <unitdate type="inclusive" normal="1948"
+                  >1948</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">1</container>
-              <unittitle>Alternates to Republican State Convention <unitdate type="inclusive" normal="1956-09-01">September 1, 1956</unitdate></unittitle>
+              <unittitle>Alternates to Republican State Convention <unitdate type="inclusive"
+                  normal="1956-09-01">September 1, 1956</unitdate></unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle>Republican Campaign Committee of Wayne County minutes <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+            <unittitle>Republican Campaign Committee of Wayne County minutes <unitdate
+                type="inclusive" normal="1952">1952</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle>Wayne County Republican "five and ten" club <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Wayne County Republican "five and ten" club <unitdate type="inclusive"
+                >undated</unitdate></unittitle>
           </did>
           <odd>
             <p>(plan for organization and operation)</p>
@@ -360,7 +463,8 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle>Officers <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></unittitle>
+            <unittitle>Officers <unitdate type="inclusive" normal="1955/1957"
+              >1955-1957</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -372,7 +476,8 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle>Papers concerning effects of redistricting on Congressional results <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Papers concerning effects of redistricting on Congressional results <unitdate
+                type="inclusive">undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -395,7 +500,8 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>"The Michigan Republican delegation of 1952" <unitdate type="inclusive" normal="1952">1952</unitdate> by James W. Miller</unittitle>
+            <unittitle>"The Michigan Republican delegation of 1952" <unitdate type="inclusive"
+                normal="1952">1952</unitdate> by James W. Miller</unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -411,13 +517,15 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">2</container>
-              <unittitle>Delegate Contact Operation <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+              <unittitle>Delegate Contact Operation <unitdate type="inclusive" normal="1952"
+                  >1952</unitdate></unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Dwight D. Eisenhower campaign <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+            <unittitle>Dwight D. Eisenhower campaign <unitdate type="inclusive" normal="1952"
+                >1952</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -449,7 +557,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Douglas MacArthur, campaign <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+            <unittitle>Douglas MacArthur, campaign <unitdate type="inclusive" normal="1952"
+                >1952</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -467,12 +576,14 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Reginald B. Naugle <unitdate type="inclusive" normal="1952">1952</unitdate> campaign literature</unittitle>
+            <unittitle>Reginald B. Naugle <unitdate type="inclusive" normal="1952">1952</unitdate>
+              campaign literature</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Robert A. Taft, campaign <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+            <unittitle>Robert A. Taft, campaign <unitdate type="inclusive" normal="1952"
+                >1952</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -493,7 +604,8 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>"A program for Republican victory in 1952" <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>"A program for Republican victory in 1952" <unitdate type="inclusive"
+                >undated</unitdate></unittitle>
           </did>
         </c02>
       </c01>
@@ -504,49 +616,58 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>15th Congressional district <unitdate type="inclusive" normal="1937">1937</unitdate> minutes</unittitle>
+            <unittitle>15th Congressional district <unitdate type="inclusive" normal="1937"
+                >1937</unitdate> minutes</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Campaign organization literature <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+            <unittitle>Campaign organization literature <unitdate type="inclusive"
+                >undated</unitdate>, <unitdate type="inclusive" normal="1955"
+              >1955</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Cobo for Governor Club <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+            <unittitle>Cobo for Governor Club <unitdate type="inclusive" normal="1956"
+                >1956</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Correspondence <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1935/1950">1935-1950</unitdate></unittitle>
+            <unittitle>Correspondence <unitdate type="inclusive">undated</unitdate>, <unitdate
+                type="inclusive" normal="1935/1950">1935-1950</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1951/1964">1951-1964</unitdate></unittitle>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1951/1964"
+                >1951-1964</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Cuyahoga County plan <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Cuyahoga County plan <unitdate type="inclusive"
+              >undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Election workers, papers concerning roles <unitdate type="inclusive" normal="1946/1955">1946-1955</unitdate></unittitle>
+            <unittitle>Election workers, papers concerning roles <unitdate type="inclusive"
+                normal="1946/1955">1946-1955</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Industrial Citizenship project volunteers <unitdate type="inclusive" normal="1964">1964</unitdate> lists</unittitle>
+            <unittitle>Industrial Citizenship project volunteers <unitdate type="inclusive"
+                normal="1964">1964</unitdate> lists</unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -556,32 +677,39 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">2</container>
-              <unittitle>Los Angeles plan <unitdate type="inclusive" normal="1952/1959">1952-1959</unitdate></unittitle>
+              <unittitle>Los Angeles plan <unitdate type="inclusive" normal="1952/1959"
+                  >1952-1959</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">2</container>
-              <unittitle>"Our need a businesslike approach," <unitdate type="inclusive" normal="1959">1959</unitdate> by the Republican Associates of Los Angeles</unittitle>
+              <unittitle>"Our need a businesslike approach," <unitdate type="inclusive"
+                  normal="1959">1959</unitdate> by the Republican Associates of Los
+                Angeles</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>National Republican Convention delegates <unitdate type="inclusive" normal="1940">1940</unitdate>, <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
+            <unittitle>National Republican Convention delegates <unitdate type="inclusive"
+                normal="1940">1940</unitdate>, <unitdate type="inclusive" normal="1944"
+                >1944</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>"Organizing the rural vote," <unitdate type="inclusive" normal="1955">1955</unitdate> by James P. Bigley</unittitle>
+            <unittitle>"Organizing the rural vote," <unitdate type="inclusive" normal="1955"
+                >1955</unitdate> by James P. Bigley</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Public housing statement <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Public housing statement <unitdate type="inclusive"
+              >undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -593,13 +721,15 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>"Truman, the Republicans, and 1948" <unitdate type="inclusive" normal="1945">1945</unitdate> by Claude Robinson</unittitle>
+            <unittitle>"Truman, the Republicans, and 1948" <unitdate type="inclusive" normal="1945"
+                >1945</unitdate> by Claude Robinson</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Young Republican National Convention <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+            <unittitle>Young Republican National Convention <unitdate type="inclusive" normal="1955"
+                >1955</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -611,7 +741,9 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Miscellaneous clippings <unitdate type="inclusive" normal="1958">1958</unitdate>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+            <unittitle>Miscellaneous clippings <unitdate type="inclusive" normal="1958"
+                >1958</unitdate>, <unitdate type="inclusive" normal="1964"
+              >1964</unitdate></unittitle>
           </did>
         </c02>
       </c01>
@@ -620,18 +752,26 @@
           <unittitle>Personal</unittitle>
         </did>
         <scopecontent>
-          <p>Within the Personal series, there are materials relating to the presentation of the Edward E. Hartwick Pines Park to the State of Michigan by Mrs. Karen B. Hartwick in 1927. There are also some personal papers, mainly correspondence, of Edward Edgar Hartwick (1871-1918), the father of Edward N. Hartwick, and a family tree.</p>
+          <p>Within the Personal series, there are materials relating to the presentation of the
+            Edward E. Hartwick Pines Park to the State of Michigan by Mrs. Karen B. Hartwick in
+            1927. There are also some personal papers, mainly correspondence, of Edward Edgar
+            Hartwick (1871-1918), the father of Edward N. Hartwick, and a family tree.</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Personal papers <unitdate type="inclusive" normal="1898">1898</unitdate>, <unitdate type="inclusive" normal="1918">1918</unitdate>, <unitdate type="inclusive" normal="1922">1922</unitdate></unittitle>
+            <unittitle>Personal papers <unitdate type="inclusive" normal="1898">1898</unitdate>,
+                <unitdate type="inclusive" normal="1918">1918</unitdate>, <unitdate type="inclusive"
+                normal="1922">1922</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Hartwick Pines: Correspondence, Dedication material and miscellanea <unitdate type="inclusive" normal="1927">1927</unitdate>, <unitdate type="inclusive" normal="1935">1935</unitdate>, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            <unittitle>Hartwick Pines: Correspondence, Dedication material and miscellanea <unitdate
+                type="inclusive" normal="1927">1927</unitdate>, <unitdate type="inclusive"
+                normal="1935">1935</unitdate>, <unitdate type="inclusive" normal="1978"
+                >1978</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -669,7 +809,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">2</container>
-              <unittitle>Miscellaneous photos with University of Michigan Alumni, Robert Candor, Robert Taft, and others</unittitle>
+              <unittitle>Miscellaneous photos with University of Michigan Alumni, Robert Candor,
+                Robert Taft, and others</unittitle>
             </did>
           </c03>
         </c02>
@@ -685,7 +826,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">3</container>
-              <unittitle>"Michigan's Century of Progress," <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+              <unittitle>"Michigan's Century of Progress," <unitdate type="inclusive" normal="1960"
+                  >1960</unitdate></unittitle>
               <physdesc>
                 <physfacet>b&amp;w</physfacet>
               </physdesc>
@@ -706,7 +848,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">3</container>
-              <unittitle>Richard Nixon train tour of Michigan <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+              <unittitle>Richard Nixon train tour of Michigan <unitdate type="inclusive"
+                  normal="1956">1956</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 reels</extent>
                 <physfacet>color, silent</physfacet>
@@ -715,7 +858,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle><unitdate type="inclusive" normal="1952">1952</unitdate> campaign</unittitle>
+              <unittitle><unitdate type="inclusive" normal="1952">1952</unitdate>
+                campaign</unittitle>
             </did>
             <odd>
               <p>(3 segments on 1 reel)</p>
@@ -723,7 +867,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">3</container>
-                <unittitle>Republican National Convention <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+                <unittitle>Republican National Convention <unitdate type="inclusive" normal="1952"
+                    >1952</unitdate></unittitle>
                 <physdesc>
                   <physfacet>b&amp;w</physfacet>
                 </physdesc>
@@ -732,7 +877,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">3</container>
-                <unittitle>Eisenhower in Saginaw, Michigan <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+                <unittitle>Eisenhower in Saginaw, Michigan <unitdate type="inclusive" normal="1952"
+                    >1952</unitdate></unittitle>
                 <physdesc>
                   <physfacet>color</physfacet>
                 </physdesc>
@@ -750,7 +896,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Republican Candidates for State Office <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+              <unittitle>Republican Candidates for State Office <unitdate type="inclusive"
+                  normal="1952">1952</unitdate></unittitle>
               <physdesc>
                 <physfacet>b&amp;w</physfacet>
               </physdesc>
@@ -804,186 +951,344 @@
           </unittitle>
         </did>
         <scopecontent>
-          <p>The Sound Recording series includes recordings of Republican speakers, including Carl Curtis, Barry Goldwater, George M. Humphrey, Richard M. Nixon, Harold Stassen, and Arthur Summerfield. Topics discussed include Republican politics, blacks and the struggle for civil rights, the investigation of communists in the United States, and the dispute over trade union campaign contributions.</p>
+          <p>The Sound Recording series includes recordings of Republican speakers, including Carl
+            Curtis, Barry Goldwater, George M. Humphrey, Richard M. Nixon, Harold Stassen, and
+            Arthur Summerfield. Topics discussed include Republican politics, blacks and the
+            struggle for civil rights, the investigation of communists in the United States, and the
+            dispute over trade union campaign contributions.</p>
         </scopecontent>
-        <c02 level="file">
+        <accessrestrict>
+          <p>[Digitized audio files are only available in the Bentley Historical Library reading
+            room on designated Bentley Library computers.]</p>
+        </accessrestrict>
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Tapes 1-2</unittitle>
+            <unittitle>Address of Arthur Summerfield, Postmaster General, Detroit Economic Club,
+                <unitdate type="inclusive">1954?</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet></physdesc>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Address of Arthur Summerfield, Postmaster General, Detroit Economic Club. Ca. <unitdate type="inclusive" normal="1954">1954</unitdate> also discussion by unidentified man (J.B. Matthews?) concerning "red menace" in Illinois</unittitle>
-              <physdesc>
-                <physfacet>double track; 7 in.; 3 3/4 ips and 7 1/2 ips</physfacet>
-              </physdesc>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85199-SR-1-1-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_8hjq9vth" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape also includes discussion by unidentified man [J.B. Matthews?]
+                concerning "red menace" in Illinois.)</abstract>
             </did>
           </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Tape 3</unittitle>
+            <unittitle>Address of Arthur Summerfield, Postmaster General, Detroit Economic Club,
+                <unitdate type="inclusive">1954?</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet></physdesc>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Meeting at Alger War Memorial to review February 19th State Convention, February 28, 195?</unittitle>
-              <physdesc>
-                <physfacet>Double track: 3 3/4 ips; 7 in.</physfacet>
-              </physdesc>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85199-SR-2-1-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_13dseki9" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape also includes discussion by unidentified man [J.B. Matthews?]
+                concerning "red menace" in Illinois.)</abstract>
             </did>
           </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Tape 4</unittitle>
+            <unittitle>Meeting at Alger War Memorial to review February 19th State Convention,
+                <unitdate type="inclusive">[1950?] February 28</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet></physdesc>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Side 1: Address of Harold Stassen, Lincoln Day Dinner, 15th Congressional District, Detroit <unitdate type="inclusive" normal="1954-02-09">February 9, 1954</unitdate></unittitle>
-              <physdesc>
-                <physfacet>Double track: 3 3/4 ips; 7 in.</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Side 2: Address of Congressman William Ayres, Lincoln Day Dinner, 14th Congressional District; also talk by John Feikens <unitdate type="inclusive" normal="1954-02-10">February 10, 1954</unitdate></unittitle>
-              <physdesc>
-                <physfacet>Double track: 3 3/4 ips; 7 in.</physfacet>
-              </physdesc>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85199-SR-3-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_eobwq80p" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Edward N. Hartwick at the State Republican Convention)</abstract>
             </did>
           </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Tape 5</unittitle>
+            <unittitle>Address of Harold Stassen, Lincoln Day Dinner, 15th Congressional District,
+              Detroit, <unitdate type="inclusive">1954 February 09</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet></physdesc>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Side 1: Address of Congressman Glenard Paul Lipscomb, 16th Congressional District Dinner <unitdate type="inclusive" normal="1954-02-13">February 13, 1954</unitdate></unittitle>
-              <physdesc>
-                <physfacet>Double track: 3 3/4 ips; 7 in.</physfacet>
-              </physdesc>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85199-SR-4-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_9uklftln" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Side 1)</abstract>
             </did>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Side 2: Address of Richard Nixon, Homer Ferguson Dinner <unitdate type="inclusive" normal="1954-04-03">April 3, 1954</unitdate></unittitle>
-              <physdesc>
-                <physfacet>Double track: 3 3/4 ips; 7 in.</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Tape 6</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Address of Secretary of Labor, James Mitchell, Flint, Michigan <unitdate type="inclusive" normal="1954-02-23">February 23, 1954</unitdate></unittitle>
-              <physdesc>
-                <physfacet>3 3/4 ips; 7 in.</physfacet>
-              </physdesc>
-            </did>
-            <odd>
-              <p>(recorded by National Broadcasting Company)</p>
-            </odd>
-          </c03>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Tape 7</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Address of E. Frederic Morrow, entitled, "Can Any Good Came Out of Washington?" <unitdate type="inclusive" normal="1955-09-30" certainty="approximate">September 30, 1955</unitdate></unittitle>
-              <physdesc>
-                <physfacet>3 3/4 ips; 7 in.</physfacet>
-              </physdesc>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[85199-SR-4-2]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_mflej23s" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Side 2; Includes talk by John Feikens)</abstract>
             </did>
           </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Tape 8</unittitle>
+            <unittitle>Side 1: Address of Congressman Glenard Paul Lipscomb, 16th Congressional
+              District Dinner February 13,1954, <unitdate type="inclusive">1954 February
+                13</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet></physdesc>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Address of Richard Nixon at the Young Republican Convention, Detroit <unitdate type="inclusive" normal="1955-06-17">June 17, 1955</unitdate></unittitle>
-              <physdesc>
-                <physfacet>3 3/4 ips; 5 in.</physfacet>
-              </physdesc>
-            </did>
-            <odd>
-              <p>(recording of radio broadcast)</p>
-            </odd>
-          </c03>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Tape 9</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Discussion of Carl Curtis, Barry Goldwater, and rank and file union men talking about the campaign contributions made by unions in Michigan for Democratic candidates <unitdate type="inclusive" normal="1955-12-15">December 15, 1955</unitdate></unittitle>
-              <physdesc>
-                <physfacet>3 3/4 ips; 7 in.</physfacet>
-              </physdesc>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85199-SR-5-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_5lbcjv6k" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Political speech by Glenard Paul Lipscomb and others at the 16th
+                Congressional Dinner.)</abstract>
             </did>
           </c03>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Tape 10</unittitle>
-          </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Address of E. Frederic Morrow, administrative officer, special projects division at the White House; Detroit, Mich., Dwight Eisenhower Birthday celebration. Talk concerns civil rights struggle <unitdate type="inclusive" normal="1956-01-20">January 20, 1956</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">10 minutes</extent>
-                <physfacet>3 3/4 ips; 7 in.</physfacet>
-              </physdesc>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[85199-SR-5-2]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_2iet0nob" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Side 2)</abstract>
             </did>
           </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Tapes 11-12</unittitle>
+            <unittitle>Address of Secretary of Labor, James Mitchell, Flint, Michigan (recorded by
+              National Broadcasting Company), <unitdate type="inclusive">1954 February
+              23</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet></physdesc>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>14th Congressional District Republican Campaign Strategy Conference <unitdate type="inclusive" normal="1956-03-10">March 10, 1956</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">2 tapes</extent>
-                <physfacet>double track; 3 3/4 ips; 7 in.</physfacet>
-              </physdesc>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85199-SR-6-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_zaxws0db" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(James Mitchell political speech during his tenure as Secretary of
+                Labor.)</abstract>
             </did>
           </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Tape 13</unittitle>
+            <unittitle>Address of E. Frederic Morrow, entitled, "Can Any Good Came Out of
+              Washington?", <unitdate type="inclusive">1955 September 30</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet></physdesc>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Address of Secretary of the Treasury, George M. Humphrey, Detroit Economic Club <unitdate type="inclusive" normal="1956-10-08">October 8, 1956</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">3 tapes</extent>
-                <physfacet>3 3/4 ips; 7 in.</physfacet>
-              </physdesc>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85199-SR-7-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_dcbudbj4" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(E. Frederic Morrow political speech entitled "Can Any Good Come Out of
+                Washington?")</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Address of Richard Nixon at the Young Republican Convention, Detroit
+              (recording of radio broadcast), <unitdate type="inclusive">1955 June
+              17</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 5 inch, 3 ¾ ips</physfacet></physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85199-SR-8-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_8tarvxtz" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Vice President Richard Nixon at the Young Republican
+                Convention.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Discussion of Carl Curtis, Barry Goldwater, and rank and file union men,
+                <unitdate type="inclusive">1955 December 15</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet></physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85199-SR-9-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_pwhzwp1s" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Meeting disucssing and talking about the campaign contributions made by
+                unions in Michigan for Democratic candidates.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Address of E. Frederic Morrow, administrative officer, special projects
+              division at the White House; Detroit, Michigan, <unitdate type="inclusive">1956
+                January 20</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet></physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85199-SR-10-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_v69mr9br" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Dwight Eisenhower Birthday celebration. Discussion on the topic of civil
+                rights)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>14th Congressional District Republican Campaign Strategy Conference,
+                <unitdate type="inclusive">1956 March 10</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet></physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85199-SR-11-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_3wo9rv1b" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 1, Part 1 of the 14th Congressional District Republican
+                Conference.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>14th Congressional District Republican Campaign Strategy Conference,
+                <unitdate type="inclusive">1956 March 10</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet></physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85199-SR-12-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_ogxkfj83" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 2, Part 1 of the 14th Congressional District Republican
+                Conference.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Address of Secretary of the Treasury, George M. Humphrey, Detroit Economic
+              Club, <unitdate type="inclusive">1956 October 08</unitdate></unittitle>
+            <physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet></physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[85199-SR-13-1]</unitid>
+              <physdesc><physfacet>mp3 file</physfacet></physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_f6ui3n66" show="new"
+                actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Political speech by George M. Humphrey at the Detroit Economic
+                Club.)</abstract>
             </did>
           </c03>
         </c02>
