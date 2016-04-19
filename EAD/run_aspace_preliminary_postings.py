@@ -19,7 +19,7 @@ def run_aspace_preliminary_postings(aspace_ead_dir, subjects_agents_dir, digital
 	update_posted_subjects(aspace_ead_dir, subjects_agents_dir)
 	post_digital_objects(aspace_ead_dir, digital_objects_dir, dspace_mets_dir, aspace_url, username, password,delete_csvs=True)
 	update_posted_digital_objects(aspace_ead_dir, digital_objects_dir)
-	#add_compound_agent_terms(aspace_ead_dir, subjects_agents_dir)
+	add_compound_agent_terms(aspace_ead_dir, subjects_agents_dir)
 	missing_refs = find_missing_refs(aspace_ead_dir)
 	if missing_refs:
 		for ref_type in missing_refs:
