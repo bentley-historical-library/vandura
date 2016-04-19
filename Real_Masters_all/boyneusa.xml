@@ -1,24 +1,37 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
 <ead>
-  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
-    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::boyneusa.xml//EN" encodinganalog="Identifier">umich-bhl-2010215</eadid>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511"
+    dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924"
+    countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H"
+      publicid="us//::miu-h//TXT us::miu-h::boyneusa.xml//EN" encodinganalog="Identifier"
+      >umich-bhl-2010215</eadid>
     <filedesc>
       <titlestmt>
-        <titleproper encodinganalog="Title">Finding Aid for Boyne USA Resorts records, 1935-2005</titleproper>
-        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+        <titleproper encodinganalog="Title">Finding Aid for Boyne USA Resorts records,
+          1935-2005</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan
+          Historical Collections staff</author>
       </titlestmt>
       <publicationstmt>
-        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of
+          Michigan</publisher>
         <date encodinganalog="Date" normal="2011">2011</date>
       </publicationstmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created by Thomas E. Powers <date>2011</date></creation>
-      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
-      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng"
+          scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard
+        (DACS)</descrules>
     </profiledesc>
     <revisiondesc>
+      <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
       <change>
         <date>20150602</date>
         <item>Added box 51.</item>
@@ -35,7 +48,8 @@
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of
+        Michigan</publisher>
       <titleproper>Finding aid for <lb/>Boyne USA Resorts records, 1935-2005</titleproper>
       <author>Finding aid created by <lb/>Michigan Historical Collections staff, 2011</author>
     </titlepage>
@@ -45,10 +59,18 @@
       <origination>
         <corpname source="lcnaf" encodinganalog="110">Boyne USA Resorts.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Boyne USA Resorts records <unitdate type="inclusive" encodinganalog="245$f" normal="1935/2005">1935-2005</unitdate> <unitdate type="bulk" encodinganalog="245$g" normal="1950/2002" certainty="approximate">1950s-2002</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010215 Bb 2</unitid>
-      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
-      <abstract>Michigan-based ski and golf corporation, operating twelve major resorts in North America; records consists of photographs, slides, video cassettes, films, sound recordings, promotional materials, biographical information on the corporation’s founder Everett F. Kircher, and miscellaneous office and topical files.</abstract>
+      <unittitle encodinganalog="245">Boyne USA Resorts records <unitdate type="inclusive"
+          encodinganalog="245$f" normal="1935/2005">1935-2005</unitdate>, <unitdate type="bulk"
+          encodinganalog="245$g" normal="1950/2002" certainty="approximate"
+        >1950s-2002</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number"
+        >2010215 Bb 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041"
+          >English</language></langmaterial>
+      <abstract>Michigan-based ski and golf corporation, operating twelve major resorts in North
+        America; records consists of photographs, slides, video cassettes, films, sound recordings,
+        promotional materials, biographical information on the corporation’s founder Everett F.
+        Kircher, and miscellaneous office and topical files.</abstract>
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">51 linear feet</extent>
         <extent altrender="carrier">in 54 boxes</extent>
@@ -68,40 +90,101 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">1 2-inch videotape</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">769 MB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
-        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of
+          Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
     </did>
     <descgrp type="admin">
       <acqinfo encodinganalog="541">
-        <p>The records were received from the organization (donor no. <num type="donor" encodinganalog="541$e">9323</num>) in November 2010.</p>
+        <p>The records were received from the organization (donor no. <num type="donor"
+            encodinganalog="541$e">9323</num>) in November 2010.</p>
       </acqinfo>
       <accruals encodinganalog="584">
         <p>Periodic additions to the papers are expected.</p>
       </accruals>
       <accessrestrict encodinganalog="506">
         <p>The record group is open to research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source
+          tapes are for staff use only. Audio files are only available in the Bentley Historical
+          Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright is not held by the Regents of the University of Michigan.</p>
         <p>Copying for commercial or media use requires the permission of the donor.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box, Boyne USA Resorts records, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Boyne USA Resorts records, Bentley Historical Library, University of
+          Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a
+          number of sound recordings within this collection. The resulting audio files are available
+          for playback only in the Bentley Library Reading Room. Links to item images and additional
+          information are available within this finding aid. Original sound recordings are only
+          available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
-      <p>Boyne USA Resorts was founded by Everett F. Kircher whose real passion in life was skiing. As the owner of a small Studebaker car dealership in Detroit in the 1940s, Kircher would each year travel to the western United States in order to ski. The nuisance of traveling great distances prompted Kircher and two other enthusiasts in 1947 to purchase some property close by a small 500-foot mountain in northern Michigan. This $1 investment would become the Boyne Mountain ski and golf center and later Boyne USA.</p>
-      <p>Today, Boyne USA consists of twelve major ski and summer resorts: Boyne Mountain, Boyne Highlands, and The Inn at Bay Harbor in northern Michigan, Big Sky in Montana, Brighton Ski Bowl near Salt Lake City, Crystal Mountain and the Summit at Snoqualmie in Washington, Cypress Mountain in British Columbia, Loone Mountain in New Hampshire, and Sugarloaf and Sunday River, both in Maine. Boyne USA also owns and operates a scenic sky lift in Gatlinburg, Tennessee and ten golf courses in various states, including Michigan, Montana, and Florida.</p>
-      <p>Much of Kircher's success rested on both his business acumen and the innovations he brought to the industry. Kircher was credited with developing the first three- and four- person chairlifts and for installing the first detachable six-person chairlift in the United States. In 1964, Kircher installed the world's first three-person chairlift at Boyne Highlands and the world's first four-person chairlift at Boyne Mountain. In 1992, Boyne Mountain began operating the first six-person chairlift in the United States. Kircher also pioneered artificial snowmaking and co-invented the Boyne Snowmaker, the first efficient device for marginal temperature snowmaking. Kircher is also credited with developing many modern snow grooming techniques and equipment. Industry experts credit Kircher with inventing the idea of ski instruction. In the 1950s, he hired former Olympians Stein Erickson and Othmar Schneider to work at the resort's ski school and teach the latest teaching techniques to Boyne Mountain's skiers. Boyne Mountain, Boyne Highlands, and Big Sky continue to operate ski schools today.</p>
-      <p>In the late 1960s, Kircher worked to transform ski resorts into year-round recreational facilities by adding golf courses on his properties. Kircher began by building the Hemlock Golf Course at Boyne Mountain with his father's Ford farm tractor. Only after developing the nearby Harbor Highlands Ski Area into Boyne Highlands, however, did Kircher begin to invest seriously in golf. In 1970, the 18-hole Heather course, designed by Robert Trent Jones, Sr. opened. As of 2011, Boyne Resorts are home to eight world-class golf courses, including the award-winning courses at the Bay Harbor Golf Club.</p>
-      <p>Today, Boyne USA is the largest privately owned ski and golf corporation in America. The various resorts owned by Boyne now offer tennis, biking, hiking, horseback riding, and snowboarding, along with skiing and golf. The resorts also offer fine dining, spa facilities, retail shops, and luxury accommodations.</p>
-      <p>While Everett Kircher died on January 16, 2002 at the age of 85, his family remains actively involved in managing the thriving business he began in 1947.</p>
+      <p>Boyne USA Resorts was founded by Everett F. Kircher whose real passion in life was skiing.
+        As the owner of a small Studebaker car dealership in Detroit in the 1940s, Kircher would
+        each year travel to the western United States in order to ski. The nuisance of traveling
+        great distances prompted Kircher and two other enthusiasts in 1947 to purchase some property
+        close by a small 500-foot mountain in northern Michigan. This $1 investment would become the
+        Boyne Mountain ski and golf center and later Boyne USA.</p>
+      <p>Today, Boyne USA consists of twelve major ski and summer resorts: Boyne Mountain, Boyne
+        Highlands, and The Inn at Bay Harbor in northern Michigan, Big Sky in Montana, Brighton Ski
+        Bowl near Salt Lake City, Crystal Mountain and the Summit at Snoqualmie in Washington,
+        Cypress Mountain in British Columbia, Loone Mountain in New Hampshire, and Sugarloaf and
+        Sunday River, both in Maine. Boyne USA also owns and operates a scenic sky lift in
+        Gatlinburg, Tennessee and ten golf courses in various states, including Michigan, Montana,
+        and Florida.</p>
+      <p>Much of Kircher's success rested on both his business acumen and the innovations he brought
+        to the industry. Kircher was credited with developing the first three- and four- person
+        chairlifts and for installing the first detachable six-person chairlift in the United
+        States. In 1964, Kircher installed the world's first three-person chairlift at Boyne
+        Highlands and the world's first four-person chairlift at Boyne Mountain. In 1992, Boyne
+        Mountain began operating the first six-person chairlift in the United States. Kircher also
+        pioneered artificial snowmaking and co-invented the Boyne Snowmaker, the first efficient
+        device for marginal temperature snowmaking. Kircher is also credited with developing many
+        modern snow grooming techniques and equipment. Industry experts credit Kircher with
+        inventing the idea of ski instruction. In the 1950s, he hired former Olympians Stein
+        Erickson and Othmar Schneider to work at the resort's ski school and teach the latest
+        teaching techniques to Boyne Mountain's skiers. Boyne Mountain, Boyne Highlands, and Big Sky
+        continue to operate ski schools today.</p>
+      <p>In the late 1960s, Kircher worked to transform ski resorts into year-round recreational
+        facilities by adding golf courses on his properties. Kircher began by building the Hemlock
+        Golf Course at Boyne Mountain with his father's Ford farm tractor. Only after developing the
+        nearby Harbor Highlands Ski Area into Boyne Highlands, however, did Kircher begin to invest
+        seriously in golf. In 1970, the 18-hole Heather course, designed by Robert Trent Jones, Sr.
+        opened. As of 2011, Boyne Resorts are home to eight world-class golf courses, including the
+        award-winning courses at the Bay Harbor Golf Club.</p>
+      <p>Today, Boyne USA is the largest privately owned ski and golf corporation in America. The
+        various resorts owned by Boyne now offer tennis, biking, hiking, horseback riding, and
+        snowboarding, along with skiing and golf. The resorts also offer fine dining, spa
+        facilities, retail shops, and luxury accommodations.</p>
+      <p>While Everett Kircher died on January 16, 2002 at the age of 85, his family remains
+        actively involved in managing the thriving business he began in 1947.</p>
     </bioghist>
     <scopecontent encodinganalog="520">
-      <p>The Boyne USA Resorts record group documents, through visual materials, scrapbooks and clippings, publications, and a scattering of administrative material, the development of northwestern Michigan as an important recreational center. The bulk of the collection consists of various visual media, photographs, photographic slides, albums, videotapes, motion pictures, promotional posters, display photographs, and design images of Boyne facilities.</p>
-      <p>The records have been arranged into the following series: Everett F. Kircher materials; Boyne USA publications and promotional materials; Topical files; Photographs; Negatives, Photographic Slides; Videotapes; Motion pictures; Art work; Architectural concept and promotional boards; Miscellaneous office records; Scrapbooks and Clippings, and Miscellaneous. The strength of the collection is in the various visual materials that document the development of Boyne USA Resorts from the founding of Boyne Mountain in 1947 to the early 21st century.</p>
+      <p>The Boyne USA Resorts record group documents, through visual materials, scrapbooks and
+        clippings, publications, and a scattering of administrative material, the development of
+        northwestern Michigan as an important recreational center. The bulk of the collection
+        consists of various visual media, photographs, photographic slides, albums, videotapes,
+        motion pictures, promotional posters, display photographs, and design images of Boyne
+        facilities.</p>
+      <p>The records have been arranged into the following series: Everett F. Kircher materials;
+        Boyne USA publications and promotional materials; Topical files; Photographs; Negatives,
+        Photographic Slides; Videotapes; Motion pictures; Art work; Architectural concept and
+        promotional boards; Miscellaneous office records; Scrapbooks and Clippings, and
+        Miscellaneous. The strength of the collection is in the various visual materials that
+        document the development of Boyne USA Resorts from the founding of Boyne Mountain in 1947 to
+        the early 21st century.</p>
     </scopecontent>
     <controlaccess>
       <p>
@@ -109,9 +192,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2014142504">Big Sky Resort.</corpname>
+        <corpname source="lcnaf" encodinganalog="610"
+          authfilenumber="http://id.loc.gov/authorities/names/no2014142504">Big Sky
+          Resort.</corpname>
         <corpname source="lcnaf" encodinganalog="610">Boyne Highlands.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80157107">Boyne Mountain.</corpname>
+        <corpname source="lcnaf" encodinganalog="610"
+          authfilenumber="http://id.loc.gov/authorities/names/n80157107">Boyne Mountain.</corpname>
         <corpname source="lcnaf" encodinganalog="610">Boyne USA Resorts.</corpname>
         <corpname source="lcnaf" encodinganalog="610">Gatlinburg Sky Lift.</corpname>
         <corpname source="lcnaf" encodinganalog="610">Inn at Bay Harbor.</corpname>
@@ -127,16 +213,26 @@
         <subject source="lcsh" encodinganalog="650">Ski resorts--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650">Ski resorts--Montana.</subject>
         <geogname source="lcsh" encodinganalog="651">Bay Harbor (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81086464">Boyne Falls (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n84026616">Big Sky (Mont.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80040520">Gatlinburg (Tenn.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83187817">Harbor Springs (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651"
+          authfilenumber="http://id.loc.gov/authorities/names/n81086464">Boyne Falls
+          (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651"
+          authfilenumber="http://id.loc.gov/authorities/names/n84026616">Big Sky (Mont.)</geogname>
+        <geogname source="lcsh" encodinganalog="651"
+          authfilenumber="http://id.loc.gov/authorities/names/n80040520">Gatlinburg
+          (Tenn.)</geogname>
+        <geogname source="lcsh" encodinganalog="651"
+          authfilenumber="http://id.loc.gov/authorities/names/n83187817">Harbor Springs
+          (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <persname source="lcnaf" encodinganalog="600">Kircher, Everett F.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2014142504">Big Sky Resort.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80157107">Boyne Mountain.</corpname>
+        <corpname source="lcnaf" encodinganalog="610"
+          authfilenumber="http://id.loc.gov/authorities/names/no2014142504">Big Sky
+          Resort.</corpname>
+        <corpname source="lcnaf" encodinganalog="610"
+          authfilenumber="http://id.loc.gov/authorities/names/n80157107">Boyne Mountain.</corpname>
         <corpname source="lcnaf" encodinganalog="610">Boyne Highlands.</corpname>
         <corpname source="lcnaf" encodinganalog="610">Boyne USA Resorts.</corpname>
         <corpname source="lcnaf" encodinganalog="610">Gatlinburg Sky Lift.</corpname>
@@ -148,10 +244,17 @@
         <subject source="lctgm" encodinganalog="650">Skiing--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650">Skiing--Montana.</subject>
         <geogname source="lcsh" encodinganalog="651">Bay Harbor (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n84026616">Big Sky (Mont.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81086464">Boyne Falls (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80040520">Gatlinburg (Tenn.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83187817">Harbor Springs (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651"
+          authfilenumber="http://id.loc.gov/authorities/names/n84026616">Big Sky (Mont.)</geogname>
+        <geogname source="lcsh" encodinganalog="651"
+          authfilenumber="http://id.loc.gov/authorities/names/n81086464">Boyne Falls
+          (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651"
+          authfilenumber="http://id.loc.gov/authorities/names/n80040520">Gatlinburg
+          (Tenn.)</geogname>
+        <geogname source="lcsh" encodinganalog="651"
+          authfilenumber="http://id.loc.gov/authorities/names/n83187817">Harbor Springs
+          (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
@@ -174,7 +277,10 @@
           <unittitle>Everett F. Kircher materials</unittitle>
         </did>
         <scopecontent>
-          <p>The first series, Everett F. Kircher materials, documents the life of Everett F. Kircher, especially in regard to his founding of Boyne Mountain and management of the growth of the Boyne USA. Materials include biographical sketches, correspondence, newspaper clippings, and a copy of Kircher's autobiography.</p>
+          <p>The first series, Everett F. Kircher materials, documents the life of Everett F.
+            Kircher, especially in regard to his founding of Boyne Mountain and management of the
+            growth of the Boyne USA. Materials include biographical sketches, correspondence,
+            newspaper clippings, and a copy of Kircher's autobiography.</p>
         </scopecontent>
         <c02 level="file">
           <did>
@@ -191,7 +297,8 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle>Newspaper obituaries and letters of tribute <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            <unittitle>Newspaper obituaries and letters of tribute <unitdate type="inclusive"
+                normal="2002">2002</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -203,13 +310,16 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle>Copy of autobiography <title render="italic">Everett Kircher, Michigan's Resort Pioneer</title>; also miscellaneous drafts and other materials used in preparation of the book</unittitle>
+            <unittitle>Copy of autobiography <title render="italic">Everett Kircher, Michigan's
+                Resort Pioneer</title>; also miscellaneous drafts and other materials used in
+              preparation of the book</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1965/2001">1965-2001 (scattered)</unitdate></unittitle>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1965/2001">1965-2001
+                (scattered)</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -224,7 +334,10 @@
           <unittitle>Boyne USA publications and promotional material</unittitle>
         </did>
         <scopecontent>
-          <p>Boyne USA publications and promotional materials, the second series, contains information on Boyne USA's effort to promote its Michigan and Montana resorts. Marketing and sales materials include news releases, magazines, newspapers, brochures, advertisements, and postcards.</p>
+          <p>Boyne USA publications and promotional materials, the second series, contains
+            information on Boyne USA's effort to promote its Michigan and Montana resorts. Marketing
+            and sales materials include news releases, magazines, newspapers, brochures,
+            advertisements, and postcards.</p>
         </scopecontent>
         <c02 level="file">
           <did>
@@ -235,25 +348,30 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle><title render="italic">Boyne USA Resorts</title>, <unitdate type="inclusive" normal="1984/1996">1984-1996</unitdate></unittitle>
+            <unittitle><title render="italic">Boyne USA Resorts</title>, <unitdate type="inclusive"
+                normal="1984/1996">1984-1996</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle><title render="italic">Team Boyne News</title>, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            <unittitle><title render="italic">Team Boyne News</title>, <unitdate type="inclusive"
+                normal="2002">2002</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle><title render="italic">Boyne County</title> newspaper, <unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate></unittitle>
+            <unittitle><title render="italic">Boyne County</title> newspaper, <unitdate
+                type="inclusive" normal="1970/1979" certainty="approximate"
+              >1970s</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle>Big Sky of Montana news releases <unitdate type="inclusive" normal="1973/1976">1973-1976</unitdate></unittitle>
+            <unittitle>Big Sky of Montana news releases <unitdate type="inclusive"
+                normal="1973/1976">1973-1976</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
@@ -268,7 +386,8 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle>Boyne USA news releases <unitdate type="inclusive" normal="1977">1977</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Boyne USA news releases <unitdate type="inclusive" normal="1977"
+                >1977</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -295,7 +414,8 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Newspaper and periodical advertisements and announcements for Winter and Summer events</unittitle>
+            <unittitle>Newspaper and periodical advertisements and announcements for Winter and
+              Summer events</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
@@ -304,7 +424,8 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Advertisements and brochures used as part of poster board displays</unittitle>
+            <unittitle>Advertisements and brochures used as part of poster board
+              displays</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
@@ -312,13 +433,15 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Skiing and golfing magazines, most containing articles or advertisements from Boyne USA</unittitle>
+            <unittitle>Skiing and golfing magazines, most containing articles or advertisements from
+              Boyne USA</unittitle>
             <container type="box" label="Box">3</container>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Skiing and golfing magazines, most containing articles or advertisements from Boyne USA</unittitle>
+            <unittitle>Skiing and golfing magazines, most containing articles or advertisements from
+              Boyne USA</unittitle>
             <container type="box" label="Box">4</container>
           </did>
           <odd>
@@ -331,24 +454,31 @@
           <unittitle>Topical files</unittitle>
         </did>
         <scopecontent>
-          <p>The third series, Topical Files, contains various non-visual materials. The series is organized alphabetically and primarily documents Bay Harbor, Big Sky, Boyne Highlands, and Boyne Mountain resorts. Some of the files also cover new business opportunities and some of Boyne's smaller properties.</p>
+          <p>The third series, Topical Files, contains various non-visual materials. The series is
+            organized alphabetically and primarily documents Bay Harbor, Big Sky, Boyne Highlands,
+            and Boyne Mountain resorts. Some of the files also cover new business opportunities and
+            some of Boyne's smaller properties.</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="box" label="Box">5</container>
-            <unittitle>Anniversary file (30th) <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            <unittitle>Anniversary file (30th) <unitdate type="inclusive" normal="1979"
+                >1979</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">5</container>
-            <unittitle>Argentina, possible business opportunities <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            <unittitle>Argentina, possible business opportunities <unitdate type="inclusive"
+                normal="1997">1997</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">5</container>
-            <unittitle>Avalanche Bay Waterpark, impact study <unitdate type="inclusive" normal="2002">2002</unitdate>, and construction progress report, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+            <unittitle>Avalanche Bay Waterpark, impact study <unitdate type="inclusive"
+                normal="2002">2002</unitdate>, and construction progress report, <unitdate
+                type="inclusive" normal="2004">2004</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -367,13 +497,15 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">5</container>
-              <unittitle>Gold Club, plan for the offering of memberships <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+              <unittitle>Gold Club, plan for the offering of memberships <unitdate type="inclusive"
+                  normal="1997">1997</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">5</container>
-              <unittitle>Tax roll <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+              <unittitle>Tax roll <unitdate type="inclusive" normal="1996"
+                >1996</unitdate></unittitle>
             </did>
           </c03>
         </c02>
@@ -384,25 +516,29 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">5</container>
-              <unittitle>Big Sky Condominium Owners manual and various mailings <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+              <unittitle>Big Sky Condominium Owners manual and various mailings <unitdate
+                  type="inclusive" normal="1976">1976</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">5</container>
-              <unittitle>Big Sky Mountain Village, Master Plan Review <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+              <unittitle>Big Sky Mountain Village, Master Plan Review <unitdate type="inclusive"
+                  normal="1999">1999</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">5</container>
-              <unittitle>Big Sky Mountain Village, Overall Development Plan Amendment <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+              <unittitle>Big Sky Mountain Village, Overall Development Plan Amendment <unitdate
+                  type="inclusive" normal="2000">2000</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">5</container>
-              <unittitle>Big Sky Ski Area Master Plan and related <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+              <unittitle>Big Sky Ski Area Master Plan and related <unitdate type="inclusive"
+                  normal="1994">1994</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -414,7 +550,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">5</container>
-              <unittitle>Gallatin Canyon Planning Study, Final Report <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+              <unittitle>Gallatin Canyon Planning Study, Final Report <unitdate type="inclusive"
+                  normal="1972">1972</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -426,32 +563,38 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">5</container>
-              <unittitle>Public Relations Biographical Data <unitdate type="inclusive" normal="1971">1971</unitdate>, <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+              <unittitle>Public Relations Biographical Data <unitdate type="inclusive" normal="1971"
+                  >1971</unitdate>, <unitdate type="inclusive" normal="1973"
+                >1973</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">5</container>
-              <unittitle>Publication: <title render="italic">Big Sky; From Indian Trails to the Tram</title>, <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+              <unittitle>Publication: <title render="italic">Big Sky; From Indian Trails to the
+                  Tram</title>, <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">5</container>
-              <unittitle>Stillwater Owners Association <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
+              <unittitle>Stillwater Owners Association <unitdate type="inclusive" normal="1975/1976"
+                  >1975-1976</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">5</container>
-              <unittitle>Travel publications and agencies, correspondence with <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+              <unittitle>Travel publications and agencies, correspondence with <unitdate
+                  type="inclusive" normal="1976">1976</unitdate></unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">5</container>
-            <unittitle>Boyne Highlands Condominiums, architectural plans <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+            <unittitle>Boyne Highlands Condominiums, architectural plans <unitdate type="inclusive"
+                normal="1999">1999</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -463,7 +606,9 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">5</container>
-            <unittitle>Boyne Mountain Lodge, financial statements and related <unitdate type="inclusive" normal="1960/1963">1960-1963</unitdate>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            <unittitle>Boyne Mountain Lodge, financial statements and related <unitdate
+                type="inclusive" normal="1960/1963">1960-1963</unitdate>, <unitdate type="inclusive"
+                normal="1969">1969</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -479,32 +624,37 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">5</container>
-              <unittitle>Financial <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
+              <unittitle>Financial <unitdate type="inclusive" normal="1995/1996"
+                  >1995-1996</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">5</container>
-              <unittitle>Golf Club summary report <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+              <unittitle>Golf Club summary report <unitdate type="inclusive" normal="1999"
+                  >1999</unitdate></unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">5</container>
-            <unittitle>Boyne USA By-Laws <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+            <unittitle>Boyne USA By-Laws <unitdate type="inclusive" normal="1998"
+              >1998</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">5</container>
-            <unittitle>Brighton Ski Resort <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            <unittitle>Brighton Ski Resort <unitdate type="inclusive" normal="1994"
+              >1994</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">5</container>
-            <unittitle>Chile (La Parva), possible business opportunities <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            <unittitle>Chile (La Parva), possible business opportunities <unitdate type="inclusive"
+                normal="2001">2001</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -522,25 +672,29 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">5</container>
-            <unittitle>Great Eastern Ski Life, Wasatch County, Utah <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            <unittitle>Great Eastern Ski Life, Wasatch County, Utah <unitdate type="inclusive"
+                normal="1994">1994</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">5</container>
-            <unittitle>Haidbauer (Alex), letters to <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
+            <unittitle>Haidbauer (Alex), letters to <unitdate type="inclusive" normal="1983/1984"
+                >1983-1984</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">5</container>
-            <unittitle>Harbor Highlands Ski Club, financial statement <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            <unittitle>Harbor Highlands Ski Club, financial statement <unitdate type="inclusive"
+                normal="1962">1962</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">5</container>
-            <unittitle>Hemlock condominium project, Boyne Mountain (organizational document, master agreement, lease draft, etc.</unittitle>
+            <unittitle>Hemlock condominium project, Boyne Mountain (organizational document, master
+              agreement, lease draft, etc.</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
@@ -549,7 +703,8 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">6</container>
-            <unittitle>Marriott International, proposed arrangement <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            <unittitle>Marriott International, proposed arrangement <unitdate type="inclusive"
+                normal="2002">2002</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -571,14 +726,16 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">6</container>
-              <unittitle>Site Plans and miscellaneous <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
+              <unittitle>Site Plans and miscellaneous <unitdate type="inclusive" normal="1994/1995"
+                  >1994-1995</unitdate></unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">6</container>
-            <unittitle>Mountain Grand Lodge and Spa, appraisal reports <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            <unittitle>Mountain Grand Lodge and Spa, appraisal reports <unitdate type="inclusive"
+                normal="2001">2001</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
@@ -587,19 +744,23 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">6</container>
-            <unittitle>Mountain Grand Lodge construction progress reports <unitdate type="inclusive" normal="2001">2001</unitdate>, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+            <unittitle>Mountain Grand Lodge construction progress reports <unitdate type="inclusive"
+                normal="2001">2001</unitdate>, <unitdate type="inclusive" normal="2004"
+                >2004</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">6</container>
-            <unittitle>Newspaper Clippings <unitdate type="inclusive" normal="1948/1991">1948-1991 (scattered)</unitdate></unittitle>
+            <unittitle>Newspaper Clippings <unitdate type="inclusive" normal="1948/1991">1948-1991
+                (scattered)</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">6</container>
-            <unittitle>Northern Michigan Golf Survey study <unitdate type="inclusive" normal="1989" certainty="approximate">circa 1989</unitdate></unittitle>
+            <unittitle>Northern Michigan Golf Survey study <unitdate type="inclusive" normal="1989"
+                certainty="approximate">circa 1989</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -614,13 +775,16 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">6</container>
-            <unittitle>Outstanding Business Leader Association award <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            <unittitle>Outstanding Business Leader Association award <unitdate type="inclusive"
+                normal="2001">2001</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">6</container>
-            <unittitle>Ramshead Condominium Project (purchaser information booklet, disclosure statement) <unitdate type="inclusive" normal="1993">1993</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Ramshead Condominium Project (purchaser information booklet, disclosure
+              statement) <unitdate type="inclusive" normal="1993">1993</unitdate>, <unitdate
+                type="inclusive">undated</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
@@ -635,7 +799,8 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">6</container>
-            <unittitle>Snow to melt contest <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            <unittitle>Snow to melt contest <unitdate type="inclusive" normal="2002"
+              >2002</unitdate></unittitle>
           </did>
           <odd>
             <p>(sample)</p>
@@ -644,7 +809,8 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">6</container>
-            <unittitle>Sundial Lodge at the Canyons, Utah, fulfillment documents <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+            <unittitle>Sundial Lodge at the Canyons, Utah, fulfillment documents <unitdate
+                type="inclusive" normal="1998">1998</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -661,7 +827,21 @@
           </unittitle>
         </did>
         <scopecontent>
-          <p>Photographs, the fourth and largest series, documents the history of Boyne USA resorts from the founding of Boyne Mountain in 1947 to 2005. This is the largest and most comprehensive series in the collection and is organized into six sub-series. The first two sub-series make up the bulk of the series. The first sub-series, Albums of photographs, contains albums of color snapshots of Boyne events and activities. Photographic files, ca. 1940s-2000s consists of loose black-and-white and color prints organized by topically according to location. The following resort locations are documented in the sub-series: Boyne Mountain, Boyne Highlands, Big Sky, Bay Harbor, the Gatlinburg Sky Lift, Walloon Hills, and Thunder Mountain. There is also a significant portion of the Photographic files, ca. 1940s-2000s where the location is unidentified. In this case the photographs are organized alphabetically by subject. Subjects include aerial views, buildings, skiing, golf, ski races, golf tournaments, conferences, entertainment, dining, construction, award ceremonies, and people. Additional sub-series are: Photographs Used in Pictorial History of Boyne, Various Topics, Promotional photographs, and Framed color photographs.</p>
+          <p>Photographs, the fourth and largest series, documents the history of Boyne USA resorts
+            from the founding of Boyne Mountain in 1947 to 2005. This is the largest and most
+            comprehensive series in the collection and is organized into six sub-series. The first
+            two sub-series make up the bulk of the series. The first sub-series, Albums of
+            photographs, contains albums of color snapshots of Boyne events and activities.
+            Photographic files, ca. 1940s-2000s consists of loose black-and-white and color prints
+            organized by topically according to location. The following resort locations are
+            documented in the sub-series: Boyne Mountain, Boyne Highlands, Big Sky, Bay Harbor, the
+            Gatlinburg Sky Lift, Walloon Hills, and Thunder Mountain. There is also a significant
+            portion of the Photographic files, ca. 1940s-2000s where the location is unidentified.
+            In this case the photographs are organized alphabetically by subject. Subjects include
+            aerial views, buildings, skiing, golf, ski races, golf tournaments, conferences,
+            entertainment, dining, construction, award ceremonies, and people. Additional sub-series
+            are: Photographs Used in Pictorial History of Boyne, Various Topics, Promotional
+            photographs, and Framed color photographs.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
@@ -670,25 +850,29 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">7</container>
-              <unittitle>Easter Sunday and Spring Fashion Show <unitdate type="inclusive" normal="1990-04">April 1990</unitdate></unittitle>
+              <unittitle>Easter Sunday and Spring Fashion Show <unitdate type="inclusive"
+                  normal="1990-04">April 1990</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">7</container>
-              <unittitle><unitdate type="inclusive" normal="1990-07-15">July 15, 1990</unitdate> Byron Nelson; monument dedication; Donald Ross course opening</unittitle>
+              <unittitle><unitdate type="inclusive" normal="1990-07-15">July 15, 1990</unitdate>
+                Byron Nelson; monument dedication; Donald Ross course opening</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">7</container>
-              <unittitle>WLLZ and Hawaiian Tropic Weekend <unitdate type="inclusive" normal="1990" certainty="approximate">circa 1990</unitdate></unittitle>
+              <unittitle>WLLZ and Hawaiian Tropic Weekend <unitdate type="inclusive" normal="1990"
+                  certainty="approximate">circa 1990</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">7</container>
-              <unittitle><unitdate type="inclusive" normal="1991-07-15">July 15, 1991</unitdate>, Everett Kircher's 75th birthday; and monument dedication</unittitle>
+              <unittitle><unitdate type="inclusive" normal="1991-07-15">July 15, 1991</unitdate>,
+                Everett Kircher's 75th birthday; and monument dedication</unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -700,7 +884,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">7</container>
-              <unittitle>Cubs Wives Celebrity Golf Scramble <unitdate type="inclusive" normal="1992-06">June 1992</unitdate></unittitle>
+              <unittitle>Cubs Wives Celebrity Golf Scramble <unitdate type="inclusive"
+                  normal="1992-06">June 1992</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -712,13 +897,15 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">7</container>
-              <unittitle>Combined activities <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
+              <unittitle>Combined activities <unitdate type="inclusive" normal="1989/1990"
+                  >1989-1990</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">8</container>
-              <unittitle>Golf course photos <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+              <unittitle>Golf course photos <unitdate type="inclusive" normal="1996"
+                >1996</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
@@ -727,13 +914,15 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">8</container>
-              <unittitle>Miscellaneous: skiing and golf <unitdate type="inclusive" normal="1990">1990</unitdate> (with some earlier)</unittitle>
+              <unittitle>Miscellaneous: skiing and golf <unitdate type="inclusive" normal="1990"
+                  >1990</unitdate> (with some earlier)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">8</container>
-              <unittitle>Various events <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+              <unittitle>Various events <unitdate type="inclusive" normal="1991"
+                >1991</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -804,7 +993,9 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Albums of snapshots of golfing events and golfing personalities <unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate></unittitle>
+              <unittitle>Albums of snapshots of golfing events and golfing personalities <unitdate
+                  type="inclusive" normal="1980/1989" certainty="approximate"
+                >1980s</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
@@ -814,13 +1005,17 @@
             </odd>
             <c04 level="file">
               <did>
-                <unittitle>Albums of snapshots of golfing events and golfing personalities <unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate></unittitle>
+                <unittitle>Albums of snapshots of golfing events and golfing personalities <unitdate
+                    type="inclusive" normal="1980/1989" certainty="approximate"
+                  >1980s</unitdate></unittitle>
                 <container type="volume" label="Oversize Volume">17</container>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>Albums of snapshots of golfing events and golfing personalities <unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate></unittitle>
+                <unittitle>Albums of snapshots of golfing events and golfing personalities <unitdate
+                    type="inclusive" normal="1980/1989" certainty="approximate"
+                  >1980s</unitdate></unittitle>
                 <container type="volume" label="Oversize Volume">18</container>
               </did>
               <odd>
@@ -829,9 +1024,10 @@
             </c04>
           </c03>
         </c02>
-        <c02 level="subseries">
+        <c02 level="series">
           <did>
-            <unittitle>Photographic file <unitdate type="inclusive" normal="1940/2009" certainty="approximate">circa 1940s-2000s</unitdate></unittitle>
+            <unittitle>Photographic file <unitdate type="inclusive" normal="1940/2009"
+                certainty="approximate">circa 1940s-2000s</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -866,7 +1062,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">14</container>
-                <unittitle>Construction <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+                <unittitle>Construction <unitdate type="inclusive" normal="1972"
+                  >1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -914,7 +1111,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">14</container>
-                <unittitle>Legislative Day <unitdate type="inclusive" normal="1974-01-27">January 27, 1974</unitdate></unittitle>
+                <unittitle>Legislative Day <unitdate type="inclusive" normal="1974-01-27">January
+                    27, 1974</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -952,7 +1150,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">14</container>
-                <unittitle>Opening Day <unitdate type="inclusive" normal="1978-12-15">December 15, 1978</unitdate></unittitle>
+                <unittitle>Opening Day <unitdate type="inclusive" normal="1978-12-15">December 15,
+                    1978</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -1103,7 +1302,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">15</container>
-                <unittitle>Miss Universe <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+                <unittitle>Miss Universe <unitdate type="inclusive" normal="1976"
+                  >1976</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -1237,7 +1437,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">15</container>
-                <unittitle>Conventions, <unitdate type="inclusive" normal="1968">Summer 1968</unitdate></unittitle>
+                <unittitle>Conventions, <unitdate type="inclusive" normal="1968">Summer
+                    1968</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -1249,7 +1450,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">15</container>
-                <unittitle>Cussa Certification <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+                <unittitle>Cussa Certification <unitdate type="inclusive" normal="1968"
+                    >1968</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -1297,7 +1499,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">15</container>
-                <unittitle>Lodge, <unitdate type="inclusive" normal="1975">Summer 1975</unitdate></unittitle>
+                <unittitle>Lodge, <unitdate type="inclusive" normal="1975">Summer
+                  1975</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -1309,7 +1512,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">15</container>
-                <unittitle>Mountain Grand Lodge and Spa Groundbreaking <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+                <unittitle>Mountain Grand Lodge and Spa Groundbreaking <unitdate type="inclusive"
+                    normal="2000">2000</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -1333,7 +1537,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">16</container>
-                <unittitle>New Years Eve <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+                <unittitle>New Years Eve <unitdate type="inclusive" normal="1968/1969"
+                    >1968-1969</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -1427,7 +1632,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">16</container>
-                <unittitle>Seaton, Lynn <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+                <unittitle>Seaton, Lynn <unitdate type="inclusive" normal="1968/1969"
+                    >1968-1969</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -1709,7 +1915,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">17</container>
-                <unittitle>Fireworks display <unitdate type="inclusive" normal="2001">2001</unitdate>, <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+                <unittitle>Fireworks display <unitdate type="inclusive" normal="2001"
+                    >2001</unitdate>, <unitdate type="inclusive" normal="2003"
+                  >2003</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -1738,7 +1946,8 @@
                 <did>
                   <container type="box" label="Box">17</container>
                   <unittitle>
-                    <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate>
+                    <unitdate type="inclusive" normal="1960/1969" certainty="approximate"
+                      >1960s</unitdate>
                   </unittitle>
                 </did>
               </c05>
@@ -1774,7 +1983,8 @@
                   <did>
                     <container type="box" label="Box">17</container>
                     <unittitle>
-                      <unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate>
+                      <unitdate type="inclusive" normal="1980/1989" certainty="approximate"
+                        >1980s</unitdate>
                     </unittitle>
                   </did>
                 </c06>
@@ -1872,7 +2082,8 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">17</container>
-                  <unittitle>77th Birthday, Boyne Mountain Resort <unitdate type="inclusive" normal="1993-07-26">July 26, 1993</unitdate></unittitle>
+                  <unittitle>77th Birthday, Boyne Mountain Resort <unitdate type="inclusive"
+                      normal="1993-07-26">July 26, 1993</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
@@ -1944,7 +2155,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">18</container>
-                <unittitle>Miss Universe <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+                <unittitle>Miss Universe <unitdate type="inclusive" normal="1975"
+                  >1975</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -1965,7 +2177,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">18</container>
-                <unittitle>Personalities (Erich Bader, Karl and Margo Plattner, Dana Anderson, Al Litzenberger, and Gerald R. Ford)</unittitle>
+                <unittitle>Personalities (Erich Bader, Karl and Margo Plattner, Dana Anderson, Al
+                  Litzenberger, and Gerald R. Ford)</unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -1983,7 +2196,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">18</container>
-                <unittitle>Property Development <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+                <unittitle>Property Development <unitdate type="inclusive" normal="1968"
+                    >1968</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -2316,20 +2530,23 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">20</container>
-                <unittitle>Winter Carnival <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+                <unittitle>Winter Carnival <unitdate type="inclusive" normal="1974"
+                  >1974</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">20</container>
-                <unittitle>Winter Carnival <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+                <unittitle>Winter Carnival <unitdate type="inclusive" normal="1975"
+                  >1975</unitdate></unittitle>
               </did>
             </c04>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Photographs Used in Pictorial History of Boyne USA (assembled from various sources)</unittitle>
+            <unittitle>Photographs Used in Pictorial History of Boyne USA (assembled from various
+              sources)</unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -2340,7 +2557,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">21</container>
-              <unittitle>Copy prints of historical photos from the collection of the US Ski Hall of Fame</unittitle>
+              <unittitle>Copy prints of historical photos from the collection of the US Ski Hall of
+                Fame</unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2390,7 +2608,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">21</container>
-              <unittitle>Dorothea Blakeslee in <unitdate type="inclusive" normal="1935">1935</unitdate> ski attire</unittitle>
+              <unittitle>Dorothea Blakeslee in <unitdate type="inclusive" normal="1935"
+                  >1935</unitdate> ski attire</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 photographs</extent>
               </physdesc>
@@ -2399,13 +2618,15 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">21</container>
-              <unittitle>Chuck Moll tees it up in a publicity photo, <unitdate type="inclusive" normal="1972">Winter 1972</unitdate></unittitle>
+              <unittitle>Chuck Moll tees it up in a publicity photo, <unitdate type="inclusive"
+                  normal="1972">Winter 1972</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">21</container>
-              <unittitle>Margy Jurmo practicing at Boyne Mountain Ice Rink, <unitdate type="inclusive" normal="1959">Summer 1959</unitdate></unittitle>
+              <unittitle>Margy Jurmo practicing at Boyne Mountain Ice Rink, <unitdate
+                  type="inclusive" normal="1959">Summer 1959</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2426,19 +2647,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">21</container>
-              <unittitle>Boyne Mountain Golf Academy <unitdate type="inclusive" normal="1964" certainty="approximate">circa 1964</unitdate></unittitle>
+              <unittitle>Boyne Mountain Golf Academy <unitdate type="inclusive" normal="1964"
+                  certainty="approximate">circa 1964</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">21</container>
-              <unittitle>Original pool, before glass walls <unitdate type="inclusive" normal="1951" certainty="approximate">circa 1951</unitdate></unittitle>
+              <unittitle>Original pool, before glass walls <unitdate type="inclusive" normal="1951"
+                  certainty="approximate">circa 1951</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">21</container>
-              <unittitle>Original Sun Valley single chair installed, Sky Lift, Gatlinburg, Tenn.</unittitle>
+              <unittitle>Original Sun Valley single chair installed, Sky Lift, Gatlinburg,
+                Tenn.</unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2468,7 +2692,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">21</container>
-              <unittitle>Woman getting out of indoor pool with winter view showing through the windows</unittitle>
+              <unittitle>Woman getting out of indoor pool with winter view showing through the
+                windows</unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2483,13 +2708,15 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">21</container>
-              <unittitle>Line-up of skiers, wearing same jacket, perhaps members of a ski club</unittitle>
+              <unittitle>Line-up of skiers, wearing same jacket, perhaps members of a ski
+                club</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">21</container>
-              <unittitle>Stein Erickson with others outside faux pier behind banner "S.S. Goodtimer"</unittitle>
+              <unittitle>Stein Erickson with others outside faux pier behind banner "S.S.
+                Goodtimer"</unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2525,7 +2752,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">22</container>
-              <unittitle>Everett Kircher and chef holding birthday cake with design of the Boyne Mountain golf course</unittitle>
+              <unittitle>Everett Kircher and chef holding birthday cake with design of the Boyne
+                Mountain golf course</unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2537,7 +2765,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">22</container>
-              <unittitle>Sky Lift ticket window <unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></unittitle>
+              <unittitle>Sky Lift ticket window <unitdate type="inclusive" normal="1950/1959"
+                  certainty="approximate">1950s</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2549,7 +2778,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">22</container>
-              <unittitle>The first slope <unitdate type="inclusive" normal="1955-12">December 1955</unitdate></unittitle>
+              <unittitle>The first slope <unitdate type="inclusive" normal="1955-12">December
+                  1955</unitdate></unittitle>
             </did>
             <odd>
               <p>(photo by V. Haynes)</p>
@@ -2558,7 +2788,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">22</container>
-              <unittitle>Challenging conditions, <unitdate type="inclusive" normal="1957">Winter 1957</unitdate></unittitle>
+              <unittitle>Challenging conditions, <unitdate type="inclusive" normal="1957">Winter
+                  1957</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2576,7 +2807,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">52</container>
-              <unittitle>Skiers on slope, Hanson Challenge <unitdate type="inclusive" normal="1974-02">February 1974</unitdate></unittitle>
+              <unittitle>Skiers on slope, Hanson Challenge <unitdate type="inclusive"
+                  normal="1974-02">February 1974</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 photographs</extent>
                 <physfacet>color print</physfacet>
@@ -2616,7 +2848,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">52</container>
-              <unittitle>Skiers on slopes and in chair lifts <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+              <unittitle>Skiers on slopes and in chair lifts <unitdate type="inclusive"
+                  normal="1965">1965</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 prints</extent>
                 <physfacet>black and white</physfacet>
@@ -2720,7 +2953,9 @@
           </unittitle>
         </did>
         <scopecontent>
-          <p>The fifth series, Negatives, is organized into loose negatives and binders. The loose negatives are organized alphabetically by topic. The negatives contain images of various Boyne properties, activities, construction, and people.</p>
+          <p>The fifth series, Negatives, is organized into loose negatives and binders. The loose
+            negatives are organized alphabetically by topic. The negatives contain images of various
+            Boyne properties, activities, construction, and people.</p>
         </scopecontent>
         <c02 level="file">
           <did>
@@ -2729,7 +2964,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Anton Engelbert "Toni" Sailer <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Anton Engelbert "Toni" Sailer <unitdate type="inclusive"
+                >undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2741,19 +2977,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Boyne Mountain <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+              <unittitle>Boyne Mountain <unitdate type="inclusive" normal="2001"
+                >2001</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Boyne Mountain Spring Party <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+              <unittitle>Boyne Mountain Spring Party <unitdate type="inclusive" normal="2000"
+                  >2000</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Construction at Boyne Mountain <unitdate type="inclusive" normal="1960/1969" certainty="approximate">circa 1960s</unitdate></unittitle>
+              <unittitle>Construction at Boyne Mountain <unitdate type="inclusive"
+                  normal="1960/1969" certainty="approximate">circa 1960s</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2765,19 +3004,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Heather Highlands Inn <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Heather Highlands Inn <unitdate type="inclusive"
+                >undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Opening of Boyne Mountain Golf Course <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Opening of Boyne Mountain Golf Course <unitdate type="inclusive"
+                  >undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Pro Races <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+              <unittitle>Pro Races <unitdate type="inclusive" normal="1988"
+                >1988</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2789,37 +3031,43 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Maps of Boyne Highlands and Boyne Mountain <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+              <unittitle>Maps of Boyne Highlands and Boyne Mountain <unitdate type="inclusive"
+                  normal="1996">1996</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Skiing at Boyne Mountain <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+              <unittitle>Skiing at Boyne Mountain <unitdate type="inclusive" normal="1961"
+                  >1961</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Snowmobiling at Boyne Mountain <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Snowmobiling at Boyne Mountain <unitdate type="inclusive"
+                  >undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Snow Melt <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+              <unittitle>Snow Melt <unitdate type="inclusive" normal="1988"
+                >1988</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Test Drive Advertisement <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+              <unittitle>Test Drive Advertisement <unitdate type="inclusive" normal="2001"
+                  >2001</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Young Americans <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              <unittitle>Young Americans <unitdate type="inclusive" normal="1987"
+                >1987</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2831,7 +3079,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Big Sky <unitdate type="inclusive" normal="1970/1979" certainty="approximate">circa 1970s</unitdate></unittitle>
+              <unittitle>Big Sky <unitdate type="inclusive" normal="1970/1979"
+                  certainty="approximate">circa 1970s</unitdate></unittitle>
             </did>
           </c03>
         </c02>
@@ -2842,7 +3091,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Bay Harbor Golf <unitdate type="inclusive" normal="1993/2003">1993-2003 (scattered)</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Bay Harbor Golf <unitdate type="inclusive" normal="1993/2003">1993-2003
+                  (scattered)</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2854,7 +3104,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">23</container>
-              <unittitle>Boyne USA Events <unitdate type="inclusive" normal="1994/1999">1994-1999 (scattered)</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Boyne USA Events <unitdate type="inclusive" normal="1994/1999">1994-1999
+                  (scattered)</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2872,7 +3123,12 @@
           </unittitle>
         </did>
         <scopecontent>
-          <p>Photographic slides, the sixth series, contains color slides of Bay Harbor, Boyne Mountain, Boyne Highlands, Big Sky, Crystal Mountain, and the Gatlinburg Sky Lift. The images date from 1961 to 2005 and document activities, construction, buildings, and events. The first part of the series consists of albums, mostly of summer and winter events, and the second part of the series consists of loose slides organized by resort and topic.</p>
+          <p>Photographic slides, the sixth series, contains color slides of Bay Harbor, Boyne
+            Mountain, Boyne Highlands, Big Sky, Crystal Mountain, and the Gatlinburg Sky Lift. The
+            images date from 1961 to 2005 and document activities, construction, buildings, and
+            events. The first part of the series consists of albums, mostly of summer and winter
+            events, and the second part of the series consists of loose slides organized by resort
+            and topic.</p>
         </scopecontent>
         <c02 level="file">
           <did>
@@ -2926,7 +3182,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">28</container>
-              <unittitle>Golf <unitdate type="inclusive" normal="2003">2003</unitdate> Bay Harbor &amp; Heather Highlands</unittitle>
+              <unittitle>Golf <unitdate type="inclusive" normal="2003">2003</unitdate> Bay Harbor
+                &amp; Heather Highlands</unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2956,31 +3213,36 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">29</container>
-              <unittitle>Shell Tournament <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+              <unittitle>Shell Tournament <unitdate type="inclusive" normal="1998"
+                >1998</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">29</container>
-              <unittitle>Monument <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              <unittitle>Monument <unitdate type="inclusive" normal="1987"
+                >1987</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">29</container>
-              <unittitle>The Moor <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              <unittitle>The Moor <unitdate type="inclusive" normal="1987"
+                >1987</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">29</container>
-              <unittitle>The Alpine <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              <unittitle>The Alpine <unitdate type="inclusive" normal="1987"
+                >1987</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">29</container>
-              <unittitle>Heather Highland <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              <unittitle>Heather Highland <unitdate type="inclusive" normal="1987"
+                >1987</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -2998,7 +3260,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">30</container>
-              <unittitle>Golf: Super 5 Junior Top C <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+              <unittitle>Golf: Super 5 Junior Top C <unitdate type="inclusive" normal="1994"
+                  >1994</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -3016,19 +3279,22 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">31</container>
-              <unittitle>Golf <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
+              <unittitle>Golf <unitdate type="inclusive" normal="1986/1987"
+                >1986-1987</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">32</container>
-              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></unittitle>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1973/1974"
+                  >1973-1974</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">32</container>
-              <unittitle>Boyne <unitdate type="inclusive" normal="1997">1997</unitdate>, <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+              <unittitle>Boyne <unitdate type="inclusive" normal="1997">1997</unitdate>, <unitdate
+                  type="inclusive" normal="2000">2000</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -3089,7 +3355,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">33</container>
-                <unittitle>Billy Kidd <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+                <unittitle>Billy Kidd <unitdate type="inclusive" normal="1986"
+                  >1986</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -3101,7 +3368,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">33</container>
-                <unittitle>Construction of Super Bowl Lift with Helicopter <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+                <unittitle>Construction of Super Bowl Lift with Helicopter <unitdate
+                    type="inclusive" normal="1984">1984</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -3130,7 +3398,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">33</container>
-                <unittitle>T-Champions <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+                <unittitle>T-Champions <unitdate type="inclusive" normal="1999"
+                  >1999</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3147,7 +3416,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">33</container>
-                <unittitle>Construction <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate></unittitle>
+                <unittitle>Construction <unitdate type="inclusive" normal="1963/1966"
+                    >1963-1966</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -3174,13 +3444,15 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">33</container>
-                <unittitle>Donald Ross Memorial Golf Course <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+                <unittitle>Donald Ross Memorial Golf Course <unitdate type="inclusive" normal="1986"
+                    >1986</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">33</container>
-                <unittitle>Golf <unitdate type="inclusive" normal="1983">1983</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle>Golf <unitdate type="inclusive" normal="1983">1983</unitdate>, <unitdate
+                    type="inclusive">undated</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -3221,7 +3493,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">33</container>
-                <unittitle>General <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+                <unittitle>General <unitdate type="inclusive" normal="1995"
+                  >1995</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3232,13 +3505,15 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">33</container>
-                <unittitle>Sky Lift <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+                <unittitle>Sky Lift <unitdate type="inclusive" normal="2000"
+                  >2000</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">33</container>
-                <unittitle>Chairlift Rides <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+                <unittitle>Chairlift Rides <unitdate type="inclusive" normal="2001"
+                  >2001</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3261,37 +3536,44 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">34</container>
-                <unittitle>Byron Nelson and Jim Flick <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+                <unittitle>Byron Nelson and Jim Flick <unitdate type="inclusive" normal="1990"
+                    >1990</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">34</container>
-                <unittitle>Children <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle>Children <unitdate type="inclusive" normal="1986/1987"
+                    >1986-1987</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">34</container>
-                <unittitle>Condominiums <unitdate type="inclusive" normal="1978">1978</unitdate>, <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle>Condominiums <unitdate type="inclusive" normal="1978">1978</unitdate>,
+                    <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate>, <unitdate
+                    type="inclusive">undated</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">34</container>
-                <unittitle>Events <unitdate type="inclusive" normal="1981/1989">1981-1989 (scattered)</unitdate></unittitle>
+                <unittitle>Events <unitdate type="inclusive" normal="1981/1989">1981-1989
+                    (scattered)</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">34</container>
-                <unittitle>Everett Kircher <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+                <unittitle>Everett Kircher <unitdate type="inclusive" normal="1975"
+                  >1975</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">34</container>
-                <unittitle>Exterior and Aerial Shots of Boyne Mountain and Boyne Highlands <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+                <unittitle>Exterior and Aerial Shots of Boyne Mountain and Boyne Highlands <unitdate
+                    type="inclusive" normal="1986">1986</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -3303,7 +3585,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">34</container>
-                <unittitle>Golf <unitdate type="inclusive" normal="1975/1999">1975-1999 (scattered)</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle>Golf <unitdate type="inclusive" normal="1975/1999">1975-1999
+                    (scattered)</unitdate>, <unitdate type="inclusive"
+                  >undated</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -3312,13 +3596,16 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">34</container>
-                <unittitle>Golf Writers <unitdate type="inclusive" normal="1983">1983</unitdate>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+                <unittitle>Golf Writers <unitdate type="inclusive" normal="1983">1983</unitdate>,
+                    <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">34</container>
-                <unittitle>Miscellaneous <unitdate type="inclusive" normal="1971/2005">1971-2005 (scattered)</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle>Miscellaneous <unitdate type="inclusive" normal="1971/2005">1971-2005
+                    (scattered)</unitdate>, <unitdate type="inclusive"
+                  >undated</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">9 folders</extent>
                 </physdesc>
@@ -3327,7 +3614,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">34</container>
-                <unittitle>Mt. Newcomb Golf <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+                <unittitle>Mt. Newcomb Golf <unitdate type="inclusive" normal="1983"
+                  >1983</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -3339,7 +3627,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">35</container>
-                <unittitle>Skiing <unitdate type="inclusive" normal="1961/2005">1961-2005 (scattered)</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle>Skiing <unitdate type="inclusive" normal="1961/2005">1961-2005
+                    (scattered)</unitdate>, <unitdate type="inclusive"
+                  >undated</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
@@ -3348,19 +3638,22 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">35</container>
-                <unittitle>Ski School <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+                <unittitle>Ski School <unitdate type="inclusive" normal="2002"
+                  >2002</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">35</container>
-                <unittitle>Snowmaking <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate></unittitle>
+                <unittitle>Snowmaking <unitdate type="inclusive" normal="1985/1987"
+                    >1985-1987</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">35</container>
-                <unittitle>Tennis <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+                <unittitle>Tennis <unitdate type="inclusive" normal="1987"
+                  >1987</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -3374,7 +3667,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">35</container>
-                <unittitle>Women <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
+                <unittitle>Women <unitdate type="inclusive" normal="1986/1987"
+                  >1986-1987</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3393,13 +3687,15 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">35</container>
-                <unittitle>Bartley House <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+                <unittitle>Bartley House <unitdate type="inclusive" normal="1969"
+                  >1969</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">35</container>
-                <unittitle>First Boyne National Golf Academy <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+                <unittitle>First Boyne National Golf Academy <unitdate type="inclusive"
+                    normal="1969">1969</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3410,7 +3706,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">35</container>
-                <unittitle>Cessna District Meeting <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+                <unittitle>Cessna District Meeting <unitdate type="inclusive" normal="1968"
+                    >1968</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3421,7 +3718,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">35</container>
-                <unittitle>Miscellaneous <unitdate type="inclusive" normal="1963/1971">1963-1971</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle>Miscellaneous <unitdate type="inclusive" normal="1963/1971"
+                    >1963-1971</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3434,7 +3732,9 @@
           </unittitle>
         </did>
         <scopecontent>
-          <p>The seventh series, Videotapes, contains VHS, U-Matic, Beta, and open reel videotapes of Boyne USA events, interviews, and advertising. The tapes date back to the early 1980s and continue to 2003.</p>
+          <p>The seventh series, Videotapes, contains VHS, U-Matic, Beta, and open reel videotapes
+            of Boyne USA events, interviews, and advertising. The tapes date back to the early 1980s
+            and continue to 2003.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
@@ -3458,7 +3758,8 @@
                   <did>
                     <container type="box" label="Box">36</container>
                     <unittitle>
-                      <unitdate type="inclusive" normal="1992-06-07/1992-06-12">June 7-12, 1992</unitdate>
+                      <unitdate type="inclusive" normal="1992-06-07/1992-06-12">June 7-12,
+                        1992</unitdate>
                     </unittitle>
                   </did>
                 </c06>
@@ -3466,7 +3767,8 @@
                   <did>
                     <container type="box" label="Box">36</container>
                     <unittitle>
-                      <unitdate type="inclusive" normal="1992-06-21/1992-06-26">June 21-26, 1992</unitdate>
+                      <unitdate type="inclusive" normal="1992-06-21/1992-06-26">June 21-26,
+                        1992</unitdate>
                     </unittitle>
                   </did>
                 </c06>
@@ -3474,7 +3776,8 @@
                   <did>
                     <container type="box" label="Box">36</container>
                     <unittitle>
-                      <unitdate type="inclusive" normal="1992-06-27/1992-07-03">June 27-July 3, 1992</unitdate>
+                      <unitdate type="inclusive" normal="1992-06-27/1992-07-03">June 27-July 3,
+                        1992</unitdate>
                     </unittitle>
                   </did>
                 </c06>
@@ -3487,7 +3790,8 @@
                   <did>
                     <container type="box" label="Box">36</container>
                     <unittitle>
-                      <unitdate type="inclusive" normal="1992-07-19/1992-07-22">July 19-22, 1992</unitdate>
+                      <unitdate type="inclusive" normal="1992-07-19/1992-07-22">July 19-22,
+                        1992</unitdate>
                     </unittitle>
                   </did>
                 </c06>
@@ -3500,7 +3804,8 @@
                   <did>
                     <container type="box" label="Box">36</container>
                     <unittitle>
-                      <unitdate type="inclusive" normal="1992-07-26/1992-07-31">July 26-31, 1992</unitdate>
+                      <unitdate type="inclusive" normal="1992-07-26/1992-07-31">July 26-31,
+                        1992</unitdate>
                     </unittitle>
                   </did>
                 </c06>
@@ -3508,7 +3813,8 @@
                   <did>
                     <container type="box" label="Box">36</container>
                     <unittitle>
-                      <unitdate type="inclusive" normal="1992-08-02/1992-08-07">August 2-7, 1992</unitdate>
+                      <unitdate type="inclusive" normal="1992-08-02/1992-08-07">August 2-7,
+                        1992</unitdate>
                     </unittitle>
                   </did>
                 </c06>
@@ -3516,7 +3822,8 @@
                   <did>
                     <container type="box" label="Box">36</container>
                     <unittitle>
-                      <unitdate type="inclusive" normal="1992-08-09/1992-08-14">August 9-14, 1992</unitdate>
+                      <unitdate type="inclusive" normal="1992-08-09/1992-08-14">August 9-14,
+                        1992</unitdate>
                     </unittitle>
                   </did>
                 </c06>
@@ -3524,7 +3831,8 @@
                   <did>
                     <container type="box" label="Box">36</container>
                     <unittitle>
-                      <unitdate type="inclusive" normal="1992-08-23/1992-08-28">August 23-28, 1992</unitdate>
+                      <unitdate type="inclusive" normal="1992-08-23/1992-08-28">August 23-28,
+                        1992</unitdate>
                     </unittitle>
                   </did>
                 </c06>
@@ -3540,7 +3848,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">36</container>
-                <unittitle>Michigan Challenge Ski Race <unitdate type="inclusive" normal="1994-01-31">January 31, 1994</unitdate></unittitle>
+                <unittitle>Michigan Challenge Ski Race <unitdate type="inclusive"
+                    normal="1994-01-31">January 31, 1994</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3559,13 +3868,15 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">36</container>
-                <unittitle>Boyne Highland Downhill <unitdate type="inclusive" normal="1995-03">March 1995</unitdate></unittitle>
+                <unittitle>Boyne Highland Downhill <unitdate type="inclusive" normal="1995-03">March
+                    1995</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">36</container>
-                <unittitle>Bay Harbor Golf Development, ESPN <unitdate type="inclusive" normal="1995-09">September 1995</unitdate></unittitle>
+                <unittitle>Bay Harbor Golf Development, ESPN <unitdate type="inclusive"
+                    normal="1995-09">September 1995</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3584,7 +3895,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">36</container>
-                <unittitle>Boyne USA Golf Classic <unitdate type="inclusive" normal="1997-06-08/1997-06-09">June 8-9, 1997</unitdate></unittitle>
+                <unittitle>Boyne USA Golf Classic <unitdate type="inclusive"
+                    normal="1997-06-08/1997-06-09">June 8-9, 1997</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3615,7 +3927,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">37</container>
-                <unittitle>Boyne USA Resorts <unitdate type="inclusive" normal="1998-07">July 1998</unitdate></unittitle>
+                <unittitle>Boyne USA Resorts <unitdate type="inclusive" normal="1998-07">July
+                    1998</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3628,7 +3941,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">37</container>
-                <unittitle>Boyne USA Ski School &amp; Skiing <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></unittitle>
+                <unittitle>Boyne USA Ski School &amp; Skiing <unitdate type="inclusive"
+                    normal="1999/2000">1999-2000</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3653,7 +3967,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">37</container>
-                <unittitle>Mountain Grand Lodge &amp; Spa, Groundbreaking <unitdate type="inclusive" normal="2000-09-23">September 23, 2000</unitdate></unittitle>
+                <unittitle>Mountain Grand Lodge &amp; Spa, Groundbreaking <unitdate type="inclusive"
+                    normal="2000-09-23">September 23, 2000</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3666,7 +3981,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">37</container>
-                <unittitle>Everett Kircher Interview with Jim Neff <unitdate type="inclusive" normal="2001-07-15">July 15, 2001</unitdate></unittitle>
+                <unittitle>Everett Kircher Interview with Jim Neff <unitdate type="inclusive"
+                    normal="2001-07-15">July 15, 2001</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3765,7 +4081,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">38</container>
-                <unittitle>HBO Real Sports, with Bryant Gumbel, Segment Featuring Jimmie Huega Center</unittitle>
+                <unittitle>HBO Real Sports, with Bryant Gumbel, Segment Featuring Jimmie Huega
+                  Center</unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -3783,7 +4100,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">38</container>
-                <unittitle>Mountain Grand Lodge and Spa, Groundbreaking Activities and Historic Footage with Everett Kircher, Stein Eriksen, Othmar Schneider, Warren Miller &amp; Bill Flemming</unittitle>
+                <unittitle>Mountain Grand Lodge and Spa, Groundbreaking Activities and Historic
+                  Footage with Everett Kircher, Stein Eriksen, Othmar Schneider, Warren Miller &amp;
+                  Bill Flemming</unittitle>
               </did>
             </c04>
           </c03>
@@ -3859,7 +4178,8 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">42</container>
-                <unittitle><unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle><unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate>,
+                    <unitdate type="inclusive">undated</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">8 audiocassettes</extent>
                 </physdesc>
@@ -3889,13 +4209,15 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">42</container>
-                <unittitle><unitdate type="inclusive" normal="1993">1993</unitdate> Zoo-De-Mackinac</unittitle>
+                <unittitle><unitdate type="inclusive" normal="1993">1993</unitdate>
+                  Zoo-De-Mackinac</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">42</container>
-                <unittitle><unitdate type="inclusive" normal="1994">1994</unitdate> Mountain Biking</unittitle>
+                <unittitle><unitdate type="inclusive" normal="1994">1994</unitdate> Mountain
+                  Biking</unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -3937,7 +4259,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">44</container>
-              <unittitle><unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle><unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate>,
+                  <unitdate type="inclusive">undated</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">10 audiocassettes</extent>
               </physdesc>
@@ -3971,7 +4294,9 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">45</container>
-                <unittitle>Everett Kircher Historical B-Roll, Pierpont Video Productions, Boyne USA Resorts <unitdate type="inclusive" normal="2002-01-16">January 16, 2002</unitdate></unittitle>
+                <unittitle>Everett Kircher Historical B-Roll, Pierpont Video Productions, Boyne USA
+                  Resorts <unitdate type="inclusive" normal="2002-01-16">January 16,
+                  2002</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -3983,7 +4308,8 @@
           <c03 level="file">
             <did>
               <container type="reel" label="Reel">1</container>
-              <unittitle>Boyne Mountain skiing clip <unitdate type="inclusive" normal="1972">1972</unitdate> ABC Color Videotape</unittitle>
+              <unittitle>Boyne Mountain skiing clip <unitdate type="inclusive" normal="1972"
+                  >1972</unitdate> ABC Color Videotape</unittitle>
               <physdesc>
                 <physfacet>2 in.</physfacet>
               </physdesc>
@@ -3998,7 +4324,9 @@
           </unittitle>
         </did>
         <scopecontent>
-          <p>Motion Pictures, the eighth series, documents skiing, ski racing, and the promotional activities of Boyne USA in the 1950s, 1960s, and 1970s. The series contains three 8mm film cartridges and 25 16mm films.</p>
+          <p>Motion Pictures, the eighth series, documents skiing, ski racing, and the promotional
+            activities of Boyne USA in the 1950s, 1960s, and 1970s. The series contains three 8mm
+            film cartridges and 25 16mm films.</p>
         </scopecontent>
         <c02 level="file">
           <did>
@@ -4044,7 +4372,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Big Sky Architect 1st <unitdate type="inclusive" normal="1974-12">December 1974</unitdate> cartoon</unittitle>
+              <unittitle>Big Sky Architect 1st <unitdate type="inclusive" normal="1974-12">December
+                  1974</unitdate> cartoon</unittitle>
             </did>
             <odd>
               <p>(Film No. 7)</p>
@@ -4119,7 +4448,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Jimmie Huega (Olympic medalist) film <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+              <unittitle>Jimmie Huega (Olympic medalist) film <unitdate type="inclusive"
+                  normal="1986">1986</unitdate></unittitle>
             </did>
             <odd>
               <p>(Film No. 3)</p>
@@ -4151,7 +4481,9 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Skiing at the Mountain, late <unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate> or <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+              <unittitle>Skiing at the Mountain, late <unitdate type="inclusive" normal="1950/1959"
+                  certainty="approximate">1950s</unitdate> or <unitdate type="inclusive"
+                  normal="1964">1964</unitdate></unittitle>
             </did>
             <odd>
               <p>(Film No. 6)</p>
@@ -4186,7 +4518,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>When the Bell Says Boyne <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+              <unittitle>When the Bell Says Boyne <unitdate type="inclusive" normal="1975"
+                  >1975</unitdate></unittitle>
             </did>
             <odd>
               <p>(5 copies)</p>
@@ -4197,7 +4530,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>When the Bell Says Boyne, Reel A <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+              <unittitle>When the Bell Says Boyne, Reel A <unitdate type="inclusive" normal="1975"
+                  >1975</unitdate></unittitle>
             </did>
             <odd>
               <p>(Film No. 16)</p>
@@ -4205,7 +4539,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>When the Bell Says Boyne, Reel B <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+              <unittitle>When the Bell Says Boyne, Reel B <unitdate type="inclusive" normal="1975"
+                  >1975</unitdate></unittitle>
             </did>
             <odd>
               <p>(Film No. 17)</p>
@@ -4213,7 +4548,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Wild World of Sports K 2 Cup Races, Boyne Mountain <unitdate type="inclusive" normal="1972-02">February 1972</unitdate></unittitle>
+              <unittitle>Wild World of Sports K 2 Cup Races, Boyne Mountain <unitdate
+                  type="inclusive" normal="1972-02">February 1972</unitdate></unittitle>
             </did>
             <odd>
               <p>(Film No. 25)</p>
@@ -4227,84 +4563,194 @@
             <genreform normal="Sound recordings">Sound Recordings</genreform>
           </unittitle>
         </did>
+        <accessrestrict>
+          <p>[Digitized audio files are only available in the Bentley Historical Library reading
+            room on designated Bentley Library computers.]</p>
+        </accessrestrict>
         <scopecontent>
-          <p>The ninth series, Sound Recordings, primarily documents Boyne's radio presence in the form of interviews, advertisements, and concerts. The recordings are on eight 3 inch reels and 27 cassette tapes.</p>
+          <p>The ninth series, Sound Recordings, primarily documents Boyne's radio presence in the
+            form of interviews, advertisements, and concerts. The recordings are on eight 3 inch
+            reels and 27 cassette tapes.</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <unittitle>3 in. reels</unittitle>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"12 Hour Ticket"</unittitle>
+              <unittitle>12 Hour Ticket, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc><physfacet>Audio Reel-to-Reel, 5 inch, 15</physfacet></physdesc>
             </did>
-            <odd>
-              <p>(tape no. 1)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-1-1]</unitid>
+                <physdesc><physfacet>mp3 file</physfacet></physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_7r7yiijb" show="new"
+                  actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Advertisement for Boyne USA resorts entitled "12 Hour
+                  Ticket.")</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"Big Sky"</unittitle>
+              <unittitle>Big Sky, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc><physfacet>Audio Reel-to-Reel, 7 inch</physfacet></physdesc>
             </did>
-            <odd>
-              <p>(tape no. 2)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-2-1]</unitid>
+                <physdesc><physfacet>mp3 file</physfacet></physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_j6km86sg" show="new"
+                  actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Two commercials for the Big Sky ski resort in Montana; Second spot starts
+                  around 4:00)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"Black Diamond Rush, Generic"</unittitle>
+              <unittitle>Black Diamond Rush, Generic, <unitdate type="inclusive">1993 September
+                  16</unitdate></unittitle>
+              <physdesc><physfacet>Audio Reel-to-Reel, 5 inch, 7 ½ ips</physfacet></physdesc>
             </did>
-            <odd>
-              <p>(tape no. 3)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-3-1]</unitid>
+                <physdesc><physfacet>mp3 file</physfacet></physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_szjmfqd1" show="new"
+                  actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Advertisement for Sky resort.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"Celebrity Players Tour"</unittitle>
+              <unittitle>Celebrity Players Tour, <unitdate type="inclusive"
+                >[Undated]</unitdate></unittitle>
+              <physdesc><physfacet>Audio Reel-to-Reel, 5 inch, 15</physfacet></physdesc>
             </did>
-            <odd>
-              <p>(tape no. 4)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-4-1]</unitid>
+                <physdesc><physfacet>mp3 file</physfacet></physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_yesyz9dr" show="new"
+                  actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Advertisement for Celebrity Players golf tour.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"Gatlinburg Sky Lift"</unittitle>
+              <unittitle>Gatlinburg Sky Lift, <unitdate type="inclusive">1976 August
+                11</unitdate></unittitle>
+              <physdesc><physfacet>Audio Reel-to-Reel, 5 inch, 7 ½ ips</physfacet></physdesc>
             </did>
-            <odd>
-              <p>(tape no. 5)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-5-1]</unitid>
+                <physdesc><physfacet>mp3 file</physfacet></physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_o77vzurr" show="new"
+                  actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Advertisement for the Gatlinburg Skylift in Gatlinburg, TN. )</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"Hawaiian Tropic"</unittitle>
+              <unittitle>Hawaiian Tropic, <unitdate type="inclusive"
+                >[Undated]</unitdate></unittitle>
+              <physdesc><physfacet>Audio Reel-to-Reel, 5 inch, 15</physfacet></physdesc>
             </did>
-            <odd>
-              <p>(tape no. 6)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-6-1]</unitid>
+                <physdesc><physfacet>mp3 file</physfacet></physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_jotop4cv" show="new"
+                  actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Advertisement for Miss Hawaiian Tropic pagent.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"Ride the Gatlinburg Sky Lift"</unittitle>
+              <unittitle>Ride the Gatlinburg Sky Lift, <unitdate type="inclusive">1976 May
+                  05</unitdate></unittitle>
+              <physdesc><physfacet>Audio Reel-to-Reel, 5 inch</physfacet></physdesc>
             </did>
-            <odd>
-              <p>(tape no. 7)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-7-1]</unitid>
+                <physdesc><physfacet>mp3 file</physfacet></physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_e3uk9ppx" show="new"
+                  actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Advertisement for the Gatlinburg Skylift in Gatlinburg, TN. )</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"Search-not"</unittitle>
+              <unittitle>Search-not, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc><physfacet>Audio Reel-to-Reel, 5 inch, 15</physfacet></physdesc>
             </did>
-            <odd>
-              <p>(tape no. 8)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-8-1]</unitid>
+                <physdesc><physfacet>mp3 file</physfacet></physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_t15jhpea" show="new"
+                  actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Advertisement for Boyne Mountain and Boyne Highland ski
+                  resorts.)</abstract>
+              </did>
+            </c04>
           </c03>
         </c02>
         <c02 level="file">
@@ -4323,7 +4769,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">47</container>
-              <unittitle>"Boyne Concert Series," <unitdate type="inclusive" normal="1989-11-28">November 28, 1989</unitdate></unittitle>
+              <unittitle>"Boyne Concert Series," <unitdate type="inclusive" normal="1989-11-28"
+                  >November 28, 1989</unitdate></unittitle>
             </did>
             <odd>
               <p>(tape no. 10)</p>
@@ -4341,7 +4788,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">47</container>
-              <unittitle>"Boyne Mountain Concert Series," <unitdate type="inclusive" normal="1989-11-21">November 21, 1989</unitdate></unittitle>
+              <unittitle>"Boyne Mountain Concert Series," <unitdate type="inclusive"
+                  normal="1989-11-21">November 21, 1989</unitdate></unittitle>
             </did>
             <odd>
               <p>(tape no. 12)</p>
@@ -4359,7 +4807,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">47</container>
-              <unittitle>"Boyne Mountain Promo," <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
+              <unittitle>"Boyne Mountain Promo," <unitdate type="inclusive" normal="1985/1986"
+                  >1985-1986</unitdate></unittitle>
             </did>
             <odd>
               <p>(tape no. 14)</p>
@@ -4368,7 +4817,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">47</container>
-              <unittitle>"Boyne Mountain/Tropic-Wild," <unitdate type="inclusive" normal="1990-01-27">January 27, 1990</unitdate></unittitle>
+              <unittitle>"Boyne Mountain/Tropic-Wild," <unitdate type="inclusive"
+                  normal="1990-01-27">January 27, 1990</unitdate></unittitle>
             </did>
             <odd>
               <p>(tape no. 15)</p>
@@ -4431,7 +4881,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">47</container>
-              <unittitle>"D. A. R. E. Tournament," <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+              <unittitle>"D. A. R. E. Tournament," <unitdate type="inclusive" normal="1991"
+                  >1991</unitdate></unittitle>
             </did>
             <odd>
               <p>(tape no. 22)</p>
@@ -4467,7 +4918,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">47</container>
-              <unittitle>"Jimmie Huega Express," <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+              <unittitle>"Jimmie Huega Express," <unitdate type="inclusive" normal="1990"
+                  >1990</unitdate></unittitle>
             </did>
             <odd>
               <p>(tape no. 26)</p>
@@ -4494,7 +4946,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">47</container>
-              <unittitle>"P. A. R. Golf," <unitdate type="inclusive" normal="1985-05-28">May 28, 1985</unitdate></unittitle>
+              <unittitle>"P. A. R. Golf," <unitdate type="inclusive" normal="1985-05-28">May 28,
+                  1985</unitdate></unittitle>
             </did>
             <odd>
               <p>(tape no. 30)</p>
@@ -4521,7 +4974,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">47</container>
-              <unittitle>Steve King, Huega Express <unitdate type="inclusive" normal="1991-01-10">January 10, 1991</unitdate></unittitle>
+              <unittitle>Steve King, Huega Express <unitdate type="inclusive" normal="1991-01-10"
+                  >January 10, 1991</unitdate></unittitle>
             </did>
             <odd>
               <p>(tape no. 33)</p>
@@ -4552,7 +5006,8 @@
           <unittitle>Art work</unittitle>
         </did>
         <scopecontent>
-          <p>The tenth series, Artwork, consists of drawing and paintings portraying ski activities.</p>
+          <p>The tenth series, Artwork, consists of drawing and paintings portraying ski
+            activities.</p>
         </scopecontent>
         <c02 level="file">
           <did>
@@ -4572,7 +5027,9 @@
           <unittitle>Architectural concept and promotional boards</unittitle>
         </did>
         <scopecontent>
-          <p>Architectural concept and promotional boards, the eleventh series, contains plans for buildings and grounds at Boyne Mountain and Boyne Highlands and large promotional images for Boyne USA.</p>
+          <p>Architectural concept and promotional boards, the eleventh series, contains plans for
+            buildings and grounds at Boyne Mountain and Boyne Highlands and large promotional images
+            for Boyne USA.</p>
         </scopecontent>
         <c02 level="file">
           <did>
@@ -4604,7 +5061,8 @@
         <c02 level="file">
           <did>
             <container type="map-case" label="Drawer">1</container>
-            <unittitle>The Inn at Bay Harbor, Phase II Conceptual Site Plan <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+            <unittitle>The Inn at Bay Harbor, Phase II Conceptual Site Plan <unitdate
+                type="inclusive" normal="1999">1999</unitdate></unittitle>
             <physdesc>
               <physfacet>24"x36" on foam board</physfacet>
             </physdesc>
@@ -4613,7 +5071,8 @@
         <c02 level="file">
           <did>
             <container type="map-case" label="Drawer">1</container>
-            <unittitle>"Village Center Detail Boyne Mountain <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+            <unittitle>"Village Center Detail Boyne Mountain <unitdate type="inclusive"
+                normal="2000">2000</unitdate></unittitle>
             <physdesc>
               <physfacet>42 3/8"x29 3/4" on foam board</physfacet>
             </physdesc>
@@ -4669,24 +5128,28 @@
           <unittitle>Miscellaneous office records</unittitle>
         </did>
         <scopecontent>
-          <p>Miscellaneous Office Records, the twelfth series consists of two oversized volumes documenting alcohol inventory and conference bookings.</p>
+          <p>Miscellaneous Office Records, the twelfth series consists of two oversized volumes
+            documenting alcohol inventory and conference bookings.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle>Storeroom inventory of alcohol: beer, wine, liquor <unitdate type="inclusive" normal="1981/1987">1981-1987</unitdate></unittitle>
+            <unittitle>Storeroom inventory of alcohol: beer, wine, liquor <unitdate type="inclusive"
+                normal="1981/1987">1981-1987</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
           </did>
           <c03 level="file">
             <did>
-              <unittitle>Storeroom inventory of alcohol: beer, wine, liquor <unitdate type="inclusive" normal="1981/1987">1981-1987</unitdate></unittitle>
+              <unittitle>Storeroom inventory of alcohol: beer, wine, liquor <unitdate
+                  type="inclusive" normal="1981/1987">1981-1987</unitdate></unittitle>
               <container type="volume" label="Oversize Volume">12</container>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Storeroom inventory of alcohol: beer, wine, liquor <unitdate type="inclusive" normal="1981/1987">1981-1987</unitdate></unittitle>
+              <unittitle>Storeroom inventory of alcohol: beer, wine, liquor <unitdate
+                  type="inclusive" normal="1981/1987">1981-1987</unitdate></unittitle>
               <container type="volume" label="Oversize Volume">13</container>
             </did>
             <odd>
@@ -4695,7 +5158,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Storeroom inventory of alcohol: beer, wine, liquor <unitdate type="inclusive" normal="1981/1987">1981-1987</unitdate></unittitle>
+              <unittitle>Storeroom inventory of alcohol: beer, wine, liquor <unitdate
+                  type="inclusive" normal="1981/1987">1981-1987</unitdate></unittitle>
               <container type="volume" label="Oversize Volume">14</container>
             </did>
             <odd>
@@ -4706,7 +5170,8 @@
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume">15</container>
-            <unittitle>Calendar of conference bookings <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
+            <unittitle>Calendar of conference bookings <unitdate type="inclusive" normal="1971/1972"
+                >1971-1972</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 columnar pads</extent>
             </physdesc>
@@ -4718,7 +5183,9 @@
           <unittitle>Scrapbooks and clippings</unittitle>
         </did>
         <scopecontent>
-          <p>The thirteenth series, Scrapbooks and Clippings, contains scrapbooks of news releases and several folders of news clippings related to Boyne USA provided by a news clipping service.</p>
+          <p>The thirteenth series, Scrapbooks and Clippings, contains scrapbooks of news releases
+            and several folders of news clippings related to Boyne USA provided by a news clipping
+            service.</p>
         </scopecontent>
         <c02 level="file">
           <did>
@@ -4768,43 +5235,50 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume">5</container>
-              <unittitle>General news releases <unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate></unittitle>
+              <unittitle>General news releases <unitdate type="inclusive" normal="1964/1967"
+                  >1964-1967</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume">6</container>
-              <unittitle>Skiing news releases <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+              <unittitle>Skiing news releases <unitdate type="inclusive" normal="1968/1969"
+                  >1968-1969</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume">7</container>
-              <unittitle>Skiing news stories <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+              <unittitle>Skiing news stories <unitdate type="inclusive" normal="1968/1969"
+                  >1968-1969</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume">8</container>
-              <unittitle>Golf news releases <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+              <unittitle>Golf news releases <unitdate type="inclusive" normal="1968/1969"
+                  >1968-1969</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume">9</container>
-              <unittitle>Convention news releases <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+              <unittitle>Convention news releases <unitdate type="inclusive" normal="1968/1969"
+                  >1968-1969</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume">10</container>
-              <unittitle>General news releases <unitdate type="inclusive" normal="1970-01/1973-01">January 1970-January 1973</unitdate></unittitle>
+              <unittitle>General news releases <unitdate type="inclusive" normal="1970-01/1973-01"
+                  >January 1970-January 1973</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume">11</container>
-              <unittitle>Boyne Tournament of Champions <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+              <unittitle>Boyne Tournament of Champions <unitdate type="inclusive" normal="1992/1993"
+                  >1992-1993</unitdate></unittitle>
             </did>
           </c03>
         </c02>
@@ -4832,7 +5306,8 @@
             <did>
               <container type="box" label="Box">50</container>
               <unittitle>
-                <unitdate type="inclusive" normal="1960/2009" certainty="approximate">1960s-2000s</unitdate>
+                <unitdate type="inclusive" normal="1960/2009" certainty="approximate"
+                  >1960s-2000s</unitdate>
               </unittitle>
             </did>
             <odd>
@@ -4846,12 +5321,15 @@
           <unittitle>Miscellaneous</unittitle>
         </did>
         <scopecontent>
-          <p>Miscellaneous, the fourteenth and final series, consists of oversize certificates, commemorative materials, and informational placards related to Boyne USA resorts, events, and history.</p>
+          <p>Miscellaneous, the fourteenth and final series, consists of oversize certificates,
+            commemorative materials, and informational placards related to Boyne USA resorts,
+            events, and history.</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="box" label="Box">54</container>
-            <unittitle>Certificates, commemorative materials, informational placards, etc.</unittitle>
+            <unittitle>Certificates, commemorative materials, informational placards,
+              etc.</unittitle>
           </did>
         </c02>
       </c01>
