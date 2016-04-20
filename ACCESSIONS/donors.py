@@ -55,7 +55,6 @@ def main():
             beal_contact_id = donor_detail[u"beal_contact_id"]
             person_json["donor_details"].append(donor_detail)
             person_json["agent_contacts"].append(contact_detail)
-            person_json_data = json.dumps(person_json)
             update_posted_agent(session, aspace_url, agent_uri, person_json)
             updated_agents_dict[beal_contact_id] = agent_uri
         elif name in agent_dict["persname"]:
@@ -86,7 +85,6 @@ def main():
             beal_contact_id = donor_detail[u"beal_contact_id"]
             corp_json["donor_details"].append(donor_detail)
             corp_json["agent_contacts"].append(contact_detail)
-            corp_json_data = json.dumps(corp_json)
             update_posted_agent(session, aspace_url, agent_uri, corp_json)
             updated_agents_dict[beal_contact_id] = agent_uri
         elif name in agent_dict["corpname"]:
@@ -113,22 +111,7 @@ def main():
     session.post("{}/logout".format(aspace_url))
 
 def get_donor_details(donor_data):
-    donor_number = donor_data.get("donor number", "")
-    donor_part = donor_data.get("donor part", "")
-    contact_id = donor_data.get("contact id", "")
-    dart_id = donor_data.get("bhl dart id", "")
-
-    #if donor_part and donor_number:
-        #donor_number += "-{}".format(donor_part)
-
     return {u"donor_details": [get_donor_detail(donor_data)]}
-
-    """
-    return {u"donor_details": [{u"donor_number": donor_number,
-                                u"donor_number_auto_generate": False,
-                                u"dart_id": dart_id,
-                                u"beal_contact_id": contact_id}]}
-    """
 
 def get_donor_detail(donor_data):
     donor_number = donor_data.get("donor number", "")
@@ -142,22 +125,6 @@ def get_donor_detail(donor_data):
             u"beal_contact_id": contact_id}
 
 def get_contact_details(donor_data):
-    contact_id = donor_data.get("contact id", "")
-    full_name = donor_data.get("full name","No contact name provided")
-    address_1 = donor_data.get("address", "")
-    address_2 = donor_data.get("address 2", "")
-    city = donor_data.get("city", "")
-    country = donor_data.get("country", "")
-    email = donor_data.get("email", "")
-    post_code = donor_data.get("zip code", "")
-    state = donor_data.get("state", "")
-
-    phone_type = donor_data.get("phone type", "")
-    phone_number = donor_data.get("phone number", "")
-
-    note = donor_data.get("note", "")
-    note += "\n[Contact info for BEAL contact id {}]".format(contact_id)
-
     return {u"agent_contacts": [get_contact_detail(donor_data)]}
 
 def get_contact_detail(donor_data):
