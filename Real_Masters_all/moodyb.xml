@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>20100621</date>
         <item>Corrections made to the finding aid.</item>
       </change>
@@ -62,6 +66,10 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">60 phonograph records</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">37 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository encodinganalog="852">
         <corpname><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -73,6 +81,7 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Susan B. Moody, a granddaughter of Blair Moody, transferred her copyright in the papers to the University of Michigan.</p>
@@ -80,6 +89,9 @@
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., Blair Moody Papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>Arthur Edson Blair Moody was born in New Haven, Connecticut, on February 13, 1902, the son of Arthur Edson Blair and Julia (Downey) Moody. He attended public schools in Providence, Rhode Island, and was graduated from Brown University in 1922, with a B.A. degree in economics. Following graduation from college, he taught and coached for one year at the Moses Brown School in Providence, and in 1923 became an employee of the <title render="italic">Detroit News</title>. At first a sportswriter, Moody afterward covered the Detroit City Hall as a reporter during the mayoralty administration of Frank Murphy.</p>
@@ -294,9 +306,9 @@
         <subject source="lctgm" encodinganalog="650">Soldiers--American.</subject>
         <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
         <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463">Williams, G. Mennen, 1911-1988.</persname>
-        <geogname source="lctgm" encodinganalog="651">Willow Run (Mich.)--Airplane industry.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Willow Run (Mich.)--Automobile industry.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Willow Run (Mich.)--Industrial buildings.</geogname>
+        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n00086557">Willow Run (Mich.)--Airplane industry.</geogname>
+        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n00086557">Willow Run (Mich.)--Automobile industry.</geogname>
+        <geogname source="lctgm" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n00086557">Willow Run (Mich.)--Industrial buildings.</geogname>
         <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
@@ -639,13 +651,13 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">13</container>
-              <unittitle><unitdate type="inclusive">Undated</unitdate> (Atomic seminar)</unittitle>
+              <unittitle><unitdate>Undated</unitdate> (Atomic seminar)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">13</container>
-              <unittitle><unitdate type="inclusive">Undated</unitdate> (miscellaneous sampling)</unittitle>
+              <unittitle><unitdate>Undated</unitdate> (miscellaneous sampling)</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
@@ -721,7 +733,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">13</container>
-            <unittitle>Itineraries <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Itineraries <unitdate>undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -755,7 +767,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">14</container>
-              <unittitle>Unions and strikes <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Unions and strikes <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -1111,7 +1123,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">15</container>
-            <unittitle><unitdate type="inclusive">Undated</unitdate> press materials</unittitle>
+            <unittitle><unitdate>Undated</unitdate> press materials</unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -1130,7 +1142,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">15</container>
-              <unittitle>Bills, analyses, and amendments <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Bills, analyses, and amendments <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -1246,7 +1258,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">16</container>
-            <unittitle>Statements made by Moody <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Statements made by Moody <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>, <unitdate>undated</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
@@ -1507,7 +1519,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">17</container>
-            <unittitle><unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle><unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>, <unitdate>undated</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 folders</extent>
             </physdesc>
@@ -1524,7 +1536,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">17</container>
-            <unittitle><unitdate type="inclusive">Undated</unitdate> (radio and television)</unittitle>
+            <unittitle><unitdate>Undated</unitdate> (radio and television)</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
@@ -1586,7 +1598,7 @@
             <did>
               <container type="box" label="Box">17</container>
               <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
+                <unitdate>Undated</unitdate>
               </unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -1911,7 +1923,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">25</container>
-            <unittitle>Scrapbook concerning government finance <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Scrapbook concerning government finance <unitdate>undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -1935,407 +1947,1000 @@
           <did>
             <unittitle>Sound tapes</unittitle>
           </did>
-          <c03 level="otherlevel" otherlevel="sub-subseries">
+          <accessrestrict>
+            <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+          </accessrestrict>
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle><title render="italic">Meet Your Congress</title> Program</unittitle>
+              <unittitle>US Foreign Policy and the Firing of General Douglas MacArthur, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>US Foreign Policy and the Firing of General Douglas MacArthur. Panelists: Herbert Lehman, Hubert Humphrey, Robert A. Taft, Homer Capehart <unitdate type="inclusive" normal="1951" certainty="approximate">circa 1951</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-1-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_dkl0broc" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Korean War discussion, Unrest in South China. Includes dicussion with panelists: Herbert Lehman, Hubert Humphrey, Robert A. Taft, Homer Capehart.)</abstract>
               </did>
-              <odd>
-                <p>(Tape 1)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>Korean War. Panelists: H. Alexander Smith, William F. Knowland, Paul Douglas, Clinton P. Anderson <unitdate type="inclusive" normal="1953-05-14">May 14, 1953</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 2)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"A Code of Fair Play for Congressional Investigations." Roscoe Drummond, moderator. Panelists: John J. Sparkman, Paul Douglas. <unitdate type="inclusive" normal="1953-05-30">May 30, 1953</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 3)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>International Economics. Panelists: Homer Capehart, Burnet R. Maybank, John D. Dingell, John Leddy? <unitdate type="inclusive" normal="1953-09-09">September 9, 1953</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 4)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"Foreign Policy." Panelists: Alexander Wiley, Thruston B. Morton, Mike Mansfield, Walter Judd. <unitdate type="inclusive" normal="1953-09-10">September 10, 1953</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 5)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>Eisenhower speech on the preservation of liberty. Panelists: Catherine Howard, Harold H. Velde, James E. Murray, Herman Eberharter. <unitdate type="inclusive" normal="1953-09-23">September 23, 1953</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 6)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>Farm Prices and Politics. Panelists: Lester C. Hunt, A.L. Miller, Carl Curtis, Wright Patman. <unitdate type="inclusive" normal="1953-10-18">October 18, 1953</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 7)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"Is the Eisenhower Administration Slipping or Gaining?" Panelists: Robert S. Kerr, Craig Hosmer, George A. Smathers, Hugh Scott <unitdate type="inclusive" normal="1953-11-01">November 1, 1953</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 8)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>1953 Elections and Politics. Panelists: Richard Bolling, Carl Curtis, William Langer, Mike Mansfield. <unitdate type="inclusive" normal="1953-11-08">November 8, 1953</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 9)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"Issues and Politics of the Coming 1954 Session of Congress." Panelists: Albert Gore, Mike Monroney, Clarence J. Brown, Craig Hosmer. <unitdate type="inclusive" normal="1953-11-15">November 15, 1953</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 10)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"Taxes." Panelists: Jacob Javits, Carl Curtis, John D. Dingell, Richard Bolling. <unitdate type="inclusive" normal="1953-11-29">November 29, 1953</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 11)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"Investigating Committees." Panelists: Mike Mansfield, Guy Gillette, Peter Frelinghuysen, Robert W. Kean. <unitdate type="inclusive" normal="1953-12-13">December 13, 1953</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 12)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>1954 Session of Congress. Panelists: Frank Carlson, Henry M. Jackson, H. Alexander Smith, John McCormack. <unitdate type="inclusive" normal="1954-01-10">January 10, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 13)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>Eisenhower's Program in Congress. Panelists: John F. Kennedy, Frank A. Barrett, Mike Monroney, Carl Curtis. <unitdate type="inclusive" normal="1954-01-17">January 17, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 14)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>1954 Budget. Panelists: George A. Smathers, Hubert Humphrey, Craig Hosmer, Peter Frelinghuysen. <unitdate type="inclusive" normal="1954-01-24">January 24, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 15)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"The New Look" Military Posture and Budget. Panelists: John Sparkman, Edward Martin, Henry M. Jackson, Clarence J. Brown. <unitdate type="inclusive" normal="1954-01-31">January 31, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 16)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"The National Economy. "Panelists: Warren Magnuson, Robert W. Kean, Richard Bolling, John M. Vorys. <unitdate type="inclusive" normal="1954-02-07">February 7, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 17)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"Taxes." Panelists: John Sparkman, Henry M. Jackson, Carl Curtis, Robert W. Kean. <unitdate type="inclusive" normal="1954-02-14">February 14, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 18)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"Readjustment or recession. "Panelists: Frank A. Barrett, Paul Douglas, George Bender, Wright Patman. <unitdate type="inclusive" normal="1954-02-14">February 14, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 19)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"Is Our Defense Adequate? "Panelists: James H. Duff, John Sherman Cooper, Mike Monroney, George H. Mahon. <unitdate type="inclusive" normal="1954-02-28">February 28, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 20)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"Can We Avoid A Major Slump? "Panelists: Frank A. Barrett, Paul Douglas, George Bender, Wright Patman. <unitdate type="inclusive" normal="1954-03-07">March 7, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 21)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"Should Hawaii and Alaska Become States?" Panelists: William F. Knowland, Warren Magnuson, George Smathers, Joseph R. Farrington. <unitdate type="inclusive" normal="1954-03-14">March 14, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 22)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"Taxes." Panelists: Paul Douglas, J. William Fulbright, Carl Curtis, Robert W. Kean. <unitdate type="inclusive" normal="1954-03-21">March 21, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 23)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">26</container>
-                <unittitle>"New Look" Military Posture. Panelists: Francis Case, Edward Martin, Henry M. Jackson, Samuel W. Yorty. <unitdate type="inclusive" normal="1954-03-28">March 28, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 24)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>"Should the Government Act Now to Reverse the Slump?" Panelists: Frank Carlson, Frank A. Barrett, Herbert Lehman, Richard Bolling. <unitdate type="inclusive" normal="1954-04-04">April 4, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 25)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>Hydrogen Bomb Explosion. Panelists: James H. Duff, Sterling M. Cole, Clinton M. Anderson, Thomas A. Burke. <unitdate type="inclusive" normal="1954-04-11">April 11, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 26)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>"Peace and Indo-China. "Panelists: Ralph E. Flanders, Estes Kefauver, Paul Douglas, Walter Judd. <unitdate type="inclusive" normal="1954-04-18">April 18, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 27)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>"Indo-China." Panelists: William Langer, Guy Gillette, Hubert Humphrey. <unitdate type="inclusive" normal="1954-04-25">April 25, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape never received; Edaphone recording only)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>"Political Issues of the Coming Campaign." Charles Lucey, moderator. Panelists: Warren Magnuson, Clarence Brown, John McCormack, Carl Curtis. <unitdate type="inclusive" normal="1954-05-09">May 9, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 28)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>"Can We Achieve a Bi-partisan Foreign Policy?" Charles Lucey, moderator. Panelists: Paul Douglas, Mike Mansfield, James G. Fulton, John M. Vorys. <unitdate type="inclusive" normal="1954-05-16">May 16, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 29)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>"Social Security." Ernest K. Lindley, moderator. Panelists: Robert Kean, Howard Baker, Richard Bolling, John Blatnik. <unitdate type="inclusive" normal="1954-05-23">May 23, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 30)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>"Should Government Employees Give Confidential Material to Congressmen?" Ernest K. Lindley, moderator. Panelists: Estes Kefauver, H. Alexander Smith, Peter Frelinghuysen, George Mahon. <unitdate type="inclusive" normal="1954-06-06">June 6, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 31)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>"Are We Holding or Losing Our Allies." Roscoe Drummond, moderator. Panelists: Guy Gillette, Craig Hosmer, Henry M. Jackson, Bailey Merrill. <unitdate type="inclusive" normal="1954-06-13">June 13, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 32)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>"What Should We Do About Indo-China?" Ernest K. Lindley, moderator. Panelists: William F. Knowland, John Sherman Cooper, Mike Mansfield, James P. Richards. <unitdate type="inclusive" normal="1954-06-20">June 20, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 33)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>"Power Policy" (public vs. private power sources). Ernest K. Lindley, moderator. Panelists: Carroll Reece, Charles R. Jonas, John J. Sparkman, Albert Gore. <unitdate type="inclusive" normal="1954-06-27">June 27, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 34)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>US Health Care. Bryson Rash, moderator. Panelists: W. Henry Sebrell, James Watt, J. Roderick Heller, Robert H. Felix. <unitdate type="inclusive" normal="1954-07-04">July 4, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 35)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>Government Housing Policy. Ernest K. Lindley, moderator. Panelists: Homer Capehart, Albert M. Cole, Albert M. Rains, Richard Bolling. <unitdate type="inclusive" normal="1954-07-11">July 11, 1954</unitdate></unittitle>
-              </did>
-              <odd>
-                <p>(Tape 36)</p>
-              </odd>
             </c04>
           </c03>
-          <c03 level="otherlevel" otherlevel="sub-subseries">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Miscellaneous Moody Tapes</unittitle>
+              <unittitle>Meet Your Congress Program: Korean War, <unitdate type="inclusive">1953 May 14</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>"This is Washington" program (report of Senator Moody to his constituents). Topic: government economy. Guest: John McClellan. <unitdate type="inclusive" normal="1951" certainty="approximate">circa 1951</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-2-1]</unitid>
                 <physdesc>
-                  <physfacet>7 1/2 ips; 5 in.</physfacet>
+                  <physfacet>mp3 file</physfacet>
                 </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_g3ddpfss" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Discussing United Nations involvement in the Korean War: Panelists: H. Alexander Smith, William F. Knowland, Paul Douglas, Clinton P. Anderson)</abstract>
               </did>
-              <odd>
-                <p>(Tape 37)</p>
-              </odd>
             </c04>
-            <c04 level="file">
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "A Code of Fair Play for Congressional Investigations", <unitdate type="inclusive">1953 May 30</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>"This is Washington" program (report of Senator Moody to his constituents). Topic: Presidential directive respecting the classification of information. Guest: William Benton. <unitdate type="inclusive" normal="1951-10-08">October 8, 1951</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-3-1]</unitid>
                 <physdesc>
-                  <physfacet>7 1/2 ips; 5 in.</physfacet>
+                  <physfacet>mp3 file</physfacet>
                 </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_v4eqr2n7" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Radio program moderated by Roscoe Drummond. Panelists: John J. Sparkman, Paul Douglas.)</abstract>
               </did>
-              <odd>
-                <p>(Tape 38)</p>
-              </odd>
             </c04>
-            <c04 level="file">
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: International Economics, <unitdate type="inclusive">1953 September 09</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>"This is Washington" program (report of Senator Moody to his constituents). Topic: Security blackout and problems of education. Guest: William F. Knowland. <unitdate type="inclusive" normal="1951-10-16">October 16, 1951</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-4-1]</unitid>
                 <physdesc>
-                  <physfacet>7 1/2 ips; 5 in.</physfacet>
+                  <physfacet>mp3 file</physfacet>
                 </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_abjcp6ai" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: Homer Capehart, Burnet R. Maybank, John D. Dingell, John Leddy.)</abstract>
               </did>
-              <odd>
-                <p>(Tape 39)</p>
-              </odd>
             </c04>
-            <c04 level="file">
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Foreign Policy", <unitdate type="inclusive">1953 September 10</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>"This is Washington" program (report of Senator Moody to his constituents). Topic: highlights of current session of Congress. <unitdate type="inclusive" normal="1951-10-24">October 24, 1951</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-5-1-1]</unitid>
                 <physdesc>
-                  <physfacet>7 1/2 ips; 5 in.</physfacet>
+                  <physfacet>mp3 file</physfacet>
                 </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_1ncvu21n" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: Alexander Wiley, Thruston B. Morton, Mike Mansfield, Walter Judd)</abstract>
               </did>
-              <odd>
-                <p>(Tape 40)</p>
-              </odd>
             </c04>
-            <c04 level="file">
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: Eisenhower speech on the preservation of liberty., <unitdate type="inclusive">1953 September 23</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <container type="box" label="Box">27</container>
-                <unittitle>Speech at Laurium Union Hall. <unitdate type="inclusive" normal="1952-10-16">October 16, 1952</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-6-1]</unitid>
                 <physdesc>
-                  <physfacet>7 1/2 ips; 5 in.</physfacet>
+                  <physfacet>mp3 file</physfacet>
                 </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_g0ii44vs" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Begins with commericals for WTTT Washington. Panelists: Catherine Howard, Harold H. Velde, James E. Murray, Herman Eberharter.)</abstract>
               </did>
-              <odd>
-                <p>(Tape 41)</p>
-              </odd>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: Farm Prices and Politics, <unitdate type="inclusive">1953 October 18</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-7-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_cik9e5w0" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: Lester C. Hunt, A.L. Miller, Carl Curtis, Wright Patman.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Is the Eisenhower Administration Slipping or Gaining?", <unitdate type="inclusive">1953 November 01</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-8-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_uvhgnnhv" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: Robert S. Kerr, Craig Hosmer, George A. Smathers, Hugh Scott.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: 1953 Elections and Politics, <unitdate type="inclusive">1953 November 08</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-9-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_rv4ae3o3" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: Richard Bolling, Carl Curtis, William Langer, Mike Mansfield.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Issues and Politics of the Coming 1954 Session of Congress", <unitdate type="inclusive">1953 November 15</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-10-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_0oo8oohh" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: Albert Gore Sr., Mike Monroney, Clarence J. Brown, Craig Hosmer. )</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Taxes", <unitdate type="inclusive">1953 November 29</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-11-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ahpih94m" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: Jacob Javits, Carl Curtis, John D. Dingell, Richard Bolling.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Investigating Committees", <unitdate type="inclusive">1953 December 13</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-12-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_w25q8n0j" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: Mike Mansfield, Guy Gillette, Peter Frelinghuysen, Robert W. Kean.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: 1954 Session of Congress, <unitdate type="inclusive">1954 January 10</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-13-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_8dz5i94n" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Discussing budgets and military spending. Panelists: Frank Carlson, Henry M. Jackson, H. Alexander Smith, John McCormack.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: Eisenhower's Program in Congress, <unitdate type="inclusive">1954 January 17</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-14-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_mbyaiby0" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: John F. Kennedy, Frank A. Barrett, Mike Monroney, Carl Curtis.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: 1954 Budget, <unitdate type="inclusive">1954 January 24</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-15-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_42os3vaw" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: George A. Smathers, Hubert Humphrey, Craig Hosmer, Peter Frelinghuysen)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "The New Look", <unitdate type="inclusive">1954 January 31</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-16-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_yfbkdhlt" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(On the topic of military posture and budget. Panelists: John Sparkman, Edward Martin, Henry M. Jackson, Clarence J. Brown.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "The National Economy", <unitdate type="inclusive">1954 February 07</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-17-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_7u00chnv" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: Warren Magnuson, Robert W. Kean, Richard Bolling, John M. Vorys.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Taxes", <unitdate type="inclusive">1954 February 14</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-18-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_olxdhndr" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: John Sparkman, Henry M. Jackson, Carl Curtis, Robert W. Kean.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Readjustment or recession" , <unitdate type="inclusive">1954 February 21</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-19-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_sv4bdwu7" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: Frank A. Barrett, Paul Douglas, George Bender, Wright Patman.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Is Our Defense Adequate?", <unitdate type="inclusive">1954 February 28</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-20-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_1yolir53" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: James H. Duff, John Sherman Cooper, Mike Monroney, George H. Mahon.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Can We Avoid A Major Slump?", <unitdate type="inclusive">1954 March 07</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-21-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_xqn4x9hl" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: Frank A. Barrett, Paul Douglas, George Bender, Wright Patman)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Should Hawaii and Alaska Become States?", <unitdate type="inclusive">1954 March 14</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-22-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_zb55jl3b" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: William F. Knowland, Warren Magnuson, George Smathers, Joseph R. Farrington.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Taxes", <unitdate type="inclusive">1954 March 21</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-23-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_n79p293s" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: Paul Douglas, J. William Fulbright, Carl Curtis, Robert W. Kean)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "New Look", <unitdate type="inclusive">1954 March 28</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-24-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_587syepn" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(On the topic of military posture, panelists: Francis Case, Edward Martin, Henry M. Jackson, Samuel W. Yorty.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Should the Government Act Now to Reverse the Slump?", <unitdate type="inclusive">1954 April 04</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-25-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_4o2qwpny" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: Frank Carlson, Frank A. Barrett, Herbert Lehman, Richard Bolling.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: Hydrogen Bomb Explosion, <unitdate type="inclusive">1954 April 11</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-26-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_c061jjqe" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: James H. Duff, Sterling M. Cole, Clinton M. Anderson, Thomas A. Burke.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Peace and Indo-China.", <unitdate type="inclusive">1954 April 18</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-27-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_etsuxdup" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Panelists: Ralph E. Flanders, Estes Kefauver, Paul Douglas, Walter Judd.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>"Indo-China." Panelists: William Langer, Guy Gillette, Hubert Humphrey. <unitdate type="inclusive" normal="1954-04-25">April 25, 1954</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(Tape never received; Edaphone recording only)</p>
+            </odd>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Political Issues of the Coming Campaign”, <unitdate type="inclusive">1954 May 09</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-28-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_nq8wrio9" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Charles Lucey, moderator. Panelists: Warren Magnuson, Clarence Brown, John McCormack, Carl Curtis.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Can We Achieve a Bi-partisan Foreign Policy?", <unitdate type="inclusive">1954 May 16</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-29-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_mfsnx8zl" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Charles Lucey, moderator. Panelists: Paul Douglas, Mike Mansfield, James G. Fulton, John M. Vorys.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program, <unitdate type="inclusive">1954 May 23</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-30-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_mmgsl3a0" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>("Social Security." Ernest K. Lindley, moderator. Panelists: Robert Kean, Howard Baker, Richard Bolling, John Blatnik.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Should Government Employees Give Confidential Material to Congressmen?", <unitdate type="inclusive">1954 June 06</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-31-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_d0ywruiz" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Ernest K. Lindley, moderator. Panelists: Estes Kefauver, H. Alexander Smith, Peter Frelinghuysen, George Mahon.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Are We Holding or Losing Our Allies?”, <unitdate type="inclusive">1954 June 13</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-32-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_negs6chb" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Roscoe Drummond, moderator. Panelists: Guy Gillette, Craig Hosmer, Henry M. Jackson, Bailey Merrill)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "What Should We Do About Indo-China?”, <unitdate type="inclusive">1954 June 20</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-33-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_cmv2kex5" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Ernest K. Lindley, moderator. Panelists: William F. Knowland, John Sherman Cooper, Mike Mansfield, James P. Richards.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: "Power Policy", <unitdate type="inclusive">1954 June 27</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-34-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_s2curcl1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(On the topic of "Power Policy" and public vs. private power sources. Ernest K. Lindley, moderator. Panelists: Carroll Reece, Charles R. Jonas, John J. Sparkman, Albert Gore.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: U.S. Health Care, <unitdate type="inclusive">1954 July 04</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-35-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_qxoxdzch" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(On the topic of US Health Care. Bryson Rash, moderator. Panelists: W. Henry Sebrell, James Watt, J. Roderick Heller, Robert H. Felix.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Meet Your Congress Program: Government Housing Policy, <unitdate type="inclusive">1954 July 11</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-36-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_s1ddk66z" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(On the topic of Government Housing Policy. Ernest K. Lindley, moderator. Panelists: Homer Capehart, Albert M. Cole, Albert M. Rains, Richard Bolling.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>"This is Washington" program, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 7 ½ ips</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-37-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_r00vvrgv" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Report of Senator Moody to his constituents on the topic of government economy. Guest: John McClellan.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>"This is Washington" program, <unitdate type="inclusive">1951 October 08</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 7 ½ ips</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-38-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_w7s9zlum" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Report of Senator Moody to his constituents on the topic of presidential directive respecting the classification of information. Guest: William Benton.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>"This is Washington" program, <unitdate type="inclusive">1951 October 16</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 7 ½ ips</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-39-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_a3wt9rsx" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Report of Senator Moody to his constituents on the topic of security blackout and problems of education. Guest: William F. Knowland.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>"This is Washington" program, <unitdate type="inclusive">1954 October 24</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 7 ½ ips</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-40-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_pq29yf6m" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Report of Senator Moody to his constituents on the topic of highlights of current session of Congress.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Speech at Laurium Union Hall, <unitdate type="inclusive">1952 October 16</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 10.5 inch, 7 ½ ips</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[8634-SR-41-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_m6nkrcb6" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Blair Moody campaigning in northern Michigan during the 1952 election.)</abstract>
+              </did>
             </c04>
           </c03>
         </c02>
@@ -2357,7 +2962,7 @@
                   <unitdate type="inclusive" normal="1940-01-01">January 1, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16"</physfacet>
                 </physdesc>
               </did>
@@ -2374,7 +2979,7 @@
                   <unitdate type="inclusive" normal="1940-01-27">January 27, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16"</physfacet>
                 </physdesc>
               </did>
@@ -2386,7 +2991,7 @@
                   <unitdate type="inclusive" normal="1940-02-09">February 9, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2398,7 +3003,7 @@
                   <unitdate type="inclusive" normal="1940-02-16">February 16, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2410,7 +3015,7 @@
                   <unitdate type="inclusive" normal="1940-02-25">February 25, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2422,7 +3027,7 @@
                   <unitdate type="inclusive" normal="1940-03-03">March 3, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2434,7 +3039,7 @@
                   <unitdate type="inclusive" normal="1940-03-10">March 10, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2446,7 +3051,7 @@
                   <unitdate type="inclusive" normal="1940-03-17">March 17, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2456,7 +3061,7 @@
                 <physloc>Sound discs</physloc>
                 <unittitle><unitdate type="inclusive" normal="1940-03-24">March 24, 1940</unitdate> (with Walter Karig)</unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2466,7 +3071,7 @@
                 <physloc>Sound discs</physloc>
                 <unittitle><unitdate type="inclusive" normal="1940-03-31">March 31, 1940</unitdate> (with Walter Karig)</unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2478,7 +3083,7 @@
                   <unitdate type="inclusive" normal="1940-04-07">April 7, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2490,7 +3095,7 @@
                   <unitdate type="inclusive" normal="1940-04-14">April 14, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2502,7 +3107,7 @@
                   <unitdate type="inclusive" normal="1940-04-18">April 18, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2515,9 +3120,9 @@
             <c04 level="file">
               <did>
                 <physloc>Sound discs</physloc>
-                <unittitle><unitdate type="inclusive">Undated</unitdate> ("Your Washington Correspondent")</unittitle>
+                <unittitle><unitdate>Undated</unitdate> ("Your Washington Correspondent")</unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2526,10 +3131,10 @@
               <did>
                 <physloc>Sound discs</physloc>
                 <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
+                  <unitdate>Undated</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2541,7 +3146,7 @@
                   <unitdate type="inclusive" normal="1940-09-20">September 20, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>12 in.</physfacet>
                 </physdesc>
               </did>
@@ -2553,7 +3158,7 @@
                   <unitdate type="inclusive" normal="1940-09-27">September 27, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>12 in.</physfacet>
                 </physdesc>
               </did>
@@ -2565,7 +3170,7 @@
                   <unitdate type="inclusive" normal="1940-10-03">October 3, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>12 in.</physfacet>
                 </physdesc>
               </did>
@@ -2577,7 +3182,7 @@
                   <unitdate type="inclusive" normal="1940-10-10">October 10, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2589,7 +3194,7 @@
                   <unitdate type="inclusive" normal="1940-10-25">October 25, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2601,7 +3206,7 @@
                   <unitdate type="inclusive" normal="1940-10-31">October 31, 1940</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2618,7 +3223,7 @@
                   <unitdate type="inclusive" normal="1947-03-09">March 9, 1947</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2705,7 +3310,7 @@
                   <unitdate type="inclusive" normal="1947-04-13">April 13, 1947</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>16 in.</physfacet>
                 </physdesc>
               </did>
@@ -2781,7 +3386,7 @@
                 <physloc>Sound discs</physloc>
                 <unittitle>Radio broadcast <unitdate type="inclusive" normal="1946-01-20">January 20, 1946</unitdate></unittitle>
                 <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 phonograph records</extent>
+                  <extent altrender="materialtype spaceoccupied">1 phonograph record</extent>
                   <physfacet>12 in.</physfacet>
                 </physdesc>
               </did>

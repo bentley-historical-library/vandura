@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>20150720</date>
         <item>Separated boxes for use with Aeon.</item>
       </change>
@@ -55,6 +59,10 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">2 oversize volumes</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">12.4 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
     </did>
     <descgrp type="admin">
@@ -66,6 +74,7 @@
       </accruals>
       <accessrestrict encodinganalog="506">
         <p>The collection is open to research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
@@ -76,6 +85,9 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Neil Staebler papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>During the post-war period in Michigan politics, the state Democratic Party experienced a renaissance in voter acceptability. Roughly corresponding to the six term administration of Governor G. Mennen Williams (1949-1961) and in. part attributable to his extraordinary popularity, the Democratic Party underwent an about face and became a model of sorts for other state party organizations.</p>
@@ -2023,7 +2035,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Campaign platforms and convention resolutions (state and national), <unitdate normal="1948/1970" type="inclusive">1948-1970</unitdate></unittitle>
+            <unittitle>Campaign platforms and convention resolutions (state and national), <unitdate normal="1948/1970">1948-1970</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -2044,7 +2056,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Democratic State Central Committee <unitdate normal="1950/1975" type="inclusive">1950-1975</unitdate></unittitle>
+            <unittitle>Democratic State Central Committee <unitdate normal="1950/1975">1950-1975</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -2542,7 +2554,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Democratic National Committee <unitdate normal="1950/1968" certainty="approximate" type="inclusive">1950-circa 1968</unitdate></unittitle>
+            <unittitle>Democratic National Committee <unitdate normal="1950/1968" certainty="approximate">1950-circa 1968</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -2576,7 +2588,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>National campaigns, <unitdate normal="1852/1961" type="inclusive">1852-1961</unitdate></unittitle>
+              <unittitle>National campaigns, <unitdate normal="1852/1961">1852-1961</unitdate></unittitle>
             </did>
             <c04 level="file">
               <did>
@@ -2738,7 +2750,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Michigan governors/senators files <unitdate normal="1952/1968" certainty="approximate" type="inclusive">1952-circa 1968</unitdate></unittitle>
+            <unittitle>Michigan governors/senators files <unitdate normal="1952/1968" certainty="approximate">1952-circa 1968</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -2850,7 +2862,7 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Calendar-Invitation file <unitdate normal="1951/1975" type="inclusive">1951-1975</unitdate></unittitle>
+            <unittitle>Calendar-Invitation file <unitdate normal="1951/1975">1951-1975</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
@@ -3066,11 +3078,140 @@
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">220</container>
-              <unittitle>Sound tapes</unittitle>
+              <unittitle>Debate between Feikens and Staebler, Michigan State University, <unitdate type="inclusive">1954 August</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
+              </physdesc>
             </did>
+            <accessrestrict>
+              <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+            </accessrestrict>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85817-SR-1-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_bg98ifnt" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Debate between Neil Staebler and John Feikens at Michigan State University.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>UM Institute of Practical Politics: Reel 4, Lindemer, Bentley, Ely, <unitdate type="inclusive">1959 July 20</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet>
+              </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+            </accessrestrict>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85817-SR-2-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_gmfpdlx5" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Bagwell and Bentley)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>UM Institute of Practical Politics: Reel 5, Ely, Bentley, <unitdate type="inclusive">1959 July 20</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet>
+              </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+            </accessrestrict>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85817-SR-3-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_yrkb8q17" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Bagwell and Bentley Questions and Answers)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>UM Institute of Practical Politics: Reel 13, Stein, Gibbs, Bagwell, <unitdate type="inclusive">1959 July 20</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet>
+              </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+            </accessrestrict>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85817-SR-4-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_tr0dg47t" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Bagwell and Bentley)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>UM Institute of Practical Politics: Reel 14, Bagwell, <unitdate type="inclusive">1959 July 20</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet>
+              </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+            </accessrestrict>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85817-SR-5-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_laxtee05" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Bagwell and Bentley)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -3121,7 +3262,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Federal Election Commission <unitdate normal="1975/1978" type="inclusive">1975-1978</unitdate></unittitle>
+          <unittitle>Federal Election Commission <unitdate normal="1975/1978">1975-1978</unitdate></unittitle>
         </did>
         <scopecontent>
           <p>Staebler's membership on the U.S. Federal Election Commission, 1975-1978, is documented in the next series.</p>
@@ -3459,7 +3600,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Issues, <unitdate normal="1950/1989" certainty="approximate" type="inclusive">1950s-1980s</unitdate></unittitle>
+          <unittitle>Issues, <unitdate normal="1950/1989" certainty="approximate">1950s-1980s</unitdate></unittitle>
         </did>
         <scopecontent>
           <p>Staebler's Issues File and concerns topics of public policy and subjects of current interest (primarily political) confronting American society since World War II. This series is comprised of two alphabetical subseries covering different periods of time (with some overlap).</p>
@@ -3619,7 +3760,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>American Veterans Committee <unitdate normal="1944/1951" type="inclusive">1944-1951</unitdate></unittitle>
+          <unittitle>American Veterans Committee <unitdate normal="1944/1951">1944-1951</unitdate></unittitle>
         </did>
         <c02 level="file">
           <did>
@@ -3640,7 +3781,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Speeches and Articles <unitdate normal="1950/1968" type="inclusive">1950-1968</unitdate></unittitle>
+          <unittitle>Speeches and Articles <unitdate normal="1950/1968">1950-1968</unitdate></unittitle>
         </did>
         <c02 level="file">
           <did>
@@ -3841,7 +3982,7 @@
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle><genreform normal="Photographs">Photographs</genreform>, <unitdate normal="1957/1971" type="inclusive">1957-1971</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle><genreform normal="Photographs">Photographs</genreform>, <unitdate normal="1957/1971">1957-1971</unitdate>, <unitdate>undated</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>

@@ -10,8 +10,9 @@ from pprint import pprint
 def add_enum_values(session, aspace_url, enum_set_id, new_values_to_add):
 		enum_address = aspace_url + '/config/enumerations/{}'.format(enum_set_id)
 		existing_enums_json = session.get(enum_address).json()
-		existing_enums_json["values"].extend(new_values_to_add)
-		pprint(session.post(enum_address, data=json.dumps(existing_enums_json)).json())
+		unique_values = [value for value in new_values_to_add if value not in existing_enums_json["values"]]
+		existing_enums_json["values"].extend(unique_values)
+		print(session.post(enum_address, data=json.dumps(existing_enums_json)).json())
 
 def post_defaults(aspace_url, username, password):
 	s = authenticate(aspace_url, username, password)
@@ -51,14 +52,14 @@ def post_defaults(aspace_url, username, password):
 	faculty_classification = {'title':'Faculty Papers', 'identifier':'Faculty'}
 	rcs_classification = {'title':'Records Center Storage','identifier':'RCS'}
 
-	for classification in [mhc_classification, uarp_classification, faculty_classification, rcs_classification]:
+	for classification in [mhc_classification, uarp_classification, faculty_classification, rcs_classification]: 
 		classification_post = s.post(aspace_url + '/repositories/2/classifications',data=json.dumps(classification)).json()
 		print classification_post
 		
 	add_enum_values(s, aspace_url, 23, ['lcnaf', 'lctgm', 'aacr2', 'lcgft', 'ftamc'])  # subject sources
 	add_enum_values(s, aspace_url, 4, ['lcnaf'])  # name sources
 	add_enum_values(s, aspace_url, 55, ["on file", "pending", "sent", "n/a", "other"])  # user defined enum 1 values (gift agreement status)
-
+	add_enum_values(s, aspace_url, 14, ["TB"]) # extent
 
 	repo_preferences = {
 		'repository':{'ref':'/repositories/2'},

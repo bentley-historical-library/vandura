@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>20150727</date>
         <item>Corrected collection dates and corrected container listing.</item>
       </change>
@@ -66,6 +70,10 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">40.5 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -77,6 +85,7 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
@@ -86,6 +95,9 @@
       </prefercite>
       <altformavail>
         <p>A microfilm edition of the Robert F. Williams papers has been produced University Publications of America as part of its Black Studies Research Sources series. The microfilm includes the entirety of the Bentley Historical Library's Robert F. Williams collection (except the motion picture and audio and video recordings). A guide to the microfilm edition is available in pdf format at http://www.lexisnexis.com/documents/academic/upa_cis/9353_BlackPowerMovemPt2.pdf</p>
+      </altformavail>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
       </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -2001,6 +2013,9 @@
               <physfacet>compact discs except where indicated</physfacet>
             </physdesc>
           </did>
+          <accessrestrict>
+            <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+          </accessrestrict>
           <odd>
             <p>(original reel-to-reel tapes and CD master copies and duplicating copies have been removed to box 15)</p>
           </odd>
@@ -2008,208 +2023,594 @@
             <did>
               <unittitle>Radio Free Dixie broadcasts</unittitle>
             </did>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle>November 1964, Hanoi, Vietnam Conference-- Speeches of Anna Louise Strong and RFW <unitdate type="inclusive">Undated</unitdate></unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 audiocassettes</extent>
-                </physdesc>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Radio Free Dixie: Speeches of Anna Louise Strong and Robert F Williams, Hanoi, Vietnam Conference, <unitdate type="inclusive">1964 November</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-1-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_35v01k41" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Radio Free Dixie radio program featuring music and speeches by 2 delegates from the US Delegation to the International Conference for Solidarity held in Hanoi, Vietnam November 25-29, 1964. Part 1 is only a speech by Dr. Anna Louise Strong.)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle><unitdate type="inclusive" normal="1964-12-11">December 11, 1964</unitdate> Sidney Brecht (Blues); Max Roach -- Ray Charles -- Gravy Train Waltz</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 audiocassettes</extent>
-                </physdesc>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">2 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Radio Free Dixie: Sidney Brecht (Blues); Max Roach -- Ray Charles -- Gravy Train Waltz, <unitdate type="inclusive">1964 December 11</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-2-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_bbam6lot" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Part 1 Radio Free Dixie radio program dated December 11, 1964. Featuring Sidney Brecht (Blues) and Max Roach and Ray Charles (Gravy Train Waltz). Reading of an editorial column published in The Illustrated News August 3rd 1964 discussing the Harlem Riots.)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle><unitdate type="inclusive">Undated</unitdate> Ordeal of Change reading</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 audiocassettes</extent>
-                </physdesc>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Radio Free Dixie: Sidney Brecht (Blues); Max Roach -- Ray Charles -- Gravy Train Waltz, <unitdate type="inclusive">1964 December 11</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-3-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_qtadg9jm" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Part 2 Radio Free Dixie radio program dated December 11, 1964. Featuring Sidney Brecht (Blues) and Max Roach and Ray Charles (Gravy Train Waltz). Feautring Robert F. Williams speech on recent deaths of African Americans in the US. Music - "Mississippi Goddam" and other songs Editorial from Washington Afro-American Newspaper July 18 1964 on the murder of Lemuel Penn)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle><unitdate type="inclusive" normal="1965-04-23">April 23, 1965</unitdate> Speech of Malcolm X</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Radio Free Dixie: Ordeal of Change reading, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-4-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_2ggz0k7m" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Radio Free Dixie Program feautiring a reading of The Ordeal of Change )</abstract>
+                </did>
+              </c05>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 2]</unittitle>
+                  <unitid>[85506-SR-4-2]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_h7oz6mue" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Part 2, continued reading of The Ordeal of Change)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle><unitdate type="inclusive" normal="1965-05-28">May 28, 1965</unitdate> Blues in Mississippi</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">2 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Radio Free Dixie: Speech of Malcolm X, <unitdate type="inclusive">1965 April 23</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-6-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_dga0l8sv" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Radio Free Dixie program dated April 23, 1965. Speech by Malcolm X.)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1965-07-30">July 30, 1965</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Radio Free Dixie: Blues in Mississippi, <unitdate type="inclusive">1965 May 28</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-8-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_fcv1vfux" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Part 1; Recordings of blues music and political statements by Robert F. Williams and others.)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Radio Free Dixie: Blues in Mississippi, <unitdate type="inclusive">1965 May 28</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
                 </physdesc>
               </did>
-              <odd>
-                <p>(Vietnam speech ?)</p>
-              </odd>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-9-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_vs5qcz5m" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Part 2; Recordings of blues music and political statements by Robert F. Williams and others.)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle><unitdate type="inclusive" normal="1965-01-22">January 22, 1965</unitdate> Protests songs</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">2 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Radio Free Dixie: Black men dying in Vietnam and violence in Mississippi, <unitdate type="inclusive">1965 July 30</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-13-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_xvy55jk3" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Radio Free Dixie program dated July 30, 1965. Featuring a retrospective report on September 15, 1963 and the 16th Street Baptist Curch bombing. Also featuring a speech by Robert Williams about black men dying in Vietnam and violence in Mississippi)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle><unitdate type="inclusive">Undated</unitdate> Hanoi, Vietnam conference; speeches of Strong P. Williams</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Radio Free Dixie: Vietnam Speech, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-14-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_6hj9pndt" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Representatives of the South Vietnam National Front for Liberation speech on Radio Free Dixie.)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle><unitdate type="inclusive" normal="1965-08-20">August 20, 1965</unitdate> Premier Chou En-lai</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Protests songs, <unitdate type="inclusive">1965 January 22</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-15-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_mvjbvi0y" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Part 1; Recordings of songs by Pete Seeger and others)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle><unitdate type="inclusive">Undated</unitdate> Blues in Mississippi Night</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Protests songs, <unitdate type="inclusive">1965 January 22</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-16-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_x4m2rgfn" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Part 2; Recordings of songs by Pete Seeger and others)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle><unitdate type="inclusive" normal="1966-01-21">January 21, 1966</unitdate> Rock &amp; Roll Protest</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 audiocassettes</extent>
+                <unittitle>Radio Free Dixie: Hanoi, Vietnam conference; speeches of Strong P. Williams, <unitdate type="inclusive">1964 July 31</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-18-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_hhbq1f8m" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Radio Free Dixie program, date on box July 31 1964. Featuring Strong P. Williams)</abstract>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-main">
+              <did>
+                <unittitle>Radio Free Dixie: Premier Chou [Zhou Enlai], Los Angeles, California, <unitdate type="inclusive">1965 April 20</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet>
+                </physdesc>
+              </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-19-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_awtkx8xl" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Includes a report from August 17, 1965 from Zhou Enlai; date on box is August 20, 1965)</abstract>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-main">
+              <did>
+                <unittitle>Radio Free Dixie: Blues in Mississippi Night, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 5 inch</physfacet>
+                </physdesc>
+              </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-20-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_buux5rpr" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Broadcast from Cuba, blues music, jazz music, and political statements made by Robert F. Williams.)</abstract>
+                </did>
+              </c05>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 2]</unittitle>
+                  <unitid>[85506-SR-20-2]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_srqtfgfs" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Broadcast from Cuba, blues music, jazz music, and political statements from Robert F. Williams.)</abstract>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-main">
+              <did>
+                <unittitle>Radio Free Dixie: Rock &amp; Roll Protest, <unitdate type="inclusive">1966 January 21</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet>
+                </physdesc>
+              </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-21-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_uzul4e5n" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Radio Free Dixie program discussing rock and roll music and its protest messages. Also featuring a speech by Robert Williams about Robert Weaver's appointment to Johnson's cabinet. Tri-Continental Conference in Cuba resolution discussed. )</abstract>
+                </did>
+              </c05>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <unittitle>Other speeches and appearances</unittitle>
             </did>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle>Undated-Malcolm X Speaks to the Grass Roots</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 audiocassettes</extent>
-                </physdesc>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Malcolm X Speaks to the Grass Roots, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-5-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_952l94c4" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Radio Free Dixie program, undated. Speech by Malcolm X, speaking to the Grass Roots.)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle><unitdate type="inclusive" normal="1965-10-06">October 6, 1965</unitdate> Night Call</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Night Call, <unitdate type="inclusive">1969 October 06</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-7-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_le8af1vc" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Night Call radio program dated October 6, 1969. Featuring Robert F. Williams talking about his time in Cuba. )</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle><unitdate type="inclusive" normal="1966">1966</unitdate> Rally, Peking</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Speech / Rally Peking Tien An Men [Tiananmen], <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 5 inch</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-10-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_94jd73qs" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Includes speeches in Mandarin and English by Robert F. Williams and his translator.)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle><unitdate type="inclusive" normal="1966-08-08">August 8, 1966</unitdate> Speech, Great Hall of the People</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Speech, Great Hall of the People, <unitdate type="inclusive">1966 August 08</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-11-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_h2a9agk0" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Chou En-lai [Zhou Enlai] in attendance. Includes speeches in Mandarin and English by Robert F. Williams and his translator.)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle><unitdate type="inclusive" normal="1966">1966</unitdate> Peking Rally</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">2 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Peking Rally (2 parts), <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-12-1-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_l2d5r1za" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Radio Free Dixie program dated 1966. Featuring excerpts from the Peking Rally held October 10th, 1966, where the Chinese people ralllied against racial discrimination in the US.)</abstract>
+                </did>
+              </c05>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 2]</unittitle>
+                  <unitid>[85506-SR-12-1-2]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_wbad7wpg" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Various news briefs from 1964, tape ends with dance music.)</abstract>
+                </did>
+              </c05>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 3]</unittitle>
+                  <unitid>[85506-SR-12-1-3]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_3gsd9b5o" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(News briefs and dance music)</abstract>
+                </did>
+              </c05>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 4]</unittitle>
+                  <unitid>[85506-SR-12-2]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_nk06uxc6" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Ned Calmer reading news headlines from 1964 and speech by Robert Williams about his kidnapping charges and Mae Mallory's incarceration.)</abstract>
+                </did>
+              </c05>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <container type="box" label="Box">13</container>
-                <unittitle><unitdate type="inclusive">Undated</unitdate> Children's Palace &amp; Worker's Palace, Shanghai: songs and conversation</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">1 optical disks</extent>
-                  <physfacet>CD-Rs</physfacet>
+                <unittitle>Children's Palace &amp; Worker's Palace, Shanghai: songs and conversation, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
                 </physdesc>
               </did>
+              <c05 level="otherlevel" otherlevel="item-part">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>[Part 1]</unittitle>
+                  <unitid>[85506-SR-17-1]</unitid>
+                  <physdesc>
+                    <physfacet>mp3 file</physfacet>
+                  </physdesc>
+                  <dao href="https://bentley.mivideo.it.umich.edu/media/1_886ydvkj" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[access item]</p>
+                    </daodesc>
+                  </dao>
+                  <abstract>(Robert F. Williams speech at Children's Palace and Workers Palace, translator translating in Chinese. Additional segments in Chinese and children's choir singing revolutionary songs.)</abstract>
+                </did>
+              </c05>
             </c04>
           </c03>
           <c03 level="file">

@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>20150602</date>
         <item>Added box 51.</item>
       </change>
@@ -68,6 +72,10 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">1 2-inch videotape</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">769 MB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -82,6 +90,7 @@
       </accruals>
       <accessrestrict encodinganalog="506">
         <p>The record group is open to research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright is not held by the Regents of the University of Michigan.</p>
@@ -90,6 +99,9 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Boyne USA Resorts records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>Boyne USA Resorts was founded by Everett F. Kircher whose real passion in life was skiing. As the owner of a small Studebaker car dealership in Detroit in the 1940s, Kircher would each year travel to the western United States in order to ski. The nuisance of traveling great distances prompted Kircher and two other enthusiasts in 1947 to purchase some property close by a small 500-foot mountain in northern Michigan. This $1 investment would become the Boyne Mountain ski and golf center and later Boyne USA.</p>
@@ -4227,6 +4239,9 @@
             <genreform normal="Sound recordings">Sound Recordings</genreform>
           </unittitle>
         </did>
+        <accessrestrict>
+          <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict>
         <scopecontent>
           <p>The ninth series, Sound Recordings, primarily documents Boyne's radio presence in the form of interviews, advertisements, and concerts. The recordings are on eight 3 inch reels and 27 cassette tapes.</p>
         </scopecontent>
@@ -4234,77 +4249,197 @@
           <did>
             <unittitle>3 in. reels</unittitle>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"12 Hour Ticket"</unittitle>
+              <unittitle>12 Hour Ticket, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 15</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(tape no. 1)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-1-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_7r7yiijb" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Advertisement for Boyne USA resorts entitled "12 Hour Ticket.")</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"Big Sky"</unittitle>
+              <unittitle>Big Sky, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(tape no. 2)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-2-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_j6km86sg" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Two commercials for the Big Sky ski resort in Montana; Second spot starts around 4:00)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"Black Diamond Rush, Generic"</unittitle>
+              <unittitle>Black Diamond Rush, Generic, <unitdate type="inclusive">1993 September 16</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 7 ½ ips</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(tape no. 3)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-3-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_szjmfqd1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Advertisement for Sky resort.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"Celebrity Players Tour"</unittitle>
+              <unittitle>Celebrity Players Tour, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 15</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(tape no. 4)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-4-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_yesyz9dr" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Advertisement for Celebrity Players golf tour.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"Gatlinburg Sky Lift"</unittitle>
+              <unittitle>Gatlinburg Sky Lift, <unitdate type="inclusive">1976 August 11</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 7 ½ ips</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(tape no. 5)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-5-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_o77vzurr" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Advertisement for the Gatlinburg Skylift in Gatlinburg, TN. )</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"Hawaiian Tropic"</unittitle>
+              <unittitle>Hawaiian Tropic, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 15</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(tape no. 6)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-6-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_jotop4cv" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Advertisement for Miss Hawaiian Tropic pagent.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"Ride the Gatlinburg Sky Lift"</unittitle>
+              <unittitle>Ride the Gatlinburg Sky Lift, <unitdate type="inclusive">1976 May 05</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(tape no. 7)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-7-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_e3uk9ppx" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Advertisement for the Gatlinburg Skylift in Gatlinburg, TN. )</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">47</container>
-              <unittitle>"Search-not"</unittitle>
+              <unittitle>Search-not, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 15</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(tape no. 8)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2010215-SR-8-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_t15jhpea" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Advertisement for Boyne Mountain and Boyne Highland ski resorts.)</abstract>
+              </did>
+            </c04>
           </c03>
         </c02>
         <c02 level="file">

@@ -52,6 +52,11 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
                     subject_uri = subjects['uri']
                     row.append(subject_uri)
                     subjects_data.append(row)
+            elif "error" in subjects:
+                if "conflicting_record" in subjects["error"]:
+                    subject_uri = subjects["error"]["conflicting_record"][0]
+                    row.append(subject_uri)
+                    subjects_data.append(row)
             else:
                 print subjects
 
@@ -59,7 +64,7 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
         writer = csv.writer(csv_out)
         writer.writerows(subjects_data)
 
-    s.post("{}/logout".format(aspace_url))
+    #s.post("{}/logout".format(aspace_url))
 
 def main():
     aspace_ead_dir = join(ead_dir, 'eads')

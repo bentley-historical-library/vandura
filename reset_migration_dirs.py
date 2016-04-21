@@ -3,6 +3,7 @@ import os
 from os.path import join
 
 migration_dirs = ["json", "resources", "migration_stats"]
+sub_dirs = ["successes","errors"]
 
 for directory in [ead_dir, marc_dir]:
 	for migration_dir in migration_dirs:

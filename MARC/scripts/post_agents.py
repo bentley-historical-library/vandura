@@ -207,14 +207,17 @@ def post_agents(agent_json, aspace_url, username, password):
 	s.headers.update({"Content-type":"application/json"})
 
 	for persname in agent_json["persname"]:
+		print "Posting persnames"
 		aspace_json = agent_json["persname"][persname]
 		response = s.post("{}/agents/people".format(aspace_url), data=json.dumps(aspace_json)).json()
 		agents_to_aspace_ids[persname] = extract_id(response)
 	for corpname in agent_json["corpname"]:
+		print "Posting corpnames"
 		aspace_json = agent_json["corpname"][corpname]
 		response = s.post("{}/agents/corporate_entities".format(aspace_url), data=json.dumps(aspace_json)).json()
 		agents_to_aspace_ids[corpname] = extract_id(response)
 	for famname in agent_json["famname"]:
+		print "Posting famnames"
 		aspace_json = agent_json["famname"][famname]
 		response = s.post("{}/agents/families".format(aspace_url), data=json.dumps(aspace_json)).json()
 		agents_to_aspace_ids[famname] = extract_id(response)

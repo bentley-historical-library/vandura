@@ -37,17 +37,14 @@ def post_donors_and_record_ids(session, aspace_url, agent_dict):
 
 def return_posted_agent(session, aspace_url, agent_uri):
     response = session.get("{0}{1}".format(aspace_url, agent_uri)).json()
-    #pyspace = PySpace(host=host, username=username, password=password)
-    #response = pyspace.get_agent(agent_uri)
     return response
 
 def update_posted_agent(session, aspace_url, agent_uri, agent_json):
     session.headers.update({"Content-type":"application/json"})
     response = session.post("{0}{1}".format(aspace_url, agent_uri), data=json.dumps(agent_json)).json()
-    #pyspace = PySpace(host=host, username=username, password=password)
-    #response = pyspace.update_agent(agent_uri, agent_json)
     if not u"status" in response:
         print response
+        quit()
 
 def extract_aspace_id(session, original_json, returned_json, aspace_url):
     aspace_id = ""
@@ -92,10 +89,3 @@ def normalize_agent_type(agent_type):
         return "families"
     else:
         print("??? {}".format(agent_type))
-
-
-def post_agent(pyspace, json_data, agent_type):
-    try:
-        return pyspace.add_agent(json_data, agent_type=agent_type)
-    except:
-        pprint(json_data)
