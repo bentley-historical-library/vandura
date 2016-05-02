@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::yostfh.xml//EN" encodinganalog="identifier">umich-bhl-86327</eadid>
@@ -17,7 +17,10 @@
       <creation>Encoded finding aid created by Thomas E. Powers <date>May 2005</date></creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <revisiondesc>
+    <revisiondesc> <change>
+        <date>20160426</date>
+        <item>Added infromation about related materials.</item>
+      </change>
       <change>
         <date>20050513</date>
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
@@ -27,7 +30,7 @@
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
-      <titleproper>Finding aid for <lb/>Fielding Harris Yost Papers, ca. 1898-1971</titleproper>
+      <titleproper>Finding aid for <lb/>Fielding Harris Yost Papers, circa 1898-1971</titleproper>
       <author>Finding aid created by <lb/>William H. McNitt and Leonard Coombs</author>
     </titlepage>
   </frontmatter>
@@ -277,7 +280,7 @@
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume">1</container>
-            <unittitle>Scrapbook <unitdate type="inclusive" normal="1900/1943">1900-1943</unitdate> <unitdate normal="1940/1943" type="bulk" certainty="approximate">circa 1940-1943</unitdate></unittitle>
+            <unittitle>Scrapbook <unitdate type="inclusive" normal="1900/1943">1900-1943</unitdate> (<unitdate normal="1940/1943" type="bulk" certainty="approximate">primarily circa 1940-1943</unitdate>)</unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -528,6 +531,6 @@
           </odd>
         </c02>
       </c01>
-    </dsc>
+    </dsc><descgrp type="add"><relatedmaterial><head>Related Mterial</head><p>Bentley Historical Library holds separately cataloged <title href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-2016036" show="new" actuate="onrequest">Fielding H. Yost letter, 1943</title>.</p></relatedmaterial></descgrp> 
   </archdesc>
 </ead>
