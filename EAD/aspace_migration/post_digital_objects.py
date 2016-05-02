@@ -26,7 +26,7 @@ def build_digital_object_component(digital_object_uri, component_title, componen
 
     return digital_object_component
 
-def post_digital_object_components(session, digital_object_components):
+def post_digital_object_components(session, aspace_url, digital_object_components):
     errors = []
     for component in digital_object_components:
         digital_object_component_post = session.post(aspace_url+'/repositories/2/digital_object_components',data=json.dumps(component)).json()
@@ -144,7 +144,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, dspace_x
                                 component_label = None
                             
                             digital_object_components.append(build_digital_object_component(digital_object_uri, component_title, component_label, position))
-                            errors.extend(post_digital_object_components(s, digital_object_components))
+                            errors.extend(post_digital_object_components(s, aspace_url, digital_object_components))
 
                             position += 1
                     elif xml_filename in os.listdir(dspace_xoai_dir):
@@ -162,24 +162,24 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, dspace_x
                                 component_label = None
 
                             digital_object_components.append(build_digital_object_component(digital_object_uri, component_title, component_label, position))
-                            errors.extend(post_digital_object_components(s, digital_object_components))
+                            errors.extend(post_digital_object_components(s, aspace_url, digital_object_components))
 
                             position += 1
                     else:
                         skipped_items.append(href)
 
-            if errors:
-                with open(error_file, "w") as f:
-                    f.write("\n".join(errors))
+    if errors:
+        with open(error_file, "w") as f:
+            f.write("\n".join(errors))
 
-            if skipped_items:
-                with open(skipped_items_file, "w") as f:
-                    f.write("\n".join(skipped_items))
+    if skipped_items:
+        with open(skipped_items_file, "w") as f:
+            f.write("\n".join(skipped_items))
 
-            posted_data = [[href, uri] for href, uri in posted_dig_objs.iteritems()]
-            with open(posted_objects, "ab") as f:
-                writer = csv.DictWriter(f)
-                writer.writerows(posted_data)
+    posted_data = [[href, uri] for href, uri in posted_dig_objs.iteritems()]
+    with open(posted_objects, "ab") as f:
+        writer = csv.writer(f)
+        writer.writerows(posted_data)
 
     #s.post("{}/logout".format(aspace_url))
 
