@@ -123,8 +123,8 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, dspace_x
                     handlepath = urlparse.urlparse(href).path
                     the_id = handlepath.split('/')[-1]
                     xml_filename = the_id + ".xml"
-                    digital_object_components = []
                     if xml_filename in os.listdir(dspace_mets_dir):
+                        digital_object_components = []
                         metstree = etree.parse(join(dspace_mets_dir, xml_filename))
                         ns = {'mets':'http://www.loc.gov/METS/','dim': 'http://www.dspace.org/xmlns/dspace/dim','xlink':'http://www.w3.org/TR/xlink/'}
                         XLINK = 'http://www.w3.org/TR/xlink/'
@@ -144,27 +144,27 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, dspace_x
                                 component_label = None
                             
                             digital_object_components.append(build_digital_object_component(digital_object_uri, component_title, component_label, position))
-                            errors.extend(post_digital_object_components(s, aspace_url, digital_object_components))
-
                             position += 1
+                        errors.extend(post_digital_object_components(s, aspace_url, digital_object_components))
                     elif xml_filename in os.listdir(dspace_xoai_dir):
+                        digital_object_components = []
                         xoaitree = etree.parse(join(dspace_xoai_dir, xml_filename))
                         ns = {'xoai':'http://www.lyncode.com/xoai'}
 
                         originals = xoaitree.xpath("//xoai:field[text()='ORIGINAL']", namespaces=ns)[0]
-                        bitstreams = originals.xpath(".//xoai:element[@name='bitstream']", namespaces=ns)
+                        element = originals.getparent()
+                        bitstreams = element.xpath(".//xoai:element[@name='bitstream']", namespaces=ns)
                         position = 0
                         for bitstream in bitstreams:
-                            component_title = bitstream.xpath("./field[@name='name']", namespaces=ns)[0].text.strip()
-                            if bitstream.xpath("./field[@name='description']", namespaces=ns):
-                                component_label = bitstream.xpath("./field[@name='description']", namespaces=ns)[0].text.strip()[:255]
+                            component_title = bitstream.xpath("./xoai:field[@name='name']", namespaces=ns)[0].text.strip()
+                            if bitstream.xpath("./xoai:field[@name='description']", namespaces=ns):
+                                component_label = bitstream.xpath("./xoai:field[@name='description']", namespaces=ns)[0].text.strip()[:255]
                             else:
                                 component_label = None
 
                             digital_object_components.append(build_digital_object_component(digital_object_uri, component_title, component_label, position))
-                            errors.extend(post_digital_object_components(s, aspace_url, digital_object_components))
-
                             position += 1
+                        errors.extend(post_digital_object_components(s, aspace_url, digital_object_components))
                     else:
                         skipped_items.append(href)
 
