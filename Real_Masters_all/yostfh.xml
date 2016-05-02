@@ -17,7 +17,8 @@
       <creation>Encoded finding aid created by Thomas E. Powers <date>May 2005</date></creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <revisiondesc> <change>
+    <revisiondesc>
+      <change>
         <date>20160426</date>
         <item>Added infromation about related materials.</item>
       </change>
@@ -280,7 +281,7 @@
         <c02 level="file">
           <did>
             <container type="volume" label="Oversize Volume">1</container>
-            <unittitle>Scrapbook <unitdate type="inclusive" normal="1900/1943">1900-1943</unitdate> (<unitdate normal="1940/1943" type="bulk" certainty="approximate">primarily circa 1940-1943</unitdate>)</unittitle>
+            <unittitle>Scrapbook <unitdate type="inclusive" normal="1900/1943">1900-1943</unitdate> <unitdate normal="1940/1943" type="bulk" certainty="approximate">circa 1940-1943</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -531,6 +532,12 @@
           </odd>
         </c02>
       </c01>
-    </dsc><descgrp type="add"><relatedmaterial><head>Related Mterial</head><p>Bentley Historical Library holds separately cataloged <title href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-2016036" show="new" actuate="onrequest">Fielding H. Yost letter, 1943</title>.</p></relatedmaterial></descgrp> 
+    </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Related Material</head>
+        <p>Bentley Historical Library holds separately cataloged <title href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-2016036" show="new" actuate="onrequest">Fielding H. Yost letter, 1943</title>.</p>
+      </relatedmaterial>
+    </descgrp>
   </archdesc>
 </ead>
