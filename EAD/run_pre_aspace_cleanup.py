@@ -1,4 +1,4 @@
-from vandura.config import dspace_mets_dir, ead_dir, real_masters_all 
+from vandura.config import dspace_mets_dir, dspace_xoai_dir, ead_dir, real_masters_all 
 
 from os.path import join
 import os
@@ -7,6 +7,7 @@ from pre_aspace_cleanup.normalize_dates import normalize_dates
 from pre_aspace_cleanup.authfilenumber_urls_to_uris import authfilenumber_urls_to_uris
 from pre_aspace_cleanup.authfilenumber_propagation import authfilenumber_propagation
 from pre_aspace_cleanup.fetch_dspace_mets import fetch_dspace_mets
+from pre_aspace_cleanup.fetch_dspace_xoai import fetch_dspace_xoai
 from pre_aspace_cleanup.fix_collection_level_unittitle_commas import fix_collection_level_unittitle_commas
 from pre_aspace_cleanup.note_to_odd import note_to_odd
 from pre_aspace_cleanup.move_odds import move_odds
@@ -26,7 +27,8 @@ def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir):
 	normalize_dates(ead_dir)
 	authfilenumber_urls_to_uris(ead_dir)
 	authfilenumber_propagation(ead_dir)
-	fetch_dspace_mets(ead_dir, dspace_mets_dir)
+	#fetch_dspace_mets(ead_dir, dspace_mets_dir)
+	fetch_dspace_xoai(ead_dir, dspace_mets_dir, dspace_xoai_dir)
 	note_to_odd(ead_dir)
 	move_odds(ead_dir)
 	remove_unitdates_from_ps(ead_dir)

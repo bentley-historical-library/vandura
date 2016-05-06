@@ -41,7 +41,10 @@ def characterize_marcxmls(marcxml_dir, has_ead_dir, no_ead_dir, unknown_dir, ead
 		tree = etree.parse(join(marcxml_dir,filename))
 		possible_ead_links = tree.xpath('//marc:datafield[@tag="856"]/marc:subfield[@code="u"]', namespaces=ns)
 		callnumber = tree.xpath('//marc:datafield[@tag="852"]/marc:subfield[@code="h"]', namespaces=ns)
+		if not callnumber:
+			callnumber = tree.xpath('//marc:datafield[@tag="856"]/marc:subfield[@code="z"]', namespaces=ns)
 		has_ead_link = False
+		copied = False
 		if possible_ead_links:
 			possible_ead_link_texts = [ead_link.text.strip().encode('utf-8') for ead_link in possible_ead_links]
 			ead_link_texts = [ead_link for ead_link in possible_ead_link_texts if 'findaid' in ead_link]
@@ -55,11 +58,14 @@ def characterize_marcxmls(marcxml_dir, has_ead_dir, no_ead_dir, unknown_dir, ead
 						collectionid = "-".join(eadid.split('-')[2:])
 					if collectionid in ead_collectionids and filename not in os.listdir(has_ead_dir):
 						shutil.copy(join(marcxml_dir,filename),has_ead_dir)
+						copied = True
 					elif filename not in os.listdir(unknown_dir):
 						shutil.copy(join(marcxml_dir,filename),unknown_dir)
+						copied = True
 				elif filename not in os.listdir(unknown_dir):
 					shutil.copy(join(marcxml_dir,filename),unknown_dir)
-		elif callnumber and not has_ead_link:
+					copied = True
+		if callnumber and not has_ead_link and not copied:
 			callnumber_text = callnumber[0].text.strip().encode('utf-8')
 			collectionid = False
 			collectionids = re.findall(r"^[\d\.]+",callnumber_text)
@@ -67,34 +73,43 @@ def characterize_marcxmls(marcxml_dir, has_ead_dir, no_ead_dir, unknown_dir, ead
 				collectionid = collectionids[0]
 			if callnumber_text in ead_callnumbers and filename not in os.listdir(has_ead_dir):
 				shutil.copy(join(marcxml_dir,filename),has_ead_dir)
+				copied = True
 			elif collectionid and (collectionid in ead_collectionids or collectionid.startswith("87265")) and filename not in os.listdir(has_ead_dir):
 				shutil.copy(join(marcxml_dir,filename),has_ead_dir)
+				copied = True
 			elif filename not in os.listdir(no_ead_dir):
 				shutil.copy(join(marcxml_dir,filename),no_ead_dir)
-		else:
+				copied = True
+		if not copied:
 			if filename not in os.listdir(unknown_dir):
 				shutil.copy(join(marcxml_dir,filename),unknown_dir)
 
-def merge_records(no_ead_dir, joined_dir):
+def merge_records(no_ead_dir, joined_dir, unjoined_dir):
 	for filename in os.listdir(no_ead_dir):
 		print "Merging MARC records - {}".format(filename)
 		tree = etree.parse(join(no_ead_dir,filename))
 		ns = {'marc': 'http://www.loc.gov/MARC21/slim'}
 		record = tree.xpath('/marc:record',namespaces=ns)[0]
-		call_number = tree.xpath('//marc:datafield[@tag="852"]/marc:subfield[@code="h"]', namespaces=ns)[0].text.strip().encode('utf-8')
-		collection_id = re.findall(r"^\d+", call_number)[0]
-		dst_filename = collection_id+".xml"
-		if dst_filename not in os.listdir(joined_dir):
-			collection = etree.Element("collection")
-			collection.append(record)
-			with open(join(joined_dir,dst_filename),'w') as f:
-				f.write(etree.tostring(collection))
+		try:
+			call_number = tree.xpath('//marc:datafield[@tag="852"]/marc:subfield[@code="h"]', namespaces=ns)[0].text.strip().encode('utf-8')
+		except:
+			call_number = False
+		if call_number:
+			collection_id = re.findall(r"^\d+", call_number)[0]
+			dst_filename = collection_id+".xml"
+			if dst_filename not in os.listdir(joined_dir):
+				collection = etree.Element("collection")
+				collection.append(record)
+				with open(join(joined_dir,dst_filename),'w') as f:
+					f.write(etree.tostring(collection))
+			else:
+				existing_marc = etree.parse(join(joined_dir,dst_filename))
+				collection = existing_marc.xpath('/collection')[0]
+				collection.append(record)
+				with open(join(joined_dir,dst_filename),'w') as f:
+					f.write(etree.tostring(collection))
 		else:
-			existing_marc = etree.parse(join(joined_dir,dst_filename))
-			collection = existing_marc.xpath('/collection')[0]
-			collection.append(record)
-			with open(join(joined_dir,dst_filename),'w') as f:
-				f.write(etree.tostring(collection))
+			shutil.copy(join(no_ead_dir, filename), unjoined_dir)
 
 def characterize_and_merge_marcxml(ead_dir, marc_dir):
 	marcxml_dir = join(marc_dir, "marcxml_all")
@@ -102,15 +117,16 @@ def characterize_and_merge_marcxml(ead_dir, marc_dir):
 	no_ead_dir = join(marc_dir, "marcxml_no_ead")
 	unknown_dir = join(marc_dir, "marcxml_unknown")
 	joined_dir = join(marc_dir, "marcxml_no_ead_joined")
+	unjoined_dir = join(marc_dir, "marcxml_no_ead_unjoined")
 	converted_dir = join(marc_dir, "converted_eads")
 	unconverted_dir = join(marc_dir, "unconverted_marcxml")
 
-	make_directories([has_ead_dir, no_ead_dir, unknown_dir, joined_dir, converted_dir, unconverted_dir])
-	clear_directories([has_ead_dir, no_ead_dir, unknown_dir, joined_dir, converted_dir, unconverted_dir])
+	make_directories([has_ead_dir, no_ead_dir, unknown_dir, joined_dir, unjoined_dir, converted_dir, unconverted_dir])
+	clear_directories([has_ead_dir, no_ead_dir, unknown_dir, joined_dir, unjoined_dir, converted_dir, unconverted_dir])
 
 	ead_callnumbers, ead_collectionids = extract_ead_callnumbers_and_collectionids(ead_dir)
 	characterize_marcxmls(marcxml_dir, has_ead_dir, no_ead_dir, unknown_dir, ead_callnumbers, ead_collectionids)
-	merge_records(no_ead_dir, joined_dir)
+	merge_records(no_ead_dir, joined_dir, unjoined_dir)
 
 if __name__ == "__main__":
 	characterize_and_merge_marcxml(real_masters_all, marc_dir)

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::parsonsj.xml//EN" encodinganalog="Identifier">umich-bhl-2012180</eadid>
@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>2016-04-13</date>
+        <item>Updated after conservation eliminated boxes 39-47 (materials are in oversize folders 2-18 and 2 bundles)</item>
+      </change>
+      <change>
         <date>2014-04-15</date>
         <item>Original encoding from Word 2007 file using Word macros and Xmetal. After major revision to earlier finding aid, including adding digital images</item>
       </change>
@@ -29,7 +33,7 @@
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Jeffrey R. Parsons papers, 1960-2013</titleproper>
-      <author>Finding aid created by <lb/>Melissa Hernández Durán, November 2012; July 2013</author>
+      <author>Finding aid created by <lb/>Melissa Hernández Durán, November 2012; July 2013<lb/>Benjamin Bond, March 2016</author>
     </titlepage>
   </frontmatter>
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
@@ -39,14 +43,16 @@
       </origination>
       <unittitle encodinganalog="245">Jeffrey R. Parsons papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2013">1960-2013</unitdate> <unitdate type="bulk" encodinganalog="245$g" normal="1966/1992">1966-1992</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012180 Aa2</unitid>
-      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English; some material is in Spanish.</language></langmaterial>
       <abstract>Jeffrey R. Parsons was Curator of Latin American Archaeology and Director of the Museum of Anthropology at the University of Michigan. He was a professor at the same institution for over forty years starting in 1966 and carried out extensive research on settlement patterns in the basin of Mexico, in Peru, and in many other countries. Parsons is known for his role in the development of systematic settlement survey methods in archaeology, a methodology which has become common in archaeological work around the world. Material includes papers, maps, site surveys, photo negatives, aerial photographs and digital scans of the negatives.</abstract>
       <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">70 linear feet</extent>
-        <extent altrender="carrier">in 59 boxes</extent>
+        <extent altrender="materialtype spaceoccupied">50 linear feet</extent>
       </physdesc>
       <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+        <extent altrender="materialtype spaceoccupied">18 oversize folders</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 bundles</extent>
       </physdesc>
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">38.5 GB</extent>
@@ -72,6 +78,13 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Jeffrey R. Parsons papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <processinfo>
+        <p>Due to a conservation effort between 2015 and 2016, some boxes in the Maps series that contained rolled maps were eliminated and replaced with oversize folders. Boxes 39-47 are no longer listed as such, and their materials may be found in oversize folders 2-18. Additionally, the aerial photos that were removed from box 39 are now located in two bundles in theVisual Material series, under Aerial Photos and Tracings-Texcoco Aerial Photos. </p>
+        <p> </p>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>Jeffrey R. Parsons was born in Washington, D.C., in October 9, 1939. During his childhood, he and his family moved to Philadelphia for a period of five years and afterwards settled in Fairfax, Virginia. He would return as an undergraduate student to Pennsylvania to study geology at the Pennsylvania State University. It was in choosing elective courses that Parsons was introduced to archaeology and anthropology. His interest in those disciplines led him to pursue a graduate education in anthropology. After applying and being accepted to the University of Arizona and the University of Michigan, Parsons chose the program in Michigan where James B. Griffin offered an assistantship at the Museum of Anthropology.</p>
@@ -21646,6 +21659,27 @@
               </did>
             </c04>
           </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Texcoco Aerial Photos</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="bundle" label="Bundle">1</container>
+                <unittitle>
+                  <unitdate type="inclusive">undated</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="bundle" label="Bundle">2</container>
+                <unittitle>
+                  <unitdate type="inclusive">undated</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
         </c02>
         <c02 level="subseries">
           <did>
@@ -21746,7 +21780,7 @@
           <unittitle>Maps <unitdate type="inclusive" normal="1960/1984">1960-1984</unitdate></unittitle>
         </did>
         <scopecontent>
-          <p>The Maps Series, 1960-1984 (18 linear feet and 1 oversize folder) contents are arranged in three subseries, photo mosaics, tracings, and Peru maps. The materials in all subseries are arranged by archaeological site. The photo mosaics are 50 x 50 cms 1:5000 aerial photo prints that can be set up together into one mosaic of the sit e. The second subseries is made up of what was originally 9 tube boxes with rolled map tracings of the 1:5000 survey photo mosaics. These can be three to five feet wide and may include references to the corresponding site mosaic section. Some of the aerial photos used for the mosaics and prints were the product of an earlier flight and may have been used for different surveys in different years. Three Zumpango files that were received with the map tracings have been housed with the site materials. The third subseries holds maps of Peru, particularly of the Upper Mantaro Region. These have been housed in oversize folders.</p>
+          <p>The Maps Series, 1960-1984 (9 linear feet and 19 oversize folders) contents are arranged in three subseries, photo mosaics, tracings, and Peru maps. The materials in all subseries are arranged by archaeological site. The photo mosaics are 50 x 50 cms 1:5000 aerial photo prints that can be set up together into one mosaic of the site. The Rolled Trasings subseries is made up of 19 oversize folders. Contents of 18 out of 19 oversize folders were originally stored in tube boxes 39-47. Boxes 39-47 were eliminated during conservation efforts, while contents were placed in oversize boxes. The rolled tracings subseries includes map tracings of the 1:5000 survey photo mosaics. These can be three to five feet wide and may include references to the corresponding site mosaic section. Some of the aerial photos used for the mosaics and prints were the product of an earlier flight and may have been used for different surveys in different years. Three Zumpango files that were received with the map tracings have been housed with the site materials. The third subseries holds maps of Peru, particularly of the Upper Mantaro Region. These have been housed in oversize folders.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
@@ -21793,134 +21827,197 @@
           <did>
             <unittitle>Rolled Tracings</unittitle>
           </did>
+          <odd>
+            <p>Materials in oversize folders 2-18 were originally housed in tube boxes 39-47. After conservation treatment, the materials have been transferred to oversize folders 2-18. As a result, Boxes 39-47 were eliminated.</p>
+          </odd>
           <c03 level="file">
             <did>
               <unittitle>Chalco I</unittitle>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">39</container>
-                <unittitle>Middle formative (also early Formative) Jeff Mary Xochimilco Milpa Alta</unittitle>
+                <container type="folder" label="Oversize folder"> 2</container>
+                <unittitle>Chalco region (untitled)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">39</container>
-                <unittitle>Ixtapalapa 1:25000 with sites</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
+                <container type="folder" label="Oversize folder"> 2</container>
                 <unittitle>Chalco region-updated version</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">39</container>
-                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Survey Settlement Maps for INAH informe</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
-                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Aztec Huexoculco Tlamanalco Ozumba</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
-                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Classic Mary, Wenke, Prahl-Huexoculco Tlamanalco Ozumba</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
-                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Classic Jeff-Tlalpan Topilejo</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
-                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late Formative Popocatepetl Ixtaccihuatl</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
-                <unittitle>Brown craft paper</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
-                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Terminal Formative Mary, Wenke, Prahl-Huexoculco Tlamanalco Ozumba</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
-                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Terminal Formative Jeff-Tlalpan Topilejo</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
-                <unittitle>SE Teo Valley Tlalmanalco</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
-                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Toltec Huexoculco Tlamanalco Ozumba</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
-                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Toltec Jeff-Tlalpan Topilejo</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
-                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Toltec Mary, Prahl-Huexoculco Tlamanalco Ozumba</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
-                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late Formative Mary, Wenke, Prahl-Huexoculco Tlamanalco Ozumba</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
-                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late Formative Jeff-Tlalpan Topilejo</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
-                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late Formative Prahl-Ixtaccihuatl Popocatepetl</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">39</container>
+                <container type="folder" label="Oversize folder"> 2</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late Toltec Original Ink Tracings-MW</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">39</container>
+                <container type="folder" label="Oversize folder"> 2</container>
+                <unittitle>Ixtapalapa 1:25000 with sites</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 2</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late Formative Prahl-Ixtaccihuatl Popocatepetl</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 2</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late Formative Popocatepetl Ixtaccihuatl</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 3</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Classic Mary Xochimilco, Milpa Alta</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 3</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Classic Jeff Xoxhimilco, Milpa Alta</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 3</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Toltec Xochimilco</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 3</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Toltec Jeff Xochimilco, Milpa Alta</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 3</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Toltec Mary Xochimilco, Milpa Alta</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 3</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late Toltec Jeff Xochimilco, Milpa Alta</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 3</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late Toltec Mary, Wenke Xoxhimilco, Milpa Alta</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 3</container>
+                <unittitle>Middle formative (also early Formative) Jeff Mary Xochimilco Milpa Alta</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 3</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late formative Jeff, Mary, Wenke Xochimilco, Milpa Alta</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 3</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Terminal formative Jeff, Mary Xochimilco, Milpa Alta</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 3</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Aztec Jeff Xochimilco, Milpa Alta</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 3</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Aztec Mary, Wenke Xochimilco, Milpa Alta</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 4</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Classic Jeff Tlalpan Topilejo</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 4</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late Formative Jeff-Tlalpan Topilejo</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 4</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Terminal Formative Jeff-Tlalpan Topilejo</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 4</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Terminal Formative Tlalpan Topilejo</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">39</container>
-                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Toltec Xochimilco</unittitle>
+                <container type="folder" label="Oversize folder"> 4</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Toltec Jeff-Tlalpan Topilejo</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 5</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Classic Mary, Wenke, Prahl-Huexoculco Tlamanalco Ozumba</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 5</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late Formative Mary, Wenke, Prahl-Huexoculco Tlamanalco Ozumba</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 5</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Terminal Formative Mary, Wenke, Prahl-Huexoculco Tlamanalco Ozumba</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 5</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Toltec Huexoculco Tlamanalco Ozumba-upper part of 2</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 5</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Toltec Mary, Prahl-Huexoculco Tlamanalco Ozumba</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 5</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Aztec Huexoculco Tlamanalco Ozumba</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 5</container>
+                <unittitle>SE Teo Valley Tlalmanalco</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 6</container>
+                <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Survey Settlement Maps for INAH informe, 10 maps</unittitle>
               </did>
             </c04>
           </c03>
@@ -21930,26 +22027,50 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">40</container>
-                <unittitle>Amecameca Basin Survey Map #2-Area B, Map 1-Prahl T-series</unittitle>
+                <container type="folder" label="Oversize folder"> 7</container>
+                <unittitle>Teo Valley NE flank Cerro Gordo, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">40</container>
+                <container type="folder" label="Oversize folder"> 7</container>
                 <unittitle>Milpa Alta Survey-D'Altroy</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">40</container>
-                <unittitle><unitdate type="inclusive" normal="1966">1966</unitdate> Teo Valley NE flank Cerro Gordo</unittitle>
+                <container type="folder" label="Oversize folder"> 7</container>
+                <unittitle>Rapid Survey-Prahl</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">40</container>
+                <container type="folder" label="Oversize folder"> 7</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Rapid Survey Amecameca Valley</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 7</container>
+                <unittitle>Amecameca Survey Map #1 1972-Prahl</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 7</container>
+                <unittitle>Amecameca Basin Survey Map #2-Area B</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 7</container>
+                <unittitle>Supplementary Map #1 of Amecameca Basin Survey Map Area B</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 7</container>
+                <unittitle>Amecameca Basin-Tentative Physiographic Zones 1972-Prahl</unittitle>
               </did>
             </c04>
           </c03>
@@ -21959,218 +22080,236 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
                 <unittitle>Chalco <unitdate type="inclusive" normal="1969">1969</unitdate> Map 1</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
                 <unittitle>Chalco <unitdate type="inclusive" normal="1969">1969</unitdate> Map 2</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
                 <unittitle>Chalco <unitdate type="inclusive" normal="1969">1969</unitdate> Map 3</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
                 <unittitle>Chalco <unitdate type="inclusive" normal="1969">1969</unitdate> Map 4</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
                 <unittitle>Chalco <unitdate type="inclusive" normal="1969">1969</unitdate> Map 5</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
                 <unittitle>Chalco <unitdate type="inclusive" normal="1969">1969</unitdate> Map 6</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
                 <unittitle>Juchitepec Area Wenke-B</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
                 <unittitle>Prahl / Wenke B</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
+                <unittitle>Wenke C</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 8</container>
+                <unittitle>Area C Reference: Ameca Survey Map #1</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 8</container>
+                <unittitle>1A 1B 1C 1D 6B 6D 6C 6A 5A 5B 7B 7D 8B Mary, Wenke <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 8</container>
                 <unittitle>2A 2B 2C 2D Wenke <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
                 <unittitle>2E 2F 3B 3D 3F Prahl Area Wenke <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
+                <unittitle>3D 3F Partial Prahl 1972/1972 Survey Prahl</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 8</container>
                 <unittitle>4A 4B 4C 4D 4E 4F 9B 9D 9F 3A 3C 3E Prahl <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
-                <unittitle>8B 8D 5A 5C 5B 5D Mary <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">41</container>
-                <unittitle>8F 5E 5F Mary <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
                 <unittitle>7A 7C 12D 12F Mary <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
-                <unittitle>1A 1B 1C 1D 6B 6D 6C 6A 5A 5B 7B 7D 8B Mary-Wenke <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+                <container type="folder" label="Oversize folder"> 8</container>
+                <unittitle>8B 8D 5A 5C 5B 5D Mary <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
-                <unittitle>13A 13B 13C 13D 14A 14B 14C 14D JRP <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+                <container type="folder" label="Oversize folder"> 8</container>
+                <unittitle>8F 5E 5F Mary <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
-                <unittitle>13D JRP <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">41</container>
-                <unittitle>46A 46B 51A 51C JRP <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
                 <unittitle>12A 12C 13C 32E 32F 32C 32D JRP <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
-                <unittitle>18A 18B JRP <unitdate type="inclusive" normal="1972">1972</unitdate> Chalco area (NE corner)</unittitle>
+                <container type="folder" label="Oversize folder"> 8</container>
+                <unittitle>13A 13B 13C 13D 14A 14B 14C 14D JRP <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
+                <unittitle>13D JRP <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 8</container>
                 <unittitle>16A 16B 16C 16D 24A 24B 24C 24D 32G 32H Wenke <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 8</container>
+                <unittitle>18A 18B JRP <unitdate type="inclusive" normal="1972">1972</unitdate> Chalco area (NE corner)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 8</container>
+                <unittitle>Prahl <unitdate type="inclusive" normal="1972">1972</unitdate> 2nd</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 9</container>
                 <unittitle>21D 21E 21F JRP <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 9</container>
                 <unittitle>22A 22B 22C 22D 22E 22F Mary <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 9</container>
                 <unittitle>23A 23B 23E 23F Wenke <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
-                <unittitle>40B 40D 40F JRP <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 9</container>
                 <unittitle>39A 40A 40C 40E JRP <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 9</container>
+                <unittitle>40B 40D 40F JRP <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 9</container>
                 <unittitle>46A 46B 46C 47A 47B Wenke <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 9</container>
+                <unittitle>46A 46B 51A 51C JRP <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 9</container>
                 <unittitle>52A 52B 52C 52D 52F 51E 51F 51D 51B JRP <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 9</container>
                 <unittitle>53A 53B 53C 53D 53E 54A 54B Mary <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 9</container>
                 <unittitle>54D 31A 31B 32A 32B JRP <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 9</container>
                 <unittitle>55A 55B 55D Wenke <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 9</container>
                 <unittitle>56A 56B 56C 56D Mary <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
-                <unittitle>57C 57E 57F Mary <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">41</container>
+                <container type="folder" label="Oversize folder"> 9</container>
                 <unittitle>57A 57B 57C 57D 58F JRP <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
-                <unittitle>XA XB XD XC 12B Mary Jeff <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+                <container type="folder" label="Oversize folder"> 9</container>
+                <unittitle>57C 57E 57F Mary <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">41</container>
-                <unittitle>Prahl <unitdate type="inclusive" normal="1972">1972</unitdate> 2nd</unittitle>
+                <container type="folder" label="Oversize folder"> 9</container>
+                <unittitle>XA XB XD XC 12B Mary Jeff <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
               </did>
             </c04>
           </c03>
@@ -22180,109 +22319,109 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle>Chalco Region <unitdate type="inclusive" normal="1969">1969</unitdate> Survey Aztec Settlement</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late Formative-Tlalpan, Topilejo</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Classic Chalco Mixquic Tuchitepec</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Toltec Chalco Mixquic Tuchitepec (Lower Part of 2)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Toltec Chalco Mixquic Tuchitepec (Upper Part of 2)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Toltec Huexoculco Tlamanalco Ozumba (Lower Part of 2)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Middle Formative Chalco Mixquic Tuchitepec</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle>Late Formative</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle>Terminal Formative</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late Toltec Ixtaccihuatl Popocatepetl.</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Aztec Chalco Mixquic Tuchitepec</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Toltec Tlalpan Topilejo</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle>Terminal Formative</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle>Classic</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Early Formative Ixtaccihuatl Popocatepetl Prahl</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Late Toltec Tlalpan, Topilejo</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle>Late Formative</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">42</container>
+                <container type="folder" label="Oversize folder"> 10</container>
                 <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Terminal Formative Original Ink Tracing</unittitle>
               </did>
             </c04>
@@ -22293,19 +22432,19 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">43</container>
-                <unittitle>Untitled [3 Tubes Blanton Ixtapalapa Tracings]</unittitle>
+                <container type="folder" label="Oversize folder"> 11</container>
+                <unittitle>Blanton Ixtapalapa Tracings</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">43</container>
-                <unittitle>Untitled [Rolled Tracings and Aerial photo map]</unittitle>
+                <container type="folder" label="Oversize folder"> 11</container>
+                <unittitle>Untitled-Tracings and Aerial photo map</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">43</container>
+                <container type="folder" label="Oversize folder"> 11</container>
                 <unittitle>SE Valley of Mexico Airphotos <unitdate type="inclusive" normal="1965">1965</unitdate> Ayotla, Tlalmanalco</unittitle>
               </did>
             </c04>
@@ -22316,73 +22455,73 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">44</container>
+                <container type="folder" label="Oversize folder"> 12</container>
                 <unittitle>I-L8-59A 59B 59C 59D JRP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">44</container>
+                <container type="folder" label="Oversize folder"> 12</container>
                 <unittitle>II-L8-26A 26B Mary <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">44</container>
+                <container type="folder" label="Oversize folder"> 12</container>
                 <unittitle>I-L11-58A 58B JRP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">44</container>
+                <container type="folder" label="Oversize folder"> 12</container>
                 <unittitle>I-L12-8A 8C JRP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">44</container>
+                <container type="folder" label="Oversize folder"> 12</container>
                 <unittitle>I-L12-6A 6B 6C 6D JRP Mary <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">44</container>
+                <container type="folder" label="Oversize folder"> 12</container>
                 <unittitle>I-L11-66B Mary <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">44</container>
+                <container type="folder" label="Oversize folder"> 12</container>
                 <unittitle>I-L12-10A 10B JRP <unitdate type="inclusive" normal="1973">1973</unitdate> Xaltocan</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">44</container>
+                <container type="folder" label="Oversize folder"> 12</container>
                 <unittitle>103A 103B 103C JRP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">44</container>
+                <container type="folder" label="Oversize folder"> 12</container>
                 <unittitle>106B 106D 106F JRP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">44</container>
+                <container type="folder" label="Oversize folder"> 12</container>
                 <unittitle>108A 108B JRP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">44</container>
+                <container type="folder" label="Oversize folder"> 12</container>
                 <unittitle>109A 109B 109C JRP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">44</container>
+                <container type="folder" label="Oversize folder"> 12</container>
                 <unittitle>II Extra Incomplete</unittitle>
               </did>
             </c04>
@@ -22393,109 +22532,109 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>I-L8-62C 62A 62D I-L10-1A 1B 1C 1D 1E 1F MHP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>I-L4-44B 44C 44D Jeff</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>I-L4-1A 1B 1C 1D Jeff <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>I-L11-64A 64B 64C 64D MHP</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>I-L14-7-A 7B 7C 7D Mary JRP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>II-L2-1C 1D Jeff <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>II-L2-3A 3D 5B 5D 1A 1B MHP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>II-L11-42A 42B 42C 42D Mary <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>II-L5-24 26 MHP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>II-L9-4A 4B 4C 4D Mary <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>I-L2-61-A 61B 61C 61D JRP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>II-L5-29A 29B 29C 29D MHP</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>101C 101D 101E 101F 101A 101B Jeff <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>102G 102H 102I JRP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>104A 104B 104C JRP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>105A 105B 105C 105D 105E 105F JRP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>107A 107B 107C 107D JRP <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">45</container>
+                <container type="folder" label="Oversize folder"> 13</container>
                 <unittitle>III-L13-3C 3D Mary <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
@@ -22506,73 +22645,73 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">46</container>
+                <container type="folder" label="Oversize folder"> 14</container>
                 <unittitle>Teo Valley <unitdate type="inclusive" normal="1966">1966</unitdate> T-A-233</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">46</container>
+                <container type="folder" label="Oversize folder"> 14</container>
                 <unittitle>Teo Valley <unitdate type="inclusive" normal="1966">1966</unitdate> T-A-234 235 236 237 238</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">46</container>
+                <container type="folder" label="Oversize folder"> 14</container>
                 <unittitle>Teo Valley <unitdate type="inclusive" normal="1966">1966</unitdate> NE flanks Cerro Gordo</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">46</container>
+                <container type="folder" label="Oversize folder"> 14</container>
                 <unittitle>Teo Valley <unitdate type="inclusive" normal="1966">1966</unitdate> T-A-230</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">46</container>
+                <container type="folder" label="Oversize folder"> 14</container>
                 <unittitle>Teo Valley <unitdate type="inclusive" normal="1966">1966</unitdate> T-A-239 240 241</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">46</container>
+                <container type="folder" label="Oversize folder"> 14</container>
                 <unittitle>Teo Valley <unitdate type="inclusive" normal="1966">1966</unitdate> T-A-231 232</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">46</container>
+                <container type="folder" label="Oversize folder"> 14</container>
                 <unittitle>Chalco <unitdate type="inclusive" normal="1969">1969</unitdate> Tracing Xerox Map 4</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">46</container>
+                <container type="folder" label="Oversize folder"> 14</container>
                 <unittitle>Toeotihuacan Valley Aztec Survey <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">46</container>
+                <container type="folder" label="Oversize folder"> 14</container>
                 <unittitle>Teotihuacan valley Survey <unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate> Santiago Tolman and environs (retraced map)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">46</container>
+                <container type="folder" label="Oversize folder"> 14</container>
                 <unittitle>San Francisco Olalpa</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">46</container>
+                <container type="folder" label="Oversize folder"> 14</container>
                 <unittitle>Texcoco</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">46</container>
+                <container type="folder" label="Oversize folder"> 14</container>
                 <unittitle>Carta de Clima-Mexico &amp; Veracruz</unittitle>
               </did>
             </c04>
@@ -22583,104 +22722,188 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">47</container>
-                <unittitle>Texcoco Region <unitdate type="inclusive" normal="1967">1967</unitdate> Strip I map 2 recopied from original in <unitdate type="inclusive" normal="1984">1984</unitdate> by MHP</unittitle>
+                <container type="folder" label="Oversize folder"> 15</container>
+                <unittitle>Texoco Region <unitdate type="inclusive" normal="1967">1967</unitdate> Strip 1 (in 4 sections)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">47</container>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Texcoco Region-untitled</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Texcoco Reigion-northern</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 16</container>
                 <unittitle>Texcoco Region <unitdate type="inclusive" normal="1967">1967</unitdate> Strip I</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">47</container>
-                <unittitle>Texcoco Region <unitdate type="inclusive" normal="1967">1967</unitdate> Strip I</unittitle>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Texcoco Region Strip I</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">47</container>
+                <container type="folder" label="Oversize folder"> 16</container>
                 <unittitle>Texcoco Region <unitdate type="inclusive" normal="1967">1967</unitdate> Strip I map 1 recopied from original in <unitdate type="inclusive" normal="1984">1984</unitdate> by MHP</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">47</container>
-                <unittitle>Strip I</unittitle>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Texcoco Region <unitdate type="inclusive" normal="1967">1967</unitdate> Strip I map 2 recopied from original in <unitdate type="inclusive" normal="1984">1984</unitdate> by MHP</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">47</container>
+                <container type="folder" label="Oversize folder"> 16</container>
                 <unittitle>Texcoco Region <unitdate type="inclusive" normal="1967">1967</unitdate> Strip I map 3 recopied from original in <unitdate type="inclusive" normal="1984">1984</unitdate> by MHP</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">47</container>
-                <unittitle>Strip I</unittitle>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Strip III Map C</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">47</container>
-                <unittitle>Northern Texcoco Region</unittitle>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Strip III Map D</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">47</container>
-                <unittitle>Strip II NE Quadrant</unittitle>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Strip III Map E</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">47</container>
-                <unittitle>Strip II NW Quadrant</unittitle>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Strip III Map F</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">47</container>
-                <unittitle>Untitled [Occupation in surveyed areas]</unittitle>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Strip III Upper Piedmont ENE of Texcoco</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">47</container>
-                <unittitle>Photo Mosaic</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">47</container>
-                <unittitle>Photo Mosaic-Strip I, II</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">47</container>
-                <unittitle>Texcoco Strip III A, B &amp; C-Map B Chimalhuacan</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">47</container>
-                <unittitle>Texcoco Strip III De, E &amp; F Upper Piedmont Strip II</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">47</container>
+                <container type="folder" label="Oversize folder"> 16</container>
                 <unittitle>Texcoco Region Strip II</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">47</container>
-                <unittitle>Texcoco Region Strip II A <unitdate type="inclusive" normal="1967">1967</unitdate> MTH</unittitle>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Texcoco Region Strip II NE Quadrant</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Texcoco Region Strip II NW Quadrant</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Texcoco Region NW2 Corner retraced by L. Allen <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Texcoco Region Strip II C Blanton's Survey retraced by Mary Hrones Parsons <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Texcoco Region III Map A "Lakebed"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Texcoco Region III Map B "Chimalhuacan"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 16</container>
+                <unittitle>Texcoco Region Strip III Map C</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 17</container>
+                <unittitle>Texcoco <unitdate type="inclusive" normal="1967">1967</unitdate> Strip II</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 17</container>
+                <unittitle>Strip II A <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 17</container>
+                <unittitle>Strip II C</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 17</container>
+                <unittitle>Strip II south end</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 17</container>
+                <unittitle>Strip II NW2 Corner</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 18</container>
+                <unittitle>Strip III Map C</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 18</container>
+                <unittitle>Strip III Map D</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 18</container>
+                <unittitle>Strip III Map E</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 18</container>
+                <unittitle>Strip III Map F</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize folder"> 18</container>
+                <unittitle>Strip III Upper Piedmont ENE of Texcoco</unittitle>
               </did>
             </c04>
           </c03>
@@ -22695,232 +22918,199 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Pomacancha</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Acolla</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Sincos</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Parco</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Jauja</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Concepción</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Apata</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Yauli</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Huancolca</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Departamento de Junín</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Pasco</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Lima</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Junín/ Ricrán</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Ondores</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Huancayo</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Canta</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Matucana</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Ulcumayo</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>San Ramón</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Tarma</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Palcapacha</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Paccha</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Maco</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Palca</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Acobamba</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Palcamayo</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>La Cima</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>San Pedro de Cajas</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Atocsayco</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Malpaso</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Chuquisyunga</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Cachipampa</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="map-case" label="Drawer">233</container>
-                <container type="folder" label="Folder">1</container>
+                <container type="folder" label="Oversize folder">1</container>
                 <unittitle>Tarma</unittitle>
               </did>
             </c04>
@@ -22928,8 +23118,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="map-case" label="Drawer">233</container>
-            <container type="folder" label="Folder">1</container>
+            <container type="folder" label="Oversize folder">1</container>
             <unittitle>Ciudad México</unittitle>
           </did>
         </c02>

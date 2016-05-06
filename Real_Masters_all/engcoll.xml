@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::engcoll.xml//EN" encodinganalog="identifier">umich-bhl-8781</eadid>
     <filedesc>
       <titlestmt>
-        <titleproper encodinganalog="title">Finding Aid for College of Engineering (University of Michigan) records <date>1860-2010</date></titleproper>
+        <titleproper encodinganalog="title">Finding Aid for College of Engineering (University of Michigan) records <date>1860-2014</date></titleproper>
         <author encodinganalog="creator">Collection processed and finding aid prepared by Bentley Library Staff</author>
       </titlestmt>
       <publicationstmt>
@@ -18,6 +18,10 @@
       <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
     </profiledesc>
     <revisiondesc>
+      <change>
+        <date>20160428</date>
+        <item>Accessions 2006-2014.</item>
+      </change>
       <change>
         <date>20150916</date>
         <item>Corrected collection dates and extent.</item>
@@ -47,8 +51,8 @@
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
-      <titleproper encodinganalog="title">Finding Aid for <lb/>College of Engineering <lb/>(University of Michigan) <lb/>Records, <date>1860-2010</date></titleproper>
-      <author encodinganalog="creator">Finding aid prepared by: <lb/>Bentley Library Staff</author>
+      <titleproper encodinganalog="title">Finding Aid for <lb/>College of Engineering <lb/>(University of Michigan) <lb/>Records, <date>1860-2014</date></titleproper>
+      <author encodinganalog="creator">Finding aid prepared by: <lb/>Bentley Library Staff<lb/>Latest update: April 2016</author>
     </titlepage>
   </frontmatter>
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
@@ -56,16 +60,19 @@
       <origination>
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
       </origination>
-      <unittitle encodinganalog="245">College of Engineering (University of Michigan) records <unitdate type="inclusive" encodinganalog="245 $f" normal="1860/2010">1860-2010</unitdate> <unitdate type="inclusive" encodinganalog="245 $g" normal="1900/1980">1900-1980</unitdate></unittitle>
-      <abstract>Records of the University of Michigan College of Engineering include histories, correspondence and topical files of deans; minutes of the executive and other committees; faculty records, including minutes of meetings and faculty biographies; miscellaneous student and alumni records; and photographs.</abstract>
+      <unittitle encodinganalog="245">College of Engineering (University of Michigan) records <unitdate type="inclusive" encodinganalog="245 $f" normal="1860/2010">1860-2014</unitdate> <unitdate type="inclusive" encodinganalog="245 $g" normal="1900/1980">1900-1980, 1990-2000</unitdate></unittitle>
+      <abstract>Records of the University of Michigan College of Engineering include histories, correspondence and topical files of deans; minutes of the executive and other committees; faculty records, including minutes of meetings and faculty biographies; miscellaneous student and alumni records; photographs, microfilm, digital files, and archived website.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">8781 Bimu C141 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>Boxes 1-37 stored offsite. Two days notice required for retrieval.</physloc>
       <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">101 linear feet</extent>
+        <extent altrender="materialtype spaceoccupied">118.5 linear feet, including 207 reels of microfilm</extent>
       </physdesc>
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">3 oversize folders</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1,196 GB (online)</extent>
       </physdesc>
       <repository encodinganalog="852">
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
@@ -77,7 +84,11 @@
         <p>The records were transferred from the College of Engineering (Donor No. <num type="donor" encodinganalog="451$e">1884</num>) in several accessions beginning in 1937. Printed material is received on a regular basis. (Donor no. <num type="donor" encodinganalog="541$e">1884</num>)</p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
-        <p>The collection is open for research except as noted.</p>
+        <p>The College of Engineering records are open for research except for certain records restricted by statute or university policy. Restricted material includes personnel-related files, including search, review, promotion, and tenure files; student educational records; client/patient records; and records of executive officers of the university.</p>
+        <p>The College of Engineering records include restricted material in the following categories: <list type="simple"><item>Personnel Related Records -- Boxes 38, 40-41, 44-46, 48-49, 51-53, 54-58, 60-61, 63-66, 69, 73, 75, 84-87</item><item>Student Academic Records -- Boxes 101, 116</item><item>Eecutive Officers, Deans and Directors Files -- Boxes 103-119 and online</item></list></p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright is held by the Regents of the University of Michigan.</p>
@@ -87,7 +98,7 @@
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
-      <p>The Department of Engineering was established at the University of Michigan in 1858, four years after engineering courses were first offered. In 1871 Professor DeVolson Wood suggested that the Department of Engineering be separated from the Department of Literature, Science, and the Arts, but it was not until 1895 that such a separation occurred. In that year, the departments of civil, mechanical, and electrical engineering were organized into a distinct Department of Engineering and Professor Charles Ezra Greene was appointed dean. The department was to be governed by the faculty, with the dean handling admission of students. Mortimer Elwyn Cooley, a professor of mechanical engineering at the University since 1881, was appointed dean upon Greene's death in 1903 and took office in 1904. He served as dean until 1928 and was succeeded by Herbert Charles Sadler, a professor of naval architecture and marine engineering who had been on the University of Michigan faculty for thirty-nine years. Sadler resigned the deanship in 1937 and was followed by Henry Clay Anderson, a professor in the Mechanical Engineering Department. Anderson died in 1939 and was replaced by Ivan Charles Crawford, a civil engineer who had served as dean of the colleges of engineering at the University of Idaho and the University of Kansas. He was dean of the College of Engineering at Michigan from 1940 to 1951. The sixth dean of the college, George Granger Brown, held the post from 1951 to 1957. He was followed by Stephen S. Attwood, 1957-1965, Gordon Van Wylen, 1965-1972, and David V. Ragone, 1972-1980. Hansford W. Farris served as acting dean from 1980 until the 1981 appointment of James J. Duderstadt. Duderstadt resigned in 1986 to become provost and vice president for academic affairs for the university. He was succeeded as dean by Charles M. Vest, 1986-1989. Daniel E. Atkins, III, was interim dean from 1989 to 1990, Peter M. Banks served as dean from 1990 to 1996, and Stephen W. Director assumed the deanship in 1996.</p>
+      <p>The Department of Engineering was established at the University of Michigan in 1858, four years after engineering courses were first offered. In 1871 Professor DeVolson Wood suggested that the Department of Engineering be separated from the Department of Literature, Science, and the Arts, but it was not until 1895 that such a separation occurred. In that year, the departments of civil, mechanical, and electrical engineering were organized into a distinct Department of Engineering and Professor Charles Ezra Greene was appointed dean. The department was to be governed by the faculty, with the dean handling admission of students. Mortimer Elwyn Cooley, a professor of mechanical engineering at the University since 1881, was appointed dean upon Greene's death in 1903 and took office in 1904. He served as dean until 1928 and was succeeded by Herbert Charles Sadler, a professor of naval architecture and marine engineering who had been on the University of Michigan faculty for thirty-nine years. Sadler resigned the deanship in 1937 and was followed by Henry Clay Anderson, a professor in the Mechanical Engineering Department. Anderson died in 1939 and was replaced by Ivan Charles Crawford, a civil engineer who had served as dean of the colleges of engineering at the University of Idaho and the University of Kansas. He was dean of the College of Engineering at Michigan from 1940 to 1951. The sixth dean of the college, George Granger Brown, held the post from 1951 to 1957. He was followed by Stephen S. Attwood, 1957-1965, Gordon Van Wylen, 1965-1972, and David V. Ragone, 1972-1980. Hansford W. Farris served as acting dean from 1980 until the 1981 appointment of James J. Duderstadt. Duderstadt resigned in 1986 to become provost and vice president for academic affairs for the university. He was succeeded as dean by Charles M. Vest, 1986-1989. Daniel E. Atkins, III, was interim dean from 1989 to 1990, Peter M. Banks served as dean from 1990 to 1996, and Stephen W. Director assumed the deanship in 1996 and held this post until 2005. The year 2006 saw the appointment of the sixteenth dean, David C. Munson, Jr.</p>
       <p>In 1905 the Regents of the University approved the establishment of a chair of architecture in the Department of Engineering. With this decision, courses in architecture were once again made available. (In 1876-1877 William Le Baron Jenney had lectured as Professor of Architecture and Design in the new Department of Architecture and Design, which had been established in 1873 within the School of Mines. Due to a lack of funds, these courses were suspended in 1877. Jenney left the university in 1880, having fulfilled his obligations as architect for the university's new museum).</p>
       <p>By 1913 the Department of Engineering had become the Departments of Engineering and Architecture. The title was changed in 1915 to the Colleges of Engineering and Architecture. In 1931 the College of Architecture became an independent unit.</p>
       <p>In 1920, under the leadership of Dean Cooley, the Department of Engineering Research was formed as a means of promoting cooperation between the university, the state, and private industry. Through this department private industries sponsored research projects that would be conducted by College of Engineering faculty members. In addition to providing financial assistance, such projects enabled students and faculty members to engage in research of current interest in a wide variety of areas. Beginning in 1940, projects sponsored by the federal government were undertaken by the department and in 1948 the department was reorganized as the Engineering Research Institute. In 1957-1958 the Research Institute became an administrative unit of the university.</p>
@@ -159,8 +170,12 @@
             <event>Peter M. Banks</event>
           </chronitem>
           <chronitem>
-            <date>1996-</date>
+            <date>1996-2005</date>
             <event>Stephen W. Director</event>
+          </chronitem>
+          <chronitem>
+            <date>2006-</date>
+            <event>David C. Munson, Jr.</event>
           </chronitem>
         </chronlist>
       </p>
@@ -171,18 +186,18 @@
         <list type="simple">
           <head>Summary Contents List</head>
           <item>Histories -- (box 1)</item>
-          <item>Dean's files <list type="simple"><item>Mortimer E. Cooley, 1904-1928 -- (boxes 1-11)</item><item>Herbert C. Sadler, 1928-1936 -- (box 11)</item><item>Henry C. Anderson, 1931-1951 -- (boxes 11-13)</item><item>Ivan C. Crawford, 1940-1941 -- (box 14)</item><item>Deans I.C. Crawford to D.V. Ragone, 1920-1979 [bulk dates: 1950-1972] -- (boxes 14-26)</item><item>Deans' Administrative Files, 1940-1990 [bulk dates: 1950-1985] -- (boxes 52-55)</item><item>Deans' Departmental Files, 1954-1991 [bulk dates: 1977-1989] -- (boxes 55-56)</item><item>Deans' Topical Files, 1986-1990 (includes some earlier materials) -- (boxes 38-43)</item><item>James J. Duderstadt, 1981-1985 -- (boxes 56-59, 93)</item></list> </item>
-          <item>Associate Dean's Files <list type="simple"><item>Senior Associate Dean's Files 1980-1992 <list type="simple"><item>Departmental Files -- (boxes 44-45)</item><item>Administrative Files -- (boxes 45-46)</item></list> </item><item>D.E. Atkins' Project Files, 1981-1989 -- (boxes 46-49)</item><item>H.S. Fogler, 1978-1983 -- (boxes 59-60)</item><item>M.J. Sinnott, 1967-1981 -- (boxes 60-61)</item><item>C.M. Vest, 1981-1988 -- (boxes 43, 61-62)</item><item>Ann Monterio, 1970-2001 (boxes 96-97</item></list> </item>
+          <item>Dean's files <list type="simple"><item>Mortimer E. Cooley, 1904-1928 -- (boxes 1-11)</item><item>Herbert C. Sadler, 1928-1936 -- (box 11)</item><item>Henry C. Anderson, 1931-1951 -- (boxes 11-13)</item><item>Ivan C. Crawford, 1940-1941 -- (box 14)</item><item>Deans I.C. Crawford to D.V. Ragone, 1920-1979 [bulk dates: 1950-1972] -- (boxes 14-26)</item><item>Deans' Administrative Files, 1940-1990 [bulk dates: 1950-1985] -- (boxes 52-55)</item><item>Deans' Departmental Files, 1954-1991 [bulk dates: 1977-1989] -- (boxes 55-56)</item><item>Deans' Topical Files, 1986-1990 (includes some earlier materials) -- (boxes 38-43)</item><item>James J. Duderstadt, 1981-1985 -- (boxes 56-59, 93, 115)</item></list> </item>
+          <item>Associate Dean's Files <list type="simple"><item>Senior Associate Dean's Files 1980-1992 <list type="simple"><item>Departmental Files -- (boxes 44-45)</item><item>Administrative Files -- (boxes 45-46)</item></list> </item><item>D.E. Atkins' Project Files, 1981-1989 -- (boxes 46-49)</item><item>H.S. Fogler, 1978-1983 -- (boxes 59-60)</item><item>M.J. Sinnott, 1967-1981 -- (boxes 60-61)</item><item>C.M. Vest, 1981-1988 -- (boxes 43, 61-62)</item><item>Ann Monterio, 1970-2001 (boxes 96-100)</item><item>Associate Dean for Undergraduate Edication, 1981-2012 (boxes 103-117)</item><item>Degree Lists and Profiles, 1920-1995 (box 101)</item></list> </item>
           <item>Committee Files <list type="simple"><item>General -- (boxes 12-26, 30, 39-40, 52, 73-75)</item><item>Administrative Committee, 1946-1982 -- (box 73)</item><item>Curriculum Committee, 1911-1925 and 1973-1988 -- (boxes 30, 39, 73-75)</item><item>Discipline, Committee on, 1913-1923 -- (box 75)</item><item>Executive Committee, 1936-1984 [some gaps] -- (boxes 27-28, 39, 75)</item><item>Standing Committee, 1887-1983 -- (boxes 25, 28-30, 75-76)</item><item>Strategic Planning Implementation Communication Committee -- (box 102)</item></list> </item>
           <item>Faculty (includes Faculty Meeting Minutes), 1876-1983 -- (boxes 21, 30-35, 38, 46, 68-69, 91)</item>
           <item>Student and Alumni Records, 1895-1991 -- (boxes 35, 37, 43, 46, 76-82)</item>
-          <item>Visual Materials <list type="simple"><item>Photographs, ca.1860s-1996 -- (boxes 50, 82-83 94, 95 outsize)</item><item>Videotape, 1974 -- (box 83)</item></list> </item>
+          <item>Visual Materials <list type="simple"><item>Microfilm -- (boxes 117-119)</item><item>Photographs, ca. 1860s-1996 -- (boxes 50, 82-83 94, 95 oversize)</item><item>Videotape, 1974 -- (box 83)</item></list> </item>
           <item>Scrapbooks, 1918-1978 -- (box 82)</item>
         </list>
       </p>
     </arrangement>
     <scopecontent encodinganalog="520">
-      <p>The College of Engineering records date from 1873 to 1996 and measure 94 linear feet. The records document the internal activities of the College of Engineering, both administrative and academic, the role of the college as a unit of the University of Michigan, and research developments and trends over the years. Correspondence, meeting minutes, reports, financial records, and other material reflect changing research interests within the field of engineering as well as the curriculum development that has accompanied technological advances. Of particular interest are the files relating to outside work by faculty members, a question of enduring concern within the college. The records reflect the relations of the College of Engineering with private industry, especially through the documentation of funding from outside sources and the involvement of professors in outside research.</p>
+      <p>The College of Engineering records date from 1860 to 2014 and measure 118.5 linear feet, 3 oversize folders, and 1,196 GB. The records document the internal activities of the College of Engineering, both administrative and academic, the role of the college as a unit of the University of Michigan, and research developments and trends over the years. Correspondence, meeting minutes, reports, financial records, and other material reflect changing research interests within the field of engineering as well as the curriculum development that has accompanied technological advances. Of particular interest are the files relating to outside work by faculty members, a question of enduring concern within the college. The records reflect the relations of the College of Engineering with private industry, especially through the documentation of funding from outside sources and the involvement of professors in outside research.</p>
     </scopecontent>
     <controlaccess>
       <controlaccess>
@@ -235,8 +250,11 @@
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Digital file formats.</genreform>
+        <genreform source="aat" encodinganalog="655">Microfilms.</genreform>
         <genreform source="aat" encodinganalog="655">Photographs.</genreform>
         <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
+        <genreform source="aat" encodinganalog="655">Websites.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -281,7 +299,7 @@
             <unittitle>Mortimer E. Cooley</unittitle>
           </did>
           <scopecontent>
-            <p>The subseries Mortimer E. Cooley Correspondence Files and Herbert C. Sadler Correspondence Files are arranged chronologically, and, although consisting primarily of correspondence, they do include occasional reports and financial statements. Cooley's extensive correspondence (ca. 10 feet) with members of the college, prospective students, engineering graduates seeking employment, and engineering firms reflects the intimate involvement of Cooley in the administration of the College of Engineering, but also his continued interest in the more technical aspects of engineering, as is evident in his correspondence with manufacturers and engineers regarding equipment for the various departments. The files occasionally reflect the impact of larger events on affairs within the College of Engineering. For example, a series of letters written by professors and by engineering firms in 1918 concerns the question of whether or not to institute an intensive summer course to train women as draftsmen in order to fill shortages created by the war.</p>
+            <p>The subseries Mortimer E. Cooley Correspondence Files and Herbert C. Sadler Correspondence Files are arranged chronologically, and, although consisting primarily of correspondence, they do include occasional reports and financial statements. Cooley's extensive correspondence (ca. 10 feet) with members of the college, prospective students, engineering graduates seeking employment, and engineering firms reflects the intimate involvement of Cooley in the administration of the College of Engineering, but also his continued interest in the more technical aspects of engineering, as is evident in his correspondence with manufacturers and engineers regarding equipment for the various departments. The files occasionally reflect the impact of larger events on affairs within the College of Engineering. This is examplified by a series of letters written by professors and engineering firms in 1918, which addressed the question of whether or not to institute an intensive summer course to train women as draftsmen to fill shortages caused by the war.</p>
           </scopecontent>
           <c03 level="otherlevel" otherlevel="sub-subseries">
             <did>
@@ -291,7 +309,7 @@
               <did>
                 <container label="Box" type="box">1</container>
                 <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
+                  <unitdate>Undated</unitdate>
                 </unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -2052,7 +2070,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">25</container>
-                  <unittitle>Dean Van Wylen <unitdate type="inclusive" normal="1961/1971">1961-1971</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                  <unittitle>Dean Van Wylen <unitdate type="inclusive" normal="1961/1971">1961-1971</unitdate>, <unitdate>undated</unitdate></unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">6 folders</extent>
                   </physdesc>
@@ -2257,7 +2275,7 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">38</container>
-                    <unittitle>Rules of the Faculty <unitdate type="inclusive" normal="1983/1985">1983-1985</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                    <unittitle>Rules of the Faculty <unitdate type="inclusive" normal="1983/1985">1983-1985</unitdate>, <unitdate>undated</unitdate></unittitle>
                   </did>
                 </c06>
               </c05>
@@ -3864,7 +3882,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">52</container>
-                  <unittitle>Engineering Laboratories <unitdate type="inclusive">undated</unitdate></unittitle>
+                  <unittitle>Engineering Laboratories <unitdate>undated</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
@@ -5915,7 +5933,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">46</container>
-                  <unittitle>Computer Science and Engineering, Division of <unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate>, <unitdate type="inclusive">undated</unitdate> (re: establishment)</unittitle>
+                  <unittitle>Computer Science and Engineering, Division of <unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate>, <unitdate>undated</unitdate> (re: establishment)</unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">3 folders</extent>
                   </physdesc>
@@ -6022,13 +6040,13 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">49</container>
-                  <unittitle>Datsko, Joseph (research materials) <unitdate type="inclusive">undated</unitdate></unittitle>
+                  <unittitle>Datsko, Joseph (research materials) <unitdate>undated</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">49</container>
-                  <unittitle>Faculty Research Interests <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                  <unittitle>Faculty Research Interests <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate>, <unitdate>undated</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
@@ -7431,7 +7449,7 @@
               <did>
                 <container type="box" label="Box">87</container>
                 <unittitle>
-                  <unitdate normal="1959" type="inclusive">1959</unitdate>
+                  <unitdate normal="1959">1959</unitdate>
                 </unittitle>
               </did>
               <accessrestrict>
@@ -7795,7 +7813,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">35</container>
-                <unittitle><unitdate type="inclusive" normal="1873">1873</unitdate>, <unitdate type="inclusive" normal="1880/1881">1880-1881</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle><unitdate type="inclusive" normal="1873">1873</unitdate>, <unitdate type="inclusive" normal="1880/1881">1880-1881</unitdate>, <unitdate>undated</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -8703,7 +8721,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">77</container>
-                <unittitle>General Correspondence <unitdate type="inclusive" normal="1904/1961">1904-1961</unitdate> <unitdate normal="1924/1929" type="bulk">1924-1929</unitdate></unittitle>
+                <unittitle>General Correspondence <unitdate type="inclusive" normal="1904/1961">1904-1961</unitdate> (<unitdate normal="1924/1929" type="bulk">bulk 1924-1929</unitdate>)</unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -8817,7 +8835,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">81</container>
-              <unittitle>Situational Study: Engineering Ethics Questions <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Situational Study: Engineering Ethics Questions <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -9114,7 +9132,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">62</container>
-              <unittitle>Engineering Council <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Engineering Council <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -9144,7 +9162,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">63</container>
-              <unittitle>"The Establishment of Military Training and the ROTC at UM" <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>"The Establishment of Military Training and the ROTC at UM" <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -9896,7 +9914,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">67</container>
-                <unittitle>Program <unitdate type="inclusive" normal="1969/1979">1969-1979</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle>Program <unitdate type="inclusive" normal="1969/1979">1969-1979</unitdate>, <unitdate>undated</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
@@ -10231,7 +10249,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">70</container>
-              <unittitle>Rest Room Data <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Rest Room Data <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -11097,7 +11115,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">50</container>
-              <unittitle>Chrysler Center for Continuing Engineering Education, dedication of <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Chrysler Center for Continuing Engineering Education, dedication of <unitdate>undated</unitdate></unittitle>
               <physdesc>
                 <physfacet>black and white positive prints</physfacet>
               </physdesc>
@@ -11152,7 +11170,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">50</container>
-              <unittitle>Faculty and Deans <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Faculty and Deans <unitdate>undated</unitdate></unittitle>
               <physdesc>
                 <physfacet>black and white positive prints</physfacet>
               </physdesc>
@@ -11256,7 +11274,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">82</container>
-                <unittitle>Class of 1904 Reunions <unitdate type="inclusive" normal="1914/1954">1914-1954</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle>Class of 1904 Reunions <unitdate type="inclusive" normal="1914/1954">1914-1954</unitdate>, <unitdate>undated</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">25 prints</extent>
                   <physfacet>black and white</physfacet>
@@ -11287,7 +11305,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">82</container>
-              <unittitle>Building Exteriors <unitdate type="inclusive" normal="1961/1988">1961-1988</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Building Exteriors <unitdate type="inclusive" normal="1961/1988">1961-1988</unitdate>, <unitdate>undated</unitdate></unittitle>
               <physdesc altrender="part">
                 <extent altrender="materialtype spaceoccupied">13 prints</extent>
                 <physfacet>black and white</physfacet>
@@ -11311,7 +11329,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">82</container>
-              <unittitle>Camp Davis and Surveying Groups <unitdate type="inclusive" normal="1875">1875</unitdate>, <unitdate type="inclusive" normal="1917">1917</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Camp Davis and Surveying Groups <unitdate type="inclusive" normal="1875">1875</unitdate>, <unitdate type="inclusive" normal="1917">1917</unitdate>, <unitdate>undated</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 prints</extent>
                 <physfacet>black and white</physfacet>
@@ -11683,7 +11701,7 @@
               <did>
                 <container type="box" label="Box">83</container>
                 <unittitle>
-                  <unitdate normal="1920/1929" certainty="approximate" type="inclusive">circa 1920s</unitdate>
+                  <unitdate normal="1920/1929" certainty="approximate">circa 1920s</unitdate>
                 </unittitle>
               </did>
             </c04>
@@ -11703,7 +11721,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">83</container>
-              <unittitle>Engineering Arch drawing <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Engineering Arch drawing <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -11729,7 +11747,7 @@
               <did>
                 <container type="box" label="Oversize Box">94</container>
                 <unittitle>
-                  <unitdate type="inclusive">undated</unitdate>
+                  <unitdate>undated</unitdate>
                 </unittitle>
               </did>
             </c04>
@@ -12217,7 +12235,7 @@
           <c03 level="file">
             <did>
               <container type="folder" label="Oversize Folder">BImu C141</container>
-              <unittitle>one technical drawing <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>one technical drawing <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -12670,7 +12688,7 @@
           <unittitle>Archived College of Engineering Website</unittitle>
         </did>
         <scopecontent>
-          <p>The College of Engineering Archived Website series documents the academic programs, accomplishments, resources, events, and people at the College of Engineering. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the College. The website series is arranged chronologically, with captures from 2002 and 2003 stored on CD. Starting in 2010, this archived website will be captured on a regular, ongoing basis as part of the University of Michigan Web Archives, hosted at http://webarchives.cdlib.org/a/universityofmichigan/.</p>
+          <p>The College of Engineering Archived Website series documents the academic programs, accomplishments, resources, events, and people at the College of Engineering. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the College. The website series is arranged chronologically, with captures from 2002 and 2003 stored on CD. Starting in 2010, this archived website is captured on a regular ongoing basis as part of the University of Michigan Web Archives.</p>
         </scopecontent>
         <c02 level="item">
           <did>
@@ -12720,6 +12738,28 @@
             </dao>
           </did>
         </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online </physloc>
+            <unittitle>Archived College of Engineering home page, 2010-[ONGOING] </unittitle>
+            <dao href="http://hdl.handle.net/ https://wayback.archive-it.org/5871/*/http://www.engin.umich.edu/college/" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online </physloc>
+            <unittitle>Archived websites related to the College of Engineering, 2010-[ONGOING] </unittitle>
+            <dao href="http://hdl.handle.net/ https://wayback.archive-it.org/5871/*/http://www.engin.umich.edu/college/" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
       </c01>
       <c01 level="series">
         <did>
@@ -12750,6 +12790,2063 @@
               <unittitle>Strategic Planning Implementation Faculty Committee Report, <unitdate type="inclusive">May 2004</unitdate></unittitle>
             </did>
           </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Dean's Files</unittitle>
+        </did>
+        <scopecontent>
+          <p>The 2006-2014 accessions, which begin with box 103, contribute to previously gathered information on the College of Engineering, such as agendas added to the James J. Duderstadt Files, and introduce new information that highlights the work done in the office of the Associate Dean for Undergraduate Education. This accession also marks the beginning of a new series, Digital Material, for the purpose of describing records that were generated and donated through computer file formats.</p>
+          <p>The accession also includes the generation of a new subseries under the series Associate Deans' Files titled Associate Dean for Undergraduate Education, as the bulk of material was donated through this office. Also included in these accessions are additions to the Visual Material series </p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>James J. Duderstadt Files</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">115</container>
+              <unittitle>Agendas, <unitdate type="inclusive" normal="1982/1985">1982-1985</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2036-07-01">July 1, 2036</date>]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Visual Materials</unittitle>
+        </did>
+        <scopecontent>
+          <p>Visual Material in this accession include portrait photographs of the class of 1904. A new subseries, Microfilm, was created under Visual Material, and contains microfilms which cover a plethora of subjects from meeting minutes to discipline lists</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Microfilm </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">117</container>
+              <unittitle>82 rolls of microfilm </unittitle>
+            </did>
+            <odd>
+              <p>(content list in box)</p>
+            </odd>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2027-07-01">July 1, 2027</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">118</container>
+              <unittitle>34 rolls of microfilm (content list in box)</unittitle>
+            </did>
+            <odd>
+              <p>(content list in box)</p>
+            </odd>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2027-07-01">July 1, 2027</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">119</container>
+              <unittitle>91 rolls of microfilm (content list in box)</unittitle>
+            </did>
+            <odd>
+              <p>(content list in box)</p>
+            </odd>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2027-07-01">July 1, 2027</date>]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Photographs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">116</container>
+              <unittitle>Class of <unitdate type="inclusive" normal="1904">1904</unitdate> Student Portrait Photographs, <unitdate type="inclusive" normal="1904">1904</unitdate> </unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Associate Deans' Files</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Associate Deans' Files subseries contains six sub-subseries, five of which organize the material by the Associate Dean for Undergraduate Education who was in office during the time the records were created. Material pre-dating the creation of this office is under the sub subseries "Topical." They are arranged chronologically within the sub sub series. These records reflect the ongoing relationship with the Accreditation Board for Engineering Technology, Inc., provide a thorough survey of alumni and students, expand on reports and new programs, and contain a generous amount of budgeting information. They also show the changes occurring in the school as it began to prepare itself for the turn of the century, particularly in regard to programming for new and technically driven student groups. Michael G. Parsons, a professor of naval architecture and marine engineering, served as the dean between the years 1991-1993, and was reappointed from 1994-1996. He was followed by J. Wayne Jones, a professor of materials and metallurgical engineering, who served a five-year term from 1996-2001. The title then passed to Levi T. Thompson, Jr., who held the position from 2001-2005. 2005-2006 saw the appointment of Gary D. Herrin as the interim associate dean until James Holloway took the position more permanently from 2007-2013. Holloway was followed by Brian D. Noble, who started serving as dean in 2013. </p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Associate Dean for Undergraduate Education</unittitle>
+          </did>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Topical</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">107</container>
+                <unittitle>Commission on Undergraduate Engineering Education, <unitdate type="inclusive" normal="1985/1988">1985-1988</unitdate> </unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">107</container>
+                <unittitle>Survey of Faculty Members, <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">107</container>
+                <unittitle>Survey of Undergraduate Students, <unitdate type="inclusive" normal="1987">1987</unitdate> </unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">107</container>
+                <unittitle>Program Statement: Integrated Technology Instruction Center at University of Michigan, <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>ABET, <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>Edward J. Shaefer Correspondence -- "Neutral Composition Obtained from a Rocket-Borne Mass Spectrometer" -- <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Michael G. Parsons</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">103</container>
+                <unittitle>ABET, <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">103</container>
+                <unittitle>ABET, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">103</container>
+                <unittitle>American Society of Mechanical Engineers (ASME), <unitdate type="inclusive" normal="1996">1996</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">103</container>
+                <unittitle>Curriculum Task Force, <unitdate type="inclusive" normal="1994/1996">1994-1996</unitdate> </unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">103</container>
+                <unittitle>Freshman Computing Faculty Assessment, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">103</container>
+                <unittitle> Michigan Curriculum <unitdate type="inclusive">2000, 1996</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">103</container>
+                <unittitle>Society of Women Engineers (SWE),<unitdate type="inclusive" normal="1995/1999"> 1995-1999</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">103</container>
+                <unittitle>Transfer Students, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">103</container>
+                <unittitle>Transfer Students GPA Limitations, <unitdate type="inclusive" normal="1992/1995">1992-1995</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">105</container>
+                <unittitle>Integrating Communication Skill Across Laboratory and Design Courses in Mechanical Engineering, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle>ABET,<unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle>ABET Response/Feedback, <unitdate type="inclusive">1988, 1990-1993</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle>Association for Computing Machinery (ACM), <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle>Lurie Engineering Center Building Space Analysis, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle>Nuclear Engineering Revised Budget</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 116</container>
+                <unittitle>Academic Record Project, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 116</container>
+                <unittitle>Academic Service Statistics, <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 116</container>
+                <unittitle>Correspondence -- Anne Montario, <unitdate type="inclusive" normal="1993/2000">1993-2000</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>Degree Abbreviations, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>Degree Audit Reporting System (DARS), <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 116</container>
+                <unittitle>Degree Survey, <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>Focus: HOPE Correspondence, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 116</container>
+                <unittitle>Michigan Society of Professional Engineers (MSPE) <unitdate type="inclusive" normal="1995/1997">1995-1997</unitdate> [SR restricted until July 1, 2072]</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 116</container>
+                <unittitle>Russia Student Exchange Program Grant, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 116</container>
+                <unittitle>Undergraduate Enrollment, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>J. Wayne Jones</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">103</container>
+                <unittitle>ABET, <unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate> </unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">103</container>
+                <unittitle>ABET <unitdate type="inclusive" normal="1999">1999</unitdate>Preparation, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle>Annual Report for the International Programs in Engineering Office, <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle>ASEE ABET Big 10+ 6/00, <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle>Biomedical Engineering, <unitdate type="inclusive" normal="1996/2000">1996-2000</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle>Bulletin, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle>Civil and Environmental Engineering, <unitdate type="inclusive">2000, 2002</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle>COE Senior Survey, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle>Computer Science Program External Review,<unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle>Course Evaluation Median Lists, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle> Curriculum 2000,<unitdate type="inclusive" normal="1997">1997</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle> Curriculum Development,<unitdate type="inclusive" normal="1997"> 1997</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle>Curriculum Development, <unitdate type="inclusive" normal="1999">1999</unitdate> </unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle>Curriculum Task Force, <unitdate type="inclusive" normal="1997/2000">1997-2000</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle>Diversity, <unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle>Electrical Engineering and Computer Science, <unitdate type="inclusive" normal="1999/2003">1999-2003</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">104</container>
+                <unittitle>Faculty, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">105</container>
+                <unittitle>ABET II, <unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">105</container>
+                <unittitle>Engineering 100: Sample Course Materials, <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">105</container>
+                <unittitle>A.B.E.T., <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">105</container>
+                <unittitle>ABET 1999, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>ME Proposal for EGL, <unitdate type="inclusive" normal="2000">2000</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031z`</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Naval Architecture and Marine Engineering (NAME), <unitdate type="inclusive" normal="1996/1999">1996-1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle> Nuclear Engineering and Radiological Sciences, <unitdate type="inclusive" normal="1996/1999">1996-1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle> Pedagogy Award,<unitdate type="inclusive" normal="1999"> 1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Senior Survey, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Society Hispanic Professional Engineers (SHPE), <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Society of Minority Engineering Student (SMES), <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Student Statistics, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Strategic Plan PowerPoint</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>"Wise Journeys -- Women in Engineering", <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle>Committee Report-Instructional Technology Committee, <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle>Diversity Reports, <unitdate type="inclusive" normal="1999">1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle>Institutional Profile,<unitdate type="inclusive" normal="1999"> 1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle> Materials Science Engineering,<unitdate type="inclusive" normal="1997/1999"> 1997-1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle> Program Self-Study Report: Aerospace Engineering,<unitdate type="inclusive" normal="1999"> 1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle> Program Self-Study Report: Chemical Engineering,<unitdate type="inclusive" normal="1999">1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle> Program Self-Study Report: Civil and Environmental Engineering,<unitdate type="inclusive" normal="1999"> 1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle> Program Self-Study Report: Computer Engineering, <unitdate type="inclusive" normal="1999">1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle> Program Self-Study Report: Electrical Engineering,<unitdate type="inclusive" normal="1999"> 1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle> Program Self-Study Report: Industrial and Operations Engineering, <unitdate type="inclusive" normal="1999">1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle> Program Self-Study Report: Materials Science and Engineering, <unitdate type="inclusive" normal="1999">1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle> Program Self-Study Report: Mechanical Engineering, <unitdate type="inclusive" normal="1999">1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle> Program Self-Study Report: Naval Architecture and Marine Engineering, <unitdate type="inclusive" normal="1999">1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle> Program Self-Study Report: Nuclear Engineering and Radiological Sciences, <unitdate type="inclusive" normal="1999">1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle> University of Michigan Engineering Council (UMEC), <unitdate type="inclusive" normal="1998/2001">1998-2001</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">109</container>
+                <unittitle>Alumni Surveys, Senior Surveys, <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">109</container>
+                <unittitle>Botanical Garden Retreat, <unitdate type="inclusive" normal="1999">1999</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">109</container>
+                <unittitle> Committee on Scholastic Standing Orientation Manual, <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">109</container>
+                <unittitle>Diversity Activities: Key Reports, <unitdate type="inclusive" normal="1998/2000">1998-2000</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">109</container>
+                <unittitle> First Year Student Survey, 1995-2000, <unitdate type="inclusive" normal="2001">2001</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">109</container>
+                <unittitle> FY 01 Budget ESA Volume 1, <unitdate type="inclusive" normal="2001">2001</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">109</container>
+                <unittitle> Reports on Senior Surveys for Academic Year, <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">110</container>
+                <unittitle>Strategic Planning Retreat, <unitdate type="inclusive" normal="2000">2000</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>Committee and Course Recommendations, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>Correspondence, <unitdate type="inclusive" normal="1993/2000">1993-2000</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>Curriculum Course Changes, <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>ESA Imagine Now Town Meeting, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>Meeting Notes, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>M-Pathways Curriculum Policy Group, <unitdate type="inclusive" normal="1996/1999">1996-1999</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>Rules of the Faculty, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>Russia Student Exchange Program Grant, <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>Senior Survey, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>Simultaneous Graduate/Undergraduate Study (SGUS) -- Rackham, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Levi T. Thompson, Jr.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Institutional Profile, <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>NAME External Review Committee, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>NOBCChE (Nat'l Organ. Black Chemist/Chemical Engineers), <unitdate type="inclusive" normal="2002/2004">2002-2004</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Program Self-Study Report: Computer Science, <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Scholastic Standing Committee Annual Report, <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle>ABET EECS Interim Report, <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle>Aerospace Engineering,<unitdate type="inclusive" normal="2002/2003"> 2002-2003</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">108</container>
+                <unittitle> Atmospheric, Oceanic and Space Sciences (AOSS), <unitdate type="inclusive" normal="1996/2004">1996-2004</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">110</container>
+                <unittitle>ABET 2003 Accreditation Visit</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">110</container>
+                <unittitle>Alumni Surveys for Academic Year 2001-2002</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">110</container>
+                <unittitle>Alumni Surveys for Academic Year 2001-2002</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">110</container>
+                <unittitle>Alumni Surveys for Academic Year 2000-2001</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">110</container>
+                <unittitle>Curricula Vitae: Computer Science Faculty,<unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">110</container>
+                <unittitle>Fall <unitdate type="inclusive" normal="2004">2004</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">110</container>
+                <unittitle>Memos on Student Retention, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">110</container>
+                <unittitle>Faculty Activity Reports: Computer Science Faculty,<unitdate type="inclusive" normal="2003"> 2003</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">110</container>
+                <unittitle>First Year Student Survey 1998-2002, <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 111</container>
+                <unittitle>Strategic Planning Implementation Committee 2003-04</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 111</container>
+                <unittitle>Undergraduate Education Budget FY <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle> Budget Standing, <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate> </unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle> Cabinet 2004</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>The College of Engineering's Current Status and Future Plans, <unitdate type="inclusive" normal="2004">2004</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>The College of Engineering's Resource Plans and Needs Through FY2004, <unitdate type="inclusive" normal="2003">2003</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle> Crystal Thrall Re: Springfest, <unitdate type="inclusive" normal="2004">2004</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle> Engineering Teaching Academy CouncilFlexible Tenure Policy, <unitdate type="inclusive" normal="2005">2005</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>Interdisciplinary Program,<unitdate type="inclusive" normal="1997/2004"> 1997-2004</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>ISET,<unitdate type="inclusive" normal="2001"> 2001</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>National Society of Black Engineers (NSBE)Program Self-Study Report: Computer Science,<unitdate type="inclusive" normal="2003"> 2003</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>Provost's Budget Conference,<unitdate type="inclusive" normal="2002"> 2002</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>Report of the task Force on Testing and Training Prospective GSIs, <unitdate type="inclusive" normal="2002">2002</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>Retention, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>Self-Study Report: Electrical Engineering Program, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>Solar Car Team Correspondence and General Information, <unitdate type="inclusive" normal="1999/2003">1999-2003</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>STRIDE Recruitment Workshop, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle> Symposium on Energy and the Environment: The Role of Nuclear Power, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>University of Michigan Engineering Council,<unitdate type="inclusive" normal="2004/2005"> 2004-2005</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle> University of Michigan Engineering Council Town Hall Winter, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">113</container>
+                <unittitle>Undergraduate Education Budget FY <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>Mechanical Engineering and Applied Mechanics, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[SR Restricted until <date type="restriction" normal="2077-07-01"> July 1, 2077</date>]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Gary D. Herrin</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Admission Guidelines</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Flint-Ann Arbor Partnership Engineering Program, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER Restricted until <date type="restriction" normal="2033-07-01"> July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>Assimilation of Service Learning Proposal, <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>Atmospheric, Oceanic and Space Sciences Department External Review,<unitdate type="inclusive" normal="2005"> 2005</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>Cabinet 2005</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle>Cabinet 2006</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle> Enrollment and Recruitment Reports, <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">112</container>
+                <unittitle> MLK 2003</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">113</container>
+                <unittitle>ADUE Budget FY <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">113</container>
+                <unittitle>Undergraduate Budget FY07, <unitdate type="inclusive" normal="2007">2007</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 114</container>
+                <unittitle>Space Utilization Initiative, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 114</container>
+                <unittitle>Undergraduate Management Team 2006</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 114</container>
+                <unittitle>Undergraduate Management Team 2005</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 114</container>
+                <unittitle>Undergraduate Student Advisory Board 2005</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 116</container>
+                <unittitle> Employee Resignation, <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[PR RESTRICTED UNTIL <date type="restriction" normal="2036-07-01">July 1, 2036</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">116</container>
+                <unittitle>Student Motivation in Introductory Programming Paper, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p> [SR RESTRICTED UNTIL <date type="restriction" normal="2081-07-01">July 1, 2081</date>]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>James Holloway</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>ADUE Objectives, <unitdate type="inclusive" normal="2007/2012">2007-2012</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Budget, <unitdate type="inclusive" normal="2009/2010">2009-2010</unitdate> </unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Bicentennial Planning, <unitdate type="inclusive" normal="2011/2012">2011-2012</unitdate> </unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Budget Allocation Summary</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>CRLT-Engin,<unitdate type="inclusive" normal="2011"> 2011</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle>Curriculum, <unitdate type="inclusive" normal="2011/2012">2011-2012</unitdate> </unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle> Engineering 2008 Target Meeting, <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle> Engineering Alumni Society Board of Governors Meetings Programs, <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle> Enrollment,<unitdate type="inclusive" normal="2011/2012">2011-2012</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle> Ethics Report, <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle> MConnect Initiative, <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">106</container>
+                <unittitle> Miscellaneous, <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">107</container>
+                <unittitle>M-STEM, <unitdate type="inclusive" normal="2009/2011">2009-2011</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">107</container>
+                <unittitle>Nuclear Engineering and Radiological Sciences, <unitdate type="inclusive">2004, 2008</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">107</container>
+                <unittitle>SEP Proposal, <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">107</container>
+                <unittitle>Special Funding Request Reviews, <unitdate type="inclusive" normal="2009/2011">2009-2011</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">107</container>
+                <unittitle> Topical, <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">107</container>
+                <unittitle>Women in Science and Engineering Program,<unitdate type="inclusive" normal="2011"> 2011</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2031-07-01">July 1, 2031</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 113</container>
+                <unittitle>CEE Department Review, <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 113</container>
+                <unittitle> Mechanical Engineering Internal Review Report, <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 113</container>
+                <unittitle>Nuclear Engineering and Radiological Sciences Internal Review Report, <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 113</container>
+                <unittitle> Strategies Toward Excellent Practices (STEP) in Departments, <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">114</container>
+                <unittitle>ABET Audit, <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">114</container>
+                <unittitle>Administrative Changes,<unitdate type="inclusive" normal="2012"> 2012</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">114</container>
+                <unittitle>Applications, <unitdate type="inclusive" normal="2009/2012">2009-2012</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">114</container>
+                <unittitle>Budget, <unitdate type="inclusive" normal="2008/2010">2008-2010</unitdate> </unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle>Budget,<unitdate type="inclusive" normal="2010"> 2010</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle>Budget-Recommended Changes,<unitdate type="inclusive" normal="2008"> 2008</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> Cabinet 2007</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle>Correspondence, <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> Course Information, <unitdate type="inclusive" normal="2008/2010">2008-2010</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> Center for Radiative Shock Hydrodynamics (CRASH),<unitdate type="inclusive" normal="2008"> 2008</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> Diversity Passport, <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle>Diversity and Outreach Fundraising Opportunities, <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle>Engineering for a Changing World, <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle>External Review-UM-SJTU, <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle>Generation of College of Engineering International Minor, <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> International Review of the Program in Technical Communications, <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle>International Programs, <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> Investigating Student Learning Grant,<unitdate type="inclusive" normal="2008/2009"> 2008-2009</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> LSA Curriculum Minutes and Correspondence, <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> Mini-Course Committee Final Report,<unitdate type="inclusive" normal="2010"> 2010</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> Miscellaneous, <unitdate type="inclusive" normal="2008/2011">2008-2011</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> Retroactive Drop Policies,<unitdate type="inclusive" normal="2007/2008"> 2007-2008</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> Society of Automotive Engineers Track Proposal, <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> Technical Communication Internal Review Committee,<unitdate type="inclusive" normal="2011"> 2011</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> U-May Survey, <unitdate type="inclusive" normal="2009">2009</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> Undergraduate Student Advisory Board, <unitdate type="inclusive" normal="2007">2007</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> UM-SJTU Joint Institute, <unitdate type="inclusive" normal="2008/2010">2008-2010</unitdate> </unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box"> 115</container>
+                <unittitle> University of Michigan Engineering Council, <unitdate type="inclusive" normal="2006/2009">2006-2009</unitdate> </unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2033-07-01">July 1, 2033</date>]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>DIGITAL MATERIAL</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <physloc>Online </physloc>
+            <unittitle>ABET Accreditation Reports, <unitdate type="inclusive" normal="2002/2014">2002-2014</unitdate> </unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2034-07-01">July 1, 2034</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online </physloc>
+            <unittitle>Engineering Alumni Society Board of Governors</unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2030-07-01">July 1, 2030</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online </physloc>
+            <unittitle>ASB Strategic Plan 2009-2014</unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2030-07-01">July 1, 2030</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online </physloc>
+            <unittitle> Meeting Minutes 2009-2010</unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2030-07-01">July 1, 2030</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online </physloc>
+            <unittitle>Rosters and Committee Lists, 2009-2010</unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2030-07-01">July 1, 2030</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online </physloc>
+            <unittitle>Survey of Degrees, <unitdate type="inclusive" normal="1968/1997">1968-1997</unitdate> </unittitle>
+            <dao href="http://hdl.handle.net/2027.42/117597" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online </physloc>
+            <unittitle>Survey of Enrollment, <unitdate type="inclusive" normal="1972/1997">1972-1997</unitdate> </unittitle>
+            <dao href="http://hdl.handle.net/.42/117598" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online </physloc>
+            <unittitle>College of Engineering Website, <unitdate type="inclusive" normal="2006">2006</unitdate> </unittitle>
+            <dao href="http://hdl.handle.net/2027.42/117596" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view item]</p>
+              </daodesc>
+            </dao>
+          </did>
         </c02>
       </c01>
     </dsc>
