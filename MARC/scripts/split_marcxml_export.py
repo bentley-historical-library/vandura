@@ -24,10 +24,16 @@ def split_marcxml_exports(exports, dst_dir):
                         marc_out.write(etree.tostring(elem, encoding="utf-8", xml_declaration=True, pretty_print=True))
                     print filename
 
+def clear_directory(dst_dir):
+    print "Clearing {}".format(dst_dir)
+    for filename in os.listdir(dst_dir):
+        os.remove(join(dst_dir,filename))
+
 if __name__ == "__main__":
     dst_dir = join(marc_dir, 'marcxml_all')
-    marcxml_basedir = 'C:/Users/djpillen/GitHub/marc_xml-all/mlibrary_exports'
-    marcxml_has_ead = join(marcxml_basedir, 'bent_marc_has_ead.xml')
-    marcxml_no_ead = join(marcxml_basedir, 'bent_marc_no_ead.xml')
-    exports = [marcxml_has_ead, marcxml_no_ead]
-    split_marcxml_exports(exports, dst_dir)
+    clear_directory(dst_dir)
+    export_dir = join(marc_dir, 'mlibrary_exports')
+    marcxml_export = join(export_dir, "bentley_extract_20160506.xml")
+    #marcxml_no_ead = join(marcxml_basedir, 'bent_marc_no_ead.xml')
+    #exports = [marcxml_has_ead, marcxml_no_ead]
+    split_marcxml_exports([marcxml_export], dst_dir)

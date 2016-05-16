@@ -35,7 +35,8 @@ def main():
 	ready_to_go = raw_input("Has everything been run? (y/n): ")
 	if ready_to_go.lower() == 'y':
 		aspace_url, username, password = aspace_credentials()
-		run_aspace_ead_migration(aspace_ead_dir, json_dir, resources_dir, migration_stats_dir, aspace_url, username, password)
+		aspace_ead_dir = join(ead_dir, "eads")
+		run_aspace_ead_migration(ead_dir, aspace_ead_dir, aspace_url, username, password)
 	else:
 		print "Please run everything that needs to be run and then run this script again"
 		quit()
