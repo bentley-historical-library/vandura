@@ -22,8 +22,8 @@ s = authenticate(aspace_url, username, password)
 start_time = datetime.now()
 
 # Uncomment one of these to export everything or select resources
-#ids_to_export = s.get('{}/repositories/2/resources?all_ids=true'.format(aspace_url)).json()
-ids_to_export = ["248"]
+ids_to_export = s.get('{}/repositories/2/resources?all_ids=true'.format(aspace_url)).json()
+#ids_to_export = ["248"]
 
 
 def pad_id(resource_id):
@@ -35,7 +35,7 @@ def pad_id(resource_id):
 for resource_id in ids_to_export:
     file_id = pad_id(resource_id)
     if file_id not in os.listdir(exports_dir):
-        ead = s.get('{0}/repositories/2/resource_descriptions/{1}.xml?include_unpublished=true&include_daos=true&numbered_cs=true'.format(aspace_url, resource_id),stream=True)
+        ead = s.get('{0}/repositories/2/bhl_resource_descriptions/{1}.xml?include_unpublished=true&include_daos=true&numbered_cs=true'.format(aspace_url, resource_id),stream=True)
         with open(join(exports_dir, file_id +'.xml'),'wb') as ead_out:
              for chunk in ead.iter_content(10240):
                     ead_out.write(chunk)
