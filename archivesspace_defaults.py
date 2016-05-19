@@ -56,7 +56,7 @@ def post_defaults(aspace_url, username, password):
 		classification_post = s.post(aspace_url + '/repositories/2/classifications',data=json.dumps(classification)).json()
 		print classification_post
 		
-	add_enum_values(s, aspace_url, 23, ['lcnaf', 'lctgm', 'aacr2', 'lcgft', 'ftamc'])  # subject sources
+	add_enum_values(s, aspace_url, 23, ['lcnaf', 'lctgm', 'aacr2', 'lcgft', 'ftamc', 'fast'])  # subject sources
 	add_enum_values(s, aspace_url, 4, ['lcnaf'])  # name sources
 	add_enum_values(s, aspace_url, 55, ["on file", "pending", "sent", "n/a", "other"])  # user defined enum 1 values (gift agreement status)
 	add_enum_values(s, aspace_url, 14, ["TB"]) # extent
