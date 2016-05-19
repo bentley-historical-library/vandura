@@ -2,13 +2,46 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Lawyers' Club (University of Michigan) records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Lawyers' Club (University of Michigan) records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
-  <archdesc level="collection"><did><unitid>89481 Bimu F15 2</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Lawyers' Club (University of Michigan)</primary_name></corpname></origination><unittitle>Lawyers' Club (University of Michigan) records</unittitle><unitdate type="inclusive" label="creation">1924-1960</unitdate><physdesc><extent>4 v. (1 box)</extent></physdesc></did><descgrp><acqinfo>Donor: 1667</acqinfo></descgrp><bioghist>Organization established to build residence hall with fees used to provide support to faculty for legal research work.</bioghist><scopecontent>Minutes of the board of governors.</scopecontent><controlaccess><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Law School</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Lawyers' Club (University of Michigan)</primary_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89481 Bimu F15 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Lawyers' Club (University of Michigan)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Lawyers' Club (University of Michigan) records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+        <physfacet>1 box</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1924-1960</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1667</acqinfo>
+    </descgrp>
+    <bioghist>Organization established to build residence hall with fees used to provide support to faculty for legal research work.</bioghist>
+    <scopecontent>Minutes of the board of governors.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Law School</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Lawyers' Club (University of Michigan)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

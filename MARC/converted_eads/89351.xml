@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Population schedule for Michigan</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Population schedule for Michigan</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,8 +12,41 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>89351 CA.4b Microcopy</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>United States</primary_name><subordinate_name>Census Office</subordinate_name></corpname></origination><unittitle>Population schedule for Michigan</unittitle><unitdate type="inclusive" label="creation">1840</unitdate><physdesc><extent>3 microfilm reels</extent><physfacet>
-positive.</physfacet></physdesc></did><descgrp><originalsloc>Originals in:
+  <archdesc level="collection">
+    <did>
+      <unitid>89351 CA.4b Microcopy</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>United States</primary_name>
+          <subordinate_name>Census Office</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Population schedule for Michigan</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 microfilms</extent>
+        <physfacet>
+positive.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1840</unitdate>
+    </did>
+    <descgrp>
+      <originalsloc>Originals in:
 National Archives and Records Administration,
-Washington, D.C.</originalsloc><acqinfo>Donor: 1771</acqinfo></descgrp><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Census records.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Michigan</term><term type="topical">Census, 1840.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">Census, 6th, 1840.</term></subject></controlaccess></archdesc>
+Washington, D.C.</originalsloc>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Census records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Census, 1840.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">Census, 6th, 1840.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

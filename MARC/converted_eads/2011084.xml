@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Stuart Klein photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Stuart Klein photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,49 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>2011084 UAs</unitid><origination><persname role="col" encodinganalog="100" source="local"><primary_name>Klein</primary_name><rest_of_name>Stuart</rest_of_name></persname></origination><unittitle>Stuart Klein photograph collection.</unittitle><unitdate type="inclusive" label="creation">1870s-1880s</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict><odd><head>Publication, Distribution, Etc.</head><p>1870s-1880s.</p></odd><acqinfo>Donor: 10575</acqinfo></descgrp><scopecontent>Collection of cartes de visite portraits taken by various Washtenaw County, Michigan photographers. Most of the items are unidentified; those identified are of Rose Kline, Carrie Walker, and Cary (probably Caroline) Schettler.</scopecontent><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Cartes de visite.</term></subject><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Kline</primary_name><rest_of_name>Rose.</rest_of_name></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Schettler</primary_name><rest_of_name>Caroline.</rest_of_name></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Walker</primary_name><rest_of_name>Carrie.</rest_of_name></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>2011084 UAs</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local">
+          <primary_name>Klein</primary_name>
+          <rest_of_name>Stuart</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Stuart Klein photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1870s-1880s</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1870s-1880s.</p>
+      </odd>
+      <acqinfo>Donor: 10575</acqinfo>
+    </descgrp>
+    <scopecontent>Collection of cartes de visite portraits taken by various Washtenaw County, Michigan photographers. Most of the items are unidentified; those identified are of Rose Kline, Carrie Walker, and Cary (probably Caroline) Schettler.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Cartes de visite.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Kline</primary_name>
+        <rest_of_name>Rose.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Schettler</primary_name>
+        <rest_of_name>Caroline.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Walker</primary_name>
+        <rest_of_name>Carrie.</rest_of_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

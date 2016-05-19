@@ -2,13 +2,61 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Norman W. Price diary-ledger</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Norman W. Price diary-ledger</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>2011116 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Price</primary_name><rest_of_name>Norman Wellington.</rest_of_name></persname></origination><unittitle>Norman W. Price diary-ledger</unittitle><langmaterial>In English.</langmaterial><unitdate type="inclusive" label="creation">1888-1897</unitdate><physdesc><extent>1 volume</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict><acqinfo>Donor: 9735</acqinfo></descgrp><bioghist>A native of Canada, Price was a student at the University of Michigan 1890-1894 and earned a medical degree from the University of Toronto in 1896.</bioghist><scopecontent>Minute book used by Price to record course notes, writings, accounts and expenses, a record of patients treated 1895-1897 and a general diary of events covering 1888-1890 relating to his life in Canada, mostly in Napanee, his work in schools, agriculture, townspeople and his first year as a student in Ann Arbor, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Diaries.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Napanee (Ont.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Price</primary_name><rest_of_name>Norman Wellington.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1881-1890.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Toronto</primary_name><subordinate_name>Faculty of Medicine</subordinate_name></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2011116 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Price</primary_name>
+          <rest_of_name>Norman Wellington.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Norman W. Price diary-ledger</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1888-1897</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 9735</acqinfo>
+    </descgrp>
+    <bioghist>A native of Canada, Price was a student at the University of Michigan 1890-1894 and earned a medical degree from the University of Toronto in 1896.</bioghist>
+    <scopecontent>Minute book used by Price to record course notes, writings, accounts and expenses, a record of patients treated 1895-1897 and a general diary of events covering 1888-1890 relating to his life in Canada, mostly in Napanee, his work in schools, agriculture, townspeople and his first year as a student in Ann Arbor, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Napanee (Ont.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Price</primary_name>
+        <rest_of_name>Norman Wellington.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1881-1890.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Toronto</primary_name>
+        <subordinate_name>Faculty of Medicine</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

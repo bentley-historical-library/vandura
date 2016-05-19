@@ -2,13 +2,58 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Trygve Gabrielson papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Trygve Gabrielson papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0620 Aa 2</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Gabrielson</primary_name><rest_of_name>Trygve.</rest_of_name></persname></origination><unittitle>Trygve Gabrielson papers</unittitle><unitdate type="inclusive" label="creation">1962-2005</unitdate><physdesc><extent>0.4 linear ft</extent></physdesc></did><descgrp><acqinfo>Donor: 9405</acqinfo></descgrp><bioghist>Born in Norway, Gabrielson came to the United States in 1949. He was a professor of radiology at the University of Michigan from 1962 to 1998.</bioghist><scopecontent>Documents and reports annotated extensively by Gabrielson. Material pertains to radiology and departmental matters at Michigan. Includes information on neuroradiology, computerized tomography, and nuclear magnetic resonance imaging. Also biographical material on Gabrielson.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Radiology</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Magnetic resonance imaging.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Tomography.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Gabrielson</primary_name><rest_of_name>Trygve.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Dept. of Radiology</subordinate_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0620 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Gabrielson</primary_name>
+          <rest_of_name>Trygve.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Trygve Gabrielson papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">0.4 linear ft</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1962-2005</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9405</acqinfo>
+    </descgrp>
+    <bioghist>Born in Norway, Gabrielson came to the United States in 1949. He was a professor of radiology at the University of Michigan from 1962 to 1998.</bioghist>
+    <scopecontent>Documents and reports annotated extensively by Gabrielson. Material pertains to radiology and departmental matters at Michigan. Includes information on neuroradiology, computerized tomography, and nuclear magnetic resonance imaging. Also biographical material on Gabrielson.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Radiology</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Magnetic resonance imaging.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Tomography.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gabrielson</primary_name>
+        <rest_of_name>Trygve.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of Radiology</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

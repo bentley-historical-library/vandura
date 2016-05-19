@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Detroit in 1898 [graphic].</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Detroit in 1898 [graphic].</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,6 +12,55 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>91402 UBBl</unitid><unittitle>Detroit in 1898 [graphic].</unittitle><unitdate type="inclusive" label="creation">1898</unitdate><physdesc><extent>1 print</extent><physfacet>
-halftone</physfacet><dimensions>image 14 x 111 cm.</dimensions></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>[Detroit, Mich.] : Detroit Photographic Co., 1898.</p></odd><odd><head>General Note</head><p>"Supplement to the Detroit journal, September 1st, 1898."</p></odd><acqinfo>Donor: 2240</acqinfo><odd><head>Cartographic Mathematical Data</head><p>Scale not given (W 83°05'18"--W 83°00'03"/N 42°20'42"--N 42°18'13").</p></odd></descgrp><controlaccess><subject source="local" encodinganalog="730"><term type="uniform_title">Detroit journal.</term></subject><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Prints.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Ships</term><term type="geographic">Detroit River (Mich. and Ont.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Detroit (Mich.)</term><term type="genre_form">Maps.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Detroit River (Mich. and Ont.)</term><term type="genre_form">Maps.</term></subject><corpname source="local" encodinganalog="710"><primary_name>Detroit Photographic Co</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>91402 UBBl</unitid>
+      <unittitle>Detroit in 1898 [graphic].</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 prints</extent>
+        <physfacet>
+halftone</physfacet>
+        <dimensions>image 14 x 111 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1898</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[Detroit, Mich.] : Detroit Photographic Co., 1898.</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>"Supplement to the Detroit journal, September 1st, 1898."</p>
+      </odd>
+      <acqinfo>Donor: 2240</acqinfo>
+      <odd>
+        <head>Cartographic Mathematical Data</head>
+        <p>Scale not given (W 83°05'18"--W 83°00'03"/N 42°20'42"--N 42°18'13").</p>
+      </odd>
+    </descgrp>
+    <controlaccess>
+      <subject source="local" encodinganalog="730">
+        <term type="uniform_title">Detroit journal.</term>
+      </subject>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Ships</term>
+        <term type="geographic">Detroit River (Mich. and Ont.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+        <term type="genre_form">Maps.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit River (Mich. and Ont.)</term>
+        <term type="genre_form">Maps.</term>
+      </subject>
+      <corpname source="local" encodinganalog="710">
+        <primary_name>Detroit Photographic Co</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

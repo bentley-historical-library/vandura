@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Barr family photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Barr family photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,43 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93115 UAs</unitid><origination><famname encodinganalog="100" source="local"><family_name>Barr family</family_name></famname></origination><unittitle>Barr family photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1880s</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1880s.</p></odd><acqinfo>Donor: 2244</acqinfo></descgrp><bioghist>Family of Ann Arbor, Michigan.</bioghist><scopecontent>Portraits of John Henry Barr and his wife, Catherine Traver Barr.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Barr</primary_name><rest_of_name>Catherine Traver</rest_of_name><dates>1840-1912</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Barr</primary_name><rest_of_name>John Henry</rest_of_name><dates>1838-1914</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93115 UAs</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local">
+          <family_name>Barr family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Barr family photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1880s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1880s.</p>
+      </odd>
+      <acqinfo>Donor: 2244</acqinfo>
+    </descgrp>
+    <bioghist>Family of Ann Arbor, Michigan.</bioghist>
+    <scopecontent>Portraits of John Henry Barr and his wife, Catherine Traver Barr.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Barr</primary_name>
+        <rest_of_name>Catherine Traver</rest_of_name>
+        <dates>1840-1912</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Barr</primary_name>
+        <rest_of_name>John Henry</rest_of_name>
+        <dates>1838-1914</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

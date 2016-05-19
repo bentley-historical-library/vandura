@@ -2,13 +2,50 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Julia Livingston Tappan souvenir book</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Julia Livingston Tappan souvenir book</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89323 AA</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Tappan</primary_name><rest_of_name>Julia Livingston.</rest_of_name></persname></origination><unittitle>Julia Livingston Tappan souvenir book</unittitle><unitdate type="inclusive" label="creation">1883</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 1331</acqinfo></descgrp><scopecontent>Souvenir book containing letter written by the University of Michigan class of 1858 and given to Julia Tappan, the widow of President Tappan, describing the class' relationship to President Tappan and including information about the Tappan Oak.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Tappan Oak (Ann Arbor, Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Tappan</primary_name><rest_of_name>Henry Philip</rest_of_name><dates>1805-1881</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Class of 1858</subordinate_name></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89323 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Tappan</primary_name>
+          <rest_of_name>Julia Livingston.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Julia Livingston Tappan souvenir book</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1883</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1331</acqinfo>
+    </descgrp>
+    <scopecontent>Souvenir book containing letter written by the University of Michigan class of 1858 and given to Julia Tappan, the widow of President Tappan, describing the class' relationship to President Tappan and including information about the Tappan Oak.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Tappan Oak (Ann Arbor, Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Tappan</primary_name>
+        <rest_of_name>Henry Philip</rest_of_name>
+        <dates>1805-1881</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1858</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

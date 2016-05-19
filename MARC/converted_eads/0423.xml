@@ -2,13 +2,52 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Harold Ferguson Holland papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Harold Ferguson Holland papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0423 Aa 2</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Holland</primary_name><rest_of_name>Harold Ferguson.</rest_of_name></persname></origination><unittitle>Harold Ferguson Holland papers</unittitle><unitdate type="inclusive" label="creation">1930-1931</unitdate><physdesc><extent>0.5 linear ft</extent></physdesc></did><descgrp><acqinfo>Donor: 9178</acqinfo></descgrp><bioghist>Medical student at the University of Michigan.</bioghist><scopecontent>Student notebooks and course materials.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Holland</primary_name><rest_of_name>Harold Ferguson.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Medical School</subordinate_name><term type="topical">Students.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="genre_form">Student notebooks.</term></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0423 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Holland</primary_name>
+          <rest_of_name>Harold Ferguson.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Harold Ferguson Holland papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">0.5 linear ft</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1930-1931</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9178</acqinfo>
+    </descgrp>
+    <bioghist>Medical student at the University of Michigan.</bioghist>
+    <scopecontent>Student notebooks and course materials.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Holland</primary_name>
+        <rest_of_name>Harold Ferguson.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Medical School</subordinate_name>
+        <term type="topical">Students.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="genre_form">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

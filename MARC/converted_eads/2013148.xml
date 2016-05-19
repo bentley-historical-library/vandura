@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Walter Bobrowski diary</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Walter Bobrowski diary</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,53 @@
       <descrules>dacs</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>2013148 Aa 3</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Bobrowski</primary_name><rest_of_name>Walter.</rest_of_name></persname></origination><unittitle>Walter Bobrowski diary</unittitle><langmaterial>In English.</langmaterial><unitdate type="inclusive" label="creation">1944-1946</unitdate><physdesc><extent>3 computer files (584 kb)</extent></physdesc></did><descgrp><accruals>Further accruals are not expected.</accruals><accessrestrict>The collection is open for research use.</accessrestrict><acqinfo>Donor: 11011</acqinfo></descgrp><bioghist>Walter Bobrowski was a resident of Detroit, Mich. During World War II he served in the U.S. Navy on LCT (6) 1411.</bioghist><scopecontent>Transcript of diary covering Bobrowski's service from induction to discharge, including participation in the invasion of Okinawa in 1945. Also two photographs of Bobrowski in uniform.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Diaries.</term></subject><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">World War, 1939-1945</term><term type="topical">Campaigns</term><term type="geographic">Japan</term><term type="geographic">Okinawa Island.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Bobrowski</primary_name><rest_of_name>Walter.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Navy</subordinate_name><term type="topical">History</term><term type="temporal">World War, 1939-1945.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>2013148 Aa 3</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Bobrowski</primary_name>
+          <rest_of_name>Walter.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Walter Bobrowski diary</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 computer files</extent>
+        <physfacet>584 kb</physfacet>
+      </physdesc>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1944-1946</unitdate>
+    </did>
+    <descgrp>
+      <accruals>Further accruals are not expected.</accruals>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 11011</acqinfo>
+    </descgrp>
+    <bioghist>Walter Bobrowski was a resident of Detroit, Mich. During World War II he served in the U.S. Navy on LCT (6) 1411.</bioghist>
+    <scopecontent>Transcript of diary covering Bobrowski's service from induction to discharge, including participation in the invasion of Okinawa in 1945. Also two photographs of Bobrowski in uniform.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945</term>
+        <term type="topical">Campaigns</term>
+        <term type="geographic">Japan</term>
+        <term type="geographic">Okinawa Island.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Bobrowski</primary_name>
+        <rest_of_name>Walter.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Navy</subordinate_name>
+        <term type="topical">History</term>
+        <term type="temporal">World War, 1939-1945.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

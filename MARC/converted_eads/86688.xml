@@ -2,13 +2,56 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Gershom W. Mattoon letter</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Gershom W. Mattoon letter</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86688 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Mattoon</primary_name><rest_of_name>Gershom W.</rest_of_name></persname></origination><unittitle>Gershom W. Mattoon letter</unittitle><unitdate type="inclusive" label="creation">1908</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 1278</acqinfo></descgrp><bioghist>Durand, Michigan, resident and soldier in Co. E, 6th Michigan Cavalry during the Civil War.</bioghist><scopecontent>Reminiscences of the Battle of Cedar Creek, 1864.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Cedar Creek, Battle of, Va., 1864.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Durand (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Army</subordinate_name><subordinate_name>Michigan Cavalry Regiment, 6th (1862-1865)</subordinate_name><subordinate_name>Company E</subordinate_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86688 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Mattoon</primary_name>
+          <rest_of_name>Gershom W.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Gershom W. Mattoon letter</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1908</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1278</acqinfo>
+    </descgrp>
+    <bioghist>Durand, Michigan, resident and soldier in Co. E, 6th Michigan Cavalry during the Civil War.</bioghist>
+    <scopecontent>Reminiscences of the Battle of Cedar Creek, 1864.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Cedar Creek, Battle of, Va., 1864.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Durand (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 6th (1862-1865)</subordinate_name>
+        <subordinate_name>Company E</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

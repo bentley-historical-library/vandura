@@ -2,13 +2,56 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the College of Engineering, Class of 1936 (University of Michigan) records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the College of Engineering, Class of 1936 (University of Michigan) records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
-  <archdesc level="collection"><did><unitid>8780 Bimu C141 2</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>University of Michigan</primary_name><subordinate_name>College of Engineering</subordinate_name><subordinate_name>Class of 1936</subordinate_name></corpname></origination><unittitle>College of Engineering, Class of 1936 (University of Michigan) records</unittitle><unitdate type="inclusive" label="creation">1936-1986</unitdate><physdesc><extent>3 linear in</extent></physdesc></did><descgrp><acqinfo>Donor: 7354</acqinfo></descgrp><scopecontent>Correspondence from members of the University of Michigan College of Engineering Class of 1936 describing their career work and other activities.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="690"><term type="topical">Engineering.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Engineers</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Class of 1936</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>College of Engineering</subordinate_name><subordinate_name>Class of 1936</subordinate_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8780 Bimu C141 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>University of Michigan</primary_name>
+          <subordinate_name>College of Engineering</subordinate_name>
+          <subordinate_name>Class of 1936</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>College of Engineering, Class of 1936 (University of Michigan) records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 linear in</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1936-1986</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7354</acqinfo>
+    </descgrp>
+    <scopecontent>Correspondence from members of the University of Michigan College of Engineering Class of 1936 describing their career work and other activities.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="690">
+        <term type="topical">Engineering.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Engineers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1936</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+        <subordinate_name>Class of 1936</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

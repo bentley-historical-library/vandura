@@ -2,13 +2,56 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Swank family papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Swank family papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>98110 Aa 1</unitid><origination><famname encodinganalog="100" source="local"><family_name>Swank family</family_name></famname></origination><unittitle>Swank family papers</unittitle><unitdate type="inclusive" label="creation">1845-1898</unitdate><unitdate type="bulk" label="creation">(bulk 1898)</unitdate><physdesc><extent>2 folders</extent></physdesc></did><descgrp><acqinfo>Donor: 4780</acqinfo></descgrp><bioghist>Residents of Manistee, Michigan.</bioghist><scopecontent>Letters, 1898, to Mrs. S. C. Swank from her son Roy while he was stationed in Santiago, Cuba; letters from Mrs. Swank to family members from Detroit Women's Hospital following the admittance to the hospital of Roy; miscellaneous family materials, including portraits of family members.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Spanish-American War, 1898</term><term type="topical">Campaigns</term><term type="geographic">Cuba.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Women</term><term type="geographic">Michigan</term><term type="geographic">Manistee.</term></subject><persname source="local" encodinganalog="700"><primary_name>Swank</primary_name><rest_of_name>Roy.</rest_of_name></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>98110 Aa 1</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local">
+          <family_name>Swank family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Swank family papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1845-1898</unitdate>
+      <unitdate type="bulk" label="creation">(bulk 1898)</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4780</acqinfo>
+    </descgrp>
+    <bioghist>Residents of Manistee, Michigan.</bioghist>
+    <scopecontent>Letters, 1898, to Mrs. S. C. Swank from her son Roy while he was stationed in Santiago, Cuba; letters from Mrs. Swank to family members from Detroit Women's Hospital following the admittance to the hospital of Roy; miscellaneous family materials, including portraits of family members.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Spanish-American War, 1898</term>
+        <term type="topical">Campaigns</term>
+        <term type="geographic">Cuba.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Manistee.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Swank</primary_name>
+        <rest_of_name>Roy.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

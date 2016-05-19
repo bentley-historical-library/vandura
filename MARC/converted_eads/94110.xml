@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Houghton, Michigan print collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Houghton, Michigan print collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,29 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>94110 UCCs</unitid><unittitle>Houghton, Michigan print collection.</unittitle><unitdate type="inclusive" label="creation">1859</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1859.</p></odd></descgrp><scopecontent>View of the town.</scopecontent><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Prints.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Houghton (Mich.)</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>94110 UCCs</unitid>
+      <unittitle>Houghton, Michigan print collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1859</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1859.</p>
+      </odd>
+    </descgrp>
+    <scopecontent>View of the town.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Houghton (Mich.)</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

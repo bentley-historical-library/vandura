@@ -2,13 +2,47 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Wassily Besekirsky papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Wassily Besekirsky papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>8853 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Besekirsky</primary_name><rest_of_name>Wassily.</rest_of_name></persname></origination><unittitle>Wassily Besekirsky papers</unittitle><unitdate type="inclusive" label="creation">1941-1942</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><acqinfo>Donor: 2213</acqinfo></descgrp><bioghist>Professor of violin at the University of Michigan.</bioghist><scopecontent>Correspondence, reports, and other materials relating to his efforts to block the University's decision to reduce his salary and to demote him.</scopecontent><controlaccess><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Faculty.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>School of Music</subordinate_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8853 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Besekirsky</primary_name>
+          <rest_of_name>Wassily.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Wassily Besekirsky papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1941-1942</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2213</acqinfo>
+    </descgrp>
+    <bioghist>Professor of violin at the University of Michigan.</bioghist>
+    <scopecontent>Correspondence, reports, and other materials relating to his efforts to block the University's decision to reduce his salary and to demote him.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>School of Music</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

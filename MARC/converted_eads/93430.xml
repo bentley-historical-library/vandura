@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Jo Labadie photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Jo Labadie photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,40 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93430 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Labadie</primary_name><rest_of_name>Jo</rest_of_name><dates>1850-1933</dates></persname></origination><unittitle>Jo Labadie photograph collection.</unittitle><unitdate type="inclusive" label="creation">1917</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1917.</p></odd><acqinfo>Donor: 3060</acqinfo></descgrp><bioghist>Detroit, Michigan, anarchist.</bioghist><scopecontent>Portrait (copy print).</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Labadie</primary_name><rest_of_name>Jo</rest_of_name><dates>1850-1933</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93430 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Labadie</primary_name>
+          <rest_of_name>Jo</rest_of_name>
+          <dates>1850-1933</dates>
+        </persname>
+      </origination>
+      <unittitle>Jo Labadie photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1917</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1917.</p>
+      </odd>
+      <acqinfo>Donor: 3060</acqinfo>
+    </descgrp>
+    <bioghist>Detroit, Michigan, anarchist.</bioghist>
+    <scopecontent>Portrait (copy print).</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Labadie</primary_name>
+        <rest_of_name>Jo</rest_of_name>
+        <dates>1850-1933</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

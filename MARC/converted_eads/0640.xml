@@ -2,13 +2,77 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the James Lee Elliott collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the James Lee Elliott collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0640 Aa 2</unitid><origination><persname role="col" encodinganalog="100" source="local"><primary_name>Elliott</primary_name><rest_of_name>James L.</rest_of_name></persname></origination><unittitle>James Lee Elliott collection.</unittitle><unitdate type="inclusive" label="creation">1889-1897</unitdate><physdesc><extent>81 copyprints and 44 glass negatives (in 3 boxes)</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1889-1897.</p></odd><odd><head>General Note</head><p>Box 1 contains numbered prints; These numbers also refer to surviving glass negatives in boxes 2-3.</p></odd><acqinfo>Donor: 9686</acqinfo></descgrp><bioghist>James Lee Elliott, of Charlevoix, Mich., was a Great Lakes Region historian and collector.</bioghist><scopecontent>Photographs taken by Ernest Peaslee of ships and railroads in the Charlevoix area of Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Glass negatives.</term></subject><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Railroads</term><term type="geographic">Michigan</term><term type="geographic">Charlevoix.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Ships</term><term type="geographic">Michigan</term><term type="geographic">Charlevoix.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Tugboats</term><term type="geographic">Michigan</term><term type="geographic">Charlevoix.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Charlevoix (Mich.)</term></subject><persname source="local" encodinganalog="700"><primary_name>Peaslee</primary_name><rest_of_name>Ernest.</rest_of_name></persname></controlaccess><container label="Box" type="box">1</container><container label="Box" type="box">2</container><container label="Box" type="box">3</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0640 Aa 2</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local">
+          <primary_name>Elliott</primary_name>
+          <rest_of_name>James L.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>James Lee Elliott collection.</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">81 copyprints</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1889-1897</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1889-1897.</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>Box 1 contains numbered prints; These numbers also refer to surviving glass negatives in boxes 2-3.</p>
+      </odd>
+      <acqinfo>Donor: 9686</acqinfo>
+    </descgrp>
+    <bioghist>James Lee Elliott, of Charlevoix, Mich., was a Great Lakes Region historian and collector.</bioghist>
+    <scopecontent>Photographs taken by Ernest Peaslee of ships and railroads in the Charlevoix area of Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Glass negatives.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Railroads</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Charlevoix.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Ships</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Charlevoix.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Tugboats</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Charlevoix.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Charlevoix (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Peaslee</primary_name>
+        <rest_of_name>Ernest.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+    <container label="Box" type="box">2</container>
+    <container label="Box" type="box">3</container>
+  </archdesc>
 </ead>

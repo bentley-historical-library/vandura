@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Peter R. Bloch collection</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Peter R. Bloch collection</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,54 @@
       <descrules>dacs</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>2010171 Aa 2</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Bloch</primary_name><rest_of_name>Peter Rafael</rest_of_name><dates>1921-2008</dates></persname></origination><unittitle>Peter R. Bloch collection</unittitle><langmaterial>In English.</langmaterial><unitdate type="inclusive" label="creation">1959-1960</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict><acqinfo>Donor: 10401</acqinfo></descgrp><bioghist>New York City journalist and historian.</bioghist><scopecontent>Letters received from friend Robert F. Williams, militant African American civil rights activist. In the letters Williams discusses his arrest at a student sit-in protest, his struggles as a civil rights leader in the South, his travel plans, and his appreciation of Bloch's writings.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">African American civil rights workers.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Civil rights</term><term type="geographic">United States.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Bloch</primary_name><rest_of_name>Peter Rafael</rest_of_name><dates>1921-2008</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Williams</primary_name><rest_of_name>Robert F.</rest_of_name><fuller_form>(Robert Franklin)</fuller_form><dates>1925-1996</dates></persname><persname source="local" encodinganalog="700"><primary_name>Williams</primary_name><rest_of_name>Robert F.</rest_of_name><fuller_form>(Robert Franklin)</fuller_form><dates>1925-1996</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>2010171 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Bloch</primary_name>
+          <rest_of_name>Peter Rafael</rest_of_name>
+          <dates>1921-2008</dates>
+        </persname>
+      </origination>
+      <unittitle>Peter R. Bloch collection</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1959-1960</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 10401</acqinfo>
+    </descgrp>
+    <bioghist>New York City journalist and historian.</bioghist>
+    <scopecontent>Letters received from friend Robert F. Williams, militant African American civil rights activist. In the letters Williams discusses his arrest at a student sit-in protest, his struggles as a civil rights leader in the South, his travel plans, and his appreciation of Bloch's writings.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African American civil rights workers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Civil rights</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Bloch</primary_name>
+        <rest_of_name>Peter Rafael</rest_of_name>
+        <dates>1921-2008</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Williams</primary_name>
+        <rest_of_name>Robert F.</rest_of_name>
+        <fuller_form>(Robert Franklin)</fuller_form>
+        <dates>1925-1996</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Williams</primary_name>
+        <rest_of_name>Robert F.</rest_of_name>
+        <fuller_form>(Robert Franklin)</fuller_form>
+        <dates>1925-1996</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

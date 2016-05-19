@@ -2,13 +2,58 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Bertha and Lawrence Wember collection</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Bertha and Lawrence Wember collection</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>2013013 Aa 2</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Wember</primary_name><rest_of_name>Bertha.</rest_of_name></persname></origination><unittitle>Bertha and Lawrence Wember collection</unittitle><langmaterial>In English.</langmaterial><unitdate type="inclusive" label="creation">1952-1960 and undated</unitdate><physdesc><extent>0.3 linear feet (in 1 box)</extent></physdesc></did><descgrp><accruals>No further accruals are expected.</accruals><accessrestrict>The collection is open for research use.</accessrestrict><acqinfo>Donor: 10889</acqinfo></descgrp><bioghist>Bertha and Lawrence Wember were librarians at the Detroit Public Library.</bioghist><scopecontent>Scripts for Detroit Public Library staff skits, events programs and flyers, dated between 1952 and 1960, and undated.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Scenarios.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Librarians</term><term type="geographic">Michigan</term><term type="geographic">Detroit.</term></subject><persname source="local" encodinganalog="700"><primary_name>Wember</primary_name><rest_of_name>Lawrence.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Detroit Public Library</primary_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2013013 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Wember</primary_name>
+          <rest_of_name>Bertha.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Bertha and Lawrence Wember collection</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">0.3 linear feet</extent>
+        <extent altrender="carrier">(in 1 box)</extent>
+      </physdesc>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1952-1960 and undated</unitdate>
+    </did>
+    <descgrp>
+      <accruals>No further accruals are expected.</accruals>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 10889</acqinfo>
+    </descgrp>
+    <bioghist>Bertha and Lawrence Wember were librarians at the Detroit Public Library.</bioghist>
+    <scopecontent>Scripts for Detroit Public Library staff skits, events programs and flyers, dated between 1952 and 1960, and undated.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scenarios.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Librarians</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Wember</primary_name>
+        <rest_of_name>Lawrence.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Detroit Public Library</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

@@ -2,14 +2,53 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Among the pines [graphic] : a first settlement.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Among the pines [graphic] : a first settlement.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>91246</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>Currier &amp; Ives</primary_name></corpname></origination><unittitle>Among the pines [graphic] : a first settlement.</unittitle><unitdate type="inclusive" label="creation">[18--]</unitdate><physdesc><extent>1 print</extent><physfacet>
-lithograph, hand col.</physfacet><dimensions>image 22 x 32 cm.</dimensions></physdesc></did><descgrp><odd><head>General Note</head><p>Framed.</p></odd><odd><head>Publication, Distribution, Etc.</head><p>New York : Currier &amp; Ives, [18--].</p></odd><acqinfo>Donor: 1333</acqinfo></descgrp><controlaccess><subject source="lctgm" encodinganalog="650"><term type="topical">Frontier and pioneer life</term><term type="geographic">United States.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Log cabins.</term></subject></controlaccess></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>91246</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>Currier &amp; Ives</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Among the pines [graphic] : a first settlement.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 prints</extent>
+        <physfacet>
+lithograph, hand col.</physfacet>
+        <dimensions>image 22 x 32 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[18--]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>Framed.</p>
+      </odd>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>New York : Currier &amp; Ives, [18--].</p>
+      </odd>
+      <acqinfo>Donor: 1333</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Frontier and pioneer life</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Log cabins.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

@@ -2,13 +2,45 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Joseph W. Tremble will</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Joseph W. Tremble will</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89335 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Tremble</primary_name><rest_of_name>Joseph L.</rest_of_name></persname></origination><unittitle>Joseph W. Tremble will</unittitle><unitdate type="inclusive" label="creation">August 12, 1832</unitdate><physdesc><extent>1 item (1 p.)</extent></physdesc></did><descgrp><acqinfo>Donor: 1771</acqinfo></descgrp><bioghist>Resident of Detroit, Michigan.</bioghist><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Wills.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Detroit (Mich.)</term></subject></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89335 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Tremble</primary_name>
+          <rest_of_name>Joseph L.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Joseph W. Tremble will</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+        <physfacet>1 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">August 12, 1832</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Detroit, Michigan.</bioghist>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Wills.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

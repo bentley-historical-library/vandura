@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Alonzo Merrill Keeler photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Alonzo Merrill Keeler photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,48 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92340 UAm</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Keeler</primary_name><rest_of_name>Alonzo Merrill</rest_of_name><dates>b. 1826</dates></persname></origination><unittitle>Alonzo Merrill Keeler photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1863</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1863.</p></odd><acqinfo>Donor: 3971</acqinfo></descgrp><bioghist>Officer in the 22nd Michigan Infantry during the Civil War.</bioghist><scopecontent>View of camp near Chattanooga, Tennessee, with regiment standing in formation, and view of officers' quarters with men relaxing.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Military camps.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Army</subordinate_name><subordinate_name>Michigan Infantry Regiment, 22nd (1862-1865)</subordinate_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92340 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Keeler</primary_name>
+          <rest_of_name>Alonzo Merrill</rest_of_name>
+          <dates>b. 1826</dates>
+        </persname>
+      </origination>
+      <unittitle>Alonzo Merrill Keeler photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1863</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1863.</p>
+      </odd>
+      <acqinfo>Donor: 3971</acqinfo>
+    </descgrp>
+    <bioghist>Officer in the 22nd Michigan Infantry during the Civil War.</bioghist>
+    <scopecontent>View of camp near Chattanooga, Tennessee, with regiment standing in formation, and view of officers' quarters with men relaxing.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Military camps.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 22nd (1862-1865)</subordinate_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

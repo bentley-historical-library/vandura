@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Lenore Stewart Mulhollen photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Lenore Stewart Mulhollen photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,41 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92445 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Mulhollen</primary_name><rest_of_name>Lenore Stewart.</rest_of_name></persname></origination><unittitle>Lenore Stewart Mulhollen photograph collection.</unittitle><unitdate type="inclusive" label="creation">1930</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1930.</p></odd><acqinfo>Donor: 8026</acqinfo></descgrp><bioghist>Clerk in the University of Michigan Business Office.</bioghist><scopecontent>Group photo of Business office staff at Christmas party.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Christmas.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Business Office</subordinate_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92445 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Mulhollen</primary_name>
+          <rest_of_name>Lenore Stewart.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Lenore Stewart Mulhollen photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1930</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1930.</p>
+      </odd>
+      <acqinfo>Donor: 8026</acqinfo>
+    </descgrp>
+    <bioghist>Clerk in the University of Michigan Business Office.</bioghist>
+    <scopecontent>Group photo of Business office staff at Christmas party.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Christmas.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Business Office</subordinate_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

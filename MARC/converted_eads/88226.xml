@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Fred R. Schmalzriedt contracts</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Fred R. Schmalzriedt contracts</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,43 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>88226 Ac</unitid><origination><persname role="col" encodinganalog="100" source="local"><primary_name>Schmalzriedt</primary_name><rest_of_name>Fred R.</rest_of_name></persname></origination><unittitle>Fred R. Schmalzriedt contracts</unittitle><unitdate type="inclusive" label="creation">1799 and 1801</unitdate><physdesc><extent>2 items</extent></physdesc></did><descgrp><acqinfo>Donor: 1824</acqinfo></descgrp><bioghist>Detroit, Michigan, attorney.</bioghist><scopecontent>Contracts, 1799 and 1801, signed by Henry Dearborn and James McHenry, U.S. Secretary of War, for distributing food rations to various army posts, including Detroit and Michilimackinac.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Detroit (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Mackinac Island (Mich.)</term></subject><persname source="local" encodinganalog="700"><primary_name>Dearborn</primary_name><rest_of_name>Henry</rest_of_name><dates>1751-1829</dates></persname><persname source="local" encodinganalog="700"><primary_name>McHenry</primary_name><rest_of_name>James</rest_of_name><dates>1753-1816</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>88226 Ac</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local">
+          <primary_name>Schmalzriedt</primary_name>
+          <rest_of_name>Fred R.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Fred R. Schmalzriedt contracts</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1799 and 1801</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1824</acqinfo>
+    </descgrp>
+    <bioghist>Detroit, Michigan, attorney.</bioghist>
+    <scopecontent>Contracts, 1799 and 1801, signed by Henry Dearborn and James McHenry, U.S. Secretary of War, for distributing food rations to various army posts, including Detroit and Michilimackinac.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Mackinac Island (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Dearborn</primary_name>
+        <rest_of_name>Henry</rest_of_name>
+        <dates>1751-1829</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>McHenry</primary_name>
+        <rest_of_name>James</rest_of_name>
+        <dates>1753-1816</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

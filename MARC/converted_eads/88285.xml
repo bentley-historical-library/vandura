@@ -2,13 +2,62 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Walter J. Emmons papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Walter J. Emmons papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88285 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Emmons</primary_name><rest_of_name>Walter Johnson</rest_of_name><dates>1890-</dates></persname></origination><unittitle>Walter J. Emmons papers</unittitle><unitdate type="inclusive" label="creation">1943</unitdate><physdesc><extent>ca. 25 items</extent></physdesc></did><descgrp><acqinfo>Donor: 6258</acqinfo></descgrp><bioghist>Professor of highway engineering at the University of Michigan.</bioghist><scopecontent>File relating to Chilean students coming to the University of Michigan College of Engineering for post graduate study.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Students, Foreign</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Emmons</primary_name><rest_of_name>Walter Johnson</rest_of_name><dates>1890-</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>College of Engineering</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Faculty.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students.</term></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88285 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Emmons</primary_name>
+          <rest_of_name>Walter Johnson</rest_of_name>
+          <dates>1890-</dates>
+        </persname>
+      </origination>
+      <unittitle>Walter J. Emmons papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">25 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1943</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6258</acqinfo>
+    </descgrp>
+    <bioghist>Professor of highway engineering at the University of Michigan.</bioghist>
+    <scopecontent>File relating to Chilean students coming to the University of Michigan College of Engineering for post graduate study.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Students, Foreign</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Emmons</primary_name>
+        <rest_of_name>Walter Johnson</rest_of_name>
+        <dates>1890-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

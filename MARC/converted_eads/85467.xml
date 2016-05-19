@@ -2,13 +2,60 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the American Fur Company records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the American Fur Company records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>85467 Bb 1 Micro copy</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>American Fur Company</primary_name></corpname></origination><unittitle>American Fur Company records</unittitle><unitdate type="inclusive" label="creation">1803-1806 and 1817-1843</unitdate><physdesc><extent>2 reels of microfilm and 1 folder</extent></physdesc></did><descgrp><originalsloc>Originals of microfilmed materials held by Burton Historical Collection, Detroit Public Library.</originalsloc><odd><head>General Note</head><p>Microfilm reels are numbered reel 3 and 4.</p></odd><acqinfo>Donor: 715, 1771</acqinfo></descgrp><scopecontent>Microfilm of letterbooks, financial ledgers, and journals, chiefly from Mackinac Island, but some from Wisconsin; trader's contract (1818).</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Fur trade</term><term type="geographic">Wisconsin.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Fur trade</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Mackinac Island (Mich.)</term><term type="topical">Commerce.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>American Fur Company</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Michilimackinac Company</primary_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85467 Bb 1 Micro copy</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>American Fur Company</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>American Fur Company records</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 microfilms</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1803-1806 and 1817-1843</unitdate>
+    </did>
+    <descgrp>
+      <originalsloc>Originals of microfilmed materials held by Burton Historical Collection, Detroit Public Library.</originalsloc>
+      <odd>
+        <head>General Note</head>
+        <p>Microfilm reels are numbered reel 3 and 4.</p>
+      </odd>
+      <acqinfo>Donor: 715, 1771</acqinfo>
+    </descgrp>
+    <scopecontent>Microfilm of letterbooks, financial ledgers, and journals, chiefly from Mackinac Island, but some from Wisconsin; trader's contract (1818).</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Fur trade</term>
+        <term type="geographic">Wisconsin.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Fur trade</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Mackinac Island (Mich.)</term>
+        <term type="topical">Commerce.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>American Fur Company</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michilimackinac Company</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

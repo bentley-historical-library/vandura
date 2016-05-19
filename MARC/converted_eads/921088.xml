@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Michigan Indian Agency land register [microform]</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Michigan Indian Agency land register [microform]</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,7 +12,42 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>921088 mf 217c</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>Michigan</primary_name><subordinate_name>Indian Agency</subordinate_name></corpname></origination><unittitle>Michigan Indian Agency land register [microform]</unittitle><unitdate type="inclusive" label="creation">1854-1855</unitdate><physdesc><extent>1 microfilm reel</extent><physfacet>
-positive.</physfacet></physdesc><physdesc><extent>1 microfilm reel</extent><physfacet>
-master negative.</physfacet></physdesc></did><descgrp><altformavail>Original available.</altformavail><acqinfo>Donor: 837</acqinfo></descgrp><scopecontent>Register of land grants received by the Ottawa and Potawatami Indians in treaties with the U.S. government, 1854 and 1855.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Indians of North America</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">Treaties.</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>921088 mf 217c</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>Michigan</primary_name>
+          <subordinate_name>Indian Agency</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Michigan Indian Agency land register [microform]</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
+        <physfacet>
+master negative.</physfacet>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
+        <physfacet>
+positive.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1854-1855</unitdate>
+    </did>
+    <descgrp>
+      <altformavail>Original available.</altformavail>
+      <acqinfo>Donor: 837</acqinfo>
+    </descgrp>
+    <scopecontent>Register of land grants received by the Ottawa and Potawatami Indians in treaties with the U.S. government, 1854 and 1855.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Indians of North America</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">Treaties.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

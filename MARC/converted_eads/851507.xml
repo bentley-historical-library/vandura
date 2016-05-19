@@ -2,13 +2,63 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Perry Greeley Holden scrapbook</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Perry Greeley Holden scrapbook</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851507 AA</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Holden</primary_name><rest_of_name>P. G.</rest_of_name><fuller_form>(Perry Greeley)</fuller_form><dates>1865-1959</dates></persname></origination><unittitle>Perry Greeley Holden scrapbook</unittitle><unitdate type="inclusive" label="creation">1944</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><odd><head>Reproduction Note</head><p>Photocopy.</p></odd><acqinfo>Donor: 2018</acqinfo></descgrp><bioghist>Agronomist and director of the agricultural extension department of the International Harvester Company.</bioghist><scopecontent>Material on his career in agricultural extension; and biographical sketches of his wife and children, and family genealogy.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Scrapbooks.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Agriculture</term><term type="geographic">United States.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Holden</primary_name><rest_of_name>Carrie Amelia Burnett</rest_of_name><dates>1864-1942</dates></persname><famname source="lcnaf" encodinganalog="600"><family_name>Holden family</family_name></famname><corpname source="lcnaf" encodinganalog="610"><primary_name>International Harvester Company</primary_name></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851507 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Holden</primary_name>
+          <rest_of_name>P. G.</rest_of_name>
+          <fuller_form>(Perry Greeley)</fuller_form>
+          <dates>1865-1959</dates>
+        </persname>
+      </origination>
+      <unittitle>Perry Greeley Holden scrapbook</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1944</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopy.</p>
+      </odd>
+      <acqinfo>Donor: 2018</acqinfo>
+    </descgrp>
+    <bioghist>Agronomist and director of the agricultural extension department of the International Harvester Company.</bioghist>
+    <scopecontent>Material on his career in agricultural extension; and biographical sketches of his wife and children, and family genealogy.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Agriculture</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Holden</primary_name>
+        <rest_of_name>Carrie Amelia Burnett</rest_of_name>
+        <dates>1864-1942</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Holden family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>International Harvester Company</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

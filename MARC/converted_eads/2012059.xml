@@ -2,13 +2,50 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Paul K. Berg collection</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Paul K. Berg collection</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>2012059 Aa 1</unitid><origination><persname role="col" encodinganalog="100" source="local"><primary_name>Berg</primary_name><rest_of_name>Paul K.</rest_of_name></persname></origination><unittitle>Paul K. Berg collection</unittitle><langmaterial>In English.</langmaterial><unitdate type="inclusive" label="creation">1858</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict><acqinfo>Donor: 9520</acqinfo></descgrp><bioghist>Graduate of the University of Michigan Medical School and collector.</bioghist><scopecontent>1858 invitation to Dr. Sager's residence on behalf of the University of Michigan medical faculty.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Sager</primary_name><rest_of_name>Abram</rest_of_name><dates>1810-1877</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Department of Medicine and Surgery</subordinate_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2012059 Aa 1</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local">
+          <primary_name>Berg</primary_name>
+          <rest_of_name>Paul K.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Paul K. Berg collection</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1858</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 9520</acqinfo>
+    </descgrp>
+    <bioghist>Graduate of the University of Michigan Medical School and collector.</bioghist>
+    <scopecontent>1858 invitation to Dr. Sager's residence on behalf of the University of Michigan medical faculty.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Sager</primary_name>
+        <rest_of_name>Abram</rest_of_name>
+        <dates>1810-1877</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Medicine and Surgery</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

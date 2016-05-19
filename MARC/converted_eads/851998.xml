@@ -2,13 +2,52 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Frances Todd Patterson diaries</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Frances Todd Patterson diaries</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851998 Aa 2</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Patterson</primary_name><rest_of_name>Frances Todd.</rest_of_name></persname></origination><unittitle>Frances Todd Patterson diaries</unittitle><unitdate type="inclusive" label="creation">1892-1894</unitdate><physdesc><extent>3 volumes (in 1 box)</extent></physdesc></did><descgrp><acqinfo>Donor: 2346</acqinfo></descgrp><bioghist>Official at World's Columbian Exposition, Chicago, Illinois, 1893.</bioghist><scopecontent>Record of domestic and social activities, visits to Ann Arbor, Michigan and participation in Columbian Exposition.</scopecontent><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Diaries.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Chicago (Ill.)</term></subject><corpname source="lcnaf" encodinganalog="611"><primary_name>World's Columbian Exposition</primary_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851998 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Patterson</primary_name>
+          <rest_of_name>Frances Todd.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Frances Todd Patterson diaries</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+        <extent altrender="carrier">(in 1 box)</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1892-1894</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2346</acqinfo>
+    </descgrp>
+    <bioghist>Official at World's Columbian Exposition, Chicago, Illinois, 1893.</bioghist>
+    <scopecontent>Record of domestic and social activities, visits to Ann Arbor, Michigan and participation in Columbian Exposition.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Chicago (Ill.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="611">
+        <primary_name>World's Columbian Exposition</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

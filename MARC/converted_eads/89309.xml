@@ -2,13 +2,49 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the On the campus</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the On the campus</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89309 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Stimson</primary_name><rest_of_name>William B.</rest_of_name></persname></origination><unittitle>On the campus</unittitle><unitdate type="inclusive" label="creation">Sept. 28, 1923</unitdate><physdesc><extent>1 item (2 p.)</extent></physdesc></did><descgrp><acqinfo>Donor: 910</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Poem about student dating at the University of Michigan.</scopecontent><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Poetry.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1921-1930.</term></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89309 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Stimson</primary_name>
+          <rest_of_name>William B.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>On the campus</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+        <physfacet>2 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">Sept. 28, 1923</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 910</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Poem about student dating at the University of Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Poetry.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1921-1930.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

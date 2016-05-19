@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Early modern English dictionary records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Early modern English dictionary records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,30 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>944</unitid><unittitle>Early modern English dictionary records</unittitle><unitdate type="inclusive" label="creation">1870-1942</unitdate><physdesc><extent>ca. 3,000,000 items</extent></physdesc></did><descgrp><odd><head>General Note</head><p>On indefinite loan to Oxford University Press.</p></odd><acqinfo>Donor: 8201</acqinfo></descgrp><scopecontent>Citation slips and other records.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="630"><term type="uniform_title">Early modern English dictionary.</term></subject><subject source="lcsh" encodinganalog="130"><term type="uniform_title">Early modern English dictionary.</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>944</unitid>
+      <unittitle>Early modern English dictionary records</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">3,000</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1870-1942</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>On indefinite loan to Oxford University Press.</p>
+      </odd>
+      <acqinfo>Donor: 8201</acqinfo>
+    </descgrp>
+    <scopecontent>Citation slips and other records.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="630">
+        <term type="uniform_title">Early modern English dictionary.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="130">
+        <term type="uniform_title">Early modern English dictionary.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

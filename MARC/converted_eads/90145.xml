@@ -2,13 +2,54 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Edward Proctor letter</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Edward Proctor letter</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>90145 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Proctor</primary_name><rest_of_name>Edward.</rest_of_name></persname></origination><unittitle>Edward Proctor letter</unittitle><unitdate type="inclusive" label="creation">1842</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 406</acqinfo></descgrp><scopecontent>Letter of Edward Proctor of Franklin, Michigan, to his father, Josiah Proctor of Warwick, Massachusetts, discussing the death of a child and the formation of a chapter of the Washingtonian Society temperance organization.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Temperance</term><term type="geographic">Michigan</term><term type="geographic">Franklin.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Franklin (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Proctor</primary_name><rest_of_name>Edward.</rest_of_name></persname><persname source="local" encodinganalog="700"><primary_name>Proctor</primary_name><rest_of_name>Josiah.</rest_of_name></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>90145 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Proctor</primary_name>
+          <rest_of_name>Edward.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Edward Proctor letter</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1842</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 406</acqinfo>
+    </descgrp>
+    <scopecontent>Letter of Edward Proctor of Franklin, Michigan, to his father, Josiah Proctor of Warwick, Massachusetts, discussing the death of a child and the formation of a chapter of the Washingtonian Society temperance organization.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Temperance</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Franklin.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Franklin (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Proctor</primary_name>
+        <rest_of_name>Edward.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Proctor</primary_name>
+        <rest_of_name>Josiah.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

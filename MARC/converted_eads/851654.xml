@@ -2,13 +2,54 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Sylvester Larned letter</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Sylvester Larned letter</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851654 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Larned</primary_name><rest_of_name>Sylvester</rest_of_name><dates>1796-1820</dates></persname></origination><unittitle>Sylvester Larned letter</unittitle><unitdate type="inclusive" label="creation">March 18, 1861</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 1771</acqinfo></descgrp><bioghist>Attorney from Michigan.</bioghist><scopecontent>Letter to Abraham Lincoln protesting the appointment of William L. Stoughton as U.S. district attorney for Michigan and requesting the position for himself.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Lawyers</term><term type="geographic">Michigan.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Lincoln</primary_name><rest_of_name>Abraham</rest_of_name><dates>1809-1865</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Stoughton</primary_name><rest_of_name>William L.</rest_of_name><dates>1827-1888</dates></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851654 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Larned</primary_name>
+          <rest_of_name>Sylvester</rest_of_name>
+          <dates>1796-1820</dates>
+        </persname>
+      </origination>
+      <unittitle>Sylvester Larned letter</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">March 18, 1861</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <bioghist>Attorney from Michigan.</bioghist>
+    <scopecontent>Letter to Abraham Lincoln protesting the appointment of William L. Stoughton as U.S. district attorney for Michigan and requesting the position for himself.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Lawyers</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lincoln</primary_name>
+        <rest_of_name>Abraham</rest_of_name>
+        <dates>1809-1865</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Stoughton</primary_name>
+        <rest_of_name>William L.</rest_of_name>
+        <dates>1827-1888</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

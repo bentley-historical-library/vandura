@@ -2,13 +2,52 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Daniel J. Cobb letters</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Daniel J. Cobb letters</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86521 Aa 2 Vault</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Cobb</primary_name><rest_of_name>Daniel J.</rest_of_name><dates>b. 1833</dates></persname></origination><unittitle>Daniel J. Cobb letters</unittitle><unitdate type="inclusive" label="creation">1862-1865</unitdate><physdesc><extent>12 items</extent></physdesc></did><descgrp><altformavail>Microfilm copy available.</altformavail><acqinfo>Donor: 1771</acqinfo></descgrp><bioghist>Soldier in Co. I, Third Michigan Cavalry during the Civil War.</bioghist><scopecontent>Letters written to his sister describing his activities.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Army</subordinate_name><subordinate_name>Michigan Cavalry Regiment, 3rd (1861-1866)</subordinate_name><subordinate_name>Company I</subordinate_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86521 Aa 2 Vault</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Cobb</primary_name>
+          <rest_of_name>Daniel J.</rest_of_name>
+          <dates>b. 1833</dates>
+        </persname>
+      </origination>
+      <unittitle>Daniel J. Cobb letters</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">12 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1862-1865</unitdate>
+    </did>
+    <descgrp>
+      <altformavail>Microfilm copy available.</altformavail>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <bioghist>Soldier in Co. I, Third Michigan Cavalry during the Civil War.</bioghist>
+    <scopecontent>Letters written to his sister describing his activities.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 3rd (1861-1866)</subordinate_name>
+        <subordinate_name>Company I</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

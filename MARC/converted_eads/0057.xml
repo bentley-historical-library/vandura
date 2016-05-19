@@ -2,13 +2,51 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Raoul Wallenberg letter</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Raoul Wallenberg letter</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0057 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Wallenberg</primary_name><rest_of_name>Raoul</rest_of_name><dates>1912-1947</dates></persname></origination><unittitle>Raoul Wallenberg letter</unittitle><unitdate type="inclusive" label="creation">Aug. 7, 1935</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor:8947</acqinfo></descgrp><scopecontent>Letter to University of Michigan classmate Lyman Woodard, describing his experiences living in South Africa.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">South Africa.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Wallenberg</primary_name><rest_of_name>Raoul</rest_of_name><dates>1912-1947</dates></persname><persname source="local" encodinganalog="700"><primary_name>Woodard</primary_name><rest_of_name>Lyman.</rest_of_name></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0057 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Wallenberg</primary_name>
+          <rest_of_name>Raoul</rest_of_name>
+          <dates>1912-1947</dates>
+        </persname>
+      </origination>
+      <unittitle>Raoul Wallenberg letter</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">Aug. 7, 1935</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor:8947</acqinfo>
+    </descgrp>
+    <scopecontent>Letter to University of Michigan classmate Lyman Woodard, describing his experiences living in South Africa.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">South Africa.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wallenberg</primary_name>
+        <rest_of_name>Raoul</rest_of_name>
+        <dates>1912-1947</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Woodard</primary_name>
+        <rest_of_name>Lyman.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

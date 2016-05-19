@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Mrs. Burtsel Claus photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Mrs. Burtsel Claus photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,53 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93133 UAs</unitid><origination><persname role="col" encodinganalog="100" source="local"><primary_name>Claus</primary_name><rest_of_name>Burtsel</rest_of_name><title>Mrs</title></persname></origination><unittitle>Mrs. Burtsel Claus photograph collection.</unittitle><unitdate type="inclusive" label="creation">1940s</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1940s.</p></odd><acqinfo>Donor: 2445</acqinfo></descgrp><scopecontent>Photograph of Civil War monument in a Lenawee County, Michigan cemetery; photograph taken by Russell A. Spalding.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Cemeteries</term><term type="geographic">Michigan</term><term type="geographic">Lenawee County.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Monuments and memorials</term><term type="geographic">Michigan</term><term type="geographic">Lenawee County.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Lenawee County (Mich.)</term><term type="topical">Monuments and memorials.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93133 UAs</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local">
+          <primary_name>Claus</primary_name>
+          <rest_of_name>Burtsel</rest_of_name>
+          <title>Mrs</title>
+        </persname>
+      </origination>
+      <unittitle>Mrs. Burtsel Claus photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1940s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1940s.</p>
+      </odd>
+      <acqinfo>Donor: 2445</acqinfo>
+    </descgrp>
+    <scopecontent>Photograph of Civil War monument in a Lenawee County, Michigan cemetery; photograph taken by Russell A. Spalding.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Cemeteries</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Lenawee County.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Monuments and memorials</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Lenawee County.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Lenawee County (Mich.)</term>
+        <term type="topical">Monuments and memorials.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

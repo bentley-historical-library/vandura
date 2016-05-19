@@ -2,13 +2,46 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Presbyterian Church records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Presbyterian Church records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86834 BA</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>Presbyterian Church (Kinde, Mich.)</primary_name></corpname></origination><unittitle>Presbyterian Church records</unittitle><unitdate type="inclusive" label="creation">1917-1944 and 1948-1958</unitdate><physdesc><extent>2 v</extent></physdesc></did><descgrp><acqinfo>Donor: 790, 5340</acqinfo></descgrp><scopecontent>Minutes of the session, 1917-1944, and minutes of the board of trustees. (The trustees merged with the session after December 1958.)</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Kinde (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Presbyterian Church in the U.S.A</primary_name><term type="geographic">Michigan</term><term type="geographic">Kinde.</term></corpname></controlaccess><container label="Volume" type="volume">1</container><container label="Volume" type="volume">2</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86834 BA</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>Presbyterian Church (Kinde, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Presbyterian Church records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1917-1944 and 1948-1958</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 790, 5340</acqinfo>
+    </descgrp>
+    <scopecontent>Minutes of the session, 1917-1944, and minutes of the board of trustees. (The trustees merged with the session after December 1958.)</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Kinde (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Presbyterian Church in the U.S.A</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Kinde.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
 </ead>

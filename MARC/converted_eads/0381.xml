@@ -2,14 +2,59 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the [View of Detroit from the Canadian shore] [graphic] / [Philip John Bainbrigge].</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the [View of Detroit from the Canadian shore] [graphic] / [Philip John Bainbrigge].</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0381 Painting</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Bainbrigge</primary_name><rest_of_name>Philip John</rest_of_name><dates>1817-1881</dates></persname></origination><unittitle>[View of Detroit from the Canadian shore] [graphic] / [Philip John Bainbrigge].</unittitle><unitdate type="inclusive" label="creation">[ca. 1838]</unitdate><physdesc><extent>1 painting</extent><physfacet>
-water color</physfacet><dimensions>15 x 22 cm.</dimensions></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>[ca. 1838].</p></odd><odd><head>General Note</head><p>Framed.</p></odd><acqinfo>Donor: 1333</acqinfo></descgrp><bioghist>Lieutenant in the British Army.</bioghist><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Paintings.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Detroit (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Detroit River (Mich. and Ont.)</term></subject></controlaccess><container label="Oversize Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0381 Painting</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Bainbrigge</primary_name>
+          <rest_of_name>Philip John</rest_of_name>
+          <dates>1817-1881</dates>
+        </persname>
+      </origination>
+      <unittitle>[View of Detroit from the Canadian shore] [graphic] / [Philip John Bainbrigge].</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 painting</extent>
+        <physfacet>
+water color</physfacet>
+        <dimensions>15 x 22 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[ca. 1838]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[ca. 1838].</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>Framed.</p>
+      </odd>
+      <acqinfo>Donor: 1333</acqinfo>
+    </descgrp>
+    <bioghist>Lieutenant in the British Army.</bioghist>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Paintings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit River (Mich. and Ont.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Oversize Folder" type="folder">1</container>
+  </archdesc>
 </ead>

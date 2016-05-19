@@ -2,13 +2,48 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Marriages, 1827-1857, in Washtenaw County, Michigan</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Marriages, 1827-1857, in Washtenaw County, Michigan</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88434 AA</unitid><origination><persname encodinganalog="100" source="local"><primary_name>James</primary_name><rest_of_name>Elizabeth E.</rest_of_name></persname></origination><unittitle>Marriages, 1827-1857, in Washtenaw County, Michigan</unittitle><unitdate type="inclusive" label="creation">1961</unitdate><physdesc><extent>2 v</extent></physdesc></did><descgrp><acqinfo>Donor: 3264</acqinfo></descgrp><bioghist>Ann Arbor, Michigan, local historian.</bioghist><scopecontent>Alphabetical listing of marriages in Washtenaw County, Michigan; the volumes are duplicate but with some variations.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Registers of births, etc.</term><term type="geographic">Michigan</term><term type="geographic">Washtenaw County.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Washtenaw County (Mich.)</term></subject></controlaccess><container label="Volume" type="volume">1</container><container label="Volume" type="volume">2</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88434 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>James</primary_name>
+          <rest_of_name>Elizabeth E.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Marriages, 1827-1857, in Washtenaw County, Michigan</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1961</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3264</acqinfo>
+    </descgrp>
+    <bioghist>Ann Arbor, Michigan, local historian.</bioghist>
+    <scopecontent>Alphabetical listing of marriages in Washtenaw County, Michigan; the volumes are duplicate but with some variations.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Registers of births, etc.</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Washtenaw County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
 </ead>

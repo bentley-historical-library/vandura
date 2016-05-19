@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Esteban de Goenaga photograph.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Esteban de Goenaga photograph.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,49 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>9194 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>de Goenaga</primary_name><rest_of_name>Esteban.</rest_of_name></persname></origination><unittitle>Esteban de Goenaga photograph.</unittitle><unitdate type="inclusive" label="creation">Ca. 1910</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>Ca. 1910.</p></odd><acqinfo>Donor: 1278</acqinfo></descgrp><bioghist>Graduate of the Dental School of the University of Michigan, resident of San Juan, Puerto Rico.</bioghist><scopecontent>Photograph of de Goenaga in his office with patient in chair.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Dentistry</term><term type="geographic">Puerto Rico.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Puerto Rico.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>de Goenaga</primary_name><rest_of_name>Esteban.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Interiors</primary_name><term type="topical">Dentists offices.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>9194 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>de Goenaga</primary_name>
+          <rest_of_name>Esteban.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Esteban de Goenaga photograph.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">Ca. 1910</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>Ca. 1910.</p>
+      </odd>
+      <acqinfo>Donor: 1278</acqinfo>
+    </descgrp>
+    <bioghist>Graduate of the Dental School of the University of Michigan, resident of San Juan, Puerto Rico.</bioghist>
+    <scopecontent>Photograph of de Goenaga in his office with patient in chair.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Dentistry</term>
+        <term type="geographic">Puerto Rico.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Puerto Rico.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>de Goenaga</primary_name>
+        <rest_of_name>Esteban.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Interiors</primary_name>
+        <term type="topical">Dentists offices.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

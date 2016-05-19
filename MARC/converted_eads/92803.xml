@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the University of Michigan, Ann Arbor / drawn by A. Ruger.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the University of Michigan, Ann Arbor / drawn by A. Ruger.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,6 +12,54 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92803 UAl</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Ruger</primary_name><rest_of_name>A.</rest_of_name></persname></origination><unittitle>University of Michigan, Ann Arbor / drawn by A. Ruger.</unittitle><unitdate type="inclusive" label="creation">c1881</unitdate><physdesc><extent>1 print</extent><physfacet>
-lithograph</physfacet><dimensions>image 40 x 59 cm.</dimensions></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>Madison, Wis. : J. J. Stoner, c1881.</p></odd><odd><head>General Note</head><p>"Beck &amp; Pauli lith., Milwaukee, Wis."</p></odd></descgrp><scopecontent>Contains 9 campus scenes.</scopecontent><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Prints.</term></subject><persname source="local" encodinganalog="700"><primary_name>Stoner</primary_name><rest_of_name>J. J.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Buildings.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Campus.</term></corpname><corpname source="local" encodinganalog="710"><primary_name>Beck &amp; Pauli</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92803 UAl</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Ruger</primary_name>
+          <rest_of_name>A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>University of Michigan, Ann Arbor / drawn by A. Ruger.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 prints</extent>
+        <physfacet>
+lithograph</physfacet>
+        <dimensions>image 40 x 59 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">c1881</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>Madison, Wis. : J. J. Stoner, c1881.</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>"Beck &amp; Pauli lith., Milwaukee, Wis."</p>
+      </odd>
+    </descgrp>
+    <scopecontent>Contains 9 campus scenes.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Stoner</primary_name>
+        <rest_of_name>J. J.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Buildings.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Campus.</term>
+      </corpname>
+      <corpname source="local" encodinganalog="710">
+        <primary_name>Beck &amp; Pauli</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Paul Richmond photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Paul Richmond photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,41 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92789 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Richmond</primary_name><rest_of_name>Paul.</rest_of_name></persname></origination><unittitle>Paul Richmond photograph collection.</unittitle><unitdate type="inclusive" label="creation">1904</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1904.</p></odd></descgrp><scopecontent>Group photo of a Delhi, Michigan, Sunday School class.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Children.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Sunday schools.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Delhi (Mich.)</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92789 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Richmond</primary_name>
+          <rest_of_name>Paul.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Paul Richmond photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1904</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1904.</p>
+      </odd>
+    </descgrp>
+    <scopecontent>Group photo of a Delhi, Michigan, Sunday School class.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Children.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Sunday schools.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Delhi (Mich.)</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

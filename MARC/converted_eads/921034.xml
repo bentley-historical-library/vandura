@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Paul Warren Voorheis photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Paul Warren Voorheis photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,39 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>921034 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Voorheis</primary_name><rest_of_name>Paul Warren</rest_of_name><dates>1875-1952</dates></persname></origination><unittitle>Paul Warren Voorheis photograph collection.</unittitle><unitdate type="inclusive" label="creation">1932?</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1932?</p></odd><acqinfo>Donor: 3806</acqinfo></descgrp><scopecontent>Portrait.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Voorheis</primary_name><rest_of_name>Paul Warren</rest_of_name><dates>1875-1952</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>921034 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Voorheis</primary_name>
+          <rest_of_name>Paul Warren</rest_of_name>
+          <dates>1875-1952</dates>
+        </persname>
+      </origination>
+      <unittitle>Paul Warren Voorheis photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1932?</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1932?</p>
+      </odd>
+      <acqinfo>Donor: 3806</acqinfo>
+    </descgrp>
+    <scopecontent>Portrait.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Voorheis</primary_name>
+        <rest_of_name>Paul Warren</rest_of_name>
+        <dates>1875-1952</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

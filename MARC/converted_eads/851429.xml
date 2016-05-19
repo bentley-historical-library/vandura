@@ -2,13 +2,69 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Samuel Smith Harris papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Samuel Smith Harris papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851429 Aa 2</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Harris</primary_name><rest_of_name>Samuel Smith</rest_of_name><dates>1841-1888</dates></persname></origination><unittitle>Samuel Smith Harris papers</unittitle><unitdate type="inclusive" label="creation">1878-1889</unitdate><physdesc><extent>2 linear ft</extent></physdesc></did><descgrp><acqinfo>Donor: 2172</acqinfo></descgrp><bioghist>Episcopal bishop of Michigan.</bioghist><scopecontent>Sermons, lectures, correspondence and miscellanea; also include volumes of sermons.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Sermons.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Clergy</term><term type="geographic">Michigan.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Harris</primary_name><rest_of_name>Samuel Smith</rest_of_name><dates>1841-1888</dates></persname><persname source="local" encodinganalog="700"><primary_name>Brooks</primary_name><rest_of_name>Phillips</rest_of_name><dates>1835-1893</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Episcopal Church</primary_name><subordinate_name>Diocese of Michigan</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Episcopal Church</primary_name><term type="geographic">Michigan.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>St. Paul's Episcopal Church (Flint, Mich.)</primary_name></corpname></controlaccess><container label="Box" type="box">1</container><container label="Box" type="box">2</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851429 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Harris</primary_name>
+          <rest_of_name>Samuel Smith</rest_of_name>
+          <dates>1841-1888</dates>
+        </persname>
+      </origination>
+      <unittitle>Samuel Smith Harris papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 linear ft</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1878-1889</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2172</acqinfo>
+    </descgrp>
+    <bioghist>Episcopal bishop of Michigan.</bioghist>
+    <scopecontent>Sermons, lectures, correspondence and miscellanea; also include volumes of sermons.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Sermons.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Harris</primary_name>
+        <rest_of_name>Samuel Smith</rest_of_name>
+        <dates>1841-1888</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Brooks</primary_name>
+        <rest_of_name>Phillips</rest_of_name>
+        <dates>1835-1893</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Episcopal Church</primary_name>
+        <subordinate_name>Diocese of Michigan</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Episcopal Church</primary_name>
+        <term type="geographic">Michigan.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>St. Paul's Episcopal Church (Flint, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+    <container label="Box" type="box">2</container>
+  </archdesc>
 </ead>

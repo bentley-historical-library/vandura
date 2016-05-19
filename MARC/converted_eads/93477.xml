@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the George Stephen Shattuck photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the George Stephen Shattuck photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,40 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93477 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Shattuck</primary_name><rest_of_name>George Stephen</rest_of_name><dates>1840-1930</dates></persname></origination><unittitle>George Stephen Shattuck photograph collection.</unittitle><unitdate type="inclusive" label="creation">1900s</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1900s.</p></odd><acqinfo>Donor: 3881</acqinfo></descgrp><bioghist>Professor in the Detroit College of Medicine.</bioghist><scopecontent>Portrait (copy print)</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Shattuck</primary_name><rest_of_name>George Stephen</rest_of_name><dates>1840-1930</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93477 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Shattuck</primary_name>
+          <rest_of_name>George Stephen</rest_of_name>
+          <dates>1840-1930</dates>
+        </persname>
+      </origination>
+      <unittitle>George Stephen Shattuck photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1900s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1900s.</p>
+      </odd>
+      <acqinfo>Donor: 3881</acqinfo>
+    </descgrp>
+    <bioghist>Professor in the Detroit College of Medicine.</bioghist>
+    <scopecontent>Portrait (copy print)</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Shattuck</primary_name>
+        <rest_of_name>George Stephen</rest_of_name>
+        <dates>1840-1930</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

@@ -2,14 +2,68 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the John Blum videotape collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the John Blum videotape collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>93130 UA 2</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Blum</primary_name><rest_of_name>John.</rest_of_name></persname></origination><unittitle>John Blum videotape collection.</unittitle><unitdate type="inclusive" label="creation">1980</unitdate><physdesc><extent>1 videocassette (29 min.)</extent><physfacet>
-U-matic, b&amp;w</physfacet><dimensions>3/4 in.</dimensions></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1980.</p></odd><acqinfo>Donor: 1887</acqinfo></descgrp><scopecontent>Videotape of interview conducted by John Blum and Karen Jore, under the auspices of the University of Michigan School of Natural Resources, with landscape architect Genevieve Gillette.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Videotapes.</term></subject><subject source="aat" encodinganalog="655"><term type="genre_form">Oral histories.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Conservation of natural resources</term><term type="geographic">Michigan.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Gillette</primary_name><rest_of_name>Genevieve</rest_of_name><dates>1898-</dates></persname><persname source="local" encodinganalog="700"><primary_name>Jore</primary_name><rest_of_name>Karen.</rest_of_name></persname><corpname source="local" encodinganalog="710"><primary_name>University of Michigan</primary_name><subordinate_name>School of Natural Resources</subordinate_name></corpname></controlaccess><container label="Video Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93130 UA 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Blum</primary_name>
+          <rest_of_name>John.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>John Blum videotape collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 videotapes</extent>
+        <physfacet>
+U-matic, b&amp;w; 29 min.</physfacet>
+        <dimensions>3/4 in.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1980</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1980.</p>
+      </odd>
+      <acqinfo>Donor: 1887</acqinfo>
+    </descgrp>
+    <scopecontent>Videotape of interview conducted by John Blum and Karen Jore, under the auspices of the University of Michigan School of Natural Resources, with landscape architect Genevieve Gillette.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Videotapes.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Oral histories.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Conservation of natural resources</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gillette</primary_name>
+        <rest_of_name>Genevieve</rest_of_name>
+        <dates>1898-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Jore</primary_name>
+        <rest_of_name>Karen.</rest_of_name>
+      </persname>
+      <corpname source="local" encodinganalog="710">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>School of Natural Resources</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Video Box" type="box">1</container>
+  </archdesc>
 </ead>

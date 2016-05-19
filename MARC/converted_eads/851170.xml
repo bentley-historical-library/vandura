@@ -2,13 +2,59 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the John Donnelly papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the John Donnelly papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851170 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Donnelly</primary_name><rest_of_name>John.</rest_of_name></persname></origination><unittitle>John Donnelly papers</unittitle><unitdate type="inclusive" label="creation">1864-1889</unitdate><physdesc><extent>17 items</extent></physdesc></did><descgrp><acqinfo>Donor: 927</acqinfo></descgrp><bioghist>Baptist clergyman from Port Huron, and Owosso, Michigan.</bioghist><scopecontent>Correspondence, bills, receipts, and legal papers, largely concerning the activities of the Baptist church in Michigan, temperance and local option questions; also diary with brief entries for 1865.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="655"><term type="genre_form">Diaries.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Clergy.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Temperance</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Owosso (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Port Huron (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Baptists</primary_name><term type="geographic">Michigan.</term></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851170 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Donnelly</primary_name>
+          <rest_of_name>John.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>John Donnelly papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">17 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1864-1889</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 927</acqinfo>
+    </descgrp>
+    <bioghist>Baptist clergyman from Port Huron, and Owosso, Michigan.</bioghist>
+    <scopecontent>Correspondence, bills, receipts, and legal papers, largely concerning the activities of the Baptist church in Michigan, temperance and local option questions; also diary with brief entries for 1865.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Clergy.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Temperance</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Owosso (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Port Huron (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Baptists</primary_name>
+        <term type="geographic">Michigan.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

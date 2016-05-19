@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Wilber E. Bailey photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Wilber E. Bailey photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,45 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>9514 UAm</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Bailey</primary_name><rest_of_name>Wilber E.</rest_of_name><fuller_form>(Wilber Edwin)</fuller_form></persname></origination><unittitle>Wilber E. Bailey photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1913-1915</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1913-1915.</p></odd><acqinfo>Donor: 7982</acqinfo></descgrp><bioghist>1915 graduate of the University of Michigan Dental School.</bioghist><scopecontent>Photos of student groups and campus photos.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Bailey</primary_name><rest_of_name>Wilber E.</rest_of_name><fuller_form>(Wilber Edwin)</fuller_form></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="temporal">1911-1920.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>9514 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Bailey</primary_name>
+          <rest_of_name>Wilber E.</rest_of_name>
+          <fuller_form>(Wilber Edwin)</fuller_form>
+        </persname>
+      </origination>
+      <unittitle>Wilber E. Bailey photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1913-1915</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1913-1915.</p>
+      </odd>
+      <acqinfo>Donor: 7982</acqinfo>
+    </descgrp>
+    <bioghist>1915 graduate of the University of Michigan Dental School.</bioghist>
+    <scopecontent>Photos of student groups and campus photos.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Bailey</primary_name>
+        <rest_of_name>Wilber E.</rest_of_name>
+        <fuller_form>(Wilber Edwin)</fuller_form>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

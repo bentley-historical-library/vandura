@@ -2,13 +2,55 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the James B. Forman papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the James B. Forman papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>861033 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Forman</primary_name><rest_of_name>James B.</rest_of_name></persname></origination><unittitle>James B. Forman papers</unittitle><unitdate type="inclusive" label="creation">1978 and undated</unitdate><physdesc><extent>2 items</extent></physdesc></did><descgrp><acqinfo>Donor: 7233</acqinfo></descgrp><scopecontent>Histories of the Alpena, Michigan, Fire Department and the Box 113 Club, a reserve fire company in Pontiac, Michigan.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Fire departments</term><term type="geographic">Michigan</term><term type="geographic">Pontiac.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Fire departments</term><term type="geographic">Michigan</term><term type="geographic">Alpena.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Alpena (Mich.)</primary_name><subordinate_name>Fire Dept</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Box 113 Club (Pontiac, Mich.)</primary_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>861033 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Forman</primary_name>
+          <rest_of_name>James B.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>James B. Forman papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1978 and undated</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7233</acqinfo>
+    </descgrp>
+    <scopecontent>Histories of the Alpena, Michigan, Fire Department and the Box 113 Club, a reserve fire company in Pontiac, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Fire departments</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Pontiac.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Fire departments</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Alpena.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Alpena (Mich.)</primary_name>
+        <subordinate_name>Fire Dept</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Box 113 Club (Pontiac, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

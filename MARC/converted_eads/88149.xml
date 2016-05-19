@@ -2,13 +2,42 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Elizabeth Capitaine article</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Elizabeth Capitaine article</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88149 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Capitaine</primary_name><rest_of_name>Elizabeth.</rest_of_name></persname></origination><unittitle>Elizabeth Capitaine article</unittitle><unitdate type="inclusive" label="creation">1939</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp/><scopecontent>Draft of biographical article, probably intended for publication, about Michigan Senator Arthur H. Vandenburg.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Vandenberg</primary_name><rest_of_name>Arthur H.</rest_of_name><fuller_form>(Arthur Hendrick)</fuller_form><dates>1884-1951</dates></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88149 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Capitaine</primary_name>
+          <rest_of_name>Elizabeth.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Elizabeth Capitaine article</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1939</unitdate>
+    </did>
+    <descgrp/>
+    <scopecontent>Draft of biographical article, probably intended for publication, about Michigan Senator Arthur H. Vandenburg.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Vandenberg</primary_name>
+        <rest_of_name>Arthur H.</rest_of_name>
+        <fuller_form>(Arthur Hendrick)</fuller_form>
+        <dates>1884-1951</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

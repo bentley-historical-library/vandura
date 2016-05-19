@@ -2,13 +2,51 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the [Portrait of G. Mennen Williams] [graphic] / J. Karsh.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the [Portrait of G. Mennen Williams] [graphic] / J. Karsh.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>91226</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Karsh</primary_name><rest_of_name>Yousuf</rest_of_name><dates>1908-2002</dates></persname></origination><unittitle>[Portrait of G. Mennen Williams] [graphic] / J. Karsh.</unittitle><unitdate type="inclusive" label="creation">[195-?]</unitdate><physdesc><extent>1 photoprint ;</extent><dimensions>image 33 x 26 cm.</dimensions></physdesc></did><descgrp><odd><head>General Note</head><p>Framed.</p></odd><odd><head>Publication, Distribution, Etc.</head><p>[195-?].</p></odd><acqinfo>Donor: 3734.</acqinfo></descgrp><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Williams</primary_name><rest_of_name>G. Mennen</rest_of_name><dates>1911-1988</dates></persname></controlaccess></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>91226</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Karsh</primary_name>
+          <rest_of_name>Yousuf</rest_of_name>
+          <dates>1908-2002</dates>
+        </persname>
+      </origination>
+      <unittitle>[Portrait of G. Mennen Williams] [graphic] / J. Karsh.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 photoprint</extent>
+        <dimensions>image 33 x 26 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[195-?]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>Framed.</p>
+      </odd>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[195-?].</p>
+      </odd>
+      <acqinfo>Donor: 3734.</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Williams</primary_name>
+        <rest_of_name>G. Mennen</rest_of_name>
+        <dates>1911-1988</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

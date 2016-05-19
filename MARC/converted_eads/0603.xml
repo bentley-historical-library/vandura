@@ -2,13 +2,57 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Fred B. Wells collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Fred B. Wells collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0603 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Wells</primary_name><rest_of_name>Fred B.</rest_of_name><dates>1861-1932</dates></persname></origination><unittitle>Fred B. Wells collection.</unittitle><unitdate type="inclusive" label="creation">1915-1932 and undated</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1915-1932 and undated.</p></odd><acqinfo>Donor: 9680</acqinfo></descgrp><bioghist>Member of the Michigan House of Representatives from Cass County; speaker in 1925-1926.</bioghist><scopecontent>Photographs of Wells and family members; also obituaries.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Wells</primary_name><rest_of_name>Fred B.</rest_of_name><dates>1861-1932</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Michigan</primary_name><subordinate_name>Legislature</subordinate_name><subordinate_name>House of Representatives</subordinate_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0603 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Wells</primary_name>
+          <rest_of_name>Fred B.</rest_of_name>
+          <dates>1861-1932</dates>
+        </persname>
+      </origination>
+      <unittitle>Fred B. Wells collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1915-1932 and undated</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1915-1932 and undated.</p>
+      </odd>
+      <acqinfo>Donor: 9680</acqinfo>
+    </descgrp>
+    <bioghist>Member of the Michigan House of Representatives from Cass County; speaker in 1925-1926.</bioghist>
+    <scopecontent>Photographs of Wells and family members; also obituaries.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wells</primary_name>
+        <rest_of_name>Fred B.</rest_of_name>
+        <dates>1861-1932</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>Legislature</subordinate_name>
+        <subordinate_name>House of Representatives</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

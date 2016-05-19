@@ -2,13 +2,46 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Orin White papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Orin White papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89428 Ac Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>White</primary_name><rest_of_name>Orin</rest_of_name><dates>1794-1864</dates></persname></origination><unittitle>Orin White papers</unittitle><unitdate type="inclusive" label="creation">1824-1843 (scattered dates)</unitdate><physdesc><extent>5 items</extent></physdesc></did><descgrp><acqinfo>Donor: 2823, 4718</acqinfo></descgrp><bioghist>Farmer and early settler at Ann Arbor, Michigan.</bioghist><scopecontent>Land certificates, military appointment, and business letter; and biographical information.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term></subject><famname source="lcnaf" encodinganalog="600"><family_name>White family</family_name></famname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89428 Ac Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>White</primary_name>
+          <rest_of_name>Orin</rest_of_name>
+          <dates>1794-1864</dates>
+        </persname>
+      </origination>
+      <unittitle>Orin White papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">5 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1824-1843 (scattered dates)</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2823, 4718</acqinfo>
+    </descgrp>
+    <bioghist>Farmer and early settler at Ann Arbor, Michigan.</bioghist>
+    <scopecontent>Land certificates, military appointment, and business letter; and biographical information.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>White family</family_name>
+      </famname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

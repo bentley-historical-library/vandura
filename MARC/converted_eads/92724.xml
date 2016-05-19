@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Presqu'île, Michigan ; Sheboigan, Ouisconsin ; Fort Gratiot, Michigan ; Entrèe de la riviere de Chicago, Illinois [graphic] / Aumont lith.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Presqu'île, Michigan ; Sheboigan, Ouisconsin ; Fort Gratiot, Michigan ; Entrèe de la riviere de Chicago, Illinois [graphic] / Aumont lith.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,6 +12,55 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92724 UAm</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Aumont.</primary_name></persname></origination><unittitle>Presqu'île, Michigan ; Sheboigan, Ouisconsin ; Fort Gratiot, Michigan ; Entrèe de la riviere de Chicago, Illinois [graphic] / Aumont lith.</unittitle><unitdate type="inclusive" label="creation">[ca. 1842]</unitdate><physdesc><extent>1 print</extent><physfacet>
-lithograph, col.</physfacet><dimensions>image 16 x 21 cm.</dimensions></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>[Paris] : Lith. d'Artus, [ca. 1842].</p></odd><acqinfo>Donor: 1771</acqinfo></descgrp><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Prints.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Chicago (Ill.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Fort Gratiot (Port Huron, Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Port Huron (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Presque Isle Harbor (Presque Isle County, Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Sheboygan (Wis.)</term></subject><persname source="local" encodinganalog="700"><primary_name>Castelnau</primary_name><rest_of_name>Francis</rest_of_name><title>comte de</title><dates>1812-1880</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92724 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Aumont.</primary_name>
+        </persname>
+      </origination>
+      <unittitle>Presqu'île, Michigan ; Sheboigan, Ouisconsin ; Fort Gratiot, Michigan ; Entrèe de la riviere de Chicago, Illinois [graphic] / Aumont lith.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 prints</extent>
+        <physfacet>
+lithograph, col.</physfacet>
+        <dimensions>image 16 x 21 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[ca. 1842]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[Paris] : Lith. d'Artus, [ca. 1842].</p>
+      </odd>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Chicago (Ill.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Fort Gratiot (Port Huron, Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Port Huron (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Presque Isle Harbor (Presque Isle County, Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Sheboygan (Wis.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Castelnau</primary_name>
+        <rest_of_name>Francis</rest_of_name>
+        <title>comte de</title>
+        <dates>1812-1880</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

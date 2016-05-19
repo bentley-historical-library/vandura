@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Photograph business card [graphic].</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Photograph business card [graphic].</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,54 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92220 UBBs</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>Hermann J. Tenney &amp; Company</primary_name></corpname></origination><unittitle>Photograph business card [graphic].</unittitle><unitdate type="inclusive" label="creation">[ca. 1890?]</unitdate><physdesc><extent>1 photoprint on printed cardboard mount ;</extent><dimensions>13 x 9 cm.</dimensions></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>Albany, N.Y. : Hermann J. Tenney &amp; Co., photographers, [ca. 1890?].</p></odd><acqinfo>Donor: 4727</acqinfo></descgrp><scopecontent>Exterior view of Louis Jordan's Bavarian Wine and Lager Beer Hall, Detroit, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Business enterprises</term><term type="geographic">Michigan</term><term type="geographic">Detroit.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Bars</term><term type="geographic">Michigan</term><term type="geographic">Detroit.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Detroit (Mich.)</term><term type="topical">Business enterprises.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Detroit (Mich.)</term><term type="topical">Bars.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Louis Jordan's Bavarian Wine and Lager Beer Hall (Detroit, Mich.)</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92220 UBBs</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>Hermann J. Tenney &amp; Company</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Photograph business card [graphic].</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 photoprint on printed cardboard mount</extent>
+        <dimensions>13 x 9 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[ca. 1890?]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>Albany, N.Y. : Hermann J. Tenney &amp; Co., photographers, [ca. 1890?].</p>
+      </odd>
+      <acqinfo>Donor: 4727</acqinfo>
+    </descgrp>
+    <scopecontent>Exterior view of Louis Jordan's Bavarian Wine and Lager Beer Hall, Detroit, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Business enterprises</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Bars</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+        <term type="topical">Business enterprises.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+        <term type="topical">Bars.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Louis Jordan's Bavarian Wine and Lager Beer Hall (Detroit, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

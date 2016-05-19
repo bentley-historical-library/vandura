@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Lithograph print of Reuben N. Rice.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Lithograph print of Reuben N. Rice.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,42 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>2011056 UAm</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>C.E. Lewis (firm)</primary_name></corpname></origination><unittitle>Lithograph print of Reuben N. Rice.</unittitle><unitdate type="inclusive" label="creation">Undated, mid-nineteenth century</unitdate><physdesc><extent>1 item (10" x 19")</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict><odd><head>Publication, Distribution, Etc.</head><p>Undated, mid-nineteenth century.</p></odd><acqinfo>Donor: 6946</acqinfo></descgrp><bioghist>Reuben N. Rice was superintendent of the Michigan Central Railroad.</bioghist><scopecontent>Lithograph print of portrait on stone published by C. E. Lewis of Buffalo, N.Y. for E. A. Duncan and printed by C. Grebner of Buffalo.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Lithographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Rice</primary_name><rest_of_name>Reuben N.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Michigan Central Railroad Company</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>2011056 UAm</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>C.E. Lewis (firm)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Lithograph print of Reuben N. Rice.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+        <physfacet>10" x 19"</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">Undated, mid-nineteenth century</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>Undated, mid-nineteenth century.</p>
+      </odd>
+      <acqinfo>Donor: 6946</acqinfo>
+    </descgrp>
+    <bioghist>Reuben N. Rice was superintendent of the Michigan Central Railroad.</bioghist>
+    <scopecontent>Lithograph print of portrait on stone published by C. E. Lewis of Buffalo, N.Y. for E. A. Duncan and printed by C. Grebner of Buffalo.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Lithographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rice</primary_name>
+        <rest_of_name>Reuben N.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan Central Railroad Company</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

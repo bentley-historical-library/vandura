@@ -2,13 +2,53 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Gordon F. Wickes student notebook</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Gordon F. Wickes student notebook</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0797 Aa 2</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Wickes</primary_name><rest_of_name>Gordon F.</rest_of_name></persname></origination><unittitle>Gordon F. Wickes student notebook</unittitle><langmaterial>In English.</langmaterial><unitdate type="inclusive" label="creation">1912-1915</unitdate><physdesc><extent>0.4 linear feet</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict><acqinfo>Donor: 9472</acqinfo></descgrp><bioghist>Student from St. Johns, Michigan, 1914 graduate of the University of Michigan College of Engineering. After graduation worked as a resident engineer in Colorado.</bioghist><scopecontent>Course work, exercises, problems, notes, and exams from civil and mechanical engineering courses. Also correspondence, notes and engineering surveys done in Colorado around Lake Bradford and Cucharas after graduation as a resident engineer.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Wickes</primary_name><rest_of_name>Gordon F.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>College of Engineering</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="genre_form">Student notebooks.</term></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0797 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Wickes</primary_name>
+          <rest_of_name>Gordon F.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Gordon F. Wickes student notebook</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">0.4 linear feet</extent>
+      </physdesc>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1912-1915</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 9472</acqinfo>
+    </descgrp>
+    <bioghist>Student from St. Johns, Michigan, 1914 graduate of the University of Michigan College of Engineering. After graduation worked as a resident engineer in Colorado.</bioghist>
+    <scopecontent>Course work, exercises, problems, notes, and exams from civil and mechanical engineering courses. Also correspondence, notes and engineering surveys done in Colorado around Lake Bradford and Cucharas after graduation as a resident engineer.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wickes</primary_name>
+        <rest_of_name>Gordon F.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="genre_form">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

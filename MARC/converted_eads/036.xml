@@ -2,13 +2,59 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Thomas and Mary Walton collection</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Thomas and Mary Walton collection</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>036 Aa 2 Ac</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Walton</primary_name><rest_of_name>Thomas.</rest_of_name></persname></origination><unittitle>Thomas and Mary Walton collection</unittitle><unitdate type="inclusive" label="creation">1940s-1980s (scattered)</unitdate><physdesc><extent>0.1 linear ft. and 1 oversize folder</extent></physdesc></did><descgrp><acqinfo>Donor: 9253</acqinfo></descgrp><bioghist>Thomas and Mary Walton purchased the Fountain-Bessac House in Manchester, Michigan in 1943. In 1949-1951, the house was repaired and renovated under the direction of Ann Arbor architect Emil Lorch.</bioghist><scopecontent>Drawings of home, photographs of drawings, published material, miscellaneous clippings, application to National Register of Historic Places, and scattered correspondence relating to the house.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Architectural drawings.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Historic buildings</term><term type="topical">Conservation and restoration</term><term type="geographic">Michigan</term><term type="geographic">Manchester.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Manchester (Mich.)</term><term type="topical">Buildings, structures, etc.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Walton</primary_name><rest_of_name>Thomas.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Fountain-Bessac House (Manchester, Mich.)</primary_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>036 Aa 2 Ac</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Walton</primary_name>
+          <rest_of_name>Thomas.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Thomas and Mary Walton collection</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">0.1 linear feet</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1940s-1980s (scattered)</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9253</acqinfo>
+    </descgrp>
+    <bioghist>Thomas and Mary Walton purchased the Fountain-Bessac House in Manchester, Michigan in 1943. In 1949-1951, the house was repaired and renovated under the direction of Ann Arbor architect Emil Lorch.</bioghist>
+    <scopecontent>Drawings of home, photographs of drawings, published material, miscellaneous clippings, application to National Register of Historic Places, and scattered correspondence relating to the house.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Architectural drawings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Historic buildings</term>
+        <term type="topical">Conservation and restoration</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Manchester.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Manchester (Mich.)</term>
+        <term type="topical">Buildings, structures, etc.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Walton</primary_name>
+        <rest_of_name>Thomas.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Fountain-Bessac House (Manchester, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

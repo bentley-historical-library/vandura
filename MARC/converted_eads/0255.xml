@@ -2,13 +2,66 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Agnes Dolan Collins diaries</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Agnes Dolan Collins diaries</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0255 Aa 2</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Collins</primary_name><rest_of_name>Agnes Dolan</rest_of_name><dates>1890-1980</dates></persname></origination><unittitle>Agnes Dolan Collins diaries</unittitle><unitdate type="inclusive" label="creation">1944-1980</unitdate><physdesc><extent>40 vols. (in 1 box)</extent></physdesc></did><descgrp><acqinfo>Donor: 9172</acqinfo></descgrp><bioghist>Nurse's aide in the nursery of University Hospital, Ann Arbor, Michigan (1931-1956).</bioghist><scopecontent>Diaries describing daily events, work activities, church attendance, weather.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Diaries.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Catholic women</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Widows</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Collins</primary_name><rest_of_name>Agnes Dolan</rest_of_name><dates>1890-1980</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>University Hospital</subordinate_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0255 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Collins</primary_name>
+          <rest_of_name>Agnes Dolan</rest_of_name>
+          <dates>1890-1980</dates>
+        </persname>
+      </origination>
+      <unittitle>Agnes Dolan Collins diaries</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">40 volumes</extent>
+        <extent altrender="carrier">(in 1 box)</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1944-1980</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9172</acqinfo>
+    </descgrp>
+    <bioghist>Nurse's aide in the nursery of University Hospital, Ann Arbor, Michigan (1931-1956).</bioghist>
+    <scopecontent>Diaries describing daily events, work activities, church attendance, weather.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Catholic women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Widows</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Collins</primary_name>
+        <rest_of_name>Agnes Dolan</rest_of_name>
+        <dates>1890-1980</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>University Hospital</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

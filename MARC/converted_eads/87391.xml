@@ -2,13 +2,51 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the N. C. Abbott address</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the N. C. Abbott address</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>87391 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Abbott</primary_name><rest_of_name>Newton Carl.</rest_of_name></persname></origination><unittitle>N. C. Abbott address</unittitle><unitdate type="inclusive" label="creation">1938</unitdate><physdesc><extent>1 item (14 p.)</extent></physdesc></did><descgrp><acqinfo>Donor: 2598</acqinfo></descgrp><scopecontent>Address given before the Nebraska State Historical Society recounting the life of J. S. Morton while a student at the University of Michigan in the 1850s.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Morton</primary_name><rest_of_name>J. Sterling</rest_of_name><fuller_form>(Julius Sterling)</fuller_form><dates>1832-1902</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1851-1860.</term></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87391 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Abbott</primary_name>
+          <rest_of_name>Newton Carl.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>N. C. Abbott address</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+        <physfacet>14 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1938</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2598</acqinfo>
+    </descgrp>
+    <scopecontent>Address given before the Nebraska State Historical Society recounting the life of J. S. Morton while a student at the University of Michigan in the 1850s.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Morton</primary_name>
+        <rest_of_name>J. Sterling</rest_of_name>
+        <fuller_form>(Julius Sterling)</fuller_form>
+        <dates>1832-1902</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1851-1860.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

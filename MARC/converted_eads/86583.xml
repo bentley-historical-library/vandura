@@ -2,13 +2,44 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Michigan Infantry Regiment, 16th (1861-1865) quartermaster records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Michigan Infantry Regiment, 16th (1861-1865) quartermaster records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86583 CA.5b outsize Vault</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>United States</primary_name><subordinate_name>Army</subordinate_name><subordinate_name>Michigan Infantry Regiment, 16th (1861-1865)</subordinate_name></corpname></origination><unittitle>Michigan Infantry Regiment, 16th (1861-1865) quartermaster records</unittitle><unitdate type="inclusive" label="creation">1863</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><altformavail>Microfilm copy available.</altformavail><acqinfo>Donor: 2240</acqinfo></descgrp><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject></controlaccess><container label="Oversize Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86583 CA.5b outsize Vault</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>United States</primary_name>
+          <subordinate_name>Army</subordinate_name>
+          <subordinate_name>Michigan Infantry Regiment, 16th (1861-1865)</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Michigan Infantry Regiment, 16th (1861-1865) quartermaster records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1863</unitdate>
+    </did>
+    <descgrp>
+      <altformavail>Microfilm copy available.</altformavail>
+      <acqinfo>Donor: 2240</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+    </controlaccess>
+    <container label="Oversize Volume" type="volume">1</container>
+  </archdesc>
 </ead>

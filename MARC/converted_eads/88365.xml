@@ -2,13 +2,57 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the The Indians of Michigan</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the The Indians of Michigan</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88365 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Griffin</primary_name><rest_of_name>Will Lyman</rest_of_name><dates>d. 1935</dates></persname></origination><unittitle>The Indians of Michigan</unittitle><unitdate type="inclusive" label="creation">1935</unitdate><physdesc><extent>1 item (8 p.)</extent></physdesc></did><descgrp><acqinfo>Donor: 283</acqinfo></descgrp><scopecontent>Brief history with comments on activities of his parents who served as missionaries to the Indians of northern Michigan.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Indians of North America</term><term type="topical">Missions</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Indians of North America</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Missionaries</term><term type="geographic">Michigan.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Griffin</primary_name><rest_of_name>Lewis J.</rest_of_name></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88365 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Griffin</primary_name>
+          <rest_of_name>Will Lyman</rest_of_name>
+          <dates>d. 1935</dates>
+        </persname>
+      </origination>
+      <unittitle>The Indians of Michigan</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+        <physfacet>8 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1935</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 283</acqinfo>
+    </descgrp>
+    <scopecontent>Brief history with comments on activities of his parents who served as missionaries to the Indians of northern Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Indians of North America</term>
+        <term type="topical">Missions</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Indians of North America</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Missionaries</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Griffin</primary_name>
+        <rest_of_name>Lewis J.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

@@ -2,13 +2,60 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the R. Davis diary</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the R. Davis diary</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>9848 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Davis</primary_name><rest_of_name>Randolph</rest_of_name><dates>1798-1872</dates></persname></origination><unittitle>R. Davis diary</unittitle><unitdate type="inclusive" label="creation">1869</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 8758</acqinfo></descgrp><bioghist>Diary of R. Davis, who was probably Randolph Davis, Lodi Township, Washtenaw County, Michigan, farmer.</bioghist><scopecontent>Diary contains observations on the weather, farming activities, and health problems.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Diaries.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Agriculture</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Lodi (Mich. : Township)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Michigan</term><term type="topical">Climate</term><term type="topical">Observations.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Davis</primary_name><rest_of_name>Randolph</rest_of_name><dates>1798-1872</dates></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9848 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Davis</primary_name>
+          <rest_of_name>Randolph</rest_of_name>
+          <dates>1798-1872</dates>
+        </persname>
+      </origination>
+      <unittitle>R. Davis diary</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1869</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 8758</acqinfo>
+    </descgrp>
+    <bioghist>Diary of R. Davis, who was probably Randolph Davis, Lodi Township, Washtenaw County, Michigan, farmer.</bioghist>
+    <scopecontent>Diary contains observations on the weather, farming activities, and health problems.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Agriculture</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Lodi (Mich. : Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Climate</term>
+        <term type="topical">Observations.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Davis</primary_name>
+        <rest_of_name>Randolph</rest_of_name>
+        <dates>1798-1872</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

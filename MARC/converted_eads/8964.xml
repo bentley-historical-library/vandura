@@ -2,13 +2,50 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Albert James Norton student notebooks</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Albert James Norton student notebooks</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>8964 BImu C34</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Norton</primary_name><rest_of_name>Albert James</rest_of_name><dates>1854-1930</dates></persname></origination><unittitle>Albert James Norton student notebooks</unittitle><unitdate type="inclusive" label="creation">1876</unitdate><physdesc><extent>2 v</extent></physdesc></did><descgrp><acqinfo>Donor: 2492</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Notes on the lectures of Charles K. Adams on English history; also French and German notes.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Adams</primary_name><rest_of_name>Charles Kendall</rest_of_name><dates>1835-1902</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Student notebooks.</term></corpname></controlaccess><container label="Volume" type="volume">1</container><container label="Volume" type="volume">2</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8964 BImu C34</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Norton</primary_name>
+          <rest_of_name>Albert James</rest_of_name>
+          <dates>1854-1930</dates>
+        </persname>
+      </origination>
+      <unittitle>Albert James Norton student notebooks</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1876</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2492</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Notes on the lectures of Charles K. Adams on English history; also French and German notes.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Adams</primary_name>
+        <rest_of_name>Charles Kendall</rest_of_name>
+        <dates>1835-1902</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
 </ead>

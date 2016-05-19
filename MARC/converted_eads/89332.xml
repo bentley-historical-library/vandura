@@ -2,13 +2,60 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Gustave Tollen scrapbook</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Gustave Tollen scrapbook</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89332 AA</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Tollen</primary_name><rest_of_name>Gustave.</rest_of_name></persname></origination><unittitle>Gustave Tollen scrapbook</unittitle><unitdate type="inclusive" label="creation">April-December 1898</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 3713</acqinfo></descgrp><scopecontent>Gustave and Laurene Tollen scrapbook containing clippings about activities of Henry B. Schwellenbach of Iron Mountain, Michigan, member of Co. E, 34th Michigan Infantry, during the Spanish American War.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Scrapbooks.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Spanish-American War, 1898</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Cuba.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Iron Mountain (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Schwellenbach</primary_name><rest_of_name>Henry B.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Army</subordinate_name><subordinate_name>Michigan Infantry Regiment, 34th (1898-1899)</subordinate_name><subordinate_name>Company E</subordinate_name></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89332 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Tollen</primary_name>
+          <rest_of_name>Gustave.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Gustave Tollen scrapbook</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">April-December 1898</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3713</acqinfo>
+    </descgrp>
+    <scopecontent>Gustave and Laurene Tollen scrapbook containing clippings about activities of Henry B. Schwellenbach of Iron Mountain, Michigan, member of Co. E, 34th Michigan Infantry, during the Spanish American War.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Spanish-American War, 1898</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Cuba.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Iron Mountain (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Schwellenbach</primary_name>
+        <rest_of_name>Henry B.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 34th (1898-1899)</subordinate_name>
+        <subordinate_name>Company E</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

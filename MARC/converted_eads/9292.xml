@@ -2,13 +2,53 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Earl D. Babst, 1870-1967 [graphic] / C. Bennett Linder.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Earl D. Babst, 1870-1967 [graphic] / C. Bennett Linder.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>9292</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Linder</primary_name><rest_of_name>C. Bennett.</rest_of_name></persname></origination><unittitle>Earl D. Babst, 1870-1967 [graphic] / C. Bennett Linder.</unittitle><unitdate type="inclusive" label="creation">1923</unitdate><physdesc><extent>1 painting ;</extent><dimensions>visible image 89 x 79 cm.</dimensions></physdesc></did><descgrp><odd><head>General Note</head><p>Framed.</p></odd><odd><head>Publication, Distribution, Etc.</head><p>1923.</p></odd><acqinfo>Donor: 7930</acqinfo></descgrp><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Paintings.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Babst</primary_name><rest_of_name>Earl D.</rest_of_name><dates>1870-1967</dates></persname></controlaccess></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9292</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Linder</primary_name>
+          <rest_of_name>C. Bennett.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Earl D. Babst, 1870-1967 [graphic] / C. Bennett Linder.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 painting</extent>
+        <dimensions>visible image 89 x 79 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1923</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>Framed.</p>
+      </odd>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1923.</p>
+      </odd>
+      <acqinfo>Donor: 7930</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Paintings.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Babst</primary_name>
+        <rest_of_name>Earl D.</rest_of_name>
+        <dates>1870-1967</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

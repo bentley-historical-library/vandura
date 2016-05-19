@@ -2,13 +2,84 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Betty Chisholm paper</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Betty Chisholm paper</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>93829 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Chisholm</primary_name><rest_of_name>Betty.</rest_of_name></persname></origination><unittitle>Betty Chisholm paper</unittitle><unitdate type="inclusive" label="creation">1986</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><odd><head>General Note</head><p>Photographs described separately.</p></odd><acqinfo>Donor: 7353</acqinfo></descgrp><scopecontent>Student paper relating to barns in Washtenaw County, Michigan.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Barns</term><term type="geographic">Michigan</term><term type="geographic">Washtenaw County.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Washtenaw County (Mich.)</term></subject><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Barns</term><term type="geographic">Michigan</term><term type="geographic">Washtenaw County.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Washtenaw County (Mich.)</term><term type="topical">Barns.</term></subject></controlaccess><dsc><c01 level="series"><did><unittitle>Betty Chisholm paper</unittitle><physdesc><extent>1 item</extent></physdesc><unitdate type="inclusive" label="creation">1986</unitdate></did><scopecontent>Student paper relating to barns in Washtenaw County, Michigan.</scopecontent></c01><c01 level="series"><did><unittitle>Betty Chisholm photograph series.</unittitle><physdesc><extent>71 photographs</extent></physdesc><unitdate type="inclusive" label="creation">1986</unitdate></did><scopecontent>Color photos of barns in Washtenaw County, Michigan.</scopecontent></c01></dsc><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93829 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Chisholm</primary_name>
+          <rest_of_name>Betty.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Betty Chisholm paper</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1986</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>Photographs described separately.</p>
+      </odd>
+      <acqinfo>Donor: 7353</acqinfo>
+    </descgrp>
+    <scopecontent>Student paper relating to barns in Washtenaw County, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Barns</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Washtenaw County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Barns</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Washtenaw County.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+        <term type="topical">Barns.</term>
+      </subject>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Betty Chisholm paper</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">1 items</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1986</unitdate>
+        </did>
+        <scopecontent>Student paper relating to barns in Washtenaw County, Michigan.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Betty Chisholm photograph series.</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">71 photographs</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1986</unitdate>
+        </did>
+        <scopecontent>Color photos of barns in Washtenaw County, Michigan.</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

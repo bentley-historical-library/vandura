@@ -2,13 +2,87 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Evans family papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Evans family papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0195 Aa 2 UAm</unitid><origination><famname encodinganalog="100" source="local"><family_name>Evans family (Ann Arbor, Mich.)</family_name></famname></origination><unittitle>Evans family papers</unittitle><unitdate type="inclusive" label="creation">1870s-1970s</unitdate><physdesc><extent>0.1 linear ft. and 1 outsize folder</extent></physdesc></did><descgrp><odd><head>General Note</head><p>Photographs described separately.</p></odd><acqinfo>Donor: 9156</acqinfo></descgrp><bioghist>Family of Frederick J. Evans of Ann Arbor and Battle Creek, Mich.</bioghist><scopecontent>Genealogical material and photographs of the Evans and related families.</scopecontent><controlaccess><famname source="lcnaf" encodinganalog="600"><family_name>Evans family</family_name></famname><famname source="lcnaf" encodinganalog="600"><family_name>Bliton family</family_name></famname><famname source="lcnaf" encodinganalog="600"><family_name>Phelps family</family_name></famname><subject source="lcsh" encodinganalog="630"><term type="uniform_title">Battle Creek enquirer.</term></subject><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Journalism</term><term type="geographic">Michigan</term><term type="geographic">Battle Creek.</term></subject><famname source="lcnaf" encodinganalog="600"><family_name>McCollum family</family_name></famname></controlaccess><dsc><c01 level="series"><did><unittitle>Evans family papers</unittitle><physdesc><extent>0.1 linear ft. and 1 outsize folder</extent></physdesc><unitdate type="inclusive" label="creation">1870s-1970s</unitdate></did><scopecontent>Genealogical material and photographs of the Evans and related families.</scopecontent></c01><c01 level="series"><did><unittitle>Evans family photograph series.</unittitle><physdesc><extent>3 folders and 1 outsize folder</extent></physdesc><unitdate type="inclusive" label="creation">1880s-1940s</unitdate></did><scopecontent>Photographs of the Evans and related families, including photos of Frederick J. Evans and others at the office of the Battle Creek Enquirer and a photo of the McCollum house (later moved to Greenfield Village as "Ann Arbor House").</scopecontent></c01></dsc><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0195 Aa 2 UAm</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local">
+          <family_name>Evans family (Ann Arbor, Mich.)</family_name>
+        </famname>
+      </origination>
+      <unittitle>Evans family papers</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">0.1 linear feet</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1870s-1970s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>Photographs described separately.</p>
+      </odd>
+      <acqinfo>Donor: 9156</acqinfo>
+    </descgrp>
+    <bioghist>Family of Frederick J. Evans of Ann Arbor and Battle Creek, Mich.</bioghist>
+    <scopecontent>Genealogical material and photographs of the Evans and related families.</scopecontent>
+    <controlaccess>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Evans family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Bliton family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Phelps family</family_name>
+      </famname>
+      <subject source="lcsh" encodinganalog="630">
+        <term type="uniform_title">Battle Creek enquirer.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Journalism</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Battle Creek.</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>McCollum family</family_name>
+      </famname>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Evans family papers</unittitle>
+          <physdesc altrender="part">
+            <extent altrender="materialtype spaceoccupied">0.1 linear feet</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1870s-1970s</unitdate>
+        </did>
+        <scopecontent>Genealogical material and photographs of the Evans and related families.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Evans family photograph series.</unittitle>
+          <physdesc altrender="part">
+            <extent altrender="materialtype spaceoccupied">3 folders</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1880s-1940s</unitdate>
+        </did>
+        <scopecontent>Photographs of the Evans and related families, including photos of Frederick J. Evans and others at the office of the Battle Creek Enquirer and a photo of the McCollum house (later moved to Greenfield Village as "Ann Arbor House").</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

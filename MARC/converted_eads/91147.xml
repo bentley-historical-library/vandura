@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Robert Beasecker photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Robert Beasecker photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,40 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>91147 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Beasecker</primary_name><rest_of_name>Robert</rest_of_name><dates>1946-</dates></persname></origination><unittitle>Robert Beasecker photograph collection.</unittitle><unitdate type="inclusive" label="creation">1963</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1963.</p></odd><acqinfo>Donor: 6276</acqinfo></descgrp><scopecontent>Photos of tombstones in Denton Cemetery, Section 20, Van Buren Township, Wayne County, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Tombs and sepulchral monuments.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Denton Cemetery (Van Buren, Mich.)</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>91147 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Beasecker</primary_name>
+          <rest_of_name>Robert</rest_of_name>
+          <dates>1946-</dates>
+        </persname>
+      </origination>
+      <unittitle>Robert Beasecker photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1963</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1963.</p>
+      </odd>
+      <acqinfo>Donor: 6276</acqinfo>
+    </descgrp>
+    <scopecontent>Photos of tombstones in Denton Cemetery, Section 20, Van Buren Township, Wayne County, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Tombs and sepulchral monuments.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Denton Cemetery (Van Buren, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

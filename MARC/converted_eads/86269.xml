@@ -2,13 +2,58 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Vermontville Justice of the Peace records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Vermontville Justice of the Peace records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86269 CC</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Michigan</primary_name><subordinate_name>Justice of the Peace (Vermontville)</subordinate_name></corpname></origination><unittitle>Vermontville Justice of the Peace records</unittitle><unitdate type="inclusive" label="creation">1878-1881</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><altformavail>Microfilm copy available.</altformavail><acqinfo>Donor: 1771</acqinfo></descgrp><scopecontent>Records of the court of the justice of the peace.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Courts</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Justices of the peace</term><term type="geographic">Michigan</term><term type="geographic">Vermontville.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Vermontville (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Eaton County (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Michigan</primary_name><subordinate_name>Justice of the Peace (Vermontville)</subordinate_name></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86269 CC</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Michigan</primary_name>
+          <subordinate_name>Justice of the Peace (Vermontville)</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Vermontville Justice of the Peace records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1878-1881</unitdate>
+    </did>
+    <descgrp>
+      <altformavail>Microfilm copy available.</altformavail>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <scopecontent>Records of the court of the justice of the peace.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Courts</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Justices of the peace</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Vermontville.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Vermontville (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Eaton County (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>Justice of the Peace (Vermontville)</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

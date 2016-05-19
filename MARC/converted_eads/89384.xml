@@ -2,13 +2,52 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Harvey E. Van Benschoten student notebook</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Harvey E. Van Benschoten student notebook</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89384 BImu C34</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Van Benschoten</primary_name><rest_of_name>Harvey E.</rest_of_name></persname></origination><unittitle>Harvey E. Van Benschoten student notebook</unittitle><unitdate type="inclusive" label="creation">1937-1938</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 1858</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Notes on the lectures of Arthur Lyon Cross in English history.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Cross</primary_name><rest_of_name>Arthur Lyon</rest_of_name><dates>1873-1940</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Van Benschoten</primary_name><rest_of_name>Harvey E.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Student notebooks.</term></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89384 BImu C34</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Van Benschoten</primary_name>
+          <rest_of_name>Harvey E.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Harvey E. Van Benschoten student notebook</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1937-1938</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1858</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Notes on the lectures of Arthur Lyon Cross in English history.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cross</primary_name>
+        <rest_of_name>Arthur Lyon</rest_of_name>
+        <dates>1873-1940</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Van Benschoten</primary_name>
+        <rest_of_name>Harvey E.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

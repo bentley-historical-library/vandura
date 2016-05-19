@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Dunbar family papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Dunbar family papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,33 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>88268 Ac</unitid><origination><famname encodinganalog="100" source="local"><family_name>Dunbar family</family_name></famname></origination><unittitle>Dunbar family papers</unittitle><unitdate type="inclusive" label="creation">1837-1863</unitdate><physdesc><extent>1 oversize folder</extent></physdesc></did><descgrp><acqinfo>Donor: 1833</acqinfo></descgrp><scopecontent>Certificates and proclamations presented to members of the Gilbert Dunbar family concerning Revolutionary War claim and Civil War service.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Dunbar family.</primary_name></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>88268 Ac</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local">
+          <family_name>Dunbar family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Dunbar family papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1837-1863</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1833</acqinfo>
+    </descgrp>
+    <scopecontent>Certificates and proclamations presented to members of the Gilbert Dunbar family concerning Revolutionary War claim and Civil War service.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Dunbar family.</primary_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

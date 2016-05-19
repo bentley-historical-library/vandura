@@ -2,13 +2,61 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Henry Stark Seage diaries</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Henry Stark Seage diaries</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86686 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Seage</primary_name><rest_of_name>Henry Stark</rest_of_name><dates>d. 1899</dates></persname></origination><unittitle>Henry Stark Seage diaries</unittitle><unitdate type="inclusive" label="creation">1861-1864</unitdate><physdesc><extent>ca. 100 items (2 v.)</extent></physdesc></did><descgrp><altformavail>Microfilm copy available.</altformavail><odd><head>Reproduction Note</head><p>Photocopies.</p></odd><acqinfo>Donor: 6522</acqinfo></descgrp><bioghist>Corporal in Co. E, 4th Michigan Infantry during the Civil War.</bioghist><scopecontent>Description of daily activities and military campaigns.</scopecontent><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Diaries.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Army</subordinate_name><subordinate_name>Michigan Infantry Regiment, 4th (1861-1864)</subordinate_name><subordinate_name>Company E</subordinate_name></corpname></controlaccess><container label="Folder" type="folder">1</container><container label="Folder" type="folder">2</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86686 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Seage</primary_name>
+          <rest_of_name>Henry Stark</rest_of_name>
+          <dates>d. 1899</dates>
+        </persname>
+      </origination>
+      <unittitle>Henry Stark Seage diaries</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">100 items</extent>
+        <physfacet>2 v.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1861-1864</unitdate>
+    </did>
+    <descgrp>
+      <altformavail>Microfilm copy available.</altformavail>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopies.</p>
+      </odd>
+      <acqinfo>Donor: 6522</acqinfo>
+    </descgrp>
+    <bioghist>Corporal in Co. E, 4th Michigan Infantry during the Civil War.</bioghist>
+    <scopecontent>Description of daily activities and military campaigns.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 4th (1861-1864)</subordinate_name>
+        <subordinate_name>Company E</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
 </ead>

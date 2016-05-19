@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Habby William Bishop photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Habby William Bishop photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,46 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93496 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Bishop</primary_name><rest_of_name>Habby William.</rest_of_name></persname></origination><unittitle>Habby William Bishop photograph collection.</unittitle><unitdate type="inclusive" label="creation">1905-1907</unitdate><physdesc><extent>3 photographs</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1905-1907.</p></odd></descgrp><bioghist>University of Michigan student, 1905-1907, member of the football team.</bioghist><scopecontent>2 portraits of Habby in his football uniform and 1 picture of his house in Chicago.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Students</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Bishop</primary_name><rest_of_name>Habby William.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93496 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Bishop</primary_name>
+          <rest_of_name>Habby William.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Habby William Bishop photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 photographs</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1905-1907</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1905-1907.</p>
+      </odd>
+    </descgrp>
+    <bioghist>University of Michigan student, 1905-1907, member of the football team.</bioghist>
+    <scopecontent>2 portraits of Habby in his football uniform and 1 picture of his house in Chicago.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Students</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Bishop</primary_name>
+        <rest_of_name>Habby William.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

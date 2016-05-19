@@ -2,13 +2,57 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Louisa Maria Reed Stowell papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Louisa Maria Reed Stowell papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89200 AA</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Stowell</primary_name><rest_of_name>Louisa Maria Reed</rest_of_name><dates>1850-1932</dates></persname></origination><unittitle>Louisa Maria Reed Stowell papers</unittitle><unitdate type="inclusive" label="creation">1876-1877</unitdate><physdesc><extent>2 v</extent></physdesc></did><descgrp><acqinfo>Donor: 1801, 1278</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Autograph book and notebook containing microscopic drawings.</scopecontent><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Autograph albums.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Stowell</primary_name><rest_of_name>Louisa Maria Reed</rest_of_name><dates>1850-1932</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Class of 1876</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Student notebooks.</term></corpname></controlaccess><container label="Box" type="box">1</container><container label="Box" type="box">2</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89200 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Stowell</primary_name>
+          <rest_of_name>Louisa Maria Reed</rest_of_name>
+          <dates>1850-1932</dates>
+        </persname>
+      </origination>
+      <unittitle>Louisa Maria Reed Stowell papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1876-1877</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1801, 1278</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Autograph book and notebook containing microscopic drawings.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Autograph albums.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Stowell</primary_name>
+        <rest_of_name>Louisa Maria Reed</rest_of_name>
+        <dates>1850-1932</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1876</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+    <container label="Box" type="box">2</container>
+  </archdesc>
 </ead>

@@ -2,13 +2,59 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Joseph E. Sudborough diary</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Joseph E. Sudborough diary</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>93792 Aa 2</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Sudborough</primary_name><rest_of_name>Joseph E.</rest_of_name><dates>1842 or 3-1864</dates></persname></origination><unittitle>Joseph E. Sudborough diary</unittitle><unitdate type="inclusive" label="creation">1864</unitdate><physdesc><extent>0.1 linear feet</extent></physdesc></did><descgrp><acqinfo>Donor: 8112, 10402.</acqinfo></descgrp><bioghist>Resident of Blissfield, Michigan, who served in Company I, 47th Ohio Infantry, during the Civil War.</bioghist><scopecontent>Brief entries describing his experiences in campaigns around Atlanta, Georgia. The collection also includes two transcriptions of the diary, research notes, and 1987 family history letters.</scopecontent><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Diaries.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Sudborough</primary_name><rest_of_name>Joseph E.</rest_of_name><dates>1842 or 3-1864</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Army</subordinate_name><subordinate_name>Ohio Infantry Regiment, 47th (1861-1865)</subordinate_name><subordinate_name>Company I</subordinate_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93792 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Sudborough</primary_name>
+          <rest_of_name>Joseph E.</rest_of_name>
+          <dates>1842 or 3-1864</dates>
+        </persname>
+      </origination>
+      <unittitle>Joseph E. Sudborough diary</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">0.1 linear feet</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1864</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 8112, 10402.</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Blissfield, Michigan, who served in Company I, 47th Ohio Infantry, during the Civil War.</bioghist>
+    <scopecontent>Brief entries describing his experiences in campaigns around Atlanta, Georgia. The collection also includes two transcriptions of the diary, research notes, and 1987 family history letters.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Sudborough</primary_name>
+        <rest_of_name>Joseph E.</rest_of_name>
+        <dates>1842 or 3-1864</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Ohio Infantry Regiment, 47th (1861-1865)</subordinate_name>
+        <subordinate_name>Company I</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

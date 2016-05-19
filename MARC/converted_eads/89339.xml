@@ -2,13 +2,55 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Charles Wellington Tufts letter</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles Wellington Tufts letter</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89339 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Tufts</primary_name><rest_of_name>Charles Wellington.</rest_of_name></persname></origination><unittitle>Charles Wellington Tufts letter</unittitle><unitdate type="inclusive" label="creation">Oct. 1, 1876</unitdate><physdesc><extent>1 item (2 p.)</extent></physdesc></did><descgrp><acqinfo>Donor: 1904</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Letter describing student activities at the University of Michigan.</scopecontent><controlaccess><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Department of Medicine and Surgery</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Correspondence.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1871-1880.</term></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89339 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Tufts</primary_name>
+          <rest_of_name>Charles Wellington.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Charles Wellington Tufts letter</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+        <physfacet>2 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">Oct. 1, 1876</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1904</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Letter describing student activities at the University of Michigan.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Medicine and Surgery</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Correspondence.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1871-1880.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

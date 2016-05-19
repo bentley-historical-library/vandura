@@ -2,13 +2,48 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Raisin records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Raisin records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88469 CB.2</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>Raisin (Mich. : Township)</primary_name></corpname></origination><unittitle>Raisin records</unittitle><unitdate type="inclusive" label="creation">1834-1871</unitdate><physdesc><extent>2 v</extent></physdesc></did><descgrp><odd><head>Reproduction Note</head><p>Photocopies.</p></odd><acqinfo>Donor: 1991</acqinfo></descgrp><scopecontent>Minutes relating to township, especially operation of schools and roads.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Lenawee County (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Raisin (Mich. : Township)</term></subject></controlaccess><container label="Volume" type="volume">1</container><container label="Volume" type="volume">2</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88469 CB.2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>Raisin (Mich. : Township)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Raisin records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1834-1871</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopies.</p>
+      </odd>
+      <acqinfo>Donor: 1991</acqinfo>
+    </descgrp>
+    <scopecontent>Minutes relating to township, especially operation of schools and roads.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Lenawee County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Raisin (Mich. : Township)</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
 </ead>

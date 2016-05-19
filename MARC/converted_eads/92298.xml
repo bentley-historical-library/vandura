@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Grace A. Fry photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Grace A. Fry photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,46 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92298 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Fry</primary_name><rest_of_name>Grace A.</rest_of_name></persname></origination><unittitle>Grace A. Fry photograph collection.</unittitle><unitdate type="inclusive" label="creation">1890s?-1904</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1890s?-1904.</p></odd><acqinfo>Donor: 491</acqinfo></descgrp><scopecontent>Photographs primarily of Saginaw, Michigan, businesses.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Business enterprises</term><term type="geographic">Michigan</term><term type="geographic">Saginaw.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Railroads</term><term type="geographic">Michigan.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Saginaw (Mich.)</term><term type="topical">Business enterprises.</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92298 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Fry</primary_name>
+          <rest_of_name>Grace A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Grace A. Fry photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1890s?-1904</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1890s?-1904.</p>
+      </odd>
+      <acqinfo>Donor: 491</acqinfo>
+    </descgrp>
+    <scopecontent>Photographs primarily of Saginaw, Michigan, businesses.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Business enterprises</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Saginaw.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Railroads</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Saginaw (Mich.)</term>
+        <term type="topical">Business enterprises.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

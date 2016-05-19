@@ -2,13 +2,47 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Peter A. Ostafin papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Peter A. Ostafin papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>8938 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Ostafin</primary_name><rest_of_name>Peter A.</rest_of_name></persname></origination><unittitle>Peter A. Ostafin papers</unittitle><unitdate type="inclusive" label="creation">1941-1946</unitdate><physdesc><extent>2 folders</extent></physdesc></did><descgrp><acqinfo>Donor: 2555</acqinfo></descgrp><bioghist>Chief resident advisor for West Quadrangle, University of Michigan.</bioghist><scopecontent>Letters from servicemen in World War II.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">World War, 1939-1945.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">World War, 1939-1945</term><term type="topical">Education and the war.</term></subject></controlaccess><container label="Folder" type="folder">1</container><container label="Folder" type="folder">2</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8938 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Ostafin</primary_name>
+          <rest_of_name>Peter A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Peter A. Ostafin papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1941-1946</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2555</acqinfo>
+    </descgrp>
+    <bioghist>Chief resident advisor for West Quadrangle, University of Michigan.</bioghist>
+    <scopecontent>Letters from servicemen in World War II.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945</term>
+        <term type="topical">Education and the war.</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
 </ead>

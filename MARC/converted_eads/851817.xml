@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the George Washington Merrill papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the George Washington Merrill papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,47 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>851817 AC</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Merrill</primary_name><rest_of_name>George Washington</rest_of_name><dates>1826-1908</dates></persname></origination><unittitle>George Washington Merrill papers</unittitle><unitdate type="inclusive" label="creation">1854-1861</unitdate><physdesc><extent>2 v</extent></physdesc></did><descgrp><acqinfo>Donor: 4620</acqinfo></descgrp><bioghist>Saginaw, Michigan, businessman.</bioghist><scopecontent>Business correspondence and receipts of his foundry and machine shop.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Business records.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Foundries</term><term type="geographic">Michigan</term><term type="geographic">Saginaw.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Iron industry and trade</term><term type="geographic">Michigan</term><term type="geographic">Saginaw.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Saginaw (Mich.)</term></subject><famname source="lcnaf" encodinganalog="600"><family_name>Merrill family</family_name></famname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>851817 AC</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Merrill</primary_name>
+          <rest_of_name>George Washington</rest_of_name>
+          <dates>1826-1908</dates>
+        </persname>
+      </origination>
+      <unittitle>George Washington Merrill papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1854-1861</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4620</acqinfo>
+    </descgrp>
+    <bioghist>Saginaw, Michigan, businessman.</bioghist>
+    <scopecontent>Business correspondence and receipts of his foundry and machine shop.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Foundries</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Saginaw.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Iron industry and trade</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Saginaw.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Saginaw (Mich.)</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Merrill family</family_name>
+      </famname>
+    </controlaccess>
+  </archdesc>
 </ead>

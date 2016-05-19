@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Norman Irving Taylor photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Norman Irving Taylor photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,47 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92971 UAm</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Taylor</primary_name><rest_of_name>Norman Irving.</rest_of_name></persname></origination><unittitle>Norman Irving Taylor photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1906</unitdate><physdesc><extent>1 outsize folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1906.</p></odd><acqinfo>Donor: 1551</acqinfo></descgrp><bioghist>Graduate of the University of Michigan College of Pharmacy, 1908.</bioghist><scopecontent>Group portraits of members of Phi Chi (later renamed Phi Delta Chi) and Alpha Tau Omega fraternities.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Alpha Tau Omega</primary_name><subordinate_name>Beta Lambda Chapter (University of Michigan)</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Phi Delta Chi Fraternity</primary_name><subordinate_name>Alpha Chapter (University of Michigan)</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92971 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Taylor</primary_name>
+          <rest_of_name>Norman Irving.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Norman Irving Taylor photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1906</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1906.</p>
+      </odd>
+      <acqinfo>Donor: 1551</acqinfo>
+    </descgrp>
+    <bioghist>Graduate of the University of Michigan College of Pharmacy, 1908.</bioghist>
+    <scopecontent>Group portraits of members of Phi Chi (later renamed Phi Delta Chi) and Alpha Tau Omega fraternities.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Alpha Tau Omega</primary_name>
+        <subordinate_name>Beta Lambda Chapter (University of Michigan)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Phi Delta Chi Fraternity</primary_name>
+        <subordinate_name>Alpha Chapter (University of Michigan)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Societies, etc.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

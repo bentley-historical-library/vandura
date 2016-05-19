@@ -2,13 +2,54 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Charles F. Meyer notebooks</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles F. Meyer notebooks</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86581 Aa 2</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Meyer</primary_name><rest_of_name>Charles F.</rest_of_name><fuller_form>(Charles Ferdinand)</fuller_form><dates>1887-</dates></persname></origination><unittitle>Charles F. Meyer notebooks</unittitle><unitdate type="inclusive" label="creation">1917</unitdate><physdesc><extent>6 v. in 1 box</extent></physdesc></did><descgrp><acqinfo>Donor: 103</acqinfo></descgrp><bioghist>First Lieutenant in the U.S. Army Motor Transport Corps in World War I.</bioghist><scopecontent>Notes on instruction in military science and tactics at Meaux, Seine-et-Marne, France.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">World War, 1914-1918.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">France.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Meyer</primary_name><rest_of_name>Charles F.</rest_of_name><fuller_form>(Charles Ferdinand)</fuller_form><dates>1887-</dates></persname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86581 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Meyer</primary_name>
+          <rest_of_name>Charles F.</rest_of_name>
+          <fuller_form>(Charles Ferdinand)</fuller_form>
+          <dates>1887-</dates>
+        </persname>
+      </origination>
+      <unittitle>Charles F. Meyer notebooks</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">6 volumes</extent>
+        <extent altrender="carrier">(in 1 box)</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1917</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 103</acqinfo>
+    </descgrp>
+    <bioghist>First Lieutenant in the U.S. Army Motor Transport Corps in World War I.</bioghist>
+    <scopecontent>Notes on instruction in military science and tactics at Meaux, Seine-et-Marne, France.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">France.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Meyer</primary_name>
+        <rest_of_name>Charles F.</rest_of_name>
+        <fuller_form>(Charles Ferdinand)</fuller_form>
+        <dates>1887-</dates>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

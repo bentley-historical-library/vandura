@@ -2,13 +2,55 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the A. Monroe Repke collection</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the A. Monroe Repke collection</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0263 Aa 2</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Repke</primary_name><rest_of_name>A. Monroe.</rest_of_name></persname></origination><unittitle>A. Monroe Repke collection</unittitle><unitdate type="inclusive" label="creation">1962-1974</unitdate><physdesc><extent>0.2 linear ft</extent></physdesc></did><descgrp><acqinfo>Donor: 9188</acqinfo></descgrp><bioghist>Repke was a University of Michigan student who served in the Michigan Naval Militia during World War I.</bioghist><scopecontent>Newsletters, reunion programs, and directories of veterans of the Michigan Naval Militia, most produced by Henry D. Stricker.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Veterans</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">World War, 1914-1918</term><term type="topical">Veterans</term><term type="geographic">Michigan.</term></subject><persname source="local" encodinganalog="700"><primary_name>Stricker</primary_name><rest_of_name>Henry David.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Michigan Naval Militia</primary_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0263 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Repke</primary_name>
+          <rest_of_name>A. Monroe.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>A. Monroe Repke collection</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">0.2 linear ft</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1962-1974</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9188</acqinfo>
+    </descgrp>
+    <bioghist>Repke was a University of Michigan student who served in the Michigan Naval Militia during World War I.</bioghist>
+    <scopecontent>Newsletters, reunion programs, and directories of veterans of the Michigan Naval Militia, most produced by Henry D. Stricker.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Veterans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918</term>
+        <term type="topical">Veterans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Stricker</primary_name>
+        <rest_of_name>Henry David.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan Naval Militia</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

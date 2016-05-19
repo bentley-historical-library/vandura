@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Willet Jeremiah Herrington photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Willet Jeremiah Herrington photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,40 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>025 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Herrington</primary_name><rest_of_name>Willet Jeremiah</rest_of_name><dates>1856-1920</dates></persname></origination><unittitle>Willet Jeremiah Herrington photograph collection.</unittitle><unitdate type="inclusive" label="creation">1880s</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1880s</p></odd><acqinfo>Donor: 8900</acqinfo></descgrp><bioghist>Resident of Bad Axe, Mich., 1882 graduate of University of Michigan Medical School.</bioghist><scopecontent>Portraits.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Herrington</primary_name><rest_of_name>Willet Jeremiah</rest_of_name><dates>1856-1920</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>025 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Herrington</primary_name>
+          <rest_of_name>Willet Jeremiah</rest_of_name>
+          <dates>1856-1920</dates>
+        </persname>
+      </origination>
+      <unittitle>Willet Jeremiah Herrington photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1880s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1880s</p>
+      </odd>
+      <acqinfo>Donor: 8900</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Bad Axe, Mich., 1882 graduate of University of Michigan Medical School.</bioghist>
+    <scopecontent>Portraits.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Herrington</primary_name>
+        <rest_of_name>Willet Jeremiah</rest_of_name>
+        <dates>1856-1920</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

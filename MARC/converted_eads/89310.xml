@@ -2,13 +2,48 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Cora Luarky Stitt letters</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Cora Luarky Stitt letters</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89310 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Stitt</primary_name><rest_of_name>Cora Luarky.</rest_of_name></persname></origination><unittitle>Cora Luarky Stitt letters</unittitle><unitdate type="inclusive" label="creation">1893-1895</unitdate><physdesc><extent>12 items</extent></physdesc></did><descgrp><acqinfo>Donor: 4777</acqinfo></descgrp><bioghist>Graduate of the Homeopathic Medical School of the University of Michigan.</bioghist><scopecontent>Letters, principally from C. O. Topping, pharmacy graduate from the University of Michigan, concerning daily events, medical practice, and professional affairs.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Medicine</term><term type="geographic">Michigan.</term></subject><persname source="local" encodinganalog="700"><primary_name>Topping</primary_name><rest_of_name>Charles Orlando</rest_of_name><dates>d. 1903</dates></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89310 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Stitt</primary_name>
+          <rest_of_name>Cora Luarky.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Cora Luarky Stitt letters</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">12 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1893-1895</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4777</acqinfo>
+    </descgrp>
+    <bioghist>Graduate of the Homeopathic Medical School of the University of Michigan.</bioghist>
+    <scopecontent>Letters, principally from C. O. Topping, pharmacy graduate from the University of Michigan, concerning daily events, medical practice, and professional affairs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Medicine</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Topping</primary_name>
+        <rest_of_name>Charles Orlando</rest_of_name>
+        <dates>d. 1903</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

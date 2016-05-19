@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Art originals.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Art originals.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,39 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>91135 Aa 2 Ac</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Angell</primary_name><rest_of_name>Carleton Watson</rest_of_name><dates>1887-1962</dates></persname></origination><unittitle>Art originals.</unittitle><unitdate type="inclusive" label="creation">1937-1938</unitdate><physdesc><extent>6 items</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1937-1938.</p></odd></descgrp><scopecontent>Drawing for letterhead for the Washtenaw County Historical Society, 1937; drawings for his article on Chase S. Osborn, which appeared in the Michigan Alumnus Quarterly Review, December 10, 1938.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Osborn</primary_name><rest_of_name>Chase S.</rest_of_name><fuller_form>(Chase Salmon)</fuller_form><dates>1860-1949</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Washtenaw County Historical Society</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>91135 Aa 2 Ac</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Angell</primary_name>
+          <rest_of_name>Carleton Watson</rest_of_name>
+          <dates>1887-1962</dates>
+        </persname>
+      </origination>
+      <unittitle>Art originals.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">6 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1937-1938</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1937-1938.</p>
+      </odd>
+    </descgrp>
+    <scopecontent>Drawing for letterhead for the Washtenaw County Historical Society, 1937; drawings for his article on Chase S. Osborn, which appeared in the Michigan Alumnus Quarterly Review, December 10, 1938.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Osborn</primary_name>
+        <rest_of_name>Chase S.</rest_of_name>
+        <fuller_form>(Chase Salmon)</fuller_form>
+        <dates>1860-1949</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Washtenaw County Historical Society</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

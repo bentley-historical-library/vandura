@@ -2,13 +2,57 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Leland Stanford Thompson scrapbooks</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Leland Stanford Thompson scrapbooks</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>872 AC</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Thompson</primary_name><rest_of_name>Leland Stanford.</rest_of_name></persname></origination><unittitle>Leland Stanford Thompson scrapbooks</unittitle><unitdate type="inclusive" label="creation">1914-1916</unitdate><physdesc><extent>2 v</extent></physdesc></did><descgrp><acqinfo>Donor: 1617</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Scrapbooks containing clippings largely concerning University athletic events, especially football.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Scrapbooks.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Sports.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Football.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1911-1920.</term></corpname></controlaccess><container label="Oversize Volume" type="volume">1</container><container label="Oversize Volume" type="volume">2</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>872 AC</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Thompson</primary_name>
+          <rest_of_name>Leland Stanford.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Leland Stanford Thompson scrapbooks</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1914-1916</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1617</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Scrapbooks containing clippings largely concerning University athletic events, especially football.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Sports.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Football.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Oversize Volume" type="volume">1</container>
+    <container label="Oversize Volume" type="volume">2</container>
+  </archdesc>
 </ead>

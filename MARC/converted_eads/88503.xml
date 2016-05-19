@@ -2,13 +2,72 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Jane Lemish student notebooks</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Jane Lemish student notebooks</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88503 BImu C34</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Lemish</primary_name><rest_of_name>Jane.</rest_of_name></persname></origination><unittitle>Jane Lemish student notebooks</unittitle><unitdate type="inclusive" label="creation">1944</unitdate><physdesc><extent>2 v</extent></physdesc></did><descgrp><acqinfo>Donor: 2174</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Notes on geography lectures of George Kish, history lectures of Preston Slosson, and political science lectures of Everett Brown.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Brown</primary_name><rest_of_name>Everett Somerville</rest_of_name><dates>1886-1964</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Kish</primary_name><rest_of_name>George</rest_of_name><dates>1914-1989</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Slosson</primary_name><rest_of_name>Preston W.</rest_of_name><fuller_form>(Preston William)</fuller_form><dates>1892-1984</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Department of Geography</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Dept. of History</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Dept. of Political Science</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Student notebooks.</term></corpname></controlaccess><container label="Volume" type="volume">1</container><container label="Volume" type="volume">2</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88503 BImu C34</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Lemish</primary_name>
+          <rest_of_name>Jane.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Jane Lemish student notebooks</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1944</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2174</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Notes on geography lectures of George Kish, history lectures of Preston Slosson, and political science lectures of Everett Brown.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Brown</primary_name>
+        <rest_of_name>Everett Somerville</rest_of_name>
+        <dates>1886-1964</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Kish</primary_name>
+        <rest_of_name>George</rest_of_name>
+        <dates>1914-1989</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Slosson</primary_name>
+        <rest_of_name>Preston W.</rest_of_name>
+        <fuller_form>(Preston William)</fuller_form>
+        <dates>1892-1984</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Geography</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of History</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of Political Science</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
 </ead>

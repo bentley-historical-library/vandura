@@ -2,13 +2,45 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Ric Mixter papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Ric Mixter papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>9685 Aa 2</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Mixter</primary_name><rest_of_name>Ric.</rest_of_name></persname></origination><unittitle>Ric Mixter papers</unittitle><unitdate type="inclusive" label="creation">1995-1996</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 8531</acqinfo></descgrp><scopecontent>Research notes relating to shipwreck of the Edmund Fitzgerald.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Shipwrecks</term><term type="geographic">Superior, Lake.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Edmund Fitzgerald (Ship)</primary_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9685 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Mixter</primary_name>
+          <rest_of_name>Ric.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Ric Mixter papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1995-1996</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 8531</acqinfo>
+    </descgrp>
+    <scopecontent>Research notes relating to shipwreck of the Edmund Fitzgerald.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Shipwrecks</term>
+        <term type="geographic">Superior, Lake.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Edmund Fitzgerald (Ship)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

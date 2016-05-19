@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Florence Wint photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Florence Wint photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,44 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>2011047 UAs</unitid><origination><persname role="col" encodinganalog="100" source="local"><primary_name>Wint</primary_name><rest_of_name>Florence</rest_of_name></persname></origination><unittitle>Florence Wint photograph collection.</unittitle><unitdate type="inclusive" label="creation">1930s-1940s</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict><odd><head>Publication, Distribution, Etc.</head><p>1930s-1940s.</p></odd><acqinfo>Donor: 10517</acqinfo></descgrp><scopecontent>Photographs of Ann Arbor and University of Michigan buildings and views; include Ann Arbor skyline at night and exterior of the Majestic Theatre.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Majestic Theatre (Ann Arbor, Mich.)</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Buildings.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>2011047 UAs</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local">
+          <primary_name>Wint</primary_name>
+          <rest_of_name>Florence</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Florence Wint photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1930s-1940s</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1930s-1940s.</p>
+      </odd>
+      <acqinfo>Donor: 10517</acqinfo>
+    </descgrp>
+    <scopecontent>Photographs of Ann Arbor and University of Michigan buildings and views; include Ann Arbor skyline at night and exterior of the Majestic Theatre.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Majestic Theatre (Ann Arbor, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Buildings.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

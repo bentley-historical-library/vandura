@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Josiah Benjamin Newton photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Josiah Benjamin Newton photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,48 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92595 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Newton</primary_name><rest_of_name>Josiah Benjamin.</rest_of_name></persname></origination><unittitle>Josiah Benjamin Newton photograph collection.</unittitle><unitdate type="inclusive" label="creation">1873 and 1876</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1873 and 1876.</p></odd><acqinfo>Donor: 684</acqinfo></descgrp><bioghist>Member of the University of Michigan Class of 1876.</bioghist><scopecontent>Portrait; group portrait depicting Newton and other men, some of them University students.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Newton</primary_name><rest_of_name>Josiah Benjamin.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1871-1880.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92595 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Newton</primary_name>
+          <rest_of_name>Josiah Benjamin.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Josiah Benjamin Newton photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1873 and 1876</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1873 and 1876.</p>
+      </odd>
+      <acqinfo>Donor: 684</acqinfo>
+    </descgrp>
+    <bioghist>Member of the University of Michigan Class of 1876.</bioghist>
+    <scopecontent>Portrait; group portrait depicting Newton and other men, some of them University students.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Newton</primary_name>
+        <rest_of_name>Josiah Benjamin.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1871-1880.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

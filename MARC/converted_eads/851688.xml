@@ -2,13 +2,52 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the John Adam List papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the John Adam List papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851688 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>List</primary_name><rest_of_name>John Adam.</rest_of_name></persname></origination><unittitle>John Adam List papers</unittitle><langmaterial>Many in German.</langmaterial><unitdate type="inclusive" label="creation">1848-1872</unitdate><physdesc><extent>80 items</extent></physdesc></did><descgrp><acqinfo>Donor: 1523, 2944</acqinfo></descgrp><bioghist>Civic leader of Frankenmuth, Michigan.</bioghist><scopecontent>Business papers, records, correspondence, and miscellaneous items pertaining to the German community of Frankenmuth, Michigan, including the community charter drawn in 1848.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Business records.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">German Americans</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Frankenmuth (Mich.)</term></subject></controlaccess><container label="Folder" type="folder">1</container><container label="Folder" type="folder">2</container><container label="Folder" type="folder">3</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851688 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>List</primary_name>
+          <rest_of_name>John Adam.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>John Adam List papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">80 items</extent>
+      </physdesc>
+      <langmaterial>Many in German.</langmaterial>
+      <unitdate type="inclusive" label="creation">1848-1872</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1523, 2944</acqinfo>
+    </descgrp>
+    <bioghist>Civic leader of Frankenmuth, Michigan.</bioghist>
+    <scopecontent>Business papers, records, correspondence, and miscellaneous items pertaining to the German community of Frankenmuth, Michigan, including the community charter drawn in 1848.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">German Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Frankenmuth (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+    <container label="Folder" type="folder">3</container>
+  </archdesc>
 </ead>

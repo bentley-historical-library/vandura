@@ -2,13 +2,47 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Kaiser-Frazer scrapbook</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Kaiser-Frazer scrapbook</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88486 BB.1 Outsize</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Kaiser-Frazer Corp</primary_name></corpname></origination><unittitle>Kaiser-Frazer scrapbook</unittitle><unitdate type="inclusive" label="creation">1946</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 4950</acqinfo></descgrp><scopecontent>Newspaper clippings relating to the activities of Kaiser and Frazer automobile distributors.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Scrapbooks.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Automobile industry and trade</term><term type="geographic">United States.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Kaiser-Frazer Corp</primary_name></corpname></controlaccess><container label="Oversize Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88486 BB.1 Outsize</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Kaiser-Frazer Corp</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Kaiser-Frazer scrapbook</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1946</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4950</acqinfo>
+    </descgrp>
+    <scopecontent>Newspaper clippings relating to the activities of Kaiser and Frazer automobile distributors.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Automobile industry and trade</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Kaiser-Frazer Corp</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Oversize Volume" type="volume">1</container>
+  </archdesc>
 </ead>

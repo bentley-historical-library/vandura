@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Marquette, Michigan print collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Marquette, Michigan print collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,38 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>94101 UCCs</unitid><unittitle>Marquette, Michigan print collection.</unittitle><unitdate type="inclusive" label="creation">1890s?</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1890s?</p></odd></descgrp><scopecontent>Print of Northwestern Hotel in Marquette.</scopecontent><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Prints.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Hotels</term><term type="geographic">Michigan</term><term type="geographic">Marquette.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Marquette (Mich.)</term><term type="topical">Hotels.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Northwestern Hotel (Marquette, Mich.)</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>94101 UCCs</unitid>
+      <unittitle>Marquette, Michigan print collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1890s?</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1890s?</p>
+      </odd>
+    </descgrp>
+    <scopecontent>Print of Northwestern Hotel in Marquette.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Hotels</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Marquette.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Marquette (Mich.)</term>
+        <term type="topical">Hotels.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Northwestern Hotel (Marquette, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

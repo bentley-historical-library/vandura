@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Charles Gillette Peters photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles Gillette Peters photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,43 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92687 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Peters</primary_name><rest_of_name>Charles Gillette</rest_of_name><dates>1873-1959</dates></persname></origination><unittitle>Charles Gillette Peters photograph collection.</unittitle><unitdate type="inclusive" label="creation">1895-ca. 1930</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1895-ca. 1930.</p></odd><acqinfo>Donor: 6584</acqinfo></descgrp><bioghist>Battle Creek, Michigan resident, employee of the U.S. Railway Postal Service, and veteran of the Spanish American War.</bioghist><scopecontent>Portraits, one of which shows Peters in military uniform.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Spanish-American War, 1898</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Peters</primary_name><rest_of_name>Charles Gillette</rest_of_name><dates>1873-1959</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92687 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Peters</primary_name>
+          <rest_of_name>Charles Gillette</rest_of_name>
+          <dates>1873-1959</dates>
+        </persname>
+      </origination>
+      <unittitle>Charles Gillette Peters photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1895-ca. 1930</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1895-ca. 1930.</p>
+      </odd>
+      <acqinfo>Donor: 6584</acqinfo>
+    </descgrp>
+    <bioghist>Battle Creek, Michigan resident, employee of the U.S. Railway Postal Service, and veteran of the Spanish American War.</bioghist>
+    <scopecontent>Portraits, one of which shows Peters in military uniform.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Spanish-American War, 1898</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Peters</primary_name>
+        <rest_of_name>Charles Gillette</rest_of_name>
+        <dates>1873-1959</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

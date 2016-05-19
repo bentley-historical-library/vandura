@@ -2,13 +2,60 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Sojourner Truth photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Sojourner Truth photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>93567 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Truth</primary_name><rest_of_name>Sojourner</rest_of_name><dates>1799-1883</dates></persname></origination><unittitle>Sojourner Truth photograph collection.</unittitle><unitdate type="inclusive" label="creation">1864</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1864.</p></odd></descgrp><bioghist>Abolitionist and activist for the rights of women and African Americans.</bioghist><scopecontent>Portraits, including one with Abraham Lincoln.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="local" encodinganalog="650"><term type="topical">African Americans</term><term type="topical">Women.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Lincoln</primary_name><rest_of_name>Abraham</rest_of_name><dates>1809-1865</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Truth</primary_name><rest_of_name>Sojourner</rest_of_name><dates>1799-1883</dates></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93567 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Truth</primary_name>
+          <rest_of_name>Sojourner</rest_of_name>
+          <dates>1799-1883</dates>
+        </persname>
+      </origination>
+      <unittitle>Sojourner Truth photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1864</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1864.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Abolitionist and activist for the rights of women and African Americans.</bioghist>
+    <scopecontent>Portraits, including one with Abraham Lincoln.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="local" encodinganalog="650">
+        <term type="topical">African Americans</term>
+        <term type="topical">Women.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lincoln</primary_name>
+        <rest_of_name>Abraham</rest_of_name>
+        <dates>1809-1865</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Truth</primary_name>
+        <rest_of_name>Sojourner</rest_of_name>
+        <dates>1799-1883</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

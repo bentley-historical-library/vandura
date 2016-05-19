@@ -2,13 +2,55 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Pharmaceutical Society (University of Michigan) record book</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Pharmaceutical Society (University of Michigan) record book</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
-  <archdesc level="collection"><did><unitid>87267 BImu M6</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Pharmaceutical Society (University of Michigan)</primary_name></corpname></origination><unittitle>Pharmaceutical Society (University of Michigan) record book</unittitle><unitdate type="inclusive" label="creation">1873-1874</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 1278</acqinfo></descgrp><bioghist>University of Michigan student organization.</bioghist><scopecontent>Constitution and by-laws, and copies of papers at society meetings.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Pharmacy</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>College of Pharmacy</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Pharmaceutical Society (University of Michigan)</primary_name></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87267 BImu M6</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Pharmaceutical Society (University of Michigan)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Pharmaceutical Society (University of Michigan) record book</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1873-1874</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1278</acqinfo>
+    </descgrp>
+    <bioghist>University of Michigan student organization.</bioghist>
+    <scopecontent>Constitution and by-laws, and copies of papers at society meetings.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Pharmacy</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Pharmacy</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Societies, etc.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Pharmaceutical Society (University of Michigan)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Frederic K. Wykes photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Frederic K. Wykes photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,51 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>9376 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Wykes</primary_name><rest_of_name>Frederic K.</rest_of_name></persname></origination><unittitle>Frederic K. Wykes photograph collection.</unittitle><unitdate type="inclusive" label="creation">1800 and ca. 1900?</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1800 and ca. 1900?</p></odd><acqinfo>Donor: 3446</acqinfo></descgrp><scopecontent>Photograph of Michigan state capitol in Lansing; and photo of Spaulding House (hotel) in Caledonia, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Capitols</term><term type="geographic">Michigan</term><term type="geographic">Lansing.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Hotels</term><term type="geographic">Michigan</term><term type="geographic">Caledonia.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Caledonia (Mich.)</term><term type="topical">Hotels.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Lansing (Mich.)</term><term type="topical">Capitols.</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>9376 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Wykes</primary_name>
+          <rest_of_name>Frederic K.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Frederic K. Wykes photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1800 and ca. 1900?</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1800 and ca. 1900?</p>
+      </odd>
+      <acqinfo>Donor: 3446</acqinfo>
+    </descgrp>
+    <scopecontent>Photograph of Michigan state capitol in Lansing; and photo of Spaulding House (hotel) in Caledonia, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Capitols</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Lansing.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Hotels</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Caledonia.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Caledonia (Mich.)</term>
+        <term type="topical">Hotels.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Lansing (Mich.)</term>
+        <term type="topical">Capitols.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

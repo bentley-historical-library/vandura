@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Helen Habermann Crane photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Helen Habermann Crane photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,60 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93161 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Crane</primary_name><rest_of_name>Helen Habermann.</rest_of_name></persname></origination><unittitle>Helen Habermann Crane photograph collection.</unittitle><unitdate type="inclusive" label="creation">1921-1923</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1921-1923.</p></odd><acqinfo>Donor: 2113</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Photographs, most likely of University of Michigan students, primarily illustrative of the clothing and swimwear of the time.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Bathing suits.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Beaches.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Clothing and dress.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Michigan, Lake.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Saint Joseph (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">South Haven (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="temporal">1921-1930.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93161 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Crane</primary_name>
+          <rest_of_name>Helen Habermann.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Helen Habermann Crane photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1921-1923</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1921-1923.</p>
+      </odd>
+      <acqinfo>Donor: 2113</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Photographs, most likely of University of Michigan students, primarily illustrative of the clothing and swimwear of the time.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Bathing suits.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Beaches.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Clothing and dress.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan, Lake.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Saint Joseph (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">South Haven (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="temporal">1921-1930.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

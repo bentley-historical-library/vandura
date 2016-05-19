@@ -2,13 +2,48 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Abiel Linsley account book</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Abiel Linsley account book</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>85260 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Linsley</primary_name><rest_of_name>Abiel.</rest_of_name></persname></origination><unittitle>Abiel Linsley account book</unittitle><unitdate type="inclusive" label="creation">1765-1776</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 6529</acqinfo></descgrp><bioghist>Woodbury, Conn. resident.</bioghist><scopecontent>Accounts with Peter Pond, Michigan based fur trader and explorer.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Fur trade</term><term type="geographic">Michigan.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Pond</primary_name><rest_of_name>Peter</rest_of_name><dates>1740-1807</dates></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85260 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Linsley</primary_name>
+          <rest_of_name>Abiel.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Abiel Linsley account book</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1765-1776</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6529</acqinfo>
+    </descgrp>
+    <bioghist>Woodbury, Conn. resident.</bioghist>
+    <scopecontent>Accounts with Peter Pond, Michigan based fur trader and explorer.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Fur trade</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Pond</primary_name>
+        <rest_of_name>Peter</rest_of_name>
+        <dates>1740-1807</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

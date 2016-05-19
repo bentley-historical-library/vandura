@@ -2,13 +2,52 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Harriet M. Wait letters</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Harriet M. Wait letters</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>9952 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Wait</primary_name><rest_of_name>Harriet M.</rest_of_name></persname></origination><unittitle>Harriet M. Wait letters</unittitle><unitdate type="inclusive" label="creation">1849</unitdate><physdesc><extent>2 items</extent></physdesc></did><descgrp><acqinfo>Donor: 1333</acqinfo></descgrp><bioghist>Resident of Brooklyn, N.Y., former resident of Ann Arbor, Mich.</bioghist><scopecontent>Leters to Mrs. Thaddeus Nichols of Boston, Mass., describing her arrival in Brooklyn and activities there.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Brooklyn (New York, N.Y.)</term><term type="topical">Social life and customs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Wait</primary_name><rest_of_name>Harriet M.</rest_of_name></persname><persname source="local" encodinganalog="700"><primary_name>Nichols</primary_name><rest_of_name>Thaddeus</rest_of_name><title>Mrs</title></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9952 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Wait</primary_name>
+          <rest_of_name>Harriet M.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Harriet M. Wait letters</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1849</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1333</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Brooklyn, N.Y., former resident of Ann Arbor, Mich.</bioghist>
+    <scopecontent>Leters to Mrs. Thaddeus Nichols of Boston, Mass., describing her arrival in Brooklyn and activities there.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Brooklyn (New York, N.Y.)</term>
+        <term type="topical">Social life and customs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wait</primary_name>
+        <rest_of_name>Harriet M.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Nichols</primary_name>
+        <rest_of_name>Thaddeus</rest_of_name>
+        <title>Mrs</title>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

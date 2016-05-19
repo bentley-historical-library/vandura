@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Henry P. Tappan, D.D., L.L.D. [graphic] : president of the University of Michigan / engd. by Geo. E. Perine.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Henry P. Tappan, D.D., L.L.D. [graphic] : president of the University of Michigan / engd. by Geo. E. Perine.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,6 +12,44 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92746 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Perine</primary_name><rest_of_name>George E.</rest_of_name></persname></origination><unittitle>Henry P. Tappan, D.D., L.L.D. [graphic] : president of the University of Michigan / engd. by Geo. E. Perine.</unittitle><unitdate type="inclusive" label="creation">185-?]</unitdate><physdesc><extent>1 print</extent><physfacet>
-engraving</physfacet><dimensions>image 14 x 10 cm.</dimensions></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>N[ew] Y[ork] : [s.n., 185-?].</p></odd><odd><head>General Note</head><p>"Engraved for Bernard's American journal of education."</p></odd><acqinfo>Donor: 2236</acqinfo></descgrp><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Prints.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Tappan</primary_name><rest_of_name>Henry Philip</rest_of_name><dates>1805-1881</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92746 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Perine</primary_name>
+          <rest_of_name>George E.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Henry P. Tappan, D.D., L.L.D. [graphic] : president of the University of Michigan / engd. by Geo. E. Perine.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 prints</extent>
+        <physfacet>
+engraving</physfacet>
+        <dimensions>image 14 x 10 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">185-?]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>N[ew] Y[ork] : [s.n., 185-?].</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>"Engraved for Bernard's American journal of education."</p>
+      </odd>
+      <acqinfo>Donor: 2236</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Tappan</primary_name>
+        <rest_of_name>Henry Philip</rest_of_name>
+        <dates>1805-1881</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

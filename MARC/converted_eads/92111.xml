@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the [Line drawing of Thomas A. Edison] [graphic].</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the [Line drawing of Thomas A. Edison] [graphic].</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,37 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92111</unitid><unittitle>[Line drawing of Thomas A. Edison] [graphic].</unittitle><unitdate type="inclusive" label="creation">[ca. 1867-1931?]</unitdate><physdesc><extent>1 drawing</extent></physdesc></did><descgrp><odd><head>General Note</head><p>Located in security vault.</p></odd><odd><head>Publication, Distribution, Etc.</head><p>[ca. 1867-1931?].</p></odd><acqinfo>Donor: 1771</acqinfo></descgrp><scopecontent>Line drawing of Edison by unknown artist, and bearing Edison's signature under picture.</scopecontent><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Drawings.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Edison</primary_name><rest_of_name>Thomas A.</rest_of_name><fuller_form>(Thomas Alva)</fuller_form><dates>1847-1931</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92111</unitid>
+      <unittitle>[Line drawing of Thomas A. Edison] [graphic].</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 drawings</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[ca. 1867-1931?]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>Located in security vault.</p>
+      </odd>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[ca. 1867-1931?].</p>
+      </odd>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <scopecontent>Line drawing of Edison by unknown artist, and bearing Edison's signature under picture.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Drawings.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Edison</primary_name>
+        <rest_of_name>Thomas A.</rest_of_name>
+        <fuller_form>(Thomas Alva)</fuller_form>
+        <dates>1847-1931</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

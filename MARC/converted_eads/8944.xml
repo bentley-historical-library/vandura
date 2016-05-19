@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Order of the Eastern Star, Manchester Lodge records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Order of the Eastern Star, Manchester Lodge records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,30 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>8944 nd 220 221</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>Order of the Eastern Star</primary_name><subordinate_name>Manchester Lodge (Mich.)</subordinate_name></corpname></origination><unittitle>Order of the Eastern Star, Manchester Lodge records</unittitle><unitdate type="inclusive" label="creation">February 1867</unitdate><physdesc><extent>2 photonegatives</extent></physdesc></did><descgrp/><scopecontent>Minutes of a meeting, and list of officers.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Manchester (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Freemasons</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>8944 nd 220 221</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>Order of the Eastern Star</primary_name>
+          <subordinate_name>Manchester Lodge (Mich.)</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Order of the Eastern Star, Manchester Lodge records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 negatives</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">February 1867</unitdate>
+    </did>
+    <descgrp/>
+    <scopecontent>Minutes of a meeting, and list of officers.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Manchester (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Freemasons</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

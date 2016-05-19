@@ -2,13 +2,60 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Rolfe family papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Rolfe family papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>87132 Aa 2</unitid><origination><famname encodinganalog="100" source="local"><family_name>Rolfe family</family_name></famname></origination><unittitle>Rolfe family papers</unittitle><unitdate type="inclusive" label="creation">ca. 1839-1864</unitdate><physdesc><extent>4 v. in 1 box</extent></physdesc></did><descgrp><acqinfo>Donor: 7430</acqinfo></descgrp><bioghist>Residents of Vevay Township, Ingham County, Michigan.</bioghist><scopecontent>Reminiscence of Nathan Rolfe describing the family's early years in Michigan; Nathan Rolfe's justice of the peace notebook; and an account book of the family store.</scopecontent><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Account books.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Frontier and pioneer life</term><term type="geographic">Michigan</term><term type="geographic">Ingham County.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Justices of the peace</term><term type="geographic">Michigan</term><term type="geographic">Vevay (Township)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Vevay (Mich. : Township)</term></subject><persname source="local" encodinganalog="700"><primary_name>Rolfe</primary_name><rest_of_name>Nathan</rest_of_name><dates>1786-1861</dates></persname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87132 Aa 2</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local">
+          <family_name>Rolfe family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Rolfe family papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+        <extent altrender="carrier">(in 1 box)</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1839-1864</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7430</acqinfo>
+    </descgrp>
+    <bioghist>Residents of Vevay Township, Ingham County, Michigan.</bioghist>
+    <scopecontent>Reminiscence of Nathan Rolfe describing the family's early years in Michigan; Nathan Rolfe's justice of the peace notebook; and an account book of the family store.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Account books.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Frontier and pioneer life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ingham County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Justices of the peace</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Vevay (Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Vevay (Mich. : Township)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Rolfe</primary_name>
+        <rest_of_name>Nathan</rest_of_name>
+        <dates>1786-1861</dates>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

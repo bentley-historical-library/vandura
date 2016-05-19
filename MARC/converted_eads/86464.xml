@@ -2,13 +2,65 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Lucius Lyon letters</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Lucius Lyon letters</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86464 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Lyon</primary_name><rest_of_name>Lucius</rest_of_name><dates>1800-1851</dates></persname></origination><unittitle>Lucius Lyon letters</unittitle><unitdate type="inclusive" label="creation">1830, 1831 and 1834</unitdate><physdesc><extent>3 items</extent></physdesc></did><descgrp><odd><head>Reproduction Note</head><p>Photocopies.</p></odd><acqinfo>Donor: 207</acqinfo></descgrp><bioghist>Surveyor, congressman, U.S. Senator.</bioghist><scopecontent>Letters to John Johnson of Burlington, Vermont, commenting on land surveys, travel, and congressional politics.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Surveying</term><term type="geographic">United States.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Voyages and travels.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">Politics and government</term><term type="temporal">1829-1837.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Johnson</primary_name><rest_of_name>John.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Congress</subordinate_name><subordinate_name>House</subordinate_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86464 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Lyon</primary_name>
+          <rest_of_name>Lucius</rest_of_name>
+          <dates>1800-1851</dates>
+        </persname>
+      </origination>
+      <unittitle>Lucius Lyon letters</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1830, 1831 and 1834</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopies.</p>
+      </odd>
+      <acqinfo>Donor: 207</acqinfo>
+    </descgrp>
+    <bioghist>Surveyor, congressman, U.S. Senator.</bioghist>
+    <scopecontent>Letters to John Johnson of Burlington, Vermont, commenting on land surveys, travel, and congressional politics.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Surveying</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1829-1837.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Johnson</primary_name>
+        <rest_of_name>John.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Congress</subordinate_name>
+        <subordinate_name>House</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

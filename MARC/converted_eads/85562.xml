@@ -2,13 +2,73 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Charles Adams account books</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles Adams account books</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>85562 AA</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Adams</primary_name><rest_of_name>Charles</rest_of_name><dates>1811-1899</dates></persname></origination><unittitle>Charles Adams account books</unittitle><unitdate type="inclusive" label="creation">1834-1890</unitdate><physdesc><extent>3 v</extent></physdesc></did><descgrp><acqinfo>Donor: 931</acqinfo></descgrp><bioghist>Congregational clergymen, later farmer in Avon Township, Oakland County, Michigan.</bioghist><scopecontent>Records of business transactions with brief notes on local events and daily activities. The first volume (1863-1866 and 1879-1882) is reused from an index rerum apparently first used in the period 1834-1844 by David Stuart, graduate of Amherst College and later Member of Congress from Michigan.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Clergy</term><term type="geographic">Michigan</term><term type="geographic">Avon.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Farmers</term><term type="geographic">Michigan</term><term type="geographic">Avon.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Oakland County (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Avon Township (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Adams</primary_name><rest_of_name>Charles</rest_of_name><dates>1811-1899</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Stuart</primary_name><rest_of_name>David</rest_of_name><dates>1816-1868</dates></persname><persname source="local" encodinganalog="700"><primary_name>Stuart</primary_name><rest_of_name>David</rest_of_name><dates>1816-1868</dates></persname></controlaccess><container label="Volume" type="volume">1</container><container label="Volume" type="volume">2</container><container label="Volume" type="volume">3</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85562 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Adams</primary_name>
+          <rest_of_name>Charles</rest_of_name>
+          <dates>1811-1899</dates>
+        </persname>
+      </origination>
+      <unittitle>Charles Adams account books</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1834-1890</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 931</acqinfo>
+    </descgrp>
+    <bioghist>Congregational clergymen, later farmer in Avon Township, Oakland County, Michigan.</bioghist>
+    <scopecontent>Records of business transactions with brief notes on local events and daily activities. The first volume (1863-1866 and 1879-1882) is reused from an index rerum apparently first used in the period 1834-1844 by David Stuart, graduate of Amherst College and later Member of Congress from Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Avon.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farmers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Avon.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Oakland County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Avon Township (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Adams</primary_name>
+        <rest_of_name>Charles</rest_of_name>
+        <dates>1811-1899</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Stuart</primary_name>
+        <rest_of_name>David</rest_of_name>
+        <dates>1816-1868</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Stuart</primary_name>
+        <rest_of_name>David</rest_of_name>
+        <dates>1816-1868</dates>
+      </persname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+    <container label="Volume" type="volume">3</container>
+  </archdesc>
 </ead>

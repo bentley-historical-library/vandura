@@ -2,13 +2,48 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Engineering Society (University of Michigan) records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Engineering Society (University of Michigan) records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
-  <archdesc level="collection"><did><unitid>87186 BImu Bimu M6 2</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>University of Michigan</primary_name><subordinate_name>Engineering Society</subordinate_name></corpname></origination><unittitle>Engineering Society (University of Michigan) records</unittitle><unitdate type="inclusive" label="creation">1889-1918</unitdate><physdesc><extent>4 v. and 200 items in 1 box and 1 oversize v</extent></physdesc></did><descgrp><acqinfo>Donor: 176</acqinfo></descgrp><bioghist>Honorary society of engineering students at the University of Michigan.</bioghist><scopecontent>Correspondence, minutes of meetings, membership book, roll call book, account book, and miscellanea.</scopecontent><controlaccess><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>College of Engineering</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Honorary societies.</term></corpname></controlaccess><container label="Box" type="box">1</container><container label="Oversize Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87186 BImu Bimu M6 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>University of Michigan</primary_name>
+          <subordinate_name>Engineering Society</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Engineering Society (University of Michigan) records</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1889-1918</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 176</acqinfo>
+    </descgrp>
+    <bioghist>Honorary society of engineering students at the University of Michigan.</bioghist>
+    <scopecontent>Correspondence, minutes of meetings, membership book, roll call book, account book, and miscellanea.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Honorary societies.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+    <container label="Oversize Volume" type="volume">1</container>
+  </archdesc>
 </ead>

@@ -2,13 +2,54 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Dr. Alvan [sic] Wood Chase and his recipes book</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Dr. Alvan [sic] Wood Chase and his recipes book</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>90207 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Smith</primary_name><rest_of_name>Alan Carter.</rest_of_name></persname></origination><unittitle>Dr. Alvan [sic] Wood Chase and his recipes book</unittitle><unitdate type="inclusive" label="creation">1970</unitdate><physdesc><extent>1 item (28 p.)</extent></physdesc></did><descgrp><acqinfo>Donor: 4750</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Cooking.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Medicine, Popular.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Chase</primary_name><rest_of_name>A. W.</rest_of_name><fuller_form>(Alvin Wood)</fuller_form><dates>1817-1885</dates></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>90207 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Smith</primary_name>
+          <rest_of_name>Alan Carter.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Dr. Alvan [sic] Wood Chase and his recipes book</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+        <physfacet>28 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1970</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4750</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Cooking.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Medicine, Popular.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Chase</primary_name>
+        <rest_of_name>A. W.</rest_of_name>
+        <fuller_form>(Alvin Wood)</fuller_form>
+        <dates>1817-1885</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

@@ -2,13 +2,47 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Cornelius Reardon letter</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Cornelius Reardon letter</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89176 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Reardon</primary_name><rest_of_name>Cornelius.</rest_of_name></persname></origination><unittitle>Cornelius Reardon letter</unittitle><unitdate type="inclusive" label="creation">April 21, 1850</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 2940</acqinfo></descgrp><bioghist>One-time resident of Macomb County, Michigan.</bioghist><scopecontent>Letter to his brother James Reardon containing description of his life in California during the Gold Rush.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">California</term><term type="topical">Gold discoveries.</term></subject><persname source="local" encodinganalog="700"><primary_name>Reardon</primary_name><rest_of_name>James.</rest_of_name></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89176 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Reardon</primary_name>
+          <rest_of_name>Cornelius.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Cornelius Reardon letter</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">April 21, 1850</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2940</acqinfo>
+    </descgrp>
+    <bioghist>One-time resident of Macomb County, Michigan.</bioghist>
+    <scopecontent>Letter to his brother James Reardon containing description of his life in California during the Gold Rush.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">California</term>
+        <term type="topical">Gold discoveries.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Reardon</primary_name>
+        <rest_of_name>James.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

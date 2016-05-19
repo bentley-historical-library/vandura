@@ -2,13 +2,64 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Census records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Census records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89374 CB.1 Outsize</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>United States</primary_name><subordinate_name>Census Office</subordinate_name></corpname></origination><unittitle>Census records</unittitle><unitdate type="inclusive" label="creation">1870</unitdate><physdesc><extent>1 v. and 2 folders (outsize)</extent></physdesc></did><descgrp><odd><head>Reproduction Note</head><p>Microform copy available.</p></odd><odd><head>Formatted Contents Note</head><p>Inhabitants -- Persons who died during the year -- Products of industry</p></odd><acqinfo>Donor: 1343</acqinfo></descgrp><scopecontent>Census schedules for Washtenaw County, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Census records.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Michigan</term><term type="topical">Census, 1870.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Washtenaw County (Mich.)</term><term type="topical">Census, 1870.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="genre_form">Census, 1870</term><term type="topical">Census, 9th, 1870.</term></subject></controlaccess><container label="Oversize Volume" type="volume">1</container><container label="Oversize Volume" type="volume">2</container><container label="Oversize Volume" type="volume">3</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89374 CB.1 Outsize</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>United States</primary_name>
+          <subordinate_name>Census Office</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Census records</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1870</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Microform copy available.</p>
+      </odd>
+      <odd>
+        <head>Formatted Contents Note</head>
+        <p>Inhabitants -- Persons who died during the year -- Products of industry</p>
+      </odd>
+      <acqinfo>Donor: 1343</acqinfo>
+    </descgrp>
+    <scopecontent>Census schedules for Washtenaw County, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Census records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Census, 1870.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+        <term type="topical">Census, 1870.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="genre_form">Census, 1870</term>
+        <term type="topical">Census, 9th, 1870.</term>
+      </subject>
+    </controlaccess>
+    <container label="Oversize Volume" type="volume">1</container>
+    <container label="Oversize Volume" type="volume">2</container>
+    <container label="Oversize Volume" type="volume">3</container>
+  </archdesc>
 </ead>

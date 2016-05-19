@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the William Woodbridge photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the William Woodbridge photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,40 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93502 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Woodbridge</primary_name><rest_of_name>William</rest_of_name><dates>1780-1861</dates></persname></origination><unittitle>William Woodbridge photograph collection.</unittitle><unitdate type="inclusive" label="creation">1850s?</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1850s?</p></odd><acqinfo>Donor: 1771</acqinfo></descgrp><bioghist>Governor of Michigan, 1840-1841; U.S. Senator from Michigan, 1841-1847.</bioghist><scopecontent>Portrait.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Woodbridge</primary_name><rest_of_name>William</rest_of_name><dates>1780-1861</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93502 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Woodbridge</primary_name>
+          <rest_of_name>William</rest_of_name>
+          <dates>1780-1861</dates>
+        </persname>
+      </origination>
+      <unittitle>William Woodbridge photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1850s?</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1850s?</p>
+      </odd>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <bioghist>Governor of Michigan, 1840-1841; U.S. Senator from Michigan, 1841-1847.</bioghist>
+    <scopecontent>Portrait.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Woodbridge</primary_name>
+        <rest_of_name>William</rest_of_name>
+        <dates>1780-1861</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

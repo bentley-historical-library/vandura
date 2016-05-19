@@ -2,13 +2,48 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Oren Parker student notebook</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Oren Parker student notebook</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>8981 BImu C194</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Parker</primary_name><rest_of_name>W. Oren</rest_of_name><fuller_form>(Wilford Oren)</fuller_form></persname></origination><unittitle>Oren Parker student notebook</unittitle><unitdate type="inclusive" label="creation">1931-1932</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 1485</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Notes on lectures in architectural history.</scopecontent><controlaccess><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>College of Architecture and Design</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Student notebooks.</term></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8981 BImu C194</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Parker</primary_name>
+          <rest_of_name>W. Oren</rest_of_name>
+          <fuller_form>(Wilford Oren)</fuller_form>
+        </persname>
+      </origination>
+      <unittitle>Oren Parker student notebook</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1931-1932</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1485</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Notes on lectures in architectural history.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Architecture and Design</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

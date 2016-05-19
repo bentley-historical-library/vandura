@@ -2,13 +2,56 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the East Huron Grange, No. 1097 records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the East Huron Grange, No. 1097 records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851989 BG</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>East Huron Grange, No. 1097 (Harbor Beach, Mich.)</primary_name></corpname></origination><unittitle>East Huron Grange, No. 1097 records</unittitle><unitdate type="inclusive" label="creation">1907-1918</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 3711</acqinfo></descgrp><scopecontent>Minutes of meetings, 1907-1916, and miscellaneous correspondence, 1916-1918, of Grange official Burr Lincoln.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Agriculture</term><term type="geographic">Michigan</term><term type="geographic">Huron County.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Harbor Beach (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Sand Beach (Mich. : Township)</term></subject><persname source="local" encodinganalog="700"><primary_name>Lincoln</primary_name><rest_of_name>Burr</rest_of_name><dates>1880-1937</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>East Huron Grange, No. 1097 (Harbor Beach, Mich.)</primary_name></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851989 BG</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>East Huron Grange, No. 1097 (Harbor Beach, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>East Huron Grange, No. 1097 records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1907-1918</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3711</acqinfo>
+    </descgrp>
+    <scopecontent>Minutes of meetings, 1907-1916, and miscellaneous correspondence, 1916-1918, of Grange official Burr Lincoln.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Agriculture</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Huron County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Harbor Beach (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Sand Beach (Mich. : Township)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Lincoln</primary_name>
+        <rest_of_name>Burr</rest_of_name>
+        <dates>1880-1937</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>East Huron Grange, No. 1097 (Harbor Beach, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

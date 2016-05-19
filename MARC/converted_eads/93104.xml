@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the A. Z. Hamburg photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the A. Z. Hamburg photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,45 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93104 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Hamburg</primary_name><rest_of_name>A. Z.</rest_of_name></persname></origination><unittitle>A. Z. Hamburg photograph collection.</unittitle><unitdate type="inclusive" label="creation">1950</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1950.</p></odd><acqinfo>Donor: 8115</acqinfo></descgrp><scopecontent>Color slides of the 1950 fire in Haven Hall, University of Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Fires</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term><term type="topical">Fires.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Haven Hall (University of Michigan : 1863-1950)</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93104 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Hamburg</primary_name>
+          <rest_of_name>A. Z.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>A. Z. Hamburg photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1950</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1950.</p>
+      </odd>
+      <acqinfo>Donor: 8115</acqinfo>
+    </descgrp>
+    <scopecontent>Color slides of the 1950 fire in Haven Hall, University of Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Fires</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+        <term type="topical">Fires.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Haven Hall (University of Michigan : 1863-1950)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

@@ -2,13 +2,73 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Martin H. Smith papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Martin H. Smith papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>8612 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Smith</primary_name><rest_of_name>Martin H.</rest_of_name></persname></origination><unittitle>Martin H. Smith papers</unittitle><unitdate type="inclusive" label="creation">1842</unitdate><physdesc><extent>4 items</extent></physdesc></did><descgrp><odd><head>Reproduction Note</head><p>Photocopies.</p></odd><acqinfo>Donor: 3664</acqinfo></descgrp><bioghist>Officer in Dundee Rifle Guards, a company of the Michigan state militia.</bioghist><scopecontent>Commissions signed by Governor John S. Barry appointing Smith second and first lieutenant, lists of members, and letter outlining functions of the vigilance committee of the Washingtonian Society (a temperance organization).</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Temperance</term><term type="geographic">Michigan</term><term type="geographic">Dundee.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Vigilance committees</term><term type="geographic">Michigan</term><term type="geographic">Dundee.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Dundee (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Michigan</term><term type="topical">Militia.</term></subject><persname source="local" encodinganalog="700"><primary_name>Barry</primary_name><rest_of_name>John Stewart</rest_of_name><dates>1802-1870</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Washingtonian Society (Dundee, Mich.)</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Michigan</primary_name><subordinate_name>Militia (1838-1862)</subordinate_name><subordinate_name>Dundee Rifle Guards</subordinate_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8612 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Smith</primary_name>
+          <rest_of_name>Martin H.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Martin H. Smith papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1842</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopies.</p>
+      </odd>
+      <acqinfo>Donor: 3664</acqinfo>
+    </descgrp>
+    <bioghist>Officer in Dundee Rifle Guards, a company of the Michigan state militia.</bioghist>
+    <scopecontent>Commissions signed by Governor John S. Barry appointing Smith second and first lieutenant, lists of members, and letter outlining functions of the vigilance committee of the Washingtonian Society (a temperance organization).</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Temperance</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Dundee.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Vigilance committees</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Dundee.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Dundee (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Militia.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Barry</primary_name>
+        <rest_of_name>John Stewart</rest_of_name>
+        <dates>1802-1870</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Washingtonian Society (Dundee, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>Militia (1838-1862)</subordinate_name>
+        <subordinate_name>Dundee Rifle Guards</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

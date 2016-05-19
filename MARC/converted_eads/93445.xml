@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Charles Leland Mann photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles Leland Mann photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,42 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93445 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Mann</primary_name><rest_of_name>Charles Leland.</rest_of_name></persname></origination><unittitle>Charles Leland Mann photograph collection.</unittitle><unitdate type="inclusive" label="creation">1908-1912</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1908-1912.</p></odd><acqinfo>Donor: 4112</acqinfo></descgrp><bioghist>1908 graduate of the University of Michigan Law School who served (1908-1912) as supervisor of schools in Candón Province, Philippine Islands.</bioghist><scopecontent>Photos of boys in a shop class, unidentified Filipinos, and a display of basketwork.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Baskets.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Philippines</term><term type="topical">History</term><term type="temporal">1898-1946.</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93445 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Mann</primary_name>
+          <rest_of_name>Charles Leland.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Charles Leland Mann photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1908-1912</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1908-1912.</p>
+      </odd>
+      <acqinfo>Donor: 4112</acqinfo>
+    </descgrp>
+    <bioghist>1908 graduate of the University of Michigan Law School who served (1908-1912) as supervisor of schools in Candón Province, Philippine Islands.</bioghist>
+    <scopecontent>Photos of boys in a shop class, unidentified Filipinos, and a display of basketwork.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Baskets.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Philippines</term>
+        <term type="topical">History</term>
+        <term type="temporal">1898-1946.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

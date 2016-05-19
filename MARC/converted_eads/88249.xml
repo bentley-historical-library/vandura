@@ -2,13 +2,46 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Lorenzo Dobson letters</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Lorenzo Dobson letters</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88249 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Dobson</primary_name><rest_of_name>Lorenzo.</rest_of_name></persname></origination><unittitle>Lorenzo Dobson letters</unittitle><unitdate type="inclusive" label="creation">1862-1863</unitdate><physdesc><extent>3 items</extent></physdesc></did><descgrp><acqinfo>Donor: 1333</acqinfo></descgrp><bioghist>Resident of Hillsdale, Michigan.</bioghist><scopecontent>Letters from Antoinette Farmer of Huron County, Ohio, concerning family affairs, sicknesses in the family, and other personal matters.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Huron County (Ohio)</term></subject><persname source="local" encodinganalog="700"><primary_name>Farmer</primary_name><rest_of_name>Antoinette.</rest_of_name></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88249 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Dobson</primary_name>
+          <rest_of_name>Lorenzo.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Lorenzo Dobson letters</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1862-1863</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1333</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Hillsdale, Michigan.</bioghist>
+    <scopecontent>Letters from Antoinette Farmer of Huron County, Ohio, concerning family affairs, sicknesses in the family, and other personal matters.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Huron County (Ohio)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Farmer</primary_name>
+        <rest_of_name>Antoinette.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

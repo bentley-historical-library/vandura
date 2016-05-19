@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Horace G. Snover photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Horace G. Snover photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,41 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93473 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Snover</primary_name><rest_of_name>Horace G.</rest_of_name><fuller_form>(Horace Greeley)</fuller_form><dates>1847-1924</dates></persname></origination><unittitle>Horace G. Snover photograph collection.</unittitle><unitdate type="inclusive" label="creation">1897</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1897.</p></odd></descgrp><bioghist>Republican member of Congress from Michigan, 1895-1899; 1871 graduate of the University of Michigan Law School.</bioghist><scopecontent>Portrait.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Snover</primary_name><rest_of_name>Horace G.</rest_of_name><fuller_form>(Horace Greeley)</fuller_form><dates>1847-1924</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93473 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Snover</primary_name>
+          <rest_of_name>Horace G.</rest_of_name>
+          <fuller_form>(Horace Greeley)</fuller_form>
+          <dates>1847-1924</dates>
+        </persname>
+      </origination>
+      <unittitle>Horace G. Snover photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1897</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1897.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Republican member of Congress from Michigan, 1895-1899; 1871 graduate of the University of Michigan Law School.</bioghist>
+    <scopecontent>Portrait.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Snover</primary_name>
+        <rest_of_name>Horace G.</rest_of_name>
+        <fuller_form>(Horace Greeley)</fuller_form>
+        <dates>1847-1924</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

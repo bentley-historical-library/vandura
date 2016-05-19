@@ -2,13 +2,59 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Herbert A. Milliken scrapbooks</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Herbert A. Milliken scrapbooks</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>07156 Aa</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Milliken</primary_name><rest_of_name>Herbert A.</rest_of_name></persname></origination><unittitle>Herbert A. Milliken scrapbooks</unittitle><langmaterial>In English.</langmaterial><unitdate type="inclusive" label="creation">1888-1911</unitdate><physdesc><extent>2 volumes (in 1 box)</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict><acqinfo>Donor: 9871</acqinfo></descgrp><bioghist>Music teacher and concert violinist from Flint and Bay City, Michigan; director of Bay City Symphony Orchestra; head of violin department, Detroit Conservatory of Music; president of Michigan Music Teachers Association.</bioghist><scopecontent>Scrapbooks contain clippings and programs of concerts.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Scrapbooks.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Music teachers</term><term type="geographic">Michigan.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Milliken</primary_name><rest_of_name>Herbert A.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Bay City Symphony Orchestra</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Detroit Conservatory of Music</primary_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>07156 Aa</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Milliken</primary_name>
+          <rest_of_name>Herbert A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Herbert A. Milliken scrapbooks</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+        <extent altrender="carrier">(in 1 box)</extent>
+      </physdesc>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1888-1911</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 9871</acqinfo>
+    </descgrp>
+    <bioghist>Music teacher and concert violinist from Flint and Bay City, Michigan; director of Bay City Symphony Orchestra; head of violin department, Detroit Conservatory of Music; president of Michigan Music Teachers Association.</bioghist>
+    <scopecontent>Scrapbooks contain clippings and programs of concerts.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Music teachers</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Milliken</primary_name>
+        <rest_of_name>Herbert A.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Bay City Symphony Orchestra</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Detroit Conservatory of Music</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

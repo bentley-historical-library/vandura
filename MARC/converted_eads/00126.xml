@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Louise B. Mast photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Louise B. Mast photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,42 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>00126 UAm</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Mast</primary_name><rest_of_name>Louise B.</rest_of_name></persname></origination><unittitle>Louise B. Mast photograph collection.</unittitle><unitdate type="inclusive" label="creation">1905</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1905.</p></odd><acqinfo>Donor: 9011</acqinfo></descgrp><scopecontent>Photo of University Hospital ward in Ann Arbor, Mich.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="local" encodinganalog="650"><term type="topical">Hospital wards</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>University Hospital</subordinate_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>00126 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Mast</primary_name>
+          <rest_of_name>Louise B.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Louise B. Mast photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1905</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1905.</p>
+      </odd>
+      <acqinfo>Donor: 9011</acqinfo>
+    </descgrp>
+    <scopecontent>Photo of University Hospital ward in Ann Arbor, Mich.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="local" encodinganalog="650">
+        <term type="topical">Hospital wards</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>University Hospital</subordinate_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

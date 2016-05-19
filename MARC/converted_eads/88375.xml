@@ -2,16 +2,77 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Orville P. Convis records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Orville P. Convis records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88375 AC Aa 2</unitid><origination><persname role="col" encodinganalog="100" source="local"><primary_name>Convis</primary_name><rest_of_name>Orville P.</rest_of_name></persname></origination><unittitle>Orville P. Convis records</unittitle><unitdate type="inclusive" label="creation">ca. 1855-ca. 1915</unitdate><physdesc><extent>.2 linear ft. and 3 v. oversize</extent></physdesc><physdesc><extent>4 microfilm reels</extent><physfacet>
-positive.</physfacet></physdesc><physdesc><extent>4 microfilm reels</extent><physfacet>
-master negative.</physfacet></physdesc><physdesc><extent>4 microfilm reels</extent><physfacet>
-print master.</physfacet></physdesc></did><descgrp><acqinfo>Donor: 7196</acqinfo></descgrp><scopecontent>Collected Grand Trunk Railway System records, including miscellaneous locomotive designs and printed material; employment records of the engineers and firemen in the mechanical department, 1855-1904; employment record book for engineers, ca. 1890-1910 (microfilm copy; mf 283); and employment record books, for firemen (1892-1902) and for the mechanical department (1880-1897) in the Chicago Division (based in Battle Creek, Mich.);</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Railroads</term><term type="geographic">Michigan</term><term type="topical">Employees.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Locomotives</term><term type="geographic">Michigan</term><term type="topical">Design and construction.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Strikes and lockouts</term><term type="topical">Railroads</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Battle Creek (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Grand Trunk Railway Company of Canada</primary_name></corpname></controlaccess><container label="Box" type="box">1</container><container label="Volume" type="volume">1</container><container label="Volume" type="volume">2</container><container label="Volume" type="volume">3</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88375 AC Aa 2</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local">
+          <primary_name>Convis</primary_name>
+          <rest_of_name>Orville P.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Orville P. Convis records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4 microfilms</extent>
+        <physfacet>
+print master.</physfacet>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4 microfilms</extent>
+        <physfacet>
+master negative.</physfacet>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4 microfilms</extent>
+        <physfacet>
+positive.</physfacet>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1855-ca. 1915</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7196</acqinfo>
+    </descgrp>
+    <scopecontent>Collected Grand Trunk Railway System records, including miscellaneous locomotive designs and printed material; employment records of the engineers and firemen in the mechanical department, 1855-1904; employment record book for engineers, ca. 1890-1910 (microfilm copy; mf 283); and employment record books, for firemen (1892-1902) and for the mechanical department (1880-1897) in the Chicago Division (based in Battle Creek, Mich.);</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Railroads</term>
+        <term type="geographic">Michigan</term>
+        <term type="topical">Employees.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Locomotives</term>
+        <term type="geographic">Michigan</term>
+        <term type="topical">Design and construction.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Strikes and lockouts</term>
+        <term type="topical">Railroads</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Battle Creek (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Grand Trunk Railway Company of Canada</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+    <container label="Volume" type="volume">3</container>
+  </archdesc>
 </ead>

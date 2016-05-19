@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Lionel Van Kersen student notebook, 1930.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Lionel Van Kersen student notebook, 1930.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,36 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>89387 BImu C34</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Van Kersen</primary_name><rest_of_name>Lionel.</rest_of_name></persname></origination><unittitle>Lionel Van Kersen student notebook, 1930.</unittitle><unitdate>[No date provided]</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 2434</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Notes on the lectures of Bruce M. Donaldson in the department of fine arts.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Donaldson</primary_name><rest_of_name>Bruce McNaughton</rest_of_name><dates>1891-1940</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Student notebooks.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>89387 BImu C34</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Van Kersen</primary_name>
+          <rest_of_name>Lionel.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Lionel Van Kersen student notebook, 1930.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate>[No date provided]</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2434</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Notes on the lectures of Bruce M. Donaldson in the department of fine arts.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Donaldson</primary_name>
+        <rest_of_name>Bruce McNaughton</rest_of_name>
+        <dates>1891-1940</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

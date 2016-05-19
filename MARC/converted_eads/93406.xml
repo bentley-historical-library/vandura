@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Eliott F. Grabill photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Eliott F. Grabill photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,40 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93406 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Grabill</primary_name><rest_of_name>Eliott F.</rest_of_name><dates>b. 1837</dates></persname></origination><unittitle>Eliott F. Grabill photograph collection.</unittitle><unitdate type="inclusive" label="creation">1898</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1898.</p></odd><acqinfo>Donor: 3442</acqinfo></descgrp><bioghist>Publisher of the Greenville (Michigan) Independent.</bioghist><scopecontent>Portrait.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Grabill</primary_name><rest_of_name>Eliott F.</rest_of_name><dates>b. 1837</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93406 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Grabill</primary_name>
+          <rest_of_name>Eliott F.</rest_of_name>
+          <dates>b. 1837</dates>
+        </persname>
+      </origination>
+      <unittitle>Eliott F. Grabill photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1898</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1898.</p>
+      </odd>
+      <acqinfo>Donor: 3442</acqinfo>
+    </descgrp>
+    <bioghist>Publisher of the Greenville (Michigan) Independent.</bioghist>
+    <scopecontent>Portrait.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Grabill</primary_name>
+        <rest_of_name>Eliott F.</rest_of_name>
+        <dates>b. 1837</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

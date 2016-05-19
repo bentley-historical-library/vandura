@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Anonymous University of Michigan campus snapshots.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Anonymous University of Michigan campus snapshots.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,31 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>0427 UAs</unitid><unittitle>Anonymous University of Michigan campus snapshots.</unittitle><unitdate type="inclusive" label="creation">1940s</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1940s.</p></odd><acqinfo>Donor: 9309</acqinfo></descgrp><scopecontent>Views of the University of Michigan campus and buildings.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Buildings.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>0427 UAs</unitid>
+      <unittitle>Anonymous University of Michigan campus snapshots.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1940s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1940s.</p>
+      </odd>
+      <acqinfo>Donor: 9309</acqinfo>
+    </descgrp>
+    <scopecontent>Views of the University of Michigan campus and buildings.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Buildings.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

@@ -2,13 +2,51 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Caroline Pattengill paper</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Caroline Pattengill paper</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851988 AA</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Pattengill</primary_name><rest_of_name>Caroline</rest_of_name><dates>1877-1962</dates></persname></origination><unittitle>Caroline Pattengill paper</unittitle><unitdate type="inclusive" label="creation">1938</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 3455</acqinfo></descgrp><scopecontent>Manuscript biography of Elisha Jones, professor of Latin at the University of Michigan.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Jones</primary_name><rest_of_name>Elisha</rest_of_name><dates>1832-1888</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Ann Arbor High School (Mich.)</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Dept. of Classical Studies</subordinate_name></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851988 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Pattengill</primary_name>
+          <rest_of_name>Caroline</rest_of_name>
+          <dates>1877-1962</dates>
+        </persname>
+      </origination>
+      <unittitle>Caroline Pattengill paper</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1938</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3455</acqinfo>
+    </descgrp>
+    <scopecontent>Manuscript biography of Elisha Jones, professor of Latin at the University of Michigan.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Jones</primary_name>
+        <rest_of_name>Elisha</rest_of_name>
+        <dates>1832-1888</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ann Arbor High School (Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of Classical Studies</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

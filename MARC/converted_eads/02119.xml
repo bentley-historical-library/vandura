@@ -2,13 +2,73 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Luther B. Wolcott collection</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Luther B. Wolcott collection</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>02119 AA</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Wolcott</primary_name><rest_of_name>Luther B.</rest_of_name><dates>1836-1928</dates></persname></origination><unittitle>Luther B. Wolcott collection</unittitle><unitdate type="inclusive" label="creation">ca. 1905-1940</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 3755</acqinfo></descgrp><bioghist>Secretary of the 18th Michigan Volunteer Infantry Association. (Name sometimes spelled Walcott or Woolcott.)</bioghist><scopecontent>Copy of the 18th Infantry volume of Record of Service of Michigan Volunteers in the Civil War, with Wolcott's corrections and annotations of death dates and burial sites, also newspaper clippings relating to veterans of the 18th Infantry pasted in. (Some annotations were added after Wolcott's death by his daughter, Blanch, and by Jack Northrup).</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865</term><term type="topical">Regimental histories.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865</term><term type="topical">Registers.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Michigan</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865</term><term type="topical">Regimental histories.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Michigan</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865</term><term type="topical">Registers.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Army</subordinate_name><subordinate_name>Michigan Infantry Regiment, 18th (1862-1865)</subordinate_name><term type="genre_form">Registers.</term></corpname><corpname source="local" encodinganalog="710"><primary_name>18th Michigan Volunteer Infantry Association</primary_name></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>02119 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Wolcott</primary_name>
+          <rest_of_name>Luther B.</rest_of_name>
+          <dates>1836-1928</dates>
+        </persname>
+      </origination>
+      <unittitle>Luther B. Wolcott collection</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1905-1940</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3755</acqinfo>
+    </descgrp>
+    <bioghist>Secretary of the 18th Michigan Volunteer Infantry Association. (Name sometimes spelled Walcott or Woolcott.)</bioghist>
+    <scopecontent>Copy of the 18th Infantry volume of Record of Service of Michigan Volunteers in the Civil War, with Wolcott's corrections and annotations of death dates and burial sites, also newspaper clippings relating to veterans of the 18th Infantry pasted in. (Some annotations were added after Wolcott's death by his daughter, Blanch, and by Jack Northrup).</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865</term>
+        <term type="topical">Regimental histories.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865</term>
+        <term type="topical">Registers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865</term>
+        <term type="topical">Regimental histories.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865</term>
+        <term type="topical">Registers.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 18th (1862-1865)</subordinate_name>
+        <term type="genre_form">Registers.</term>
+      </corpname>
+      <corpname source="local" encodinganalog="710">
+        <primary_name>18th Michigan Volunteer Infantry Association</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

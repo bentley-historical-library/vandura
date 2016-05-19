@@ -2,13 +2,57 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the John Henry Grant papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the John Henry Grant papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851328 AA Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Grant</primary_name><rest_of_name>John Henry</rest_of_name><dates>1857-1913</dates></persname></origination><unittitle>John Henry Grant papers</unittitle><unitdate type="inclusive" label="creation">1896 and 1901-1913</unitdate><physdesc><extent>4 items and 1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 889</acqinfo></descgrp><bioghist>Manistee, Michigan, attorney.</bioghist><scopecontent>Correspondence, newspaper clippings, and account book, 1901-1913.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Account books.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Judges</term><term type="geographic">Michigan</term><term type="geographic">Manistee.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Lawyers</term><term type="geographic">Michigan</term><term type="geographic">Manistee.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Manistee (Mich.)</term></subject></controlaccess><container label="Folder" type="folder">1</container><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851328 AA Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Grant</primary_name>
+          <rest_of_name>John Henry</rest_of_name>
+          <dates>1857-1913</dates>
+        </persname>
+      </origination>
+      <unittitle>John Henry Grant papers</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">4 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1896 and 1901-1913</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 889</acqinfo>
+    </descgrp>
+    <bioghist>Manistee, Michigan, attorney.</bioghist>
+    <scopecontent>Correspondence, newspaper clippings, and account book, 1901-1913.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Account books.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Judges</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Manistee.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Lawyers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Manistee.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Manistee (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

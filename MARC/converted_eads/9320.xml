@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Corydon L. Ford [graphic] / Western Publishing &amp; Engraving Co.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Corydon L. Ford [graphic] / Western Publishing &amp; Engraving Co.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,6 +12,39 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>9320 UBBs</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>Western Publishing &amp; Engraving Company</primary_name></corpname></origination><unittitle>Corydon L. Ford [graphic] / Western Publishing &amp; Engraving Co.</unittitle><unitdate type="inclusive" label="creation">[18--]</unitdate><physdesc><extent>1 print</extent><physfacet>
-engraving</physfacet><dimensions>image 11 x 10 cm.</dimensions></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>[S.l.] : Western Publishing &amp; Engraving Co., [18--].</p></odd></descgrp><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Prints.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Ford</primary_name><rest_of_name>Corydon L.</rest_of_name><fuller_form>(Corydon La)</fuller_form><dates>1813-1894</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>9320 UBBs</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>Western Publishing &amp; Engraving Company</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Corydon L. Ford [graphic] / Western Publishing &amp; Engraving Co.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 prints</extent>
+        <physfacet>
+engraving</physfacet>
+        <dimensions>image 11 x 10 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[18--]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[S.l.] : Western Publishing &amp; Engraving Co., [18--].</p>
+      </odd>
+    </descgrp>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Ford</primary_name>
+        <rest_of_name>Corydon L.</rest_of_name>
+        <fuller_form>(Corydon La)</fuller_form>
+        <dates>1813-1894</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

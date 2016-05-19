@@ -2,13 +2,58 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Francis L. York student notebook, [between 1878 and 1883]</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Francis L. York student notebook, [between 1878 and 1883]</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>9812 AA</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>York</primary_name><rest_of_name>Francis L.</rest_of_name></persname></origination><unittitle>Francis L. York student notebook, [between 1878 and 1883]</unittitle><unitdate>[No date provided]</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 8681</acqinfo></descgrp><bioghist>Graduate of the University of Michigan (B.A. 1882, M.A. 1883), composer, dean of Detroit Conservatory of Music.</bioghist><scopecontent>Student notebook identified as including notes on art lectures of Prof. Frieze and psychology lectures of Prof. Cocker.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>York</primary_name><rest_of_name>Francis L.</rest_of_name></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Frieze</primary_name><rest_of_name>Henry S.</rest_of_name><fuller_form>(Henry Simmons)</fuller_form><dates>1817-1889</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Cocker</primary_name><rest_of_name>B. F.</rest_of_name><dates>1821-1883</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Student notebooks.</term></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9812 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>York</primary_name>
+          <rest_of_name>Francis L.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Francis L. York student notebook, [between 1878 and 1883]</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate>[No date provided]</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 8681</acqinfo>
+    </descgrp>
+    <bioghist>Graduate of the University of Michigan (B.A. 1882, M.A. 1883), composer, dean of Detroit Conservatory of Music.</bioghist>
+    <scopecontent>Student notebook identified as including notes on art lectures of Prof. Frieze and psychology lectures of Prof. Cocker.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>York</primary_name>
+        <rest_of_name>Francis L.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Frieze</primary_name>
+        <rest_of_name>Henry S.</rest_of_name>
+        <fuller_form>(Henry Simmons)</fuller_form>
+        <dates>1817-1889</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cocker</primary_name>
+        <rest_of_name>B. F.</rest_of_name>
+        <dates>1821-1883</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

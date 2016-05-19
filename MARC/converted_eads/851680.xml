@@ -2,13 +2,51 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the James H. Lewis letter</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the James H. Lewis letter</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851680 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Lewis</primary_name><rest_of_name>James H.</rest_of_name></persname></origination><unittitle>James H. Lewis letter</unittitle><unitdate type="inclusive" label="creation">1864</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 2949</acqinfo></descgrp><bioghist>Resident of Wayne, Michigan.</bioghist><scopecontent>Letter from James W. Platt describing mining and general conditions in Virginia City, Montana.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Mines and mineral resources</term><term type="geographic">Montana</term><term type="geographic">Virginia City.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Virginia City (Mont.)</term></subject><persname source="local" encodinganalog="700"><primary_name>Platt</primary_name><rest_of_name>James W.</rest_of_name></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851680 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Lewis</primary_name>
+          <rest_of_name>James H.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>James H. Lewis letter</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1864</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2949</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Wayne, Michigan.</bioghist>
+    <scopecontent>Letter from James W. Platt describing mining and general conditions in Virginia City, Montana.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Mines and mineral resources</term>
+        <term type="geographic">Montana</term>
+        <term type="geographic">Virginia City.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Virginia City (Mont.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Platt</primary_name>
+        <rest_of_name>James W.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

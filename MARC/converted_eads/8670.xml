@@ -2,13 +2,57 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Maurice Sugar correspondence</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Maurice Sugar correspondence</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>8670 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Sugar</primary_name><rest_of_name>Maurice</rest_of_name><dates>1891-1974</dates></persname></origination><unittitle>Maurice Sugar correspondence</unittitle><unitdate type="inclusive" label="creation">1923, 1931, 1937-1939</unitdate><physdesc><extent>13 items</extent></physdesc></did><descgrp><acqinfo>Donor: 4190</acqinfo></descgrp><bioghist>Detroit, Michigan labor attorney.</bioghist><scopecontent>Office correspondence, including letter, 1937, accusing Michigan governor, Frank Murphy of making an anti-labor speech.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Labor unions</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Lawyers</term><term type="geographic">Michigan</term><term type="geographic">Detroit.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Detroit (Mich.)</term></subject><persname source="local" encodinganalog="700"><primary_name>Murphy</primary_name><rest_of_name>Frank</rest_of_name><dates>1890-1949</dates></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8670 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Sugar</primary_name>
+          <rest_of_name>Maurice</rest_of_name>
+          <dates>1891-1974</dates>
+        </persname>
+      </origination>
+      <unittitle>Maurice Sugar correspondence</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">13 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1923, 1931, 1937-1939</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4190</acqinfo>
+    </descgrp>
+    <bioghist>Detroit, Michigan labor attorney.</bioghist>
+    <scopecontent>Office correspondence, including letter, 1937, accusing Michigan governor, Frank Murphy of making an anti-labor speech.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Labor unions</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Lawyers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Murphy</primary_name>
+        <rest_of_name>Frank</rest_of_name>
+        <dates>1890-1949</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

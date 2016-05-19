@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Willow Run Laboratories (University of Michigan) photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Willow Run Laboratories (University of Michigan) photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,40 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>0477 UBImul C540</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Willow Run Laboratories</primary_name></corpname></origination><unittitle>Willow Run Laboratories (University of Michigan) photograph collection.</unittitle><unitdate type="inclusive" label="creation">1950s</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1950s.</p></odd></descgrp><scopecontent>Aerial photographs of Willow Run Airport east taxiway and buildings occupied by Willow Run Laboratories.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Aerial photographs.</term></subject><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Willow Run Laboratories</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Willow Run Airport (Mich.)</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>0477 UBImul C540</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Willow Run Laboratories</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Willow Run Laboratories (University of Michigan) photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1950s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1950s.</p>
+      </odd>
+    </descgrp>
+    <scopecontent>Aerial photographs of Willow Run Airport east taxiway and buildings occupied by Willow Run Laboratories.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Aerial photographs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Willow Run Laboratories</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Willow Run Airport (Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

@@ -2,13 +2,55 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the St. Mark's Episcopal Church, Detroit, Mich., records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the St. Mark's Episcopal Church, Detroit, Mich., records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0625 Ba 2</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>St. Mark's Episcopal Church (Detroit, Mich. : 1897-1923)</primary_name></corpname></origination><unittitle>St. Mark's Episcopal Church, Detroit, Mich., records</unittitle><unitdate type="inclusive" label="creation">1898-1924</unitdate><physdesc><extent>0.1 linear ft</extent></physdesc></did><descgrp><acqinfo>Donor: 1059</acqinfo></descgrp><bioghist>Located at Thaddeus St. and West End Ave. in Detroit, St. Mark's merged with Church of the Ascension in 1923.</bioghist><scopecontent>Register of baptisms, confirmations, communicants, marriages, and burials, 1898-1911 (with some gaps); vestry minutes, 1923-1924.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Registers of births, etc.</term><term type="geographic">Michigan</term><term type="geographic">Detroit.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Detroit (Mich.)</term><term type="topical">Church history.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>St. Mark's Episcopal Church (Detroit, Mich. : 1897-1923)</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Episcopal Church</primary_name><term type="geographic">Michigan</term><term type="geographic">Detroit.</term></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0625 Ba 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>St. Mark's Episcopal Church (Detroit, Mich. : 1897-1923)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>St. Mark's Episcopal Church, Detroit, Mich., records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">0.1 linear ft</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1898-1924</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1059</acqinfo>
+    </descgrp>
+    <bioghist>Located at Thaddeus St. and West End Ave. in Detroit, St. Mark's merged with Church of the Ascension in 1923.</bioghist>
+    <scopecontent>Register of baptisms, confirmations, communicants, marriages, and burials, 1898-1911 (with some gaps); vestry minutes, 1923-1924.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Registers of births, etc.</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+        <term type="topical">Church history.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>St. Mark's Episcopal Church (Detroit, Mich. : 1897-1923)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Episcopal Church</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

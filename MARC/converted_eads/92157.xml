@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Freemasons photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Freemasons photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,41 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92157 UBDm</unitid><unittitle>Freemasons photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1920s</unitdate><physdesc><extent>1 oversize folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1920s.</p></odd></descgrp><scopecontent>Group portraits of Freemasons from Grand Rapids and Jackson, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Bands.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Uniforms.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Freemasons</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Knights Templar (Masonic order)</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Saladin Temple Band (Grand Rapids, Mich.)</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92157 UBDm</unitid>
+      <unittitle>Freemasons photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1920s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1920s.</p>
+      </odd>
+    </descgrp>
+    <scopecontent>Group portraits of Freemasons from Grand Rapids and Jackson, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Bands.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Uniforms.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Freemasons</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Knights Templar (Masonic order)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Saladin Temple Band (Grand Rapids, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

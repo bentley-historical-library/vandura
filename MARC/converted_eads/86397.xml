@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Grace L. Hooper manuscript history</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Grace L. Hooper manuscript history</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,6 +12,36 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>86397 AA microcopy</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Hooper</primary_name><rest_of_name>Grace L.</rest_of_name></persname></origination><unittitle>Grace L. Hooper manuscript history</unittitle><unitdate type="inclusive" label="creation">undated</unitdate><physdesc><extent>1 reel microfilm</extent><physfacet>
-negative.</physfacet></physdesc></did><descgrp><originalsloc>Original in possession of Mrs. Josephine Brokaw, Ann Arbor, Michigan.</originalsloc><acqinfo>Donor: 5222</acqinfo></descgrp><bioghist>Reporter for the C̲e̲ṉṯṟa̲ḻ Ḻa̲ḵe̲ Ṯo̲ṟc̲ẖ (Antrim County, Michigan).</bioghist><scopecontent>Biographical history of Antrim County, Michigan.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="630"><term type="uniform_title">Central Lake torch.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Antrim County (Mich.)</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>86397 AA microcopy</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Hooper</primary_name>
+          <rest_of_name>Grace L.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Grace L. Hooper manuscript history</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
+        <physfacet>
+negative.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">undated</unitdate>
+    </did>
+    <descgrp>
+      <originalsloc>Original in possession of Mrs. Josephine Brokaw, Ann Arbor, Michigan.</originalsloc>
+      <acqinfo>Donor: 5222</acqinfo>
+    </descgrp>
+    <bioghist>Reporter for the C̲e̲ṉṯṟa̲ḻ Ḻa̲ḵe̲ Ṯo̲ṟc̲ẖ (Antrim County, Michigan).</bioghist>
+    <scopecontent>Biographical history of Antrim County, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="630">
+        <term type="uniform_title">Central Lake torch.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Antrim County (Mich.)</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

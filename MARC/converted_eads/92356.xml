@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Thomas Johnson photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Thomas Johnson photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,64 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92356 UAs UAm</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Johnson</primary_name><rest_of_name>Thomas.</rest_of_name></persname></origination><unittitle>Thomas Johnson photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1901-1904</unitdate><physdesc><extent>1 folder and 1 outsize folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1901-1904.</p></odd><acqinfo>Donor: 7679, 8402</acqinfo></descgrp><bioghist>1901 graduate of Ann Arbor (Mich.) High School and graduate of University of Michigan Law School, class of 1904.</bioghist><scopecontent>Photos of the high school and its football and basketball teams; also ephemera. Group photos of the Law Class of 1904, the Wolverine Club, and the University of Michigan football team.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Johnson</primary_name><rest_of_name>Thomas.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Ann Arbor High School (Mich.)</primary_name><term type="topical">Basketball.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Ann Arbor High School (Mich.)</primary_name><term type="topical">Football.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Football.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Dept. of Law</subordinate_name><subordinate_name>Class of 1904</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1901-1910.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Wolverine Club (University of Michigan)</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92356 UAs UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Johnson</primary_name>
+          <rest_of_name>Thomas.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Thomas Johnson photograph collection.</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1901-1904</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1901-1904.</p>
+      </odd>
+      <acqinfo>Donor: 7679, 8402</acqinfo>
+    </descgrp>
+    <bioghist>1901 graduate of Ann Arbor (Mich.) High School and graduate of University of Michigan Law School, class of 1904.</bioghist>
+    <scopecontent>Photos of the high school and its football and basketball teams; also ephemera. Group photos of the Law Class of 1904, the Wolverine Club, and the University of Michigan football team.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Johnson</primary_name>
+        <rest_of_name>Thomas.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ann Arbor High School (Mich.)</primary_name>
+        <term type="topical">Basketball.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ann Arbor High School (Mich.)</primary_name>
+        <term type="topical">Football.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Football.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of Law</subordinate_name>
+        <subordinate_name>Class of 1904</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Wolverine Club (University of Michigan)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

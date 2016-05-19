@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Woodruff family photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Woodruff family photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,43 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>037 UAs</unitid><origination><famname encodinganalog="100" source="local"><family_name>Woodruff family</family_name></famname></origination><unittitle>Woodruff family photograph collection.</unittitle><unitdate type="inclusive" label="creation">[18--]</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>[18--]</p></odd><acqinfo>Donor: 9284</acqinfo></descgrp><bioghist>Residents of New York state and Washtenaw County, Mich.</bioghist><scopecontent>Modern copies of photographic portraits of Benjamin Woodruff and his wife Freelove Sanford Woodruff.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Woodruff</primary_name><rest_of_name>Benjamin</rest_of_name><dates>1783-1874</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Woodruff</primary_name><rest_of_name>Freelove Sanford</rest_of_name><dates>1783-1867</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>037 UAs</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local">
+          <family_name>Woodruff family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Woodruff family photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[18--]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[18--]</p>
+      </odd>
+      <acqinfo>Donor: 9284</acqinfo>
+    </descgrp>
+    <bioghist>Residents of New York state and Washtenaw County, Mich.</bioghist>
+    <scopecontent>Modern copies of photographic portraits of Benjamin Woodruff and his wife Freelove Sanford Woodruff.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Woodruff</primary_name>
+        <rest_of_name>Benjamin</rest_of_name>
+        <dates>1783-1874</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Woodruff</primary_name>
+        <rest_of_name>Freelove Sanford</rest_of_name>
+        <dates>1783-1867</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

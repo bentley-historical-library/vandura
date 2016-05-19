@@ -2,13 +2,63 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Henne &amp; Stanger business records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Henne &amp; Stanger business records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0136 BB</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Henne &amp; Stanger</primary_name></corpname></origination><unittitle>Henne &amp; Stanger business records</unittitle><unitdate type="inclusive" label="creation">1905-1913</unitdate><physdesc><extent>4 v</extent></physdesc></did><descgrp><acqinfo>Donor: 3459</acqinfo></descgrp><bioghist>Ann Arbor, Michigan, furniture, carpet, and drapery store.</bioghist><scopecontent>Daybooks, 1905-1908, and business ledger, 1907-1913.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Business records.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term><term type="topical">Commerce.</term></subject><persname source="local" encodinganalog="700"><primary_name>Henne</primary_name><rest_of_name>Samuel.</rest_of_name></persname><persname source="local" encodinganalog="700"><primary_name>Henne</primary_name><rest_of_name>William G.</rest_of_name></persname><persname source="local" encodinganalog="700"><primary_name>Stanger</primary_name><rest_of_name>Nathaniel.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Henne &amp; Stanger</primary_name></corpname></controlaccess><container label="Oversize Volume" type="volume">1</container><container label="Oversize Volume" type="volume">2</container><container label="Oversize Volume" type="volume">3</container><container label="Oversize Volume" type="volume">4</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0136 BB</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Henne &amp; Stanger</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Henne &amp; Stanger business records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1905-1913</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3459</acqinfo>
+    </descgrp>
+    <bioghist>Ann Arbor, Michigan, furniture, carpet, and drapery store.</bioghist>
+    <scopecontent>Daybooks, 1905-1908, and business ledger, 1907-1913.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+        <term type="topical">Commerce.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Henne</primary_name>
+        <rest_of_name>Samuel.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Henne</primary_name>
+        <rest_of_name>William G.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Stanger</primary_name>
+        <rest_of_name>Nathaniel.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Henne &amp; Stanger</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Oversize Volume" type="volume">1</container>
+    <container label="Oversize Volume" type="volume">2</container>
+    <container label="Oversize Volume" type="volume">3</container>
+    <container label="Oversize Volume" type="volume">4</container>
+  </archdesc>
 </ead>

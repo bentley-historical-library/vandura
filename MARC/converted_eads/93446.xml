@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Miriam Heideman Krarup photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Miriam Heideman Krarup photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,38 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93446 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Krarup</primary_name><rest_of_name>Miriam Heideman.</rest_of_name></persname></origination><unittitle>Miriam Heideman Krarup photograph collection.</unittitle><unitdate type="inclusive" label="creation">1920s?</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1920s?</p></odd><acqinfo>Donor: 4048</acqinfo></descgrp><bioghist>Poet, originally from Calumet, Michigan and later a resident of Inkster, Michigan.</bioghist><scopecontent>Snapshot portraits (copy prints)</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Krarup</primary_name><rest_of_name>Miriam Heideman.</rest_of_name></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93446 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Krarup</primary_name>
+          <rest_of_name>Miriam Heideman.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Miriam Heideman Krarup photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1920s?</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1920s?</p>
+      </odd>
+      <acqinfo>Donor: 4048</acqinfo>
+    </descgrp>
+    <bioghist>Poet, originally from Calumet, Michigan and later a resident of Inkster, Michigan.</bioghist>
+    <scopecontent>Snapshot portraits (copy prints)</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Krarup</primary_name>
+        <rest_of_name>Miriam Heideman.</rest_of_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

@@ -2,13 +2,56 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Frederick George Novy, Jr. papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Frederick George Novy, Jr. papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>8979 Aa 2</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Novy</primary_name><rest_of_name>Frederick George</rest_of_name><dates>1902-</dates></persname></origination><unittitle>Frederick George Novy, Jr. papers</unittitle><unitdate type="inclusive" label="creation">1934-1954</unitdate><physdesc><extent>0.3 linear ft</extent></physdesc></did><descgrp><acqinfo>Donor: 3348</acqinfo></descgrp><bioghist>Physician.</bioghist><scopecontent>Letters written from his parents, University of Michigan bacteriologist, Frederick G. Novy and wife, Grace Garwood Novy, concerning personal and family matters, and life in the university community.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term></subject><persname source="local" encodinganalog="700"><primary_name>Novy</primary_name><rest_of_name>Grace Garwood.</rest_of_name></persname><persname source="local" encodinganalog="700"><primary_name>Novy</primary_name><rest_of_name>Frederick G.</rest_of_name><fuller_form>(Frederick George)</fuller_form><dates>1864-1957</dates></persname><famname source="lcnaf" encodinganalog="600"><family_name>Novey family</family_name></famname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8979 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Novy</primary_name>
+          <rest_of_name>Frederick George</rest_of_name>
+          <dates>1902-</dates>
+        </persname>
+      </origination>
+      <unittitle>Frederick George Novy, Jr. papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">0.3 linear ft</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1934-1954</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3348</acqinfo>
+    </descgrp>
+    <bioghist>Physician.</bioghist>
+    <scopecontent>Letters written from his parents, University of Michigan bacteriologist, Frederick G. Novy and wife, Grace Garwood Novy, concerning personal and family matters, and life in the university community.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Novy</primary_name>
+        <rest_of_name>Grace Garwood.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Novy</primary_name>
+        <rest_of_name>Frederick G.</rest_of_name>
+        <fuller_form>(Frederick George)</fuller_form>
+        <dates>1864-1957</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Novey family</family_name>
+      </famname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

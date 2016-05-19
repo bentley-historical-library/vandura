@@ -2,13 +2,49 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Mundy Presbyterian Church records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Mundy Presbyterian Church records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86926 BA</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Mundy Presbyterian Church (Swartz Creek, Mich.)</primary_name></corpname></origination><unittitle>Mundy Presbyterian Church records</unittitle><unitdate type="inclusive" label="creation">1844-1887</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 2130</acqinfo></descgrp><bioghist>Formerly First Presbyterian Church of Mt. Pleasant, Genesee County, Michigan.</bioghist><scopecontent>Minutes and membership roll.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Rankin (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Presbyterian Church in the U.S.A</primary_name><term type="geographic">Michigan</term><term type="geographic">Rankin.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Mundy Presbyterian Church (Swartz Creek, Mich.)</primary_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86926 BA</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Mundy Presbyterian Church (Swartz Creek, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Mundy Presbyterian Church records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1844-1887</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2130</acqinfo>
+    </descgrp>
+    <bioghist>Formerly First Presbyterian Church of Mt. Pleasant, Genesee County, Michigan.</bioghist>
+    <scopecontent>Minutes and membership roll.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Rankin (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Presbyterian Church in the U.S.A</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Rankin.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Mundy Presbyterian Church (Swartz Creek, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

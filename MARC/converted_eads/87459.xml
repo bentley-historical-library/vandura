@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Ann Arbor, Michigan, land certificate</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Ann Arbor, Michigan, land certificate</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,32 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>87459 Cc Outsize</unitid><unittitle>Ann Arbor, Michigan, land certificate</unittitle><unitdate type="inclusive" label="creation">March 7, 1825</unitdate><physdesc><extent>1 oversize item</extent></physdesc></did><descgrp><acqinfo>Donor: 5515</acqinfo></descgrp><scopecontent>Certificate of land registered to John Allen and Elisha Rumsey for sections of present-day Ann Arbor, Michigan.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Allen</primary_name><rest_of_name>John</rest_of_name><dates>1796-1851</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Rumsey</primary_name><rest_of_name>Elisha W.</rest_of_name></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>87459 Cc Outsize</unitid>
+      <unittitle>Ann Arbor, Michigan, land certificate</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 oversize items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">March 7, 1825</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5515</acqinfo>
+    </descgrp>
+    <scopecontent>Certificate of land registered to John Allen and Elisha Rumsey for sections of present-day Ann Arbor, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Allen</primary_name>
+        <rest_of_name>John</rest_of_name>
+        <dates>1796-1851</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rumsey</primary_name>
+        <rest_of_name>Elisha W.</rest_of_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

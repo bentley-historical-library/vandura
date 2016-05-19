@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Durand, Michigan photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Durand, Michigan photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,35 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>921 UCCs</unitid><unittitle>Durand, Michigan photograph collection.</unittitle><unitdate type="inclusive" label="creation">[191-?]</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>[191-?].</p></odd></descgrp><scopecontent>Photo of the railroad depot in Durand, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Railroad stations</term><term type="geographic">Michigan</term><term type="geographic">Durand.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Durand (Mich.)</term><term type="topical">Railroad stations.</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>921 UCCs</unitid>
+      <unittitle>Durand, Michigan photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[191-?]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[191-?].</p>
+      </odd>
+    </descgrp>
+    <scopecontent>Photo of the railroad depot in Durand, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Railroad stations</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Durand.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Durand (Mich.)</term>
+        <term type="topical">Railroad stations.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

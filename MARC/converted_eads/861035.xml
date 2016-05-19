@@ -2,13 +2,56 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Richard A. Grow paper</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Richard A. Grow paper</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>861035 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Grow</primary_name><rest_of_name>Richard A.</rest_of_name><dates>1906-</dates></persname></origination><unittitle>Richard A. Grow paper</unittitle><unitdate type="inclusive" label="creation">1985</unitdate><physdesc><extent>1 item (26 p.)</extent></physdesc></did><descgrp><acqinfo>Donor: 7289</acqinfo></descgrp><scopecontent>Grow family history, reminiscences of life in Greenville and Alma, Michigan, and description of travels in the West during the 1920s.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Voyages and travels.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Alma (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Greenville (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">West (U.S.)</term><term type="topical">Description and travel.</term></subject><famname source="lcnaf" encodinganalog="600"><family_name>Grow Family</family_name></famname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>861035 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Grow</primary_name>
+          <rest_of_name>Richard A.</rest_of_name>
+          <dates>1906-</dates>
+        </persname>
+      </origination>
+      <unittitle>Richard A. Grow paper</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+        <physfacet>26 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1985</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7289</acqinfo>
+    </descgrp>
+    <scopecontent>Grow family history, reminiscences of life in Greenville and Alma, Michigan, and description of travels in the West during the 1920s.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Alma (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Greenville (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">West (U.S.)</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Grow Family</family_name>
+      </famname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

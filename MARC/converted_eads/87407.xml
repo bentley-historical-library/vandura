@@ -2,13 +2,46 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the J. Leo Aikman letter</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the J. Leo Aikman letter</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>87407 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Aikman</primary_name><rest_of_name>J. Leo.</rest_of_name></persname></origination><unittitle>J. Leo Aikman letter</unittitle><unitdate type="inclusive" label="creation">July 18, 1935</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp/><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Letter from Senator Arthur Vandenberg regarding the legislative movement to make Isle Royale a national park.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Isle Royale (Mich.)</term></subject><persname source="local" encodinganalog="700"><primary_name>Vandenberg</primary_name><rest_of_name>Arthur H.</rest_of_name><fuller_form>(Arthur Hendrick)</fuller_form><dates>1884-1951</dates></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87407 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Aikman</primary_name>
+          <rest_of_name>J. Leo.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>J. Leo Aikman letter</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">July 18, 1935</unitdate>
+    </did>
+    <descgrp/>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Letter from Senator Arthur Vandenberg regarding the legislative movement to make Isle Royale a national park.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Isle Royale (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Vandenberg</primary_name>
+        <rest_of_name>Arthur H.</rest_of_name>
+        <fuller_form>(Arthur Hendrick)</fuller_form>
+        <dates>1884-1951</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

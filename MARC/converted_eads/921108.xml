@@ -2,13 +2,69 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Ann Arbor Historical Foundation records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Ann Arbor Historical Foundation records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>921108 Bp 2</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Ann Arbor Historical Foundation</primary_name></corpname></origination><unittitle>Ann Arbor Historical Foundation records</unittitle><unitdate type="inclusive" label="creation">1969-2013</unitdate><physdesc><extent>0.6 linear feet</extent></physdesc></did><descgrp><acqinfo>Donor: 8058</acqinfo></descgrp><bioghist>Organization created to support historical, architectural, and community preservation in Ann Arbor, Michigan.</bioghist><scopecontent>Correspondence, minutes, reports, etc.; also project report (2009) from the Historic Preservation Program at Eastern Michigan University relating to the architectural career of Robert C. Metcalf; and edited version of published history of the Ann Arbor Police Department.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Architecture</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Historic buildings</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Historic preservation</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Metcalf</primary_name><rest_of_name>Robert Clarence</rest_of_name><dates>1923-</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Ann Arbor (Mich.)</primary_name><subordinate_name>Police Department</subordinate_name><term type="topical">History.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Ann Arbor Historical Foundation</primary_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>921108 Bp 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Ann Arbor Historical Foundation</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Ann Arbor Historical Foundation records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">0.6 linear feet</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1969-2013</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 8058</acqinfo>
+    </descgrp>
+    <bioghist>Organization created to support historical, architectural, and community preservation in Ann Arbor, Michigan.</bioghist>
+    <scopecontent>Correspondence, minutes, reports, etc.; also project report (2009) from the Historic Preservation Program at Eastern Michigan University relating to the architectural career of Robert C. Metcalf; and edited version of published history of the Ann Arbor Police Department.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Architecture</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Historic buildings</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Historic preservation</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Metcalf</primary_name>
+        <rest_of_name>Robert Clarence</rest_of_name>
+        <dates>1923-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ann Arbor (Mich.)</primary_name>
+        <subordinate_name>Police Department</subordinate_name>
+        <term type="topical">History.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ann Arbor Historical Foundation</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

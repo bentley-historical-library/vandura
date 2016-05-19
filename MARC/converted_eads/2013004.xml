@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Malinda Berry Orlin photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Malinda Berry Orlin photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,52 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>2013004 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Orlin</primary_name><rest_of_name>Malinda Berry.</rest_of_name></persname></origination><unittitle>Malinda Berry Orlin photograph collection.</unittitle><unitdate type="inclusive" label="creation">1962-1964</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict><odd><head>Publication, Distribution, Etc.</head><p>1962-1964.</p></odd><acqinfo>Donor: 10868</acqinfo></descgrp><bioghist>Daughter of University of Michigan engineering professor Ralph Moore Berry who taught surveying and engineering geology at Camp Davis.</bioghist><scopecontent>Nine color slides of Camp Davis operated by the University of Michigan in Wyoming, includes image of professor Ralph Moore Berry.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="aat" encodinganalog="655"><term type="genre_form">Slides (photographs)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Camp Davis (University of Michigan)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Wyoming.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Berry</primary_name><rest_of_name>Ralph Moore.</rest_of_name></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Orlin</primary_name><rest_of_name>Malinda Berry.</rest_of_name></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>2013004 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Orlin</primary_name>
+          <rest_of_name>Malinda Berry.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Malinda Berry Orlin photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1962-1964</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1962-1964.</p>
+      </odd>
+      <acqinfo>Donor: 10868</acqinfo>
+    </descgrp>
+    <bioghist>Daughter of University of Michigan engineering professor Ralph Moore Berry who taught surveying and engineering geology at Camp Davis.</bioghist>
+    <scopecontent>Nine color slides of Camp Davis operated by the University of Michigan in Wyoming, includes image of professor Ralph Moore Berry.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Slides (photographs)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Camp Davis (University of Michigan)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Wyoming.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Berry</primary_name>
+        <rest_of_name>Ralph Moore.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Orlin</primary_name>
+        <rest_of_name>Malinda Berry.</rest_of_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

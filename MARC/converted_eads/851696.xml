@@ -2,13 +2,59 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Lenawee County records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Lenawee County records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851696 Cb 1 CB</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>Lenawee County (Mich.)</primary_name></corpname></origination><unittitle>Lenawee County records</unittitle><unitdate type="inclusive" label="creation">1827-1871</unitdate><physdesc><extent>81 items and 1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 1092</acqinfo></descgrp><scopecontent>Notice of a school district meeting, 1838; canvass of votes for the elections of 1833 and 1835; miscellaneous tax receipts and other business papers for Adrian and Palmyra, Michigan; volume of tax records, 1827-1834.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Elections</term><term type="geographic">Michigan</term><term type="temporal">1833.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Elections</term><term type="geographic">Michigan</term><term type="temporal">1835.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Schools</term><term type="geographic">Michigan</term><term type="geographic">Lenawee County.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Adrian (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Palmyra (Mich.)</term></subject></controlaccess><container label="Folder" type="folder">1</container><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851696 Cb 1 CB</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>Lenawee County (Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Lenawee County records</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">81 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1827-1871</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1092</acqinfo>
+    </descgrp>
+    <scopecontent>Notice of a school district meeting, 1838; canvass of votes for the elections of 1833 and 1835; miscellaneous tax receipts and other business papers for Adrian and Palmyra, Michigan; volume of tax records, 1827-1834.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Elections</term>
+        <term type="geographic">Michigan</term>
+        <term type="temporal">1833.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Elections</term>
+        <term type="geographic">Michigan</term>
+        <term type="temporal">1835.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Schools</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Lenawee County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Adrian (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Palmyra (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

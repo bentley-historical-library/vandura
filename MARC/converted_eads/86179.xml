@@ -2,13 +2,57 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Francis Thomas letters</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Francis Thomas letters</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86179 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Thomas</primary_name><rest_of_name>Francis</rest_of_name><dates>d. 1917</dates></persname></origination><unittitle>Francis Thomas letters</unittitle><unitdate type="inclusive" label="creation">1864-1865</unitdate><physdesc><extent>3 items</extent></physdesc></did><descgrp><acqinfo>Donor: 1278</acqinfo></descgrp><bioghist>Medical student at University of Michigan.</bioghist><scopecontent>Letters to Beulah L. Haines written from Ann Arbor, Michigan describing the town and his work in the medical school, including comments on the Civil War.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Department of Medicine and Surgery</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Correspondence.</term></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86179 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Thomas</primary_name>
+          <rest_of_name>Francis</rest_of_name>
+          <dates>d. 1917</dates>
+        </persname>
+      </origination>
+      <unittitle>Francis Thomas letters</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1864-1865</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1278</acqinfo>
+    </descgrp>
+    <bioghist>Medical student at University of Michigan.</bioghist>
+    <scopecontent>Letters to Beulah L. Haines written from Ann Arbor, Michigan describing the town and his work in the medical school, including comments on the Civil War.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Medicine and Surgery</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Correspondence.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

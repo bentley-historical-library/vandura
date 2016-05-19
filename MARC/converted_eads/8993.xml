@@ -2,13 +2,61 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the William W. Cook and the University of Michigan</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the William W. Cook and the University of Michigan</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>8993 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Peterson</primary_name><rest_of_name>Robert G.</rest_of_name></persname></origination><unittitle>William W. Cook and the University of Michigan</unittitle><unitdate type="inclusive" label="creation">1970</unitdate><physdesc><extent>1 item (53 p.)</extent></physdesc></did><descgrp><odd><head>Reproduction Note</head><p>Photocopy.</p></odd><acqinfo>Donor: 4994</acqinfo></descgrp><bioghist>Student in education at the University of Michigan.</bioghist><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Cook</primary_name><rest_of_name>William W.</rest_of_name><fuller_form>(William Wilson)</fuller_form><dates>1858-1930</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Buildings.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">History.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Law School</subordinate_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8993 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Peterson</primary_name>
+          <rest_of_name>Robert G.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>William W. Cook and the University of Michigan</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+        <physfacet>53 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1970</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopy.</p>
+      </odd>
+      <acqinfo>Donor: 4994</acqinfo>
+    </descgrp>
+    <bioghist>Student in education at the University of Michigan.</bioghist>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cook</primary_name>
+        <rest_of_name>William W.</rest_of_name>
+        <fuller_form>(William Wilson)</fuller_form>
+        <dates>1858-1930</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Buildings.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">History.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Law School</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

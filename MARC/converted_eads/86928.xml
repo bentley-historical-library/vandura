@@ -2,13 +2,46 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Columbia Presbyterian Church records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Columbia Presbyterian Church records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86928 Ba BA</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>Columbia Presbyterian Church (Mich.)</primary_name></corpname></origination><unittitle>Columbia Presbyterian Church records</unittitle><unitdate type="inclusive" label="creation">1887 and 1904-1939</unitdate><physdesc><extent>2 items and 1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 790</acqinfo></descgrp><scopecontent>Membership roll, 1904-1937, and deeds, 1887 and 1939.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Columbia (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Presbyterian Church in the U.S.A</primary_name><term type="geographic">Michigan</term><term type="geographic">Columbia.</term></corpname></controlaccess><container label="Folder" type="folder">1</container><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86928 Ba BA</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>Columbia Presbyterian Church (Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Columbia Presbyterian Church records</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1887 and 1904-1939</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 790</acqinfo>
+    </descgrp>
+    <scopecontent>Membership roll, 1904-1937, and deeds, 1887 and 1939.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Columbia (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Presbyterian Church in the U.S.A</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Columbia.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

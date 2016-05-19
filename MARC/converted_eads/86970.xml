@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Most Holy Trinity Church records, [microform]</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Most Holy Trinity Church records, [microform]</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,7 +12,55 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>86970 mf 536c</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Most Holy Trinity Church (Detroit, Mich.)</primary_name></corpname></origination><unittitle>Most Holy Trinity Church records, [microform]</unittitle><langmaterial>In English and Latin.</langmaterial><unitdate type="inclusive" label="creation">1834-1869</unitdate><physdesc><extent>1 microfilm reel (part)</extent><physfacet>
-positive.</physfacet></physdesc><physdesc><extent>1 microfilm reel (part)</extent><physfacet>
-master negative.</physfacet></physdesc></did><descgrp><accessrestrict>Restricted: see terms of access.</accessrestrict><acqinfo>Donor: 2888.</acqinfo></descgrp><bioghist>Parish largely comprised of Irish immigrants.</bioghist><scopecontent>Records of baptisms, marriages and deaths.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Irish Americans</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Registers of births, etc.</term><term type="geographic">Michigan</term><term type="geographic">Detroit.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Detroit (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Catholic Church</primary_name><term type="geographic">Michigan</term><term type="geographic">Detroit.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Most Holy Trinity Church (Detroit, Mich.)</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>86970 mf 536c</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Most Holy Trinity Church (Detroit, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Most Holy Trinity Church records, [microform]</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
+        <physfacet>
+master negative.; part</physfacet>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
+        <physfacet>
+positive.; part</physfacet>
+      </physdesc>
+      <langmaterial>In English and Latin.</langmaterial>
+      <unitdate type="inclusive" label="creation">1834-1869</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>Restricted: see terms of access.</accessrestrict>
+      <acqinfo>Donor: 2888.</acqinfo>
+    </descgrp>
+    <bioghist>Parish largely comprised of Irish immigrants.</bioghist>
+    <scopecontent>Records of baptisms, marriages and deaths.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Irish Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Registers of births, etc.</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Catholic Church</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Most Holy Trinity Church (Detroit, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

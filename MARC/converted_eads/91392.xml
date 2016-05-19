@@ -2,14 +2,58 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Portrait of David Cooper.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Portrait of David Cooper.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>91392 Aa 2</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Cooper</primary_name><rest_of_name>David</rest_of_name><dates>1789-1876</dates></persname></origination><unittitle>Portrait of David Cooper.</unittitle><unitdate type="inclusive" label="creation">1835</unitdate><physdesc><extent>2 photoprints</extent><physfacet>
-col.</physfacet><dimensions>25 x 21 cm., 1 in frame 30 x 26 cm.</dimensions></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1835.</p></odd><odd><head>General Note</head><p>Color photograph (2 copies) of an oil painting.</p></odd><acqinfo>Donor: 5843</acqinfo></descgrp><bioghist>Merchant of Detroit, Michigan.</bioghist><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Cooper</primary_name><rest_of_name>David</rest_of_name><dates>1789-1876</dates></persname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>91392 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Cooper</primary_name>
+          <rest_of_name>David</rest_of_name>
+          <dates>1789-1876</dates>
+        </persname>
+      </origination>
+      <unittitle>Portrait of David Cooper.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 prints</extent>
+        <physfacet>
+col.</physfacet>
+        <dimensions>25 x 21 cm., 1 in frame 30 x 26 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1835</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1835.</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>Color photograph (2 copies) of an oil painting.</p>
+      </odd>
+      <acqinfo>Donor: 5843</acqinfo>
+    </descgrp>
+    <bioghist>Merchant of Detroit, Michigan.</bioghist>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cooper</primary_name>
+        <rest_of_name>David</rest_of_name>
+        <dates>1789-1876</dates>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

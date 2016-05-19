@@ -2,13 +2,50 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Thomas Reese Foster letter</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Thomas Reese Foster letter</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88316 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Foster</primary_name><rest_of_name>Thomas Reese.</rest_of_name></persname></origination><unittitle>Thomas Reese Foster letter</unittitle><unitdate type="inclusive" label="creation">February 3, 1889</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 2281</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Letter to his sister Kate discussing his activities and other events at the University of Michigan.</scopecontent><controlaccess><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1881-1890.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Correspondence.</term></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88316 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Foster</primary_name>
+          <rest_of_name>Thomas Reese.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Thomas Reese Foster letter</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">February 3, 1889</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2281</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Letter to his sister Kate discussing his activities and other events at the University of Michigan.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1881-1890.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Correspondence.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

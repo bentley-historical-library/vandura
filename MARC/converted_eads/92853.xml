@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Henry H. Crapo [graphic] / engraved by Samuel Sartain.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Henry H. Crapo [graphic] / engraved by Samuel Sartain.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,6 +12,41 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92853 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Sartain</primary_name><rest_of_name>Samuel</rest_of_name><dates>1830-1906</dates></persname></origination><unittitle>Henry H. Crapo [graphic] / engraved by Samuel Sartain.</unittitle><unitdate type="inclusive" label="creation">[186-?]</unitdate><physdesc><extent>1 print</extent><physfacet>
-engraving</physfacet><dimensions>oval image 12 x 10 cm.</dimensions></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>Philad[elphia] : S. Sartain, [186-?].</p></odd><acqinfo>Donor: 2756</acqinfo></descgrp><controlaccess><subject source="lcsh" encodinganalog="655"><term type="genre_form">Prints.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Crapo</primary_name><rest_of_name>Henry Howland</rest_of_name><dates>1804-1869</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92853 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Sartain</primary_name>
+          <rest_of_name>Samuel</rest_of_name>
+          <dates>1830-1906</dates>
+        </persname>
+      </origination>
+      <unittitle>Henry H. Crapo [graphic] / engraved by Samuel Sartain.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 prints</extent>
+        <physfacet>
+engraving</physfacet>
+        <dimensions>oval image 12 x 10 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[186-?]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>Philad[elphia] : S. Sartain, [186-?].</p>
+      </odd>
+      <acqinfo>Donor: 2756</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Crapo</primary_name>
+        <rest_of_name>Henry Howland</rest_of_name>
+        <dates>1804-1869</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

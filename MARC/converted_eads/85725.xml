@@ -2,13 +2,83 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Cyrus W. Beckwith account book</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Cyrus W. Beckwith account book</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>85725 AA UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Beckwith</primary_name><rest_of_name>Cyrus W.</rest_of_name></persname></origination><unittitle>Cyrus W. Beckwith account book</unittitle><unitdate type="inclusive" label="creation">1825-1872</unitdate><physdesc><extent>1 v. and 1 envelope</extent></physdesc></did><descgrp><acqinfo>Donor: 1223</acqinfo><odd><head>General Note</head><p>Photographs described separately.</p></odd></descgrp><bioghist>Ann Arbor, Michigan, businessman.</bioghist><scopecontent>Record of general store and other business activities; also photographs.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Business records.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">General stores</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term></subject><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Beckwith</primary_name><rest_of_name>Cyrus W.</rest_of_name></persname></controlaccess><dsc><c01 level="series"><did><unittitle>Cyrus W. Beckwith account book</unittitle><physdesc><extent>1 v. and 1 envelope</extent></physdesc><unitdate type="inclusive" label="creation">1825-1872</unitdate></did><scopecontent>Record of general store and other business activities; also photographs.</scopecontent></c01><c01 level="series"><did><unittitle>Cyrus W. Beckwith photographs series.</unittitle><physdesc><extent>1 envelope</extent></physdesc><unitdate type="inclusive" label="creation">1860s?</unitdate></did><scopecontent>Portraits of Beckwith and his wife.</scopecontent></c01></dsc><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85725 AA UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Beckwith</primary_name>
+          <rest_of_name>Cyrus W.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Cyrus W. Beckwith account book</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1825-1872</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1223</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Photographs described separately.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Ann Arbor, Michigan, businessman.</bioghist>
+    <scopecontent>Record of general store and other business activities; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">General stores</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Beckwith</primary_name>
+        <rest_of_name>Cyrus W.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Cyrus W. Beckwith account book</unittitle>
+          <physdesc altrender="part">
+            <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1825-1872</unitdate>
+        </did>
+        <scopecontent>Record of general store and other business activities; also photographs.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Cyrus W. Beckwith photographs series.</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1860s?</unitdate>
+        </did>
+        <scopecontent>Portraits of Beckwith and his wife.</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

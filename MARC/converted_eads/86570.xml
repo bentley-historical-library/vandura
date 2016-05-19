@@ -2,13 +2,63 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Charles Horace Hodskin diary</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles Horace Hodskin diary</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86570 AA Vault</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Hodskin</primary_name><rest_of_name>Charles Horace</rest_of_name><dates>1837-1905</dates></persname></origination><unittitle>Charles Horace Hodskin diary</unittitle><unitdate type="inclusive" label="creation">1864</unitdate><unitdate type="inclusive" label="creation">1864</unitdate><physdesc><extent>1 v</extent></physdesc><physdesc><extent>1 v</extent></physdesc></did><descgrp><altformavail>Microfilm copy and photocopy available.</altformavail><acqinfo>Donor: 1037</acqinfo><acqinfo>Donor: 1037</acqinfo></descgrp><bioghist>Soldier from Battle Creek, Michigan who served as captain in the Second Michigan Infantry during the Civil War.</bioghist><scopecontent>Diary of his war-time activities.</scopecontent><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Diaries.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Battle Creek (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Army</subordinate_name><subordinate_name>Michigan Infantry Regiment, 2nd (1861-1865)</subordinate_name></corpname></controlaccess><container label="Folder" type="folder">1</container><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86570 AA Vault</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Hodskin</primary_name>
+          <rest_of_name>Charles Horace</rest_of_name>
+          <dates>1837-1905</dates>
+        </persname>
+      </origination>
+      <unittitle>Charles Horace Hodskin diary</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1864</unitdate>
+      <unitdate type="inclusive" label="creation">1864</unitdate>
+    </did>
+    <descgrp>
+      <altformavail>Microfilm copy and photocopy available.</altformavail>
+      <acqinfo>Donor: 1037</acqinfo>
+      <acqinfo>Donor: 1037</acqinfo>
+    </descgrp>
+    <bioghist>Soldier from Battle Creek, Michigan who served as captain in the Second Michigan Infantry during the Civil War.</bioghist>
+    <scopecontent>Diary of his war-time activities.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Battle Creek (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 2nd (1861-1865)</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

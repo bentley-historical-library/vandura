@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the John Charles Sivers photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the John Charles Sivers photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,54 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92899 UAs UAm</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Sivers</primary_name><rest_of_name>John Charles.</rest_of_name></persname></origination><unittitle>John Charles Sivers photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1907-1936</unitdate><physdesc><extent>1 envelope and 1 oversize folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1907-1936.</p></odd><acqinfo>Donor: 7261</acqinfo></descgrp><bioghist>Member of University of Michigan Class of 1913.</bioghist><scopecontent>Photographs showing the construction of Burton Tower, and various student activities at the University of Michigan; also photographs of Ferris Institute in Big Rapids, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Baird Carillon (University of Michigan)</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Burton Tower (University of Michigan)</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Ferris Institute</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Dept. of Engineering</subordinate_name><subordinate_name>Class of 1913</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1901-1910.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92899 UAs UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Sivers</primary_name>
+          <rest_of_name>John Charles.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>John Charles Sivers photograph collection.</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1907-1936</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1907-1936.</p>
+      </odd>
+      <acqinfo>Donor: 7261</acqinfo>
+    </descgrp>
+    <bioghist>Member of University of Michigan Class of 1913.</bioghist>
+    <scopecontent>Photographs showing the construction of Burton Tower, and various student activities at the University of Michigan; also photographs of Ferris Institute in Big Rapids, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Baird Carillon (University of Michigan)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Burton Tower (University of Michigan)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ferris Institute</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of Engineering</subordinate_name>
+        <subordinate_name>Class of 1913</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

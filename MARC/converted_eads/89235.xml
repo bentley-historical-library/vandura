@@ -2,13 +2,42 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Joseph Rose papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Joseph Rose papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89235 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Rose</primary_name><rest_of_name>Joseph.</rest_of_name></persname></origination><unittitle>Joseph Rose papers</unittitle><unitdate type="inclusive" label="creation">1846, 1849</unitdate><physdesc><extent>2 items</extent></physdesc></did><descgrp><acqinfo>Donor: 2389</acqinfo></descgrp><bioghist>Resident of St. Clair County, Michigan.</bioghist><scopecontent>Naturalization certificate, 1846, and survey, 1849, of Rose's property on Lake St. Clair.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Saint Clair County (Mich.)</term></subject></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89235 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Rose</primary_name>
+          <rest_of_name>Joseph.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Joseph Rose papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1846, 1849</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2389</acqinfo>
+    </descgrp>
+    <bioghist>Resident of St. Clair County, Michigan.</bioghist>
+    <scopecontent>Naturalization certificate, 1846, and survey, 1849, of Rose's property on Lake St. Clair.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Saint Clair County (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

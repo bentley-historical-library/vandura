@@ -2,13 +2,57 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Samuel Holmes White papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Samuel Holmes White papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89429 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>White</primary_name><rest_of_name>Samuel Holmes</rest_of_name><dates>1830-1882</dates></persname></origination><unittitle>Samuel Holmes White papers</unittitle><unitdate type="inclusive" label="creation">1873-1874</unitdate><physdesc><extent>7 items</extent></physdesc></did><descgrp><acqinfo>Donor: 175</acqinfo></descgrp><bioghist>Educator and president of the National Education Association.</bioghist><scopecontent>Letters from John Lord and James B. Angell about speaking at N.E.A. convention.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Education</term><term type="geographic">United States.</term></subject><persname source="local" encodinganalog="700"><primary_name>Angell</primary_name><rest_of_name>James Burrill</rest_of_name><dates>1829-1916</dates></persname><persname source="local" encodinganalog="700"><primary_name>Lord</primary_name><rest_of_name>John</rest_of_name><dates>1810-1894</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>National Education Association of the United States</primary_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89429 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>White</primary_name>
+          <rest_of_name>Samuel Holmes</rest_of_name>
+          <dates>1830-1882</dates>
+        </persname>
+      </origination>
+      <unittitle>Samuel Holmes White papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">7 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1873-1874</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 175</acqinfo>
+    </descgrp>
+    <bioghist>Educator and president of the National Education Association.</bioghist>
+    <scopecontent>Letters from John Lord and James B. Angell about speaking at N.E.A. convention.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Education</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Angell</primary_name>
+        <rest_of_name>James Burrill</rest_of_name>
+        <dates>1829-1916</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Lord</primary_name>
+        <rest_of_name>John</rest_of_name>
+        <dates>1810-1894</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>National Education Association of the United States</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

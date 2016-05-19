@@ -2,13 +2,41 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Inglis House records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Inglis House records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
-  <archdesc level="collection"><did><unitid>91432 Bimu 2 UBImum D13</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Inglis House (University of Michigan)</primary_name></corpname></origination><unittitle>Inglis House records</unittitle><unitdate type="inclusive" label="creation">ca. 1954-2012</unitdate><physdesc><extent>.4 linear ft. (3 v. in 1 box) and one outsize folder</extent></physdesc></did><descgrp><acqinfo>Donor: 7884</acqinfo></descgrp><scopecontent>Guest books and outsize photo of Columbia Space Shuttle signed by astronaut Jack Lousma.</scopecontent><controlaccess><corpname source="lcnaf" encodinganalog="610"><primary_name>Inglis House (University of Michigan)</primary_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>91432 Bimu 2 UBImum D13</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Inglis House (University of Michigan)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Inglis House records</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">4 linear feet</extent>
+        <physfacet>3 v. in 1 box</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1954-2012</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7884</acqinfo>
+    </descgrp>
+    <scopecontent>Guest books and outsize photo of Columbia Space Shuttle signed by astronaut Jack Lousma.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Inglis House (University of Michigan)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

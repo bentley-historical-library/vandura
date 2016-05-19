@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Isaac Sumner notice of appointment</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Isaac Sumner notice of appointment</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,35 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>89317 Ac</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Sumner</primary_name><rest_of_name>Isaac.</rest_of_name></persname></origination><unittitle>Isaac Sumner notice of appointment</unittitle><unitdate type="inclusive" label="creation">1830</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 867</acqinfo></descgrp><bioghist>Register of probate for Kalamazoo County, Michigan.</bioghist><scopecontent>Signed by Lewis Cass, governor of Michigan Territory.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Kalamazoo County (Mich.)</term></subject><persname source="local" encodinganalog="700"><primary_name>Cass</primary_name><rest_of_name>Lewis</rest_of_name><dates>1782-1866</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>89317 Ac</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Sumner</primary_name>
+          <rest_of_name>Isaac.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Isaac Sumner notice of appointment</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1830</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 867</acqinfo>
+    </descgrp>
+    <bioghist>Register of probate for Kalamazoo County, Michigan.</bioghist>
+    <scopecontent>Signed by Lewis Cass, governor of Michigan Territory.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Kalamazoo County (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Cass</primary_name>
+        <rest_of_name>Lewis</rest_of_name>
+        <dates>1782-1866</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

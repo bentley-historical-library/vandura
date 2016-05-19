@@ -2,13 +2,47 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Henry A. Knowles letter</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Henry A. Knowles letter</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851613 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Knowles</primary_name><rest_of_name>Henry A.</rest_of_name></persname></origination><unittitle>Henry A. Knowles letter</unittitle><unitdate type="inclusive" label="creation">1849</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 1771</acqinfo></descgrp><bioghist>Resident of Raisin Township, Lenawee County, Michigan.</bioghist><scopecontent>Letter to Mary A. Knowles discussing family affairs, religious matters, current prices, and various people in the community of Raisin, Michigan.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Agriculture</term><term type="geographic">Michigan</term><term type="geographic">Lenawee County.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Raisin (Mich. : Township)</term></subject></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851613 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Knowles</primary_name>
+          <rest_of_name>Henry A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Henry A. Knowles letter</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1849</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Raisin Township, Lenawee County, Michigan.</bioghist>
+    <scopecontent>Letter to Mary A. Knowles discussing family affairs, religious matters, current prices, and various people in the community of Raisin, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Agriculture</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Lenawee County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Raisin (Mich. : Township)</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

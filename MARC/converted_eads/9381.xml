@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Ernest J. Allmendinger collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Ernest J. Allmendinger collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,41 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>9381 UAm</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Allmendinger</primary_name><rest_of_name>Ernest J.</rest_of_name></persname></origination><unittitle>Ernest J. Allmendinger collection.</unittitle><unitdate type="inclusive" label="creation">1909</unitdate><physdesc><extent>1 outsize folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1909.</p></odd><acqinfo>Donor: 5035</acqinfo></descgrp><bioghist>Resident of Ann Arbor, Michigan.</bioghist><scopecontent>Team portraits of the Ann Arbor (Mich.) High School football team.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Football.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Ann Arbor High School (Mich.)</primary_name><term type="topical">Football.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>9381 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Allmendinger</primary_name>
+          <rest_of_name>Ernest J.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Ernest J. Allmendinger collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1909</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1909.</p>
+      </odd>
+      <acqinfo>Donor: 5035</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Ann Arbor, Michigan.</bioghist>
+    <scopecontent>Team portraits of the Ann Arbor (Mich.) High School football team.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Football.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ann Arbor High School (Mich.)</primary_name>
+        <term type="topical">Football.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

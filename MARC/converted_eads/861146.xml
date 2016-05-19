@@ -2,13 +2,74 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Apostles Club (University of Michigan) records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Apostles Club (University of Michigan) records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
-  <archdesc level="collection"><did><unitid>861146 Bimu M3 2 UBImum M3</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Apostles Club (University of Michigan)</primary_name></corpname></origination><unittitle>Apostles Club (University of Michigan) records</unittitle><unitdate type="inclusive" label="creation">1909-1940</unitdate><physdesc><extent>1 linear ft. and 1 oversize folder</extent></physdesc></did><descgrp><acqinfo>Donor: 1885</acqinfo><odd><head>General Note</head><p>Photographs described separately.</p></odd></descgrp><bioghist>University of Michigan faculty dining club.</bioghist><scopecontent>Correspondence, financial records, and reports.</scopecontent><controlaccess><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Faculty.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Apostles Club (University of Michigan)</primary_name></corpname><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject></controlaccess><dsc><c01 level="series"><did><unittitle>Apostles Club (University of Michigan) records</unittitle><physdesc><extent>1 linear ft. and 1 oversize folder</extent></physdesc><unitdate type="inclusive" label="creation">1909-1940</unitdate></did><scopecontent>Correspondence, financial records, and reports.</scopecontent></c01><c01 level="series"><did><unittitle>Apostles Club photograph series.</unittitle><physdesc><extent>1 folder and 1 outsize folder</extent></physdesc><unitdate type="inclusive" label="creation">1900-1922</unitdate></did><scopecontent>Include group portraits of club members.</scopecontent></c01></dsc><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>861146 Bimu M3 2 UBImum M3</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Apostles Club (University of Michigan)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Apostles Club (University of Michigan) records</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 linear feet</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1909-1940</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1885</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Photographs described separately.</p>
+      </odd>
+    </descgrp>
+    <bioghist>University of Michigan faculty dining club.</bioghist>
+    <scopecontent>Correspondence, financial records, and reports.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Apostles Club (University of Michigan)</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Apostles Club (University of Michigan) records</unittitle>
+          <physdesc altrender="part">
+            <extent altrender="materialtype spaceoccupied">1 linear feet</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1909-1940</unitdate>
+        </did>
+        <scopecontent>Correspondence, financial records, and reports.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Apostles Club photograph series.</unittitle>
+          <physdesc altrender="part">
+            <extent altrender="materialtype spaceoccupied">1 folders</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1900-1922</unitdate>
+        </did>
+        <scopecontent>Include group portraits of club members.</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

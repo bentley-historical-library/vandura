@@ -2,13 +2,44 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Thomas W. Blinn papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Thomas W. Blinn papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>8869 Aa 2</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Blinn</primary_name><rest_of_name>Thomas W.</rest_of_name><dates>1887-</dates></persname></origination><unittitle>Thomas W. Blinn papers</unittitle><unitdate type="inclusive" label="creation">1951-1967</unitdate><physdesc><extent>2 v. and 1 folder in 1 box</extent></physdesc></did><descgrp><acqinfo>Donor: 4532</acqinfo></descgrp><bioghist>Researcher from Belding, Michigan, specializing in Michigan postal history.</bioghist><scopecontent>Correspondence concerning postal research; and notebooks listing Michigan post offices, including the date of founding and name of first postmaster.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Postal service</term><term type="geographic">Michigan.</term></subject></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8869 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Blinn</primary_name>
+          <rest_of_name>Thomas W.</rest_of_name>
+          <dates>1887-</dates>
+        </persname>
+      </origination>
+      <unittitle>Thomas W. Blinn papers</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1951-1967</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4532</acqinfo>
+    </descgrp>
+    <bioghist>Researcher from Belding, Michigan, specializing in Michigan postal history.</bioghist>
+    <scopecontent>Correspondence concerning postal research; and notebooks listing Michigan post offices, including the date of founding and name of first postmaster.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Postal service</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

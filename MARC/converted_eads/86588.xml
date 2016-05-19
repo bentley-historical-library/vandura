@@ -2,13 +2,60 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the John Rising Morey papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the John Rising Morey papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86588 Aa 2 Vault</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Morey</primary_name><rest_of_name>John Rising</rest_of_name><dates>1844-1897</dates></persname></origination><unittitle>John Rising Morey papers</unittitle><unitdate type="inclusive" label="creation">1860-1865</unitdate><physdesc><extent>.2 linear ft. (1 v. and 35 items)</extent></physdesc></did><descgrp><altformavail>Microfilm copy available.</altformavail><odd><head>Reproduction Note</head><p>Typescript copy of diary.</p></odd><acqinfo>Donor: 3749</acqinfo></descgrp><bioghist>Officer with the 5th Michigan Cavalry, Co. M.</bioghist><scopecontent>Civil War diaries, June-Oct. 1863 and Jan.-Aug. 1864, and letters to cousin describing wartime activities; and miscellaneous memorabilia.</scopecontent><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Diaries.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Army</subordinate_name><subordinate_name>Michigan Cavalry Regiment, 5th (1862-1865)</subordinate_name><subordinate_name>Company M</subordinate_name></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86588 Aa 2 Vault</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Morey</primary_name>
+          <rest_of_name>John Rising</rest_of_name>
+          <dates>1844-1897</dates>
+        </persname>
+      </origination>
+      <unittitle>John Rising Morey papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+        <physfacet>1 v. and 35 items</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1860-1865</unitdate>
+    </did>
+    <descgrp>
+      <altformavail>Microfilm copy available.</altformavail>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript copy of diary.</p>
+      </odd>
+      <acqinfo>Donor: 3749</acqinfo>
+    </descgrp>
+    <bioghist>Officer with the 5th Michigan Cavalry, Co. M.</bioghist>
+    <scopecontent>Civil War diaries, June-Oct. 1863 and Jan.-Aug. 1864, and letters to cousin describing wartime activities; and miscellaneous memorabilia.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 5th (1862-1865)</subordinate_name>
+        <subordinate_name>Company M</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

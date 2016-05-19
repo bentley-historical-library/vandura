@@ -2,13 +2,35 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the The passing of the pines and other poems</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the The passing of the pines and other poems</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>881 Aa 1</unitid><unittitle>The passing of the pines and other poems</unittitle><unitdate type="inclusive" label="creation">August 22, 1939</unitdate><physdesc><extent>1 folder (102 p.)</extent></physdesc></did><descgrp><acqinfo>Donor: 909</acqinfo></descgrp><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Poetry.</term></subject></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>881 Aa 1</unitid>
+      <unittitle>The passing of the pines and other poems</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+        <physfacet>102 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">August 22, 1939</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 909</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Poetry.</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

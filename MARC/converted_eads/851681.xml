@@ -2,13 +2,84 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the David Martin Lichty papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the David Martin Lichty papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851681 Aa 2</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Lichty</primary_name><rest_of_name>David Martin</rest_of_name><dates>1862-1942</dates></persname></origination><unittitle>David Martin Lichty papers</unittitle><unitdate type="inclusive" label="creation">1891-1920</unitdate><physdesc><extent>.3 linear ft</extent></physdesc></did><descgrp><acqinfo>Donor: 3911</acqinfo></descgrp><bioghist>Professor of chemistry at University of Michigan.</bioghist><scopecontent>Lecture notes.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Chemistry.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Department of Chemistry</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Faculty.</term></corpname><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Chemistry.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Lichty</primary_name><rest_of_name>David Martin</rest_of_name><dates>1862-1942</dates></persname></controlaccess><dsc><c01 level="series"><did><unittitle>David Martin Lichty papers</unittitle><physdesc><extent>.3 linear ft</extent></physdesc><unitdate type="inclusive" label="creation">1891-1920</unitdate></did><scopecontent>Lecture notes.</scopecontent></c01><c01 level="series"><did><unittitle>David Martin Lichty photograph series.</unittitle><physdesc><extent>1 envelope</extent></physdesc><unitdate type="inclusive" label="creation">1885-1930s?</unitdate></did><scopecontent>Portraits, photos of Lichty with unidentified groups, and photo of Lichty with other chemists.</scopecontent></c01></dsc><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851681 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Lichty</primary_name>
+          <rest_of_name>David Martin</rest_of_name>
+          <dates>1862-1942</dates>
+        </persname>
+      </origination>
+      <unittitle>David Martin Lichty papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 linear ft</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1891-1920</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3911</acqinfo>
+    </descgrp>
+    <bioghist>Professor of chemistry at University of Michigan.</bioghist>
+    <scopecontent>Lecture notes.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Chemistry.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Chemistry</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Chemistry.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lichty</primary_name>
+        <rest_of_name>David Martin</rest_of_name>
+        <dates>1862-1942</dates>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>David Martin Lichty papers</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">3 linear ft</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1891-1920</unitdate>
+        </did>
+        <scopecontent>Lecture notes.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>David Martin Lichty photograph series.</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1885-1930s?</unitdate>
+        </did>
+        <scopecontent>Portraits, photos of Lichty with unidentified groups, and photo of Lichty with other chemists.</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

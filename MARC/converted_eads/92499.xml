@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Members of Calhoun County bar [graphic].</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Members of Calhoun County bar [graphic].</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,39 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92499 UCBm Calhoun</unitid><unittitle>Members of Calhoun County bar [graphic].</unittitle><unitdate type="inclusive" label="creation">188-?]</unitdate><physdesc><extent>1 print ;</extent><dimensions>image and text 38 x 30 cm.</dimensions></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>[S.l. : s.n., 188-?].</p></odd></descgrp><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Prints.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Judges</term><term type="geographic">Michigan</term><term type="geographic">Calhoun County.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Lawyers</term><term type="geographic">Michigan</term><term type="geographic">Calhoun County.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Calhoun County (Mich.)</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92499 UCBm Calhoun</unitid>
+      <unittitle>Members of Calhoun County bar [graphic].</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 prints</extent>
+        <dimensions>image and text 38 x 30 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">188-?]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[S.l. : s.n., 188-?].</p>
+      </odd>
+    </descgrp>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Judges</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Calhoun County.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Lawyers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Calhoun County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Calhoun County (Mich.)</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

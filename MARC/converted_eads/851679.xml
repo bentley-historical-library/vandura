@@ -2,13 +2,48 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Harry Lewis account book</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Harry Lewis account book</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851679 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Lewis</primary_name><rest_of_name>Harry.</rest_of_name></persname></origination><unittitle>Harry Lewis account book</unittitle><unitdate type="inclusive" label="creation">1841-1853</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 1278</acqinfo></descgrp><bioghist>Resident of Nankin township, Wayne County, Michigan.</bioghist><scopecontent>Personal account book.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Account books.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Nankin (Mich. : Township)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Wayne County (Mich.)</term></subject></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851679 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Lewis</primary_name>
+          <rest_of_name>Harry.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Harry Lewis account book</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1841-1853</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1278</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Nankin township, Wayne County, Michigan.</bioghist>
+    <scopecontent>Personal account book.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Account books.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Nankin (Mich. : Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Wayne County (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

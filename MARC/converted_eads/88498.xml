@@ -2,13 +2,52 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Jane D. Johns letters</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Jane D. Johns letters</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88498 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Johns</primary_name><rest_of_name>Jane D.</rest_of_name></persname></origination><unittitle>Jane D. Johns letters</unittitle><unitdate type="inclusive" label="creation">1946-1953</unitdate><physdesc><extent>8 items</extent></physdesc></did><descgrp><acqinfo>Donor: 6884</acqinfo></descgrp><bioghist>Librarian at the Flint, Michigan, Public Library.</bioghist><scopecontent>Letters from historian A. L. Rowse describing his life and activities, and conditions in Great Britain.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Historians</term><term type="geographic">Great Britain.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Great Britain.</term></subject><persname source="local" encodinganalog="700"><primary_name>Rowse</primary_name><rest_of_name>A. L.</rest_of_name><fuller_form>(Alfred Leslie)</fuller_form><dates>1903-1997</dates></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88498 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Johns</primary_name>
+          <rest_of_name>Jane D.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Jane D. Johns letters</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">8 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1946-1953</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6884</acqinfo>
+    </descgrp>
+    <bioghist>Librarian at the Flint, Michigan, Public Library.</bioghist>
+    <scopecontent>Letters from historian A. L. Rowse describing his life and activities, and conditions in Great Britain.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Historians</term>
+        <term type="geographic">Great Britain.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Great Britain.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Rowse</primary_name>
+        <rest_of_name>A. L.</rest_of_name>
+        <fuller_form>(Alfred Leslie)</fuller_form>
+        <dates>1903-1997</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Furnan Rose certificate</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Furnan Rose certificate</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,31 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>89234 Ac</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Rose</primary_name><rest_of_name>Furnan.</rest_of_name></persname></origination><unittitle>Furnan Rose certificate</unittitle><unitdate type="inclusive" label="creation">Sept. 9, 1843</unitdate><physdesc><extent>1 item (outsize)</extent></physdesc></did><descgrp><acqinfo>Donor: 1276</acqinfo></descgrp><scopecontent>Commission as second lieutenant in the 11th Regiment of the Michigan State Militia.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Michigan</term><term type="topical">Militia.</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>89234 Ac</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Rose</primary_name>
+          <rest_of_name>Furnan.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Furnan Rose certificate</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+        <physfacet>outsize</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">Sept. 9, 1843</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1276</acqinfo>
+    </descgrp>
+    <scopecontent>Commission as second lieutenant in the 11th Regiment of the Michigan State Militia.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Militia.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

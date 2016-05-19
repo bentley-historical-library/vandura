@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Arthur William Bohnsack photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Arthur William Bohnsack photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,54 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92548 UAm</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Bohnsack</primary_name><rest_of_name>Arthur William.</rest_of_name></persname></origination><unittitle>Arthur William Bohnsack photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1906-1910</unitdate><physdesc><extent>1 outsize folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1906-1910.</p></odd><acqinfo>Donor: 1617</acqinfo></descgrp><bioghist>1910 graduate of the University of Michigan.</bioghist><scopecontent>Part of a student album, including photos of track meets, the Michigan Union Circus, freshman-sophomore rush, and university buildings.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Circuses.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Michigan Union</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Buildings.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1901-1910.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Track and field.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92548 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Bohnsack</primary_name>
+          <rest_of_name>Arthur William.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Arthur William Bohnsack photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1906-1910</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1906-1910.</p>
+      </odd>
+      <acqinfo>Donor: 1617</acqinfo>
+    </descgrp>
+    <bioghist>1910 graduate of the University of Michigan.</bioghist>
+    <scopecontent>Part of a student album, including photos of track meets, the Michigan Union Circus, freshman-sophomore rush, and university buildings.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Circuses.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan Union</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Buildings.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Track and field.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

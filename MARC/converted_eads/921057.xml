@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Kermit Washburn photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Kermit Washburn photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,36 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>921057 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Washburn</primary_name><rest_of_name>Kermit.</rest_of_name></persname></origination><unittitle>Kermit Washburn photograph collection.</unittitle><unitdate type="inclusive" label="creation">1900?</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1900?.</p></odd><acqinfo>Donor: 3585, 3643</acqinfo></descgrp><scopecontent>Photograph (copy print) of a street in Decatur, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Decatur (Mich.)</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>921057 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Washburn</primary_name>
+          <rest_of_name>Kermit.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Kermit Washburn photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1900?</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1900?.</p>
+      </odd>
+      <acqinfo>Donor: 3585, 3643</acqinfo>
+    </descgrp>
+    <scopecontent>Photograph (copy print) of a street in Decatur, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Decatur (Mich.)</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

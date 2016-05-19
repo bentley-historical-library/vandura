@@ -2,13 +2,51 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Fred Hoberg account book</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Fred Hoberg account book</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>9832 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Hoberg</primary_name><rest_of_name>Fred.</rest_of_name></persname></origination><unittitle>Fred Hoberg account book</unittitle><unitdate type="inclusive" label="creation">1907-1909</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 5400</acqinfo></descgrp><bioghist>Laborer at Old Mission, Mich. Full name Carl Frederick Hoberg.</bioghist><scopecontent>Account book showing wages earned in a mill, doing carpentry work, and picking apples.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Day laborers</term><term type="geographic">Michigan</term><term type="geographic">Old Mission.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Old Mission (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Hoberg</primary_name><rest_of_name>Fred.</rest_of_name></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9832 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Hoberg</primary_name>
+          <rest_of_name>Fred.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Fred Hoberg account book</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1907-1909</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5400</acqinfo>
+    </descgrp>
+    <bioghist>Laborer at Old Mission, Mich. Full name Carl Frederick Hoberg.</bioghist>
+    <scopecontent>Account book showing wages earned in a mill, doing carpentry work, and picking apples.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Day laborers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Old Mission.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Old Mission (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hoberg</primary_name>
+        <rest_of_name>Fred.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

@@ -2,13 +2,52 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the John N. Barbour correspondence</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the John N. Barbour correspondence</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>85708 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Barbour</primary_name><rest_of_name>John N.</rest_of_name></persname></origination><unittitle>John N. Barbour correspondence</unittitle><unitdate type="inclusive" label="creation">1845-1846</unitdate><physdesc><extent>8 items</extent></physdesc></did><descgrp><acqinfo>Donor: 1771</acqinfo></descgrp><bioghist>Boston, Massachusetts, businessman.</bioghist><scopecontent>Correspondence concerning mining interests in the Upper Peninsula of Michigan including three letters from Bela Hubbard.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Mines and mineral resources</term><term type="geographic">Michigan</term><term type="geographic">Upper Peninsula.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Upper Peninsula (Mich.)</term></subject><persname source="local" encodinganalog="700"><primary_name>Hubbard</primary_name><rest_of_name>Bela</rest_of_name><dates>1814-1896</dates></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85708 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Barbour</primary_name>
+          <rest_of_name>John N.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>John N. Barbour correspondence</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">8 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1845-1846</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <bioghist>Boston, Massachusetts, businessman.</bioghist>
+    <scopecontent>Correspondence concerning mining interests in the Upper Peninsula of Michigan including three letters from Bela Hubbard.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Mines and mineral resources</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Upper Peninsula.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Upper Peninsula (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Hubbard</primary_name>
+        <rest_of_name>Bela</rest_of_name>
+        <dates>1814-1896</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

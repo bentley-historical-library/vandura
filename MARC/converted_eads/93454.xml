@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Stephen Mills photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Stephen Mills photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,39 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93454 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Mills</primary_name><rest_of_name>Stephen</rest_of_name><dates>b. 1809</dates></persname></origination><unittitle>Stephen Mills photograph collection.</unittitle><unitdate type="inclusive" label="creation">1880s?</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1880s?</p></odd></descgrp><bioghist>Pioneer of Pittsfield Township, Washtenaw County, Michigan.</bioghist><scopecontent>Portrait.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Mills</primary_name><rest_of_name>Stephen</rest_of_name><dates>b. 1809</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93454 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Mills</primary_name>
+          <rest_of_name>Stephen</rest_of_name>
+          <dates>b. 1809</dates>
+        </persname>
+      </origination>
+      <unittitle>Stephen Mills photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1880s?</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1880s?</p>
+      </odd>
+    </descgrp>
+    <bioghist>Pioneer of Pittsfield Township, Washtenaw County, Michigan.</bioghist>
+    <scopecontent>Portrait.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Mills</primary_name>
+        <rest_of_name>Stephen</rest_of_name>
+        <dates>b. 1809</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

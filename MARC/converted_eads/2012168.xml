@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Jean Elizabeth Drysdale photograph.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Jean Elizabeth Drysdale photograph.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,47 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>2012168 UAm</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Drysdale</primary_name><rest_of_name>Jean Elizabeth.</rest_of_name></persname></origination><unittitle>Jean Elizabeth Drysdale photograph.</unittitle><unitdate type="inclusive" label="creation">1940</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict><odd><head>Publication, Distribution, Etc.</head><p>1940.</p></odd><acqinfo>Donor: 10804</acqinfo></descgrp><bioghist>Graduate of Ann Arbor High School, class of 1940.</bioghist><scopecontent>Panoramic photo of the Ann Arbor High School senior class girls taken while visiting Mount Vernon.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Drysdale</primary_name><rest_of_name>Jean Elizabeth.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Ann Arbor High School (Mich.)</primary_name><subordinate_name>Class of 1940</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Ann Arbor High School (Mich.)</primary_name><term type="topical">Students.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>2012168 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Drysdale</primary_name>
+          <rest_of_name>Jean Elizabeth.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Jean Elizabeth Drysdale photograph.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1940</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1940.</p>
+      </odd>
+      <acqinfo>Donor: 10804</acqinfo>
+    </descgrp>
+    <bioghist>Graduate of Ann Arbor High School, class of 1940.</bioghist>
+    <scopecontent>Panoramic photo of the Ann Arbor High School senior class girls taken while visiting Mount Vernon.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Drysdale</primary_name>
+        <rest_of_name>Jean Elizabeth.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ann Arbor High School (Mich.)</primary_name>
+        <subordinate_name>Class of 1940</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ann Arbor High School (Mich.)</primary_name>
+        <term type="topical">Students.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

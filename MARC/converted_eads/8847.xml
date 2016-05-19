@@ -2,13 +2,54 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the William Henry Harrison Beadle student notebook</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the William Henry Harrison Beadle student notebook</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>8847 BImu C34</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Beadle</primary_name><rest_of_name>W. H. H.</rest_of_name><fuller_form>(William Henry Harrison)</fuller_form><dates>1838-1915</dates></persname></origination><unittitle>William Henry Harrison Beadle student notebook</unittitle><unitdate type="inclusive" label="creation">1860</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 1668</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Lecture notes from Andrew Dickson White's course in European history.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>White</primary_name><rest_of_name>Andrew Dickson</rest_of_name><dates>1832-1918</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Dept. of History</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Student notebooks.</term></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8847 BImu C34</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Beadle</primary_name>
+          <rest_of_name>W. H. H.</rest_of_name>
+          <fuller_form>(William Henry Harrison)</fuller_form>
+          <dates>1838-1915</dates>
+        </persname>
+      </origination>
+      <unittitle>William Henry Harrison Beadle student notebook</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1860</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1668</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Lecture notes from Andrew Dickson White's course in European history.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>White</primary_name>
+        <rest_of_name>Andrew Dickson</rest_of_name>
+        <dates>1832-1918</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of History</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the John J. Carton [graphic] / eng. by G. W. Finlay.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the John J. Carton [graphic] / eng. by G. W. Finlay.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,40 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93584 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Finlay</primary_name><rest_of_name>G. W.</rest_of_name></persname></origination><unittitle>John J. Carton [graphic] / eng. by G. W. Finlay.</unittitle><unitdate type="inclusive" label="creation">191-?]</unitdate><physdesc><extent>1 print ;</extent><dimensions>image 13 x 11 cm.</dimensions></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>[S.l. : s.n., 191-?].</p></odd><acqinfo>Donor: 1454</acqinfo></descgrp><bioghist>Carton was a Flint, Michigan, attorney and Republican state representative.</bioghist><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Prints.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Carton</primary_name><rest_of_name>John J.</rest_of_name><fuller_form>(John Jay)</fuller_form><dates>1856-1934</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93584 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Finlay</primary_name>
+          <rest_of_name>G. W.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>John J. Carton [graphic] / eng. by G. W. Finlay.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 prints</extent>
+        <dimensions>image 13 x 11 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">191-?]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[S.l. : s.n., 191-?].</p>
+      </odd>
+      <acqinfo>Donor: 1454</acqinfo>
+    </descgrp>
+    <bioghist>Carton was a Flint, Michigan, attorney and Republican state representative.</bioghist>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Carton</primary_name>
+        <rest_of_name>John J.</rest_of_name>
+        <fuller_form>(John Jay)</fuller_form>
+        <dates>1856-1934</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

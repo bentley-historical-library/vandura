@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Amanda Sanford Hickey photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Amanda Sanford Hickey photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,54 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93218 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Hickey</primary_name><rest_of_name>Amanda Sanford</rest_of_name><dates>d. 1894</dates></persname></origination><unittitle>Amanda Sanford Hickey photograph collection.</unittitle><unitdate type="inclusive" label="creation">1850s-1890s</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1850s-1890s.</p></odd><acqinfo>Donor: 1771.1945</acqinfo></descgrp><bioghist>First woman graduate of University of Michigan Medical School, Class of 1871.</bioghist><scopecontent>Portrait; photographs of Hickey family and of Amanda S. Hickey with Eliza Mosher; and copy print photograph of drawing of a rural school in New York State attended by Hickey.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Rural schools.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">New York (State)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Hickey</primary_name><rest_of_name>Amanda Sanford</rest_of_name><dates>d.1894</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Mosher</primary_name><rest_of_name>Eliza Maria</rest_of_name><dates>1846-1928</dates></persname><famname source="lcnaf" encodinganalog="600"><family_name>Hickey family</family_name></famname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93218 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Hickey</primary_name>
+          <rest_of_name>Amanda Sanford</rest_of_name>
+          <dates>d. 1894</dates>
+        </persname>
+      </origination>
+      <unittitle>Amanda Sanford Hickey photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1850s-1890s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1850s-1890s.</p>
+      </odd>
+      <acqinfo>Donor: 1771.1945</acqinfo>
+    </descgrp>
+    <bioghist>First woman graduate of University of Michigan Medical School, Class of 1871.</bioghist>
+    <scopecontent>Portrait; photographs of Hickey family and of Amanda S. Hickey with Eliza Mosher; and copy print photograph of drawing of a rural school in New York State attended by Hickey.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Rural schools.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">New York (State)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hickey</primary_name>
+        <rest_of_name>Amanda Sanford</rest_of_name>
+        <dates>d.1894</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Mosher</primary_name>
+        <rest_of_name>Eliza Maria</rest_of_name>
+        <dates>1846-1928</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Hickey family</family_name>
+      </famname>
+    </controlaccess>
+  </archdesc>
 </ead>

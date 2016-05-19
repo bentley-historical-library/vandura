@@ -2,13 +2,57 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Trinity Lutheran Church records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Trinity Lutheran Church records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86785 Ba 1</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Trinity Lutheran Church (Greenville, Mich.)</primary_name></corpname></origination><unittitle>Trinity Lutheran Church records</unittitle><unitdate type="inclusive" label="creation">1946-1980</unitdate><physdesc><extent>24 items</extent></physdesc></did><descgrp><acqinfo>Donor: 6856, 6862</acqinfo></descgrp><bioghist>Danish congregation formed in 1952 from the First Lutheran Church of Montcalm County, Michigan.</bioghist><scopecontent>Annual reports, dedication program, 1952, and liturgy; and history of church written by Holger Holm.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Danish Americans</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Lutheran Church</term><term type="geographic">Michigan</term><term type="geographic">Greenville.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Greenville (Mich.)</term></subject><persname source="local" encodinganalog="700"><primary_name>Holm</primary_name><rest_of_name>Holger.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>First Lutheran Church (Montcalm County, Mich.)</primary_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86785 Ba 1</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Trinity Lutheran Church (Greenville, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Trinity Lutheran Church records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">24 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1946-1980</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6856, 6862</acqinfo>
+    </descgrp>
+    <bioghist>Danish congregation formed in 1952 from the First Lutheran Church of Montcalm County, Michigan.</bioghist>
+    <scopecontent>Annual reports, dedication program, 1952, and liturgy; and history of church written by Holger Holm.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Danish Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Lutheran Church</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Greenville.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Greenville (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Holm</primary_name>
+        <rest_of_name>Holger.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>First Lutheran Church (Montcalm County, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

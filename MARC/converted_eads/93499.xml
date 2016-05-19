@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the William D. Wilkins photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the William D. Wilkins photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,42 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93499 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Wilkins</primary_name><rest_of_name>William D.</rest_of_name><fuller_form>(William Duncan)</fuller_form><dates>1826-1882</dates></persname></origination><unittitle>William D. Wilkins photograph collection.</unittitle><unitdate type="inclusive" label="creation">1865</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1865.</p></odd><acqinfo>Donor: 1297</acqinfo></descgrp><bioghist>Detroit, Michigan, lawyer and political figure; staff officer to Alpheus Williams during the Civil War.</bioghist><scopecontent>Portrait.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Wilkins</primary_name><rest_of_name>William D.</rest_of_name><fuller_form>(William Duncan)</fuller_form><dates>1826-1882</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93499 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Wilkins</primary_name>
+          <rest_of_name>William D.</rest_of_name>
+          <fuller_form>(William Duncan)</fuller_form>
+          <dates>1826-1882</dates>
+        </persname>
+      </origination>
+      <unittitle>William D. Wilkins photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1865</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1865.</p>
+      </odd>
+      <acqinfo>Donor: 1297</acqinfo>
+    </descgrp>
+    <bioghist>Detroit, Michigan, lawyer and political figure; staff officer to Alpheus Williams during the Civil War.</bioghist>
+    <scopecontent>Portrait.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wilkins</primary_name>
+        <rest_of_name>William D.</rest_of_name>
+        <fuller_form>(William Duncan)</fuller_form>
+        <dates>1826-1882</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

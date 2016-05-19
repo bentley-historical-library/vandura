@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Margaret Wolaver photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Margaret Wolaver photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,48 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>9324 UAm</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Wolaver</primary_name><rest_of_name>Margaret.</rest_of_name></persname></origination><unittitle>Margaret Wolaver photograph collection.</unittitle><unitdate type="inclusive" label="creation">1920s?</unitdate><physdesc><extent>1 outsize folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1920s?</p></odd><acqinfo>Donor: 1991</acqinfo></descgrp><scopecontent>Photographs of the interior of house, probably her home at 1310 Hill Street, Ann Arbor, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Dwellings</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Interiors.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term><term type="topical">Dwellings.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Wolaver House (Ann Arbor, Mich.)</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>9324 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Wolaver</primary_name>
+          <rest_of_name>Margaret.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Margaret Wolaver photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1920s?</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1920s?</p>
+      </odd>
+      <acqinfo>Donor: 1991</acqinfo>
+    </descgrp>
+    <scopecontent>Photographs of the interior of house, probably her home at 1310 Hill Street, Ann Arbor, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Dwellings</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Interiors.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+        <term type="topical">Dwellings.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Wolaver House (Ann Arbor, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

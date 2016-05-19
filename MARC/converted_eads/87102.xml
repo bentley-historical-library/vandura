@@ -2,13 +2,59 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Edwin Louis Hessenmueller papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Edwin Louis Hessenmueller papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>87102 Aa 1 AA</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Hessenmueller</primary_name><rest_of_name>Edwin Louis</rest_of_name><dates>d. 1916</dates></persname></origination><unittitle>Edwin Louis Hessenmueller papers</unittitle><unitdate type="inclusive" label="creation">1865 and 1868</unitdate><physdesc><extent>1 v. (42 p.) and 1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 1278; 5547</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Letter, March 3, 1865, concerning life in Ann Arbor, Michigan, and at the University; and history, 1868, of the U-M Class of 1868.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">German Americans</term><term type="topical">Michigan.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Class of 1868</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1861-1870.</term></corpname></controlaccess><container label="Folder" type="folder">1</container><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87102 Aa 1 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Hessenmueller</primary_name>
+          <rest_of_name>Edwin Louis</rest_of_name>
+          <dates>d. 1916</dates>
+        </persname>
+      </origination>
+      <unittitle>Edwin Louis Hessenmueller papers</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+        <physfacet>42 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1865 and 1868</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1278; 5547</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Letter, March 3, 1865, concerning life in Ann Arbor, Michigan, and at the University; and history, 1868, of the U-M Class of 1868.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">German Americans</term>
+        <term type="topical">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1868</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1861-1870.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

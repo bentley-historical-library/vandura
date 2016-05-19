@@ -2,13 +2,44 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Michigan Naval Militia records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Michigan Naval Militia records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86580 CA.5b</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Michigan Naval Militia</primary_name></corpname></origination><unittitle>Michigan Naval Militia records</unittitle><unitdate type="inclusive" label="creation">1917</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 1718</acqinfo></descgrp><scopecontent>Roll book and duty roster for Co. J, 3rd Regiment.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">World War, 1914-1918.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Michigan</term><term type="topical">Naval militia.</term></subject></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86580 CA.5b</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Michigan Naval Militia</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Michigan Naval Militia records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1917</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1718</acqinfo>
+    </descgrp>
+    <scopecontent>Roll book and duty roster for Co. J, 3rd Regiment.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Naval militia.</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

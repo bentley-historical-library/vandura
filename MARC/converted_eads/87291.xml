@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Sumner Howard musical score</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Sumner Howard musical score</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,32 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>87291 Ac</unitid><origination><persname role="col" encodinganalog="100" source="local"><primary_name>Howard</primary_name><rest_of_name>Sumner</rest_of_name></persname></origination><unittitle>Sumner Howard musical score</unittitle><unitdate type="inclusive" label="creation">1949</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><acqinfo>Donor: 3833</acqinfo></descgrp><scopecontent>Musical score for Michigan Union Opera production of "Froggy Bottom" used originally by Sumner Howard.</scopecontent><controlaccess><subject source="local" encodinganalog="730"><term type="uniform_title">Froggy bottom.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Michigan Union Opera</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>87291 Ac</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local">
+          <primary_name>Howard</primary_name>
+          <rest_of_name>Sumner</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Sumner Howard musical score</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1949</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3833</acqinfo>
+    </descgrp>
+    <scopecontent>Musical score for Michigan Union Opera production of "Froggy Bottom" used originally by Sumner Howard.</scopecontent>
+    <controlaccess>
+      <subject source="local" encodinganalog="730">
+        <term type="uniform_title">Froggy bottom.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan Union Opera</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

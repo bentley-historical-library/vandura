@@ -2,13 +2,49 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Adelia C. Noble papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Adelia C. Noble papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>8961 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Noble</primary_name><rest_of_name>Adelia C.</rest_of_name></persname></origination><unittitle>Adelia C. Noble papers</unittitle><unitdate type="inclusive" label="creation">1855-1859</unitdate><physdesc><extent>7 items</extent></physdesc></did><descgrp><acqinfo>Donor: 1872</acqinfo></descgrp><bioghist>Resident of Ann Arbor, Michigan. Later married Noah W. Cheever.</bioghist><scopecontent>Poems and school essays.</scopecontent><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Poetry.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Noble</primary_name><rest_of_name>Adelia C.</rest_of_name></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8961 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Noble</primary_name>
+          <rest_of_name>Adelia C.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Adelia C. Noble papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">7 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1855-1859</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1872</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Ann Arbor, Michigan. Later married Noah W. Cheever.</bioghist>
+    <scopecontent>Poems and school essays.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Poetry.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Noble</primary_name>
+        <rest_of_name>Adelia C.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

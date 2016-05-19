@@ -2,13 +2,56 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the W. H. Davenport and Company daybooks</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the W. H. Davenport and Company daybooks</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>852184 BB.2 outsize</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>W. H. Davenport and Company (Saline, Mich.)</primary_name></corpname></origination><unittitle>W. H. Davenport and Company daybooks</unittitle><unitdate type="inclusive" label="creation">Nov. 1857-Mar. 1858, Feb.-June 1861, and July-Dec. 1867</unitdate><physdesc><extent>3 v</extent></physdesc></did><descgrp><acqinfo>Donor: 5487</acqinfo></descgrp><bioghist>General store.</bioghist><scopecontent>Record of daily business activities.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">General stores</term><term type="geographic">Michigan</term><term type="geographic">Saline.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Saline (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Washtenaw County (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Davenport</primary_name><rest_of_name>William H.</rest_of_name><dates>b. 1826</dates></persname></controlaccess><container label="Oversize Volume" type="volume">1</container><container label="Oversize Volume" type="volume">2</container><container label="Oversize Volume" type="volume">3</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>852184 BB.2 outsize</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>W. H. Davenport and Company (Saline, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>W. H. Davenport and Company daybooks</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">Nov. 1857-Mar. 1858, Feb.-June 1861, and July-Dec. 1867</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5487</acqinfo>
+    </descgrp>
+    <bioghist>General store.</bioghist>
+    <scopecontent>Record of daily business activities.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">General stores</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Saline.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Saline (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Davenport</primary_name>
+        <rest_of_name>William H.</rest_of_name>
+        <dates>b. 1826</dates>
+      </persname>
+    </controlaccess>
+    <container label="Oversize Volume" type="volume">1</container>
+    <container label="Oversize Volume" type="volume">2</container>
+    <container label="Oversize Volume" type="volume">3</container>
+  </archdesc>
 </ead>

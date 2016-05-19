@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the George Anderson letters</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the George Anderson letters</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,34 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>98173 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Anderson</primary_name><rest_of_name>George.</rest_of_name></persname></origination><unittitle>George Anderson letters</unittitle><unitdate type="inclusive" label="creation">1884</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><acqinfo>Donor: 8790</acqinfo></descgrp><bioghist>Detroit, Mich., banker.</bioghist><scopecontent>Two letters written from Washington, D.C. apparently to his business partner, Andrew McLellen. The letters describe in some detail his visits to the Senate and House of Representatives and to a White House reception.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Washington (D.C.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Anderson</primary_name><rest_of_name>George.</rest_of_name></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>98173 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Anderson</primary_name>
+          <rest_of_name>George.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>George Anderson letters</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1884</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 8790</acqinfo>
+    </descgrp>
+    <bioghist>Detroit, Mich., banker.</bioghist>
+    <scopecontent>Two letters written from Washington, D.C. apparently to his business partner, Andrew McLellen. The letters describe in some detail his visits to the Senate and House of Representatives and to a White House reception.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washington (D.C.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Anderson</primary_name>
+        <rest_of_name>George.</rest_of_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

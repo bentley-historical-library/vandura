@@ -2,13 +2,55 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Eliphalet Hills letters</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Eliphalet Hills letters</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851502 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Hills</primary_name><rest_of_name>Eliphalet.</rest_of_name></persname></origination><unittitle>Eliphalet Hills letters</unittitle><unitdate type="inclusive" label="creation">1861-1862</unitdate><physdesc><extent>3 items</extent></physdesc></did><descgrp><acqinfo>Donor: 1771</acqinfo></descgrp><bioghist>Clerk at the Copper Falls Mine at Eagle Harbor, Michigan.</bioghist><scopecontent>Letters describing mining operations and living conditions.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Copper mines and mining</term><term type="geographic">Michigan</term><term type="geographic">Eagle Harbor.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Labor</term><term type="geographic">Michigan</term><term type="geographic">Eagle Harbor.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Eagle Harbor (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Copper Falls Mining Company</primary_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851502 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Hills</primary_name>
+          <rest_of_name>Eliphalet.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Eliphalet Hills letters</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1861-1862</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <bioghist>Clerk at the Copper Falls Mine at Eagle Harbor, Michigan.</bioghist>
+    <scopecontent>Letters describing mining operations and living conditions.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Copper mines and mining</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Eagle Harbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Labor</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Eagle Harbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Eagle Harbor (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Copper Falls Mining Company</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

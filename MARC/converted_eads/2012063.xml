@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Florentine Emma Holdorf taufschein</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Florentine Emma Holdorf taufschein</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,42 @@
       <descrules>dacs</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>2012063 Ac</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Holdorf</primary_name><rest_of_name>Florentine Emma</rest_of_name><dates>b. 1890</dates></persname></origination><unittitle>Florentine Emma Holdorf taufschein</unittitle><langmaterial>In German.</langmaterial><unitdate type="inclusive" label="creation">1890</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict><acqinfo>Donor: 7654</acqinfo></descgrp><scopecontent>Taufschein (baptismal certificate) of Florentine Emma Holdorf, born Bessemer, Mich., 1890.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Baptismal certificates.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">German Americans</term><term type="geographic">Michigan</term><term type="geographic">Bessemer.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Holdorf</primary_name><rest_of_name>Florentine Emma</rest_of_name><dates>b. 1890</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>2012063 Ac</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Holdorf</primary_name>
+          <rest_of_name>Florentine Emma</rest_of_name>
+          <dates>b. 1890</dates>
+        </persname>
+      </origination>
+      <unittitle>Florentine Emma Holdorf taufschein</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <langmaterial>In German.</langmaterial>
+      <unitdate type="inclusive" label="creation">1890</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 7654</acqinfo>
+    </descgrp>
+    <scopecontent>Taufschein (baptismal certificate) of Florentine Emma Holdorf, born Bessemer, Mich., 1890.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Baptismal certificates.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">German Americans</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Bessemer.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Holdorf</primary_name>
+        <rest_of_name>Florentine Emma</rest_of_name>
+        <dates>b. 1890</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

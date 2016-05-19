@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Ellen Bradford Murray photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Ellen Bradford Murray photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,53 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93451 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Murray</primary_name><rest_of_name>Ellen Bradford</rest_of_name><dates>1867-1951</dates></persname></origination><unittitle>Ellen Bradford Murray photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1895</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1895.</p></odd><acqinfo>Donor: 1296</acqinfo></descgrp><bioghist>1895 graduate of the University of Michigan Medical School.</bioghist><scopecontent>Portraits, one a group portrait with two other women medical graduates.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Black</primary_name><rest_of_name>Louisa Teresa.</rest_of_name></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Graham</primary_name><rest_of_name>Maria Louise.</rest_of_name></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Murray</primary_name><rest_of_name>Ellen Bradford</rest_of_name><dates>1867-1951</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Dept. of Medicine and Surgery</subordinate_name><subordinate_name>Class of 1895</subordinate_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93451 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Murray</primary_name>
+          <rest_of_name>Ellen Bradford</rest_of_name>
+          <dates>1867-1951</dates>
+        </persname>
+      </origination>
+      <unittitle>Ellen Bradford Murray photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1895</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1895.</p>
+      </odd>
+      <acqinfo>Donor: 1296</acqinfo>
+    </descgrp>
+    <bioghist>1895 graduate of the University of Michigan Medical School.</bioghist>
+    <scopecontent>Portraits, one a group portrait with two other women medical graduates.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Black</primary_name>
+        <rest_of_name>Louisa Teresa.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Graham</primary_name>
+        <rest_of_name>Maria Louise.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Murray</primary_name>
+        <rest_of_name>Ellen Bradford</rest_of_name>
+        <dates>1867-1951</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of Medicine and Surgery</subordinate_name>
+        <subordinate_name>Class of 1895</subordinate_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

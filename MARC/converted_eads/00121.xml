@@ -2,13 +2,53 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the John R. Benson journals</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the John R. Benson journals</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>00121 Aa 2</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Benson</primary_name><rest_of_name>John Roger</rest_of_name><dates>1837-1911</dates></persname></origination><unittitle>John R. Benson journals</unittitle><unitdate type="inclusive" label="creation">1848-1896</unitdate><physdesc><extent>4 v. and 1 folder in 1 box</extent></physdesc></did><descgrp><acqinfo>Donor: 8964</acqinfo></descgrp><bioghist>Soldier with a Pennsylvania regiment during the Civil War, later a Genesee County teacher, farmer, and public official.</bioghist><scopecontent>Journals containing poems, essays, and sketches.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Poetry.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Benson</primary_name><rest_of_name>John Roger</rest_of_name><dates>1837-1911</dates></persname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>00121 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Benson</primary_name>
+          <rest_of_name>John Roger</rest_of_name>
+          <dates>1837-1911</dates>
+        </persname>
+      </origination>
+      <unittitle>John R. Benson journals</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1848-1896</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 8964</acqinfo>
+    </descgrp>
+    <bioghist>Soldier with a Pennsylvania regiment during the Civil War, later a Genesee County teacher, farmer, and public official.</bioghist>
+    <scopecontent>Journals containing poems, essays, and sketches.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Poetry.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Benson</primary_name>
+        <rest_of_name>John Roger</rest_of_name>
+        <dates>1837-1911</dates>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

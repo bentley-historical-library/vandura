@@ -2,13 +2,46 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Anna May Lamb Bates letters</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Anna May Lamb Bates letters</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>8842 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Bates</primary_name><rest_of_name>Anna May Lamb</rest_of_name><dates>1877-1953</dates></persname></origination><unittitle>Anna May Lamb Bates letters</unittitle><unitdate type="inclusive" label="creation">1898</unitdate><physdesc><extent>3 items</extent></physdesc></did><descgrp><acqinfo>Donor: 1771</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Letters to her parents while she was at the University of Michigan.</scopecontent><controlaccess><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1891-1900.</term></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8842 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Bates</primary_name>
+          <rest_of_name>Anna May Lamb</rest_of_name>
+          <dates>1877-1953</dates>
+        </persname>
+      </origination>
+      <unittitle>Anna May Lamb Bates letters</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1898</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Letters to her parents while she was at the University of Michigan.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1891-1900.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

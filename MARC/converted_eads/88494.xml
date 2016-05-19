@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Joseph Kemp commission</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Joseph Kemp commission</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,32 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>88494 Ac</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Kemp</primary_name><rest_of_name>Joseph.</rest_of_name></persname></origination><unittitle>Joseph Kemp commission</unittitle><unitdate type="inclusive" label="creation">April 1866</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 2441</acqinfo></descgrp><bioghist>Officer with the 5th Michigan Infantry during the Civil War.</bioghist><scopecontent>Commission signed by President Andrew Johnson confirming Kemp's 1865 promotion by brevet to the rank of captain.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>88494 Ac</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Kemp</primary_name>
+          <rest_of_name>Joseph.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Joseph Kemp commission</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">April 1866</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2441</acqinfo>
+    </descgrp>
+    <bioghist>Officer with the 5th Michigan Infantry during the Civil War.</bioghist>
+    <scopecontent>Commission signed by President Andrew Johnson confirming Kemp's 1865 promotion by brevet to the rank of captain.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

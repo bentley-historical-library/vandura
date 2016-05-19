@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the [Cigar box lid with print of University Hall, University of Michigan] [graphic].</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the [Cigar box lid with print of University Hall, University of Michigan] [graphic].</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,32 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>9497 UBImux</unitid><unittitle>[Cigar box lid with print of University Hall, University of Michigan] [graphic].</unittitle><unitdate type="inclusive" label="creation">1910s</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1910s.</p></odd></descgrp><scopecontent>Cigar box lid dated 1910s; print of University Hall dated 1880s?</scopecontent><controlaccess><subject source="lcsh" encodinganalog="655"><term type="genre_form">Cigar boxes.</term></subject><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Prints.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University Hall (University of Michigan)</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>9497 UBImux</unitid>
+      <unittitle>[Cigar box lid with print of University Hall, University of Michigan] [graphic].</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1910s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1910s.</p>
+      </odd>
+    </descgrp>
+    <scopecontent>Cigar box lid dated 1910s; print of University Hall dated 1880s?</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="655">
+        <term type="genre_form">Cigar boxes.</term>
+      </subject>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University Hall (University of Michigan)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

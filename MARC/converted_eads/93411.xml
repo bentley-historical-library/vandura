@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Gaige family photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Gaige family photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,44 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93411 UAs</unitid><origination><famname encodinganalog="100" source="local"><family_name>Gaige family (Ann Arbor, Mich.)</family_name></famname></origination><unittitle>Gaige family photograph collection.</unittitle><unitdate type="inclusive" label="creation">1910s-1930s</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1910s-1930s.</p></odd></descgrp><bioghist>Frederick M. Gaige, director of the University of Michigan Museum of Zoology, and his wife Helen Thompson Gaige, curator of the museum's Herpetology Division.</bioghist><scopecontent>Portraits, photos of the Gaiges in their offices and doing field work in Latin America.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="local" encodinganalog="650"><term type="topical">Zoology.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Gaige</primary_name><rest_of_name>Frederick M.</rest_of_name></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Gaige</primary_name><rest_of_name>Helen T.</rest_of_name><fuller_form>(Helen Thompson)</fuller_form></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93411 UAs</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local">
+          <family_name>Gaige family (Ann Arbor, Mich.)</family_name>
+        </famname>
+      </origination>
+      <unittitle>Gaige family photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1910s-1930s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1910s-1930s.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Frederick M. Gaige, director of the University of Michigan Museum of Zoology, and his wife Helen Thompson Gaige, curator of the museum's Herpetology Division.</bioghist>
+    <scopecontent>Portraits, photos of the Gaiges in their offices and doing field work in Latin America.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="local" encodinganalog="650">
+        <term type="topical">Zoology.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gaige</primary_name>
+        <rest_of_name>Frederick M.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gaige</primary_name>
+        <rest_of_name>Helen T.</rest_of_name>
+        <fuller_form>(Helen Thompson)</fuller_form>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

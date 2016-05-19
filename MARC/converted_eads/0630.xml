@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Patricia Curia photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Patricia Curia photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,45 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>0630 UAs</unitid><origination><persname role="col" encodinganalog="100" source="local"><primary_name>Curia</primary_name><rest_of_name>Patricia</rest_of_name></persname></origination><unittitle>Patricia Curia photograph collection.</unittitle><unitdate type="inclusive" label="creation">1939</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1939.</p></odd><acqinfo>Donor: 9703</acqinfo></descgrp><scopecontent>Photographs of the dedication of the Xi Psi Phi dental fraternity bench on the University of Michigan campus, commemorating the 50th anniversary of the fraternity.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Monuments and memorials</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Alumni and alumnae.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Xi Psi Phi Fraternity</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>0630 UAs</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local">
+          <primary_name>Curia</primary_name>
+          <rest_of_name>Patricia</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Patricia Curia photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1939</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1939.</p>
+      </odd>
+      <acqinfo>Donor: 9703</acqinfo>
+    </descgrp>
+    <scopecontent>Photographs of the dedication of the Xi Psi Phi dental fraternity bench on the University of Michigan campus, commemorating the 50th anniversary of the fraternity.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Monuments and memorials</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Alumni and alumnae.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Xi Psi Phi Fraternity</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

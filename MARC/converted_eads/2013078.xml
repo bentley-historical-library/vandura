@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Elias Finley Johnson photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Elias Finley Johnson photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,43 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>2013078 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Johnson</primary_name><rest_of_name>Elias Finley</rest_of_name><dates>1861-1933</dates></persname></origination><unittitle>Elias Finley Johnson photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1915</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1915.</p></odd></descgrp><bioghist>E. Finley Johnson was an 1890 law graduate of the University of Michigan. He served as Associate Justice of the Supreme Court of the Philippines, 1903-1933.</bioghist><scopecontent>Photograph of Justice E. Finley Johnson and his family at home in Manila (copy print).</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Judges</term><term type="geographic">Philippines.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Johnson</primary_name><rest_of_name>Elias Finley</rest_of_name><dates>1861-1933</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>2013078 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Johnson</primary_name>
+          <rest_of_name>Elias Finley</rest_of_name>
+          <dates>1861-1933</dates>
+        </persname>
+      </origination>
+      <unittitle>Elias Finley Johnson photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1915</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1915.</p>
+      </odd>
+    </descgrp>
+    <bioghist>E. Finley Johnson was an 1890 law graduate of the University of Michigan. He served as Associate Justice of the Supreme Court of the Philippines, 1903-1933.</bioghist>
+    <scopecontent>Photograph of Justice E. Finley Johnson and his family at home in Manila (copy print).</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Judges</term>
+        <term type="geographic">Philippines.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Johnson</primary_name>
+        <rest_of_name>Elias Finley</rest_of_name>
+        <dates>1861-1933</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

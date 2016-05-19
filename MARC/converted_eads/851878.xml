@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Michigan National Guard records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Michigan National Guard records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,64 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>851878 Be.3 microcopy</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Michigan</primary_name><subordinate_name>National Guard</subordinate_name></corpname></origination><unittitle>Michigan National Guard records</unittitle><unitdate type="inclusive" label="creation">Jan.-Feb. 1937</unitdate><physdesc><extent>1 reel microfilm</extent></physdesc></did><descgrp><acqinfo>Donor: 1771</acqinfo></descgrp><scopecontent>Operations of units in 32nd division during the Flint, Michigan sit-down strike, including maps, the National Guard Newspaper, orders, and reports. Correspondents include: George Ely, Joseph H. Lewis, Frank Murphy and Philip C. Pack.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="630"><term type="uniform_title">National Guard newspaper.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Sit-down strikes</term><term type="geographic">Michigan</term><term type="geographic">Flint.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Strikes and lockouts</term><term type="geographic">Michigan</term><term type="geographic">Flint.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">General Motors Corporation Sit-Down Strike, 1936-1937.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Flint (Mich.)</term></subject><persname source="local" encodinganalog="700"><primary_name>Ely</primary_name><rest_of_name>George Beckwith</rest_of_name><dates>1889-</dates></persname><persname source="local" encodinganalog="700"><primary_name>Lewis</primary_name><rest_of_name>Joseph H.</rest_of_name></persname><persname source="local" encodinganalog="700"><primary_name>Murphy</primary_name><rest_of_name>Frank</rest_of_name><dates>1890-1949</dates></persname><persname source="local" encodinganalog="700"><primary_name>Pack</primary_name><rest_of_name>Philip Clarkson</rest_of_name><dates>1896-1970</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>851878 Be.3 microcopy</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Michigan</primary_name>
+          <subordinate_name>National Guard</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Michigan National Guard records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">Jan.-Feb. 1937</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <scopecontent>Operations of units in 32nd division during the Flint, Michigan sit-down strike, including maps, the National Guard Newspaper, orders, and reports. Correspondents include: George Ely, Joseph H. Lewis, Frank Murphy and Philip C. Pack.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="630">
+        <term type="uniform_title">National Guard newspaper.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Sit-down strikes</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Flint.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Strikes and lockouts</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Flint.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">General Motors Corporation Sit-Down Strike, 1936-1937.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Flint (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Ely</primary_name>
+        <rest_of_name>George Beckwith</rest_of_name>
+        <dates>1889-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Lewis</primary_name>
+        <rest_of_name>Joseph H.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Murphy</primary_name>
+        <rest_of_name>Frank</rest_of_name>
+        <dates>1890-1949</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Pack</primary_name>
+        <rest_of_name>Philip Clarkson</rest_of_name>
+        <dates>1896-1970</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

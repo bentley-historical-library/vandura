@@ -2,13 +2,56 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Fur trading journal</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Fur trading journal</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>00130 BB.1 Outsize</unitid><unittitle>Fur trading journal</unittitle><unitdate type="inclusive" label="creation">1803-1852</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><odd><head>General Note</head><p>Title from modern binding.</p></odd><acqinfo>Donor: 5776</acqinfo></descgrp><scopecontent>Ledger book used by unidentified Mackinac Island, Mich., merchants for three separate purposes: accounts of fur traders (1803-1809), Indian credit book (1828), and miscellaneous business accounts (1840-1852).</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Business records.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Fur trade</term><term type="geographic">Michigan</term><term type="geographic">Mackinac Island.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Indians of North America</term><term type="geographic">Michigan</term><term type="geographic">Mackinac Island.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Mackinac Island (Mich.)</term><term type="topical">Commerce.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Michilimackinac Company</primary_name></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>00130 BB.1 Outsize</unitid>
+      <unittitle>Fur trading journal</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1803-1852</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>Title from modern binding.</p>
+      </odd>
+      <acqinfo>Donor: 5776</acqinfo>
+    </descgrp>
+    <scopecontent>Ledger book used by unidentified Mackinac Island, Mich., merchants for three separate purposes: accounts of fur traders (1803-1809), Indian credit book (1828), and miscellaneous business accounts (1840-1852).</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Fur trade</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Mackinac Island.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Indians of North America</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Mackinac Island.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Mackinac Island (Mich.)</term>
+        <term type="topical">Commerce.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michilimackinac Company</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

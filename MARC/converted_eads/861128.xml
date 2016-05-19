@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Herbert F. Poehle papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Herbert F. Poehle papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,32 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>861128 Aa 2</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Poehle</primary_name><rest_of_name>Herbert F.</rest_of_name></persname></origination><unittitle>Herbert F. Poehle papers</unittitle><unitdate type="inclusive" label="creation">ca. 1950-1971</unitdate><physdesc><extent>1 linear ft</extent></physdesc></did><descgrp><acqinfo>Donor: 4596</acqinfo></descgrp><bioghist>Secretary-treasurer of the engineering class of 1925 of the University of Michigan.</bioghist><scopecontent>Materials relating to class reunions.</scopecontent><controlaccess><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>College of Engineering</subordinate_name><subordinate_name>Class of 1925</subordinate_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>861128 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Poehle</primary_name>
+          <rest_of_name>Herbert F.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Herbert F. Poehle papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 linear ft</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1950-1971</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4596</acqinfo>
+    </descgrp>
+    <bioghist>Secretary-treasurer of the engineering class of 1925 of the University of Michigan.</bioghist>
+    <scopecontent>Materials relating to class reunions.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+        <subordinate_name>Class of 1925</subordinate_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

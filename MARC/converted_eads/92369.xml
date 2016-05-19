@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the King-Seeley Corporation photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the King-Seeley Corporation photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,38 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92369 UBBl</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>King-Seeley Corporation</primary_name></corpname></origination><unittitle>King-Seeley Corporation photograph collection.</unittitle><unitdate type="inclusive" label="creation">1948</unitdate><physdesc><extent>1 folder [outsize]</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1948.</p></odd><acqinfo>Donor: 7551</acqinfo></descgrp><scopecontent>Composite portraits of corporation officers and directors, 1900-1948.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><famname source="lcnaf" encodinganalog="600"><family_name>Seeley family</family_name></famname><corpname source="lcnaf" encodinganalog="610"><primary_name>King-Seeley Corporation</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92369 UBBl</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>King-Seeley Corporation</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>King-Seeley Corporation photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folder [outsize]</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1948</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1948.</p>
+      </odd>
+      <acqinfo>Donor: 7551</acqinfo>
+    </descgrp>
+    <scopecontent>Composite portraits of corporation officers and directors, 1900-1948.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Seeley family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>King-Seeley Corporation</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

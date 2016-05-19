@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Kiko Pesquera photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Kiko Pesquera photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,50 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>9670 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Pesquera</primary_name><rest_of_name>Kiko.</rest_of_name></persname></origination><unittitle>Kiko Pesquera photograph collection.</unittitle><unitdate type="inclusive" label="creation">1945-1950s</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1945-1950s.</p></odd><acqinfo>Donor: 1617</acqinfo></descgrp><bioghist>Graduate of the University of Michigan.</bioghist><scopecontent>Group photograph of the Latin American Club of the University of Michigan, 1945; photographs of visit of Michigan football players, Bob Chapius and Howard Yerges, to Puerto Rico, ca. 1945.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Pesquera</primary_name><rest_of_name>Kiko.</rest_of_name></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Chapius</primary_name><rest_of_name>Robert.</rest_of_name></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Yerges</primary_name><rest_of_name>Howard.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Latin American Club</subordinate_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>9670 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Pesquera</primary_name>
+          <rest_of_name>Kiko.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Kiko Pesquera photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1945-1950s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1945-1950s.</p>
+      </odd>
+      <acqinfo>Donor: 1617</acqinfo>
+    </descgrp>
+    <bioghist>Graduate of the University of Michigan.</bioghist>
+    <scopecontent>Group photograph of the Latin American Club of the University of Michigan, 1945; photographs of visit of Michigan football players, Bob Chapius and Howard Yerges, to Puerto Rico, ca. 1945.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Pesquera</primary_name>
+        <rest_of_name>Kiko.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Chapius</primary_name>
+        <rest_of_name>Robert.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Yerges</primary_name>
+        <rest_of_name>Howard.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Latin American Club</subordinate_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

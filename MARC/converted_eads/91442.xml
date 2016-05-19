@@ -2,15 +2,72 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Bethel United Church of Christ records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Bethel United Church of Christ records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>91442 Ba 2</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Bethel United Church of Christ (Freedom, Mich.)</primary_name></corpname></origination><unittitle>Bethel United Church of Christ records</unittitle><langmaterial>in German.: Original record book</langmaterial><unitdate type="inclusive" label="creation">ca. 1848-1916, 1943, and 1990</unitdate><physdesc><extent>.1 linear ft</extent></physdesc><physdesc><extent>1 microfilm reel</extent><physfacet>
-positive.</physfacet></physdesc><physdesc><extent>1 microfilm reel</extent><physfacet>
-negative.</physfacet></physdesc></did><descgrp><acqinfo>Donor: 7798</acqinfo></descgrp><bioghist>Originally Deutsch evang. Bethels-Gemeinde or Bethel Evangelical Church, founded by Friedrich Schmid.</bioghist><scopecontent>Original record book and translation; microfilm of church registers, 1860-1916, including record of baptisms, confirmations, and deaths; record of contributions; and anniversary publications.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">German Americans</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Freedom (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Bethel Evangelical Church (Freedom, Mich.)</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Bethel United Church of Christ (Freedom, Mich.)</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>Evangelical Synod of North America</primary_name><term type="geographic">Michigan</term><term type="geographic">Freedom.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>United Church of Christ</primary_name><term type="geographic">Michigan</term><term type="geographic">Freedom.</term></corpname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>91442 Ba 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Bethel United Church of Christ (Freedom, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Bethel United Church of Christ records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
+        <physfacet>
+negative.</physfacet>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
+        <physfacet>
+positive.</physfacet>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 linear ft</extent>
+      </physdesc>
+      <langmaterial>in German.: Original record book</langmaterial>
+      <unitdate type="inclusive" label="creation">ca. 1848-1916, 1943, and 1990</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7798</acqinfo>
+    </descgrp>
+    <bioghist>Originally Deutsch evang. Bethels-Gemeinde or Bethel Evangelical Church, founded by Friedrich Schmid.</bioghist>
+    <scopecontent>Original record book and translation; microfilm of church registers, 1860-1916, including record of baptisms, confirmations, and deaths; record of contributions; and anniversary publications.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">German Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Freedom (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Bethel Evangelical Church (Freedom, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Bethel United Church of Christ (Freedom, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Evangelical Synod of North America</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Freedom.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United Church of Christ</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Freedom.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

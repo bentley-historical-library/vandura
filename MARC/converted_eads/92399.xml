@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Eli Gallup photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Eli Gallup photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,42 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92399 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Gallup</primary_name><rest_of_name>Eli.</rest_of_name></persname></origination><unittitle>Eli Gallup photograph collection.</unittitle><unitdate type="inclusive" label="creation">1917</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1917.</p></odd><acqinfo>Donor: 5658</acqinfo></descgrp><scopecontent>Photographs showing tornado damage to land and property along the Huron River near Delhi in Scio Township, Washtenaw County, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Delhi (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Scio (Mich. : Township)</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Tornadoes.</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92399 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Gallup</primary_name>
+          <rest_of_name>Eli.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Eli Gallup photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1917</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1917.</p>
+      </odd>
+      <acqinfo>Donor: 5658</acqinfo>
+    </descgrp>
+    <scopecontent>Photographs showing tornado damage to land and property along the Huron River near Delhi in Scio Township, Washtenaw County, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Delhi (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Scio (Mich. : Township)</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Tornadoes.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

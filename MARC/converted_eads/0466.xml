@@ -2,13 +2,50 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Wayne Mead visual materials collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Wayne Mead visual materials collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0466 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Mead</primary_name><rest_of_name>Wayne.</rest_of_name></persname></origination><unittitle>Wayne Mead visual materials collection.</unittitle><unitdate type="inclusive" label="creation">[193-?]</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>[193-?]</p></odd><acqinfo>Donor: 9457</acqinfo></descgrp><bioghist>1938 graduate of the University of Michigan College of Architecture and Design (full name Coit Wayne Mead).</bioghist><scopecontent>Eight prints of University of Michigan buildings, apparently removed from an unidentified publication.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Prints.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Buildings.</term></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0466 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Mead</primary_name>
+          <rest_of_name>Wayne.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Wayne Mead visual materials collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[193-?]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[193-?]</p>
+      </odd>
+      <acqinfo>Donor: 9457</acqinfo>
+    </descgrp>
+    <bioghist>1938 graduate of the University of Michigan College of Architecture and Design (full name Coit Wayne Mead).</bioghist>
+    <scopecontent>Eight prints of University of Michigan buildings, apparently removed from an unidentified publication.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Buildings.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

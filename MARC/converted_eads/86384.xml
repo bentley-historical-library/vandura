@@ -2,13 +2,54 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the D. W. Lawson papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the D. W. Lawson papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86384 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Lawson</primary_name><rest_of_name>D. W.</rest_of_name></persname></origination><unittitle>D. W. Lawson papers</unittitle><unitdate type="inclusive" label="creation">undated</unitdate><physdesc><extent>2 items</extent></physdesc></did><descgrp><acqinfo>Donor: 1624</acqinfo></descgrp><scopecontent>Historical sketch of Heck School in Monroe County, Michigan, and inventory of its early records.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Education</term><term type="geographic">Michigan</term><term type="geographic">Monroe County.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Schools</term><term type="geographic">Michigan</term><term type="geographic">Monroe County.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Monroe County (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Heck School (Monroe County, Mich.)</primary_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86384 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Lawson</primary_name>
+          <rest_of_name>D. W.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>D. W. Lawson papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">undated</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1624</acqinfo>
+    </descgrp>
+    <scopecontent>Historical sketch of Heck School in Monroe County, Michigan, and inventory of its early records.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Education</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Monroe County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Schools</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Monroe County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Monroe County (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Heck School (Monroe County, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

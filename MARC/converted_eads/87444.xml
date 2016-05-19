@@ -2,13 +2,49 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the John Anderson notebooks</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the John Anderson notebooks</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>87444 AA</unitid><unittitle>John Anderson notebooks</unittitle><unitdate type="inclusive" label="creation">1854-1857</unitdate><physdesc><extent>2 v</extent></physdesc></did><descgrp><acqinfo>Donor: 1237</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Notebooks containing class notes, essays, verses and songs; also contain notes on lectures of James R. Boise.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Boise</primary_name><rest_of_name>James Robinson</rest_of_name><dates>1815-1895</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1851-1860.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Student notebooks.</term></corpname></controlaccess><container label="Volume" type="volume">1</container><container label="Volume" type="volume">2</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87444 AA</unitid>
+      <unittitle>John Anderson notebooks</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1854-1857</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1237</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Notebooks containing class notes, essays, verses and songs; also contain notes on lectures of James R. Boise.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Boise</primary_name>
+        <rest_of_name>James Robinson</rest_of_name>
+        <dates>1815-1895</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1851-1860.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
 </ead>

@@ -2,13 +2,54 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Milford L. Fitch diary</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Milford L. Fitch diary</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88293 AA</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Fitch</primary_name><rest_of_name>Milford L.</rest_of_name></persname></origination><unittitle>Milford L. Fitch diary</unittitle><unitdate type="inclusive" label="creation">1911-1915</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp/><bioghist>Resident of Grand Rapids, Michigan.</bioghist><scopecontent>Scattered diary entries concern reflections on life and his opinions of sermons; also occasional poems about current events. Beginning on page 292, the diary includes anecdotes about the Civil War service of Morris E. Fitch, 2nd Michigan Cavalry.</scopecontent><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Diaries.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Men</term><term type="topical">Religious life</term><term type="geographic">Michigan</term><term type="geographic">Grand Rapids.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Grand Rapids (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Fitch</primary_name><rest_of_name>Morris E.</rest_of_name><dates>d. 1863</dates></persname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88293 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Fitch</primary_name>
+          <rest_of_name>Milford L.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Milford L. Fitch diary</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1911-1915</unitdate>
+    </did>
+    <descgrp/>
+    <bioghist>Resident of Grand Rapids, Michigan.</bioghist>
+    <scopecontent>Scattered diary entries concern reflections on life and his opinions of sermons; also occasional poems about current events. Beginning on page 292, the diary includes anecdotes about the Civil War service of Morris E. Fitch, 2nd Michigan Cavalry.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Men</term>
+        <term type="topical">Religious life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Grand Rapids.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Grand Rapids (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Fitch</primary_name>
+        <rest_of_name>Morris E.</rest_of_name>
+        <dates>d. 1863</dates>
+      </persname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

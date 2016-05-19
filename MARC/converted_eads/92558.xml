@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Moscow, Michigan, photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Moscow, Michigan, photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,38 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92558 UCCs</unitid><unittitle>Moscow, Michigan, photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1930s</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1930s.</p></odd></descgrp><scopecontent>Photograph of the Old Moscow Tavern (built in 1832) in Moscow, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Taverns (Inns)</term><term type="geographic">Michigan</term><term type="geographic">Moscow.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Moscow (Mich.)</term><term type="topical">Taverns (Inns)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Old Moscow Tavern (Moscow, Mich.)</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92558 UCCs</unitid>
+      <unittitle>Moscow, Michigan, photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1930s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1930s.</p>
+      </odd>
+    </descgrp>
+    <scopecontent>Photograph of the Old Moscow Tavern (built in 1832) in Moscow, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Taverns (Inns)</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Moscow.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Moscow (Mich.)</term>
+        <term type="topical">Taverns (Inns)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Old Moscow Tavern (Moscow, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

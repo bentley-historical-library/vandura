@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Saginaw, Michigan print collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Saginaw, Michigan print collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,33 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>94138 UCCs</unitid><unittitle>Saginaw, Michigan print collection.</unittitle><unitdate type="inclusive" label="creation">1878</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1878.</p></odd></descgrp><scopecontent>Print titled "The Council at Saginaw," possibly refering to the treaty council of 1819. The print is from Pilcher, Elijah H. Protestantism in Michigan. Detroit : R.D.S. Tyler &amp; Co., 1878.</scopecontent><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Prints.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Indians of North America</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Saginaw (Mich.)</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>94138 UCCs</unitid>
+      <unittitle>Saginaw, Michigan print collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1878</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1878.</p>
+      </odd>
+    </descgrp>
+    <scopecontent>Print titled "The Council at Saginaw," possibly refering to the treaty council of 1819. The print is from Pilcher, Elijah H. Protestantism in Michigan. Detroit : R.D.S. Tyler &amp; Co., 1878.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Indians of North America</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Saginaw (Mich.)</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

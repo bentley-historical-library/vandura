@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Potter, Beattie &amp; Company photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Potter, Beattie &amp; Company photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,44 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92737 UBBs</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>Potter, Beattie &amp; Company</primary_name></corpname></origination><unittitle>Potter, Beattie &amp; Company photograph collection.</unittitle><unitdate type="inclusive" label="creation">1881</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1881.</p></odd></descgrp><bioghist>Ovid, Michigan lumber manufacturer and dealer in general merchandise.</bioghist><scopecontent>Stereographs of lumbering activities and structures.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Stereographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Lumber industry</term><term type="geographic">Michigan</term><term type="geographic">Ovid.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Ovid (Mich.)</term><term type="topical">Lumber industry.</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92737 UBBs</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>Potter, Beattie &amp; Company</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Potter, Beattie &amp; Company photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1881</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1881.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Ovid, Michigan lumber manufacturer and dealer in general merchandise.</bioghist>
+    <scopecontent>Stereographs of lumbering activities and structures.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Stereographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Lumber industry</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ovid.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Ovid (Mich.)</term>
+        <term type="topical">Lumber industry.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

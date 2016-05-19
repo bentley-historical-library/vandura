@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Norman Gilbert photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Norman Gilbert photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,47 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93273 UAs UAx</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Gilbert</primary_name><rest_of_name>Norman.</rest_of_name></persname></origination><unittitle>Norman Gilbert photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1860s-ca. 1880s</unitdate><physdesc><extent>5 envelopes</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1860s-ca. 1880s.</p></odd><acqinfo>Donor: 2349</acqinfo></descgrp><bioghist>Resident of Pinckney, Michigan.</bioghist><scopecontent>Portraits of Norman Gilbert and other family members.</scopecontent><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Ambrotypes.</term></subject><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Tintypes.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Gilbert</primary_name><rest_of_name>Norman.</rest_of_name></persname><famname source="lcnaf" encodinganalog="600"><family_name>Gilbert family</family_name></famname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93273 UAs UAx</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Gilbert</primary_name>
+          <rest_of_name>Norman.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Norman Gilbert photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">5 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1860s-ca. 1880s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1860s-ca. 1880s.</p>
+      </odd>
+      <acqinfo>Donor: 2349</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Pinckney, Michigan.</bioghist>
+    <scopecontent>Portraits of Norman Gilbert and other family members.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Ambrotypes.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Tintypes.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gilbert</primary_name>
+        <rest_of_name>Norman.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Gilbert family</family_name>
+      </famname>
+    </controlaccess>
+  </archdesc>
 </ead>

@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Arthur W. Stalker photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Arthur W. Stalker photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,47 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93484 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Stalker</primary_name><rest_of_name>Arthur W.</rest_of_name><fuller_form>(Arthur William)</fuller_form><dates>1860-1930</dates></persname></origination><unittitle>Arthur W. Stalker photograph collection.</unittitle><unitdate type="inclusive" label="creation">1880s and 1920s</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1880s and 1920s.</p></odd></descgrp><bioghist>Minister at First Methodist Church, Ann Arbor, Michigan, 1905-1930.</bioghist><scopecontent>Portraits.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Clergy.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Stalker</primary_name><rest_of_name>Arthur W.</rest_of_name><fuller_form>(Arthur William)</fuller_form><dates>1860-1930</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>First United Methodist Church of Ann Arbor (Ann Arbor, Mich.)</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93484 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Stalker</primary_name>
+          <rest_of_name>Arthur W.</rest_of_name>
+          <fuller_form>(Arthur William)</fuller_form>
+          <dates>1860-1930</dates>
+        </persname>
+      </origination>
+      <unittitle>Arthur W. Stalker photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1880s and 1920s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1880s and 1920s.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Minister at First Methodist Church, Ann Arbor, Michigan, 1905-1930.</bioghist>
+    <scopecontent>Portraits.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Clergy.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Stalker</primary_name>
+        <rest_of_name>Arthur W.</rest_of_name>
+        <fuller_form>(Arthur William)</fuller_form>
+        <dates>1860-1930</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>First United Methodist Church of Ann Arbor (Ann Arbor, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

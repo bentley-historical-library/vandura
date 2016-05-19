@@ -2,13 +2,47 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Almeda Girod papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Almeda Girod papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86422 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Girod</primary_name><rest_of_name>Almeda.</rest_of_name></persname></origination><unittitle>Almeda Girod papers</unittitle><unitdate type="inclusive" label="creation">1962-1963</unitdate><physdesc><extent>25 items</extent></physdesc></did><descgrp><acqinfo>Donor: 6195</acqinfo></descgrp><bioghist>Ann Arbor, Michigan resident.</bioghist><scopecontent>Correspondence written while she was living in the Philippines concerning living conditions and medical care.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Philippines</term><term type="topical">History</term><term type="temporal">1946-1986.</term></subject></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86422 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Girod</primary_name>
+          <rest_of_name>Almeda.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Almeda Girod papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">25 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1962-1963</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6195</acqinfo>
+    </descgrp>
+    <bioghist>Ann Arbor, Michigan resident.</bioghist>
+    <scopecontent>Correspondence written while she was living in the Philippines concerning living conditions and medical care.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Philippines</term>
+        <term type="topical">History</term>
+        <term type="temporal">1946-1986.</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

@@ -2,13 +2,60 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Charles Toll paper</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles Toll paper</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89138 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Toll</primary_name><rest_of_name>Charles</rest_of_name><dates>1830-1912</dates></persname></origination><unittitle>Charles Toll paper</unittitle><unitdate type="inclusive" label="creation">1855</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 1771</acqinfo></descgrp><bioghist>1855 graduate of the University of Michigan.</bioghist><scopecontent>Inaugural address as president of the revived Lambda Chapter of Beta Theta Pi fraternity.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Greek letter societies</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Beta Theta Pi</primary_name><subordinate_name>Lambda Chapter (University of Michigan)</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1851-1860.</term></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89138 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Toll</primary_name>
+          <rest_of_name>Charles</rest_of_name>
+          <dates>1830-1912</dates>
+        </persname>
+      </origination>
+      <unittitle>Charles Toll paper</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1855</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <bioghist>1855 graduate of the University of Michigan.</bioghist>
+    <scopecontent>Inaugural address as president of the revived Lambda Chapter of Beta Theta Pi fraternity.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Greek letter societies</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Beta Theta Pi</primary_name>
+        <subordinate_name>Lambda Chapter (University of Michigan)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Societies, etc.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1851-1860.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

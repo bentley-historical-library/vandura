@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Robert Benjamin Frantz photograph.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Robert Benjamin Frantz photograph.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,40 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>9926 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Frantz</primary_name><rest_of_name>Robert Benjamin</rest_of_name><dates>1894-1971</dates></persname></origination><unittitle>Robert Benjamin Frantz photograph.</unittitle><unitdate type="inclusive" label="creation">[192-?]</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>[192-?]</p></odd><acqinfo>Donor: 1730</acqinfo></descgrp><bioghist>Saginaw, Mich., architect; 1917 graduate of the University of Michigan.</bioghist><scopecontent>Portrait.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Frantz</primary_name><rest_of_name>Robert Benjamin</rest_of_name><dates>1894-1971</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>9926 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Frantz</primary_name>
+          <rest_of_name>Robert Benjamin</rest_of_name>
+          <dates>1894-1971</dates>
+        </persname>
+      </origination>
+      <unittitle>Robert Benjamin Frantz photograph.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[192-?]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[192-?]</p>
+      </odd>
+      <acqinfo>Donor: 1730</acqinfo>
+    </descgrp>
+    <bioghist>Saginaw, Mich., architect; 1917 graduate of the University of Michigan.</bioghist>
+    <scopecontent>Portrait.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Frantz</primary_name>
+        <rest_of_name>Robert Benjamin</rest_of_name>
+        <dates>1894-1971</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

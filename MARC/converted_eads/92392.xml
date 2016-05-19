@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Edward C. Ellis photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Edward C. Ellis photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,52 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92392 UAs UAm</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Ellis</primary_name><rest_of_name>Edward C.</rest_of_name><dates>b. 1842</dates></persname></origination><unittitle>Edward C. Ellis photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1907 and 1911</unitdate><physdesc><extent>1 folder and 1 oversize folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1907 and 1911.</p></odd><acqinfo>Donor: 1104</acqinfo></descgrp><bioghist>Corporal in A Battery, 1st Michigan Light Artillery, during the Civil War.</bioghist><scopecontent>Photograph of a reunion of A Battery, and a Civil War gun and plaque commemorating the Battery in Coldwater, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Monuments and memorials.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Coldwater (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Army</subordinate_name><subordinate_name>Michigan Artillery Regiment, 1st (1861-1865)</subordinate_name><subordinate_name>Battery A</subordinate_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92392 UAs UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Ellis</primary_name>
+          <rest_of_name>Edward C.</rest_of_name>
+          <dates>b. 1842</dates>
+        </persname>
+      </origination>
+      <unittitle>Edward C. Ellis photograph collection.</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1907 and 1911</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1907 and 1911.</p>
+      </odd>
+      <acqinfo>Donor: 1104</acqinfo>
+    </descgrp>
+    <bioghist>Corporal in A Battery, 1st Michigan Light Artillery, during the Civil War.</bioghist>
+    <scopecontent>Photograph of a reunion of A Battery, and a Civil War gun and plaque commemorating the Battery in Coldwater, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Monuments and memorials.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Coldwater (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Artillery Regiment, 1st (1861-1865)</subordinate_name>
+        <subordinate_name>Battery A</subordinate_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

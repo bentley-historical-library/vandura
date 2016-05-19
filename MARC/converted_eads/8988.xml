@@ -2,13 +2,53 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the William A. Pless scrapbook</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the William A. Pless scrapbook</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>8988 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Pless</primary_name><rest_of_name>William A.</rest_of_name></persname></origination><unittitle>William A. Pless scrapbook</unittitle><unitdate type="inclusive" label="creation">ca. 1960-1984</unitdate><physdesc><extent>1 item (132 p.)</extent></physdesc></did><descgrp><odd><head>Reproduction Note</head><p>Photocopy.</p></odd><acqinfo>Donor: 7057</acqinfo></descgrp><bioghist>Resident of Brighton, Michigan.</bioghist><scopecontent>Clippings, essays, and other materials relating to the history of Michigan, particularly Livingston County and the Brighton area.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Scrapbooks.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Brighton (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Livingston County (Mich.)</term></subject></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8988 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Pless</primary_name>
+          <rest_of_name>William A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>William A. Pless scrapbook</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+        <physfacet>132 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1960-1984</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopy.</p>
+      </odd>
+      <acqinfo>Donor: 7057</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Brighton, Michigan.</bioghist>
+    <scopecontent>Clippings, essays, and other materials relating to the history of Michigan, particularly Livingston County and the Brighton area.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Brighton (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Livingston County (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

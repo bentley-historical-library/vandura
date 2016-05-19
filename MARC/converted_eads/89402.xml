@@ -2,13 +2,47 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Robert James Walker letter</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Robert James Walker letter</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89402 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Walker</primary_name><rest_of_name>Robert J.</rest_of_name><fuller_form>(Robert John)</fuller_form><dates>1801-1869</dates></persname></origination><unittitle>Robert James Walker letter</unittitle><unitdate type="inclusive" label="creation">September 27, 1847</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 2989</acqinfo></descgrp><bioghist>U.S. Secretary of the Treasury.</bioghist><scopecontent>Letter to the collector of the customs at Michilimackinac about winter quarters for the schooner Erie.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Mackinac Island (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Erie (Schooner)</primary_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89402 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Walker</primary_name>
+          <rest_of_name>Robert J.</rest_of_name>
+          <fuller_form>(Robert John)</fuller_form>
+          <dates>1801-1869</dates>
+        </persname>
+      </origination>
+      <unittitle>Robert James Walker letter</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">September 27, 1847</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2989</acqinfo>
+    </descgrp>
+    <bioghist>U.S. Secretary of the Treasury.</bioghist>
+    <scopecontent>Letter to the collector of the customs at Michilimackinac about winter quarters for the schooner Erie.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Mackinac Island (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Erie (Schooner)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Francis S. Belton drawing collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Francis S. Belton drawing collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,48 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93140 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Belton</primary_name><rest_of_name>Francis S.</rest_of_name></persname></origination><unittitle>Francis S. Belton drawing collection.</unittitle><unitdate type="inclusive" label="creation">1817</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1817.</p></odd><acqinfo>Donor: 1771</acqinfo></descgrp><bioghist>Officer in the United States Army.</bioghist><scopecontent>Drawing of Mackinac Island from Round Island.</scopecontent><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Drawings.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Indians of North America</term><term type="geographic">Michigan.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Ships</term><term type="geographic">Great Lakes.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Mackinac Island (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Mackinac, Straits of (Mich.)</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93140 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Belton</primary_name>
+          <rest_of_name>Francis S.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Francis S. Belton drawing collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1817</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1817.</p>
+      </odd>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <bioghist>Officer in the United States Army.</bioghist>
+    <scopecontent>Drawing of Mackinac Island from Round Island.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Drawings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Indians of North America</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Ships</term>
+        <term type="geographic">Great Lakes.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Mackinac Island (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Mackinac, Straits of (Mich.)</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

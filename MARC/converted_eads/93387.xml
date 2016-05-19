@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Mike Condon photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Mike Condon photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,37 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93387 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Condon</primary_name><rest_of_name>Mike.</rest_of_name></persname></origination><unittitle>Mike Condon photograph collection.</unittitle><unitdate type="inclusive" label="creation">1881-1920s?</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1881-1920s?</p></odd></descgrp><bioghist>Dispensing clerk and custodian at the University of Michigan Dept. of Chemistry.</bioghist><scopecontent>Portraits.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Condon</primary_name><rest_of_name>Mike.</rest_of_name></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93387 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Condon</primary_name>
+          <rest_of_name>Mike.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Mike Condon photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1881-1920s?</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1881-1920s?</p>
+      </odd>
+    </descgrp>
+    <bioghist>Dispensing clerk and custodian at the University of Michigan Dept. of Chemistry.</bioghist>
+    <scopecontent>Portraits.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Condon</primary_name>
+        <rest_of_name>Mike.</rest_of_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

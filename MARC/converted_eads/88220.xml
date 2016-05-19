@@ -2,13 +2,51 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Theodore D. Creque letter</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Theodore D. Creque letter</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88220 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Creque</primary_name><rest_of_name>Theodore D.</rest_of_name><dates>b. 1848</dates></persname></origination><unittitle>Theodore D. Creque letter</unittitle><unitdate type="inclusive" label="creation">[186-]</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 3208</acqinfo></descgrp><bioghist>Member of Co. E., 29th Michigan Infantry during the Civil War.</bioghist><scopecontent>Fragment of letter discussing camp life and position.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Army</subordinate_name><subordinate_name>Michigan Infantry Regiment, 29th (1864-1865)</subordinate_name><subordinate_name>Company E</subordinate_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88220 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Creque</primary_name>
+          <rest_of_name>Theodore D.</rest_of_name>
+          <dates>b. 1848</dates>
+        </persname>
+      </origination>
+      <unittitle>Theodore D. Creque letter</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[186-]</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3208</acqinfo>
+    </descgrp>
+    <bioghist>Member of Co. E., 29th Michigan Infantry during the Civil War.</bioghist>
+    <scopecontent>Fragment of letter discussing camp life and position.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 29th (1864-1865)</subordinate_name>
+        <subordinate_name>Company E</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

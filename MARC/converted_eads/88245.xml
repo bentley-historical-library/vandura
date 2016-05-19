@@ -2,13 +2,42 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Kate K. Dietrich letter</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Kate K. Dietrich letter</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88245 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Dietrich</primary_name><rest_of_name>Kate K.</rest_of_name></persname></origination><unittitle>Kate K. Dietrich letter</unittitle><unitdate type="inclusive" label="creation">October 9, 1865</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 2760</acqinfo></descgrp><bioghist>Resident of Six Corners, Ottawa County, Michigan.</bioghist><scopecontent>Letter from Kate Kirk of Pennsylvania discussing family affairs, health matters, and local county fair.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Pennsylvania.</term></subject></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88245 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Dietrich</primary_name>
+          <rest_of_name>Kate K.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Kate K. Dietrich letter</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">October 9, 1865</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2760</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Six Corners, Ottawa County, Michigan.</bioghist>
+    <scopecontent>Letter from Kate Kirk of Pennsylvania discussing family affairs, health matters, and local county fair.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Pennsylvania.</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

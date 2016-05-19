@@ -2,13 +2,53 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Warren Joy letters</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Warren Joy letters</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0343 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Joy</primary_name><rest_of_name>Warren.</rest_of_name></persname></origination><unittitle>Warren Joy letters</unittitle><unitdate type="inclusive" label="creation">1851-1886 (scattered)</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><acqinfo>Donor: 857</acqinfo></descgrp><scopecontent>Letters written by Warren Joy to family in Redford, Michigan. The letters comment on trip around South America on way to California gold fields and settlement in Oregon, 1851-1853.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Voyages to the Pacific Coast.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">California</term><term type="topical">Gold discoveries.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Oregon</term><term type="topical">Description and travel.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Joy</primary_name><rest_of_name>Warren.</rest_of_name></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0343 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Joy</primary_name>
+          <rest_of_name>Warren.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Warren Joy letters</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1851-1886 (scattered)</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 857</acqinfo>
+    </descgrp>
+    <scopecontent>Letters written by Warren Joy to family in Redford, Michigan. The letters comment on trip around South America on way to California gold fields and settlement in Oregon, 1851-1853.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages to the Pacific Coast.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">California</term>
+        <term type="topical">Gold discoveries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Oregon</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Joy</primary_name>
+        <rest_of_name>Warren.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

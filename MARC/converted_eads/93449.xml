@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Cathelia Newman photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Cathelia Newman photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,36 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93449 UAs</unitid><origination><persname role="col" encodinganalog="100" source="local"><primary_name>Newman</primary_name><rest_of_name>Cathelia</rest_of_name></persname></origination><unittitle>Cathelia Newman photograph collection.</unittitle><unitdate type="inclusive" label="creation">1860s?</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1860s?</p></odd><acqinfo>Donor: 5101</acqinfo></descgrp><bioghist>View of Michigan State Normal College.</bioghist><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Michigan State Normal School</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93449 UAs</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local">
+          <primary_name>Newman</primary_name>
+          <rest_of_name>Cathelia</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Cathelia Newman photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1860s?</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1860s?</p>
+      </odd>
+      <acqinfo>Donor: 5101</acqinfo>
+    </descgrp>
+    <bioghist>View of Michigan State Normal College.</bioghist>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan State Normal School</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

@@ -2,13 +2,49 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Newell Avery correspondence</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Newell Avery correspondence</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>85715 Aa</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Avery</primary_name><rest_of_name>Newell</rest_of_name><dates>1817-1877</dates></persname></origination><unittitle>Newell Avery correspondence</unittitle><unitdate type="inclusive" label="creation">1865</unitdate><physdesc><extent>2 items</extent></physdesc></did><descgrp><acqinfo>Donor: 3731</acqinfo></descgrp><bioghist>Port Huron, Michigan, businessman.</bioghist><scopecontent>Letters from Dr. John T. Travers of Port Huron concerning Travers' reaction to the assassination of President Abraham Lincoln.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Lincoln</primary_name><rest_of_name>Abraham</rest_of_name><dates>1809-1865</dates></persname><persname source="local" encodinganalog="700"><primary_name>Travers</primary_name><rest_of_name>John T.</rest_of_name></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85715 Aa</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Avery</primary_name>
+          <rest_of_name>Newell</rest_of_name>
+          <dates>1817-1877</dates>
+        </persname>
+      </origination>
+      <unittitle>Newell Avery correspondence</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1865</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3731</acqinfo>
+    </descgrp>
+    <bioghist>Port Huron, Michigan, businessman.</bioghist>
+    <scopecontent>Letters from Dr. John T. Travers of Port Huron concerning Travers' reaction to the assassination of President Abraham Lincoln.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lincoln</primary_name>
+        <rest_of_name>Abraham</rest_of_name>
+        <dates>1809-1865</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Travers</primary_name>
+        <rest_of_name>John T.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

@@ -2,13 +2,89 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Eber White papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Eber White papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>85459 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>White</primary_name><rest_of_name>Eber</rest_of_name><dates>b. 1798</dates></persname></origination><unittitle>Eber White papers</unittitle><unitdate type="inclusive" label="creation">[ca. 1831-ca. 1875]</unitdate><physdesc><extent>75 items</extent></physdesc></did><descgrp><odd><head>General Note</head><p>On deposit.</p></odd><acqinfo>Donor: 4452</acqinfo><odd><head>General Note</head><p>Photographs described separately.</p></odd></descgrp><bioghist>Ann Arbor Township (Mich.) pioneer.</bioghist><scopecontent>Business and legal records, and miscellaneous papers of his daughters, Polly White and Mary Elizabeth White; and photographs.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Ann Arbor Township (Mich.)</term><term type="topical">History.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Washtenaw County (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>White</primary_name><rest_of_name>Eber</rest_of_name><dates>b. 1798</dates></persname><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><famname source="lcnaf" encodinganalog="600"><family_name>White family</family_name></famname></controlaccess><dsc><c01 level="series"><did><unittitle>Eber White papers</unittitle><physdesc><extent>75 items</extent></physdesc><unitdate type="inclusive" label="creation">[ca. 1831-ca. 1875]</unitdate></did><scopecontent>Business and legal records, and miscellaneous papers of his daughters, Polly White and Mary Elizabeth White; and photographs.</scopecontent></c01><c01 level="series"><did><unittitle>Eber White photograph series.</unittitle><physdesc><extent>1 envelope</extent></physdesc><unitdate type="inclusive" label="creation">ca. 1850s?-1870s?</unitdate></did><scopecontent>Portraits of White and family members.</scopecontent></c01></dsc><container label="Folder" type="folder">1</container><container label="Folder" type="folder">2</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85459 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>White</primary_name>
+          <rest_of_name>Eber</rest_of_name>
+          <dates>b. 1798</dates>
+        </persname>
+      </origination>
+      <unittitle>Eber White papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">75 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[ca. 1831-ca. 1875]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>On deposit.</p>
+      </odd>
+      <acqinfo>Donor: 4452</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Photographs described separately.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Ann Arbor Township (Mich.) pioneer.</bioghist>
+    <scopecontent>Business and legal records, and miscellaneous papers of his daughters, Polly White and Mary Elizabeth White; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor Township (Mich.)</term>
+        <term type="topical">History.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>White</primary_name>
+        <rest_of_name>Eber</rest_of_name>
+        <dates>b. 1798</dates>
+      </persname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>White family</family_name>
+      </famname>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Eber White papers</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">75 items</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">[ca. 1831-ca. 1875]</unitdate>
+        </did>
+        <scopecontent>Business and legal records, and miscellaneous papers of his daughters, Polly White and Mary Elizabeth White; and photographs.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Eber White photograph series.</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">ca. 1850s?-1870s?</unitdate>
+        </did>
+        <scopecontent>Portraits of White and family members.</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
 </ead>

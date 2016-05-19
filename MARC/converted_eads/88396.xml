@@ -2,13 +2,41 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Street family genealogy</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Street family genealogy</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88396 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Hoffman</primary_name><rest_of_name>Norman Douglas.</rest_of_name></persname></origination><unittitle>Street family genealogy</unittitle><unitdate type="inclusive" label="creation">1971</unitdate><physdesc><extent>1 item (35 p.)</extent></physdesc></did><descgrp><acqinfo>Donor: 5145</acqinfo></descgrp><controlaccess><famname source="lcnaf" encodinganalog="600"><family_name>Street family</family_name></famname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88396 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Hoffman</primary_name>
+          <rest_of_name>Norman Douglas.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Street family genealogy</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+        <physfacet>35 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1971</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5145</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Street family</family_name>
+      </famname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

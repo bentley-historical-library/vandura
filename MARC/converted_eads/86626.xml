@@ -2,13 +2,55 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Charles A. Price letters</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles A. Price letters</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86626 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Price</primary_name><rest_of_name>Charles A.</rest_of_name><dates>b. 1837</dates></persname></origination><unittitle>Charles A. Price letters</unittitle><unitdate type="inclusive" label="creation">1863</unitdate><physdesc><extent>5 items</extent></physdesc></did><descgrp><altformavail>Also typescript copies.</altformavail><acqinfo>Donor: 4912</acqinfo></descgrp><bioghist>Soldier from Lansing, Michigan, who served in the 3rd Michigan Infantry during the Civil War.</bioghist><scopecontent>Letters written from the Virginia battlefield.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Lansing (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Army</subordinate_name><subordinate_name>Michigan Infantry Regiment, 3rd (1861-1864)</subordinate_name><subordinate_name>Company G</subordinate_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86626 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Price</primary_name>
+          <rest_of_name>Charles A.</rest_of_name>
+          <dates>b. 1837</dates>
+        </persname>
+      </origination>
+      <unittitle>Charles A. Price letters</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">5 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1863</unitdate>
+    </did>
+    <descgrp>
+      <altformavail>Also typescript copies.</altformavail>
+      <acqinfo>Donor: 4912</acqinfo>
+    </descgrp>
+    <bioghist>Soldier from Lansing, Michigan, who served in the 3rd Michigan Infantry during the Civil War.</bioghist>
+    <scopecontent>Letters written from the Virginia battlefield.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Lansing (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 3rd (1861-1864)</subordinate_name>
+        <subordinate_name>Company G</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

@@ -2,13 +2,60 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Walter family diary</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Walter family diary</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86209 Aa 1</unitid><origination><famname encodinganalog="100" source="local"><family_name>Walter family</family_name></famname></origination><unittitle>Walter family diary</unittitle><unitdate type="inclusive" label="creation">[ca. 1849-ca. 1850]</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 531</acqinfo></descgrp><bioghist>Kalamazoo, Michigan family.</bioghist><scopecontent>Diary written by member of the family describing her daily activities as a housewife, including mention of her Methodist Church activities.</scopecontent><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Diaries.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Women</term><term type="topical">Religious life</term><term type="geographic">Michigan</term><term type="geographic">Kalamazoo.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Homemakers</term><term type="geographic">Michigan</term><term type="geographic">Kalamazoo.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Kalamazoo (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Methodist Episcopal Church</primary_name><term type="geographic">Michigan</term><term type="geographic">Kalamazoo.</term></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86209 Aa 1</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local">
+          <family_name>Walter family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Walter family diary</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[ca. 1849-ca. 1850]</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 531</acqinfo>
+    </descgrp>
+    <bioghist>Kalamazoo, Michigan family.</bioghist>
+    <scopecontent>Diary written by member of the family describing her daily activities as a housewife, including mention of her Methodist Church activities.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="topical">Religious life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Kalamazoo.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Homemakers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Kalamazoo.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Kalamazoo (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Methodist Episcopal Church</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Kalamazoo.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

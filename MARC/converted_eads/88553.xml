@@ -2,13 +2,56 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Lupton Co-Operative Association records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Lupton Co-Operative Association records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88553 Aa 2</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>Lupton Co-Operative Association</primary_name></corpname></origination><unittitle>Lupton Co-Operative Association records</unittitle><unitdate type="inclusive" label="creation">1919-1925</unitdate><physdesc><extent>2 v. (1 box)</extent></physdesc></did><descgrp><acqinfo>Donor: 7612</acqinfo></descgrp><bioghist>An organization of Ogemaw County, Michigan, farmers.</bioghist><scopecontent>Minutes and financial records kept by A. L. Dunlap; also records, 1912-1913, of Clover Leaf Farm.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Agriculture</term><term type="geographic">Michigan</term><term type="geographic">Ogemaw County.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Cooperative societies</term><term type="geographic">Michigan</term><term type="geographic">Ogemaw County.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Lupton (Mich.)</term></subject><persname source="local" encodinganalog="700"><primary_name>Dunlap</primary_name><rest_of_name>A. L.</rest_of_name></persname></controlaccess><container label="Box" type="box">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88553 Aa 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>Lupton Co-Operative Association</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Lupton Co-Operative Association records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+        <physfacet>1 box</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1919-1925</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7612</acqinfo>
+    </descgrp>
+    <bioghist>An organization of Ogemaw County, Michigan, farmers.</bioghist>
+    <scopecontent>Minutes and financial records kept by A. L. Dunlap; also records, 1912-1913, of Clover Leaf Farm.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Agriculture</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ogemaw County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Cooperative societies</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ogemaw County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Lupton (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Dunlap</primary_name>
+        <rest_of_name>A. L.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
 </ead>

@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Marie Azary photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Marie Azary photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,49 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>9396 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Azary</primary_name><rest_of_name>Marie.</rest_of_name></persname></origination><unittitle>Marie Azary photograph collection.</unittitle><unitdate type="inclusive" label="creation">1960</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1960.</p></odd><acqinfo>Donor: 7255</acqinfo></descgrp><bioghist>Resident of Ann Arbor, Michigan.</bioghist><scopecontent>Photographs of Azary house on future site of University of Michigan North Campus.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Dwellings</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Ann Arbor (Mich.)</term><term type="topical">Dwellings.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">North Campus (University of Michigan)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Azary House (Ann Arbor, Mich.)</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>9396 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Azary</primary_name>
+          <rest_of_name>Marie.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Marie Azary photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1960</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1960.</p>
+      </odd>
+      <acqinfo>Donor: 7255</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Ann Arbor, Michigan.</bioghist>
+    <scopecontent>Photographs of Azary house on future site of University of Michigan North Campus.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Dwellings</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+        <term type="topical">Dwellings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">North Campus (University of Michigan)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Azary House (Ann Arbor, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

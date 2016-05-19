@@ -2,13 +2,48 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Thomas B. Inglis papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Thomas B. Inglis papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0441 Aa 2</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Inglis</primary_name><rest_of_name>Thomas B.</rest_of_name></persname></origination><unittitle>Thomas B. Inglis papers</unittitle><unitdate type="inclusive" label="creation">1970s-1981</unitdate><physdesc><extent>3 linear feet</extent></physdesc></did><descgrp><acqinfo>Donor: 9329, 9948</acqinfo></descgrp><bioghist>Family genealogist.</bioghist><scopecontent>Draft of autobiography; collected family and genealogical materials; correspondence with family members and others.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Inglis</primary_name><rest_of_name>Thomas B.</rest_of_name></persname><famname source="lcnaf" encodinganalog="600"><family_name>English family</family_name></famname></controlaccess><container label="Box" type="box">1</container><container label="Box" type="box">2</container><container label="Box" type="box">3</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0441 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Inglis</primary_name>
+          <rest_of_name>Thomas B.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Thomas B. Inglis papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 linear feet</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1970s-1981</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9329, 9948</acqinfo>
+    </descgrp>
+    <bioghist>Family genealogist.</bioghist>
+    <scopecontent>Draft of autobiography; collected family and genealogical materials; correspondence with family members and others.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Inglis</primary_name>
+        <rest_of_name>Thomas B.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>English family</family_name>
+      </famname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+    <container label="Box" type="box">2</container>
+    <container label="Box" type="box">3</container>
+  </archdesc>
 </ead>

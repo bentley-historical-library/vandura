@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Julia E. Peck watercolor collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Julia E. Peck watercolor collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,48 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92689 UAm</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Peck</primary_name><rest_of_name>Julia E.</rest_of_name></persname></origination><unittitle>Julia E. Peck watercolor collection.</unittitle><unitdate type="inclusive" label="creation">1889</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1889.</p></odd><acqinfo>Donor: 54</acqinfo></descgrp><scopecontent>Watercolors of the Cross Street Bridge and the bridge at the Peninsular Paper Company, Ypsilanti, Michigan.</scopecontent><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Paintings.</term></subject><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Watercolor paintings.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Bridges</term><term type="geographic">Michigan</term><term type="geographic">Ypsilanti.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Huron River (Oakland County-Monroe County, Mich.)</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Ypsilanti (Mich.)</term><term type="topical">Bridges.</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92689 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Peck</primary_name>
+          <rest_of_name>Julia E.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Julia E. Peck watercolor collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1889</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1889.</p>
+      </odd>
+      <acqinfo>Donor: 54</acqinfo>
+    </descgrp>
+    <scopecontent>Watercolors of the Cross Street Bridge and the bridge at the Peninsular Paper Company, Ypsilanti, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Paintings.</term>
+      </subject>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Watercolor paintings.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Bridges</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ypsilanti.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Huron River (Oakland County-Monroe County, Mich.)</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Ypsilanti (Mich.)</term>
+        <term type="topical">Bridges.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

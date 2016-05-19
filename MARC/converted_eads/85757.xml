@@ -2,13 +2,56 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Henry Bird papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Henry Bird papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>85757 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Bird</primary_name><rest_of_name>Henry</rest_of_name><dates>d. 1800</dates></persname></origination><unittitle>Henry Bird papers</unittitle><unitdate type="inclusive" label="creation">1772-1800</unitdate><physdesc><extent>15 items</extent></physdesc></did><descgrp><odd><head>Reproduction Note</head><p>Photocopies.</p></odd><acqinfo>Donor: 4288</acqinfo></descgrp><bioghist>Captain in the British army.</bioghist><scopecontent>Correspondence with his sister, Betsy Bird, in England, concerning personal matters and military campaigns during which he spent part of his time in Detroit, Michigan, ca. 1780-1784.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">England.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Revolution, 1775-1783.</term></subject><persname source="local" encodinganalog="700"><primary_name>Bird</primary_name><rest_of_name>Betsy.</rest_of_name></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85757 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Bird</primary_name>
+          <rest_of_name>Henry</rest_of_name>
+          <dates>d. 1800</dates>
+        </persname>
+      </origination>
+      <unittitle>Henry Bird papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">15 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1772-1800</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopies.</p>
+      </odd>
+      <acqinfo>Donor: 4288</acqinfo>
+    </descgrp>
+    <bioghist>Captain in the British army.</bioghist>
+    <scopecontent>Correspondence with his sister, Betsy Bird, in England, concerning personal matters and military campaigns during which he spent part of his time in Detroit, Michigan, ca. 1780-1784.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">England.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Revolution, 1775-1783.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Bird</primary_name>
+        <rest_of_name>Betsy.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

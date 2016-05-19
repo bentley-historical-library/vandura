@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Staff bulletin</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Staff bulletin</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,34 @@
       <descrules>dacs</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>2009129 Aa 2</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>University of Michigan</primary_name><subordinate_name>School of Education</subordinate_name></corpname></origination><unittitle>Staff bulletin</unittitle><langmaterial>In English.</langmaterial><unitdate type="inclusive" label="creation">1929-1970</unitdate><physdesc><extent>41 volumes</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict></descgrp><scopecontent>Bound volumes of the University of Michigan School of Education Staff bulletin.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Education.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>School of Education</subordinate_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>2009129 Aa 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>University of Michigan</primary_name>
+          <subordinate_name>School of Education</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Staff bulletin</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">41 volumes</extent>
+      </physdesc>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1929-1970</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+    </descgrp>
+    <scopecontent>Bound volumes of the University of Michigan School of Education Staff bulletin.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Education.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>School of Education</subordinate_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

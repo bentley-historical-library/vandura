@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Bruce Dwyer collection</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Bruce Dwyer collection</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,40 @@
       <descrules>dacs</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>2011083 Aa 1</unitid><origination><persname role="col" encodinganalog="100" source="local"><primary_name>Dwyer</primary_name><rest_of_name>Bruce</rest_of_name></persname></origination><unittitle>Bruce Dwyer collection</unittitle><langmaterial>In English.</langmaterial><unitdate type="inclusive" label="creation">1921-1923</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict><acqinfo>Donor: 10527</acqinfo></descgrp><bioghist>Student at the University of Michigan.</bioghist><scopecontent>Collected student life ephemera relating to Edgar Samuel Bacon, a student at the University of Michigan who enrolled in 1921.</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Bacon</primary_name><rest_of_name>Edgar Samuel</rest_of_name><dates>1903-</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1921-1930.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>2011083 Aa 1</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local">
+          <primary_name>Dwyer</primary_name>
+          <rest_of_name>Bruce</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Bruce Dwyer collection</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1921-1923</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 10527</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Collected student life ephemera relating to Edgar Samuel Bacon, a student at the University of Michigan who enrolled in 1921.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Bacon</primary_name>
+        <rest_of_name>Edgar Samuel</rest_of_name>
+        <dates>1903-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1921-1930.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Clinton, Michigan photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Clinton, Michigan photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,33 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>91367 UCCs</unitid><unittitle>Clinton, Michigan photograph collection.</unittitle><unitdate type="inclusive" label="creation">1875-1899 (scattered dates)</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1875-1899 (scattered dates).</p></odd></descgrp><scopecontent>Photographs relating to life and activities in Clinton, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Festivals.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Clinton High School (Clinton, Mich.)</primary_name><subordinate_name>Class of 1899</subordinate_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>91367 UCCs</unitid>
+      <unittitle>Clinton, Michigan photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1875-1899 (scattered dates)</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1875-1899 (scattered dates).</p>
+      </odd>
+    </descgrp>
+    <scopecontent>Photographs relating to life and activities in Clinton, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Festivals.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Clinton High School (Clinton, Mich.)</primary_name>
+        <subordinate_name>Class of 1899</subordinate_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

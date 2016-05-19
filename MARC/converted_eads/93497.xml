@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Augustus B. Woodward photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Augustus B. Woodward photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,41 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93497 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Woodward</primary_name><rest_of_name>Augustus B.</rest_of_name><fuller_form>(Augustus Brevoort)</fuller_form><dates>1774-1827</dates></persname></origination><unittitle>Augustus B. Woodward photograph collection.</unittitle><unitdate type="inclusive" label="creation">18--?</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>18--?</p></odd></descgrp><bioghist>Judge of Michigan Territory.</bioghist><scopecontent>Portrait (photo of drawing)</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Woodward</primary_name><rest_of_name>Augustus B.</rest_of_name><fuller_form>(Augustus Brevoort)</fuller_form><dates>1774-1827</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93497 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Woodward</primary_name>
+          <rest_of_name>Augustus B.</rest_of_name>
+          <fuller_form>(Augustus Brevoort)</fuller_form>
+          <dates>1774-1827</dates>
+        </persname>
+      </origination>
+      <unittitle>Augustus B. Woodward photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">18--?</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>18--?</p>
+      </odd>
+    </descgrp>
+    <bioghist>Judge of Michigan Territory.</bioghist>
+    <scopecontent>Portrait (photo of drawing)</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Woodward</primary_name>
+        <rest_of_name>Augustus B.</rest_of_name>
+        <fuller_form>(Augustus Brevoort)</fuller_form>
+        <dates>1774-1827</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

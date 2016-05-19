@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Unadilla, Michigan, photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Unadilla, Michigan, photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,46 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>921013 UCCs</unitid><unittitle>Unadilla, Michigan, photograph collection.</unittitle><unitdate type="inclusive" label="creation">1955</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1955.</p></odd></descgrp><scopecontent>Photographs of Judson Collins Memorial Church, Unadilla, Michigan, including photos of memorial plaque to Judson D. Collins, first Methodist missionary to China.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Churches</term><term type="geographic">Michigan</term><term type="geographic">Unadilla.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Monuments and memorials.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Unadilla (Mich.)</term><term type="topical">Churches.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Collins</primary_name><rest_of_name>Judson Dwight</rest_of_name><dates>1823-1852</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Judson Collins Memorial Church (Unadilla, Mich.)</primary_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>921013 UCCs</unitid>
+      <unittitle>Unadilla, Michigan, photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1955</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1955.</p>
+      </odd>
+    </descgrp>
+    <scopecontent>Photographs of Judson Collins Memorial Church, Unadilla, Michigan, including photos of memorial plaque to Judson D. Collins, first Methodist missionary to China.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Churches</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Unadilla.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Monuments and memorials.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Unadilla (Mich.)</term>
+        <term type="topical">Churches.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Collins</primary_name>
+        <rest_of_name>Judson Dwight</rest_of_name>
+        <dates>1823-1852</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Judson Collins Memorial Church (Unadilla, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

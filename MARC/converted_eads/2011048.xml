@@ -2,13 +2,55 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Ellen G. White collection</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Ellen G. White collection</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>2011048 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>White</primary_name><rest_of_name>Ellen Gould Harmon</rest_of_name><dates>1827-1915</dates></persname></origination><unittitle>Ellen G. White collection</unittitle><langmaterial>In English.</langmaterial><unitdate type="inclusive" label="creation">1899</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict><acqinfo>Donor: 3506</acqinfo></descgrp><bioghist>Battle Creek, Mich., Seventh-Day Adventist leader, prophet, and health reformer.</bioghist><scopecontent>Typescript articles, most written for Good Health magazine, about medical missionaries and the relationship between religion and health.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Health</term><term type="topical">Religious aspects</term><term type="topical">Seventh-Day Adventists.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Missionaries, Medical.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>White</primary_name><rest_of_name>Ellen Gould Harmon</rest_of_name><dates>1827-1915</dates></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2011048 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>White</primary_name>
+          <rest_of_name>Ellen Gould Harmon</rest_of_name>
+          <dates>1827-1915</dates>
+        </persname>
+      </origination>
+      <unittitle>Ellen G. White collection</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1899</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 3506</acqinfo>
+    </descgrp>
+    <bioghist>Battle Creek, Mich., Seventh-Day Adventist leader, prophet, and health reformer.</bioghist>
+    <scopecontent>Typescript articles, most written for Good Health magazine, about medical missionaries and the relationship between religion and health.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Health</term>
+        <term type="topical">Religious aspects</term>
+        <term type="topical">Seventh-Day Adventists.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Missionaries, Medical.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>White</primary_name>
+        <rest_of_name>Ellen Gould Harmon</rest_of_name>
+        <dates>1827-1915</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

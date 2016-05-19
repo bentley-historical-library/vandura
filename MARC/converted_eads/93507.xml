@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Harold Jones photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Harold Jones photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,48 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93507 UAs</unitid><origination><persname role="col" encodinganalog="100" source="local"><primary_name>Jones</primary_name><rest_of_name>Harold A.</rest_of_name></persname></origination><unittitle>Harold Jones photograph collection.</unittitle><unitdate type="inclusive" label="creation">1890s?</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1890s?</p></odd><acqinfo>Donor: 3757</acqinfo></descgrp><scopecontent>Portraits of Chelsea, Michigan, businessmen (copy prints).</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Bacon</primary_name><rest_of_name>William</rest_of_name><dates>1852-1919</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Glazier</primary_name><rest_of_name>George P.</rest_of_name><dates>1847-1901</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Kempf</primary_name><rest_of_name>Charles Henry</rest_of_name><dates>1831-1916</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93507 UAs</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local">
+          <primary_name>Jones</primary_name>
+          <rest_of_name>Harold A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Harold Jones photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1890s?</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1890s?</p>
+      </odd>
+      <acqinfo>Donor: 3757</acqinfo>
+    </descgrp>
+    <scopecontent>Portraits of Chelsea, Michigan, businessmen (copy prints).</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Bacon</primary_name>
+        <rest_of_name>William</rest_of_name>
+        <dates>1852-1919</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Glazier</primary_name>
+        <rest_of_name>George P.</rest_of_name>
+        <dates>1847-1901</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Kempf</primary_name>
+        <rest_of_name>Charles Henry</rest_of_name>
+        <dates>1831-1916</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

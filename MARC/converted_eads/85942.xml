@@ -2,13 +2,65 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Ira Coon and Company business records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Ira Coon and Company business records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>85942 BB.2</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Ira Coon and Company</primary_name></corpname></origination><unittitle>Ira Coon and Company business records</unittitle><unitdate type="inclusive" label="creation">1849-1852</unitdate><physdesc><extent>2 v</extent></physdesc></did><descgrp><acqinfo>Donor: 1165</acqinfo></descgrp><scopecontent>Ledger and daybook of general stores in Milan, Ohio, 1849-1850, and Coldwater, Michigan, 1851-1852.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Business records.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">General stores</term><term type="geographic">Michigan</term><term type="geographic">Coldwater.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">General stores</term><term type="geographic">Ohio</term><term type="geographic">Milan.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Coldwater (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Milan (Ohio)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Ira Coon and Company</primary_name></corpname></controlaccess><container label="Volume" type="volume">1</container><container label="Oversize Volume" type="volume">1</container><container label="Oversize Volume" type="volume">2</container><container label="Oversize Volume" type="volume">3</container><container label="Oversize Volume" type="volume">4</container><container label="Oversize Volume" type="volume">5</container><container label="Oversize Volume" type="volume">6</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85942 BB.2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Ira Coon and Company</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Ira Coon and Company business records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1849-1852</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1165</acqinfo>
+    </descgrp>
+    <scopecontent>Ledger and daybook of general stores in Milan, Ohio, 1849-1850, and Coldwater, Michigan, 1851-1852.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">General stores</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Coldwater.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">General stores</term>
+        <term type="geographic">Ohio</term>
+        <term type="geographic">Milan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Coldwater (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Milan (Ohio)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ira Coon and Company</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Oversize Volume" type="volume">1</container>
+    <container label="Oversize Volume" type="volume">2</container>
+    <container label="Oversize Volume" type="volume">3</container>
+    <container label="Oversize Volume" type="volume">4</container>
+    <container label="Oversize Volume" type="volume">5</container>
+    <container label="Oversize Volume" type="volume">6</container>
+  </archdesc>
 </ead>

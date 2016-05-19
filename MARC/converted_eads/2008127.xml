@@ -2,9 +2,43 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the UM news.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the UM news.</titleproper>
+      </titlestmt>
     </filedesc>
-    <profiledesc><creation>Encoded finding aid created from MARC record by Dallas Pillen</creation><langusage>The finding aid is written in <language langcode="eng">English</language></langusage></profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>2008127 Aa 2</unitid><unittitle>UM news.</unittitle><unitdate>[No date provided]</unitdate><physdesc><extent>13 v</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>Ann Arbor, University of Michigan, Publications Office,</p></odd></descgrp><controlaccess><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Employees</term><term type="genre_form">Periodicals.</term></corpname><corpname source="local" encodinganalog="710"><primary_name>University of Michigan</primary_name><subordinate_name>Publications Office</subordinate_name></corpname></controlaccess><container label="Bundle" type="bundle">1</container><container label="Bundle" type="bundle">2</container></archdesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2008127 Aa 2</unitid>
+      <unittitle>UM news.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">13 volumes</extent>
+      </physdesc>
+      <unitdate>[No date provided]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>Ann Arbor, University of Michigan, Publications Office,</p>
+      </odd>
+    </descgrp>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Employees</term>
+        <term type="genre_form">Periodicals.</term>
+      </corpname>
+      <corpname source="local" encodinganalog="710">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Publications Office</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Bundle" type="bundle">1</container>
+    <container label="Bundle" type="bundle">2</container>
+  </archdesc>
 </ead>

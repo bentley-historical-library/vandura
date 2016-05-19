@@ -2,13 +2,44 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Farmington Presbyterian Church minutes</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Farmington Presbyterian Church minutes</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86852 BA</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>Farmington Presbyterian Church (Mich.)</primary_name></corpname></origination><unittitle>Farmington Presbyterian Church minutes</unittitle><unitdate type="inclusive" label="creation">1855-1892</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 879</acqinfo></descgrp><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Farmington (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Presbyterian Church in the U.S.A</primary_name><term type="geographic">Michigan</term><term type="geographic">Farmington.</term></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86852 BA</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>Farmington Presbyterian Church (Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Farmington Presbyterian Church minutes</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1855-1892</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 879</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Farmington (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Presbyterian Church in the U.S.A</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Farmington.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

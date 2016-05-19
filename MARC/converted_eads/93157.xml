@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Arthur Robertson Cushny photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Arthur Robertson Cushny photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,41 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93157 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Cushny</primary_name><rest_of_name>Arthur R.</rest_of_name><fuller_form>(Arthur Robertson)</fuller_form><dates>1866-1926</dates></persname></origination><unittitle>Arthur Robertson Cushny photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1890s?-1920s</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1890s?-1920s.</p></odd></descgrp><bioghist>Professor of Materia Medica and Therapeutics at University of Michigan Medical School.</bioghist><scopecontent>Portraits.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Cushny</primary_name><rest_of_name>Arthur R.</rest_of_name><fuller_form>(Arthur Robertson)</fuller_form><dates>1866-1926</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93157 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Cushny</primary_name>
+          <rest_of_name>Arthur R.</rest_of_name>
+          <fuller_form>(Arthur Robertson)</fuller_form>
+          <dates>1866-1926</dates>
+        </persname>
+      </origination>
+      <unittitle>Arthur Robertson Cushny photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1890s?-1920s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1890s?-1920s.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Professor of Materia Medica and Therapeutics at University of Michigan Medical School.</bioghist>
+    <scopecontent>Portraits.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cushny</primary_name>
+        <rest_of_name>Arthur R.</rest_of_name>
+        <fuller_form>(Arthur Robertson)</fuller_form>
+        <dates>1866-1926</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

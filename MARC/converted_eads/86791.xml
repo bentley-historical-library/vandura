@@ -2,13 +2,54 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Milford Methodist Church records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Milford Methodist Church records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86791 BA</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>Milford Methodist Church (Mich.)</primary_name></corpname></origination><unittitle>Milford Methodist Church records</unittitle><unitdate type="inclusive" label="creation">1878-1914</unitdate><physdesc><extent>3 v</extent></physdesc></did><descgrp><altformavail>Microfilm copy available in part.</altformavail><acqinfo>Donor: 1771, 2351</acqinfo></descgrp><scopecontent>Reports and lists of church members, 1885-1914, of the women's missionary society; and minutes and financial records of the Sunday school, 1878-1882.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Women</term><term type="geographic">Michigan</term><term type="geographic">Milford</term><term type="topical">Societies and clubs.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Milford (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Methodist Episcopal Church</primary_name><term type="geographic">Michigan</term><term type="geographic">Milford.</term></corpname></controlaccess><container label="Volume" type="volume">1</container><container label="Volume" type="volume">2</container><container label="Volume" type="volume">3</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86791 BA</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>Milford Methodist Church (Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Milford Methodist Church records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1878-1914</unitdate>
+    </did>
+    <descgrp>
+      <altformavail>Microfilm copy available in part.</altformavail>
+      <acqinfo>Donor: 1771, 2351</acqinfo>
+    </descgrp>
+    <scopecontent>Reports and lists of church members, 1885-1914, of the women's missionary society; and minutes and financial records of the Sunday school, 1878-1882.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Milford</term>
+        <term type="topical">Societies and clubs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Milford (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Methodist Episcopal Church</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Milford.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+    <container label="Volume" type="volume">3</container>
+  </archdesc>
 </ead>

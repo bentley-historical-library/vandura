@@ -2,13 +2,50 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Claude Bernard Campau power of attorney</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Claude Bernard Campau power of attorney</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88135 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Campau</primary_name><rest_of_name>Claude Bernard.</rest_of_name></persname></origination><unittitle>Claude Bernard Campau power of attorney</unittitle><unitdate type="inclusive" label="creation">June 12, 1809</unitdate><physdesc><extent>1 item</extent></physdesc></did><descgrp><acqinfo>Donor: 1771</acqinfo></descgrp><bioghist>Resident of Detroit, Michigan.</bioghist><scopecontent>Power of attorney granted to Claude B. Campau by Jacques and Antoine Pettier.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Detroit (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Pettier</primary_name><rest_of_name>Antoine.</rest_of_name></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Pettier</primary_name><rest_of_name>Jacques.</rest_of_name></persname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88135 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Campau</primary_name>
+          <rest_of_name>Claude Bernard.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Claude Bernard Campau power of attorney</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">June 12, 1809</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Detroit, Michigan.</bioghist>
+    <scopecontent>Power of attorney granted to Claude B. Campau by Jacques and Antoine Pettier.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Pettier</primary_name>
+        <rest_of_name>Antoine.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Pettier</primary_name>
+        <rest_of_name>Jacques.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

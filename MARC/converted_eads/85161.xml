@@ -2,13 +2,65 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Charles H. Frantz autobiography</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles H. Frantz autobiography</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>85161 AA</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Frantz</primary_name><rest_of_name>Charles H.</rest_of_name></persname></origination><unittitle>Charles H. Frantz autobiography</unittitle><unitdate type="inclusive" label="creation">1975</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><accessrestrict>Literary rights remain with author.</accessrestrict><acqinfo>Donor: 5844</acqinfo></descgrp><bioghist>Grand Rapids, Michigan, orthopedic surgeon; University of Michigan M.D., 1932.</bioghist><scopecontent>Entitled, "Doctor, where Were You?" containing description of his medical school education at the University of Michigan, and his later post-graduate training at University Hospital.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Hospitals</term><term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Medicine</term><term type="geographic">Michigan.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Physicians</term><term type="geographic">Michigan</term><term type="geographic">Grand Rapids.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Grand Rapids (Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Medical School</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>University Hospital</subordinate_name></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85161 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Frantz</primary_name>
+          <rest_of_name>Charles H.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Charles H. Frantz autobiography</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1975</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>Literary rights remain with author.</accessrestrict>
+      <acqinfo>Donor: 5844</acqinfo>
+    </descgrp>
+    <bioghist>Grand Rapids, Michigan, orthopedic surgeon; University of Michigan M.D., 1932.</bioghist>
+    <scopecontent>Entitled, "Doctor, where Were You?" containing description of his medical school education at the University of Michigan, and his later post-graduate training at University Hospital.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Hospitals</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Medicine</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Physicians</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Grand Rapids.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Grand Rapids (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Medical School</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>University Hospital</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

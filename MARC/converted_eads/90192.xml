@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Dover Township enrollment list</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Dover Township enrollment list</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,26 @@
       <descrules>appm</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>90192 Cb.2 Outsize</unitid><unittitle>Dover Township enrollment list</unittitle><unitdate type="inclusive" label="creation">1863</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp/><scopecontent>Enrollment lists of residents of Dover Township, Lenawee County, Michigan subject to do military duty.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Dover (Lenawee County, Mich. : Township)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">United States</term><term type="topical">History</term><term type="temporal">Civil War, 1861-1865.</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>90192 Cb.2 Outsize</unitid>
+      <unittitle>Dover Township enrollment list</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1863</unitdate>
+    </did>
+    <descgrp/>
+    <scopecontent>Enrollment lists of residents of Dover Township, Lenawee County, Michigan subject to do military duty.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Dover (Lenawee County, Mich. : Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

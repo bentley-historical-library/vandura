@@ -2,13 +2,45 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Lansing Association for Human Rights records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Lansing Association for Human Rights records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>9951 Bj 1</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>Lansing Association for Human Rights</primary_name></corpname></origination><unittitle>Lansing Association for Human Rights records</unittitle><unitdate type="inclusive" label="creation">1984-1989</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><acqinfo>Donor: 8839</acqinfo></descgrp><scopecontent>Chiefly minutes.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Gays</term><term type="geographic">Michigan</term><term type="geographic">Lansing.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Lansing Association for Human Rights</primary_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9951 Bj 1</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>Lansing Association for Human Rights</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Lansing Association for Human Rights records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1984-1989</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 8839</acqinfo>
+    </descgrp>
+    <scopecontent>Chiefly minutes.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Gays</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Lansing.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Lansing Association for Human Rights</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

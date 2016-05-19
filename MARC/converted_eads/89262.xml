@@ -2,13 +2,48 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Harold Philippi Scott poems</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Harold Philippi Scott poems</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>89262 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Scott</primary_name><rest_of_name>Harold P.</rest_of_name><fuller_form>(Harold Philippi)</fuller_form></persname></origination><unittitle>Harold Philippi Scott poems</unittitle><unitdate type="inclusive" label="creation">[ca. 1913-ca. 1929]</unitdate><physdesc><extent>7 items (23 p.)</extent></physdesc></did><descgrp><acqinfo>Donor: 2166</acqinfo></descgrp><bioghist>Student at the University of Michigan, class of 1913.</bioghist><scopecontent>Verses about the University and faculty members read at a meeting of the Faculty Club.</scopecontent><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Poetry.</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Faculty.</term></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89262 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Scott</primary_name>
+          <rest_of_name>Harold P.</rest_of_name>
+          <fuller_form>(Harold Philippi)</fuller_form>
+        </persname>
+      </origination>
+      <unittitle>Harold Philippi Scott poems</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">7 items</extent>
+        <physfacet>23 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[ca. 1913-ca. 1929]</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2166</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan, class of 1913.</bioghist>
+    <scopecontent>Verses about the University and faculty members read at a meeting of the Faculty Club.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Poetry.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

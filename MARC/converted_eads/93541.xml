@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Mary A. Rackham photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Mary A. Rackham photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,40 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93541 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Rackham</primary_name><rest_of_name>Mary A. Horton</rest_of_name><dates>d. 1947</dates></persname></origination><unittitle>Mary A. Rackham photograph collection.</unittitle><unitdate type="inclusive" label="creation">1880s and 1924</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1880s and 1924.</p></odd><acqinfo>Donor: 972, 3075</acqinfo></descgrp><bioghist>Wife of Horace H. Rackham.</bioghist><scopecontent>Portraits.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Rackham</primary_name><rest_of_name>Mary A. Horton</rest_of_name><dates>d. 1947</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93541 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Rackham</primary_name>
+          <rest_of_name>Mary A. Horton</rest_of_name>
+          <dates>d. 1947</dates>
+        </persname>
+      </origination>
+      <unittitle>Mary A. Rackham photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1880s and 1924</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1880s and 1924.</p>
+      </odd>
+      <acqinfo>Donor: 972, 3075</acqinfo>
+    </descgrp>
+    <bioghist>Wife of Horace H. Rackham.</bioghist>
+    <scopecontent>Portraits.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rackham</primary_name>
+        <rest_of_name>Mary A. Horton</rest_of_name>
+        <dates>d. 1947</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

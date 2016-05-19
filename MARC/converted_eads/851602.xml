@@ -2,13 +2,57 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Clifford Kirkpatrick business records</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Clifford Kirkpatrick business records</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851602 AA</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Kirkpatrick</primary_name><rest_of_name>Clifford</rest_of_name><dates>b. 1855</dates></persname></origination><unittitle>Clifford Kirkpatrick business records</unittitle><unitdate type="inclusive" label="creation">1882-1895</unitdate><physdesc><extent>2 v</extent></physdesc></did><descgrp><acqinfo>Donor: 2115</acqinfo></descgrp><bioghist>Adrian, Michigan physician.</bioghist><scopecontent>Ledger and daybook concerning his medical practice.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Business records.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Medicine</term><term type="geographic">Michigan</term><term type="geographic">Adrian.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Physicians</term><term type="geographic">Michigan</term><term type="geographic">Adrian.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Adrian (Mich.)</term></subject></controlaccess><container label="Volume" type="volume">1</container><container label="Volume" type="volume">2</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851602 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Kirkpatrick</primary_name>
+          <rest_of_name>Clifford</rest_of_name>
+          <dates>b. 1855</dates>
+        </persname>
+      </origination>
+      <unittitle>Clifford Kirkpatrick business records</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1882-1895</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2115</acqinfo>
+    </descgrp>
+    <bioghist>Adrian, Michigan physician.</bioghist>
+    <scopecontent>Ledger and daybook concerning his medical practice.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Medicine</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Adrian.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Physicians</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Adrian.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Adrian (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
 </ead>

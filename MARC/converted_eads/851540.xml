@@ -2,13 +2,92 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Samuel B. Jones papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Samuel B. Jones papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>851540 Aa 1 AA</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Jones</primary_name><rest_of_name>Samuel B.</rest_of_name></persname></origination><unittitle>Samuel B. Jones papers</unittitle><unitdate type="inclusive" label="creation">1845-1867</unitdate><physdesc><extent>2 items and 1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 3406</acqinfo><odd><head>General Note</head><p>Photographs described separately.</p></odd></descgrp><bioghist>Farmer in Ronald Township, Ionia County, Michigan.</bioghist><scopecontent>Agricultural account book, an indenture, 1857, and photograph.</scopecontent><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Account books.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Agriculture</term><term type="geographic">Michigan</term><term type="geographic">Ionia County.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Farmers</term><term type="geographic">Michigan</term><term type="geographic">Ionia County.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Ionia County (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Ronald (Mich. : Township)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Jones</primary_name><rest_of_name>Samuel B.</rest_of_name></persname><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject></controlaccess><dsc><c01 level="series"><did><unittitle>Samuel B. Jones papers</unittitle><physdesc><extent>2 items and 1 v</extent></physdesc><unitdate type="inclusive" label="creation">1845-1867</unitdate></did><scopecontent>Agricultural account book, an indenture, 1857, and photograph.</scopecontent></c01><c01 level="series"><did><unittitle>Samuel B. Jones photograph series.</unittitle><physdesc><extent>1 envelope</extent></physdesc><unitdate type="inclusive" label="creation">1850</unitdate></did><scopecontent>Portrait.</scopecontent></c01></dsc><container label="Folder" type="folder">1</container><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851540 Aa 1 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Jones</primary_name>
+          <rest_of_name>Samuel B.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Samuel B. Jones papers</unittitle>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1845-1867</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3406</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Photographs described separately.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Farmer in Ronald Township, Ionia County, Michigan.</bioghist>
+    <scopecontent>Agricultural account book, an indenture, 1857, and photograph.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Account books.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Agriculture</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ionia County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farmers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ionia County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ionia County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ronald (Mich. : Township)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Jones</primary_name>
+        <rest_of_name>Samuel B.</rest_of_name>
+      </persname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Samuel B. Jones papers</unittitle>
+          <physdesc altrender="part">
+            <extent altrender="materialtype spaceoccupied">2 items</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1845-1867</unitdate>
+        </did>
+        <scopecontent>Agricultural account book, an indenture, 1857, and photograph.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Samuel B. Jones photograph series.</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1850</unitdate>
+        </did>
+        <scopecontent>Portrait.</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Folder" type="folder">1</container>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

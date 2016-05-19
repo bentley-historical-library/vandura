@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the George E. Frothingham photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the George E. Frothingham photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,41 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93394 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Frothingham</primary_name><rest_of_name>George E.</rest_of_name><fuller_form>(George Edward)</fuller_form><dates>1836-1900</dates></persname></origination><unittitle>George E. Frothingham photograph collection.</unittitle><unitdate type="inclusive" label="creation">1870s-1890s</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1870s-1890s.</p></odd></descgrp><bioghist>Professor of Ophthalmology, aural surgery, and materia medica at the University of Michigan.</bioghist><scopecontent>Portraits.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Frothingham</primary_name><rest_of_name>George E.</rest_of_name><fuller_form>(George Edward)</fuller_form><dates>1836-1900</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93394 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Frothingham</primary_name>
+          <rest_of_name>George E.</rest_of_name>
+          <fuller_form>(George Edward)</fuller_form>
+          <dates>1836-1900</dates>
+        </persname>
+      </origination>
+      <unittitle>George E. Frothingham photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1870s-1890s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1870s-1890s.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Professor of Ophthalmology, aural surgery, and materia medica at the University of Michigan.</bioghist>
+    <scopecontent>Portraits.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Frothingham</primary_name>
+        <rest_of_name>George E.</rest_of_name>
+        <fuller_form>(George Edward)</fuller_form>
+        <dates>1836-1900</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

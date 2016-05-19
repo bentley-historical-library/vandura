@@ -2,13 +2,57 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Dorothy Merle Johnston scrapbook.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Dorothy Merle Johnston scrapbook.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>05124 AA</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Johnston</primary_name><rest_of_name>Dorothy Merle.</rest_of_name></persname></origination><unittitle>Dorothy Merle Johnston scrapbook.</unittitle><unitdate type="inclusive" label="creation">1914-1916</unitdate><physdesc><extent>1 volume</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1914-1916.</p></odd><acqinfo>Donor: 9648</acqinfo></descgrp><bioghist>Graduate of the University of Michigan, class of 1918.</bioghist><scopecontent>Scrapbook containing photos of student groups and activities; also programs and other memorabilia of student life.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="aat" encodinganalog="655"><term type="genre_form">Scrapbooks.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Johnston</primary_name><rest_of_name>Dorothy Merle.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Students.</term></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>05124 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Johnston</primary_name>
+          <rest_of_name>Dorothy Merle.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Dorothy Merle Johnston scrapbook.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1914-1916</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1914-1916.</p>
+      </odd>
+      <acqinfo>Donor: 9648</acqinfo>
+    </descgrp>
+    <bioghist>Graduate of the University of Michigan, class of 1918.</bioghist>
+    <scopecontent>Scrapbook containing photos of student groups and activities; also programs and other memorabilia of student life.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Johnston</primary_name>
+        <rest_of_name>Dorothy Merle.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

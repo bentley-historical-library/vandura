@@ -2,13 +2,68 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Abraham L. Johnson collection</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Abraham L. Johnson collection</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>0210 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Johnson</primary_name><rest_of_name>Abraham L.</rest_of_name></persname></origination><unittitle>Abraham L. Johnson collection</unittitle><unitdate type="inclusive" label="creation">2001</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><odd><head>Reproduction Note</head><p>Photocopies.</p></odd><acqinfo>Donor: 9179</acqinfo></descgrp><bioghist>Resident of New Era, Mich.</bioghist><scopecontent>Collection of documents relating to the sinking of SS Tuscania (a troopship) in 1918, of which his grandfather Arthur J. Siplon was a survivor; includes a 1955 reminiscence by Siplon and information about the ship and its wreck copied from the World Wide Web. Siplon was a resident of Muskegon, Mich.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="650"><term type="topical">Shipwrecks</term><term type="geographic">North Channel (Northern Ireland and Scotland)</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">World War, 1914-1918</term><term type="topical">Naval operations.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">World War, 1914-1918</term><term type="genre_form">Personal narratives, American.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Siplon</primary_name><rest_of_name>Arthur J.</rest_of_name><dates>1894-1975</dates></persname><persname source="local" encodinganalog="700"><primary_name>Siplon</primary_name><rest_of_name>Arthur J.</rest_of_name><dates>1894-1975</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>Tuscania (Ship)</primary_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0210 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Johnson</primary_name>
+          <rest_of_name>Abraham L.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Abraham L. Johnson collection</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">2001</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopies.</p>
+      </odd>
+      <acqinfo>Donor: 9179</acqinfo>
+    </descgrp>
+    <bioghist>Resident of New Era, Mich.</bioghist>
+    <scopecontent>Collection of documents relating to the sinking of SS Tuscania (a troopship) in 1918, of which his grandfather Arthur J. Siplon was a survivor; includes a 1955 reminiscence by Siplon and information about the ship and its wreck copied from the World Wide Web. Siplon was a resident of Muskegon, Mich.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Shipwrecks</term>
+        <term type="geographic">North Channel (Northern Ireland and Scotland)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918</term>
+        <term type="topical">Naval operations.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918</term>
+        <term type="genre_form">Personal narratives, American.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Siplon</primary_name>
+        <rest_of_name>Arthur J.</rest_of_name>
+        <dates>1894-1975</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Siplon</primary_name>
+        <rest_of_name>Arthur J.</rest_of_name>
+        <dates>1894-1975</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Tuscania (Ship)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

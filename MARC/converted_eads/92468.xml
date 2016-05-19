@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the [Lewis Cass] [graphic] / engd. by W. J. Edwards ; from dag. by Brady.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the [Lewis Cass] [graphic] / engd. by W. J. Edwards ; from dag. by Brady.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,6 +12,61 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92468 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Edwards</primary_name><rest_of_name>W. J.</rest_of_name></persname></origination><unittitle>[Lewis Cass] [graphic] / engd. by W. J. Edwards ; from dag. by Brady.</unittitle><unitdate type="inclusive" label="creation">185-?]</unitdate><physdesc><extent>1 print</extent><physfacet>
-engraving</physfacet><dimensions>image and text 22 x 14 cm.</dimensions></physdesc></did><descgrp><odd><head>General Note</head><p>Gift of: Earl W. De La Vergne.</p></odd><odd><head>Publication, Distribution, Etc.</head><p>[S.l. : s.n., 185-?].</p></odd><odd><head>General Note</head><p>Includes vignette: General Cass at a treaty with the Indians.</p></odd><odd><head>General Note</head><p>Removed from an unidentified book.</p></odd><acqinfo>Donor: 3152</acqinfo></descgrp><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Prints.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Cass</primary_name><rest_of_name>Lewis</rest_of_name><dates>1782-1866</dates></persname><persname source="local" encodinganalog="700"><primary_name>Brady</primary_name><rest_of_name>Mathew B.</rest_of_name><dates>approximately 1823-1896</dates></persname><persname source="local" role="pro" encodinganalog="700"><primary_name>De La Vergne</primary_name><rest_of_name>Earl W.</rest_of_name></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92468 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Edwards</primary_name>
+          <rest_of_name>W. J.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>[Lewis Cass] [graphic] / engd. by W. J. Edwards ; from dag. by Brady.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 prints</extent>
+        <physfacet>
+engraving</physfacet>
+        <dimensions>image and text 22 x 14 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">185-?]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>Gift of: Earl W. De La Vergne.</p>
+      </odd>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[S.l. : s.n., 185-?].</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>Includes vignette: General Cass at a treaty with the Indians.</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>Removed from an unidentified book.</p>
+      </odd>
+      <acqinfo>Donor: 3152</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cass</primary_name>
+        <rest_of_name>Lewis</rest_of_name>
+        <dates>1782-1866</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Brady</primary_name>
+        <rest_of_name>Mathew B.</rest_of_name>
+        <dates>approximately 1823-1896</dates>
+      </persname>
+      <persname source="local" role="pro" encodinganalog="700">
+        <primary_name>De La Vergne</primary_name>
+        <rest_of_name>Earl W.</rest_of_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

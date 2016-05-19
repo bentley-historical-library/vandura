@@ -2,13 +2,54 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Howard W. Weting diary</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Howard W. Weting diary</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>921111 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Weting</primary_name><rest_of_name>Howard W.</rest_of_name></persname></origination><unittitle>Howard W. Weting diary</unittitle><unitdate type="inclusive" label="creation">1918-1919</unitdate><physdesc><extent>1 folder</extent></physdesc></did><descgrp><acqinfo>Donor: 6093</acqinfo></descgrp><bioghist>Resident of Romeo, Michigan, who served in the 315th U.S. Army Ambulance Company during World War I.</bioghist><scopecontent>Describes his daily activities from the time he left training camp for France, through experiences at the front and after the end of the war, to his return to the U.S.</scopecontent><controlaccess><subject source="ftamc" encodinganalog="655"><term type="genre_form">Diaries.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">World War, 1914-1918.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Weting</primary_name><rest_of_name>Howard W.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>United States</primary_name><subordinate_name>Army</subordinate_name><subordinate_name>Ambulance Service</subordinate_name></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>921111 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Weting</primary_name>
+          <rest_of_name>Howard W.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Howard W. Weting diary</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 folders</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1918-1919</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6093</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Romeo, Michigan, who served in the 315th U.S. Army Ambulance Company during World War I.</bioghist>
+    <scopecontent>Describes his daily activities from the time he left training camp for France, through experiences at the front and after the end of the war, to his return to the U.S.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Weting</primary_name>
+        <rest_of_name>Howard W.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Ambulance Service</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

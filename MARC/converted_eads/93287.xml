@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the W. J. Cocker photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the W. J. Cocker photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,44 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>93287 UAs</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Cocker</primary_name><rest_of_name>W. J.</rest_of_name><fuller_form>(William Johnson)</fuller_form><dates>1846-1901</dates></persname></origination><unittitle>W. J. Cocker photograph collection.</unittitle><unitdate type="inclusive" label="creation">1860s-1890s</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1860s-1890s.</p></odd></descgrp><bioghist>Educator and banker in Adrian, Michigan; regent of the University of Michigan, 1889-1901.</bioghist><scopecontent>Portraits.</scopecontent><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Prints.</term></subject><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Cocker</primary_name><rest_of_name>W. J.</rest_of_name><fuller_form>(William Johnson)</fuller_form><dates>1846-1901</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>93287 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Cocker</primary_name>
+          <rest_of_name>W. J.</rest_of_name>
+          <fuller_form>(William Johnson)</fuller_form>
+          <dates>1846-1901</dates>
+        </persname>
+      </origination>
+      <unittitle>W. J. Cocker photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1860s-1890s</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1860s-1890s.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Educator and banker in Adrian, Michigan; regent of the University of Michigan, 1889-1901.</bioghist>
+    <scopecontent>Portraits.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cocker</primary_name>
+        <rest_of_name>W. J.</rest_of_name>
+        <fuller_form>(William Johnson)</fuller_form>
+        <dates>1846-1901</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

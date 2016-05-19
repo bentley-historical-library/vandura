@@ -2,13 +2,81 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Charles Ira Fonda papers</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles Ira Fonda papers</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88292 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Fonda</primary_name><rest_of_name>Charles Ira</rest_of_name><dates>1831-1910</dates></persname></origination><unittitle>Charles Ira Fonda papers</unittitle><unitdate type="inclusive" label="creation">1906 and 1910</unitdate><physdesc><extent>3 items</extent></physdesc></did><descgrp><acqinfo>Donor: 5403</acqinfo><odd><head>General Note</head><p>Photographs described separately.</p></odd></descgrp><bioghist>Resident of Coldwater, Michigan.</bioghist><scopecontent>Reminiscences, 1906, of his trip to California and his search for gold, 1850-1855; and related newspaper clippings; and photograph.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">California</term><term type="topical">Gold discoveries.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Coldwater (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Fonda</primary_name><rest_of_name>Charles Ira</rest_of_name><dates>1831-1910</dates></persname><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject></controlaccess><dsc><c01 level="series"><did><unittitle>Charles Ira Fonda papers</unittitle><physdesc><extent>3 items</extent></physdesc><unitdate type="inclusive" label="creation">1906 and 1910</unitdate></did><scopecontent>Reminiscences, 1906, of his trip to California and his search for gold, 1850-1855; and related newspaper clippings; and photograph.</scopecontent></c01><c01 level="series"><did><unittitle>Charles Ira Fonda photograph series.</unittitle><physdesc><extent>1 envelope</extent></physdesc><unitdate type="inclusive" label="creation">1890s?</unitdate></did><scopecontent>Portrait.</scopecontent></c01></dsc><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88292 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Fonda</primary_name>
+          <rest_of_name>Charles Ira</rest_of_name>
+          <dates>1831-1910</dates>
+        </persname>
+      </origination>
+      <unittitle>Charles Ira Fonda papers</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 items</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1906 and 1910</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5403</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Photographs described separately.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Resident of Coldwater, Michigan.</bioghist>
+    <scopecontent>Reminiscences, 1906, of his trip to California and his search for gold, 1850-1855; and related newspaper clippings; and photograph.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">California</term>
+        <term type="topical">Gold discoveries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Coldwater (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Fonda</primary_name>
+        <rest_of_name>Charles Ira</rest_of_name>
+        <dates>1831-1910</dates>
+      </persname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Charles Ira Fonda papers</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">3 items</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1906 and 1910</unitdate>
+        </did>
+        <scopecontent>Reminiscences, 1906, of his trip to California and his search for gold, 1850-1855; and related newspaper clippings; and photograph.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Charles Ira Fonda photograph series.</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1890s?</unitdate>
+        </did>
+        <scopecontent>Portrait.</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

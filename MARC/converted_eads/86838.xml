@@ -2,13 +2,51 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Wise Presbyterian Church record book</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Wise Presbyterian Church record book</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>86838 BA</unitid><origination><corpname encodinganalog="110" source="local"><primary_name>Wise Presbyterian Church (Coleman, Mich.)</primary_name></corpname></origination><unittitle>Wise Presbyterian Church record book</unittitle><unitdate type="inclusive" label="creation">1945-1964</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 4650</acqinfo></descgrp><scopecontent>Minutes and lists of pastors, communicants and baptisms.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Coleman (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Isabella County (Mich.)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Wise (Mich. : Township)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>United Presbyterian Church in the U.S.A</primary_name><term type="geographic">Michigan</term><term type="geographic">Coleman.</term></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86838 BA</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local">
+          <primary_name>Wise Presbyterian Church (Coleman, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Wise Presbyterian Church record book</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1945-1964</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4650</acqinfo>
+    </descgrp>
+    <scopecontent>Minutes and lists of pastors, communicants and baptisms.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Coleman (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Isabella County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Wise (Mich. : Township)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United Presbyterian Church in the U.S.A</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Coleman.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

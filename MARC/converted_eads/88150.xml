@@ -2,13 +2,47 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the John Alexander Campfield student notebook</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the John Alexander Campfield student notebook</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88150 BImu C54</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Campfield</primary_name><rest_of_name>John Alexander</rest_of_name><dates>d. 1865</dates></persname></origination><unittitle>John Alexander Campfield student notebook</unittitle><unitdate type="inclusive" label="creation">1860-1861</unitdate><physdesc><extent>1 v</extent></physdesc></did><descgrp><acqinfo>Donor: 1316</acqinfo></descgrp><bioghist>Medical student at the University of Michigan.</bioghist><controlaccess><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Department of Medicine and Surgery</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Student notebooks.</term></corpname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88150 BImu C54</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Campfield</primary_name>
+          <rest_of_name>John Alexander</rest_of_name>
+          <dates>d. 1865</dates>
+        </persname>
+      </origination>
+      <unittitle>John Alexander Campfield student notebook</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1860-1861</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1316</acqinfo>
+    </descgrp>
+    <bioghist>Medical student at the University of Michigan.</bioghist>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Medicine and Surgery</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

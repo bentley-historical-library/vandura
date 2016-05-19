@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Melvin Dadd photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Melvin Dadd photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,44 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>97124 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Dadd</primary_name><rest_of_name>Melvin.</rest_of_name></persname></origination><unittitle>Melvin Dadd photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1930-ca. 1934?</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1930-ca. 1934?</p></odd><acqinfo>Donor: 8640</acqinfo></descgrp><bioghist>1934 graduate of the University of Michigan.</bioghist><scopecontent>Snapshots of campus scenes, including Burton Tower and Observatory Street.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Observatory Street (Ann Arbor, Mich.)</term></subject><corpname source="lcnaf" encodinganalog="610"><primary_name>Burton Tower (University of Michigan)</primary_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Campus.</term></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>97124 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Dadd</primary_name>
+          <rest_of_name>Melvin.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Melvin Dadd photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1930-ca. 1934?</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1930-ca. 1934?</p>
+      </odd>
+      <acqinfo>Donor: 8640</acqinfo>
+    </descgrp>
+    <bioghist>1934 graduate of the University of Michigan.</bioghist>
+    <scopecontent>Snapshots of campus scenes, including Burton Tower and Observatory Street.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Observatory Street (Ann Arbor, Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Burton Tower (University of Michigan)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Campus.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>

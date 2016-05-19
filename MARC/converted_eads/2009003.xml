@@ -2,13 +2,60 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Charles Coburn Stevenson student notebook</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles Coburn Stevenson student notebook</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>2009003 Aa 1</unitid><origination><persname encodinganalog="100" source="lcnaf"><primary_name>Stevenson</primary_name><rest_of_name>Charles Coburn.</rest_of_name></persname></origination><unittitle>Charles Coburn Stevenson student notebook</unittitle><langmaterial>In English.</langmaterial><unitdate type="inclusive" label="creation">1884-1885</unitdate><physdesc><extent>1 v. (172 p.)</extent></physdesc></did><descgrp><accessrestrict>The collection is open for research use.</accessrestrict><acqinfo>Donor: 343</acqinfo></descgrp><bioghist>Law student at the University of Michigan from Boise, Idaho, graduated in 1885.</bioghist><scopecontent>Notes on the lectures of Harry B. Hutchins on "Equity Pleadings and Practices."</scopecontent><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Hutchins</primary_name><rest_of_name>Harry B.</rest_of_name><fuller_form>(Harry Burns)</fuller_form><dates>1847-1930</dates></persname><persname source="lcnaf" encodinganalog="600"><primary_name>Stevenson</primary_name><rest_of_name>Charles Coburn.</rest_of_name></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Department of Law</subordinate_name></corpname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><term type="topical">Student notebooks.</term></corpname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2009003 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf">
+          <primary_name>Stevenson</primary_name>
+          <rest_of_name>Charles Coburn.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Charles Coburn Stevenson student notebook</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+        <physfacet>172 p.</physfacet>
+      </physdesc>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1884-1885</unitdate>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 343</acqinfo>
+    </descgrp>
+    <bioghist>Law student at the University of Michigan from Boise, Idaho, graduated in 1885.</bioghist>
+    <scopecontent>Notes on the lectures of Harry B. Hutchins on "Equity Pleadings and Practices."</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hutchins</primary_name>
+        <rest_of_name>Harry B.</rest_of_name>
+        <fuller_form>(Harry Burns)</fuller_form>
+        <dates>1847-1930</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Stevenson</primary_name>
+        <rest_of_name>Charles Coburn.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Law</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

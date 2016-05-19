@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Florence Howlett photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Florence Howlett photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,44 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92274 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Howlett</primary_name><rest_of_name>Florence</rest_of_name><dates>1867-1964</dates></persname></origination><unittitle>Florence Howlett photograph collection.</unittitle><unitdate type="inclusive" label="creation">1890s? and 1959</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1890s? and 1959.</p></odd><acqinfo>Donor: 4277</acqinfo></descgrp><bioghist>Resident of Chelsea, Michigan.</bioghist><scopecontent>Photo of Howlett's home in Chelsea; and photos of individuals involved in celebration of Chelsea's 125th anniversary in 1959.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Dwellings</term><term type="geographic">Michigan</term><term type="geographic">Chelsea.</term></subject><subject source="lctgm" encodinganalog="651"><term type="geographic">Chelsea (Mich.)</term><term type="topical">Dwellings.</term></subject></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92274 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Howlett</primary_name>
+          <rest_of_name>Florence</rest_of_name>
+          <dates>1867-1964</dates>
+        </persname>
+      </origination>
+      <unittitle>Florence Howlett photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1890s? and 1959</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1890s? and 1959.</p>
+      </odd>
+      <acqinfo>Donor: 4277</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Chelsea, Michigan.</bioghist>
+    <scopecontent>Photo of Howlett's home in Chelsea; and photos of individuals involved in celebration of Chelsea's 125th anniversary in 1959.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Dwellings</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Chelsea.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
+        <term type="geographic">Chelsea (Mich.)</term>
+        <term type="topical">Dwellings.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
 </ead>

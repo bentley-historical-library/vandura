@@ -2,13 +2,48 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Historical sketch of Hulbert Township</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Historical sketch of Hulbert Township</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>88425 Aa 1</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Hulbert</primary_name><rest_of_name>R. C.</rest_of_name></persname></origination><unittitle>Historical sketch of Hulbert Township</unittitle><unitdate type="inclusive" label="creation">1936</unitdate><physdesc><extent>1 item (29 p.)</extent></physdesc></did><descgrp><acqinfo>Donor: 6697</acqinfo></descgrp><scopecontent>Brief history of this Chippewa County, Michigan, township, with mention of the activities of the Hulbert family in the development of this portion of Michigan's Upper Peninsula.</scopecontent><controlaccess><subject source="lcsh" encodinganalog="651"><term type="geographic">Hulbert (Mich. : Township)</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Upper Peninsula (Mich.)</term></subject><famname source="lcnaf" encodinganalog="600"><family_name>Hulbert family</family_name></famname></controlaccess><container label="Folder" type="folder">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88425 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Hulbert</primary_name>
+          <rest_of_name>R. C.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Historical sketch of Hulbert Township</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 items</extent>
+        <physfacet>29 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1936</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6697</acqinfo>
+    </descgrp>
+    <scopecontent>Brief history of this Chippewa County, Michigan, township, with mention of the activities of the Hulbert family in the development of this portion of Michigan's Upper Peninsula.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hulbert (Mich. : Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Upper Peninsula (Mich.)</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Hulbert family</family_name>
+      </famname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
 </ead>

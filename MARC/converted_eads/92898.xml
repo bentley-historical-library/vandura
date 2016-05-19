@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Herbert C. Smith photograph collection.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Herbert C. Smith photograph collection.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,49 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92898 UAs</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Smith</primary_name><rest_of_name>Herbert C.</rest_of_name></persname></origination><unittitle>Herbert C. Smith photograph collection.</unittitle><unitdate type="inclusive" label="creation">ca. 1860s?</unitdate><physdesc><extent>1 envelope</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>ca. 1860s?</p></odd><odd><head>General Note</head><p>Copy print.</p></odd><acqinfo>Donor dated photograph as 1838, but an 1850s dating is more likely.</acqinfo><acqinfo>Donor: 2934</acqinfo></descgrp><scopecontent>Photograph of the Climax harvester, taken in a field near Climax, Michigan.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><subject source="lctgm" encodinganalog="650"><term type="topical">Agricultural machinery &amp; implements.</term></subject><subject source="lcsh" encodinganalog="651"><term type="geographic">Climax (Mich.)</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Moore</primary_name><rest_of_name>Hiram</rest_of_name><dates>1801-1875</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92898 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Smith</primary_name>
+          <rest_of_name>Herbert C.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Herbert C. Smith photograph collection.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1860s?</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1860s?</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>Copy print.</p>
+      </odd>
+      <acqinfo>Donor dated photograph as 1838, but an 1850s dating is more likely.</acqinfo>
+      <acqinfo>Donor: 2934</acqinfo>
+    </descgrp>
+    <scopecontent>Photograph of the Climax harvester, taken in a field near Climax, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Agricultural machinery &amp; implements.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Climax (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Moore</primary_name>
+        <rest_of_name>Hiram</rest_of_name>
+        <dates>1801-1875</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

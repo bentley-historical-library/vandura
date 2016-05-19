@@ -2,13 +2,45 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the The early years of Gabriel Richard</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the The early years of Gabriel Richard</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
-  <archdesc level="collection"><did><unitid>8820 AA</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Baisnée</primary_name><rest_of_name>Jules Albert</rest_of_name><dates>1879-</dates></persname></origination><unittitle>The early years of Gabriel Richard</unittitle><unitdate type="inclusive" label="creation">ca. 1951</unitdate><physdesc><extent>1 v. (34 p.)</extent></physdesc></did><descgrp><acqinfo>Donor: 2357</acqinfo></descgrp><bioghist>Student at Catholic University of America.</bioghist><controlaccess><persname source="lcnaf" encodinganalog="600"><primary_name>Richard</primary_name><rest_of_name>Gabriel</rest_of_name><dates>1767-1832</dates></persname></controlaccess><container label="Volume" type="volume">1</container></archdesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8820 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Baisnée</primary_name>
+          <rest_of_name>Jules Albert</rest_of_name>
+          <dates>1879-</dates>
+        </persname>
+      </origination>
+      <unittitle>The early years of Gabriel Richard</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+        <physfacet>34 p.</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">ca. 1951</unitdate>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2357</acqinfo>
+    </descgrp>
+    <bioghist>Student at Catholic University of America.</bioghist>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Richard</primary_name>
+        <rest_of_name>Gabriel</rest_of_name>
+        <dates>1767-1832</dates>
+      </persname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
 </ead>

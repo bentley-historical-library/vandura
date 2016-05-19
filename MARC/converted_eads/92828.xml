@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Wissegong, Indien Chippeway (Michigan) [graphic] / lith. par Prat.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Wissegong, Indien Chippeway (Michigan) [graphic] / lith. par Prat.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,6 +12,52 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92828 UAm</unitid><origination><persname encodinganalog="100" source="local"><primary_name>Prat</primary_name><rest_of_name>Jacques.</rest_of_name></persname></origination><unittitle>Wissegong, Indien Chippeway (Michigan) [graphic] / lith. par Prat.</unittitle><unitdate type="inclusive" label="creation">[ca. 1842]</unitdate><physdesc><extent>1 print</extent><physfacet>
-lithograph, color</physfacet><dimensions>image 16 x 14 cm.</dimensions></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>[Paris] : Lith. rue Salle au Comte, [ca. 1842].</p></odd><odd><head>General Note</head><p>Print from: Vues et souvenirs de l'Amérique du Nord / par Francis de Castelnau. -- Paris : Bertrand, 1842. -- Plate 15.</p></odd><acqinfo>Donor: 1771</acqinfo></descgrp><controlaccess><subject source="gmgpc" encodinganalog="655"><term type="genre_form">Prints.</term></subject><subject source="lcsh" encodinganalog="650"><term type="topical">Indians of North America</term><term type="geographic">Michigan.</term></subject><persname source="lcnaf" encodinganalog="600"><primary_name>Wissegong.</primary_name></persname><persname source="local" encodinganalog="700"><primary_name>Castelnau</primary_name><rest_of_name>Francis</rest_of_name><title>comte de</title><dates>1812-1880</dates></persname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92828 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Prat</primary_name>
+          <rest_of_name>Jacques.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Wissegong, Indien Chippeway (Michigan) [graphic] / lith. par Prat.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 prints</extent>
+        <physfacet>
+lithograph, color</physfacet>
+        <dimensions>image 16 x 14 cm.</dimensions>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">[ca. 1842]</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[Paris] : Lith. rue Salle au Comte, [ca. 1842].</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>Print from: Vues et souvenirs de l'Amérique du Nord / par Francis de Castelnau. -- Paris : Bertrand, 1842. -- Plate 15.</p>
+      </odd>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Indians of North America</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wissegong.</primary_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Castelnau</primary_name>
+        <rest_of_name>Francis</rest_of_name>
+        <title>comte de</title>
+        <dates>1812-1880</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
 </ead>

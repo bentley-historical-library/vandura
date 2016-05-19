@@ -2,7 +2,9 @@
 <ead>
   <eadheader>
     <filedesc>
-      <titlestmt><titleproper>Finding aid for the Class book, '01 Medical, University of Michigan 25th reunion, June 11 and 12, 1926, Ann Arbor / compiled by George Milton Kline.</titleproper></titlestmt>
+      <titlestmt>
+        <titleproper>Finding aid for the Class book, '01 Medical, University of Michigan 25th reunion, June 11 and 12, 1926, Ann Arbor / compiled by George Milton Kline.</titleproper>
+      </titlestmt>
     </filedesc>
     <profiledesc>
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
@@ -10,5 +12,49 @@
       <descrules>gihc</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection"><did><unitid>92606 FImu F99 1901 C614</unitid><origination><corpname encodinganalog="110" source="lcnaf"><primary_name>University of Michigan</primary_name><subordinate_name>Dept. of Medicine and Surgery</subordinate_name><subordinate_name>Class of 1901</subordinate_name></corpname></origination><unittitle>Class book, '01 Medical, University of Michigan 25th reunion, June 11 and 12, 1926, Ann Arbor / compiled by George Milton Kline.</unittitle><unitdate type="inclusive" label="creation">1926</unitdate><physdesc><extent>1 album (86 photo prints)</extent></physdesc></did><descgrp><odd><head>Publication, Distribution, Etc.</head><p>1926.</p></odd><odd><head>General Note</head><p>2 copies, shelved with printed works.</p></odd><acqinfo>Donor: 5856, 8111</acqinfo></descgrp><scopecontent>Photographic portraits of 86 class members, tipped in on pages with biographies.</scopecontent><controlaccess><subject source="aat" encodinganalog="655"><term type="genre_form">Photographs.</term></subject><persname source="local" encodinganalog="700"><primary_name>Kline</primary_name><rest_of_name>George Milton</rest_of_name><dates>1878-</dates></persname><corpname source="lcnaf" encodinganalog="610"><primary_name>University of Michigan</primary_name><subordinate_name>Dept. of Medicine and Surgery</subordinate_name><subordinate_name>Class of 1901</subordinate_name></corpname></controlaccess></archdesc>
+  <archdesc level="collection">
+    <did>
+      <unitid>92606 FImu F99 1901 C614</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf">
+          <primary_name>University of Michigan</primary_name>
+          <subordinate_name>Dept. of Medicine and Surgery</subordinate_name>
+          <subordinate_name>Class of 1901</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Class book, '01 Medical, University of Michigan 25th reunion, June 11 and 12, 1926, Ann Arbor / compiled by George Milton Kline.</unittitle>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
+        <physfacet>86 photo prints</physfacet>
+      </physdesc>
+      <unitdate type="inclusive" label="creation">1926</unitdate>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1926.</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>2 copies, shelved with printed works.</p>
+      </odd>
+      <acqinfo>Donor: 5856, 8111</acqinfo>
+    </descgrp>
+    <scopecontent>Photographic portraits of 86 class members, tipped in on pages with biographies.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Kline</primary_name>
+        <rest_of_name>George Milton</rest_of_name>
+        <dates>1878-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of Medicine and Surgery</subordinate_name>
+        <subordinate_name>Class of 1901</subordinate_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
 </ead>
