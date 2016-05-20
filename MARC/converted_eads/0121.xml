@@ -17,16 +17,16 @@
     <did>
       <unitid>0121 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3495">
           <primary_name>Baker</primary_name>
           <rest_of_name>Kate I.</rest_of_name>
         </persname>
       </origination>
       <unittitle>Kate I. Baker student notebook</unittitle>
-      <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
-      </physdesc>
       <unitdate type="inclusive" label="creation">1907</unitdate>
+      <physdesc>
+        <extent>1 volume</extent>
+      </physdesc>
     </did>
     <descgrp>
       <acqinfo>Donor: 8908</acqinfo>
@@ -34,19 +34,19 @@
     <bioghist>Student at the University of Michigan, class of 1907.</bioghist>
     <scopecontent>Notes on the sociology lectures of Charles Horton Cooley.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650">
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3006">
         <term type="topical">Sociology.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600">
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3495">
         <primary_name>Baker</primary_name>
         <rest_of_name>Kate I.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600">
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5451">
         <primary_name>Cooley</primary_name>
         <rest_of_name>Charles Horton</rest_of_name>
         <dates>1864-1929</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610">
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>

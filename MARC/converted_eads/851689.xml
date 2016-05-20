@@ -17,15 +17,15 @@
     <did>
       <unitid>851689 CB</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local">
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/304">
           <primary_name>Livingston County (Mich.)</primary_name>
         </corpname>
       </origination>
       <unittitle>Livingston County marriage records</unittitle>
-      <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
-      </physdesc>
       <unitdate type="inclusive" label="creation">1836-1850</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
@@ -36,12 +36,12 @@
       <acqinfo>Donor: 1562</acqinfo>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650">
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/753">
         <term type="topical">Registers of births, etc.</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Livingston County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651">
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/8214">
         <term type="geographic">Livingston County (Mich.)</term>
       </subject>
     </controlaccess>

@@ -16,7 +16,7 @@
     <did>
       <unitid>9472 mf 256cba</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1163">
           <primary_name>United States</primary_name>
           <subordinate_name>Army</subordinate_name>
           <subordinate_name>Michigan Infantry Regiment, 4th (1861-1864)</subordinate_name>
@@ -24,22 +24,22 @@
         </corpname>
       </origination>
       <unittitle>Michigan Infantry, 4th Regiment, Co. H. records, [microform].</unittitle>
-      <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
-        <physfacet>
-positive.</physfacet>
-      </physdesc>
-      <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
-        <physfacet>
-print master.</physfacet>
-      </physdesc>
-      <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
+      <unitdate type="inclusive" label="creation">1861-1864</unitdate>
+      <physdesc>
+        <extent>1 microfilm reel</extent>
         <physfacet>
 master negative.</physfacet>
       </physdesc>
-      <unitdate type="inclusive" label="creation">1861-1864</unitdate>
+      <physdesc>
+        <extent>1 microfilm reel</extent>
+        <physfacet>
+print master.</physfacet>
+      </physdesc>
+      <physdesc>
+        <extent>1 microfilm reel</extent>
+        <physfacet>
+positive.</physfacet>
+      </physdesc>
     </did>
     <descgrp>
       <altformavail>Original available.</altformavail>
@@ -47,12 +47,12 @@ master negative.</physfacet>
     </descgrp>
     <scopecontent>Company clothing records, morning reports, and descriptive roll.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651">
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610">
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1163">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 4th (1861-1864)</subordinate_name>

@@ -10,12 +10,8 @@ from vandura.EAD.aspaceify_extents.aspaceify_extents.scripts.extent_grab import 
 
 # CHANGE THESE TWO PATHS TO MATCH YOUR SYSTEM
 # THE OUTPUT DIRECTORY CAN BE ANYWHERE YOU'D LIKE
-#ead_input_directory = real_masters_all
-#ead_output_directory = real_masters_all
-
-ead_input_directory = join(marc_dir, "converted_eads")
-ead_output_directory = ead_input_directory
-
+ead_input_directory = real_masters_all
+ead_output_directory = real_masters_all
 
 # get a list of all extents in your eads, with their xml paths
 extents = get_all_extents(ead_input_directory)

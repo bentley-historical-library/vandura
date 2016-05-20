@@ -16,16 +16,16 @@
     <did>
       <unitid>47001 Aa 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local">
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3127">
           <primary_name>Bentley Historical Library</primary_name>
         </corpname>
       </origination>
       <unittitle>Bentley Historical Library Realia Collection</unittitle>
-      <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">23 linear feet</extent>
-      </physdesc>
       <langmaterial>In Egnlish.</langmaterial>
       <unitdate type="inclusive" label="creation">1800s-1900s</unitdate>
+      <physdesc>
+        <extent>23 linear feet and two oversize boxes</extent>
+      </physdesc>
     </did>
     <descgrp>
       <accruals>Periodic additions to the collection are expected.</accruals>
@@ -34,11 +34,11 @@
     </descgrp>
     <scopecontent>A collection of artifacts and three-dimensional objects held by the Bentley Historical Library. The realia collection is divided into three series, University of Michigan, Political Material, and Miscellaneous. While many of the Library’s artifacts are represented as apart of this collection, some are cataloged separately. Collection includes the University of Michigan apparel, pins and jewelry, textiles and miscellaneous items. Political artifacts, with a particularly high concentration of political campaign memorabilia, buttons and pens. Miscellanea is diverse and far reaching, and includes gavels, jewelry and accessories, Masonic items, medals, medical, military, Native American items, and textiles.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651">
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1657">
         <term type="geographic">Michigan</term>
         <term type="genre_form">Miscellanea.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610">
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
         <primary_name>University of Michigan</primary_name>
         <term type="genre_form">Miscellanea.</term>
       </corpname>

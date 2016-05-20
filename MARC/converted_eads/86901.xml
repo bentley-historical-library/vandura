@@ -17,15 +17,15 @@
     <did>
       <unitid>86901 Ba 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local">
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/390">
           <primary_name>Wesleyan Methodist Church (Alton, Mich.)</primary_name>
         </corpname>
       </origination>
       <unittitle>Wesleyan Methodist Church records</unittitle>
-      <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">1 volumes</extent>
-      </physdesc>
       <unitdate type="inclusive" label="creation">1891-1906</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
     </did>
     <descgrp>
       <odd>
@@ -36,10 +36,10 @@
     </descgrp>
     <scopecontent>Minutes and membership rolls.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651">
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/751">
         <term type="geographic">Alton (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610">
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/672">
         <primary_name>Wesleyan Methodist Connection (or Church) of America</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Alton.</term>

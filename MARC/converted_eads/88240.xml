@@ -17,18 +17,17 @@
     <did>
       <unitid>88240 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/222">
           <primary_name>Dewey</primary_name>
           <rest_of_name>John</rest_of_name>
           <dates>1859-1952</dates>
         </persname>
       </origination>
       <unittitle>John Dewey papers</unittitle>
-      <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">5 linear inches</extent>
-        <extent altrender="carrier">(in 1 box)</extent>
-      </physdesc>
       <unitdate type="inclusive" label="creation">1889-1948</unitdate>
+      <physdesc>
+        <extent>5 linear in. in 1 box</extent>
+      </physdesc>
     </did>
     <descgrp>
       <odd>
@@ -44,26 +43,26 @@
     <bioghist>American philosopher and educator.</bioghist>
     <scopecontent>Mimeographed lectures, 1889, from the University of Chicago, entitled "Hegel's Philosophy of Spirit"; copies of John Dewey letters and papers taken from the manuscript holdings of the Michigan Historical Collections; letters discussing briefly his years on the faculty of the University of Michigan and the disposition of his papers; also photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650">
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2123">
         <term type="topical">Philosophy.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600">
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/222">
         <primary_name>Dewey</primary_name>
         <rest_of_name>John</rest_of_name>
         <dates>1859-1952</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610">
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1513">
         <primary_name>University of Chicago</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610">
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/680">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Philosophy</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610">
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655">
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
         <term type="genre_form">Photographs.</term>
       </subject>
     </controlaccess>
@@ -71,9 +70,8 @@
       <c01 level="series">
         <did>
           <unittitle>John Dewey papers</unittitle>
-          <physdesc altrender="whole">
-            <extent altrender="materialtype spaceoccupied">5 linear inches</extent>
-            <extent altrender="carrier">(in 1 box)</extent>
+          <physdesc>
+            <extent>5 linear in. in 1 box</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1889-1948</unitdate>
         </did>
@@ -82,8 +80,8 @@
       <c01 level="series">
         <did>
           <unittitle>John Dewey photograph series.</unittitle>
-          <physdesc altrender="whole">
-            <extent altrender="materialtype spaceoccupied">1 envelopes</extent>
+          <physdesc>
+            <extent>1 envelope</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1880s-1890s</unitdate>
         </did>

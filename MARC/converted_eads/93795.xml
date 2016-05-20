@@ -16,28 +16,28 @@
     <did>
       <unitid>93795 mf 225 abc</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local">
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3126">
           <primary_name>United States</primary_name>
           <subordinate_name>Census Office</subordinate_name>
         </corpname>
       </origination>
       <unittitle>Census of Washtenaw County, Michigan [microform]</unittitle>
-      <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
-        <physfacet>
-print master.</physfacet>
-      </physdesc>
-      <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
-        <physfacet>
-master negative.</physfacet>
-      </physdesc>
-      <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">1 microfilms</extent>
+      <unitdate type="inclusive" label="creation">1870</unitdate>
+      <physdesc>
+        <extent>1 microfilm reel</extent>
         <physfacet>
 positive.</physfacet>
       </physdesc>
-      <unitdate type="inclusive" label="creation">1870</unitdate>
+      <physdesc>
+        <extent>1 microfilm reel</extent>
+        <physfacet>
+master negative.</physfacet>
+      </physdesc>
+      <physdesc>
+        <extent>1 microfilm reel</extent>
+        <physfacet>
+print master.</physfacet>
+      </physdesc>
     </did>
     <descgrp>
       <altformavail>Original available.</altformavail>
@@ -45,10 +45,10 @@ positive.</physfacet>
     </descgrp>
     <scopecontent>List of inhabitants for Washtenaw County, Michigan.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655">
+      <subject source="aat" encodinganalog="655" ref="/subjects/5736">
         <term type="genre_form">Census records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651">
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3889">
         <term type="geographic">Washtenaw County (Mich.)</term>
         <term type="topical">Census, 1870.</term>
       </subject>
