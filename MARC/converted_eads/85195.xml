@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Free and Accepted Masons, Lexington Lodge minutes</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85195 BD</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2291">
+          <primary_name>Freemasons</primary_name>
+          <subordinate_name>Lexington Lodge No. 61 (Lexington, Mich.)</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Free and Accepted Masons, Lexington Lodge minutes</unittitle>
+      <unitdate type="inclusive" label="creation">1852-1863</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1531</acqinfo>
+    </descgrp>
+    <scopecontent>Account of the establishment of the lodge and subsequent activities.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2235">
+        <term type="topical">Freemasonry</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Lexington.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7234">
+        <term type="geographic">Lexington (Mich.).</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2291">
+        <primary_name>Freemasons</primary_name>
+        <subordinate_name>Lexington Lodge No. 61 (Lexington, Mich.)</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

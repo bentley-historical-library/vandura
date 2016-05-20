@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Richard G. Fowler papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85174 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/4750">
+          <primary_name>Fowler</primary_name>
+          <rest_of_name>Richard Gildart.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Richard G. Fowler papers</unittitle>
+      <unitdate type="inclusive" label="creation">1946-1969</unitdate>
+      <physdesc>
+        <extent>ca. 200 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6357</acqinfo>
+    </descgrp>
+    <bioghist>Professor of physics at the University of Oklahoma.</bioghist>
+    <scopecontent>Correspondence with University of Michigan physicists, Otto Laporte and Harrison M. Randall.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/8019">
+        <term type="topical">Physics.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/1616">
+        <primary_name>Laporte</primary_name>
+        <rest_of_name>Otto</rest_of_name>
+        <dates>1902-1971</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/298">
+        <primary_name>Randall</primary_name>
+        <rest_of_name>Harrison M.</rest_of_name>
+        <fuller_form>(Harrison McAllister)</fuller_form>
+        <dates>1870-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1046">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Physics</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2191">
+        <primary_name>University of Oklahoma</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+    <container label="Folder" type="folder">3</container>
+    <container label="Folder" type="folder">4</container>
+  </archdesc>
+</ead>

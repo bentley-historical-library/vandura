@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Addie F. Chaplin diary</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85914 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/4864">
+          <primary_name>Chaplin</primary_name>
+          <rest_of_name>Addie F.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Addie F. Chaplin diary</unittitle>
+      <unitdate type="inclusive" label="creation">1880-1883</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2213</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Dowagiac, Michigan.</bioghist>
+    <scopecontent>Scattered entries concerning daily events in the life of a young girl.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6532">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Dowagiac.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2871">
+        <term type="topical">Girls</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Dowagiac.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/8435">
+        <term type="geographic">Dowagiac (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

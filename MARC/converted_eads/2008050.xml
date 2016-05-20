@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Leonard Sklar collection</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2008050 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1702">
+          <primary_name>Sklar</primary_name>
+          <rest_of_name>Leonard.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Leonard Sklar collection</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1968-1974</unitdate>
+      <physdesc>
+        <extent>0.2 linear feet</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accruals>Further accruals are expected.</accruals>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <relatedmaterial>Additional Leonard Sklar materials are a part of the Labadie Collection, Special Collections Library, University of Michigan.</relatedmaterial>
+      <acqinfo>Donor: 9944</acqinfo>
+    </descgrp>
+    <bioghist>Sklar is assistant professor of geosciences at San Francisco State University. While growing up in Ann Arbor, Mich., he was a political activist at a young age, becoming a member of the steering committee of the Michigan Human Rights Party at age 12. He later was active in the antinuclear movement and struggles against U.S. policy in Central America while living in New York City.</bioghist>
+    <scopecontent>Collected Ann Arbor publications of Youth Liberation, Human Rights Party, and others.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/34">
+        <term type="topical">Student movements</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1702">
+        <primary_name>Sklar</primary_name>
+        <rest_of_name>Leonard.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1435">
+        <primary_name>Human Rights Party (Ann Arbor, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1388">
+        <primary_name>Youth Liberation (Ann Arbor, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

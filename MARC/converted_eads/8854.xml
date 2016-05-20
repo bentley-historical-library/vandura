@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the H. R. Beuhler scrapbooks</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8854 AC</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6926">
+          <primary_name>Beuhler</primary_name>
+          <rest_of_name>H. R.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>H. R. Beuhler scrapbooks</unittitle>
+      <unitdate type="inclusive" label="creation">1916-1936</unitdate>
+      <physdesc>
+        <extent>3 oversize v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5231</acqinfo>
+    </descgrp>
+    <bioghist>Ann Arbor, Michigan, businessman.</bioghist>
+    <scopecontent>Scrapbooks containing newspaper clippings relating largely to local and national coal and building supply business conditions.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1970">
+        <term type="topical">Coal trade.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/882">
+        <term type="topical">Construction industry.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Oversize Volume" type="volume">1</container>
+    <container label="Oversize Volume" type="volume">2</container>
+    <container label="Oversize Volume" type="volume">3</container>
+  </archdesc>
+</ead>

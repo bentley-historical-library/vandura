@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Katherine M. King sketch book.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>92370 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6070">
+          <primary_name>King</primary_name>
+          <rest_of_name>Katherine M.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Katherine M. King sketch book.</unittitle>
+      <unitdate type="inclusive" label="creation">1919</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1919.</p>
+      </odd>
+      <acqinfo>Donor: 5696</acqinfo>
+    </descgrp>
+    <scopecontent>Pencil drawings of Wisconsin and Michigan's Upper Peninsula.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/1480">
+        <term type="genre_form">Drawings.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/4706">
+        <term type="topical">Art.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6395">
+        <term type="geographic">Upper Peninsula (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2153">
+        <term type="geographic">Wisconsin.</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the John Planck account books</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85363 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/7040">
+          <primary_name>Planck</primary_name>
+          <rest_of_name>John.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>John Planck account books</unittitle>
+      <unitdate type="inclusive" label="creation">1845-1879</unitdate>
+      <physdesc>
+        <extent>2 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6393</acqinfo>
+    </descgrp>
+    <bioghist>Account books of John Planck (residence unknown), possible mill owner, later used as a ledger-scrapbook-diary, 1888-1921, of the Greenawalt family of Cass County, Michigan.</bioghist>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1788">
+        <term type="geographic">Cass County (Mich.)</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/432">
+        <family_name>Greenawalt family</family_name>
+      </famname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
+</ead>

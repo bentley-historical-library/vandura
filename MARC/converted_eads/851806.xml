@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the James A. Mead letterbooks</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851806 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/7288">
+          <primary_name>Mead</primary_name>
+          <rest_of_name>James A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>James A. Mead letterbooks</unittitle>
+      <unitdate type="inclusive" label="creation">1890-1894</unitdate>
+      <physdesc>
+        <extent>2 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3199</acqinfo>
+    </descgrp>
+    <bioghist>Grand Rapids (Mich.) businessman.</bioghist>
+    <scopecontent>Business correspondence relating to the Michigan Marble Company.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/725">
+        <term type="topical">Marble industry and trade</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7858">
+        <term type="geographic">Grand Rapids (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1204">
+        <primary_name>Michigan Marble Company</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
+</ead>

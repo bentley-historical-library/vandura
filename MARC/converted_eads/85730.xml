@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William Baird expense account</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85730 Aa</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6597">
+          <primary_name>Baird</primary_name>
+          <rest_of_name>William.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>William Baird expense account</unittitle>
+      <unitdate type="inclusive" label="creation">1812</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp/>
+    <bioghist>Soldier during the War of 1812.</bioghist>
+    <scopecontent>Record of expenses for a trip between Buffalo, New York, and Sandusky, Ohio, to deliver dispatches to General William Hull at Detroit, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7932">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">War of 1812.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6744">
+        <primary_name>Hull</primary_name>
+        <rest_of_name>William</rest_of_name>
+        <dates>1753-1825</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

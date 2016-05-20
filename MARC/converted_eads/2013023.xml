@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Richard Hunt bozzetti.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2013023 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/882">
+          <primary_name>Hunt</primary_name>
+          <rest_of_name>Richard</rest_of_name>
+          <dates>1935-</dates>
+        </persname>
+      </origination>
+      <unittitle>Richard Hunt bozzetti.</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1975</unitdate>
+      <physdesc>
+        <extent>2 pieces</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1975.</p>
+      </odd>
+      <acqinfo>Donor: 10887</acqinfo>
+    </descgrp>
+    <bioghist>American sculptor.</bioghist>
+    <scopecontent>Bozzetti or maquettes for "Historical Circle" and "Peregrine Section," two companion pieces that form the Hobart Taylor Memorial Sculpture in the courtyard of the Bentley Historical Library, University of Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/8477">
+        <term type="genre_form">Bozzetti.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7265">
+        <primary_name>Taylor</primary_name>
+        <rest_of_name>Hobart T.</rest_of_name>
+        <dates>1890-1972</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/882">
+        <primary_name>Hunt</primary_name>
+        <rest_of_name>Richard</rest_of_name>
+        <dates>1935-</dates>
+        <term type="uniform_title">Historical circle.</term>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/882">
+        <primary_name>Hunt</primary_name>
+        <rest_of_name>Richard</rest_of_name>
+        <dates>1935-</dates>
+        <term type="uniform_title">Peregrine section.</term>
+      </persname>
+    </controlaccess>
+    <container label="Sculpture" type="sculpture">1</container>
+  </archdesc>
+</ead>

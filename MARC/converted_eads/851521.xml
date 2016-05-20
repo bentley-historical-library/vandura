@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Henry Hutchison papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851521 Aa</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/449">
+          <primary_name>Hutchison</primary_name>
+          <rest_of_name>Henry.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Henry Hutchison papers</unittitle>
+      <unitdate type="inclusive" label="creation">1821-1885</unitdate>
+      <physdesc>
+        <extent>12 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1271</acqinfo>
+    </descgrp>
+    <bioghist>Oakland County, Michigan, resident.</bioghist>
+    <scopecontent>Eleven legal papers, and manuscript by James Shearer II containing information about the Hutchison, Shearer, Sullivan, Marston, and LeFavour families.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4418">
+        <term type="geographic">Oakland County (Mich.)</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/427">
+        <family_name>LeFavour family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/419">
+        <family_name>Marston family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/457">
+        <family_name>Shearer family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/354">
+        <family_name>Sullivan family</family_name>
+      </famname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
+</ead>

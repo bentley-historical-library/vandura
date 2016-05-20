@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Frederick H. Olert papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87307 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/2209">
+          <primary_name>Olert</primary_name>
+          <rest_of_name>Frederick H.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Frederick H. Olert papers</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1956-1972</unitdate>
+      <physdesc>
+        <extent>5 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7463</acqinfo>
+    </descgrp>
+    <bioghist>Pastor of First Presbyterian Church, Detroit, Michigan, and Central Reformed Church, Grand Rapids, Michigan.</bioghist>
+    <scopecontent>Sermons.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655" ref="/subjects/814">
+        <term type="genre_form">Sermons.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2911">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6066">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Grand Rapids.</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

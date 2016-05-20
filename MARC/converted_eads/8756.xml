@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the United States Congress act</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8756 UCFs</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/655">
+          <primary_name>United States</primary_name>
+          <subordinate_name>Congress</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>United States Congress act</unittitle>
+      <unitdate type="inclusive" label="creation">1837</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <originalsloc>National Archives,
+Washington, D. C.</originalsloc>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photographic copy.</p>
+      </odd>
+    </descgrp>
+    <scopecontent>Act to admit Michigan into the union.</scopecontent>
+    <controlaccess>
+      <subject source="local" encodinganalog="690" ref="/subjects/5321">
+        <term type="topical">Michigan</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1815-1844.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5854">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">To 1837.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/1356">
+        <primary_name>Jackson</primary_name>
+        <rest_of_name>Andrew</rest_of_name>
+        <dates>1767-1845</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

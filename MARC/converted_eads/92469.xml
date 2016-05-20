@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Mark Bedsole photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>92469 UAm</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local" ref="/agents/people/4033">
+          <primary_name>Bedsole</primary_name>
+          <rest_of_name>Mark</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Mark Bedsole photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1912-1914</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1912-1914.</p>
+      </odd>
+      <acqinfo>Donor: 7582</acqinfo>
+    </descgrp>
+    <bioghist>Rochester Hills, Michigan, resident.</bioghist>
+    <scopecontent>Photographs of Michigan National Guard bands at the University of Michigan and other places.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/4273">
+        <term type="topical">Bands.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/7883">
+        <term type="topical">Music ensembles.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1774">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>National Guard</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Campus.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

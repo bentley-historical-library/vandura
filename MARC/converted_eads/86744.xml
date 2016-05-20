@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Adelbert D. Baughman diary</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86744 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/3824">
+          <primary_name>Baughman</primary_name>
+          <rest_of_name>Adelbert D.</rest_of_name>
+          <dates>b. 1841</dates>
+        </persname>
+      </origination>
+      <unittitle>Adelbert D. Baughman diary</unittitle>
+      <unitdate type="inclusive" label="creation">1864-1865</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript copy.</p>
+      </odd>
+      <acqinfo>Donor: 4213</acqinfo>
+    </descgrp>
+    <bioghist>Member of the 1st Independent Ohio Battery in Virginia during the Civil War.</bioghist>
+    <scopecontent>Contains account of President Abraham Lincoln's assassination at which Baughman was present.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/8314">
+        <term type="geographic">Ohio.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6830">
+        <term type="geographic">Virginia.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3581">
+        <primary_name>Lincoln</primary_name>
+        <rest_of_name>Abraham</rest_of_name>
+        <dates>1809-1865</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2910">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Ohio Light Artillery, Independent Battery, 1st (1861-1865)</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

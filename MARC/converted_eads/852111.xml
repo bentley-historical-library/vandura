@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William Henry Pettee papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>852111 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2155">
+          <primary_name>Pettee</primary_name>
+          <rest_of_name>William Henry</rest_of_name>
+          <dates>1838-1904</dates>
+        </persname>
+      </origination>
+      <unittitle>William Henry Pettee papers</unittitle>
+      <unitdate type="inclusive" label="creation">1859-1899</unitdate>
+      <physdesc>
+        <extent>1 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1735, 4562</acqinfo>
+    </descgrp>
+    <bioghist>Professor of mineralogy at University of Michigan.</bioghist>
+    <scopecontent>Letterbooks, 1893-1899, notebooks, 1859-1868, account books, 1862-1886, and receipts, 1881-1882 ; also photographic portraits.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655" ref="/subjects/8157">
+        <term type="genre_form">Account books.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/889">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

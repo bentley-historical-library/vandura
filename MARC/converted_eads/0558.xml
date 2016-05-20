@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Emily Hailey reminiscence</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0558 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4082">
+          <primary_name>Hailey</primary_name>
+          <rest_of_name>Emily.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Emily Hailey reminiscence</unittitle>
+      <unitdate type="inclusive" label="creation">[190-?]</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7402</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Detroit, Mich., immigrant from Wells, Somersetshire, England.</bioghist>
+    <scopecontent>Reminiscence of her early life and geography of Somersetshire.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1513">
+        <term type="topical">Women</term>
+        <term type="geographic">England</term>
+        <term type="geographic">Somerset.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7654">
+        <term type="geographic">Somerset (England)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4082">
+        <primary_name>Hailey</primary_name>
+        <rest_of_name>Emily.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

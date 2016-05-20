@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Civic Improvement Society of Monroe records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851923 Bm 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/2331">
+          <primary_name>Civic Improvement Society of Monroe (Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Civic Improvement Society of Monroe records</unittitle>
+      <unitdate type="inclusive" label="creation">1902-1924</unitdate>
+      <physdesc>
+        <extent>.1 linear ft. (2 v. and 1 folder)</extent>
+      </physdesc>
+    </did>
+    <descgrp/>
+    <scopecontent>Minutes, 1902-1913, and scattered correspondence. Correspondents include: Charles E. Townsend.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/377">
+        <term type="topical">Civic improvement.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6010">
+        <term type="geographic">Monroe (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5152">
+        <primary_name>Townsend</primary_name>
+        <rest_of_name>Charles E.</rest_of_name>
+        <fuller_form>(Charles Elroy)</fuller_form>
+        <dates>1856-1924</dates>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

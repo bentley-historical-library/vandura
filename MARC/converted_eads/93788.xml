@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Persis Tinsman photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93788 UAx</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2219">
+          <primary_name>Tinsman</primary_name>
+          <rest_of_name>Persis.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Persis Tinsman photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1880s?</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1880s?</p>
+      </odd>
+      <acqinfo>Donor: 4354</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Milan, Michigan.</bioghist>
+    <scopecontent>Portrait of Mr. and Mrs. Persis Tinsman (tintype).</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/6346">
+        <term type="genre_form">Tintypes.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2219">
+        <primary_name>Tinsman</primary_name>
+        <rest_of_name>Persis.</rest_of_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

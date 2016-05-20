@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Ann Arbor Justice of the Peace docket books</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>853 CC</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2417">
+          <primary_name>Michigan</primary_name>
+          <subordinate_name>Justice of the Peace (Ann Arbor)</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Ann Arbor Justice of the Peace docket books</unittitle>
+      <unitdate type="inclusive" label="creation">1830-1833 and 1851-1870</unitdate>
+      <physdesc>
+        <extent>2 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2155, 4898</acqinfo>
+    </descgrp>
+    <scopecontent>Cases heard before Martin Davis, 1830-1833, David T. McCollum, 1851-1868, and Patrick McKernan, 1869-1871.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6178">
+        <term type="topical">Justices of the peace</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7946">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+        <term type="topical">History.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3326">
+        <primary_name>Davis</primary_name>
+        <rest_of_name>Martin</rest_of_name>
+        <dates>1786-1872</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7341">
+        <primary_name>McCollum</primary_name>
+        <rest_of_name>David T.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3098">
+        <primary_name>McKernan</primary_name>
+        <rest_of_name>Patrick</rest_of_name>
+        <dates>1835-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2417">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>Justice of the Peace (Ann Arbor)</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
+</ead>

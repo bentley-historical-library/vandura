@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Thomas LaRue photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93428 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1171">
+          <primary_name>LaRue</primary_name>
+          <rest_of_name>Thomas</rest_of_name>
+          <dates>1814-1902</dates>
+        </persname>
+      </origination>
+      <unittitle>Thomas LaRue photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1880s?</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1880s?</p>
+      </odd>
+      <acqinfo>Donor: 2244</acqinfo>
+    </descgrp>
+    <bioghist>Farmer in York Township, Washtenaw County, Michigan; later lived in Saline, Michigan.</bioghist>
+    <scopecontent>Portraits of LaRue and his wife, Anna Elizabeth LaRue.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/278">
+        <primary_name>LaRue</primary_name>
+        <rest_of_name>Anna Elizabeth</rest_of_name>
+        <dates>1829-1905</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1171">
+        <primary_name>LaRue</primary_name>
+        <rest_of_name>Thomas</rest_of_name>
+        <dates>1814-1902</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

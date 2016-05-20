@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Ralph G. Coulter letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88189 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/4622">
+          <primary_name>Coulter</primary_name>
+          <rest_of_name>Ralph G.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Ralph G. Coulter letter</unittitle>
+      <unitdate type="inclusive" label="creation">1944</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2123</acqinfo>
+    </descgrp>
+    <scopecontent>Letter, 1944, from Captain John A. Wright describing the fighting during the invasion of Normandy during World War II, and how he was wounded.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5646">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5933">
+        <primary_name>Wright</primary_name>
+        <rest_of_name>John A.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

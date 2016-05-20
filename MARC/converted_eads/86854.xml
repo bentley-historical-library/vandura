@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Eastminster Presbyterian Church records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86854 BA</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/2202">
+          <primary_name>Eastminster Presbyterian Church (Flint, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Eastminster Presbyterian Church records</unittitle>
+      <unitdate type="inclusive" label="creation">1953-1974</unitdate>
+      <physdesc>
+        <extent>2 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4650</acqinfo>
+    </descgrp>
+    <bioghist>Formerly Assyrian Presbyterian Church.</bioghist>
+    <scopecontent>Session minutes and church register.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2044">
+        <term type="geographic">Flint (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2559">
+        <primary_name>United Presbyterian Church in the U.S.A</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Flint.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Dieterle family photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93564 UAs</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local" ref="/agents/families/437">
+          <family_name>Dieterle family (Ann Arbor, Mich.)</family_name>
+        </famname>
+      </origination>
+      <unittitle>Dieterle family photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1890s?</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1890s?</p>
+      </odd>
+    </descgrp>
+    <bioghist>Family of Carl Dieterle, a laborer in Ann Arbor, Michigan.</bioghist>
+    <scopecontent>Portraits.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6221">
+        <primary_name>Dieterle</primary_name>
+        <rest_of_name>Carl.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/537">
+        <family_name>Diéterle family</family_name>
+      </famname>
+    </controlaccess>
+  </archdesc>
+</ead>

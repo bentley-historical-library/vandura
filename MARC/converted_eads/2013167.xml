@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William Donovan scrapbook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2013167 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2552">
+          <primary_name>Donovan</primary_name>
+          <rest_of_name>William</rest_of_name>
+          <dates>1846-1937</dates>
+        </persname>
+      </origination>
+      <unittitle>William Donovan scrapbook</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1884-1939</unitdate>
+      <physdesc>
+        <extent>1 volume in 1 box</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accruals>Further accruals are not expected.</accruals>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 11025</acqinfo>
+    </descgrp>
+    <bioghist>William Donovan was born in Ann Arbor, Mich., in 1846, graduated from the University of Michigan as a civil engineer in 1865, worked for the Jackson, Lansing, and Saginaw Railroad. He was elected mayor of Lansing, Mich., in 1884, serving for two years. He was later associated with Lansing's water system and several railroads.</bioghist>
+    <scopecontent>Scrapbook mainly relating to Donovan's political activities, including clippings of speeches, election results, and reports, programs of meetings, and miscellanea.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/8315">
+        <term type="geographic">Lansing (Mich.)</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">19th century.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2552">
+        <primary_name>Donovan</primary_name>
+        <rest_of_name>William</rest_of_name>
+        <dates>1846-1937</dates>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

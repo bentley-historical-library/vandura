@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the James G. Birney [graphic] / W. L. Powell, pinx. ; J. Sartain, sc.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>92851 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/7487">
+          <primary_name>Sartain</primary_name>
+          <rest_of_name>John</rest_of_name>
+          <dates>1808-1897</dates>
+        </persname>
+      </origination>
+      <unittitle>James G. Birney [graphic] / W. L. Powell, pinx. ; J. Sartain, sc.</unittitle>
+      <unitdate type="inclusive" label="creation">18--]</unitdate>
+      <physdesc>
+        <extent>1 print</extent>
+        <physfacet>
+mezzotint</physfacet>
+        <dimensions>image 23 x 18 cm.</dimensions>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[S.l. : s.n., 18--].</p>
+      </odd>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/6189">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1065">
+        <primary_name>Birney</primary_name>
+        <rest_of_name>James Gillespie</rest_of_name>
+        <dates>1792-1857</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/4007">
+        <primary_name>Powell</primary_name>
+        <rest_of_name>W. L.</rest_of_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Lifespan, Inc. records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851684 Bt 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/681">
+          <primary_name>Lifespan, Inc</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Lifespan, Inc. records</unittitle>
+      <unitdate type="inclusive" label="creation">1969-1974</unitdate>
+      <physdesc>
+        <extent>.5 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5556</acqinfo>
+    </descgrp>
+    <bioghist>Formerly known as People Taking Action Against Abortion.</bioghist>
+    <scopecontent>Promotional materials, newspaper clippings, newsletters, and other miscellanea relating to its activities.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5765">
+        <term type="topical">Abortion</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5297">
+        <term type="topical">Social action</term>
+        <term type="geographic">Michigan</term>
+        <term type="topical">Societies, etc.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4955">
+        <term type="topical">Pro-life movement</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/681">
+        <primary_name>Lifespan, Inc</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1283">
+        <primary_name>People Taking Action Against Abortion</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

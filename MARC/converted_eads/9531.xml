@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Lucile J. Gries collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9531 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5302">
+          <primary_name>Gries</primary_name>
+          <rest_of_name>Lucile J.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Lucile J. Gries collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1943-1945</unitdate>
+      <physdesc>
+        <extent>.1 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1943-1945.</p>
+      </odd>
+      <acqinfo>Donor: 8358</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Pontiac, Mich.</bioghist>
+    <scopecontent>Medals, photo, and service record of her son, James R. Gee, who was killed in World War II.</scopecontent>
+    <controlaccess>
+      <subject source="lctgm" encodinganalog="655" ref="/subjects/1517">
+        <term type="genre_form">Medals.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5219">
+        <primary_name>Gee</primary_name>
+        <rest_of_name>James R.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

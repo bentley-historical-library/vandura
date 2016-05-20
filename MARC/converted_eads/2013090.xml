@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Herman W. Pipp architectural drawings</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2013090 Ac</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/7322">
+          <primary_name>Pipp</primary_name>
+          <rest_of_name>Herman W.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Herman W. Pipp architectural drawings</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">ca. 1900</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accruals>Further accruals are not expected.</accruals>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>December 10, 1946.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Herman W. Pipp, born 1872, was an architect in Ann Arbor, Mich.</bioghist>
+    <scopecontent>Set of architectural plans for a single family residence.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/6691">
+        <term type="genre_form">Architectural drawings (visual works)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1740">
+        <term type="topical">Architecture</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7322">
+        <primary_name>Pipp</primary_name>
+        <rest_of_name>Herman W.</rest_of_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

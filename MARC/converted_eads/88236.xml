@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Detroit, Michigan, papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88236 Cc 1</unitid>
+      <unittitle>Detroit, Michigan, papers</unittitle>
+      <unitdate type="inclusive" label="creation">1775-1888 (scattered dates)</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1333, 1454</acqinfo>
+    </descgrp>
+    <scopecontent>Agreement, 1775, among Detroit merchants to regulate sale of liquor to Indians [photostat]; census, 1796, detailing number of male inhabitants and number of buildings [photostat]; taxroll, January 1818, including names of persons subject to tax and amount of their taxes; petitition, 1864, requesting local navy recruiting office; and meteorological summary, October-November, 1888.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1096">
+        <term type="topical">Indians of North America</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2999">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4859">
+        <term type="geographic">Detroit (Mich.)</term>
+        <term type="topical">Climate.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2429">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Navy</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

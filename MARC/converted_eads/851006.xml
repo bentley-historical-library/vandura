@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Isaac Edwin Crary papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851006 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/927">
+          <primary_name>Crary</primary_name>
+          <rest_of_name>Isaac Edwin</rest_of_name>
+          <dates>1804-1854</dates>
+        </persname>
+      </origination>
+      <unittitle>Isaac Edwin Crary papers</unittitle>
+      <unitdate type="inclusive" label="creation">1836-1837 and 1915</unitdate>
+      <physdesc>
+        <extent>3 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript copies in part.</p>
+      </odd>
+      <acqinfo>Donor: 1278, 1771</acqinfo>
+    </descgrp>
+    <bioghist>Delegate from the Michigan Territory to Congress.</bioghist>
+    <scopecontent>Letter, 1836, from Crary concerning the admission of Michigan to the Union; also letters, 1837, to and from Benjamin Silliman concerning the possibility of Silliman's becoming Chancellor of University of Michigan; letter, 1915, from Edgar F. Waterman, of Trinity College, to Edwin C. Way concerning Crary.</scopecontent>
+    <controlaccess>
+      <subject source="local" encodinganalog="691" ref="/subjects/7107">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1815-1844.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5854">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">To 1837.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/7427">
+        <primary_name>Silliman</primary_name>
+        <rest_of_name>Benjamin</rest_of_name>
+        <dates>1779-1864</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/6854">
+        <primary_name>Waterman</primary_name>
+        <rest_of_name>Edgar F.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">History.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
+</ead>

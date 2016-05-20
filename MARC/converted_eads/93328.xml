@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the James F. Love photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93328 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/1249">
+          <primary_name>Love</primary_name>
+          <rest_of_name>James F.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>James F. Love photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1920s and 1988</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1920s and 1988.</p>
+      </odd>
+      <acqinfo>Donor: 7686</acqinfo>
+    </descgrp>
+    <bioghist>Resident of North Carolina.</bioghist>
+    <scopecontent>Copy print photographs of Horace H. Rackham and photos of Rackham's house in Pinehurst, North Carolina.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/6644">
+        <term type="topical">Dwellings</term>
+        <term type="geographic">North Carolina.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651" ref="/subjects/2">
+        <term type="geographic">North Carolina</term>
+        <term type="topical">Dwellings.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7366">
+        <primary_name>Rackham</primary_name>
+        <rest_of_name>Horace H.</rest_of_name>
+        <dates>1858-1933</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

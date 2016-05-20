@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Sanford W. Lyon papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86557 Aa 1 UAx</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/6148">
+          <primary_name>Lyon</primary_name>
+          <rest_of_name>Sanford W.</rest_of_name>
+          <dates>1837-1924</dates>
+        </persname>
+      </origination>
+      <unittitle>Sanford W. Lyon papers</unittitle>
+      <unitdate type="inclusive" label="creation">1843-1864</unitdate>
+      <physdesc>
+        <extent>30 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4964</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Photographs described separately.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Soldier from Grand Rapids, Michigan who served in companies A and B of the 21st Michigan Infantry during the Civil War.</bioghist>
+    <scopecontent>Letters of Lyon and members of the Tracy family of Grand Rapids, Michigan and Civil War memorabilia; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7858">
+        <term type="geographic">Grand Rapids (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6148">
+        <primary_name>Lyon</primary_name>
+        <rest_of_name>Sanford W.</rest_of_name>
+        <dates>1837-1924</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/169">
+        <family_name>Tracy family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/904">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 21st (1862-1865)</subordinate_name>
+        <subordinate_name>Company A</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2027">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 21st (1862-1865)</subordinate_name>
+        <subordinate_name>Company B</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/6346">
+        <term type="genre_form">Tintypes.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/7404">
+        <term type="topical">Soldiers</term>
+        <term type="topical">American.</term>
+      </subject>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Sanford W. Lyon papers</unittitle>
+          <physdesc>
+            <extent>30 items</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1843-1864</unitdate>
+        </did>
+        <scopecontent>Letters of Lyon and members of the Tracy family of Grand Rapids, Michigan and Civil War memorabilia; also photographs.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Sanford W. Lyon photograph series.</unittitle>
+          <physdesc>
+            <extent>1 item</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1862?</unitdate>
+        </did>
+        <scopecontent>Tintype portrait in uniform.</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
+</ead>

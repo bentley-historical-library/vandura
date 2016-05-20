@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Hickey family papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851467 Aa 1</unitid>
+      <origination>
+        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/77">
+          <family_name>Hickey family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Hickey family papers</unittitle>
+      <unitdate type="inclusive" label="creation">1818-1875</unitdate>
+      <physdesc>
+        <extent>26 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1184</acqinfo>
+    </descgrp>
+    <bioghist>The family of James Hickey, a Methodist Episcopal Church minister in various towns in Michigan.</bioghist>
+    <scopecontent>Twenty-one certificates, 1818-1842, authorizing him to preach in Michigan churches; letter, 1850, on family affairs and religion.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3796">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1887">
+        <primary_name>Methodist Episcopal Church</primary_name>
+        <term type="geographic">Michigan.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

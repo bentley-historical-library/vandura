@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the James M. Cooper photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>92397 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/1262">
+          <primary_name>Cooper</primary_name>
+          <rest_of_name>James M.</rest_of_name>
+          <fuller_form>(James Monroe)</fuller_form>
+        </persname>
+      </origination>
+      <unittitle>James M. Cooper photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1899-1903</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1899-1903.</p>
+      </odd>
+      <acqinfo>Donor: 3965, 7200</acqinfo>
+    </descgrp>
+    <bioghist>1903 graduate of the University of Michigan Medical School.</bioghist>
+    <scopecontent>Photos of Cooper's room, and group photo of the 1900 Law Class celebrating their victory over the Lits.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/8462">
+        <term type="topical">Microscopes.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/4391">
+        <term type="topical">Photography.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2051">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of Law</subordinate_name>
+        <subordinate_name>Class of 1900</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student housing</term>
+        <term type="temporal">1891-1900.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student housing</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Benjamin Wright letters</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86369 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/7256">
+          <primary_name>Wright</primary_name>
+          <rest_of_name>Benjamin.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Benjamin Wright letters</unittitle>
+      <unitdate type="inclusive" label="creation">1858-1860</unitdate>
+      <physdesc>
+        <extent>3 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1278</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Marquette and Houghton, Michigan.</bioghist>
+    <scopecontent>Letters to his brother Andrew in Springfield, Massachusetts, mentioning Great Lakes shipping and community activities.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2458">
+        <term type="topical">Shipping</term>
+        <term type="geographic">Great Lakes (North America).</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/718">
+        <term type="geographic">Great Lakes (North America)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3308">
+        <term type="geographic">Houghton (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/590">
+        <term type="geographic">Marquette (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

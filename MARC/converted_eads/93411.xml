@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Gaige family photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93411 UAs</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local" ref="/agents/families/28">
+          <family_name>Gaige family (Ann Arbor, Mich.)</family_name>
+        </famname>
+      </origination>
+      <unittitle>Gaige family photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1910s-1930s</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1910s-1930s.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Frederick M. Gaige, director of the University of Michigan Museum of Zoology, and his wife Helen Thompson Gaige, curator of the museum's Herpetology Division.</bioghist>
+    <scopecontent>Portraits, photos of the Gaiges in their offices and doing field work in Latin America.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="local" encodinganalog="650" ref="/subjects/7918">
+        <term type="topical">Zoology.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/498">
+        <primary_name>Gaige</primary_name>
+        <rest_of_name>Frederick M.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1195">
+        <primary_name>Gaige</primary_name>
+        <rest_of_name>Helen T.</rest_of_name>
+        <fuller_form>(Helen Thompson)</fuller_form>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

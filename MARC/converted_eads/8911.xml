@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Michigan Southern and Northern Indiana Railroad records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8911 Bb.1 1</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/191">
+          <primary_name>Michigan Southern and Northern Indiana Railroad Company</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Michigan Southern and Northern Indiana Railroad records</unittitle>
+      <unitdate type="inclusive" label="creation">1865-1869</unitdate>
+      <physdesc>
+        <extent>ca. 25 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 931</acqinfo>
+    </descgrp>
+    <scopecontent>Papers of general superintendent, Charles F. Hatch, much of it concerning tickets, lost baggage, and complaints; include letter of E. O. Haven about fares; and letter from University of Michigan official about reduced fares for students desiring to vote in their hometowns.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2130">
+        <term type="topical">Railroads</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5635">
+        <primary_name>Hatch</primary_name>
+        <rest_of_name>Charles F.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/2804">
+        <primary_name>Haven</primary_name>
+        <rest_of_name>E. O.</rest_of_name>
+        <fuller_form>(Erastus Otis)</fuller_form>
+        <dates>1820-1881</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1861-1870.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/191">
+        <primary_name>Michigan Southern and Northern Indiana Railroad Company</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

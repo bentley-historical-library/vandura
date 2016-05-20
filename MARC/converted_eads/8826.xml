@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the George Lawrence Barney letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8826 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6389">
+          <primary_name>Barney</primary_name>
+          <rest_of_name>George Lawrence</rest_of_name>
+          <dates>d. 1873</dates>
+        </persname>
+      </origination>
+      <unittitle>George Lawrence Barney letter</unittitle>
+      <unitdate type="inclusive" label="creation">October 5, 1862</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2615</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Letter to Alice Stern; paper and envelope contain prints of University buildings.</scopecontent>
+    <controlaccess>
+      <persname source="local" encodinganalog="700" ref="/agents/people/4298">
+        <primary_name>Stern</primary_name>
+        <rest_of_name>Alice.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Correspondence.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

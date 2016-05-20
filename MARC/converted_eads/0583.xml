@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the John L. Tice scrapbook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0583 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2277">
+          <primary_name>Tice</primary_name>
+          <rest_of_name>John L.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>John L. Tice scrapbook</unittitle>
+      <unitdate type="inclusive" label="creation">1926-1929</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9608</acqinfo>
+    </descgrp>
+    <bioghist>Ann Arbor, Mich., resident who served as a musician with the U.S. Marines in Tientsin, China, 1927-1929.</bioghist>
+    <scopecontent>Scrapbook of articles, photos, and miscellanea relating to experiences of Marines in China.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/169">
+        <term type="topical">Americans</term>
+        <term type="geographic">China.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3953">
+        <term type="geographic">China</term>
+        <term type="topical">History</term>
+        <term type="temporal">Republic, 1912-1949.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2277">
+        <primary_name>Tice</primary_name>
+        <rest_of_name>John L.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/510">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Marine Corps</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

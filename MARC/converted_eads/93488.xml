@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Julia White photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93488 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/259">
+          <primary_name>White</primary_name>
+          <rest_of_name>Julia</rest_of_name>
+          <dates>b. 1875</dates>
+        </persname>
+      </origination>
+      <unittitle>Julia White photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1900s?</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1900s?</p>
+      </odd>
+    </descgrp>
+    <bioghist>Graduate of American Medical Missionary College (Chicago, Illinois and Battle Creek, Michigan) and physician at the Battle Creek Sanitarium.</bioghist>
+    <scopecontent>Portrait.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2907">
+        <term type="topical">Women physicians</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/290">
+        <term type="topical">Physicians</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/259">
+        <primary_name>White</primary_name>
+        <rest_of_name>Julia</rest_of_name>
+        <dates>b. 1875</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

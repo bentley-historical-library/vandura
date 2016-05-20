@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Discoveries.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>07161 Aa 2</unitid>
+      <unittitle>Discoveries.</unittitle>
+      <unitdate>[No date provided]</unitdate>
+      <physdesc>
+        <extent>v.</extent>
+        <physfacet>
+ill.</physfacet>
+        <dimensions>44 cm.</dimensions>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>Grand Rapids, MI : Friends of the Public Museum,</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>Description based on: July/Aug. 1992.</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>Caption title.</p>
+      </odd>
+    </descgrp>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2784">
+        <primary_name>Grand Rapids Public Museum</primary_name>
+      </corpname>
+      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/3469">
+        <primary_name>Grand Rapids Public Museum</primary_name>
+        <subordinate_name>Friends</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Bundle" type="bundle">1</container>
+    <container label="Bundle" type="bundle">2</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Jared Patchin scrapbook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2011026 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1379">
+          <primary_name>Patchin</primary_name>
+          <rest_of_name>Jared</rest_of_name>
+          <dates>1828-1892</dates>
+        </persname>
+      </origination>
+      <unittitle>Jared Patchin scrapbook</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1852-1903</unitdate>
+      <physdesc>
+        <extent>1 volume</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 10484</acqinfo>
+    </descgrp>
+    <bioghist>Graduate of the University of Michigan, class of 1853, later Wayne County Circuit Court judge.</bioghist>
+    <scopecontent>Scrapbook containing clippings, programs, and memorabilia of general interest; included is a letter of reference written by University of Michigan president Henry P. Tappan. The scrapbook contains items added after Patchin's death.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1379">
+        <primary_name>Patchin</primary_name>
+        <rest_of_name>Jared</rest_of_name>
+        <dates>1828-1892</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/7192">
+        <primary_name>Tappan</primary_name>
+        <rest_of_name>Henry Philip</rest_of_name>
+        <dates>1805-1881</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/84">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1853</subordinate_name>
+        <term type="topical">Students.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

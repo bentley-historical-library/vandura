@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the George E. Woodbury letters</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86674 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/7500">
+          <primary_name>Woodbury</primary_name>
+          <rest_of_name>George E.</rest_of_name>
+          <dates>b. 1840</dates>
+        </persname>
+      </origination>
+      <unittitle>George E. Woodbury letters</unittitle>
+      <unitdate type="inclusive" label="creation">1862-1863</unitdate>
+      <physdesc>
+        <extent>3 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <custodhist>Removed from Eleanor Gridley Papers.</custodhist>
+      <acqinfo>Donor: 502</acqinfo>
+    </descgrp>
+    <bioghist>Soldier in Company I, Sixth Michigan Infantry during the Civil War.</bioghist>
+    <scopecontent>Letters written to Belle Treadwell concerning his wartime activities.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/522">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Artillery Regiment, 6th (1863-1865)</subordinate_name>
+        <subordinate_name>Company I</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

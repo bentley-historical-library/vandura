@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Walter L. Marr papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2013015 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2674">
+          <primary_name>Marr</primary_name>
+          <rest_of_name>Walter L.</rest_of_name>
+          <fuller_form>(Walter Lorenzo)</fuller_form>
+          <dates>1845-1941</dates>
+        </persname>
+      </origination>
+      <unittitle>Walter L. Marr papers</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">[19--]</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accruals>No further accruals are expected.</accruals>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 5338</acqinfo>
+    </descgrp>
+    <bioghist>Engineer with Buick Motor Company.</bioghist>
+    <scopecontent>Biographical sketch and copies of family photographs.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4731">
+        <term type="topical">Automobile industry and trade</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2674">
+        <primary_name>Marr</primary_name>
+        <rest_of_name>Walter L.</rest_of_name>
+        <fuller_form>(Walter Lorenzo)</fuller_form>
+        <dates>1845-1941</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1502">
+        <primary_name>Buick Motor Company</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

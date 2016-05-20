@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the S. B. Noble letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2013083 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3608">
+          <primary_name>Noble</primary_name>
+          <rest_of_name>S. B.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>S. B. Noble letter</unittitle>
+      <unitdate type="inclusive" label="creation">1839 March 28</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accruals>Further accruals are not expected.</accruals>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 5400</acqinfo>
+    </descgrp>
+    <bioghist>S. B. Noble was in the greenhouse, garden, and nursery business in Ann Arbor, Mich.</bioghist>
+    <scopecontent>Letter to William Hodge, nurseryman of Buffalo, N.Y., describing his nursery business and ordering stock.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5504">
+        <term type="topical">Nurseries (Horticulture)</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3608">
+        <primary_name>Noble</primary_name>
+        <rest_of_name>S. B.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4634">
+        <primary_name>Hodge</primary_name>
+        <rest_of_name>William</rest_of_name>
+        <dates>1804-1887</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

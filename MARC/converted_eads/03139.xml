@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William T. Dodge student notes</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>03139 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1410">
+          <primary_name>Dodge</primary_name>
+          <rest_of_name>William T.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>William T. Dodge student notes</unittitle>
+      <unitdate type="inclusive" label="creation">1878</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9341</acqinfo>
+    </descgrp>
+    <bioghist>Medical student at the University of Michigan.</bioghist>
+    <scopecontent>Notes on medical lectures of professor Donald MacLean.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1410">
+        <primary_name>Dodge</primary_name>
+        <rest_of_name>William T.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5223">
+        <primary_name>MacLean</primary_name>
+        <rest_of_name>Donald</rest_of_name>
+        <dates>1839-1903</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/761">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Medicine and Surgery</subordinate_name>
+        <term type="topical">Students.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

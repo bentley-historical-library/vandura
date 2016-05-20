@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Rollo S. Armstrong business records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85980 BB.2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1527">
+          <primary_name>Rollo S. Armstrong (Firm : Chelsea, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Rollo S. Armstrong business records</unittitle>
+      <unitdate type="inclusive" label="creation">1882-1884</unitdate>
+      <physdesc>
+        <extent>2 v</extent>
+      </physdesc>
+    </did>
+    <descgrp/>
+    <bioghist>Grocery and drug store.</bioghist>
+    <scopecontent>Journal and account book.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/8252">
+        <term type="topical">General stores</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Chelsea.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1591">
+        <term type="topical">Grocers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Chelsea.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7904">
+        <term type="geographic">Chelsea (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/4327">
+        <primary_name>Armstrong</primary_name>
+        <rest_of_name>Rollo S.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1527">
+        <primary_name>Rollo S. Armstrong (Firm : Chelsea, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
+</ead>

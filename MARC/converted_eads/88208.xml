@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Ada E. Davis student notebook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88208 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5660">
+          <primary_name>Davis</primary_name>
+          <rest_of_name>Ada E.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Ada E. Davis student notebook</unittitle>
+      <unitdate type="inclusive" label="creation">1882</unitdate>
+      <physdesc>
+        <extent>1 v. (96 p.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3754</acqinfo>
+    </descgrp>
+    <bioghist>Student at Hillsdale College.</bioghist>
+    <scopecontent>Notes on the lectures of Ransom Dunn in doctrinal theology.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5542">
+        <primary_name>Dunn</primary_name>
+        <rest_of_name>Ransom</rest_of_name>
+        <dates>1818-1900</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/228">
+        <primary_name>Hillsdale College</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

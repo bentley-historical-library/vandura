@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the University of Michigan, Ann Arbor [graphic] / D. Wood, J. W. Orr.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9357 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4902">
+          <primary_name>Wood</primary_name>
+          <rest_of_name>De Volson</rest_of_name>
+          <dates>1832-1897</dates>
+        </persname>
+      </origination>
+      <unittitle>University of Michigan, Ann Arbor [graphic] / D. Wood, J. W. Orr.</unittitle>
+      <unitdate type="inclusive" label="creation">c1863</unitdate>
+      <physdesc>
+        <extent>1 print ;</extent>
+        <dimensions>image 6 x 13 cm.</dimensions>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[Ann Arbor, Mich.] : A. W. Chase, c1863.</p>
+      </odd>
+    </descgrp>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/6189">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/1813">
+        <primary_name>Orr</primary_name>
+        <rest_of_name>J. W.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/1994">
+        <primary_name>Chase</primary_name>
+        <rest_of_name>A. W.</rest_of_name>
+        <fuller_form>(Alvin Wood)</fuller_form>
+        <dates>1817-1885</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Campus.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

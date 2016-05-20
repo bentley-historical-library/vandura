@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Dor Kellogg photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93362 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/499">
+          <primary_name>Kellogg</primary_name>
+          <rest_of_name>Dor</rest_of_name>
+          <dates>b. 1822</dates>
+        </persname>
+      </origination>
+      <unittitle>Dor Kellogg photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1870s?</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1870s?</p>
+      </odd>
+    </descgrp>
+    <bioghist>A miller at Mount Clemens, Michigan. (This identification not certain: the photos were made in Battle Creek, Michigan.)</bioghist>
+    <scopecontent>Portraits of Kellogg and his wife Eliza Dutcher Kellogg.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/499">
+        <primary_name>Kellogg</primary_name>
+        <rest_of_name>Dor</rest_of_name>
+        <dates>b. 1822</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1237">
+        <primary_name>Kellogg</primary_name>
+        <rest_of_name>Eliza Dutcher.</rest_of_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

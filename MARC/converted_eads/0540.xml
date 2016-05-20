@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Samuel Townsend letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0540 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1145">
+          <primary_name>Townsend</primary_name>
+          <rest_of_name>Samuel.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Samuel Townsend letter</unittitle>
+      <unitdate type="inclusive" label="creation">Apr. 16, 1844</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopy (with typed transcript).</p>
+      </odd>
+      <acqinfo>Donor: 8786</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Smithville, Chenango County, N.Y.</bioghist>
+    <scopecontent>Letter to John P. Shaft of Hartwellville, Shiawassee County, Mich., concerning land transactions with Smith B. Warner.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3755">
+        <term type="geographic">Shiawassee County (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1145">
+        <primary_name>Townsend</primary_name>
+        <rest_of_name>Samuel.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5950">
+        <primary_name>Shaft</primary_name>
+        <rest_of_name>John P.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3488">
+        <primary_name>Warner</primary_name>
+        <rest_of_name>Smith B.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5950">
+        <primary_name>Shaft</primary_name>
+        <rest_of_name>John P.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

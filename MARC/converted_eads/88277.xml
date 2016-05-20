@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Eldred family papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88277 Aa 1</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local" ref="/agents/families/106">
+          <family_name>Eldred family (Benton Harbor, Mich.)</family_name>
+        </famname>
+      </origination>
+      <unittitle>Eldred family papers</unittitle>
+      <unitdate type="inclusive" label="creation">1831-1900 (scattered dates)</unitdate>
+      <physdesc>
+        <extent>7 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4231</acqinfo>
+    </descgrp>
+    <bioghist>Albert N. and Linda Eldred family of Benton Harbor, Michigan.</bioghist>
+    <scopecontent>Personal correspondence, courtship letters, and clipping; also copy of lease involving the Cheboygan Indians of Burt Lake, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1096">
+        <term type="topical">Indians of North America</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5579">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Benton Harbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1675">
+        <term type="geographic">Burt Lake (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4128">
+        <primary_name>Eldridge family.</primary_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/1223">
+        <primary_name>Eldred</primary_name>
+        <rest_of_name>Albert N.</rest_of_name>
+        <dates>b. 1848</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5586">
+        <primary_name>Eldred</primary_name>
+        <rest_of_name>Linda.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

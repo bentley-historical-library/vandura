@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Edwin Ford letters</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86540 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6615">
+          <primary_name>Ford</primary_name>
+          <rest_of_name>Edwin</rest_of_name>
+          <dates>1837-1865</dates>
+        </persname>
+      </origination>
+      <unittitle>Edwin Ford letters</unittitle>
+      <unitdate type="inclusive" label="creation">1864</unitdate>
+      <physdesc>
+        <extent>6 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photostatic copy.</p>
+      </odd>
+      <acqinfo>Donor: 3755</acqinfo>
+    </descgrp>
+    <bioghist>Soldier in Co. D, Eighteenth Michigan Infantry during the Civil War.</bioghist>
+    <scopecontent>Letters written to his family.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/167">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 18th (1862-1865)</subordinate_name>
+        <subordinate_name>Company D</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

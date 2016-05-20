@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Abram Minges journal</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85320 AA Vault</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/2091">
+          <primary_name>Minges</primary_name>
+          <rest_of_name>Abram</rest_of_name>
+          <dates>1818-1908</dates>
+        </persname>
+      </origination>
+      <unittitle>Abram Minges journal</unittitle>
+      <unitdate type="inclusive" label="creation">May 8,1949-June 12, 1851</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6851</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Accompanied by partial transcript.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Battle Creek, Michigan, resident.</bioghist>
+    <scopecontent>Description of his travels from Missouri to California and his life in the California gold fields.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5448">
+        <term type="topical">Overland journeys to the Pacific.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5770">
+        <term type="topical">Travelers</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/867">
+        <term type="geographic">Battle Creek (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4504">
+        <term type="geographic">California</term>
+        <term type="topical">Gold discoveries.</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

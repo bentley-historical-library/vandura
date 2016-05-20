@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Carl Edgar Mapes scrapbook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851782 AC</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2150">
+          <primary_name>Mapes</primary_name>
+          <rest_of_name>Carl Edgar</rest_of_name>
+          <dates>1874-1939</dates>
+        </persname>
+      </origination>
+      <unittitle>Carl Edgar Mapes scrapbook</unittitle>
+      <unitdate type="inclusive" label="creation">1908-1939</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3328</acqinfo>
+    </descgrp>
+    <bioghist>Republican state senator from Grand Rapids, Michigan, and U.S. congressman, 1913-1939.</bioghist>
+    <scopecontent>Newspaper clippings and other material relating largely to his death.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7858">
+        <term type="geographic">Grand Rapids (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/571">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>Legislature</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/655">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Congress</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7318">
+        <primary_name>Mapes</primary_name>
+        <rest_of_name>Carl Edgar</rest_of_name>
+        <dates>1874-1939</dates>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Carl Edgar Mapes scrapbook</unittitle>
+          <physdesc>
+            <extent>1 v</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1908-1939</unitdate>
+        </did>
+        <scopecontent>Newspaper clippings and other material relating largely to his death.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Carl Edgar Mapes photograph series.</unittitle>
+          <physdesc>
+            <extent>1 envelope</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">ca. 1920</unitdate>
+        </did>
+        <scopecontent>Family portrait.</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Oversize Volume" type="volume">1</container>
+  </archdesc>
+</ead>

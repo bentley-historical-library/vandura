@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Darwin G. Buerge photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9055 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5861">
+          <primary_name>Buerge</primary_name>
+          <rest_of_name>Darwin G.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Darwin G. Buerge photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1918</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1918.</p>
+      </odd>
+      <acqinfo>Donor: 7699</acqinfo>
+    </descgrp>
+    <bioghist>Engineering student at the University of Michigan in 1918 and 1919, and a member of Co. 10, Students' Army Training Corps, in 1918.</bioghist>
+    <scopecontent>Group photo of S.A.T.C. Co. 10.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3442">
+        <term type="topical">World War, 1914-1918</term>
+        <term type="topical">Education and the war.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1563">
+        <term type="topical">World War, 1914-1918</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1699">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Students' Army Training Corps (University of Michigan)</subordinate_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

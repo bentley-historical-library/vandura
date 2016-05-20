@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the [Champion and tow] [graphic] / S. A. Whipple.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9323 UAl</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/2855">
+          <primary_name>Whipple</primary_name>
+          <rest_of_name>Seth Arca</rest_of_name>
+          <dates>1855-1901</dates>
+        </persname>
+      </origination>
+      <unittitle>[Champion and tow] [graphic] / S. A. Whipple.</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1878]</unitdate>
+      <physdesc>
+        <extent>1 print</extent>
+        <physfacet>
+lithograph, col.</physfacet>
+        <dimensions>image 61 x 91 cm.</dimensions>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>BHL: One copy framed.</p>
+      </odd>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[Detroit, Mich. : Calvert Lithographing &amp; Engraving Co., ca. 1878].</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>"Copyrighted by John R. Gillet."</p>
+      </odd>
+      <acqinfo>Donor: 4168, 3152</acqinfo>
+    </descgrp>
+    <scopecontent>Shows tug Champion towing eight vessels past head of Belle Isle, Mich.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/6189">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/7707">
+        <term type="topical">Lighthouses</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/6028">
+        <term type="topical">Ships</term>
+        <term type="geographic">Detroit River (Mich. and Ont.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/677">
+        <term type="geographic">Detroit River (Mich. and Ont.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5017">
+        <primary_name>Gillet</primary_name>
+        <rest_of_name>John R.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2660">
+        <primary_name>Champion (Tugboat)</primary_name>
+      </corpname>
+      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/981">
+        <primary_name>Calvert Lithographing Co. (Detroit, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Presbyterian Church in Michigan</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88421 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/4039">
+          <primary_name>Jaquess</primary_name>
+          <rest_of_name>W. T.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Presbyterian Church in Michigan</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1884</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2545</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/555">
+        <term type="topical">Presbyterian Church</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

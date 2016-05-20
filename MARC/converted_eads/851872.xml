@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Michigan State Board of Health records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851872 CA.4b outsize</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/16">
+          <primary_name>Michigan</primary_name>
+          <subordinate_name>State Board of Health</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Michigan State Board of Health records</unittitle>
+      <unitdate type="inclusive" label="creation">1880-1893</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <altformavail>Microfilm copy available.</altformavail>
+      <acqinfo>Donor: 1278</acqinfo>
+    </descgrp>
+    <scopecontent>Daily weather records for the Ann Arbor, Michigan area.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/8060">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+        <term type="topical">Climate.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/1418">
+        <primary_name>Harrington</primary_name>
+        <rest_of_name>Mark W.</rest_of_name>
+        <fuller_form>(Mark Walrod)</fuller_form>
+        <dates>1848-1926</dates>
+      </persname>
+    </controlaccess>
+    <container label="Oversize Volume" type="volume">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Harry Leith Goodbread student notebook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88413 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6177">
+          <primary_name>Goodbread</primary_name>
+          <rest_of_name>Harry Leith.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Harry Leith Goodbread student notebook</unittitle>
+      <unitdate type="inclusive" label="creation">1897-1898</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5733</acqinfo>
+    </descgrp>
+    <bioghist>Law student at the University of Michigan.</bioghist>
+    <scopecontent>Notes on the lectures of Floyd Mechem on partnership law.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5293">
+        <primary_name>Mechem</primary_name>
+        <rest_of_name>Floyd R.</rest_of_name>
+        <fuller_form>(Floyd Russell)</fuller_form>
+        <dates>1858-1928</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3117">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Law</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

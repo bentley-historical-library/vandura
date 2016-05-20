@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Northeastern Michigan Medical Association financial records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851960 BF.2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/36">
+          <primary_name>Northeastern Michigan Medical Association</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Northeastern Michigan Medical Association financial records</unittitle>
+      <unitdate type="inclusive" label="creation">1854</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 796</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/358">
+        <term type="topical">Medicine.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1778">
+        <term type="geographic">Romeo (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Leonard J. Scott papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>07111 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2955">
+          <primary_name>Scott</primary_name>
+          <rest_of_name>Leonard J.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Leonard J. Scott papers</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1959-1993</unitdate>
+      <physdesc>
+        <extent>0.3 linear feet</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is available for research use.</accessrestrict>
+      <acqinfo>Donor: 9916</acqinfo>
+    </descgrp>
+    <bioghist>Counselling Director, Office of Religious Affairs at the University of Michigan, later acting director of the Office of Ethics and Religion.</bioghist>
+    <scopecontent>Memoranda, notes, published material relating to religious and other issues of concern to students; also materials relating to the history of the office an its predecessor units.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2955">
+        <primary_name>Scott</primary_name>
+        <rest_of_name>Leonard J.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2739">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Office of Ethics and Religion</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Religion.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

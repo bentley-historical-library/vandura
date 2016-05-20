@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Lewis A. Pratt papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89195 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6188">
+          <primary_name>Pratt</primary_name>
+          <rest_of_name>Lewis A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Lewis A. Pratt papers</unittitle>
+      <unitdate type="inclusive" label="creation">1897-1900</unitdate>
+      <physdesc>
+        <extent>5 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3164</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Ann Arbor, Michigan.</bioghist>
+    <scopecontent>Letters and contracts relating to publication of "The Inlander," a University of Michigan student periodical, ownership of the Inland Press, and fund raising for the Students' Christian Association.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="630" ref="/subjects/1202">
+        <term type="uniform_title">The inlander.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2441">
+        <primary_name>Students' Christian Association (University of Michigan)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Periodicals.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
+</ead>

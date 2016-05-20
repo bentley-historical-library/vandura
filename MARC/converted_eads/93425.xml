@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Fred Leverett photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93425 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/3346">
+          <primary_name>Leverett</primary_name>
+          <rest_of_name>Fred.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Fred Leverett photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1910s-1975</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1910s-1975.</p>
+      </odd>
+      <acqinfo>Donor: 3732</acqinfo>
+    </descgrp>
+    <bioghist>Farmer in Scio Township, Washtenaw County, Michigan.</bioghist>
+    <scopecontent>Family photos, photos of house, barn, and school, and photo of ruins of Delhi Mill.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="local" encodinganalog="650" ref="/subjects/5140">
+        <term type="topical">Farm life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Scio (Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/124">
+        <term type="geographic">Delhi (Mich.)</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651" ref="/subjects/6969">
+        <term type="geographic">Scio (Mich. : Township)</term>
+        <term type="topical">Farm life.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/281">
+        <primary_name>Delhi Woolen Mill (Delhi, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

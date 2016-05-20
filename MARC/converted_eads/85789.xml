@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the D. L. Bridges historical sketch</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85789 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/286">
+          <primary_name>Bridges</primary_name>
+          <rest_of_name>D. L.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>D. L. Bridges historical sketch</unittitle>
+      <unitdate type="inclusive" label="creation">undated</unitdate>
+      <physdesc>
+        <extent>1 item (7 p.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1454</acqinfo>
+    </descgrp>
+    <scopecontent>Sketch of Bangor, Michigan, covering the period, 1872-1888, with special emphasis on the local pig iron industry.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2902">
+        <term type="topical">Iron industry and trade</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Bangor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5532">
+        <term type="geographic">Bangor (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

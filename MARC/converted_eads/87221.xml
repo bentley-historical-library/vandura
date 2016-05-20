@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Laundry (University of Michigan) record books</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87221 Bimu C482 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1632">
+          <primary_name>University of Michigan</primary_name>
+          <subordinate_name>Laundry</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Laundry (University of Michigan) record books</unittitle>
+      <unitdate type="inclusive" label="creation">1900-1907 and 1914-1928</unitdate>
+      <physdesc>
+        <extent>4 v. in 1 box</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4310</acqinfo>
+    </descgrp>
+    <scopecontent>Payroll record books listing employee names, hours worked, and wages received.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4254">
+        <term type="topical">Laundry workers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Corydon P. Cronk papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0149 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/132">
+          <primary_name>Cronk</primary_name>
+          <rest_of_name>Corydon Patten.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Corydon P. Cronk papers</unittitle>
+      <unitdate type="inclusive" label="creation">1905-1912</unitdate>
+      <physdesc>
+        <extent>0.3 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9092</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan (A.B. 1910, M.S. in forestry, 1912)</bioghist>
+    <scopecontent>Scrapbook (1905-1907) containing clippings regarding student life, mainly football and baseball contests; also loose clippings and memorabilia (1905-1912).</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/132">
+        <primary_name>Cronk</primary_name>
+        <rest_of_name>Corydon Patten.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

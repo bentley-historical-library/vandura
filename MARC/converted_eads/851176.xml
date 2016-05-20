@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Adelle Elliott manuscript history</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851176 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/1308">
+          <primary_name>Elliott</primary_name>
+          <rest_of_name>Adelle.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Adelle Elliott manuscript history</unittitle>
+      <unitdate type="inclusive" label="creation">[ca. 1941]</unitdate>
+      <physdesc>
+        <extent>12 p</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1311</acqinfo>
+    </descgrp>
+    <bioghist>Member of the Delta County Historical Society.</bioghist>
+    <scopecontent>History of Sack Bay, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6378">
+        <term type="geographic">Delta County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5180">
+        <term type="geographic">Detour, Point (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/8138">
+        <term type="geographic">Sac Bay (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

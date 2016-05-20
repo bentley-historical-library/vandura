@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Asa Rice account book</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89217 AC</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/1642">
+          <primary_name>Rice</primary_name>
+          <rest_of_name>Asa.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Asa Rice account book</unittitle>
+      <unitdate type="inclusive" label="creation">1827-1851</unitdate>
+      <physdesc>
+        <extent>1 v. (135 p.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4217</acqinfo>
+    </descgrp>
+    <bioghist>Ann Arbor, Michigan, farmer.</bioghist>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655" ref="/subjects/8157">
+        <term type="genre_form">Account books.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3529">
+        <term type="topical">Agriculture.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Oversize Volume" type="volume">1</container>
+  </archdesc>
+</ead>

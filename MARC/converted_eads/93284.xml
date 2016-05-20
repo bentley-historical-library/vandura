@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Joseph Boyer photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93284 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3867">
+          <primary_name>Boyer</primary_name>
+          <rest_of_name>Joseph</rest_of_name>
+          <dates>1848-1930</dates>
+        </persname>
+      </origination>
+      <unittitle>Joseph Boyer photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">190-?</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>190-?</p>
+      </odd>
+      <acqinfo>Donor: 6271</acqinfo>
+    </descgrp>
+    <bioghist>Chairman of the board of Burroughs Adding Machine Company.</bioghist>
+    <scopecontent>Portrait (copy print)</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3867">
+        <primary_name>Boyer</primary_name>
+        <rest_of_name>Joseph</rest_of_name>
+        <dates>1848-1930</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

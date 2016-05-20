@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Mildred Tayler scrapbook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0616 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/170">
+          <primary_name>Tayler</primary_name>
+          <rest_of_name>Mildred.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Mildred Tayler scrapbook</unittitle>
+      <unitdate type="inclusive" label="creation">1917</unitdate>
+      <physdesc>
+        <extent>1 volume</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9693</acqinfo>
+    </descgrp>
+    <bioghist>Student at Detroit, Mich., Northwestern High School, 1917, later graduated from the University of Michigan, class of 1921.</bioghist>
+    <scopecontent>Scrapbook of memorabilia, autographs, and photographs from her high school years.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/170">
+        <primary_name>Tayler</primary_name>
+        <rest_of_name>Mildred.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1180">
+        <primary_name>Northwestern High School (Detroit, Mich.)</primary_name>
+        <term type="topical">Students.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

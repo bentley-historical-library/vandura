@@ -20,7 +20,7 @@ def get_subjects(ead_dir):
 				source = normalize_source(subject.attrib["source"])
 				if source not in subjects:
 					subjects[source] = []
-				subject_string = etree.tostring(subject)
+				subject_string = etree.tostring(subject).strip()
 				subject_string = re.sub(r"<\/?subject(.*?)>","", subject_string)
 				if subject_string not in subjects[source]:
 					subjects[source].append(subject_string)

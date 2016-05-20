@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William E. Sleight reminiscences</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86701 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6568">
+          <primary_name>Sleight</primary_name>
+          <rest_of_name>William E.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>William E. Sleight reminiscences</unittitle>
+      <unitdate type="inclusive" label="creation">1917</unitdate>
+      <physdesc>
+        <extent>1 item (17 p.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <altformavail>Microfilm copy available.</altformavail>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopy.</p>
+      </odd>
+      <acqinfo>Donor: 6834</acqinfo>
+    </descgrp>
+    <bioghist>Ann Arbor and Bath, Michigan, resident and soldier during the Civil War with the 65th New York Infantry, later with the 102nd U.S. Colored Infantry.</bioghist>
+    <scopecontent>Description of wartime experiences, 1861-1865, with mention of medical treatment of the wounded and performance of black troops; also reflections on the origins of the war and its meaning.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3234">
+        <term type="topical">African Americans.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/358">
+        <term type="topical">Medicine.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4098">
+        <term type="geographic">Bath (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1447">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Colored Infantry Regiment, 102nd (1863-1865)</subordinate_name>
+        <subordinate_name>Company D</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3655">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>New York Infantry Regiment, 65th (1861-1865)</subordinate_name>
+        <subordinate_name>Company C</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

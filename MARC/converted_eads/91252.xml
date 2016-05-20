@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the [George Washington the mason] [graphic] / J. F. Queen del.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>91252</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6036">
+          <primary_name>Queen</primary_name>
+          <rest_of_name>J. F.</rest_of_name>
+          <fuller_form>(James Fuller)</fuller_form>
+          <dates>1820 or 21-1886</dates>
+        </persname>
+      </origination>
+      <unittitle>[George Washington the mason] [graphic] / J. F. Queen del.</unittitle>
+      <unitdate type="inclusive" label="creation">c 1870</unitdate>
+      <physdesc>
+        <extent>1 print</extent>
+        <physfacet>
+lithograph, hand col.</physfacet>
+        <dimensions>visible image 67 x 51 cm.</dimensions>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>Framed.</p>
+      </odd>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[Philadelphia, Pa.?] : R. S. Bryant, c 1870.</p>
+      </odd>
+      <acqinfo>Donor: 4736</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/6189">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/8354">
+        <term type="topical">Freemasonry.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1527">
+        <primary_name>Washington</primary_name>
+        <rest_of_name>George</rest_of_name>
+        <dates>1732-1799</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

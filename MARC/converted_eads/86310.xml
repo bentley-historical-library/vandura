@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Hobart Hurd Willard papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86310 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/3894">
+          <primary_name>Willard</primary_name>
+          <rest_of_name>Hobart H.</rest_of_name>
+          <fuller_form>(Hobart Hurd)</fuller_form>
+          <dates>1881-1974</dates>
+        </persname>
+      </origination>
+      <unittitle>Hobart Hurd Willard papers</unittitle>
+      <unitdate type="inclusive" label="creation">1906-1974</unitdate>
+      <physdesc>
+        <extent>2 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5558</acqinfo>
+    </descgrp>
+    <bioghist>Professor of chemistry at University of Michigan, specialist in analytical chemistry.</bioghist>
+    <scopecontent>Class notes, reprints of publications, correspondence, and newspaper clippings relating to his professional activities.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6611">
+        <term type="topical">Chemistry.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3402">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Chemistry</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+    <container label="Box" type="box">2</container>
+  </archdesc>
+</ead>

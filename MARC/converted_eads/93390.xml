@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the P. R. B. De Pont photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93390 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/3689">
+          <primary_name>DePont</primary_name>
+          <rest_of_name>Paul Rousseau Bellou</rest_of_name>
+          <dates>1840-1906</dates>
+        </persname>
+      </origination>
+      <unittitle>P. R. B. De Pont photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1870s-1880s</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1870s-1880s.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Professor of French at the University of Michigan.</bioghist>
+    <scopecontent>Portraits and a photo of a lakeside scene of the De Pont family and Charles H. Cooley.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5451">
+        <primary_name>Cooley</primary_name>
+        <rest_of_name>Charles Horton</rest_of_name>
+        <dates>1864-1929</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3689">
+        <primary_name>DePont</primary_name>
+        <rest_of_name>Paul Rousseau Bellou</rest_of_name>
+        <dates>1840-1906</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

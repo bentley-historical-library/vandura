@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Ward J. MacNeal papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>940 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1017">
+          <primary_name>MacNeal</primary_name>
+          <rest_of_name>Ward J.</rest_of_name>
+          <dates>1881-1946</dates>
+        </persname>
+      </origination>
+      <unittitle>Ward J. MacNeal papers</unittitle>
+      <unitdate type="inclusive" label="creation">1903-1947</unitdate>
+      <physdesc>
+        <extent>6 v. (.6 linear ft.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 8197</acqinfo>
+    </descgrp>
+    <bioghist>1905 graduate of the University of Michigan Medical School; later faculty member at New York Post-Graduate Medical School and Hospital.</bioghist>
+    <scopecontent>Notebooks of Medical School rotations, 1904-1905; and reprints of writings, 1903-1947.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7070">
+        <term type="topical">Medicine</term>
+        <term type="topical">Study and teaching.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1017">
+        <primary_name>MacNeal</primary_name>
+        <rest_of_name>Ward J.</rest_of_name>
+        <dates>1881-1946</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/761">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Medicine and Surgery</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Outlines, syllabi, etc.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

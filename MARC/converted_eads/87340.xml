@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Sailing Club (University of Michigan) Records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87340 Bimu F86 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1041">
+          <primary_name>University of Michigan</primary_name>
+          <subordinate_name>Sailing Club</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Sailing Club (University of Michigan) Records</unittitle>
+      <unitdate type="inclusive" label="creation">1940-1989</unitdate>
+      <physdesc>
+        <extent>1 linear ft. and 2 oversize v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7392</acqinfo>
+    </descgrp>
+    <scopecontent>Minutes of meetings detailing club activities; and scrapbooks, 1940-1960, containing photographs and newspaper accounts of activities.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1521">
+        <term type="topical">Sailing</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Societies, etc.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1041">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Sailing Club</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Sailing Club (University of Michigan) Records</unittitle>
+          <physdesc>
+            <extent>1 linear ft. and 2 oversize v</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1940-1989</unitdate>
+        </did>
+        <scopecontent>Minutes of meetings detailing club activities; and scrapbooks, 1940-1960, containing photographs and newspaper accounts of activities.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Sailing Club (University of Michigan) photographs.</unittitle>
+          <physdesc>
+            <extent>ca. 100 photographs (loose and in scrapbooks)</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1940-1960 (scattered)</unitdate>
+        </did>
+        <scopecontent>Photographs of Club's sailing activities.</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Box" type="box">1</container>
+    <container label="Oversize Volume" type="volume">1</container>
+    <container label="Oversize Volume" type="volume">2</container>
+  </archdesc>
+</ead>

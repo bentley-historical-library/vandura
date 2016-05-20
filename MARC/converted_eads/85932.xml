@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the John Payne Cleaveland papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85932 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6246">
+          <primary_name>Cleaveland</primary_name>
+          <rest_of_name>John P.</rest_of_name>
+          <fuller_form>(John Payne)</fuller_form>
+          <dates>1799-1873</dates>
+        </persname>
+      </origination>
+      <unittitle>John Payne Cleaveland papers</unittitle>
+      <unitdate type="inclusive" label="creation">1837-1844</unitdate>
+      <physdesc>
+        <extent>100 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 190</acqinfo>
+    </descgrp>
+    <bioghist>Presbyterian clergyman from Marshall, Michigan.</bioghist>
+    <scopecontent>Correspondence and other papers, many of which deal with the business affairs of Marshall College and the disposal of its assets. Correspondents include: John M. Ellis, a fellow clergyman from Lebanon, New Hampshire.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6013">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Marshall.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6786">
+        <term type="topical">Elections</term>
+        <term type="geographic">Michigan</term>
+        <term type="temporal">1840.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4321">
+        <term type="geographic">Lebanon (N.H.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5814">
+        <term type="geographic">Marshall (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5296">
+        <primary_name>Ellis</primary_name>
+        <rest_of_name>John M.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2838">
+        <primary_name>Marshall College (Marshall, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1724">
+        <primary_name>Presbyterian Church</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+    <container label="Folder" type="folder">3</container>
+    <container label="Folder" type="folder">4</container>
+  </archdesc>
+</ead>

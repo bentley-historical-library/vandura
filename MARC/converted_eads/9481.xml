@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Commercial Milling Company photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9481 BB</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1400">
+          <primary_name>Commercial Milling Company</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Commercial Milling Company photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1930s</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1930s.</p>
+      </odd>
+      <acqinfo>Donor: 150</acqinfo>
+    </descgrp>
+    <bioghist>Owner of Henkel Flour Mills, Detroit, Michigan.</bioghist>
+    <scopecontent>Photo album illustrating the milling process in the company's mills.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/8236">
+        <term type="topical">Flour and meal industry</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/4099">
+        <term type="topical">Grains.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651" ref="/subjects/1069">
+        <term type="geographic">Detroit (Mich.)</term>
+        <term type="topical">Flour and meal industry.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1400">
+        <primary_name>Commercial Milling Company</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3364">
+        <primary_name>Henkel Flour Mills (Detroit, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

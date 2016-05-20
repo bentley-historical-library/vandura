@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Calvin Abbott letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87390 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/4028">
+          <primary_name>Abbott</primary_name>
+          <rest_of_name>Calvin.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Calvin Abbott letter</unittitle>
+      <unitdate type="inclusive" label="creation">October 9, 1873</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2950</acqinfo>
+    </descgrp>
+    <scopecontent>Letter to James Fisher written from Hillsdale College; letterhead includes visual print of the Hillsdale campus.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6214">
+        <primary_name>Fisher</primary_name>
+        <rest_of_name>James.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/228">
+        <primary_name>Hillsdale College</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

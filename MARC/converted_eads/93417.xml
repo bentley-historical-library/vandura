@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Richard M. Hoar photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93417 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3563">
+          <primary_name>Hoar</primary_name>
+          <rest_of_name>Richard M.</rest_of_name>
+          <dates>b. ca. 1831</dates>
+        </persname>
+      </origination>
+      <unittitle>Richard M. Hoar photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1870s?</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1870s?</p>
+      </odd>
+    </descgrp>
+    <bioghist>Businessman and politician of Houghton, Michigan.</bioghist>
+    <scopecontent>Portrait.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3563">
+        <primary_name>Hoar</primary_name>
+        <rest_of_name>Richard M.</rest_of_name>
+        <dates>b. ca. 1831</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

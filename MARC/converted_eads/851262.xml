@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the John Earl account book</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851262 AC</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/979">
+          <primary_name>Earl</primary_name>
+          <rest_of_name>John.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>John Earl account book</unittitle>
+      <unitdate type="inclusive" label="creation">1838</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 265</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Galesburg, Michigan.</bioghist>
+    <scopecontent>Account book of general store.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/765">
+        <term type="topical">General stores</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Galesburg.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/328">
+        <term type="geographic">Galesburg (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Oversize Volume" type="volume">1</container>
+  </archdesc>
+</ead>

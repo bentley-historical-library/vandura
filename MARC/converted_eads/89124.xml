@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the I remember : a recorder of yesteryear</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89124 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6330">
+          <primary_name>Preston</primary_name>
+          <rest_of_name>John M.</rest_of_name>
+          <dates>1909-</dates>
+        </persname>
+      </origination>
+      <unittitle>I remember : a recorder of yesteryear</unittitle>
+      <unitdate type="inclusive" label="creation">1981-1984</unitdate>
+      <physdesc>
+        <extent>2 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7124</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Ypsilanti, Michigan.</bioghist>
+    <scopecontent>Autobiography containing an account of his Kentucky boyhood, his teaching career, his move to Michigan to work in the Willow Run bomber plant during World War II, and his subsequent life and activities in Ypsilanti.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7126">
+        <term type="topical">Migration, Internal.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5265">
+        <term type="geographic">Kentucky.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/94">
+        <term type="geographic">Ypsilanti (Mich.)</term>
+        <term type="topical">History.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/638">
+        <primary_name>Willow Run Bomber Plant</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
+</ead>

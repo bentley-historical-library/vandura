@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the A. W. Parkhurst photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>92699 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/7179">
+          <primary_name>Parkhurst</primary_name>
+          <rest_of_name>A. W.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>A. W. Parkhurst photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1852</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1852.</p>
+      </odd>
+    </descgrp>
+    <scopecontent>Composite daguerreotype of the University of Michigan Class of 1852.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/4458">
+        <term type="genre_form">Daguerreotypes.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3803">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1852</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

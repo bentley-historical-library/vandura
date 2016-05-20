@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the James Turrill Vincent autograph book</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89391 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5827">
+          <primary_name>Vincent</primary_name>
+          <rest_of_name>James Turrill.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>James Turrill Vincent autograph book</unittitle>
+      <unitdate type="inclusive" label="creation">1878-1881</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1677</acqinfo>
+    </descgrp>
+    <scopecontent>Autographs of his classmates at the Michigan Military Academy.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655" ref="/subjects/2410">
+        <term type="genre_form">Autographs.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2282">
+        <primary_name>Michigan Military Academy</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

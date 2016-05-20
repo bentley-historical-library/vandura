@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Parmenio Davis letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88207 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5412">
+          <primary_name>Davis</primary_name>
+          <rest_of_name>Parmenio.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Parmenio Davis letter</unittitle>
+      <unitdate type="inclusive" label="creation">February 2, 1839</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1278</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Ypsilanti, Michigan.</bioghist>
+    <scopecontent>Letter from friend in Philadelphia, Pennsylvania, concerning his medical studies at the Jefferson Medical College.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6320">
+        <term type="topical">Medical students</term>
+        <term type="geographic">Pennsylvania</term>
+        <term type="geographic">Philadelphia.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2964">
+        <primary_name>Jefferson Medical College</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

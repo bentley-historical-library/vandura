@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Marjorie M. Miller letters</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86479 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/7457">
+          <primary_name>Miller</primary_name>
+          <rest_of_name>Marjorie M.</rest_of_name>
+          <fuller_form>(Marjorie Maywood)</fuller_form>
+        </persname>
+      </origination>
+      <unittitle>Marjorie M. Miller letters</unittitle>
+      <unitdate type="inclusive" label="creation">1942-1943</unitdate>
+      <physdesc>
+        <extent>8 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3951</acqinfo>
+    </descgrp>
+    <bioghist>Letters of Marjorie M. Miller of Ann Arbor, Michigan from Margaret Servine.</bioghist>
+    <scopecontent>Description of Servine's training and service in the Women's Auxilary Army Corps (name later changed to Women's Army Corps) during the second world war.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7814">
+        <term type="topical">Women in war</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5621">
+        <term type="topical">World War, 1939-1945</term>
+        <term type="topical">Participation, Female.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/2569">
+        <primary_name>Servine</primary_name>
+        <rest_of_name>Margaret.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1414">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Women's Army Corps</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Myron McLaren journal</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851760 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/7354">
+          <primary_name>McLaren</primary_name>
+          <rest_of_name>Myron</rest_of_name>
+          <dates>d. 1869</dates>
+        </persname>
+      </origination>
+      <unittitle>Myron McLaren journal</unittitle>
+      <unitdate type="inclusive" label="creation">1857</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript copy.</p>
+      </odd>
+      <acqinfo>Donor: 4970</acqinfo>
+    </descgrp>
+    <bioghist>Student at University of Michigan and farmer in Lima Township, Washtenaw County, Michigan.</bioghist>
+    <scopecontent>Account of daily life, including description of fraternity election and other activities at the University; and mention of farm life and his reading and study habits.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3168">
+        <term type="topical">Farm life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Washtenaw County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2403">
+        <term type="topical">Farmers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Washtenaw County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/8369">
+        <term type="topical">Greek letter societies</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1981">
+        <term type="geographic">Lima (Mich. : Township)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Societies, etc.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1851-1860.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

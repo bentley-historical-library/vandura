@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Hoxie family papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2012121 Aa 2 Ac</unitid>
+      <origination>
+        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/127">
+          <family_name>Hoxie family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Hoxie family papers</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1908-1909, 1938</unitdate>
+      <physdesc>
+        <extent>0.4 linear feet and 2 volumes (in 1 oversize folder)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 10660</acqinfo>
+    </descgrp>
+    <bioghist>H. A. (Harry Albertus) Hoxie, engineering student at the University of Michigan, 1906-1909 and his son Ralph A. Hoxie, a 1938 graduate from the University of Michigan College of Engineering.</bioghist>
+    <scopecontent>Notebooks (7) and engineering drawings for course work including mechanical drawing, surveying, mathematics and civil engineering, also 1909 camera survey and map between Michigan Central Railroad and University of Michigan Hospital. Majority of the material is from H. A. Hoxie with one volume from Ralph Hoxie.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/1390">
+        <term type="genre_form">Engineering drawings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7550">
+        <term type="topical">Surveying</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6519">
+        <primary_name>Hoxie</primary_name>
+        <rest_of_name>Harry Albertus.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/876">
+        <primary_name>Hoxie</primary_name>
+        <rest_of_name>Ralph A.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/127">
+        <family_name>Hoxie family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/889">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

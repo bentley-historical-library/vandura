@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William E. Limbarker diary</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86555 Aa 2 Vault</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/7050">
+          <primary_name>Limbarker</primary_name>
+          <rest_of_name>William E.</rest_of_name>
+          <dates>1835-1863</dates>
+        </persname>
+      </origination>
+      <unittitle>William E. Limbarker diary</unittitle>
+      <unitdate type="inclusive" label="creation">1861-1862</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <altformavail>Microfilm copy available.</altformavail>
+      <acqinfo>Donor: 2440</acqinfo>
+    </descgrp>
+    <bioghist>Soldier from Lenawee County, Michigan who served in Co. F, Fourth Michigan Infantry during the Civil War.</bioghist>
+    <scopecontent>Diary describing wartime activities.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5605">
+        <term type="geographic">Lenawee County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/956">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 4th (1861-1864)</subordinate_name>
+        <subordinate_name>Company F</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Thomas Dolan Bailey letters</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86460 Ac Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/4134">
+          <primary_name>Bailey</primary_name>
+          <rest_of_name>Thomas Dolan</rest_of_name>
+          <dates>1838-1907</dates>
+        </persname>
+      </origination>
+      <unittitle>Thomas Dolan Bailey letters</unittitle>
+      <unitdate type="inclusive" label="creation">1862-1864</unitdate>
+      <physdesc>
+        <extent>35 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3717</acqinfo>
+    </descgrp>
+    <bioghist>Soldier from Washtenaw County, Michigan, who served in Co. H, Fifth Michigan Infantry during the Civil War.</bioghist>
+    <scopecontent>Letters to his mother concerning army life.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3058">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 5th (1861-1865)</subordinate_name>
+        <subordinate_name>Company H</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

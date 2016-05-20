@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Louise Willson papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86295 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6549">
+          <primary_name>Willson</primary_name>
+          <rest_of_name>Louise.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Louise Willson papers</unittitle>
+      <unitdate type="inclusive" label="creation">1864-1866</unitdate>
+      <physdesc>
+        <extent>2 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2377</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Morenci, Michigan.</bioghist>
+    <scopecontent>Record books containing poetry and diary entries concerning the Morenci, Michigan area.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7169">
+        <term type="topical">Education</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Morenci.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5690">
+        <term type="topical">Poetry.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/821">
+        <term type="geographic">Morenci (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the E. William Heinrich photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>90110 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5297">
+          <primary_name>Heinrich</primary_name>
+          <rest_of_name>E. William</rest_of_name>
+          <fuller_form>(Eberhardt William)</fuller_form>
+          <dates>1918-1991</dates>
+        </persname>
+      </origination>
+      <unittitle>E. William Heinrich photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1951-1958</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1951-1958.</p>
+      </odd>
+      <acqinfo>Donor: 1333</acqinfo>
+    </descgrp>
+    <bioghist>Professor of mineralogy at the University of Michigan.</bioghist>
+    <scopecontent>Photographs of students, staff, and buildings at Camp Davis, the university's summer engineering camp.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/275">
+        <term type="geographic">Camp Davis (University of Michigan)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1951-1960.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

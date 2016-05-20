@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the [University of Michigan North Campus] [model].</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2009123 Bb 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/966">
+          <primary_name>Eero Saarinen &amp; Associates</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>[University of Michigan North Campus] [model].</unittitle>
+      <unitdate type="inclusive" label="creation">1953]</unitdate>
+      <physdesc>
+        <extent>1 model</extent>
+        <physfacet>
+wood, col.</physfacet>
+        <dimensions>90 x 152 x 11 cm.</dimensions>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The original model is open for research by appointment.</accessrestrict>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[Bloomfield Hills, Mich. : Eero Saarinen &amp; Associates, 1953].</p>
+      </odd>
+      <acqinfo>Donor: 980</acqinfo>
+    </descgrp>
+    <bioghist>Architectural firm.</bioghist>
+    <scopecontent>Area and building model, probably used in presentation to the University of Michigan, proposing plan for the development of the North Campus area. From the University of Michigan Plant Extension Services.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/7860">
+        <term type="genre_form">Architectural models.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/655">
+        <term type="topical">Architects.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6449">
+        <term type="topical">Architecture.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4759">
+        <term type="geographic">North Campus (University of Michigan)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6897">
+        <primary_name>Saarinen</primary_name>
+        <rest_of_name>Eero</rest_of_name>
+        <dates>1910-1961</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Campus.</term>
+      </corpname>
+      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/1858">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Plant Extension Services</subordinate_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

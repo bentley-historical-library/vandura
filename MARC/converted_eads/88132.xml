@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Edward DeMille Campbell papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88132 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3938">
+          <primary_name>Campbell</primary_name>
+          <rest_of_name>Edward De Mille</rest_of_name>
+          <dates>1863-1925</dates>
+        </persname>
+      </origination>
+      <unittitle>Edward DeMille Campbell papers</unittitle>
+      <unitdate type="inclusive" label="creation">1882-1903</unitdate>
+      <physdesc>
+        <extent>.2 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3293, 8148</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan, later professor of chemistry at the University. Campbell was blinded in a laboratory accident in 1892.</bioghist>
+    <scopecontent>Student notebook, 1882-1883, including notes on chemistry lectures of Otis Coe Johnson; notebook, 1895-1898, relating to chemistry research; and correspondence, 1892-1903.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6867">
+        <term type="topical">Blind</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3938">
+        <primary_name>Campbell</primary_name>
+        <rest_of_name>Edward De Mille</rest_of_name>
+        <dates>1863-1925</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2767">
+        <primary_name>Johnson</primary_name>
+        <rest_of_name>Otis C.</rest_of_name>
+        <fuller_form>(Otis Coe)</fuller_form>
+        <dates>1839-1912</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3402">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Chemistry</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

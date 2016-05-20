@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles W. Jay photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93365 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4313">
+          <primary_name>Jay</primary_name>
+          <rest_of_name>Charles W.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Charles W. Jay photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1874</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1874.</p>
+      </odd>
+      <acqinfo>Donor: 3427</acqinfo>
+    </descgrp>
+    <bioghist>Farmer in Benona, Oceana County, Michigan; author of My new home in northern Michigan.</bioghist>
+    <scopecontent>Portrait.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2749">
+        <primary_name>Jay</primary_name>
+        <rest_of_name>Charles W.</rest_of_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

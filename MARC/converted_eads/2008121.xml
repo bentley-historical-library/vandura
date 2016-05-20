@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Alpheus S. Williams map collection</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2008121 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1444">
+          <primary_name>Williams</primary_name>
+          <rest_of_name>Alpheus S.</rest_of_name>
+          <fuller_form>(Alpheus Starkey)</fuller_form>
+          <dates>1810-1878</dates>
+        </persname>
+      </origination>
+      <unittitle>Alpheus S. Williams map collection</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1864</unitdate>
+      <physdesc>
+        <extent>2 CD-ROMs and 1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 6267</acqinfo>
+    </descgrp>
+    <bioghist>Detroit, Mich. resident, brigadier general (brevet major general) and division and corps commander during the Civil War.</bioghist>
+    <scopecontent>Manuscript maps of the movements of Williams's troops during the Atlanta Campaign, May-July 1864 (jpeg copies) along with one field note (jpeg copy) and notes on the maps written by Roger Heiple.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/870">
+        <term type="genre_form">Maps.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3895">
+        <term type="genre_form">CD-ROMs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7217">
+        <term type="topical">Atlanta Campaign, 1864</term>
+        <term type="genre_form">Maps, Manuscript.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1423">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865</term>
+        <term type="genre_form">Maps.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2749">
+        <term type="geographic">Georgia</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865</term>
+        <term type="genre_form">Maps.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1444">
+        <primary_name>Williams</primary_name>
+        <rest_of_name>Alpheus S.</rest_of_name>
+        <fuller_form>(Alpheus Starkey)</fuller_form>
+        <dates>1810-1878</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/516">
+        <primary_name>Heiple</primary_name>
+        <rest_of_name>Roger.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

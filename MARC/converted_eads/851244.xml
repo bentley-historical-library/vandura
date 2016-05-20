@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles S. Foote account books</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851244 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/4970">
+          <primary_name>Foote</primary_name>
+          <rest_of_name>Charles S.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Charles S. Foote account books</unittitle>
+      <unitdate type="inclusive" label="creation">1884-1898</unitdate>
+      <physdesc>
+        <extent>2 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3612</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Ridgeway, Michigan.</bioghist>
+    <scopecontent>Personal account books.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/8157">
+        <term type="genre_form">Account books.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7447">
+        <term type="geographic">Ridgeway (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the David B. Capps photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9681 UAs UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/7276">
+          <primary_name>Capps</primary_name>
+          <rest_of_name>David B.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>David B. Capps photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1980s?</unitdate>
+      <physdesc>
+        <extent>1 envelope and 1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1980s?</p>
+      </odd>
+      <acqinfo>Donor: 8299</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Ann Arbor, Mich.</bioghist>
+    <scopecontent>Photographs of Jean Paul Slusser his home and at Slusser Gallery;William Albright playing piano at Kerrytown Concert House; and Michigan barns.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/5889">
+        <term type="topical">Music</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/3847">
+        <term type="topical">Barns</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3943">
+        <primary_name>Albright</primary_name>
+        <rest_of_name>William.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4458">
+        <primary_name>Slusser</primary_name>
+        <rest_of_name>Jean Paul</rest_of_name>
+        <dates>1886-</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

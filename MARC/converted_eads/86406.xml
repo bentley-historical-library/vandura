@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles A. Clark sermon notes</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86406 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/1060">
+          <primary_name>Clark</primary_name>
+          <rest_of_name>Charles A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Charles A. Clark sermon notes</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1869</unitdate>
+      <physdesc>
+        <extent>35 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5889</acqinfo>
+    </descgrp>
+    <bioghist>Baptist minister of New York state and Dexter, Michigan.</bioghist>
+    <scopecontent>Sermon notes and miscellaneous newspaper clippings concerning his son.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655" ref="/subjects/814">
+        <term type="genre_form">Sermons.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1034">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Dexter.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/8500">
+        <term type="geographic">Dexter (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2492">
+        <term type="geographic">New York (State)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3004">
+        <primary_name>Baptists</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

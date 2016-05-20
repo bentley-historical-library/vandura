@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the [Books from the library of Friedrich Schmid].</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0763 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/189">
+          <primary_name>Schmid</primary_name>
+          <rest_of_name>Friedrich</rest_of_name>
+          <dates>1807-1883</dates>
+        </persname>
+      </origination>
+      <unittitle>[Books from the library of Friedrich Schmid].</unittitle>
+      <unitdate type="inclusive" label="creation">[1---]</unitdate>
+      <physdesc>
+        <extent>1 box</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[1---]</p>
+      </odd>
+    </descgrp>
+    <bioghist>Pioneer Lutheran pastor in southeastern Michigan.</bioghist>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2654">
+        <primary_name>Schmid</primary_name>
+        <rest_of_name>Friedrich</rest_of_name>
+        <dates>1807-1883</dates>
+        <term type="topical">Library.</term>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William J. Carroll papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86516 AA Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/871">
+          <primary_name>Carroll</primary_name>
+          <rest_of_name>William J.</rest_of_name>
+          <dates>1842-1902</dates>
+        </persname>
+      </origination>
+      <unittitle>William J. Carroll papers</unittitle>
+      <unitdate type="inclusive" label="creation">1861-1865</unitdate>
+      <physdesc>
+        <extent>46 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <originalsloc>Originals in the possession of Dorothy Dalrymple, Otsego, Michigan.</originalsloc>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript copies.</p>
+      </odd>
+      <acqinfo>Donor: 3569</acqinfo>
+    </descgrp>
+    <bioghist>Soldier from Kalamazoo, Michigan who served in Co. I, Thirteenth Michigan Infantry during the Civil War.</bioghist>
+    <scopecontent>Diary, 1864-1865, and letters concerning his war-time activities.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6886">
+        <term type="geographic">Kalamazoo (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2125">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 13th (1861-1865)</subordinate_name>
+        <subordinate_name>Company I</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

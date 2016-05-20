@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William Wilson Cook diplomas</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0113 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/6337">
+          <primary_name>Cook</primary_name>
+          <rest_of_name>William W.</rest_of_name>
+          <fuller_form>(William Wilson)</fuller_form>
+          <dates>1858-1930</dates>
+        </persname>
+      </origination>
+      <unittitle>William Wilson Cook diplomas</unittitle>
+      <unitdate type="inclusive" label="creation">1880 and 1882</unitdate>
+      <physdesc>
+        <extent>2 items in 1 outsize box</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 343</acqinfo>
+    </descgrp>
+    <bioghist>Alumnus of the University of Michigan; lawyer in New York City.</bioghist>
+    <scopecontent>Diplomas from the University of Michigan (1880) and Law School (1882).</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/1426">
+        <term type="genre_form">Diplomas.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6337">
+        <primary_name>Cook</primary_name>
+        <rest_of_name>William W.</rest_of_name>
+        <fuller_form>(William Wilson)</fuller_form>
+        <dates>1858-1930</dates>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

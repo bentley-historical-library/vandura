@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Albert S. Benham student notebooks</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9798 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1380">
+          <primary_name>Benham</primary_name>
+          <rest_of_name>Albert S.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Albert S. Benham student notebooks</unittitle>
+      <unitdate type="inclusive" label="creation">1906 and undated</unitdate>
+      <physdesc>
+        <extent>3 v. (in 1 box)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3244</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Notebooks for University of Michigan physical laboratory experiments.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1380">
+        <primary_name>Benham</primary_name>
+        <rest_of_name>Albert S.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

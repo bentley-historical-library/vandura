@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the George J. French diaries</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9679 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3145">
+          <primary_name>French</primary_name>
+          <rest_of_name>George Jay</rest_of_name>
+          <dates>1847-1928</dates>
+        </persname>
+      </origination>
+      <unittitle>George J. French diaries</unittitle>
+      <unitdate type="inclusive" label="creation">1863-1872</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopy of transcription.</p>
+      </odd>
+      <acqinfo>Donor: 8518</acqinfo>
+    </descgrp>
+    <bioghist>Born in Homer, Michigan, French studied at the Ypsilanti Union School, later at the University of Michigan. He graduated from the University of Michigan in 1870.</bioghist>
+    <scopecontent>Transcriptions of diaries covering activities and events in Homer, the impact of the Civil War on a local community, and his student life at the Ypsilanti Union School and at the University of Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2950">
+        <term type="geographic">Homer (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2804">
+        <term type="geographic">Ypsilanti (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3145">
+        <primary_name>French</primary_name>
+        <rest_of_name>George Jay</rest_of_name>
+        <dates>1847-1928</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Diaries.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/157">
+        <primary_name>Ypsilanti Union School</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

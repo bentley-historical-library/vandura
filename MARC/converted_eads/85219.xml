@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Independent Order of Odd Fellows, Forest Lodge No. 65 minutes</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85219 BD</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/59">
+          <primary_name>Independent Order of Odd Fellows</primary_name>
+          <subordinate_name>Forest Lodge No. 65 (Lexington, Mich.)</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Independent Order of Odd Fellows, Forest Lodge No. 65 minutes</unittitle>
+      <unitdate type="inclusive" label="creation">1853-1855</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1531</acqinfo>
+    </descgrp>
+    <bioghist>Sanilac County, Michigan, lodge.</bioghist>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1471">
+        <term type="geographic">Lexington (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/8243">
+        <term type="geographic">Sanilac County (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/197">
+        <primary_name>Independent Order of Odd Fellows</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Lexington.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/59">
+        <primary_name>Independent Order of Odd Fellows</primary_name>
+        <subordinate_name>Forest Lodge No. 65 (Lexington, Mich.)</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

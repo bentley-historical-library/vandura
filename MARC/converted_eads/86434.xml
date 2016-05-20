@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Japeth Hind correspondence</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86434 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/2826">
+          <primary_name>Hind</primary_name>
+          <rest_of_name>Japeth.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Japeth Hind correspondence</unittitle>
+      <unitdate type="inclusive" label="creation">1926-1935</unitdate>
+      <physdesc>
+        <extent>10 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3561</acqinfo>
+    </descgrp>
+    <bioghist>Cashier at the State Savings Bank, Bad Axe, Michigan.</bioghist>
+    <scopecontent>Comments on the management of a family farm, farm production and economics, and attitudes toward ethnic groups, especially Polish Americans.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3529">
+        <term type="topical">Agriculture.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7256">
+        <term type="topical">Banks and banking</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Bad Axe.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7879">
+        <term type="topical">Polish Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3014">
+        <primary_name>State Savings Bank (Bad Axe, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

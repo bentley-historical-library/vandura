@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Christian N. Wenger papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89414 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3587">
+          <primary_name>Wenger</primary_name>
+          <rest_of_name>Christian Nat</rest_of_name>
+          <dates>1886-</dates>
+        </persname>
+      </origination>
+      <unittitle>Christian N. Wenger papers</unittitle>
+      <unitdate type="inclusive" label="creation">1942-1943</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2468</acqinfo>
+    </descgrp>
+    <bioghist>Professor of English in the College of Engineering at the University of Michigan.</bioghist>
+    <scopecontent>Material concerning tenure case of Wenger and Carl E. W. L. Dahlstrom in the College of Engineering; includes typescripts of correspondence, committee minutes and reports and newspaper articles.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3587">
+        <primary_name>Wenger</primary_name>
+        <rest_of_name>Christian Nat</rest_of_name>
+        <dates>1886-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/2199">
+        <primary_name>Dahlström</primary_name>
+        <rest_of_name>Carl Enoch William Leonard.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/889">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

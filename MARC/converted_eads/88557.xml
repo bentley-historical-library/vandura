@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Frederick Mayer papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88557 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/4664">
+          <primary_name>Mayer</primary_name>
+          <rest_of_name>Frederick W.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Frederick Mayer papers</unittitle>
+      <unitdate type="inclusive" label="creation">1976-1980</unitdate>
+      <physdesc>
+        <extent>.3 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4845</acqinfo>
+    </descgrp>
+    <bioghist>Member of the Ann Arbor, Michigan, Public Library Advisory Committee.</bioghist>
+    <scopecontent>Agenda and minutes of meetings of Ann Arbor Public Library Advisory Committee, reports and other papers relating to Ann Arbor branch libraries.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2156">
+        <term type="topical">Libraries</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2615">
+        <primary_name>Ann Arbor Public Library</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/82">
+        <primary_name>Ann Arbor Public Library</primary_name>
+        <subordinate_name>Advisory Committee</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

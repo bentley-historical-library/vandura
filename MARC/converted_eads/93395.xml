@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Robert Frost photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93395 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/6081">
+          <primary_name>Frost</primary_name>
+          <rest_of_name>Robert</rest_of_name>
+          <dates>1874-1963</dates>
+        </persname>
+      </origination>
+      <unittitle>Robert Frost photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1920s-1950s</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1920s-1950s.</p>
+      </odd>
+    </descgrp>
+    <bioghist>American poet, teacher at the University of Michigan between 1920 and 1926.</bioghist>
+    <scopecontent>Portraits, some by Wilfred B. Shaw.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4057">
+        <primary_name>Frost</primary_name>
+        <rest_of_name>Robert</rest_of_name>
+        <dates>1874-1963</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/7072">
+        <primary_name>Shaw</primary_name>
+        <rest_of_name>Wilfred Byron</rest_of_name>
+        <dates>1881-1959</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

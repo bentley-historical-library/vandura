@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Carl F. Gladen collection</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>07123 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/9">
+          <primary_name>Gladen</primary_name>
+          <rest_of_name>Carl F.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Carl F. Gladen collection</unittitle>
+      <langmaterial>In English and other languages.</langmaterial>
+      <unitdate type="inclusive" label="creation">1966-2003</unitdate>
+      <physdesc>
+        <extent>0.1 linear foot</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 7992</acqinfo>
+    </descgrp>
+    <bioghist>Bay City, Michigan, manufacturer.</bioghist>
+    <scopecontent>Biography and publications of Gladen Enterprises, a plastic stamping company.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4708">
+        <term type="topical">Plastics industry and trade</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Bay City.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/9">
+        <primary_name>Gladen</primary_name>
+        <rest_of_name>Carl F.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/925">
+        <primary_name>Gladen Enterprises</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

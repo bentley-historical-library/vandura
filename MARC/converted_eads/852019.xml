@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Jefferson Osborn subscription list</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>852019 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5820">
+          <primary_name>Osborn</primary_name>
+          <rest_of_name>Jefferson</rest_of_name>
+          <dates>b. 1824</dates>
+        </persname>
+      </origination>
+      <unittitle>Jefferson Osborn subscription list</unittitle>
+      <unitdate type="inclusive" label="creation">1851</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photostatic copy.</p>
+      </odd>
+      <acqinfo>Donor: 4590</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Calvin Township, Cass County, Michigan.</bioghist>
+    <scopecontent>List of contributors of financial aid for court case to aid fugitive slaves, with description of facts of the case.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/700">
+        <term type="topical">African Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6763">
+        <term type="topical">Courts</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/8035">
+        <term type="topical">Antislavery movements</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/8119">
+        <term type="geographic">Calvin (Mich. : Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1788">
+        <term type="geographic">Cass County (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5954">
+        <primary_name>Nicholson</primary_name>
+        <rest_of_name>D. T.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

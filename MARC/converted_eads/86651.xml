@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Harold James Bartlett letters</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86651 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/3037">
+          <primary_name>Bartlett</primary_name>
+          <rest_of_name>Harold James</rest_of_name>
+          <dates>1835-1883</dates>
+        </persname>
+      </origination>
+      <unittitle>Harold James Bartlett letters</unittitle>
+      <unitdate type="inclusive" label="creation">1861-1866</unitdate>
+      <physdesc>
+        <extent>ca. 90 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <userestrict>Donor retains literary rights.</userestrict>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopies.</p>
+      </odd>
+      <acqinfo>Donor: 6028</acqinfo>
+    </descgrp>
+    <bioghist>Harness maker from Clarkston, Oakland County, Michigan, later soldier in Battery D, 1st Michigan Light Artillery during the Civil War.</bioghist>
+    <scopecontent>Letters to family members; also battery muster roll.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7758">
+        <term type="topical">Harness making and trade</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Clarkston.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/8459">
+        <term type="geographic">Clarkston (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1381">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Artillery Regiment, 1st (1861-1865)</subordinate_name>
+        <subordinate_name>Battery D</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+    <container label="Folder" type="folder">3</container>
+  </archdesc>
+</ead>

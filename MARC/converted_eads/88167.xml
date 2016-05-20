@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Benjamin D. Safford reminiscence</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88167 Aa 1 Vault</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/4367">
+          <primary_name>Safford</primary_name>
+          <rest_of_name>Benjamin D.</rest_of_name>
+          <dates>1837-1920</dates>
+        </persname>
+      </origination>
+      <unittitle>Benjamin D. Safford reminiscence</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1887</unitdate>
+      <physdesc>
+        <extent>2 items (75 p.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <altformavail>Microfilm copy available.</altformavail>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopy and typescript.</p>
+      </odd>
+      <acqinfo>Donor: 7526</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Detroit, Michigan, who served as an officer in the 17th Michigan Infantry during the Civil War.</bioghist>
+    <scopecontent>Description of his Civil War military service, particularly his capture by Confederate forces and his escape.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5264">
+        <term type="topical">Prisoners of war</term>
+        <term type="geographic">Confederate States of America.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5666">
+        <term type="topical">Prisoners of war</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/589">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 17th (1862-1865)</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

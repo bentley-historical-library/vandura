@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the John Alfred Ryan photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2014085 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3729">
+          <primary_name>Ryan</primary_name>
+          <rest_of_name>John Alfred</rest_of_name>
+          <dates>1878-1969</dates>
+        </persname>
+      </origination>
+      <unittitle>John Alfred Ryan photograph collection.</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1924-1925</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1924-1925.</p>
+      </odd>
+      <acqinfo>Donor: 11118</acqinfo>
+    </descgrp>
+    <bioghist>Ryan was a window glazier who worked at the University of Michigan during the 1920s. He was born in Bristol, England in 1878 and immigrated to the United States in 1902.</bioghist>
+    <scopecontent>Photographs depict construction of the University of Michigan Law School buildings and the University of Michigan Lawyers' Club in 1924. Also shown are Ryan and fellow workmen in Memphis, Tenn.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6449">
+        <term type="topical">Architecture.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3729">
+        <primary_name>Ryan</primary_name>
+        <rest_of_name>John Alfred</rest_of_name>
+        <dates>1878-1969</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2659">
+        <primary_name>Lawyers' Club (University of Michigan)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3463">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Law School</subordinate_name>
+        <term type="topical">Buildings.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

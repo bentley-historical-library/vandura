@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Nan Sparrow papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9555 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3179">
+          <primary_name>Sparrow</primary_name>
+          <rest_of_name>Nan.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Nan Sparrow papers</unittitle>
+      <unitdate type="inclusive" label="creation">1991</unitdate>
+      <physdesc>
+        <extent>1 linear foot</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 8074</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Ann Arbor, Mich.</bioghist>
+    <scopecontent>Photos and tributes on the occasion of her 90th birthday.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3179">
+        <primary_name>Sparrow</primary_name>
+        <rest_of_name>Nan.</rest_of_name>
+      </persname>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Nan Sparrow papers</unittitle>
+          <physdesc>
+            <extent>1 linear foot</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1991</unitdate>
+        </did>
+        <scopecontent>Photos and tributes on the occasion of her 90th birthday.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Nan Sparrow photographs.</unittitle>
+          <physdesc>
+            <extent>3 v</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1991</unitdate>
+        </did>
+        <scopecontent>Photos taken at her 90th birthday celebration and some earlier photos.</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

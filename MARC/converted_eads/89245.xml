@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Sara J. Russell letters</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89245 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/986">
+          <primary_name>Russell</primary_name>
+          <rest_of_name>Sara J.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Sara J. Russell letters</unittitle>
+      <unitdate type="inclusive" label="creation">1874-1877</unitdate>
+      <physdesc>
+        <extent>5 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1027</acqinfo>
+    </descgrp>
+    <bioghist>Detroit, Michigan, school teacher.</bioghist>
+    <scopecontent>Personal letters to friend about her activities.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/809">
+        <term type="topical">Teachers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2999">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Andrew Stuart Mitchell student notebook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8925 BImu C94</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/3660">
+          <primary_name>Mitchell</primary_name>
+          <rest_of_name>Andrew Stuart.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Andrew Stuart Mitchell student notebook</unittitle>
+      <unitdate type="inclusive" label="creation">1885</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 291</acqinfo>
+    </descgrp>
+    <bioghist>Student in the College of Pharmacy at the University of Michigan.</bioghist>
+    <scopecontent>Notes on the lectures of Albert B. Prescott.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2535">
+        <primary_name>Prescott</primary_name>
+        <rest_of_name>A. B.</rest_of_name>
+        <fuller_form>(Albert Benjamin)</fuller_form>
+        <dates>1832-1905</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1267">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Pharmacy</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

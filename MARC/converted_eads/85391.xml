@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William Sprole sermons</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85391 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/2124">
+          <primary_name>Sprole</primary_name>
+          <rest_of_name>William Thomas</rest_of_name>
+          <dates>1809-1883</dates>
+        </persname>
+      </origination>
+      <unittitle>William Sprole sermons</unittitle>
+      <unitdate type="inclusive" label="creation">[183-]</unitdate>
+      <physdesc>
+        <extent>3 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1278</acqinfo>
+    </descgrp>
+    <bioghist>Clergyman from Pennsylvania and Michigan.</bioghist>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5648">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Pennsylvania.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3085">
+        <term type="geographic">Pennsylvania</term>
+        <term type="topical">Religion.</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

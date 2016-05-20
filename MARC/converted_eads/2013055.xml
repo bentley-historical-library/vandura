@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Susan Robinson-Heaslip collection</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2013055 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6358">
+          <primary_name>Robinson-Heaslip</primary_name>
+          <rest_of_name>Susan.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Susan Robinson-Heaslip collection</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1969</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accruals>Further accruals are not expected.</accruals>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 10910</acqinfo>
+    </descgrp>
+    <bioghist>Susan Robinson-Heaslip is an Ann Arbor, Mich., sculptor, in 1969 a student at Kent State University.</bioghist>
+    <scopecontent>Program packet from the 5th Kent Film Festival, 1969, which featured new films from the 7th Ann Arbor Film Festival.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2034">
+        <term type="topical">Film festivals</term>
+        <term type="geographic">Ohio</term>
+        <term type="geographic">Kent.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/1650">
+        <primary_name>Ann Arbor Film Festival</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/3330">
+        <primary_name>Kent Film Festival</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the George L. Pearent letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2011069 Aa 2; Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3387">
+          <primary_name>Pearent</primary_name>
+          <rest_of_name>George L.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>George L. Pearent letter</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1898</unitdate>
+      <physdesc>
+        <extent>1 CD-ROM and 1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 10553</acqinfo>
+    </descgrp>
+    <bioghist>A resident of Bay City, Mich., George L. Pearent served as a private in Company C, 33rd Michigan Infantry, during the Spanish American War.</bioghist>
+    <scopecontent>Original and digital copy (pdf) of part of a letter to Pearent's family written from Camp Alger, Falls Church, Va.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3895">
+        <term type="genre_form">CD-ROMs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1680">
+        <term type="topical">Spanish-American War, 1898.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3387">
+        <primary_name>Pearent</primary_name>
+        <rest_of_name>George L.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1498">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 33rd (1898-1899)</subordinate_name>
+        <subordinate_name>Company C</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="CD Box" type="box">8</container>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Samuel F. Schneider photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2008020 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/301">
+          <primary_name>Schneider</primary_name>
+          <rest_of_name>Samuel F.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Samuel F. Schneider photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1960</unitdate>
+      <physdesc>
+        <extent>15 copy prints</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1960.</p>
+      </odd>
+      <acqinfo>Donor: 9912</acqinfo>
+    </descgrp>
+    <bioghist>Freelance photographer employed by Argus Camera and Evans-Wirter-Hebb in Detroit, Mich.</bioghist>
+    <scopecontent>Black and white copy prints made from original negatives taken during John F. Kennedy's presidential campaign stop in Ann Arbor, MIch., on October 14, 1960. Includes images at the Michigan Union and the Michigan Central train depot.</scopecontent>
+    <controlaccess>
+      <subject source="lctgm" encodinganalog="655" ref="/subjects/955">
+        <term type="genre_form">Political elections</term>
+        <term type="temporal">1960.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="655" ref="/subjects/5234">
+        <term type="genre_form">Political parties and rallies</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1647">
+        <primary_name>Kennedy</primary_name>
+        <rest_of_name>John F.</rest_of_name>
+        <fuller_form>(John Fitzgerald)</fuller_form>
+        <dates>1917-1963</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/301">
+        <primary_name>Schneider</primary_name>
+        <rest_of_name>Samuel F.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/333">
+        <primary_name>Williams</primary_name>
+        <rest_of_name>G. Mennen</rest_of_name>
+        <dates>1911-1988</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

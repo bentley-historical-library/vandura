@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Arthur Sardius Ainsworth journal</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85554 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/387">
+          <primary_name>Ainsworth</primary_name>
+          <rest_of_name>Arthur Sardius</rest_of_name>
+          <dates>1862-</dates>
+        </persname>
+      </origination>
+      <unittitle>Arthur Sardius Ainsworth journal</unittitle>
+      <unitdate type="inclusive" label="creation">1935</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1718</acqinfo>
+    </descgrp>
+    <bioghist>Grand Rapids, Kent County, Michigan, businessman.</bioghist>
+    <scopecontent>Journal of trip to Yellowstone National Park and Alaska; and brief autobiographical sketch.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1173">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2337">
+        <term type="topical">Travelers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/342">
+        <term type="geographic">Alaska</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1016">
+        <term type="geographic">Yellowstone National Park.</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Owen, John E. collection</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2012183 Aa 1</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local" ref="/agents/people/1234">
+          <primary_name>Owen</primary_name>
+          <rest_of_name>John E.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Owen, John E. collection</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1887-1932 (scattered)</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 10855</acqinfo>
+    </descgrp>
+    <scopecontent>Copies of documents relating to John Oliver Plank, first owner of the Grand Hotel, Mackinac Island, and owner or manager of hotels in St. Joseph and Northport, Michigan, and other places.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3456">
+        <term type="topical">Hotels</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7255">
+        <term type="topical">Hotels</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Northport.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5897">
+        <primary_name>Plank</primary_name>
+        <rest_of_name>John Oliver.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3651">
+        <primary_name>Northport Beach Hotel (Northport, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

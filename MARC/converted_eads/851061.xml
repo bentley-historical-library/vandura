@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the George Armstrong Custer letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851061 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/1011">
+          <primary_name>Custer</primary_name>
+          <rest_of_name>George A.</rest_of_name>
+          <fuller_form>(George Armstrong)</fuller_form>
+          <dates>1839-1876</dates>
+        </persname>
+      </origination>
+      <unittitle>George Armstrong Custer letter</unittitle>
+      <unitdate type="inclusive" label="creation">Oct. 29, 1864</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopy.</p>
+      </odd>
+    </descgrp>
+    <bioghist>General in the Cavalry during the Civil War.</bioghist>
+    <scopecontent>Letter to unknown person discussing a victory over General S. Early and the editorial policy of the Ḏe̲ṯṟo̲i̲ṯ F̲ṟe̲e̲ P̲ṟe̲s̲s̲.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="630" ref="/subjects/5308">
+        <term type="uniform_title">Detroit free press.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6488">
+        <primary_name>Christiancy</primary_name>
+        <rest_of_name>Isaac Peckham</rest_of_name>
+        <dates>1812-1890</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1640">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 3rd (1861-1866)</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

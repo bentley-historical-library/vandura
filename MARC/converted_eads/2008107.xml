@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Rorabacher family papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2008107 Aa 2</unitid>
+      <origination>
+        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/51">
+          <family_name>Rorabacher family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Rorabacher family papers</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1849-1936</unitdate>
+      <physdesc>
+        <extent>0.1 linear feet</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript.</p>
+      </odd>
+      <acqinfo>Donor: 10064</acqinfo>
+    </descgrp>
+    <bioghist>Family of John C. Rorabacher of Green Oak Township, Livingston County, Mich., and his wife Mary Burdick Rorabacher. The collection also concerns their son Walter B. Rorabacher and his wife Edith Turner Rorabacher, of Ypsilanti, Mich.; also her brother Ben C. Turner, who served with Company D, 31st Michigan Infantry, during the Spanish American War.</bioghist>
+    <scopecontent>Family letters and account books, also letters of Ben C. Turner describing his military service in Cuba.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1680">
+        <term type="topical">Spanish-American War, 1898.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/8001">
+        <term type="geographic">Green Oak (Mich. : Township)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5435">
+        <primary_name>Turner</primary_name>
+        <rest_of_name>Ben C.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/51">
+        <family_name>Rorabacher family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1116">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 31st (1898-1899)</subordinate_name>
+        <subordinate_name>Company D</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

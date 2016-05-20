@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Marsh family papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>861117 Aa 1</unitid>
+      <origination>
+        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/513">
+          <family_name>Marsh family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Marsh family papers</unittitle>
+      <unitdate type="inclusive" label="creation">1826-1895</unitdate>
+      <physdesc>
+        <extent>5 folders</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7173</acqinfo>
+    </descgrp>
+    <bioghist>Family of Fletcher O. Marsh, valedictorian of University of Michigan Class of 1845 and thereafter head of the University's branch at Tecumseh, Michigan.</bioghist>
+    <scopecontent>Correspondence, 1844-1846, concerning Marsh's experiences as a student in Ann Arbor and instructor in Tecumseh; student compositions, 1840-1841, of Marsh; correspondence, 1826, of Marvin Allen and Julia Ann Green (the parents of Marsh's wife), exchanged while Allen as a seminary student in New York; and other family correspondence.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6382">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5348">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Tecumseh.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/4860">
+        <primary_name>Allen</primary_name>
+        <rest_of_name>Marvin</rest_of_name>
+        <dates>1800-1861</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/487">
+        <primary_name>Green</primary_name>
+        <rest_of_name>Julia Ann.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5528">
+        <primary_name>Marsh</primary_name>
+        <rest_of_name>Fletcher Osceola</rest_of_name>
+        <dates>1819-1893</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/471">
+        <family_name>Allen family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1841-1850.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/122">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Tecumseh Branch</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+    <container label="Folder" type="folder">3</container>
+    <container label="Folder" type="folder">4</container>
+    <container label="Folder" type="folder">5</container>
+  </archdesc>
+</ead>

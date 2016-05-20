@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the James S. Bradshaw papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8886 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5123">
+          <primary_name>Bradshaw</primary_name>
+          <rest_of_name>James S.</rest_of_name>
+          <fuller_form>(James Stanford)</fuller_form>
+          <dates>1921-</dates>
+        </persname>
+      </origination>
+      <unittitle>James S. Bradshaw papers</unittitle>
+      <unitdate type="inclusive" label="creation">1973-1976</unitdate>
+      <physdesc>
+        <extent>2 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5456</acqinfo>
+    </descgrp>
+    <bioghist>Central Michigan University professor.</bioghist>
+    <scopecontent>Research paper, 1973, entitled, "The Michigan days of George W. Wisner" being a biographical sketch of the career of a Pontiac and Detroit, Michigan, newspaperman; and research paper, 1976, entitled, "The 'Detroit free press' in England" concerning the publication of a London weekly edition of the Free press, 1881-1899.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="630" ref="/subjects/5308">
+        <term type="uniform_title">Detroit free press.</term>
+      </subject>
+      <subject source="local" encodinganalog="730" ref="/subjects/7655">
+        <term type="uniform_title">Michigan days of George W. Wisner.</term>
+      </subject>
+      <subject source="local" encodinganalog="730" ref="/subjects/7773">
+        <term type="uniform_title">Detroit free press in England.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3814">
+        <term type="topical">Journalists</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5240">
+        <term type="topical">American newspapers</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1773">
+        <primary_name>Wisner</primary_name>
+        <rest_of_name>George W.</rest_of_name>
+        <dates>1812-1849</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
+</ead>

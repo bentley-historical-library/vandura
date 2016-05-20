@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Davison family papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851138 Aa 1 Ac</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local" ref="/agents/families/192">
+          <family_name>Davison family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Davison family papers</unittitle>
+      <unitdate type="inclusive" label="creation">1848-1862</unitdate>
+      <physdesc>
+        <extent>1 folder and 1 outsize folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 556, 7832</acqinfo>
+    </descgrp>
+    <bioghist>Atlas, Michigan, family.</bioghist>
+    <scopecontent>Family correspondence, 1856, and letter, 1862 concerning the Civil War; also tax receipt, mortgage, and foreclosure notice, land grants, and an appointment signed by territorial governor Stevens T. Mason.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3043">
+        <term type="geographic">Atlas (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/4318">
+        <primary_name>Davison</primary_name>
+        <rest_of_name>Marlin.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/6776">
+        <primary_name>Mason</primary_name>
+        <rest_of_name>Stevens Thomson</rest_of_name>
+        <dates>1811-1843</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

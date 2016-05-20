@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Mary Nugent photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93448 UAs</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local" ref="/agents/people/5266">
+          <primary_name>Nugent</primary_name>
+          <rest_of_name>Mary</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Mary Nugent photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1890s-1910s</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1890s-1910s.</p>
+      </odd>
+      <acqinfo>Donor: 4012</acqinfo>
+    </descgrp>
+    <scopecontent>Portraits of the John Peters family and of Monsignor Frank A. O'Brien, all of Kalamazoo, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/4152">
+        <term type="topical">Clergy.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3355">
+        <primary_name>O'Brien</primary_name>
+        <rest_of_name>Frank A.</rest_of_name>
+        <dates>1851-1921</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2034">
+        <primary_name>Peters</primary_name>
+        <rest_of_name>John.</rest_of_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William E. Thornton ledger</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89330 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/4836">
+          <primary_name>Thornton</primary_name>
+          <rest_of_name>William E.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>William E. Thornton ledger</unittitle>
+      <unitdate type="inclusive" label="creation">1866-1870</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 740</acqinfo>
+    </descgrp>
+    <bioghist>Albion, Michigan, printer.</bioghist>
+    <scopecontent>Accounts of printing bills.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2513">
+        <term type="geographic">Albion (Calhoun County, Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

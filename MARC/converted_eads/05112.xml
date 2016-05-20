@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Jane Burton papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>05112 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3667">
+          <primary_name>Burton</primary_name>
+          <rest_of_name>Jane.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Jane Burton papers</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1900-ca. 1982</unitdate>
+      <physdesc>
+        <extent>0.5 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9611</acqinfo>
+    </descgrp>
+    <bioghist>Daughter of University of Michigan president, Marion L. Burton.</bioghist>
+    <scopecontent>Original and collected material relating to the life and career of Marion L. Burton; includes biographical sketch of Marion Burton's early life written by Jane Burton; also father's letter to freshman, 1924 (original; never used).</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3667">
+        <primary_name>Burton</primary_name>
+        <rest_of_name>Jane.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2685">
+        <primary_name>Burton</primary_name>
+        <rest_of_name>Marion Le Roy</rest_of_name>
+        <dates>1874-1925</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/2685">
+        <primary_name>Burton</primary_name>
+        <rest_of_name>Marion Le Roy</rest_of_name>
+        <dates>1874-1925</dates>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

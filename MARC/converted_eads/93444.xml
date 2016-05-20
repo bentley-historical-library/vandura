@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the George Martin photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93444 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2170">
+          <primary_name>Martin</primary_name>
+          <rest_of_name>George</rest_of_name>
+          <dates>1815-1867</dates>
+        </persname>
+      </origination>
+      <unittitle>George Martin photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1850s-1860s</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1850s-1860s.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Resident of Grand Rapids, Michigan; chief justice of the Michigan Supreme Court, 1857-1867.</bioghist>
+    <scopecontent>Portraits, copy prints.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2170">
+        <primary_name>Martin</primary_name>
+        <rest_of_name>George</rest_of_name>
+        <dates>1815-1867</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

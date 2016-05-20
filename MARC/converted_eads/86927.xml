@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Free Will Baptist Church records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86927 Ba 1</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3411">
+          <primary_name>Free Will Baptist Church (Sparta (Kent County, Mich.))</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Free Will Baptist Church records</unittitle>
+      <unitdate type="inclusive" label="creation">1847-1864</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 847</acqinfo>
+    </descgrp>
+    <scopecontent>Minutes and financial records.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7492">
+        <term type="geographic">Alpine (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7039">
+        <term type="geographic">Kent County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5143">
+        <term type="geographic">Sparta (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/599">
+        <primary_name>Free Will Baptists (1780?-1911)</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Kent County.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

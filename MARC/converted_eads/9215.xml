@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the [Mill race at Ann Arbor, Michigan] [graphic].</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9215</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5575">
+          <primary_name>Doty</primary_name>
+          <rest_of_name>Clara Augusta.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>[Mill race at Ann Arbor, Michigan] [graphic].</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1880</unitdate>
+      <physdesc>
+        <extent>1 painting</extent>
+        <physfacet>
+oil.</physfacet>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1880.</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>On indefinite loan to Kempf House, Ann Arbor, Michigan.</p>
+      </odd>
+    </descgrp>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/810">
+        <term type="genre_form">Paintings.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/1339">
+        <term type="topical">Canals</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/6787">
+        <term type="topical">Mills</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651" ref="/subjects/352">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+        <term type="topical">Mills.</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
+</ead>

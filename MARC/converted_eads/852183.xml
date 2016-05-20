@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Parsons General Store business records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>852183 BB.2 outsize</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/2045">
+          <primary_name>Parsons General Store (Saline, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Parsons General Store business records</unittitle>
+      <unitdate type="inclusive" label="creation">1866-1867 and 1871-1876</unitdate>
+      <physdesc>
+        <extent>3 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2244, 2422</acqinfo>
+    </descgrp>
+    <scopecontent>Account book, 1866-1867; and day book and ledger, 1871-1876.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5756">
+        <term type="topical">General stores</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Saline.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3556">
+        <term type="geographic">Saline (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/511">
+        <primary_name>Parsons</primary_name>
+        <rest_of_name>Cornelius.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Oversize Volume" type="volume">1</container>
+    <container label="Oversize Volume" type="volume">2</container>
+    <container label="Oversize Volume" type="volume">3</container>
+  </archdesc>
+</ead>

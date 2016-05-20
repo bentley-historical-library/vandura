@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Ann Arbor Grandmothers' club records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85617 Bk.W 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3663">
+          <primary_name>Ann Arbor Grandmothers' Club (Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Ann Arbor Grandmothers' club records</unittitle>
+      <unitdate type="inclusive" label="creation">1920-1952</unitdate>
+      <physdesc>
+        <extent>ca. 5 linear in</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2953</acqinfo>
+    </descgrp>
+    <bioghist>Service club engaged in sewing and mending clothes for hospital patients.</bioghist>
+    <scopecontent>Scrapbooks and minutes of meetings.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4842">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor</term>
+        <term type="topical">Societies and clubs.</term>
+      </subject>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

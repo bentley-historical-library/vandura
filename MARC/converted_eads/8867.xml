@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Winnings of a woodsman</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8867 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/2360">
+          <primary_name>Blakeman</primary_name>
+          <rest_of_name>Charles Elisher</rest_of_name>
+          <dates>1862-</dates>
+        </persname>
+      </origination>
+      <unittitle>Winnings of a woodsman</unittitle>
+      <unitdate type="inclusive" label="creation">undated</unitdate>
+      <physdesc>
+        <extent>2 folders (216 p.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 885</acqinfo>
+    </descgrp>
+    <scopecontent>Manuscript of unpublished novel.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3448">
+        <term type="topical">Logging</term>
+        <term type="geographic">Michigan</term>
+        <term type="genre_form">Fiction.</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
+</ead>

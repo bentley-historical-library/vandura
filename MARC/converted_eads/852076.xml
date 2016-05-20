@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Presbytery of Saginaw records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>852076 Ba 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/48">
+          <primary_name>United Presbyterian Church in the U.S.A</primary_name>
+          <subordinate_name>Presbytery of Saginaw (Mich.)</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Presbytery of Saginaw records</unittitle>
+      <unitdate type="inclusive" label="creation">1856-1961</unitdate>
+      <physdesc>
+        <extent>1.5 linear ft. (11 v.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1016, 4650</acqinfo>
+    </descgrp>
+    <bioghist>Saginaw presbytery merged in 1961 with Flint presbytery to form Lake Huron presbytery.</bioghist>
+    <scopecontent>Minutes, 1856-1961, roll of ministers, 1929-1961, and ledger, 1936-1958.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5874">
+        <term type="geographic">Saginaw (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3205">
+        <primary_name>United Presbyterian Church in the U.S.A</primary_name>
+        <subordinate_name>Presbytery of Lake Huron</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/48">
+        <primary_name>United Presbyterian Church in the U.S.A</primary_name>
+        <subordinate_name>Presbytery of Saginaw (Mich.)</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+    <container label="Box" type="box">2</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Lulu Brown Middleton scrapbooks</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8916 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1244">
+          <primary_name>Middleton</primary_name>
+          <rest_of_name>Lulu Brown.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Lulu Brown Middleton scrapbooks</unittitle>
+      <unitdate type="inclusive" label="creation">1941-1946</unitdate>
+      <physdesc>
+        <extent>4 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4162</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Lake Orion, Michigan.</bioghist>
+    <scopecontent>Letters received from U.S. servicemen during World War II.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5646">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/7886">
+        <term type="topical">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1244">
+        <primary_name>Middleton</primary_name>
+        <rest_of_name>Lulu Brown.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Lulu Brown Middleton scrapbooks</unittitle>
+          <physdesc>
+            <extent>4 v</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1941-1946</unitdate>
+        </did>
+        <scopecontent>Letters received from U.S. servicemen during World War II.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Lulu Brown Middleton photograph series.</unittitle>
+          <physdesc>
+            <extent>1 envelope</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1944 or 1945</unitdate>
+        </did>
+        <scopecontent>Photo of Middleton with World War II scrapbooks and memorabilia received from serviceman correspondents.</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Oversize Volume" type="volume">1</container>
+    <container label="Oversize Volume" type="volume">2</container>
+    <container label="Oversize Volume" type="volume">3</container>
+    <container label="Oversize Volume" type="volume">4</container>
+  </archdesc>
+</ead>

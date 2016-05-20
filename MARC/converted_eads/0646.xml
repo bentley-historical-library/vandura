@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William F. Hopper papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0646 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/96">
+          <primary_name>Hopper</primary_name>
+          <rest_of_name>William F.</rest_of_name>
+          <dates>1949-2003</dates>
+        </persname>
+      </origination>
+      <unittitle>William F. Hopper papers</unittitle>
+      <unitdate type="inclusive" label="creation">1990-2003 (scattered)</unitdate>
+      <physdesc>
+        <extent>0.5 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor retains copyright.</acqinfo>
+      <acqinfo>Donor: 9538</acqinfo>
+    </descgrp>
+    <bioghist>Pastor of St. Andrew Redeemer Lutheran Church, Detroit, Michigan.</bioghist>
+    <scopecontent>Sermons, clippings, and miscellaneous; also sound cassettes of some services.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/814">
+        <term type="genre_form">Sermons.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/4838">
+        <term type="genre_form">Sound recordings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2911">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/96">
+        <primary_name>Hopper</primary_name>
+        <rest_of_name>William F.</rest_of_name>
+        <dates>1949-2003</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1850">
+        <primary_name>Evangelical Lutheran Church in America</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/447">
+        <primary_name>St. Andrew Redeemer Lutheran Church (Detroit, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

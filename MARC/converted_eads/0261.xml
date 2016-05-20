@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Wilbur Karl Kidder papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0261 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2700">
+          <primary_name>Kidder</primary_name>
+          <rest_of_name>Wilbur Karl</rest_of_name>
+          <dates>1912-1970</dates>
+        </persname>
+      </origination>
+      <unittitle>Wilbur Karl Kidder papers</unittitle>
+      <unitdate type="inclusive" label="creation">1935-1970</unitdate>
+      <physdesc>
+        <extent>2 linear feet</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9111</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Diaries, 1935-1949., in box 1; diaries, 1950-1970, and miscellaneous in box 2.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Conservation officer in Tustin, Gladwin, and Baldwin, Michigan.</bioghist>
+    <scopecontent>Diaries describing work and other activities, and miscellaneous personal and biographical information.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5582">
+        <term type="topical">Conservation of natural resources</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1946">
+        <term type="geographic">Baldwin (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6704">
+        <term type="geographic">Gladwin (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7335">
+        <term type="geographic">Tustin (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2700">
+        <primary_name>Kidder</primary_name>
+        <rest_of_name>Wilbur Karl</rest_of_name>
+        <dates>1912-1970</dates>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+    <container label="Box" type="box">2</container>
+  </archdesc>
+</ead>

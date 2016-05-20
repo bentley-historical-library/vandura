@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the George Harmon Durand papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851127 Aa 2 Ac</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2923">
+          <primary_name>Durand</primary_name>
+          <rest_of_name>George Harmon</rest_of_name>
+          <dates>1838-1903</dates>
+        </persname>
+      </origination>
+      <unittitle>George Harmon Durand papers</unittitle>
+      <unitdate type="inclusive" label="creation">1862-1912</unitdate>
+      <physdesc>
+        <extent>4 v. and 3 folders in 2 boxes; and 2 oversize items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2035</acqinfo>
+    </descgrp>
+    <bioghist>Justice of the Michigan Supreme Court.</bioghist>
+    <scopecontent>Business and legal papers; manuscript address; scattered correspondence, 1876, dealing with Democratic politics; scrapbooks of newspaper clippings on legal business, politics, and his death; and papers concerning the presentation of his portrait to the Michigan Supreme Court.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+        <term type="topical">Business records.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2923">
+        <primary_name>Durand</primary_name>
+        <rest_of_name>George Harmon</rest_of_name>
+        <dates>1838-1903</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1477">
+        <primary_name>Democratic Party (Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2453">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>Supreme Court</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+    <container label="Box" type="box">2</container>
+  </archdesc>
+</ead>

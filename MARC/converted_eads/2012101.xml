@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the John Christian Auch documents</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2012101 Ac</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/817">
+          <primary_name>Auch</primary_name>
+          <rest_of_name>John Christian.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>John Christian Auch documents</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1840-1886 (scattered dates)</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 6170</acqinfo>
+    </descgrp>
+    <scopecontent>U.S. Land Office certificates for public lands in Genesee County, Mich., issued to John Christian Auch and others. One of the certificates was issued to Sha-sha-o-ne-besse, a member of the Saginaw Band of the Chippewa tribe.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4695">
+        <term type="topical">Indians of North America</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Genesee County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5002">
+        <term type="topical">Public lands</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Genesee County.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/817">
+        <primary_name>Auch</primary_name>
+        <rest_of_name>John Christian.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1424">
+        <primary_name>Sha-sha-o-ne-besse.</primary_name>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

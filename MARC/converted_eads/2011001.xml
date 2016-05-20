@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Meta Henne notebook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2011001 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5914">
+          <primary_name>Henne</primary_name>
+          <rest_of_name>Meta.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Meta Henne notebook</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1915</unitdate>
+      <physdesc>
+        <extent>1 volume</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 10475</acqinfo>
+    </descgrp>
+    <bioghist>Ann Arbor High School student, later graduate of the University of Michigan. Henne married Erich A. Walter.</bioghist>
+    <scopecontent>Notebook of physical laboratory exercises from Ann Arbor High School physics class. The course was taught by Horatio N. Chute.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/232">
+        <primary_name>Chute</primary_name>
+        <rest_of_name>Horatio N.</rest_of_name>
+        <fuller_form>(Horatio Nelson)</fuller_form>
+        <dates>1847-1928</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5914">
+        <primary_name>Henne</primary_name>
+        <rest_of_name>Meta.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2573">
+        <primary_name>Ann Arbor High School (Mich.)</primary_name>
+        <term type="topical">Students.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

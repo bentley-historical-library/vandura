@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William A. McDonald photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>92522 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/2632">
+          <primary_name>McDonald</primary_name>
+          <rest_of_name>William A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>William A. McDonald photograph collection.</unittitle>
+      <unitdate>[No date provided]</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1854-ca. 1875.</p>
+      </odd>
+      <acqinfo>Donor: 3262</acqinfo>
+    </descgrp>
+    <scopecontent>Photograph of Great Lakes passenger steamer, "Island Queen."</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/6893">
+        <term type="topical">Ships</term>
+        <term type="geographic">Great Lakes.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1165">
+        <primary_name>Island Queen (Ship)</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Michigan Forestry Association papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851862 Bn.1 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1336">
+          <primary_name>Michigan Forestry Association</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Michigan Forestry Association papers</unittitle>
+      <unitdate type="inclusive" label="creation">1905-1953</unitdate>
+      <physdesc>
+        <extent>5 linear in</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2875</acqinfo>
+    </descgrp>
+    <scopecontent>Correspondence, financial records, constitution, membership lists, and reports. Correspondents include: Robert Craig, Jr.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4392">
+        <term type="topical">Forests and forestry</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1481">
+        <term type="topical">Parks</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5224">
+        <primary_name>Craig</primary_name>
+        <rest_of_name>Robert</rest_of_name>
+        <dates>1882-1962</dates>
+      </persname>
+      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/2648">
+        <primary_name>Michigan Forestry and Park Association</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

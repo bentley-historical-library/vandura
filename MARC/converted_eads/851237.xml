@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Henry Fox autobiographical sketch</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851237 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5186">
+          <primary_name>Fox</primary_name>
+          <rest_of_name>Henry</rest_of_name>
+          <dates>1854-1933</dates>
+        </persname>
+      </origination>
+      <unittitle>Henry Fox autobiographical sketch</unittitle>
+      <unitdate type="inclusive" label="creation">1933</unitdate>
+      <physdesc>
+        <extent>37 p</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript of original made by his granddaughter.</p>
+      </odd>
+      <acqinfo>Donor: 3792</acqinfo>
+    </descgrp>
+    <bioghist>Great Lakes ship captain.</bioghist>
+    <scopecontent>Description of his life on the lakes, on Beaver Island, and in the Michigan Upper Peninsula.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5955">
+        <term type="topical">Fishing</term>
+        <term type="geographic">Great Lakes (North America)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2458">
+        <term type="topical">Shipping</term>
+        <term type="geographic">Great Lakes (North America).</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4890">
+        <term type="topical">Ships</term>
+        <term type="geographic">Great Lakes (North America)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3589">
+        <term type="geographic">Beaver Island (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/718">
+        <term type="geographic">Great Lakes (North America)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6395">
+        <term type="geographic">Upper Peninsula (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3820">
+        <primary_name>Church of Jesus Christ of Latter-day Saints</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Sherwood Raymond Peabody scrapbook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89106 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/7208">
+          <primary_name>Peabody</primary_name>
+          <rest_of_name>Sherwood Raymond</rest_of_name>
+          <dates>d. 1879</dates>
+        </persname>
+      </origination>
+      <unittitle>Sherwood Raymond Peabody scrapbook</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1869-ca. 1876</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1278</acqinfo>
+    </descgrp>
+    <bioghist>Graduate of the University of Michigan, class of 1873.</bioghist>
+    <scopecontent>Scrapbook of newspaper clippings, programs, and other materials concerning the activities of the class of 1873 at the University of Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/752">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1873</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1861-1870.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1871-1880.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

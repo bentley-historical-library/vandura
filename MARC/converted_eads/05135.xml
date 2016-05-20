@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Gustin family papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>05135 Aa 1</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local" ref="/agents/families/321">
+          <family_name>Gustin family (Albion, Mich.)</family_name>
+        </famname>
+      </origination>
+      <unittitle>Gustin family papers</unittitle>
+      <unitdate type="inclusive" label="creation">1865</unitdate>
+      <physdesc>
+        <extent>2 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9654</acqinfo>
+    </descgrp>
+    <bioghist>Family of Alpheus W. Gustin of Albion, Mich. His son Warren Gustin of Davison, Mich., served with Co. K, 23rd Michigan Infantry during the Civil War. He was taken prisoner Jan. 27, 1864 and released Mar. 1, 1865.</bioghist>
+    <scopecontent>Exchange of letters between Warren and Alpheus Gustin (while Warren was in a Baltimore hospital) briefly describing Warren's prison experience and Alpheus's joy at his son's release.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6615">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865</term>
+        <term type="topical">Prisoners and prisons.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/4055">
+        <primary_name>Gustin</primary_name>
+        <rest_of_name>Alpheus W.</rest_of_name>
+        <dates>1787-1870</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5872">
+        <primary_name>Gustin</primary_name>
+        <rest_of_name>Warren</rest_of_name>
+        <dates>b. 1830</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/312">
+        <family_name>Gaston family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2070">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 23rd (1862-1865)</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

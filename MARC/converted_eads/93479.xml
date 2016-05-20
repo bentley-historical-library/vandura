@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Schaeberle family photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93479 UAs</unitid>
+      <origination>
+        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/442">
+          <family_name>Schaeberle family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Schaeberle family photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1870s-1890s</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1870s-1890s.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Family of Anton Schaeberle of Ann Arbor, Michigan.</bioghist>
+    <scopecontent>Portraits of children and other relatives of Anton Schaeberle, including violinist J. Frederich Schaeberle and astronomer John Martin Schaeberle.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2467">
+        <primary_name>Schaeberle</primary_name>
+        <rest_of_name>J. Frederich</rest_of_name>
+        <dates>b. 1844</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1270">
+        <primary_name>Schaeberle</primary_name>
+        <rest_of_name>John Martin</rest_of_name>
+        <dates>1853-1924</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/442">
+        <family_name>Schaeberle family</family_name>
+      </famname>
+    </controlaccess>
+  </archdesc>
+</ead>

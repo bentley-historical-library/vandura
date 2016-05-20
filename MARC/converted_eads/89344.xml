@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Tyler family papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89344 Aa 1</unitid>
+      <origination>
+        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/449">
+          <family_name>Tyler family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Tyler family papers</unittitle>
+      <unitdate type="inclusive" label="creation">1894 and 1975</unitdate>
+      <physdesc>
+        <extent>2 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5914</acqinfo>
+    </descgrp>
+    <bioghist>William Benham Tyler family of Washington, Connecticut and Morrice, Shiawassee County, Michigan.</bioghist>
+    <scopecontent>Family history written in 1894 by William Benham Tyler, with supplement covering the years through 1975, includes reminiscences of family life, genealogical material, and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3870">
+        <term type="geographic">Morrice (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3755">
+        <term type="geographic">Shiawassee County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5805">
+        <term type="geographic">Washington (Conn.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/6028">
+        <primary_name>Tyler</primary_name>
+        <rest_of_name>William Benham</rest_of_name>
+        <dates>1844-1934</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
+</ead>

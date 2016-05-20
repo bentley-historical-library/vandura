@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Waldemar Alfred Paul John letters</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88480 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/3446">
+          <primary_name>John</primary_name>
+          <rest_of_name>Waldemar Alfred Paul</rest_of_name>
+          <dates>1895-</dates>
+        </persname>
+      </origination>
+      <unittitle>Waldemar Alfred Paul John letters</unittitle>
+      <unitdate type="inclusive" label="creation">1918</unitdate>
+      <physdesc>
+        <extent>2 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3198</acqinfo>
+    </descgrp>
+    <scopecontent>Letters to Morris Levinkind describing his experiences in France during World War I.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/695">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5543">
+        <primary_name>Levinkind</primary_name>
+        <rest_of_name>Morris.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

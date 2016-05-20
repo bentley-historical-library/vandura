@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Albert Ross Bailey photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>94154 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/521">
+          <primary_name>Bailey</primary_name>
+          <rest_of_name>Albert Ross</rest_of_name>
+          <dates>1877-1931</dates>
+        </persname>
+      </origination>
+      <unittitle>Albert Ross Bailey photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">[190-]</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[190-].</p>
+      </odd>
+      <acqinfo>Donor: 8291</acqinfo>
+    </descgrp>
+    <bioghist>Graduate of the University of Michigan, professor of engineering there, engineer of the Washtenaw County, Mich., Road Commission.</bioghist>
+    <scopecontent>Group portraits of engineering students (1903) and Michigan National Guard (undated).</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/521">
+        <primary_name>Bailey</primary_name>
+        <rest_of_name>Albert Ross</rest_of_name>
+        <dates>1877-1931</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1774">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>National Guard</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/889">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+        <term type="topical">Students.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

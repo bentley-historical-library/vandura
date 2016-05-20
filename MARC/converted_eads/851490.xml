@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles Phelps Hines papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851490 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5038">
+          <primary_name>Hines</primary_name>
+          <rest_of_name>Charles Phelps.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Charles Phelps Hines papers</unittitle>
+      <unitdate type="inclusive" label="creation">1944</unitdate>
+      <physdesc>
+        <extent>2 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript copy.</p>
+      </odd>
+      <acqinfo>Donor: 2148</acqinfo>
+    </descgrp>
+    <bioghist>Member of the U.S. Navy Wolverine Squadron in World War II.</bioghist>
+    <scopecontent>Excerpt from diaries of his wartime experiences.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6407">
+        <term type="topical">Aeronautics.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7266">
+        <term type="topical">World War, 1939-1945</term>
+        <term type="topical">Personal narratives, American.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3132">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Navy</subordinate_name>
+        <subordinate_name>Wolverine Squadron</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Everitt S. Hotchkiss reminiscences</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851477 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/2877">
+          <primary_name>Hotchkiss</primary_name>
+          <rest_of_name>Everitt S.</rest_of_name>
+          <dates>b. 1857</dates>
+        </persname>
+      </origination>
+      <unittitle>Everitt S. Hotchkiss reminiscences</unittitle>
+      <unitdate type="inclusive" label="creation">undated</unitdate>
+      <physdesc>
+        <extent>88 p</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript copy.</p>
+      </odd>
+      <acqinfo>Donor: 3892</acqinfo>
+    </descgrp>
+    <bioghist>Lumber supplier at Bay City, Michigan.</bioghist>
+    <scopecontent>Description of his boyhood and youth in Bay City in the 1860's and 1870's.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2480">
+        <term type="topical">Lumber trade</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Bay City.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/931">
+        <term type="topical">Lumbering</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Bay City.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3469">
+        <term type="geographic">Bay City (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

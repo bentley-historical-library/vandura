@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the The wreck of the Maria Richmond</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88321 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5958">
+          <primary_name>Frye</primary_name>
+          <rest_of_name>James P.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>The wreck of the Maria Richmond</unittitle>
+      <unitdate type="inclusive" label="creation">[1902?]</unitdate>
+      <physdesc>
+        <extent>1 item (22 p.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6912</acqinfo>
+    </descgrp>
+    <bioghist>Great Lakes ship captain.</bioghist>
+    <scopecontent>Manuscript, perhaps intended for publication, concerning the sinking of a schooner off the coast of Michigan, near Frankfort, in October 1878.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4890">
+        <term type="topical">Ships</term>
+        <term type="geographic">Great Lakes (North America)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6577">
+        <term type="topical">Shipwrecks</term>
+        <term type="geographic">Michigan, Lake.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3762">
+        <term type="geographic">Frankfort (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/718">
+        <term type="geographic">Great Lakes (North America)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/39">
+        <primary_name>Maria Richmond (Ship)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

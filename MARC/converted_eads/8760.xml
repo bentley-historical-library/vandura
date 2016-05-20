@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Class of 1873 (University of Michigan) records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8760 Bimu F99 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/752">
+          <primary_name>University of Michigan</primary_name>
+          <subordinate_name>Class of 1873</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Class of 1873 (University of Michigan) records</unittitle>
+      <unitdate type="inclusive" label="creation">1923 and 1929-1930</unitdate>
+      <physdesc>
+        <extent>3 folders</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4067</acqinfo>
+    </descgrp>
+    <scopecontent>Correspondence with secretary Clarence M. Burton relating to 50th reunion; biographies of class members; and copies of documents relating to the expulsion of the classes of 1873 and 1874.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3705">
+        <primary_name>Burton</primary_name>
+        <rest_of_name>Clarence Monroe</rest_of_name>
+        <dates>1853-1932</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/441">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1874</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1871-1880.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

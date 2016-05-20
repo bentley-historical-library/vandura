@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Association of Catholic Business Women letters</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85691 Bc 1</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/2637">
+          <primary_name>Association of Catholic Business Women (Lansing, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Association of Catholic Business Women letters</unittitle>
+      <unitdate type="inclusive" label="creation">1939</unitdate>
+      <physdesc>
+        <extent>2 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5425</acqinfo>
+    </descgrp>
+    <scopecontent>Letters from Senator Arthur H. Vandenberg and Congressman William W. Blackney concerning their views on the neutrality question.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6948">
+        <term type="topical">Neutrality.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3153">
+        <term type="geographic">Lansing (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/3865">
+        <primary_name>Blackney</primary_name>
+        <rest_of_name>William Wallace</rest_of_name>
+        <dates>1876-1963</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5851">
+        <primary_name>Vandenberg</primary_name>
+        <rest_of_name>Arthur H.</rest_of_name>
+        <fuller_form>(Arthur Hendrick)</fuller_form>
+        <dates>1884-1951</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

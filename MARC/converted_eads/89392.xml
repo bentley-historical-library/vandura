@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Harvey L. Visher papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89392 Aa 1 Vault</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6005">
+          <primary_name>Visher</primary_name>
+          <rest_of_name>Harvey L.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Harvey L. Visher papers</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1965</unitdate>
+      <physdesc>
+        <extent>2 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <altformavail>Microfilm copy available.</altformavail>
+      <acqinfo>Donor: 4305</acqinfo>
+    </descgrp>
+    <bioghist>Free-lance writer.</bioghist>
+    <scopecontent>Articles submitted for publication concerning the life and Civil War service of William Visscher, soldier in Co. K, 16th Michigan Regiment; include long excerpts from William Visscher's letters.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1219">
+        <primary_name>Visscher</primary_name>
+        <rest_of_name>William</rest_of_name>
+        <dates>1845-1872</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1161">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 16th (1861-1865)</subordinate_name>
+        <subordinate_name>Company K</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

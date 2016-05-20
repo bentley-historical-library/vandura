@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the John C. Baumgartner photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9077 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/7269">
+          <primary_name>Baumgartner</primary_name>
+          <rest_of_name>John C.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>John C. Baumgartner photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1959</unitdate>
+      <physdesc>
+        <extent>.2 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1959.</p>
+      </odd>
+      <acqinfo>Donor: 343</acqinfo>
+    </descgrp>
+    <bioghist>Collection of photographs taken by John C. Baumgartner, Peter Hay, and Ronald J. St. Onge, students in the Law School of the University of Michigan.</bioghist>
+    <scopecontent>Snapshots of law school faculty and staff in classroom and office settings, a selection of which were published in "Prudentia in persona, delicto in flagrante."</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="630" ref="/subjects/1523">
+        <term type="uniform_title">Prudentia in persona, delicto in flagrante.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/4042">
+        <primary_name>Hay</primary_name>
+        <rest_of_name>Peter</rest_of_name>
+        <dates>1935-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5908">
+        <primary_name>St. Onge</primary_name>
+        <rest_of_name>Ronald J.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3463">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Law School</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

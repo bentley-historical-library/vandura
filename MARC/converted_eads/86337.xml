@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Howard M. Wiest papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86337 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/4582">
+          <primary_name>Wiest</primary_name>
+          <rest_of_name>Howard</rest_of_name>
+          <dates>1864-1945</dates>
+        </persname>
+      </origination>
+      <unittitle>Howard M. Wiest papers</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1912-1919</unitdate>
+      <physdesc>
+        <extent>1 linear ft. (13 items and 26 v.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2245</acqinfo>
+    </descgrp>
+    <bioghist>Michigan Supreme Court Justice, 1921-1945.</bioghist>
+    <scopecontent>Addresses, articles, and notes on legal, fraternal (Elks), and religious subjects.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5025">
+        <term type="topical">Law.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7622">
+        <term type="topical">Judges</term>
+        <term type="topical">Religious life</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2755">
+        <primary_name>Elks (Fraternal order)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2453">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>Supreme Court</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

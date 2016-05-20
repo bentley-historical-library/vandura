@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Clark Hopkins notebook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851480 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/7132">
+          <primary_name>Hopkins</primary_name>
+          <rest_of_name>Clark</rest_of_name>
+          <dates>1895-1976</dates>
+        </persname>
+      </origination>
+      <unittitle>Clark Hopkins notebook</unittitle>
+      <unitdate type="inclusive" label="creation">1944</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript copy.</p>
+      </odd>
+      <acqinfo>Donor: 2113</acqinfo>
+    </descgrp>
+    <bioghist>Professor at University of Michigan.</bioghist>
+    <scopecontent>Eyewitness accounts of World War II battles by Camp Ellis Veterans.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7266">
+        <term type="topical">World War, 1939-1945</term>
+        <term type="topical">Personal narratives, American.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/1952">
+        <primary_name>Gegenheimer</primary_name>
+        <rest_of_name>Albert F.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5593">
+        <primary_name>Schickling</primary_name>
+        <rest_of_name>John.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Joseph W. Brown letters</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85886 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/2104">
+          <primary_name>Brown</primary_name>
+          <rest_of_name>Joseph W.</rest_of_name>
+          <dates>1793-1880</dates>
+        </persname>
+      </origination>
+      <unittitle>Joseph W. Brown letters</unittitle>
+      <unitdate type="inclusive" label="creation">1835 and 1837</unitdate>
+      <physdesc>
+        <extent>2 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 923, 2705</acqinfo>
+    </descgrp>
+    <bioghist>Tecumseh, Michigan, sawmill operator, county judge and regent of University of Michigan.</bioghist>
+    <scopecontent>Letter, 1835, to Major D. S. Bacon requesting statement of the pay due soldiers serving under Major Whipple during the "Toledo War"; letter of recommendation for Colonel D. Pittman, 1837.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3078">
+        <term type="topical">Toledo War, 1835.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3242">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Boundaries</term>
+        <term type="geographic">Ohio.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1747">
+        <term type="geographic">Michigan</term>
+        <term type="topical">History.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3727">
+        <term type="geographic">Ohio</term>
+        <term type="topical">Boundaries</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2202">
+        <primary_name>Pittman</primary_name>
+        <rest_of_name>D.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
+</ead>

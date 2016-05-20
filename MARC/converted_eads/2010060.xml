@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the B. C. Fairman letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2010060 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3582">
+          <primary_name>Fairman</primary_name>
+          <rest_of_name>B. C.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>B. C. Fairman letter</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1931 Feb. 12</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 10315</acqinfo>
+    </descgrp>
+    <bioghist>B. C. Fairman was a high school principal in Midland, Mich.</bioghist>
+    <scopecontent>Letter from U.S. Senator Arthur H. Vandenberg describing his support for the World Court Protocol then before the Senate.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3582">
+        <primary_name>Fairman</primary_name>
+        <rest_of_name>B. C.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5851">
+        <primary_name>Vandenberg</primary_name>
+        <rest_of_name>Arthur H.</rest_of_name>
+        <fuller_form>(Arthur Hendrick)</fuller_form>
+        <dates>1884-1951</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5851">
+        <primary_name>Vandenberg</primary_name>
+        <rest_of_name>Arthur H.</rest_of_name>
+        <fuller_form>(Arthur Hendrick)</fuller_form>
+        <dates>1884-1951</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3302">
+        <primary_name>Permanent Court of International Justice</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

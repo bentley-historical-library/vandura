@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the O. H. Clark notebook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85107 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5138">
+          <primary_name>Clark</primary_name>
+          <rest_of_name>O. H.</rest_of_name>
+          <fuller_form>(Orton Horace)</fuller_form>
+          <dates>1897-1972</dates>
+        </persname>
+      </origination>
+      <unittitle>O. H. Clark notebook</unittitle>
+      <unitdate type="inclusive" label="creation">1917-1972</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3542</acqinfo>
+    </descgrp>
+    <bioghist>Director of lake and stream improvement for the Michigan State Conservation Department (now called the Department of Natural Resources).</bioghist>
+    <scopecontent>Articles, clippings, and memorabilia; and biographical sketch written by his wife; also includes letter from Herbert Hoover, June 1935.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5582">
+        <term type="topical">Conservation of natural resources</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/8284">
+        <term type="topical">Fishes</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/64">
+        <term type="topical">Fishing</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5138">
+        <primary_name>Clark</primary_name>
+        <rest_of_name>O. H.</rest_of_name>
+        <fuller_form>(Orton Horace)</fuller_form>
+        <dates>1897-1972</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5155">
+        <primary_name>Hoover</primary_name>
+        <rest_of_name>Herbert</rest_of_name>
+        <dates>1874-1964</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2524">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>Department of Conservation</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

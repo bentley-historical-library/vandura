@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Neil H. Williams student notebook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>877 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5329">
+          <primary_name>Williams</primary_name>
+          <rest_of_name>Neil H.</rest_of_name>
+          <fuller_form>(Neil Hooker)</fuller_form>
+          <dates>1870-</dates>
+        </persname>
+      </origination>
+      <unittitle>Neil H. Williams student notebook</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1908</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6212</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan, later University of Michigan physics professor.</bioghist>
+    <scopecontent>Notes on dynamo electric machinery, photometry lectures by George W. Patterson, and alternating currents.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6059">
+        <primary_name>Patterson</primary_name>
+        <rest_of_name>George W.</rest_of_name>
+        <fuller_form>(George Washington)</fuller_form>
+        <dates>1864-1930</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1932">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Electrical Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1046">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Physics</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Vera Burridge Baits papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8818 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3014">
+          <primary_name>Baits</primary_name>
+          <rest_of_name>Vera Burridge</rest_of_name>
+          <dates>1892-1963</dates>
+        </persname>
+      </origination>
+      <unittitle>Vera Burridge Baits papers</unittitle>
+      <unitdate type="inclusive" label="creation">1950-1959</unitdate>
+      <physdesc>
+        <extent>5 folders</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2975</acqinfo>
+    </descgrp>
+    <bioghist>Regent of the University of Michigan.</bioghist>
+    <scopecontent>Speeches and alumni awards.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6757">
+        <term type="topical">Women</term>
+        <term type="topical">Political activity</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3014">
+        <primary_name>Baits</primary_name>
+        <rest_of_name>Vera Burridge</rest_of_name>
+        <dates>1892-1963</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1564">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Board of Regents</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+    <container label="Folder" type="folder">3</container>
+    <container label="Folder" type="folder">4</container>
+    <container label="Folder" type="folder">5</container>
+  </archdesc>
+</ead>

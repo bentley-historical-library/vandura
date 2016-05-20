@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Ypsilanti Historical Society sound recordings.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>99117 Bp 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/996">
+          <primary_name>Ypsilanti Historical Society</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Ypsilanti Historical Society sound recordings.</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1973-1989</unitdate>
+      <physdesc>
+        <extent>53 sound cassettes</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1973-1989.</p>
+      </odd>
+      <acqinfo>Donor:5953</acqinfo>
+    </descgrp>
+    <scopecontent>Sound cassettes of interviews with individuals speaking of their lives and the history of Ypsilanti, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/1571">
+        <term type="genre_form">Oral histories.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/4838">
+        <term type="genre_form">Sound recordings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/94">
+        <term type="geographic">Ypsilanti (Mich.)</term>
+        <term type="topical">History.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/996">
+        <primary_name>Ypsilanti Historical Society</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Benjamin S. Motter papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>02129 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4037">
+          <primary_name>Motter</primary_name>
+          <rest_of_name>Benjamin S.</rest_of_name>
+          <fuller_form>(Benjamin Snively)</fuller_form>
+        </persname>
+      </origination>
+      <unittitle>Benjamin S. Motter papers</unittitle>
+      <unitdate type="inclusive" label="creation">1917-1918</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <altformavail>Includes partial transcriptions of letters.</altformavail>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <bioghist>1918 graduate of University of Michigan Law School, later resident of Lima, Ohio.</bioghist>
+    <scopecontent>Letters to his mother describing his activities including mock trials.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4037">
+        <primary_name>Motter</primary_name>
+        <rest_of_name>Benjamin S.</rest_of_name>
+        <fuller_form>(Benjamin Snively)</fuller_form>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3463">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Law School</subordinate_name>
+        <term type="topical">Students</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2201">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Law School</subordinate_name>
+        <subordinate_name>Class of 1918</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

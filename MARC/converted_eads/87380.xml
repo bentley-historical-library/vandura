@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Special Libraries Association, University of Michigan Student Group records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87380 Bimu F10 1</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1097">
+          <primary_name>Special Libraries Association</primary_name>
+          <subordinate_name>University of Michigan Student Group</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Special Libraries Association, University of Michigan Student Group records</unittitle>
+      <unitdate type="inclusive" label="creation">1974-1978</unitdate>
+      <physdesc>
+        <extent>2 folders</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7067</acqinfo>
+    </descgrp>
+    <scopecontent>Record books containing minutes, notices of meetings and activities, and miscellanea.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2156">
+        <term type="topical">Libraries</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Societies, etc.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/886">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>School of Library Science</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
+</ead>

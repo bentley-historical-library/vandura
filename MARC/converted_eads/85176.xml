@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Woodbury Post, No. 45, Grand Army of the Republic record book</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85176 BE.1</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2885">
+          <primary_name>Grand Army of the Republic</primary_name>
+          <subordinate_name>Woodbury Post, No. 45 (Adrian, Mich.)</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Woodbury Post, No. 45, Grand Army of the Republic record book</unittitle>
+      <unitdate type="inclusive" label="creation">1915-1943</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5944</acqinfo>
+    </descgrp>
+    <scopecontent>Listing of dues paid and obituary notices.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4681">
+        <term type="topical">Veterans</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Adrian</term>
+        <term type="geographic">Societies, etc.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5228">
+        <term type="geographic">Adrian (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2885">
+        <primary_name>Grand Army of the Republic</primary_name>
+        <subordinate_name>Woodbury Post, No. 45 (Adrian, Mich.)</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

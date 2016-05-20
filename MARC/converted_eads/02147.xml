@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Coalition on Unmet Needs records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>02147 Bj 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1822">
+          <primary_name>Coalition on Unmet Needs</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Coalition on Unmet Needs records</unittitle>
+      <unitdate type="inclusive" label="creation">1985-1988</unitdate>
+      <physdesc>
+        <extent>0.2 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9246</acqinfo>
+    </descgrp>
+    <bioghist>Ann Arbor-based organization concerned with the problem of homelessness and affordable housing for the poor.</bioghist>
+    <scopecontent>Newsletters, reports, clippings, and other papers relating to their activities.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/8387">
+        <term type="topical">Homelessness</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6318">
+        <term type="topical">Housing</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1822">
+        <primary_name>Coalition on Unmet Needs</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

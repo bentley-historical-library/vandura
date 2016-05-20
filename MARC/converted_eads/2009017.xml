@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the University of Michigan Friends of Dance records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2009017 Bp 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1890">
+          <primary_name>University of Michigan</primary_name>
+          <subordinate_name>Friends of Dance</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>University of Michigan Friends of Dance records</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1977-1995</unitdate>
+      <physdesc>
+        <extent>0.5 linear feet</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 4991</acqinfo>
+    </descgrp>
+    <bioghist>Organization established in 1980 for the enjoyment, promotion, and support of the dance program of the School of Music of the University of Michigan.</bioghist>
+    <scopecontent>Newsletters and other mailings, programs, membership materials, board meetings, and financial miscellanea.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1739">
+        <term type="topical">Dance</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1890">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Friends of Dance</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3386">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>School of Music</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

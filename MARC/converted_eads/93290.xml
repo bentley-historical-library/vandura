@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Orton Horace Clark photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93290 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5138">
+          <primary_name>Clark</primary_name>
+          <rest_of_name>O. H.</rest_of_name>
+          <fuller_form>(Orton Horace)</fuller_form>
+          <dates>1897-1972</dates>
+        </persname>
+      </origination>
+      <unittitle>Orton Horace Clark photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">195-?</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>195-?</p>
+      </odd>
+    </descgrp>
+    <bioghist>Biologist with the Michigan Dept. of Conservation.</bioghist>
+    <scopecontent>Photos of Clark in gardens, teaching outdoors, and inspecting erosion control structure on Rifle River, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/5569">
+        <term type="topical">Gardens</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/6044">
+        <term type="topical">Teachers</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4212">
+        <term type="geographic">Rifle River (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5138">
+        <primary_name>Clark</primary_name>
+        <rest_of_name>O. H.</rest_of_name>
+        <fuller_form>(Orton Horace)</fuller_form>
+        <dates>1897-1972</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

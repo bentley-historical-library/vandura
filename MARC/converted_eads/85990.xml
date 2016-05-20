@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the John Cooper correspondence</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85990 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/1169">
+          <primary_name>Cooper</primary_name>
+          <rest_of_name>John.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>John Cooper correspondence</unittitle>
+      <unitdate type="inclusive" label="creation">1837</unitdate>
+      <physdesc>
+        <extent>2 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript copies.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Resident of Milwaukee, Wisconsin Territory.</bioghist>
+    <scopecontent>Letters from Manley and Dickson Birchard concerning family matters and describing land and farm conditions in Washtenaw County, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5302">
+        <term type="geographic">Milwaukee (Wis.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6120">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/2476">
+        <primary_name>Birchard</primary_name>
+        <rest_of_name>Dickson.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/6155">
+        <primary_name>Birchard</primary_name>
+        <rest_of_name>Manley.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

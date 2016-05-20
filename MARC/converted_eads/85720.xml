@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Maltby Lumber Company records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85720 BB.2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3520">
+          <primary_name>Maltby Lumber Company (Bay City, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Maltby Lumber Company records</unittitle>
+      <unitdate type="inclusive" label="creation">1899-1901</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4124</acqinfo>
+    </descgrp>
+    <scopecontent>Records of wages paid, purchases on credit and food provisioning for lumber camps in Iosco and Ogemaw counties, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7922">
+        <term type="topical">Logging</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ogemaw County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/8407">
+        <term type="topical">Logging</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Iosco County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/222">
+        <term type="geographic">Iosco County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7060">
+        <term type="geographic">Ogemaw County (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Friends of University of Michigan Hospitals records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87375 Bimu N16 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/3487">
+          <primary_name>University of Michigan</primary_name>
+          <subordinate_name>Hospitals</subordinate_name>
+          <subordinate_name>Friends</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Friends of University of Michigan Hospitals records</unittitle>
+      <unitdate type="inclusive" label="creation">1978-2003</unitdate>
+      <physdesc>
+        <extent>5 linear in</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6710</acqinfo>
+    </descgrp>
+    <scopecontent>Minutes of board meetings and newsletters.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4697">
+        <term type="topical">Hospitals</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/435">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Hospitals</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3487">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Hospitals</subordinate_name>
+        <subordinate_name>Friends</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles Thayer papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89150 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/2768">
+          <primary_name>Thayer</primary_name>
+          <rest_of_name>Charles</rest_of_name>
+          <dates>1801-1890</dates>
+        </persname>
+      </origination>
+      <unittitle>Charles Thayer papers</unittitle>
+      <unitdate type="inclusive" label="creation">1825, 1858, and 1890</unitdate>
+      <physdesc>
+        <extent>3 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 920, 1771</acqinfo>
+    </descgrp>
+    <bioghist>Ann Arbor, Michigan, businessman.</bioghist>
+    <scopecontent>Personal letter, 1825, from mother and sisters in Durham, New York; letter, 1858, from Colonel J. Taylor; and obituary, 1890, written by Anna M. Parshall.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1285">
+        <term type="geographic">Durham (N.Y.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5084">
+        <primary_name>Parshall</primary_name>
+        <rest_of_name>Anna.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/7395">
+        <primary_name>Taylor</primary_name>
+        <rest_of_name>J.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

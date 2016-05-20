@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Octave Gardner photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>92180 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/7398">
+          <primary_name>Gardner</primary_name>
+          <rest_of_name>Octave.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Octave Gardner photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1900s and 1920</unitdate>
+      <physdesc>
+        <extent>1 linear ft. (ca. 150 items)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1900s and 1920.</p>
+      </odd>
+      <acqinfo>Donor: 3426</acqinfo>
+    </descgrp>
+    <scopecontent>Glass slides primarily depicting Upper Peninsula mining views; also postcard photo depicting Calumet and Hecla dredge, and screen and elevator building at Lake Linden, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/6640">
+        <term type="genre_form">Glass phototransparencies.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/3602">
+        <term type="topical">Copper mining.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/3236">
+        <term type="topical">Mining.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4063">
+        <term type="geographic">Lake Linden (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/387">
+        <primary_name>Calumet and Hecla Mining Company</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

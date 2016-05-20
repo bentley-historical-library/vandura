@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the [Portrait of Chase Salmon Osborn] [graphic] / Gari Melchers.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>91242</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6696">
+          <primary_name>Melchers</primary_name>
+          <rest_of_name>Gari</rest_of_name>
+          <dates>1860-1932</dates>
+        </persname>
+      </origination>
+      <unittitle>[Portrait of Chase Salmon Osborn] [graphic] / Gari Melchers.</unittitle>
+      <unitdate type="inclusive" label="creation">[ca. 1918]</unitdate>
+      <physdesc>
+        <extent>1 painting</extent>
+        <physfacet>
+oil</physfacet>
+        <dimensions>visible image 107 x 99 cm.</dimensions>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>Framed.</p>
+      </odd>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[ca. 1918].</p>
+      </odd>
+      <acqinfo>Donor: 3195</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/810">
+        <term type="genre_form">Paintings.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4658">
+        <primary_name>Osborn</primary_name>
+        <rest_of_name>Chase S.</rest_of_name>
+        <fuller_form>(Chase Salmon)</fuller_form>
+        <dates>1860-1949</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

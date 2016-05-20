@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Theo Cornell papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88196 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/215">
+          <primary_name>Cornell</primary_name>
+          <rest_of_name>Theo.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Theo Cornell papers</unittitle>
+      <unitdate type="inclusive" label="creation">1973-1980</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5356</acqinfo>
+    </descgrp>
+    <scopecontent>Reminiscences, 1973, relating primarily to the kidnapping of her grandfather's brother by Fisher Indians in the region of the Shiawassee-Saginaw Rivers in Saginaw County, Mich.; other scattered materials about the Park family; and transcription of reminiscences of the Robert B. Cornell family of Courtland Township, Kent County, Mich.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1096">
+        <term type="topical">Indians of North America</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3841">
+        <term type="geographic">Courtland (Mich. : Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2259">
+        <term type="geographic">Saginaw County (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7443">
+        <primary_name>Cornell</primary_name>
+        <rest_of_name>Robert B.</rest_of_name>
+        <dates>b. 1824</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/185">
+        <family_name>Cornell family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/248">
+        <family_name>Park family</family_name>
+      </famname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Milo Jasper Goss correspondence</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851343 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/4509">
+          <primary_name>Goss</primary_name>
+          <rest_of_name>Milo Jasper</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Milo Jasper Goss correspondence</unittitle>
+      <unitdate type="inclusive" label="creation">1849-1853</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript copies.</p>
+      </odd>
+      <acqinfo>Donor: 5185</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Kalamazoo, Michigan.</bioghist>
+    <scopecontent>Letters to his family written from the California gold fields.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4504">
+        <term type="geographic">California</term>
+        <term type="topical">Gold discoveries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6886">
+        <term type="geographic">Kalamazoo (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

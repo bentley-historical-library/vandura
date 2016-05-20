@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Clare Beck papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0553 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5170">
+          <primary_name>Beck</primary_name>
+          <rest_of_name>Clare.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Clare Beck papers</unittitle>
+      <unitdate type="inclusive" label="creation">1976-1979</unitdate>
+      <physdesc>
+        <extent>0.2 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9581</acqinfo>
+    </descgrp>
+    <bioghist>Full name Mary Clare Beck. Ann Arbor, Mich., resident; member of Traver Knoll Tenants Union and participant in rent strike at Traver Knoll Apartments.</bioghist>
+    <scopecontent>Correspondence and other papers relating to the Traver Knoll rent strike.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4735">
+        <term type="topical">Rent strikes</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5170">
+        <primary_name>Beck</primary_name>
+        <rest_of_name>Clare.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/833">
+        <primary_name>Ann Arbor Tenants Union</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2304">
+        <primary_name>Traver Knoll Apartments</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/439">
+        <primary_name>Traver Knoll Tenants Union</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

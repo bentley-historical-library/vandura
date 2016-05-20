@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Ferdinand Otto photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9629 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6509">
+          <primary_name>Otto</primary_name>
+          <rest_of_name>Ferdinand</rest_of_name>
+          <dates>1905-</dates>
+        </persname>
+      </origination>
+      <unittitle>Ferdinand Otto photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1900 and 1916</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1900 and 1916.</p>
+      </odd>
+      <acqinfo>Donor: 8483</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Ann Arbor, Michigan; son of bandleader Louis Otto.</bioghist>
+    <scopecontent>Photo of Otto's Band leading a parade of Knights Templars in Ann Arbor (1916); photo of unidentified train wreck (1900).</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/2463">
+        <term type="topical">Parades and processions</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/4854">
+        <term type="topical">Railroad accidents.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651" ref="/subjects/6046">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+        <term type="topical">Parades and processions.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/633">
+        <primary_name>Knights Templar (Masonic order)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3667">
+        <primary_name>Otto's Band</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Robert Purdy family history</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>852082 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/3704">
+          <primary_name>Purdy</primary_name>
+          <rest_of_name>Robert.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Robert Purdy family history</unittitle>
+      <unitdate type="inclusive" label="creation">1853</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <altformavail>Microfilm copy available.</altformavail>
+      <acqinfo>Donor: 3383</acqinfo>
+    </descgrp>
+    <scopecontent>History of the Purdy, Yerkes, and Dunlap families who moved from New York state to southeastern Michigan in the 1820's and 1830's.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2492">
+        <term type="geographic">New York (State)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4478">
+        <term type="geographic">Northville (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6954">
+        <term type="geographic">Plymouth (Mich.)</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/186">
+        <family_name>Dunlap family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/348">
+        <family_name>Purdy family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/136">
+        <family_name>Yerex family</family_name>
+      </famname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

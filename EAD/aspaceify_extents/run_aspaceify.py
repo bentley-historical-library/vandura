@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 
-from vandura.config import real_masters_all
+from vandura.config import real_masters_all, marc_dir
 
 from os.path import join
 
@@ -12,7 +12,6 @@ from vandura.EAD.aspaceify_extents.aspaceify_extents.scripts.extent_grab import 
 # THE OUTPUT DIRECTORY CAN BE ANYWHERE YOU'D LIKE
 ead_input_directory = real_masters_all
 ead_output_directory = real_masters_all
-
 
 # get a list of all extents in your eads, with their xml paths
 extents = get_all_extents(ead_input_directory)

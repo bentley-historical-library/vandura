@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Report.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>05115 Bh 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3409">
+          <primary_name>Michigan Academy of Science, Arts, and Letters</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Report.</unittitle>
+      <unitdate>[No date provided]</unitdate>
+      <physdesc>
+        <extent>v</extent>
+        <physfacet>
+ill., ports.</physfacet>
+        <dimensions>22-24 cm.</dimensions>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Issuing Body</head>
+        <p>Vols. 1-22 issued by the academy under its earlier name: Michigan Academy of Science.</p>
+      </odd>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>Ann Arbor [etc.].</p>
+      </odd>
+    </descgrp>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2171">
+        <term type="topical">Science</term>
+        <term type="topical">Periodicals</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/786">
+        <term type="topical">Botany</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2077">
+        <term type="topical">Plant diseases</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3409">
+        <primary_name>Michigan Academy of Science, Arts, and Letters</primary_name>
+        <term type="genre_form">Periodicals.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

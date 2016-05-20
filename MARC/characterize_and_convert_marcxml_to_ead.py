@@ -11,6 +11,8 @@ from scripts.deduplicate_subjects import deduplicate_subjects
 from scripts.note_cleanup import make_acqinfo_from_odd
 from scripts.subject_source_propagation import subject_source_propagation
 
+from vandura.shared.utilities.ead_cleanup.prettifydirectory import prettify_xml_in_directory
+
 import os
 from os.path import join
 
@@ -18,6 +20,10 @@ def characterize_and_convert_marcxml_to_ead(ead_dir, marc_dir, real_masters_all,
 	characterize_and_merge_marcxml(real_masters_all, marc_dir)
 
 	joined_dir = join(marc_dir, "marcxml_no_ead_joined")
+
+	# This one is SUPPRESSED, is not in BEAL, and is for an unspecified department's publications
+	os.remove(join(joined_dir, "011000.xml"))
+
 	converted_dir = join(marc_dir, "converted_eads")
 	unconverted_dir = join(marc_dir, "unconverted_marcxml")
 	convert_marcxml_to_ead(joined_dir, converted_dir, unconverted_dir)
@@ -30,6 +36,10 @@ def characterize_and_convert_marcxml_to_ead(ead_dir, marc_dir, real_masters_all,
 	subject_source_propagation(ead_dir, marc_dir)
 	agent_source_propagation(marc_dir)
 	normalize_agent_roles(marc_dir)
+
+	prettify_xml_in_directory(converted_dir, converted_dir)
+
+
 
 
 if __name__ == "__main__":

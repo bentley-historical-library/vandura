@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Albert N. Eldred papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851179 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/1223">
+          <primary_name>Eldred</primary_name>
+          <rest_of_name>Albert N.</rest_of_name>
+          <dates>b. 1848</dates>
+        </persname>
+      </origination>
+      <unittitle>Albert N. Eldred papers</unittitle>
+      <unitdate type="inclusive" label="creation">1872-1887</unitdate>
+      <physdesc>
+        <extent>3 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4231</acqinfo>
+    </descgrp>
+    <bioghist>Methodist minister who attended theological school at Hillsdale College.</bioghist>
+    <scopecontent>Notes taken on lectures of J. S. Copp in homiletics and Ransom Dunn; also record, 1875-1887, of marriages performed by Eldred.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1796">
+        <term type="topical">Registers of births, etc.</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3796">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2580">
+        <primary_name>Copp</primary_name>
+        <rest_of_name>J. S.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5542">
+        <primary_name>Dunn</primary_name>
+        <rest_of_name>Ransom</rest_of_name>
+        <dates>1818-1900</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/228">
+        <primary_name>Hillsdale College</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+    <container label="Volume" type="volume">3</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Harry Alexander Wellford photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0174 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/4852">
+          <primary_name>Wellford</primary_name>
+          <rest_of_name>Harry Alexander.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Harry Alexander Wellford photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1916-1918</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1916-1918.</p>
+      </odd>
+      <acqinfo>Donor: 9144</acqinfo>
+    </descgrp>
+    <bioghist>1918 graduate of the University of Michigan.</bioghist>
+    <scopecontent>Photographs, removed from a scrapbook, of student activities, including football game, marching band, and Druids initiation.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/276">
+        <term type="topical">Initiation rites</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3612">
+        <primary_name>Druids (University of Michigan)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/899">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Band</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Football.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

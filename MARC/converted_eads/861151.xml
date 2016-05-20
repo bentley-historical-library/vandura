@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Bicentennial Committee (University of Michigan) records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>861151 Bimu E25 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1427">
+          <primary_name>University of Michigan</primary_name>
+          <subordinate_name>Bicentennial Committee</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>Bicentennial Committee (University of Michigan) records</unittitle>
+      <unitdate type="inclusive" label="creation">1974-1976</unitdate>
+      <physdesc>
+        <extent>ca. 75 items in 1 box</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6042</acqinfo>
+    </descgrp>
+    <bioghist>Formed to coordinate the University's participation in the Bicentennial.</bioghist>
+    <scopecontent>Minutes, project proposals, correspondence, and other related material.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4742">
+        <term type="geographic">United States</term>
+        <term type="topical">Centennial celebrations, etc.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Anniversaries, etc.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Benning Dexter photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0137 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5463">
+          <primary_name>Dexter</primary_name>
+          <rest_of_name>Benning W.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Benning Dexter photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1939-1977</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1939-1977.</p>
+      </odd>
+      <acqinfo>Donor: 7654</acqinfo>
+    </descgrp>
+    <bioghist>Teacher of piano at the University of Michigan.</bioghist>
+    <scopecontent>Signed portraits of prominent musicians and UM music professors, including Ross Lee Finney and Paul Doktor.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5372">
+        <term type="topical">Musicians</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2234">
+        <primary_name>Doktor</primary_name>
+        <rest_of_name>Paul.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2854">
+        <primary_name>Finney</primary_name>
+        <rest_of_name>Ross Lee</rest_of_name>
+        <dates>1906-1997</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

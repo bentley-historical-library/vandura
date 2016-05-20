@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Leslie A. Quale diary</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>02118 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5729">
+          <primary_name>Quale</primary_name>
+          <rest_of_name>Leslie A.</rest_of_name>
+          <dates>1892-1965</dates>
+        </persname>
+      </origination>
+      <unittitle>Leslie A. Quale diary</unittitle>
+      <unitdate type="inclusive" label="creation">1918</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <originalsloc>Original in:
+Manistee County Historical Museum,
+Manistee, Mich.</originalsloc>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopy.</p>
+      </odd>
+      <acqinfo>Donor: 9228</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Onekama, Mich., army ambulance driver during World War I.</bioghist>
+    <scopecontent>Brief entries describing his military service.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7042">
+        <term type="topical">Soldiers</term>
+        <term type="geographic">Michigan</term>
+        <term type="genre_form">Biography.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/213">
+        <term type="topical">World War, 1914-1918</term>
+        <term type="genre_form">Personal narratives, American.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6434">
+        <term type="topical">World War, 1914-1918</term>
+        <term type="topical">Medical care.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5729">
+        <primary_name>Quale</primary_name>
+        <rest_of_name>Leslie A.</rest_of_name>
+        <dates>1892-1965</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

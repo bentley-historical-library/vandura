@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Wilber A. Studley papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8693 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/495">
+          <primary_name>Studley</primary_name>
+          <rest_of_name>Wilber A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Wilber A. Studley papers</unittitle>
+      <unitdate type="inclusive" label="creation">1907</unitdate>
+      <physdesc>
+        <extent>8 p</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript copy.</p>
+      </odd>
+      <acqinfo>Donor: 767</acqinfo>
+    </descgrp>
+    <scopecontent>Biographical sketch of Ezra Sprague Holmes, 1819-1914, early Grand Rapids, Michigan, dentist.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4652">
+        <term type="topical">Dentists</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Grand Rapids.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7858">
+        <term type="geographic">Grand Rapids (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/895">
+        <primary_name>Holmes</primary_name>
+        <rest_of_name>Ezra Sprague</rest_of_name>
+        <dates>1819-1914</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/859">
+        <primary_name>Michigan State Dental Association</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

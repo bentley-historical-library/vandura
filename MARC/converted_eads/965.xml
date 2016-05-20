@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Lloyd E. Gandy photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>965 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3469">
+          <primary_name>Gandy</primary_name>
+          <rest_of_name>Lloyd E.</rest_of_name>
+          <dates>1877-1963</dates>
+        </persname>
+      </origination>
+      <unittitle>Lloyd E. Gandy photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1900-1912</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1900-1912.</p>
+      </odd>
+      <acqinfo>Donor: 8449</acqinfo>
+    </descgrp>
+    <bioghist>Spokane, Wash., lawyer; 1903 graduate of the University of Michigan Law School.</bioghist>
+    <scopecontent>Photos of University of Michigan buildings, students, and a football game.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3469">
+        <primary_name>Gandy</primary_name>
+        <rest_of_name>Lloyd E.</rest_of_name>
+        <dates>1877-1963</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Buildings.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Football.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

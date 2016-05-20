@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the B. St. James ledger</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2010003 Bb 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3566">
+          <primary_name>B. St. James (firm: Ann Arbor, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>B. St. James ledger</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1911-1920</unitdate>
+      <physdesc>
+        <extent>1 volume</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 8483</acqinfo>
+    </descgrp>
+    <bioghist>Ann Arbor, Mich. dry goods and notions store, owned by Bruno St. James Sr. The store was located at 126 S. Main Street.</bioghist>
+    <scopecontent>Record of debits and credits.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4529">
+        <term type="topical">Business enterprises</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3618">
+        <term type="topical">Variety stores</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6645">
+        <primary_name>St. James</primary_name>
+        <rest_of_name>Bruno.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1512">
+        <primary_name>B. St. James (Firm : Ann Arbor, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Oversize Volume" type="volume">1</container>
+  </archdesc>
+</ead>

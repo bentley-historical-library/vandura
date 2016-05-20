@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Jesse Brown sermons</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8895 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/95">
+          <primary_name>Brown</primary_name>
+          <rest_of_name>Jesse.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Jesse Brown sermons</unittitle>
+      <unitdate type="inclusive" label="creation">[183- - 185-]</unitdate>
+      <physdesc>
+        <extent>13 items in 1 box</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1196</acqinfo>
+    </descgrp>
+    <bioghist>Methodist clergyman.</bioghist>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655" ref="/subjects/814">
+        <term type="genre_form">Sermons.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7621">
+        <term type="topical">Clergy</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1887">
+        <primary_name>Methodist Episcopal Church</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

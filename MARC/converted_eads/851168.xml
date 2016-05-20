@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Elon John Farnsworth letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851168 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/842">
+          <primary_name>Farnsworth</primary_name>
+          <rest_of_name>Elon John</rest_of_name>
+          <dates>1837-1863</dates>
+        </persname>
+      </origination>
+      <unittitle>Elon John Farnsworth letter</unittitle>
+      <unitdate type="inclusive" label="creation">Apr. 8, 1859</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4779, 1273</acqinfo>
+    </descgrp>
+    <bioghist>Assistant forage master at Camp Floyd in the Utah Territory; brigadier general in the Civil War.</bioghist>
+    <scopecontent>Letter discussing army life in frontier Utah, with mention of the possibility of war with the Mormons; and photograph.</scopecontent>
+    <controlaccess>
+      <subject source="local" encodinganalog="691" ref="/subjects/3634">
+        <term type="geographic">Utah</term>
+        <term type="topical">Social life and customs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2781">
+        <term type="topical">Frontier and pioneer life</term>
+        <term type="geographic">Utah.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/8582">
+        <term type="topical">Soldiers</term>
+        <term type="geographic">Utah.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/842">
+        <primary_name>Farnsworth</primary_name>
+        <rest_of_name>Elon John</rest_of_name>
+        <dates>1837-1863</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6047">
+        <primary_name>Young</primary_name>
+        <rest_of_name>Brigham</rest_of_name>
+        <dates>1801-1877</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3820">
+        <primary_name>Church of Jesus Christ of Latter-day Saints</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Elon John Farnsworth letter</unittitle>
+          <physdesc>
+            <extent>1 item</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">Apr. 8, 1859</unitdate>
+        </did>
+        <scopecontent>Letter discussing army life in frontier Utah, with mention of the possibility of war with the Mormons; and photograph.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Elon John Farnsworth photograph series.</unittitle>
+          <physdesc>
+            <extent>1 envelope</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">ca. 1863</unitdate>
+        </did>
+        <scopecontent>Portrait.</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

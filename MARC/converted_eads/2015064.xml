@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the David H. Hudgins scrapbook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2015064 AC</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/2777">
+          <primary_name>Hudgins</primary_name>
+          <rest_of_name>David H.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>David H. Hudgins scrapbook</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1969</unitdate>
+      <physdesc>
+        <extent>1 volume</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 11403</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan, class of 1974.</bioghist>
+    <scopecontent>Scrapbook about the 1969 Michigan Ohio State football game compiled while a freshman. Includes clippings and ticket stub from the game.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4767">
+        <term type="topical">Sports rivalries.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1062">
+        <primary_name>Ohio State University</primary_name>
+        <term type="topical">Football.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Football.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Oversize Volume" type="volume">1</container>
+  </archdesc>
+</ead>

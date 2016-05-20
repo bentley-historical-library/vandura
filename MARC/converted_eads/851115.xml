@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Monroe Dickinson papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851115 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5742">
+          <primary_name>Dickinson</primary_name>
+          <rest_of_name>Monroe.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Monroe Dickinson papers</unittitle>
+      <unitdate type="inclusive" label="creation">1839-1895</unitdate>
+      <physdesc>
+        <extent>34 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3557</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Ottawa County, Michigan, and New York state.</bioghist>
+    <scopecontent>Correspondence of Dickinson and his family dealing with family affairs, including letter, 1842, detailing a journey by boat from New York to Michigan; and papers, ca. 1890, of Sherman Dickinson relating to his service with the Michigan State Troops.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3440">
+        <term type="geographic">Detroit (Mich.)</term>
+        <term type="topical">History.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2492">
+        <term type="geographic">New York (State)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2983">
+        <term type="geographic">Ottawa County (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1963">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>State Troops (1862-1893)</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

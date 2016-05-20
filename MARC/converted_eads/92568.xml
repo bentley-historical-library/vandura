@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Edith Mulhollen photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>92568 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6581">
+          <primary_name>Mulhollen</primary_name>
+          <rest_of_name>Edith.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Edith Mulhollen photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1902</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1902.</p>
+      </odd>
+      <acqinfo>Donor: 4527</acqinfo>
+    </descgrp>
+    <scopecontent>Photographs of Millersburg, Michigan, and of logging activities.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/51">
+        <term type="topical">Lumber industry.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5089">
+        <term type="geographic">Millersburg (Mich.)</term>
+      </subject>
+    </controlaccess>
+  </archdesc>
+</ead>

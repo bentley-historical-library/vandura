@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Henry Kirk Rowley letters</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89242 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6925">
+          <primary_name>Rowley</primary_name>
+          <rest_of_name>Henry Kirk</rest_of_name>
+          <dates>d. 1918</dates>
+        </persname>
+      </origination>
+      <unittitle>Henry Kirk Rowley letters</unittitle>
+      <unitdate type="inclusive" label="creation">1861-1862</unitdate>
+      <physdesc>
+        <extent>2 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 772</acqinfo>
+    </descgrp>
+    <bioghist>Student at the University of Michigan.</bioghist>
+    <scopecontent>Letters to Elvero Persons of Adrian, Michigan, in part giving advice on entering the University of Michigan.</scopecontent>
+    <controlaccess>
+      <persname source="local" encodinganalog="700" ref="/agents/people/3522">
+        <primary_name>Persons</primary_name>
+        <rest_of_name>Elvero.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1861-1870.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

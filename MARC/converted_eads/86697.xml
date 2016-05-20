@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Lawrence James Bauer correspondence</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86697 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6679">
+          <primary_name>Bauer</primary_name>
+          <rest_of_name>Lawrence James</rest_of_name>
+          <dates>1894-1919</dates>
+        </persname>
+      </origination>
+      <unittitle>Lawrence James Bauer correspondence</unittitle>
+      <unitdate type="inclusive" label="creation">1917-1920</unitdate>
+      <physdesc>
+        <extent>64 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2429</acqinfo>
+    </descgrp>
+    <bioghist>American aviator during World War I.</bioghist>
+    <scopecontent>Letters describing his pilot training and experiences in France during the War.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6407">
+        <term type="topical">Aeronautics.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/695">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3227">
+        <term type="geographic">France.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4580">
+        <primary_name>Garrison</primary_name>
+        <rest_of_name>Wright H.</rest_of_name>
+        <dates>b. 1839</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+    <container label="Folder" type="folder">3</container>
+  </archdesc>
+</ead>

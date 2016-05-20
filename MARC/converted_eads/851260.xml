@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Flint Gas Company record book</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851260 BB.2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3452">
+          <primary_name>Flint Gas Company (Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Flint Gas Company record book</unittitle>
+      <unitdate type="inclusive" label="creation">1904</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2753</acqinfo>
+    </descgrp>
+    <scopecontent>Articles of association and proceedings of meetings.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3055">
+        <term type="topical">Gas industry</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Flint.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/857">
+        <term type="topical">Public utilities</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Flint.</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

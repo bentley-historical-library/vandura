@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the J.F. Tibbits Lumber and Hardware Store ledger</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>852098 BB.2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3130">
+          <primary_name>J. F. Tibbits Lumber and Hardware Store (Ravenna, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>J.F. Tibbits Lumber and Hardware Store ledger</unittitle>
+      <unitdate type="inclusive" label="creation">1880-1893</unitdate>
+      <physdesc>
+        <extent>1 v. [outsize]</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2229</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/4963">
+        <term type="topical">Hardware stores</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ravenna.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6146">
+        <term type="topical">Lumber trade</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ravenna.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/109">
+        <term type="geographic">Ravenna (Mich. : Township)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/1750">
+        <primary_name>Tibbits</primary_name>
+        <rest_of_name>J. F.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Oversize Volume" type="volume">1</container>
+  </archdesc>
+</ead>

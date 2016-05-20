@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Robert Trudell letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89337 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/3078">
+          <primary_name>Trudell</primary_name>
+          <rest_of_name>Robert.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Robert Trudell letter</unittitle>
+      <unitdate type="inclusive" label="creation">Jan. 12, 1967</unitdate>
+      <physdesc>
+        <extent>1 item (2 p.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4044</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Oscoda, Michigan.</bioghist>
+    <scopecontent>Reminiscences about a large fire and other events in Essexville, Michigan about 1900.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/8564">
+        <term type="topical">Fires.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2142">
+        <term type="geographic">Essexville (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

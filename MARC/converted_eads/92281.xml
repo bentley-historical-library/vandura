@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Hope College photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>92281 UBIs</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/3579">
+          <primary_name>Hope College</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Hope College photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1887-1893</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1887-1893.</p>
+      </odd>
+      <acqinfo>Donor: 1995</acqinfo>
+    </descgrp>
+    <scopecontent>Portrait montage of Hope College faculty, 1887-1893.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3579">
+        <primary_name>Hope College</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Archer H. Brown photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>92614 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6204">
+          <primary_name>Brown</primary_name>
+          <rest_of_name>Archer</rest_of_name>
+          <dates>1857-1904</dates>
+        </persname>
+      </origination>
+      <unittitle>Archer H. Brown photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1872</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1872.</p>
+      </odd>
+      <acqinfo>Donor: 4206</acqinfo>
+    </descgrp>
+    <bioghist>Thomas Archer Huntington Brown, member of University of Michigan Class of 1872.</bioghist>
+    <scopecontent>Photo of Psi Upsilon house, and group portraits of students.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/4304">
+        <term type="topical">Fraternities and sororities.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/94">
+        <primary_name>Psi Upsilon Fraternity</primary_name>
+        <subordinate_name>Phi Chapter (University of Michigan)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2581">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1872</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

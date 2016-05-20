@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William A. Love letterbook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851709 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/3760">
+          <primary_name>Love</primary_name>
+          <rest_of_name>William A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>William A. Love letterbook</unittitle>
+      <unitdate type="inclusive" label="creation">1897-1899</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1165</acqinfo>
+    </descgrp>
+    <bioghist>Lawyer in Marshall, Michigan.</bioghist>
+    <scopecontent>Correspondence largely with other lawyers regarding legal cases in which he had an interest.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5997">
+        <term type="topical">Lawyers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Marshall.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/425">
+        <term type="geographic">Calhoun County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5814">
+        <term type="geographic">Marshall (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

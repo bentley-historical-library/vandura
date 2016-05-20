@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William C. Barden diary</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0461 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1052">
+          <primary_name>Barden</primary_name>
+          <rest_of_name>William C.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>William C. Barden diary</unittitle>
+      <unitdate type="inclusive" label="creation">1862-1866</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Computer printout of transcription.</p>
+      </odd>
+      <acqinfo>Donor: 9445</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Leslie, Mich., who served with the 7th Michigan Cavalry, Co. G., during the Civil War.</bioghist>
+    <scopecontent>Diary containing brief descriptions of his military service during campaigns in Virginia and later duty in Kansas, Nebraska, Colorado, and Wyoming. Transcribed and edited by James L. Barden, 2004.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/69">
+        <term type="topical">Indians of North America</term>
+        <term type="topical">Wars</term>
+        <term type="temporal">1862-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3375">
+        <term type="geographic">Virginia</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1052">
+        <primary_name>Barden</primary_name>
+        <rest_of_name>William C.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5069">
+        <primary_name>Barden</primary_name>
+        <rest_of_name>James L.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/114">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 7th (1862-1865)</subordinate_name>
+        <subordinate_name>Company G</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

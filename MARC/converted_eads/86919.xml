@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Chandler Presbyterian Church records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86919 BA Ba 1</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/909">
+          <primary_name>Chandler Presbyterian Church (Chandler, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Chandler Presbyterian Church records</unittitle>
+      <unitdate type="inclusive" label="creation">1889-1943</unitdate>
+      <physdesc>
+        <extent>1 v. and 1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1136, 5340</acqinfo>
+    </descgrp>
+    <scopecontent>Minutes of session and church register, and history of the church from 1889 to 1940.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6780">
+        <term type="geographic">Chandler (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3226">
+        <primary_name>Presbyterian Church in the U.S.A</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Chandler.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/909">
+        <primary_name>Chandler Presbyterian Church (Chandler, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

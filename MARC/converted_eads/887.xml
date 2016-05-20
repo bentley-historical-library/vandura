@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Catherine Baker papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>887 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/231">
+          <primary_name>Baker</primary_name>
+          <rest_of_name>Catherine C.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Catherine Baker papers</unittitle>
+      <unitdate type="inclusive" label="creation">[19--]</unitdate>
+      <physdesc>
+        <extent>2 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4044</acqinfo>
+    </descgrp>
+    <bioghist>Essexville, Michigan, local historian.</bioghist>
+    <scopecontent>Research paper on the early history of Flint, Michigan, and paper written by Ora Douglas and edited by Baker on the activities of William A. Norton during the Civil War.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2044">
+        <term type="geographic">Flint (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1508">
+        <primary_name>Norton</primary_name>
+        <rest_of_name>William A.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5348">
+        <primary_name>Douglas</primary_name>
+        <rest_of_name>Ora.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Sd Rec Box" type="box">1</container>
+  </archdesc>
+</ead>

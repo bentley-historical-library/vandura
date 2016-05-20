@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the John George Allmond diary</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>861019 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/2726">
+          <primary_name>Allmond</primary_name>
+          <rest_of_name>John George</rest_of_name>
+          <dates>1823-1868</dates>
+        </persname>
+      </origination>
+      <unittitle>John George Allmond diary</unittitle>
+      <unitdate type="inclusive" label="creation">November 1849-June 1850</unitdate>
+      <physdesc>
+        <extent>1 v. (ca. 60 p.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7186</acqinfo>
+    </descgrp>
+    <bioghist>Formerly John G. Allmendinger.</bioghist>
+    <scopecontent>Description of his trip from Detroit to California.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1173">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2337">
+        <term type="topical">Travelers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5448">
+        <term type="topical">Overland journeys to the Pacific.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4504">
+        <term type="geographic">California</term>
+        <term type="topical">Gold discoveries.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/6020">
+        <primary_name>Allmendinger</primary_name>
+        <rest_of_name>John George</rest_of_name>
+        <dates>1823-1868</dates>
+      </persname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

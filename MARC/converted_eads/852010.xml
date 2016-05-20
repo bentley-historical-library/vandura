@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Roy M. Overpack letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>852010 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6552">
+          <primary_name>Overpack</primary_name>
+          <rest_of_name>Roy M.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Roy M. Overpack letter</unittitle>
+      <unitdate type="inclusive" label="creation">1953</unitdate>
+      <physdesc>
+        <extent>3 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2009</acqinfo>
+    </descgrp>
+    <bioghist>Manistee, Michigan businessman.</bioghist>
+    <scopecontent>Letter and two enclosures discussing Michigan logging wheels manufactured by Silas C. Overpack.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6071">
+        <term type="topical">Logging</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5683">
+        <term type="geographic">Manistee (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/2937">
+        <primary_name>Overpack</primary_name>
+        <rest_of_name>Silas C.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

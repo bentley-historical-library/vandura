@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the John A. Sutton correspondence</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86635 Aa 2 Vault</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1751">
+          <primary_name>Sutton</primary_name>
+          <rest_of_name>John A.</rest_of_name>
+          <dates>1840-1862</dates>
+        </persname>
+      </origination>
+      <unittitle>John A. Sutton correspondence</unittitle>
+      <unitdate type="inclusive" label="creation">1859-1862</unitdate>
+      <physdesc>
+        <extent>10 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <altformavail>Microfilm copy available.</altformavail>
+      <acqinfo>Donor: 295, 6932</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Photographs described separately.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Soldier from Washtenaw County, Michigan who served in the 1st Michigan Infantry during the Civil War.</bioghist>
+    <scopecontent>Letters to Emma Sutton and Mrs. Charles Wood concerning wartime activities, and letter from chaplain Arthur Edwards announcing Sutton's death; also photograph.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6120">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1751">
+        <primary_name>Sutton</primary_name>
+        <rest_of_name>John A.</rest_of_name>
+        <dates>1840-1862</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/2466">
+        <primary_name>Edwards</primary_name>
+        <rest_of_name>Arthur</rest_of_name>
+        <dates>b. 1835</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/236">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 1st (1861-1865)</subordinate_name>
+        <subordinate_name>Company F</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>John A. Sutton correspondence</unittitle>
+          <physdesc>
+            <extent>10 items</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">1859-1862</unitdate>
+        </did>
+        <scopecontent>Letters to Emma Sutton and Mrs. Charles Wood concerning wartime activities, and letter from chaplain Arthur Edwards announcing Sutton's death; also photograph.</scopecontent>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>John A. Sutton photograph series.</unittitle>
+          <physdesc>
+            <extent>1 envelope</extent>
+          </physdesc>
+          <unitdate type="inclusive" label="creation">ca. 1861</unitdate>
+        </did>
+        <scopecontent>Portrait.</scopecontent>
+      </c01>
+    </dsc>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

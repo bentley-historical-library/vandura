@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Martin Weller papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0159 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4681">
+          <primary_name>Weller</primary_name>
+          <rest_of_name>Martin.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Martin Weller papers</unittitle>
+      <unitdate type="inclusive" label="creation">1882-1917 and 1925</unitdate>
+      <physdesc>
+        <extent>3 volumes and 1 folder (in 2 boxes)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor:8111</acqinfo>
+    </descgrp>
+    <bioghist>St. Johns, Michigan, physician.</bioghist>
+    <scopecontent>Obstetrical case book, 1887-1917; volumes containing medical service charges and receipts, 1887-1890s and 1908-1912; also letters written to family from Vienna in 1925 by his son, Dr. Carl Weller, Professor of Pathology at the University of Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/8010">
+        <term type="topical">Medicine</term>
+        <term type="topical">Practice</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Saint Johns.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7784">
+        <term type="topical">Physicians</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Saint Johns.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1155">
+        <term type="geographic">Saint Johns (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2371">
+        <term type="geographic">Vienna (Austria)</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4681">
+        <primary_name>Weller</primary_name>
+        <rest_of_name>Martin.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4490">
+        <primary_name>Weller</primary_name>
+        <rest_of_name>Carl Vernon</rest_of_name>
+        <dates>1887-1969</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/4490">
+        <primary_name>Weller</primary_name>
+        <rest_of_name>Carl Vernon</rest_of_name>
+        <dates>1887-1969</dates>
+      </persname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+    <container label="Box" type="box">2</container>
+  </archdesc>
+</ead>

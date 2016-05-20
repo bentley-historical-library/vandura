@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Ann Arbor High School records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85616 CC.6 Cc</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/2573">
+          <primary_name>Ann Arbor High School (Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Ann Arbor High School records</unittitle>
+      <unitdate type="inclusive" label="creation">1909-1919</unitdate>
+      <physdesc>
+        <extent>1 item and 1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2377, 3425</acqinfo>
+    </descgrp>
+    <scopecontent>Minutes of the Athletic Board of Control of the high school; and abstract of the title to the land of the original high school.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7021">
+        <term type="topical">Athletics</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2632">
+        <term type="topical">Education</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

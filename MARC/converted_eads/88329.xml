@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Alexander G. Ruthven's "Michigan System" : a study in organization change</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88329 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/91">
+          <primary_name>Gilmour</primary_name>
+          <rest_of_name>Tim.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Alexander G. Ruthven's "Michigan System" : a study in organization change</unittitle>
+      <unitdate type="inclusive" label="creation">1970</unitdate>
+      <physdesc>
+        <extent>1 item (21 p.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4993</acqinfo>
+    </descgrp>
+    <bioghist>Student in education at the University of Michigan.</bioghist>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5318">
+        <primary_name>Ruthven</primary_name>
+        <rest_of_name>Alexander Grant</rest_of_name>
+        <dates>1882-1971</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">History</term>
+        <term type="temporal">20th century.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1846">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>President</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

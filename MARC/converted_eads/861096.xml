@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Heitsch family letters</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>861096 Aa 1</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local" ref="/agents/families/551">
+          <family_name>Heitsch family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Heitsch family letters</unittitle>
+      <unitdate type="inclusive" label="creation">1905-1909</unitdate>
+      <physdesc>
+        <extent>10 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 6001</acqinfo>
+    </descgrp>
+    <bioghist>Robert and Grace Heitsch, brother and sister from Pontiac, Michigan, students at the University of Michigan.</bioghist>
+    <scopecontent>Letters to mother and other family members relating to student life and family affairs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3793">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Pontiac.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/3454">
+        <primary_name>Heitsch</primary_name>
+        <rest_of_name>Grace.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/6964">
+        <primary_name>Heitsch</primary_name>
+        <rest_of_name>Robert Dawson.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

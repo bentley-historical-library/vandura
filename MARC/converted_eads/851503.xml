@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Howell family papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851503 Aa 1</unitid>
+      <origination>
+        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/284">
+          <family_name>Howell family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Howell family papers</unittitle>
+      <unitdate type="inclusive" label="creation">1856-1884</unitdate>
+      <physdesc>
+        <extent>25 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4476</acqinfo>
+    </descgrp>
+    <bioghist>Pontiac, Michigan, family.</bioghist>
+    <scopecontent>Correspondence concerning George M. Howell, who died of illness during the Civil War, Charles B. Howell, a law student at University of Michigan, and Myron E.N. Howell, a government clerk in Washington, D.C.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2650">
+        <term type="topical">Civil service.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6097">
+        <term type="geographic">Pontiac (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4071">
+        <term type="geographic">Washington (D.C.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4250">
+        <primary_name>Howell</primary_name>
+        <rest_of_name>Charles B.</rest_of_name>
+        <fuller_form>(Charles Boynton)</fuller_form>
+        <dates>1840-1888</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1088">
+        <primary_name>Howell</primary_name>
+        <rest_of_name>George M.</rest_of_name>
+        <dates>d. 1862</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3464">
+        <primary_name>Howell</primary_name>
+        <rest_of_name>Myron Emory Nimrod</rest_of_name>
+        <dates>d. 1888</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2183">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 22nd (1862-1865)</subordinate_name>
+        <subordinate_name>Company A</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1909">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of Law</subordinate_name>
+        <subordinate_name>Class of 1865</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1861-1870.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

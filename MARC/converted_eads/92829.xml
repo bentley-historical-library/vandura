@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the La roche arquée, Ile de Michilimakinac [graphic] / lith. par Prat.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>92829 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/1314">
+          <primary_name>Prat</primary_name>
+          <rest_of_name>Jacques.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>La roche arquée, Ile de Michilimakinac [graphic] / lith. par Prat.</unittitle>
+      <unitdate type="inclusive" label="creation">[ca. 1842]</unitdate>
+      <physdesc>
+        <extent>1 print</extent>
+        <physfacet>
+lithograph</physfacet>
+        <dimensions>image 21 x 16 cm.</dimensions>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[Paris] : Lith. Ligny et Cie., [ca. 1842].</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>Plate from: Vues et souvenirs de l'Amérique du Nord / par Francis de Castelnau. -- Paris : Bertrand, 1842. -- Plate 24.</p>
+      </odd>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/6189">
+        <term type="genre_form">Prints.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4475">
+        <term type="geographic">Mackinac Island (Mich. : Island)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/200">
+        <primary_name>Castelnau</primary_name>
+        <rest_of_name>Francis</rest_of_name>
+        <title>comte de</title>
+        <dates>1812-1880</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

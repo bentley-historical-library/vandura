@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Bank of Washtenaw records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85620 Bb.2 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1092">
+          <primary_name>Bank of Washtenaw</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Bank of Washtenaw records</unittitle>
+      <unitdate type="inclusive" label="creation">1836-1839 and 1851-1875</unitdate>
+      <physdesc>
+        <extent>1 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2288</acqinfo>
+    </descgrp>
+    <scopecontent>Letterbook, collection register, stock ledger, register of discount, etc. 1836-1839; also letterbook, 1851-1875 of E. W. Morgan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/518">
+        <term type="topical">Banks and banking</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/2428">
+        <primary_name>Morgan</primary_name>
+        <rest_of_name>Elijah William</rest_of_name>
+        <dates>b. 1805</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1092">
+        <primary_name>Bank of Washtenaw</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

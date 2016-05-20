@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Frederick Martin Townsend scrapbook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86141 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/815">
+          <primary_name>Townsend</primary_name>
+          <rest_of_name>Frederick Martin.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Frederick Martin Townsend scrapbook</unittitle>
+      <unitdate type="inclusive" label="creation">1894</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3199</acqinfo>
+    </descgrp>
+    <bioghist>Superintendent of Schools at Marshall and Coldwater, Michigan.</bioghist>
+    <scopecontent>Account of a European trip illustrated with pictures and sketches.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1173">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1303">
+        <term type="geographic">Coldwater (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3336">
+        <term type="geographic">Europe</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5814">
+        <term type="geographic">Marshall (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

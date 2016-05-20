@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the McCollum family papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851753 Aa 2</unitid>
+      <origination>
+        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/188">
+          <family_name>McCollum family</family_name>
+        </famname>
+      </origination>
+      <unittitle>McCollum family papers</unittitle>
+      <unitdate type="inclusive" label="creation">1766-1899 (scattered dates)</unitdate>
+      <physdesc>
+        <extent>.5 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2155, 7921</acqinfo>
+    </descgrp>
+    <bioghist>Ann Arbor, Michigan family.</bioghist>
+    <scopecontent>Letters of Levi and David T. McCollum and Caroline W. Gridley, written from various towns in southern Michigan about family and business affairs; also account book, legal documents and certificates.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6382">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/1673">
+        <primary_name>Gridley</primary_name>
+        <rest_of_name>Caroline W.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/7341">
+        <primary_name>McCollum</primary_name>
+        <rest_of_name>David T.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/2386">
+        <primary_name>McCollum</primary_name>
+        <rest_of_name>Levi.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/188">
+        <family_name>McCollum family</family_name>
+      </famname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

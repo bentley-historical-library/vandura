@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Peter Audrain legal documents</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87483 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/6080">
+          <primary_name>Audrain</primary_name>
+          <rest_of_name>Peter.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Peter Audrain legal documents</unittitle>
+      <unitdate type="inclusive" label="creation">1802 and 1809-1810</unitdate>
+      <physdesc>
+        <extent>2 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1771</acqinfo>
+    </descgrp>
+    <bioghist>Wayne County, Michigan, prothonotary.</bioghist>
+    <scopecontent>Legal documents signed by Peter Audrain, including court order, June 29, 1802, authorizing courthouse repairs, and statement of appropriations, 1809-1810, of the Michigan Territory.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3944">
+        <term type="geographic">Wayne County (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

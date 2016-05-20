@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Gilman Marston Dame letterbook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851132 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5622">
+          <primary_name>Dame</primary_name>
+          <rest_of_name>Gilman Marston</rest_of_name>
+          <dates>1866-1939</dates>
+        </persname>
+      </origination>
+      <unittitle>Gilman Marston Dame letterbook</unittitle>
+      <unitdate type="inclusive" label="creation">1911-1912</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4952</acqinfo>
+    </descgrp>
+    <bioghist>Michigan Dairy and Food Commissioner, 1911-1913, and chairman of the Republican State Central Committee.</bioghist>
+    <scopecontent>Correspondence concerning the candidacy of Theodore Roosevelt and Chase S. Osborn at the Republican National Convention in 1912, and material relating to his activities as state Dairy and Food Commissioner, including correspondence with Arthur H. Vandenberg.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1002">
+        <term type="topical">Presidents</term>
+        <term type="geographic">United States</term>
+        <term type="topical">Election</term>
+        <term type="temporal">1912.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1412">
+        <term type="geographic">Northport (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6281">
+        <term type="geographic">United States</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1909-1913.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4658">
+        <primary_name>Osborn</primary_name>
+        <rest_of_name>Chase S.</rest_of_name>
+        <fuller_form>(Chase Salmon)</fuller_form>
+        <dates>1860-1949</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/805">
+        <primary_name>Roosevelt</primary_name>
+        <rest_of_name>Theodore</rest_of_name>
+        <dates>1858-1919</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5851">
+        <primary_name>Vandenberg</primary_name>
+        <rest_of_name>Arthur H.</rest_of_name>
+        <fuller_form>(Arthur Hendrick)</fuller_form>
+        <dates>1884-1951</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/852">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>Office of Dairy and Food Commissioner</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3193">
+        <primary_name>Republican Party (Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

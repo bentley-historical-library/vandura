@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Reflections in the River Raisin</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88374 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/914">
+          <primary_name>Greene</primary_name>
+          <rest_of_name>Marian Palmer.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Reflections in the River Raisin</unittitle>
+      <unitdate type="inclusive" label="creation">1940</unitdate>
+      <physdesc>
+        <extent>1 v. (55 p.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2022</acqinfo>
+    </descgrp>
+    <scopecontent>History of Brooklyn, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6098">
+        <term type="geographic">Brooklyn (Mich.)</term>
+        <term type="topical">History.</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

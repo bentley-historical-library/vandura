@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Aaron Vance daybook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86158 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/34">
+          <primary_name>Vance</primary_name>
+          <rest_of_name>Aaron.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Aaron Vance daybook</unittitle>
+      <unitdate type="inclusive" label="creation">1836-1840</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 945</acqinfo>
+    </descgrp>
+    <bioghist>Dexter, Michigan businessman.</bioghist>
+    <scopecontent>Accounts of his wagon repair business.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7252">
+        <term type="topical">Carriages and carts</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Dexter.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/8500">
+        <term type="geographic">Dexter (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

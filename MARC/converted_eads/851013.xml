@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Murrell Howard Cox papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851013 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/4246">
+          <primary_name>Cox</primary_name>
+          <rest_of_name>Murrell Howard.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Murrell Howard Cox papers</unittitle>
+      <unitdate type="inclusive" label="creation">1915-1928</unitdate>
+      <physdesc>
+        <extent>1 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3408</acqinfo>
+    </descgrp>
+    <bioghist>Detroit, Michigan, branch office manager of the Fafnir Bearing Company.</bioghist>
+    <scopecontent>Business correspondence and miscellaneous papers dealing with the Fafnir Bearing Company and the Ainsworth Manufacturing Company of Detroit, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2999">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3859">
+        <primary_name>Ainsworth Manufacturing Company (Detroit, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3777">
+        <primary_name>Fafnir Bearing Company</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

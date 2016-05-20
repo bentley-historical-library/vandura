@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the [Minot T. Lane] [graphic].</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>92454 UAm</unitid>
+      <unittitle>[Minot T. Lane] [graphic].</unittitle>
+      <unitdate type="inclusive" label="creation">[18--]</unitdate>
+      <physdesc>
+        <extent>1 painting</extent>
+        <physfacet>
+watercolor</physfacet>
+        <dimensions>image 30 x 26 cm.</dimensions>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[18--].</p>
+      </odd>
+    </descgrp>
+    <bioghist>Member of the University of Michigan Board of Regents.</bioghist>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/810">
+        <term type="genre_form">Paintings.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3132">
+        <primary_name>Lane</primary_name>
+        <rest_of_name>Minot Thayer</rest_of_name>
+        <dates>1807-1875</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1564">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Board of Regents</subordinate_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

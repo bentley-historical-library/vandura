@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Donald McIntyre papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851805 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3156">
+          <primary_name>McIntyre</primary_name>
+          <rest_of_name>Donald</rest_of_name>
+          <dates>1807-1891</dates>
+        </persname>
+      </origination>
+      <unittitle>Donald McIntyre papers</unittitle>
+      <unitdate type="inclusive" label="creation">1858 and 1863</unitdate>
+      <physdesc>
+        <extent>2 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript copies in part.</p>
+      </odd>
+      <acqinfo>Donor: 1278</acqinfo>
+    </descgrp>
+    <bioghist>University of Michigan regent.</bioghist>
+    <scopecontent>Address delivered at the inauguration of Erastus O. Haven as president of University of Michigan; and correspondence with Horace Mann regarding coeducation.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7740">
+        <term type="topical">Education</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5584">
+        <term type="topical">Coeducation</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2804">
+        <primary_name>Haven</primary_name>
+        <rest_of_name>E. O.</rest_of_name>
+        <fuller_form>(Erastus Otis)</fuller_form>
+        <dates>1820-1881</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/577">
+        <primary_name>Mann</primary_name>
+        <rest_of_name>Horace</rest_of_name>
+        <dates>1796-1859</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Inauguration, 1863.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
+</ead>

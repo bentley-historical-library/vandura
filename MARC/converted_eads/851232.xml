@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the John E. Frey papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851232 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5210">
+          <primary_name>Frey</primary_name>
+          <rest_of_name>John E.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>John E. Frey papers</unittitle>
+      <unitdate type="inclusive" label="creation">1930-1951</unitdate>
+      <physdesc>
+        <extent>10 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 5496</acqinfo>
+    </descgrp>
+    <bioghist>Grand Rapids, Michigan, banker.</bioghist>
+    <scopecontent>Letters received from U.S. Senator Arthur H. Vandenberg, largely concerning financial legislation pending before Congress and Republican Party politics; also newspaper clippings describing the funeral of Vandenberg.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7858">
+        <term type="geographic">Grand Rapids (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6401">
+        <term type="geographic">United States</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1929-1933.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4039">
+        <term type="geographic">United States</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1933-1953.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/5851">
+        <primary_name>Vandenberg</primary_name>
+        <rest_of_name>Arthur H.</rest_of_name>
+        <fuller_form>(Arthur Hendrick)</fuller_form>
+        <dates>1884-1951</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3193">
+        <primary_name>Republican Party (Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

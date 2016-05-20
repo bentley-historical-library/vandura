@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the B. Brown General Store daybook</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86173 BB.2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/339">
+          <primary_name>B. Brown General Store (Walled Lake, Mich.)</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>B. Brown General Store daybook</unittitle>
+      <unitdate type="inclusive" label="creation">1856-1857 and 1865</unitdate>
+      <physdesc>
+        <extent>1 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 593</acqinfo>
+    </descgrp>
+    <scopecontent>General store account, and account, 1865 of Commerce Township, Michigan's subscriptions to Lincoln's call for $300,000 on December 19, 1864.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2291">
+        <term type="topical">General stores</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Walled Lake.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6906">
+        <term type="geographic">Commerce Township (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/1442">
+        <term type="geographic">Walled Lake (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/1218">
+        <primary_name>Brown</primary_name>
+        <rest_of_name>B.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+  </archdesc>
+</ead>

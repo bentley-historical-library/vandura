@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the George D. Robinson letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9772 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3739">
+          <primary_name>Robinson</primary_name>
+          <rest_of_name>George D.</rest_of_name>
+          <fuller_form>(George Dorgue)</fuller_form>
+          <dates>d. 1873</dates>
+        </persname>
+      </origination>
+      <unittitle>George D. Robinson letter</unittitle>
+      <unitdate type="inclusive" label="creation">June 12, 1861</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1333</acqinfo>
+    </descgrp>
+    <bioghist>1862 graduate of the University of Michigan.</bioghist>
+    <scopecontent>Description of personal matters, including summer plans, and the university's recommendation that he not enlist in the army until after he graduates.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5892">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865</term>
+        <term type="topical">Education and the war.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3739">
+        <primary_name>Robinson</primary_name>
+        <rest_of_name>George D.</rest_of_name>
+        <fuller_form>(George Dorgue)</fuller_form>
+        <dates>d. 1873</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="temporal">1861-1870.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

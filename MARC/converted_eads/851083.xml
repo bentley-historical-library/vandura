@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Detroit Board of Commerce papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851083 Bm 1</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/127">
+          <primary_name>Detroit Board of Commerce</primary_name>
+        </corpname>
+      </origination>
+      <unittitle>Detroit Board of Commerce papers</unittitle>
+      <unitdate type="inclusive" label="creation">1916-1943</unitdate>
+      <physdesc>
+        <extent>ca. 85 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2104</acqinfo>
+    </descgrp>
+    <scopecontent>Correspondence and miscellaneous papers. Correspondents include: Harvey J. Campbell and Edwin Denby.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5887">
+        <term type="geographic">Detroit (Mich.)</term>
+        <term type="topical">Commerce.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/3843">
+        <primary_name>Campbell</primary_name>
+        <rest_of_name>Harvey J.</rest_of_name>
+        <dates>1890-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/3723">
+        <primary_name>Denby</primary_name>
+        <rest_of_name>Edwin</rest_of_name>
+        <dates>1870-1929</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/127">
+        <primary_name>Detroit Board of Commerce</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Andrew Dickson White photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93566 UAs</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5132">
+          <primary_name>White</primary_name>
+          <rest_of_name>Andrew Dickson</rest_of_name>
+          <dates>1832-1918</dates>
+        </persname>
+      </origination>
+      <unittitle>Andrew Dickson White photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1860s-1900s</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1860s-1900s.</p>
+      </odd>
+    </descgrp>
+    <bioghist>Professor of history at the University of Michigan, later president of Cornell University, minister to Russia, and ambassador to Germany.</bioghist>
+    <scopecontent>Portraits and photo of the tomb of White's wife Mary.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="local" encodinganalog="650" ref="/subjects/3742">
+        <term type="topical">Tombs and sepulchral monuments</term>
+        <term type="geographic">New York (State)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5132">
+        <primary_name>White</primary_name>
+        <rest_of_name>Andrew Dickson</rest_of_name>
+        <dates>1832-1918</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2348">
+        <primary_name>White</primary_name>
+        <rest_of_name>Mary Amanda (Outwater)</rest_of_name>
+        <title>Mrs</title>
+        <dates>1836-1887</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

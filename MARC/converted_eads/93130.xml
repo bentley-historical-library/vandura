@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the John Blum videotape collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93130 UA 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/3345">
+          <primary_name>Blum</primary_name>
+          <rest_of_name>John.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>John Blum videotape collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1980</unitdate>
+      <physdesc>
+        <extent>1 videocassette (29 min.)</extent>
+        <physfacet>
+U-matic, b&amp;w</physfacet>
+        <dimensions>3/4 in.</dimensions>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1980.</p>
+      </odd>
+      <acqinfo>Donor: 1887</acqinfo>
+    </descgrp>
+    <scopecontent>Videotape of interview conducted by John Blum and Karen Jore, under the auspices of the University of Michigan School of Natural Resources, with landscape architect Genevieve Gillette.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/8333">
+        <term type="genre_form">Videotapes.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655" ref="/subjects/1571">
+        <term type="genre_form">Oral histories.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/5582">
+        <term type="topical">Conservation of natural resources</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1163">
+        <primary_name>Gillette</primary_name>
+        <rest_of_name>Genevieve</rest_of_name>
+        <dates>1898-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/7194">
+        <primary_name>Jore</primary_name>
+        <rest_of_name>Karen.</rest_of_name>
+      </persname>
+      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/2122">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>School of Natural Resources</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Video Box" type="box">1</container>
+  </archdesc>
+</ead>

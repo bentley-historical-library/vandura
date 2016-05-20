@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Jelle A. Van der Meer letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89385 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/6849">
+          <primary_name>Van der Meer</primary_name>
+          <rest_of_name>Jelle A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Jelle A. Van der Meer letter</unittitle>
+      <langmaterial>English translation by P. Theodore Maerdyke of Dutch letter.</langmaterial>
+      <unitdate type="inclusive" label="creation">August 15, 1848</unitdate>
+      <physdesc>
+        <extent>1 item (10 p.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopy.</p>
+      </odd>
+      <acqinfo>Donor: 6106</acqinfo>
+    </descgrp>
+    <bioghist>Dutch settler in Grand Haven, Michigan.</bioghist>
+    <scopecontent>Letter to friends in Vriesland, Netherlands, describing passage to America and settlement in Dutch community in western Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2975">
+        <term type="topical">Dutch Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6482">
+        <term type="topical">Immigrants</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3972">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Emigration and immigration.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4857">
+        <term type="geographic">Grand Haven (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6163">
+        <term type="geographic">Netherlands</term>
+        <term type="topical">Emigration and immigration.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6849">
+        <primary_name>Van der Meer</primary_name>
+        <rest_of_name>Jelle A.</rest_of_name>
+      </persname>
+      <persname source="local" role="trl" encodinganalog="700" ref="/agents/people/6176">
+        <primary_name>Maerdyke</primary_name>
+        <rest_of_name>P. Theodore</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

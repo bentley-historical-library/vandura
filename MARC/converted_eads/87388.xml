@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the John Jacob Abel letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>87388 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3570">
+          <primary_name>Abel</primary_name>
+          <rest_of_name>John Jacob</rest_of_name>
+          <dates>1857-1938</dates>
+        </persname>
+      </origination>
+      <unittitle>John Jacob Abel letter</unittitle>
+      <unitdate type="inclusive" label="creation">May 24, 1937</unitdate>
+      <physdesc>
+        <extent>1 item (11 p.)</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>Door: 3416</p>
+      </odd>
+    </descgrp>
+    <bioghist>Pharmacologist and professor at the University of Michigan and Johns Hopkins University.</bioghist>
+    <scopecontent>Reminiscences of his early work in pharmacology at the University of Michigan in the 1890s written in the form of a mimeographed letter to C. W. Edmunds.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/586">
+        <term type="topical">Pharmacy</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/100">
+        <primary_name>Vaughan</primary_name>
+        <rest_of_name>Victor C.</rest_of_name>
+        <fuller_form>(Victor Clarence)</fuller_form>
+        <dates>1851-1929</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/1326">
+        <primary_name>Edmunds</primary_name>
+        <rest_of_name>C. W.</rest_of_name>
+        <fuller_form>(Charles Wallis)</fuller_form>
+        <dates>1873-1941</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1196">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Medical School</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Research.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

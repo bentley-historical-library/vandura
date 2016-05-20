@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Silas B. Gaskill papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>851668 AA Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/3389">
+          <primary_name>Gaskill</primary_name>
+          <rest_of_name>Silas B.</rest_of_name>
+          <dates>b. 1828</dates>
+        </persname>
+      </origination>
+      <unittitle>Silas B. Gaskill papers</unittitle>
+      <unitdate type="inclusive" label="creation">1833-1839 and 1864-1877</unitdate>
+      <physdesc>
+        <extent>2 v. and 18 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 1677</acqinfo>
+    </descgrp>
+    <bioghist>Attorney of Lapeer, Michigan.</bioghist>
+    <scopecontent>Business records of the Gaskill and Geer law firm, 1864-1877; accounts, wills, and account books, 1833-1839, 1864-1870.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1197">
+        <term type="topical">Lawyers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">lapeer.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5129">
+        <term type="geographic">Lapeer (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/6670">
+        <primary_name>Geer</primary_name>
+        <rest_of_name>Harrison</rest_of_name>
+        <dates>b. 1843</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+  </archdesc>
+</ead>

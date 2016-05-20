@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Joseph Barss photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>93119 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/525">
+          <primary_name>Barss</primary_name>
+          <rest_of_name>Joseph.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Joseph Barss photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1923-1927</unitdate>
+      <physdesc>
+        <extent>1 outsize folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1923-1927.</p>
+      </odd>
+      <acqinfo>Donor: 7490</acqinfo>
+    </descgrp>
+    <bioghist>Hockey coach at University of Michigan.</bioghist>
+    <scopecontent>Group portraits of University of Michigan hockey team.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Hockey.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

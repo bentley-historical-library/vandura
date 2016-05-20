@@ -13,8 +13,9 @@ def add_uris(subject_to_aspace_id_map, agent_to_aspace_id_map, ead_dir):
 		tree = etree.parse(join(ead_dir, filename))
 		for subject in tree.xpath("//subject"):
 			if subject.xpath("./term"):
-				subject_string = etree.tostring(subject)
+				subject_string = etree.tostring(subject).strip()
 				subject_string = re.sub(r"<\/?subject(.*?)>", "", subject_string)
+				#subject_string = re.sub(r"^\s+|(?<=\>)\s+(?=\<)|\s+$","",subject_string)
 				subject.attrib["ref"] = subject_to_aspace_id_map[subject_string]
 			else:
 				subject.getparent().remove(subject)
@@ -23,6 +24,7 @@ def add_uris(subject_to_aspace_id_map, agent_to_aspace_id_map, ead_dir):
 				agent_string = etree.tostring(agent).strip()
 				agent_string = re.sub(r"<\/?{}(.*?)>".format(tag), "", agent_string).strip()
 				agent_string = re.sub(r"<term(.*?)>(.*?)<\/term>", "", agent_string).strip()
+				#agent_string = re.sub(r"^\s+|(?<=\>)\s+(?=\<)|\s+$","",agent_string)
 				agent.attrib["ref"] = agent_to_aspace_id_map[agent_string]
 
 		with open(join(ead_dir, filename), 'w') as f:

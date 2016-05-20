@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles M. Case papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>85918 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/580">
+          <primary_name>Case</primary_name>
+          <rest_of_name>Charles M.</rest_of_name>
+          <dates>1859-1940</dates>
+        </persname>
+      </origination>
+      <unittitle>Charles M. Case papers</unittitle>
+      <unitdate type="inclusive" label="creation">1925 and undated</unitdate>
+      <physdesc>
+        <extent>3 v</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Typescript copies.</p>
+      </odd>
+      <acqinfo>Donor: 2290</acqinfo>
+    </descgrp>
+    <scopecontent>History of Hermansville, Michigan, and discussion of career of Dr. George W. Earle.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6126">
+        <term type="topical">Lumbering</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Hermansville.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/7971">
+        <term type="geographic">Hermansville (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6636">
+        <primary_name>Earle</primary_name>
+        <rest_of_name>George Washington</rest_of_name>
+        <dates>b. 1849</dates>
+      </persname>
+    </controlaccess>
+    <container label="Volume" type="volume">1</container>
+    <container label="Volume" type="volume">2</container>
+    <container label="Volume" type="volume">3</container>
+  </archdesc>
+</ead>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the James V. Neel collected papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2013113 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1365">
+          <primary_name>Neel</primary_name>
+          <rest_of_name>James V.</rest_of_name>
+          <fuller_form>(James Van Gundia)</fuller_form>
+          <dates>1915-2000</dates>
+        </persname>
+      </origination>
+      <unittitle>James V. Neel collected papers</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1937-1999</unitdate>
+      <physdesc>
+        <extent>2 linear feet</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accruals>Further accruals are expected.</accruals>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <otherfindaid>Finding aid in the library.</otherfindaid>
+      <acqinfo>Donor: 8991</acqinfo>
+    </descgrp>
+    <bioghist>University of Michigan faculty member and geneticist; established the University of Michigan Department of Human Genetics.</bioghist>
+    <scopecontent>Collected publications, mainly scientific offprints.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/3266">
+        <term type="topical">Genetics.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1365">
+        <primary_name>Neel</primary_name>
+        <rest_of_name>James V.</rest_of_name>
+        <fuller_form>(James Van Gundia)</fuller_form>
+        <dates>1915-2000</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2965">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Human Genetics</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+    <container label="Box" type="box">2</container>
+  </archdesc>
+</ead>

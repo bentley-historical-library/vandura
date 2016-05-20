@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Harold A. Brabon papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>8877 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/1529">
+          <primary_name>Brabon</primary_name>
+          <rest_of_name>Harold A.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Harold A. Brabon papers</unittitle>
+      <unitdate type="inclusive" label="creation">1944-1945</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3755.</acqinfo>
+    </descgrp>
+    <bioghist>Detroit, Michigan, clergyman.</bioghist>
+    <scopecontent>Letters from A. S. Round, a soldier stationed in the Canal Zone during World War II.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/1525">
+        <term type="topical">World War, 1939-1945</term>
+        <term type="geographic">Panama</term>
+        <term type="geographic">Canal Zone.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7266">
+        <term type="topical">World War, 1939-1945</term>
+        <term type="topical">Personal narratives, American.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3548">
+        <term type="geographic">Canal Zone.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/3298">
+        <primary_name>Round</primary_name>
+        <rest_of_name>A. S.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

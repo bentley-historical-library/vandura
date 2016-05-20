@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the G. Hall Roosevelt papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89233 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/889">
+          <primary_name>Roosevelt</primary_name>
+          <rest_of_name>G. Hall.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>G. Hall Roosevelt papers</unittitle>
+      <unitdate type="inclusive" label="creation">1930-1932</unitdate>
+      <physdesc>
+        <extent>ca. 100 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>Taken from the papers of George Murphy.</p>
+      </odd>
+      <acqinfo>Donor: 3074</acqinfo>
+    </descgrp>
+    <bioghist>Detroit, Michigan, city comptroller, and Michigan Democratic Party politician.</bioghist>
+    <scopecontent>Correspondence and copies of letters sent to New York governor Franklin Roosevelt and passed on to G. Hall Roosevelt by Louis Howe; contain information relating to the 1932 presidential campaign.</scopecontent>
+    <controlaccess>
+      <subject source="local" encodinganalog="691" ref="/subjects/8114">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1929-1938.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6998">
+        <term type="topical">Elections</term>
+        <term type="geographic">Michigan</term>
+        <term type="temporal">1932.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/6379">
+        <term type="topical">Presidents</term>
+        <term type="geographic">United States</term>
+        <term type="topical">Election</term>
+        <term type="temporal">1932.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4286">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1837-1950.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/3427">
+        <primary_name>Howe</primary_name>
+        <rest_of_name>Louis McHenry</rest_of_name>
+        <dates>1871-1936</dates>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/2878">
+        <primary_name>Roosevelt</primary_name>
+        <rest_of_name>Franklin D.</rest_of_name>
+        <fuller_form>(Franklin Delano)</fuller_form>
+        <dates>1882-1945</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1477">
+        <primary_name>Democratic Party (Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+    <container label="Folder" type="folder">2</container>
+  </archdesc>
+</ead>

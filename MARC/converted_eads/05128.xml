@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Willard Cummings paper</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>05128 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/3358">
+          <primary_name>Cummings</primary_name>
+          <rest_of_name>Willard.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Willard Cummings paper</unittitle>
+      <unitdate type="inclusive" label="creation">2005</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9633</acqinfo>
+    </descgrp>
+    <bioghist>Ann Arbor, Mich., researcher.</bioghist>
+    <scopecontent>History of the Ann Arbor Union High School.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2573">
+        <primary_name>Ann Arbor High School (Mich.)</primary_name>
+        <term type="topical">History</term>
+        <term type="temporal">19th century.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

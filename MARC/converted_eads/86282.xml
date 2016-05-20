@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the William W. West letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86282 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/2870">
+          <primary_name>West</primary_name>
+          <rest_of_name>William W.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>William W. West letter</unittitle>
+      <unitdate type="inclusive" label="creation">1945</unitdate>
+      <physdesc>
+        <extent>1 item</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2135</acqinfo>
+    </descgrp>
+    <bioghist>Lieutenant colonel in U.S. Army.</bioghist>
+    <scopecontent>Letter describing flag-raising ceremony and history of the flag raised in Tokyo at the end of World War II, including mention of several U.S. soldiers from Saginaw, Michigan, namely Urcell L. Bell, John W. Feeley, Jr., and William B. Mershon.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/2024">
+        <term type="topical">World War, 1939-1945</term>
+        <term type="geographic">Japan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/7266">
+        <term type="topical">World War, 1939-1945</term>
+        <term type="topical">Personal narratives, American.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/5874">
+        <term type="geographic">Saginaw (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3397">
+        <term type="geographic">Tokyo (Japan)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6104">
+        <primary_name>Bell</primary_name>
+        <rest_of_name>Urcell L.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4953">
+        <primary_name>Feeley</primary_name>
+        <rest_of_name>John W.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4569">
+        <primary_name>Mershon</primary_name>
+        <rest_of_name>William B.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

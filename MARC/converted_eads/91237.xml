@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the [Portrait of Arthur H. Vandenberg] [graphic] / Maniscalco.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>91237</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/1158">
+          <primary_name>Maniscalco</primary_name>
+          <rest_of_name>Joseph</rest_of_name>
+          <dates>1921-</dates>
+        </persname>
+      </origination>
+      <unittitle>[Portrait of Arthur H. Vandenberg] [graphic] / Maniscalco.</unittitle>
+      <unitdate type="inclusive" label="creation">[1974]</unitdate>
+      <physdesc>
+        <extent>1 painting</extent>
+        <physfacet>
+oil</physfacet>
+        <dimensions>visible image 80 x 55 cm.</dimensions>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>Framed.</p>
+      </odd>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>[1974].</p>
+      </odd>
+    </descgrp>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655" ref="/subjects/810">
+        <term type="genre_form">Paintings.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5851">
+        <primary_name>Vandenberg</primary_name>
+        <rest_of_name>Arthur H.</rest_of_name>
+        <fuller_form>(Arthur Hendrick)</fuller_form>
+        <dates>1884-1951</dates>
+      </persname>
+    </controlaccess>
+  </archdesc>
+</ead>

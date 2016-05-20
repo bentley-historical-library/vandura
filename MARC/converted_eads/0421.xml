@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the American Institute of Architects, Huron Valley Chapter records</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>0421 Bd 2</unitid>
+      <origination>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/307">
+          <primary_name>American Institute of Architects</primary_name>
+          <subordinate_name>Huron Valley Chapter</subordinate_name>
+        </corpname>
+      </origination>
+      <unittitle>American Institute of Architects, Huron Valley Chapter records</unittitle>
+      <unitdate type="inclusive" label="creation">1961-1999</unitdate>
+      <physdesc>
+        <extent>0.5 linear ft. (2 boxes) and 1 oversize folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>General Note</head>
+        <p>Taken from the files of Robert Metcalf.</p>
+      </odd>
+      <acqinfo>Donor: 8943</acqinfo>
+    </descgrp>
+    <scopecontent>Minutes and related materials.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650" ref="/subjects/5421">
+        <term type="topical">Architects</term>
+        <term type="geographic">Michigan</term>
+        <term type="topical">Societies, etc.</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/2290">
+        <primary_name>Metcalf</primary_name>
+        <rest_of_name>Robert Clarence</rest_of_name>
+        <dates>1923-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/307">
+        <primary_name>American Institute of Architects</primary_name>
+        <subordinate_name>Huron Valley Chapter</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+    <container label="Box" type="box">2</container>
+  </archdesc>
+</ead>

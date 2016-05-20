@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Robert Fry photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>02120 UAs</unitid>
+      <origination>
+        <persname role="col" encodinganalog="100" source="local" ref="/agents/people/6490">
+          <primary_name>Fry</primary_name>
+          <rest_of_name>Robert</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Robert Fry photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">1910s?</unitdate>
+      <physdesc>
+        <extent>1 envelope</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>1910s?</p>
+      </odd>
+      <acqinfo>Donor: 9223</acqinfo>
+    </descgrp>
+    <bioghist>Ann Arbor, Mich., resident.</bioghist>
+    <scopecontent>Photos of a train wreck on the Ann Arbor Railroad bridge over the Huron River in Ann Arbor; photos of an Ann Arbor-Whitmore Lake, Mich. bus.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/7027">
+        <term type="topical">Buses</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Washtenaw County.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650" ref="/subjects/2179">
+        <term type="topical">Railroad accidents</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3771">
+        <primary_name>Ann Arbor Railroad Company</primary_name>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

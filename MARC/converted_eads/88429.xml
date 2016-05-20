@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles Carroll Hyde papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>88429 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/1303">
+          <primary_name>Hyde</primary_name>
+          <rest_of_name>Charles Carroll</rest_of_name>
+          <dates>1853-1934</dates>
+        </persname>
+      </origination>
+      <unittitle>Charles Carroll Hyde papers</unittitle>
+      <unitdate type="inclusive" label="creation">1866-1883 and undated</unitdate>
+      <physdesc>
+        <extent>.3 linear ft</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 4676</acqinfo>
+    </descgrp>
+    <bioghist>Medical student at the University of Michigan, class of 1876.</bioghist>
+    <scopecontent>Notes on medical courses, account books, and miscellaneous.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/761">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Medicine and Surgery</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
+    <container label="Box" type="box">1</container>
+  </archdesc>
+</ead>

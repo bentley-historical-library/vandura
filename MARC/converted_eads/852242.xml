@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Seymour family papers</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>852242 Aa 1</unitid>
+      <origination>
+        <famname encodinganalog="100" source="local" ref="/agents/families/14">
+          <family_name>Seymour family</family_name>
+        </famname>
+      </origination>
+      <unittitle>Seymour family papers</unittitle>
+      <unitdate type="inclusive" label="creation">1845-1898</unitdate>
+      <physdesc>
+        <extent>38 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 3710</acqinfo>
+    </descgrp>
+    <bioghist>Residents of Lansing, Flint, and Reed City, Michigan.</bioghist>
+    <scopecontent>Correspondence and business papers of Henry and William Seymour.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/2044">
+        <term type="geographic">Flint (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3153">
+        <term type="geographic">Lansing (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/6599">
+        <term type="geographic">Reed City (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700" ref="/agents/people/3099">
+        <primary_name>Seymour</primary_name>
+        <rest_of_name>Henry.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700" ref="/agents/people/4813">
+        <primary_name>Seymour</primary_name>
+        <rest_of_name>William.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>

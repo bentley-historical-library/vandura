@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Wilber E. Bailey photograph collection.</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>gihc</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9514 UAm</unitid>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5090">
+          <primary_name>Bailey</primary_name>
+          <rest_of_name>Wilber E.</rest_of_name>
+          <fuller_form>(Wilber Edwin)</fuller_form>
+        </persname>
+      </origination>
+      <unittitle>Wilber E. Bailey photograph collection.</unittitle>
+      <unitdate type="inclusive" label="creation">ca. 1913-1915</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Publication, Distribution, Etc.</head>
+        <p>ca. 1913-1915.</p>
+      </odd>
+      <acqinfo>Donor: 7982</acqinfo>
+    </descgrp>
+    <bioghist>1915 graduate of the University of Michigan Dental School.</bioghist>
+    <scopecontent>Photos of student groups and campus photos.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5090">
+        <primary_name>Bailey</primary_name>
+        <rest_of_name>Wilber E.</rest_of_name>
+        <fuller_form>(Wilber Edwin)</fuller_form>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+    </controlaccess>
+  </archdesc>
+</ead>

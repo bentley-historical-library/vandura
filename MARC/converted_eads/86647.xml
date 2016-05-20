@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Peter Smith letters</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>86647 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local" ref="/agents/people/5141">
+          <primary_name>Smith</primary_name>
+          <rest_of_name>Peter</rest_of_name>
+          <dates>d. 1864</dates>
+        </persname>
+      </origination>
+      <unittitle>Peter Smith letters</unittitle>
+      <unitdate type="inclusive" label="creation">1862-1864</unitdate>
+      <physdesc>
+        <extent>30 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <odd>
+        <head>Reproduction Note</head>
+        <p>Photocopies.</p>
+      </odd>
+      <acqinfo>Donor: 5352</acqinfo>
+    </descgrp>
+    <bioghist>Resident of White Pigeon, Michigan and member of 23rd Illinois Infantry during the Civil War.</bioghist>
+    <scopecontent>Letters to his family describing his wartime activities and diary for 1863 (diary largely illegible).</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651" ref="/subjects/4784">
+        <term type="geographic">White Pigeon (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2554">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Illinois Infantry Regiment, 23rd (1861-1865)</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder" type="folder">1</container>
+  </archdesc>
+</ead>
