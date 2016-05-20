@@ -9,6 +9,8 @@ from scripts.characterize_and_merge_marcxml import characterize_and_merge_marcxm
 from scripts.convert_marcxml_to_ead import convert_marcxml_to_ead
 from scripts.deduplicate_subjects import deduplicate_subjects
 from scripts.note_cleanup import make_acqinfo_from_odd
+from scripts.note_cleanup import normalize_extents
+from scripts.note_cleanup import split_extents
 from scripts.subject_source_propagation import subject_source_propagation
 
 from vandura.shared.utilities.ead_cleanup.prettifydirectory import prettify_xml_in_directory
@@ -28,6 +30,8 @@ def characterize_and_convert_marcxml_to_ead(ead_dir, marc_dir, real_masters_all,
 	unconverted_dir = join(marc_dir, "unconverted_marcxml")
 	convert_marcxml_to_ead(joined_dir, converted_dir, unconverted_dir)
 
+	normalize_extents(marc_dir)
+	split_extents(marc_dir)
 	make_acqinfo_from_odd(marc_dir)
 	add_classifications(marc_dir, shared_dir)
 	add_containers(marc_dir, shared_dir)

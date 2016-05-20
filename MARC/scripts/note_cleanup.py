@@ -29,6 +29,35 @@ def make_acqinfo_from_odd(marc_dir):
 				f.write(etree.tostring(tree, encoding="utf-8", xml_declaration=True, pretty_print=True))
 
 
+def split_extents(marc_dir):
+	converted_eads = join(marc_dir, "converted_eads")
+
+	for filename in os.listdir(converted_eads):
+		print "Splitting extents in {}".format(filename)
+		tree = etree.parse(join(converted_eads, filename))
+
+		physdescs = tree.xpath("//physdesc")
+
+		rewrite = False
+		for physdesc in physdescs:
+			if physdesc.xpath("./extent") and not physdesc.xpath("./physfacet") and not physdesc.xpath("./physdesc"):
+				did = physdesc.getparent()
+				extent = physdesc.xpath("./extent")[0]
+				extent_statement = extent.text.strip()
+				if " and " in extent_statement:
+					rewrite = True
+					split_extents = extent_statement.split(" and ")
+					for split_extent in split_extents:
+						new_physdesc = etree.Element("physdesc")
+						new_extent = etree.SubElement(new_physdesc, "extent")
+						new_extent.text = split_extent
+						did.insert(0, new_physdesc)
+					did.remove(physdesc)
+		if rewrite:
+			with open(join(converted_eads, filename), 'w') as f:
+				f.write(etree.tostring(tree, encoding="utf-8", xml_declaration=True, pretty_print=True))
+
+
 def normalize_extents(marc_dir):
 	converted_eads = join(marc_dir, 'converted_eads')
 
