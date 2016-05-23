@@ -44,7 +44,8 @@ def split_extents(marc_dir):
 				did = physdesc.getparent()
 				extent = physdesc.xpath("./extent")[0]
 				extent_statement = extent.text.strip()
-				if " and " in extent_statement:
+				extent_statement_no_parens = re.sub(r"\(.*\)","",extent_statement)
+				if " and " in extent_statement_no_parens:
 					rewrite = True
 					split_extents = extent_statement.split(" and ")
 					for split_extent in split_extents:
@@ -76,18 +77,18 @@ def normalize_extents(marc_dir):
 		extents = tree.xpath("//extent")
 		if extents:
 			for extent in extents:
-				extent_statement = extent.text.replace(r"&lt;","").replace(r"&gt;","").strip()
+				physdesc = extent.getparent()
+				extent_statement = extent.text.replace(r"&lt;","").replace(r"&gt;","").replace("two","2").replace("One", "1").replace("computer optical","optical").strip()
 				starts_with_digits = re.compile(r"^\d")
 				starts_without_digits = re.compile(r"^[^\d]")
 				starts_with_digit_letter = re.compile(r"^\d[A-Za-z]")
+				has_dimensions = re.compile(r"\(.*?min\..*?\)")
 				if extent_statement.endswith(";"):
 					extent_statement = re.sub(r";$","",extent_statement).strip()
 				extent_statement = re.sub(r"linear ft\.?","linear feet",extent_statement)
 				if extent_statement.startswith("v.") or extent_statement.startswith("v "):
 					extent_statement = "1 " + extent_statement
 				extent_statement = re.sub(r"\bv\b\.?","volumes",extent_statement)
-				if extent_statement.startswith("One"):
-					extent_statement.replace("One","1")
 				if extent_statement.startswith("."):
 					extent_statement = "0" + extent_statement
 				if extent_statement.endswith(";"):
@@ -107,6 +108,17 @@ def normalize_extents(marc_dir):
 					extent_statement = re.sub(r"^(\d+)([A-Za-z])", r"\1 \2", extent_statement)
 				if starts_without_digits.match(extent_statement):
 					extent_statement = "1 " + extent_statement + " [fake number supplied]"
+				if has_dimensions.search(extent_statement):
+					dimensions = re.findall(r"\(.*?min\..*?\)", extent_statement)[0]
+					if physdesc.xpath("./dimensions"):
+						existing_dimensions = physdesc.xpath("./dimensions")[0]
+						existing_dimensions.text = existing_dimensions.text + "; {}".format(dimensions.replace("(","").replace(")",""))
+					else:
+						new_dimensions = etree.Element("dimensions")
+						new_dimensions.text = dimensions
+						physdesc.append(new_dimensions)
+					extent_statement = extent_statement.replace(dimensions, "").strip()
+
 				extent.text = extent_statement.strip()
 			
 			with open(join(converted_eads, filename), 'w') as f:

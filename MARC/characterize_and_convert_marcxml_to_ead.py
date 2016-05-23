@@ -19,7 +19,8 @@ import os
 from os.path import join
 
 def characterize_and_convert_marcxml_to_ead(ead_dir, marc_dir, real_masters_all, shared_dir):
-	characterize_and_merge_marcxml(real_masters_all, marc_dir)
+	# Uncomment the below line when a new batch is exported (hopefully his won't need to be done again)
+	#characterize_and_merge_marcxml(real_masters_all, marc_dir)
 
 	joined_dir = join(marc_dir, "marcxml_no_ead_joined")
 
