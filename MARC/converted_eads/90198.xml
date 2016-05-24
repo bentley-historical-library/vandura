@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>90198 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2341">
+        <persname encodinganalog="100">
           <primary_name>McDonald</primary_name>
           <rest_of_name>Marion.</rest_of_name>
         </persname>
@@ -29,24 +28,26 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7834</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7834</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Ann Arbor, Michigan.</bioghist>
     <scopecontent>Daybooks listing daily expenses.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6382">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2341">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>McDonald</primary_name>
         <rest_of_name>Marion.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

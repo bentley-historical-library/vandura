@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -28,17 +27,15 @@
       </odd>
     </descgrp>
     <controlaccess>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Employees</term>
         <term type="genre_form">Periodicals.</term>
       </corpname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/1001">
+      <corpname source="local" encodinganalog="710">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Publications Office</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Bundle" type="bundle">1</container>
-    <container label="Bundle" type="bundle">2</container>
   </archdesc>
 </ead>

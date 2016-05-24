@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>00125 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2606">
+        <persname encodinganalog="100">
           <primary_name>Strong</primary_name>
           <rest_of_name>Carter B.</rest_of_name>
           <dates>1924-</dates>
@@ -34,21 +33,23 @@
         <head>Reproduction Note</head>
         <p>Photocopy.</p>
       </odd>
-      <acqinfo>Donor: 9008</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9008</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Jackson, Mich., and student at the University of Michigan who served in 395th Infantry, 99th Division, in Europe during World War II. He was later mayor of Traverse City, Mich.</bioghist>
     <scopecontent>Reminiscence of his military service, 1943-1946, illustrated with photographs and maps. The reminiscence was originally written in 1946.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5489">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1939-1945</term>
         <term type="genre_form">Personal narratives, American.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2606">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Strong</primary_name>
         <rest_of_name>Carter B.</rest_of_name>
         <dates>1924-</dates>
       </persname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851472 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/3753">
+        <persname encodinganalog="100">
           <primary_name>Hopper</primary_name>
           <rest_of_name>A. G.</rest_of_name>
         </persname>
@@ -33,23 +32,25 @@
         <head>Reproduction Note</head>
         <p>Photostatic copy.</p>
       </odd>
-      <acqinfo>Donor: 1855</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1855</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Beaver Island, Michigan.</bioghist>
     <scopecontent>Letter from his brother James concerning the death of Thomas Jefferson Cary.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3589">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Beaver Island (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3514">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Cary</primary_name>
         <rest_of_name>Thomas Jefferson.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3950">
+      <persname source="local" encodinganalog="700">
         <primary_name>Hooper</primary_name>
         <rest_of_name>James.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

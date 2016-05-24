@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88171 Aa 2 Ac</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/58">
+        <persname encodinganalog="100">
           <primary_name>Clark</primary_name>
           <rest_of_name>Mary Elizabeth</rest_of_name>
           <dates>1854-1933</dates>
@@ -30,25 +29,27 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1486</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1486</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Notes on the lectures of Isaac Demmon on literature, notes from history and chemistry courses, and classes taken in the Medical School of the University of Michigan.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4273">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Demmon</primary_name>
         <rest_of_name>Isaac Newton</rest_of_name>
         <dates>1842-1920</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/761">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Medicine and Surgery</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

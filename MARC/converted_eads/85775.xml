@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85775 Aa 1 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5113">
+        <persname encodinganalog="100">
           <primary_name>Brakeman</primary_name>
           <rest_of_name>Peter.</rest_of_name>
         </persname>
@@ -29,19 +28,20 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 446</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 446</p>
+      </odd>
     </descgrp>
     <bioghist>Port Huron, Michigan, businessman.</bioghist>
     <scopecontent>Personal and business accounts.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8157">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Account books.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1623">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Port Huron (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

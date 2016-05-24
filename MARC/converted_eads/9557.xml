@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -37,37 +36,39 @@ sd., col.</physfacet>
         <head>General Note</head>
         <p>VHS format.</p>
       </odd>
-      <acqinfo>Donor: 8341</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8341</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8333">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Videotapes.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5988">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Michigan</term>
         <term type="topical">Capital and capitol</term>
         <term type="topical">Conservation and restoration.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5103">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Michigan</term>
         <term type="topical">Capital and capitol</term>
         <term type="topical">History.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1747">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Michigan</term>
         <term type="topical">History.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/748">
+      <persname source="local" encodinganalog="700">
         <primary_name>Scarpino</primary_name>
         <rest_of_name>Timothy M.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/382">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan State Capitol (Lansing, Mich.)</primary_name>
       </corpname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/3268">
+      <corpname source="local" encodinganalog="710">
         <primary_name>West Michigan Public Broadcasting</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Video Box" type="box">3</container>
   </archdesc>
 </ead>

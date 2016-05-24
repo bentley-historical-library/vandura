@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852034 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/320">
+        <persname encodinganalog="100">
           <primary_name>Pierce</primary_name>
           <rest_of_name>Edward Hartley</rest_of_name>
           <dates>b. 1855</dates>
@@ -30,26 +29,28 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Ann Arbor, Michigan.</bioghist>
     <scopecontent>Reminiscences of life in Ann Arbor, Michigan, and genealogy and family history of the Saunders and Pierce families.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5844">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Hill</primary_name>
         <rest_of_name>Arthur</rest_of_name>
         <dates>1847-1909</dates>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/409">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Pierce family</family_name>
       </famname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/536">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Saunders family</family_name>
       </famname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

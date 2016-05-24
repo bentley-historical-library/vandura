@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88209 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/6499">
+        <persname encodinganalog="100">
           <primary_name>Davis</primary_name>
           <rest_of_name>Mary P.</rest_of_name>
         </persname>
@@ -29,25 +28,27 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3727</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3727</p>
+      </odd>
     </descgrp>
     <scopecontent>Letters to Mrs. S. E. Mead, one containing description of her work at the Detroit House of Correction where she was employed.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3482">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Correctional personnel</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Wayne County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/148">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women correctional personnel</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Wayne County.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3514">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Detroit (Mich.)</primary_name>
         <subordinate_name>House of Correction</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0169 Bb 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/474">
+        <corpname encodinganalog="110">
           <primary_name>Remick Music Corporation</primary_name>
         </corpname>
       </origination>
@@ -29,25 +28,26 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9112</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9112</p>
+      </odd>
     </descgrp>
     <bioghist>Music publishers with offices in New York and Detroit.</bioghist>
     <scopecontent>Correspondence and other papers relating to the business operations of the company, mainly orders, billings, and requests for payment.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4102">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Music publishers</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5887">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
         <term type="topical">Commerce.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/474">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Remick Music Corporation</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

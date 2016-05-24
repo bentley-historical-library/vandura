@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88488 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/19">
+        <persname encodinganalog="100">
           <primary_name>Kanouse</primary_name>
           <rest_of_name>Milton.</rest_of_name>
         </persname>
@@ -29,21 +28,23 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1775</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1775</p>
+      </odd>
     </descgrp>
     <bioghist>Student at Quincy, Michigan, High School.</bioghist>
     <scopecontent>Notebook containing description of plants found in the Quincy and Coldwater, Michigan, area.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7895">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Botany.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1303">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Coldwater (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/334">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Quincy (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

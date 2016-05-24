@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89129 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1716">
+        <persname encodinganalog="100">
           <primary_name>Pingree</primary_name>
           <rest_of_name>Hazen S.</rest_of_name>
           <dates>1840-1901</dates>
@@ -30,27 +29,29 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1333</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1333</p>
+      </odd>
     </descgrp>
     <bioghist>Mayor of Detroit and governor of Michigan.</bioghist>
     <scopecontent>Mayor's annual report to Detroit Common Council, 1896, and letter to King Edward VII of England, 1901; also includes passport, 1901.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3522">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
         <term type="topical">Politics and government.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4625">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Edward</primary_name>
         <number>VII</number>
         <title>King of Great Britain</title>
         <dates>1841-1910</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2432">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Pingree</primary_name>
         <rest_of_name>Hazen S.</rest_of_name>
         <dates>1840-1901</dates>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

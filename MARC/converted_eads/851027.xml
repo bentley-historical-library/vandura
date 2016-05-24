@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851027 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5128">
+        <persname encodinganalog="100">
           <primary_name>Cooley</primary_name>
           <rest_of_name>Rutger Horton</rest_of_name>
           <dates>1893-</dates>
@@ -30,31 +29,33 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1255</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1255</p>
+      </odd>
     </descgrp>
     <bioghist>Student at University of Michigan.</bioghist>
     <scopecontent>Journal of trip to Great Britain in the summer of 1914, with comments on plays attended and places visited.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655" ref="/subjects/4649">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1173">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Voyages and travels.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2337">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Travelers.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5829">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Great Britain</term>
         <term type="topical">Description and travel.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

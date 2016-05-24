@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89148 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/696">
+        <persname encodinganalog="100">
           <primary_name>Schuman</primary_name>
           <rest_of_name>Howard.</rest_of_name>
         </persname>
@@ -33,22 +32,24 @@
         <head>Reproduction Note</head>
         <p>Photocopy.</p>
       </odd>
-      <acqinfo>Donor: 6704</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6704</p>
+      </odd>
     </descgrp>
     <bioghist>Researcher at the Center for Research on Social Organization of the University of Michigan.</bioghist>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5233">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Vietnam War, 1961-1975.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/7049">
+      <persname source="local" encodinganalog="700">
         <primary_name>Laumann</primary_name>
         <rest_of_name>Edward O.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

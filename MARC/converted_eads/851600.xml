@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851600 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/6891">
+        <persname encodinganalog="100">
           <primary_name>King</primary_name>
           <rest_of_name>Will.</rest_of_name>
         </persname>
@@ -33,28 +32,30 @@
         <head>Reproduction Note</head>
         <p>Photostatic copy.</p>
       </odd>
-      <acqinfo>Donor: 3743</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3743</p>
+      </odd>
     </descgrp>
     <bioghist>Farmer at Sodus, Michigan.</bioghist>
     <scopecontent>Letter to his brother describing his farming activities in Berrien County.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1942">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Agriculture</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Berrien County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2830">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Farmers</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Berrien County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8313">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Berrien County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7466">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Sodus (Mich. : Township)</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

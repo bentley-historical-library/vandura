@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851072 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/106">
+        <persname encodinganalog="100">
           <primary_name>Davis</primary_name>
           <rest_of_name>Ebenezer.</rest_of_name>
         </persname>
@@ -29,18 +28,20 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3410</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3410</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Clinton, Michigan.</bioghist>
     <scopecontent>Personal account book.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8157">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Account books.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4357">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Clinton (Lenawee County, Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

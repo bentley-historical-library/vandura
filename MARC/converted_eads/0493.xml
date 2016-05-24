@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0493 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1833">
+        <persname encodinganalog="100">
           <primary_name>Nixon</primary_name>
           <rest_of_name>Don L.</rest_of_name>
         </persname>
@@ -33,29 +32,31 @@
         <head>Reproduction Note</head>
         <p>Photocopy of typescript.</p>
       </odd>
-      <acqinfo>Donor: 9495</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9495</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Ann Arbor, Mich., who served with the U.S. Navy Standard Landing Craft Unit 24 during World War II.</bioghist>
     <scopecontent>Diary, Oct. 20-Nov. 9, 1944, describing his part in the invasion of Leyte, Philippines, with additional summary of his military service.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8352">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Leyte Gulf, Battle of, Philippines, 1944.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2695">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1939-1945</term>
         <term type="topical">Campaigns</term>
         <term type="geographic">Philippines</term>
         <term type="geographic">Leyte Island.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5489">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1939-1945</term>
         <term type="genre_form">Personal narratives, American.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1833">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Nixon</primary_name>
         <rest_of_name>Don L.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

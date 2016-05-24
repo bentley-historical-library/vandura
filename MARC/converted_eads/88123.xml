@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88123 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/2679">
+        <persname encodinganalog="100">
           <primary_name>Burnett</primary_name>
           <rest_of_name>Henry Darling</rest_of_name>
           <dates>1861-1955</dates>
@@ -30,27 +29,29 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3292</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3292</p>
+      </odd>
     </descgrp>
     <bioghist>Graduate of the University of Michigan College of Engineering, class of 1884, later civil engineer for Canadian General Electric Company.</bioghist>
     <scopecontent>Biographical notes written by his daughter, Marguerite D. Burnett; letter about history of Canadian General Electric Company; and miscellaneous letters about University of Michigan affairs.</scopecontent>
     <controlaccess>
-      <persname source="local" encodinganalog="700" ref="/agents/people/5668">
+      <persname source="local" encodinganalog="700">
         <primary_name>Burnett</primary_name>
         <rest_of_name>Marguerite.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2366">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Canadian General Electric Company</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2375">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Class of 1884</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/889">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>College of Engineering</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

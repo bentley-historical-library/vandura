@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89125 Ba 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/654">
+        <corpname encodinganalog="110">
           <primary_name>First Presbyterian Church (Independence, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1863</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1863</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photograph described separately.</p>
@@ -37,29 +39,45 @@
     <bioghist>Also known as Sashabaw Presbyterian Church.</bioghist>
     <scopecontent>Membership rolls, minutes, financial records, correspondence, miscellaneous papers, and photograph of the church.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7194">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Independence (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/654">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>First Presbyterian Church (Independence, Mich.)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3226">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Presbyterian Church in the U.S.A</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Independence.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Independence (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>First Presbyterian Church (Independence, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Presbyterian Church in the U.S.A</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Independence.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4754">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Churches</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Independence.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/2825">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Independence (Mich.)</term>
         <term type="topical">Churches.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>First Presbyterian Church (Independence, Mich.)</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -83,6 +101,5 @@
         <scopecontent>Photograph of the church building.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

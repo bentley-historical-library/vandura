@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851160 Bb.2 microcopy Bb.2 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2126">
+        <corpname encodinganalog="110">
           <primary_name>Elk Rapids Iron Company (Mich.)</primary_name>
         </corpname>
       </origination>
@@ -34,30 +33,32 @@ positive and negative and 85 items.</physfacet>
         <head>Reproduction Note</head>
         <p>Blast furnace reports : photocopies.</p>
       </odd>
-      <acqinfo>Donor: 5091</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5091</p>
+      </odd>
     </descgrp>
     <scopecontent>Annual statements of the company, 1884 and 1890; and weekly reports of the blast furnace, July 1891-Feb. 1893, listing expenditures and the amount of pig iron made.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Business records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5259">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Iron industry and trade</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Elk Rapids.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/354">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Antrim County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3852">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Elk Rapids (Mich.)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3797">
+      <persname source="local" encodinganalog="700">
         <primary_name>Noble</primary_name>
         <rest_of_name>Edwin S.</rest_of_name>
         <dates>1838-1922</dates>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0023 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2591">
+        <persname encodinganalog="100">
           <primary_name>Smith</primary_name>
           <rest_of_name>John A.</rest_of_name>
         </persname>
@@ -33,7 +32,10 @@
         <head>General Note</head>
         <p>Includes partial transcripts.</p>
       </odd>
-      <acqinfo>Donor: 4567</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4567</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Formerly part of Ness, Nina L. Nina L. Ness collection, 1793-1900.</p>
@@ -42,46 +44,45 @@
     <bioghist>Smith served in Company A, 67th Ohio Infantry Regiment, during the Civil War.</bioghist>
     <scopecontent>Letters to his family from camps in Ohio (1861), from Virginia (1862) and from Folly Island, S.C. (1863), describing his military experiences.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3152">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ohio</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1296">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">West Virginia</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3375">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Virginia</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/140">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">South Carolina</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2591">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Smith</primary_name>
         <rest_of_name>John A.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4184">
+      <persname source="local" encodinganalog="700">
         <primary_name>Ness</primary_name>
         <rest_of_name>Nina L.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1751">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Ohio Infantry Regiment, 67th (1861-1865)</subordinate_name>
         <subordinate_name>Company A</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

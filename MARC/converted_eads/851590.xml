@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851590 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/290">
+        <persname encodinganalog="100">
           <primary_name>Jackson</primary_name>
           <rest_of_name>Walter Hinckley</rest_of_name>
           <dates>1840-1930</dates>
@@ -34,7 +33,10 @@
         <head>Reproduction Note</head>
         <p>Diary: Typescript copy.</p>
       </odd>
-      <acqinfo>Donor: 3990</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3990</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -43,70 +45,121 @@
     <bioghist>Civil War veteran and Ann Arbor, Michigan, dentist.</bioghist>
     <scopecontent>Correspondence relating to family matters, business affairs, and professional activities; also genealogies of the Jackson and Samuel Williams families; legal and business papers; poems; clippings; Civil War diary covering his service as chief trumpeter in the 130th New York Infantry and 19th New York Cavalry (later 1st New York Dragoons), 1862-1865; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Business records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1341">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Dentists</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5690">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Poetry.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4478">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Northville (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1882">
+      <persname source="local" encodinganalog="700">
         <primary_name>Williams</primary_name>
         <rest_of_name>Samuel Purdy</rest_of_name>
         <dates>1811-1891</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2906">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>New York Dragoons Regiment, 1st (1863-1865)</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3869">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>New York Infantry Regiment, 130th (1862-1863)</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Songs and music.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3024">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>New York Cavalry Regiment, 19th (1863)</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Dentists</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Poetry.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Northville (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Williams</primary_name>
+        <rest_of_name>Samuel Purdy</rest_of_name>
+        <dates>1811-1891</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>New York Dragoons Regiment, 1st (1863-1865)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>New York Infantry Regiment, 130th (1862-1863)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Songs and music.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>New York Cavalry Regiment, 19th (1863)</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/1684">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dentistry</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7830">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Interiors.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8384">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Offices.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/290">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Jackson</primary_name>
         <rest_of_name>Walter Hinckley</rest_of_name>
         <dates>1840-1930</dates>
@@ -134,6 +187,5 @@
         <scopecontent>Photos of Jackson in his office and with a patient.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

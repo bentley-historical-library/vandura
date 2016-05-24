@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8743 Bimu F44 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/131">
+        <corpname encodinganalog="110">
           <primary_name>Betsey Barbour House (University of Michigan)</primary_name>
         </corpname>
       </origination>
@@ -28,24 +27,26 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6630</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6630</p>
+      </odd>
     </descgrp>
     <bioghist>Women's dormitory at the University of Michigan.</bioghist>
     <scopecontent>Secretary's book, minutes of meetings, and related printed material.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7794">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Dormitories</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student housing.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/131">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Betsey Barbour House (University of Michigan)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

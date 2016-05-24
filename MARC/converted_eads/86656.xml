@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86656 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/7204">
+        <persname encodinganalog="100">
           <primary_name>Wittum</primary_name>
           <rest_of_name>Marion</rest_of_name>
           <dates>1843-1933</dates>
@@ -30,26 +29,28 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1333</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1333</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier from Genesee County, Michigan who served in Company A, Tenth Michigan Infantry during the Civil War. Full name Francis Marion Wittum.</bioghist>
     <scopecontent>Letters to Lester and Marian Parrish concerning his wartime service.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8256">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Genesee County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1558">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 10th (1862-1865)</subordinate_name>
         <subordinate_name>Company A</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

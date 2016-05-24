@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88426 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/3530">
+        <persname encodinganalog="100">
           <primary_name>Hull</primary_name>
           <rest_of_name>Lawrence Cameron</rest_of_name>
           <dates>d. 1916</dates>
@@ -30,19 +29,21 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1278</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1278</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan, class of 1877.</bioghist>
     <scopecontent>Signatures of classmates and faculty members.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/2410">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Autographs.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1032">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Class of 1877</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

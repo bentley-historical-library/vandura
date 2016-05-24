@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2011137 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="local" ref="/agents/families/576">
+        <famname encodinganalog="100">
           <family_name>Tayler family (Detroit, Mich.)</family_name>
         </famname>
       </origination>
@@ -31,7 +30,10 @@
     <descgrp>
       <accruals>Further accruals are expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10589, 9693</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10589, 9693</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -40,31 +42,59 @@
     <bioghist>Detroit, Michigan family. Some members of the family graduated from the University of Michigan. Theron Tayler was an engineer, University of Michigan class of 1908 (eng.) A related member, Josiah Clark was a Detroit grocer. The Farmer family is also represented in the collection.</bioghist>
     <scopecontent>Genealogy and other vital information found in family Bible; travel diaries of Josiah Clark of trips to Canada and New York city; notebook with production and sales information maintained by Theron Tayler from brick-making business, 1921-1931; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/4649">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2999">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3196">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Clark</primary_name>
         <rest_of_name>Josiah.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3068">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Tayler</primary_name>
         <rest_of_name>Theron.</rest_of_name>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/253">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Farmer family</family_name>
       </famname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/645">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Taylor family</family_name>
       </famname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Clark</primary_name>
+        <rest_of_name>Josiah.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Tayler</primary_name>
+        <rest_of_name>Theron.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Farmer family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Taylor family</family_name>
+      </famname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/461">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Clark family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Farmer family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Taylor family</family_name>
       </famname>
     </controlaccess>
     <dsc>
@@ -91,6 +121,5 @@
         <scopecontent>Portraits of Tayler, Clark and Farmer family members.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

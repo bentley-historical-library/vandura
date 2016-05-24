@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0437 Bimu 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2147">
+        <corpname encodinganalog="110">
           <primary_name>Mosher-Jordan Halls (University of Michigan)</primary_name>
         </corpname>
       </origination>
@@ -28,22 +27,41 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9150</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9150</p>
+      </odd>
     </descgrp>
     <bioghist>University of Michigan student residence halls.</bioghist>
     <scopecontent>Scrapbooks containing clippings, photographs, and memorabilia detailing student life and activities.</scopecontent>
     <controlaccess>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2147">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Mosher-Jordan Halls (University of Michigan)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Mosher-Jordan Halls (University of Michigan)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3354">
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Mosher-Jordan Halls (University of Michigan)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Women college students</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
@@ -71,10 +89,5 @@
         <scopecontent>Scrapbooks contain photographs depicting social activities.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
-    <container label="Volume" type="volume">3</container>
-    <container label="Volume" type="volume">4</container>
-    <container label="Volume" type="volume">5</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>91474 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5163">
+        <persname encodinganalog="100">
           <primary_name>Ryan</primary_name>
           <rest_of_name>Mack.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7981</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7981</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,34 +40,74 @@
     <bioghist>Resident of Brimley, Michigan, and later Ann Arbor, Michigan; 1912 graduate of the University of Michigan. Full name Michael Mackay Ryan.</bioghist>
     <scopecontent>Scrapbook of his student years at the University of Michigan, including memorabilia and photographs.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5163">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Ryan</primary_name>
         <rest_of_name>Mack.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1901-1910.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Ryan</primary_name>
+        <rest_of_name>Mack.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4419">
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Fayette (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2881">
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Ryan</primary_name>
+        <rest_of_name>Mack.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Kappa Sigma Fraternity</primary_name>
         <subordinate_name>Alpha Zeta Chapter (University of Michigan)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
       </corpname>
     </controlaccess>
     <dsc>
@@ -90,6 +132,5 @@
         <scopecontent>Photographs of student activities at the University of Michigan, including activities of Kappa Sigma fraternity; also 1911 photos of Fayette, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Oversize Box" type="box">1</container>
   </archdesc>
 </ead>

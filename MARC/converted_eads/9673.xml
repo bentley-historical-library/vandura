@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9673 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1014">
+        <persname encodinganalog="100">
           <primary_name>Steinman</primary_name>
           <rest_of_name>D. B.</rest_of_name>
           <fuller_form>(David Barnard)</fuller_form>
@@ -37,24 +36,26 @@ analog, mono.</physfacet>
         <head>Publication, Distribution, Etc.</head>
         <p>1954.</p>
       </odd>
-      <acqinfo>Donor: 8481</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8481</p>
+      </odd>
     </descgrp>
     <bioghist>Designer of the Mackinac Bridge.</bioghist>
     <scopecontent>Address to an unidentified meeting related to the beginning of construction of the Mackinac Bridge.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/4838">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Sound recordings.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3638">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Mackinac Bridge (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1014">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Steinman</primary_name>
         <rest_of_name>D. B.</rest_of_name>
         <fuller_form>(David Barnard)</fuller_form>
         <dates>1886-1960</dates>
       </persname>
     </controlaccess>
-    <container label="Sd Rec Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85907 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/7293">
+        <persname encodinganalog="100">
           <primary_name>Chase</primary_name>
           <rest_of_name>Frank R.</rest_of_name>
           <dates>b. 1839</dates>
@@ -30,18 +29,20 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1734</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1734</p>
+      </odd>
     </descgrp>
     <bioghist>Student at Gregory's College in Kalamazoo, Michigan.</bioghist>
     <scopecontent>Student exercise book kept while attending Gregory's College.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6886">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Kalamazoo (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/372">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Gregory's College (Kalamazoo, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

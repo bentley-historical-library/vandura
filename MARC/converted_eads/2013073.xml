@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2013073 Bb 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2846">
+        <corpname encodinganalog="110">
           <primary_name>Neological Foundation</primary_name>
         </corpname>
       </origination>
@@ -31,32 +30,34 @@
     <descgrp>
       <accruals>Further accruals are not expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 7788</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7788</p>
+      </odd>
     </descgrp>
     <bioghist>The Neological Foundation was established by Hugh Greer Carruthers in about 1935, headquartered in Chicago, for the spiritual improvement and economic self-betterment of its members. At some point the foundation's headquarters was moved to Bangor, Mich.</bioghist>
     <scopecontent>Publications of the foundation, including "Personal Development" (10 parts) and "Are You Enjoying Abundance?" along with form letters sent to members.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7383">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Theosophy</term>
         <term type="geographic">United States.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5532">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Bangor (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2550">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Carruthers</primary_name>
         <rest_of_name>Hugh Greer</rest_of_name>
         <dates>1867-1960</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/2550">
+      <persname source="local" encodinganalog="700">
         <primary_name>Carruthers</primary_name>
         <rest_of_name>Hugh Greer</rest_of_name>
         <dates>1867-1960</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2846">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Neological Foundation</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

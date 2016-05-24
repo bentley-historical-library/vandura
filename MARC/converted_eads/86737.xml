@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86737 Ba 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2398">
+        <corpname encodinganalog="110">
           <primary_name>First Baptist Church (Saline, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,29 +27,31 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1058, 2244</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1058, 2244</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes of the congregation, membership rolls, minutes of trustees, 1845-1868, and historical sketches by Bessie Collins and Andrew J. Warren.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3556">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Saline (Mich.)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3315">
+      <persname source="local" encodinganalog="700">
         <primary_name>Collins</primary_name>
         <rest_of_name>Bessie Ellora Carven</rest_of_name>
         <dates>1886-</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1539">
+      <persname source="local" encodinganalog="700">
         <primary_name>Warren</primary_name>
         <rest_of_name>Andrew Jackson</rest_of_name>
         <dates>b. 1856</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3004">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Baptists</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Saline.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2015035 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5513">
+        <persname encodinganalog="100">
           <primary_name>Boles</primary_name>
           <rest_of_name>Giles G.</rest_of_name>
         </persname>
@@ -31,19 +30,21 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 647</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 647</p>
+      </odd>
     </descgrp>
     <bioghist>Giles Boles was acting dean of the University of Michgian Medical School in 1990; Boles served as dean of Medical School in 1991-1996.</bioghist>
     <scopecontent>A bound volume containing Bole's pathology lecture notes and lab write-ups as a sophomore.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3134">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Pathology.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5513">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Boles</primary_name>
         <rest_of_name>Giles G.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

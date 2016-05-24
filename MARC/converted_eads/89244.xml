@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89244 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5596">
+        <persname encodinganalog="100">
           <primary_name>Rupright</primary_name>
           <rest_of_name>Howard Jesse</rest_of_name>
           <dates>d. 1973</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5508</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5508</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,63 +41,87 @@
     <bioghist>Engineering student at the University of Michigan.</bioghist>
     <scopecontent>Scrapbook containing photographs of University of Michigan student activities, programs, and other memorabilia.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/889">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>College of Engineering</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/1336">
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dwellings</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2629">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Streets</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2570">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women college students</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/5036">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/4448">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Streets.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8292">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Huron River (Oakland County-Monroe County, Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1651">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Junior Jamboree</subordinate_name>
         <term type="temporal">1914.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Choral organizations.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student housing</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="temporal">1911-1920.</term>
@@ -123,6 +149,5 @@
         <scopecontent>Photographs of student activities.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89248 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/1021">
+        <persname encodinganalog="100">
           <primary_name>Saier</primary_name>
           <rest_of_name>Edward Herbert.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3356</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3356</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,41 +40,58 @@
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Photograph album and loose materials from scrapbook relating to student life at the University of Michigan.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4304">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Fraternities and sororities.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2110">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan Union</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1660">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan Union Opera</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Buildings.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2973">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Junior Hop</subordinate_name>
         <term type="temporal">1914.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1901-1910.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
       </corpname>
     </controlaccess>
     <dsc>
@@ -97,6 +116,5 @@
         <scopecontent>Photographs of renderings for proposed Michigan Union building; photos of Michigan Union Opera and other Union functions; photos of most University buildings (ca. 1915); and photos of various athletic and class activities.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

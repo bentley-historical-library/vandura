@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851955 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/6986">
+        <persname encodinganalog="100">
           <primary_name>North</primary_name>
           <rest_of_name>Lucian Gregory</rest_of_name>
           <dates>1850-1925</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3726</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3726</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,49 +41,90 @@
     <bioghist>Medical student at University of Michigan, later Tecumseh, Michigan physician.</bioghist>
     <scopecontent>Diaries of daily activities and various trips to South, record of patients; scrapbooks containing obituaries of residents of Tecumseh, Michigan; and photograph.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3154">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Medicine</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Tecumseh.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6109">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Physicians</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Tecumseh.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1173">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Voyages and travels.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2268">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Southern States</term>
         <term type="topical">Description and travel.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1223">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Tecumseh (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/761">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Medicine and Surgery</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1861-1870.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Medicine</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Tecumseh.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Physicians</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Tecumseh.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Southern States</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Tecumseh (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Medicine and Surgery</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1861-1870.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6986">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>North</primary_name>
         <rest_of_name>Lucian Gregory</rest_of_name>
         <dates>1850-1925</dates>
@@ -109,6 +152,5 @@
         <scopecontent>Portrait.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

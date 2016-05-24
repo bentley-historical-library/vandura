@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0507 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5311">
+        <persname encodinganalog="100">
           <primary_name>Schaffer</primary_name>
           <rest_of_name>John Jacob.</rest_of_name>
         </persname>
@@ -29,27 +28,29 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9544</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9544</p>
+      </odd>
     </descgrp>
     <bioghist>Pioneer resident to Ann Arbor, Michigan.</bioghist>
     <scopecontent>Account book, 1798-1861 (largely in German).</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8157">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Account books.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4129">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">German Americans</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5311">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Schaffer</primary_name>
         <rest_of_name>John Jacob.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

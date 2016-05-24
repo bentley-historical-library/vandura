@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2011052 Aa 1</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local" ref="/agents/people/3987">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Price</primary_name>
           <rest_of_name>Betsy</rest_of_name>
         </persname>
@@ -31,18 +30,20 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10536</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10536</p>
+      </odd>
     </descgrp>
     <scopecontent>Abstract of Olivia B. Hall subdivision to the city of Ann Arbor, Michigan. Olivia B. Hall was an Ann Arbor suffragist.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2764">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Hall</primary_name>
         <rest_of_name>Olivia Bigelow.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

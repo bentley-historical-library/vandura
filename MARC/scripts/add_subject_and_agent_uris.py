@@ -31,7 +31,7 @@ def add_uris(subject_to_aspace_id_map, agent_to_aspace_id_map, ead_dir):
 			f.write(etree.tostring(tree, encoding="utf-8", xml_declaration=True, pretty_print=True))
 
 def add_subject_and_agent_uris(marc_dir):
-	ead_dir = join(marc_dir, "converted_eads")
+	ead_dir = join(marc_dir, "converted_eads_working")
 	subjects_and_agents_dir = join(marc_dir, "subjects_agents")
 	subject_to_aspace_id_map = json.load(open(join(subjects_and_agents_dir, "subjects_to_aspace_ids.json")))
 	agent_to_aspace_id_map = json.load(open(join(subjects_and_agents_dir, "agents_to_aspace_ids.json")))

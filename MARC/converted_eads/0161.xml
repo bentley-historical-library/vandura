@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0161 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4407">
+        <persname encodinganalog="100">
           <primary_name>Herz</primary_name>
           <rest_of_name>Helga.</rest_of_name>
         </persname>
@@ -29,25 +28,27 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor:9123</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor:9123</p>
+      </odd>
     </descgrp>
     <bioghist>Detroit, Mich., peace activist.</bioghist>
     <scopecontent>Miscellaneous papers chiefly relating to Rebecca Shelley.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/294">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Pacifism</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4407">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Herz</primary_name>
         <rest_of_name>Helga.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5358">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Shelley</primary_name>
         <rest_of_name>Rebecca</rest_of_name>
         <dates>1887-1984</dates>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>921111 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5333">
+        <persname encodinganalog="100">
           <primary_name>Weting</primary_name>
           <rest_of_name>Howard W.</rest_of_name>
         </persname>
@@ -29,27 +28,29 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6093</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6093</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Romeo, Michigan, who served in the 315th U.S. Army Ambulance Company during World War I.</bioghist>
     <scopecontent>Describes his daily activities from the time he left training camp for France, through experiences at the front and after the end of the war, to his return to the U.S.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/695">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1914-1918.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5333">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Weting</primary_name>
         <rest_of_name>Howard W.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3829">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Ambulance Service</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

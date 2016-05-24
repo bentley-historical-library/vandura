@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8878 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/3646">
+        <persname encodinganalog="100">
           <primary_name>Braidwood</primary_name>
           <rest_of_name>Charles M.</rest_of_name>
         </persname>
@@ -29,19 +28,20 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 731</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 731</p>
+      </odd>
     </descgrp>
     <bioghist>Student at Almont, Michigan, High School, later at the Detroit College of Medicine.</bioghist>
     <scopecontent>Notes on class lectures.</scopecontent>
     <controlaccess>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1623">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Almont High School (Mich.)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3324">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Detroit College of Medicine</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

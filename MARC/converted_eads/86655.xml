@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86655 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5391">
+        <persname encodinganalog="100">
           <primary_name>Baker</primary_name>
           <rest_of_name>Vestall A.</rest_of_name>
           <dates>1843-1928</dates>
@@ -34,27 +33,28 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 6692</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6692</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier of Howell, Michigan, who served in Co. I, 8th Michigan Infantry during the Civil War.</bioghist>
     <scopecontent>Brief entries describing military skirmishes and incidents of camp life.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1314">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 8th (1861-1865)</subordinate_name>
         <subordinate_name>Company I</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

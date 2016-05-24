@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>87491 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4730">
+        <persname encodinganalog="100">
           <primary_name>Attwood</primary_name>
           <rest_of_name>Stephen S.</rest_of_name>
           <fuller_form>(Stephen Stanley)</fuller_form>
@@ -31,7 +30,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2593</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2593</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -40,42 +42,72 @@
     <bioghist>Dean of University of Michigan College of Engineering.</bioghist>
     <scopecontent>Congratulatory correspondence upon his appointment as dean; and certificate of naturalization, 1895, of his father William Rix Attwood.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4730">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Attwood</primary_name>
         <rest_of_name>Stephen S.</rest_of_name>
         <fuller_form>(Stephen Stanley)</fuller_form>
         <dates>1897-1965</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1481">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Attwood</primary_name>
         <rest_of_name>William Rix.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/889">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>College of Engineering</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Attwood</primary_name>
+        <rest_of_name>Stephen S.</rest_of_name>
+        <fuller_form>(Stephen Stanley)</fuller_form>
+        <dates>1897-1965</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Attwood</primary_name>
+        <rest_of_name>William Rix.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4438">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Forge shops</term>
         <term type="geographic">Ohio</term>
         <term type="geographic">Cleveland.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3735">
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Attwood</primary_name>
+        <rest_of_name>Stephen S.</rest_of_name>
+        <fuller_form>(Stephen Stanley)</fuller_form>
+        <dates>1897-1965</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>College of Engineering</subordinate_name>
         <subordinate_name>Class of 1918</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1932">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Electrical Engineering</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1792">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Willow Run Laboratories</primary_name>
       </corpname>
     </controlaccess>
@@ -101,6 +133,5 @@
         <scopecontent>Portraits, group portraits of the University of Michigan Engineering Class of 1918, the Executive Committee of Willow Run Laboratories, and the Electrical Engineering faculty; also a view of a Cleveland, Ohio, high school forge room.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

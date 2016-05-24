@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8872 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/4286">
+        <persname encodinganalog="100">
           <primary_name>Blackmar</primary_name>
           <rest_of_name>Charles Blair.</rest_of_name>
         </persname>
@@ -29,19 +28,21 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 895</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 895</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Lenawee County, Michigan.</bioghist>
     <scopecontent>Receipt, 1834; and essay 1874, describing visit to Ann Arbor, Michigan and to the University of Michigan.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">History.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

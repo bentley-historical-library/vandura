@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>911 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/182">
+        <persname encodinganalog="100">
           <primary_name>Clark</primary_name>
           <rest_of_name>Joe.</rest_of_name>
         </persname>
@@ -33,29 +32,31 @@
         <head>Publication, Distribution, Etc.</head>
         <p>1938-1981.</p>
       </odd>
-      <acqinfo>Donor: 7785</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7785</p>
+      </odd>
     </descgrp>
     <bioghist>Professional photographer of Detroit, Michigan, who specialized in photographing the Tennessee hill country.</bioghist>
     <scopecontent>Publications of Clark's works, videotape of interview with Clark together with film featuring his son, Junebug Clark, and one of Clark's Tennessee photos.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8333">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Videotapes.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6081">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Tennessee.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/182">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Clark</primary_name>
         <rest_of_name>Joe.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6659">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Clark</primary_name>
         <rest_of_name>Junebug.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

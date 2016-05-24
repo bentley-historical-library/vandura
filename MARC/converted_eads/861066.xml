@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>861066 Bp.3 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1667">
+        <corpname encodinganalog="110">
           <primary_name>Otsego County Historical Society</primary_name>
         </corpname>
       </origination>
@@ -28,16 +27,18 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7266</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7266</p>
+      </odd>
     </descgrp>
     <scopecontent>Transcriptions of burial monument inscriptions from Otsego County, Michigan, cemeteries.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1120">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Cemeteries</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Otsego County.</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

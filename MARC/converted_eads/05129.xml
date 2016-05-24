@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>05129 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3186">
+        <persname encodinganalog="100">
           <primary_name>Fialka</primary_name>
           <rest_of_name>Albert</rest_of_name>
           <dates>1922-</dates>
@@ -30,26 +29,28 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9640</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9640</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Flint, Mich., who served with the U.S. 9th Infantry Division during World War II; 1950 graduate of the University of Michigan.</bioghist>
     <scopecontent>Reminiscence of his combat experience.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5489">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1939-1945</term>
         <term type="genre_form">Personal narratives, American.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3186">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Fialka</primary_name>
         <rest_of_name>Albert</rest_of_name>
         <dates>1922-</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3150">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Infantry Division, 9th</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

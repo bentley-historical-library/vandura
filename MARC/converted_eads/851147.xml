@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851147 BP.3</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2149">
+        <corpname encodinganalog="110">
           <primary_name>Eaton County Pioneer and Historical Society</primary_name>
         </corpname>
       </origination>
@@ -29,32 +28,33 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 2220</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2220</p>
+      </odd>
     </descgrp>
     <bioghist>Originally called the Pioneer Society of Eaton and Ingham Counties.</bioghist>
     <scopecontent>Constitution, minutes of meetings, biographical sketches, and obituaries; also material on Ingham County (Mich.)</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6015">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Frontier and pioneer life</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ingham County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1883">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Frontier and pioneer life</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Eaton County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3959">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ingham County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1682">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Eaton County (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2149">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Eaton County Pioneer and Historical Society</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">2</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>006 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/80">
+        <famname encodinganalog="100">
           <family_name>Boardman family</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4567</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4567</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Formerly part of Ness, Nina L. Nina L. Ness collection, 1793-1900.</p>
@@ -37,67 +39,66 @@
     <bioghist>Boardman family of Dixon, Ill., including brothers John D. Boardman who served in Batteries F and I, 1st Illinois Artillery, during the Civil War, and William H. Boardman, 1868 graduate of the University of Michigan.</bioghist>
     <scopecontent>Letters of John and William Boardman to their father, John's letters describe his military experiences in Georgis, Tennessee, and Mississippi, including descriptions of fighting around Atlanta during the summer of 1864. William's letters describe his experiences as a freshman, including examinations, freshman-sophomore rivalry, and money problems. The collection also includes a few pages of William's accounts.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8058">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Georgia</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3658">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Mississippi</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4743">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Tennessee</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3732">
+      <persname source="local" encodinganalog="700">
         <primary_name>Boardman</primary_name>
         <rest_of_name>John D.</rest_of_name>
         <dates>d. 1875</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6173">
+      <persname source="local" encodinganalog="700">
         <primary_name>Boardman</primary_name>
         <rest_of_name>William Henry</rest_of_name>
         <dates>1846-1914</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4184">
+      <persname source="local" encodinganalog="700">
         <primary_name>Ness</primary_name>
         <rest_of_name>Nina L.</rest_of_name>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/80">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Boardman family</family_name>
       </famname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1074">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Illinois Light Artillery Regiment, 1st (1861-1865)</subordinate_name>
         <subordinate_name>Battery F</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/74">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Illinois Light Artillery Regiment, 1st (1861-1865)</subordinate_name>
         <subordinate_name>Battery I</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="genre_form">Correspondence.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1861-1870.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

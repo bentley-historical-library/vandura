@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>861051 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/351">
+        <famname encodinganalog="100">
           <family_name>Briggs family</family_name>
         </famname>
       </origination>
@@ -28,24 +27,26 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3025</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3025</p>
+      </odd>
     </descgrp>
     <bioghist>Residents of Ionia County, Michigan.</bioghist>
     <scopecontent>Correspondence from family members in Bristol, New York, and in central Montana; and miscellanea.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6180">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Bristol (N.Y.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3867">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ionia County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5747">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Montana.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2492">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">New York (State)</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

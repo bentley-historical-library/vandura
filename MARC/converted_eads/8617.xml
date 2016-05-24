@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8617 BJ</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1303">
+        <corpname encodinganalog="110">
           <primary_name>Sons of Temperance of North America</primary_name>
           <subordinate_name>Phoenix Division, No. 79</subordinate_name>
         </corpname>
@@ -29,31 +28,33 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3046</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3046</p>
+      </odd>
     </descgrp>
     <scopecontent>Record of meetings, including "Black Book" with names, occupation, place of residence, and cause of expulsion of former members from the organization.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1028">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Social reformers</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Dexter.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/249">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Temperance</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Dexter.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8500">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Dexter (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6120">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Washtenaw County (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1303">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Sons of Temperance of North America</primary_name>
         <subordinate_name>Phoenix Division, No. 79</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

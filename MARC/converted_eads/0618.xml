@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0618 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/6420">
+        <persname encodinganalog="100">
           <primary_name>Fariss</primary_name>
           <rest_of_name>Walter B.</rest_of_name>
         </persname>
@@ -29,32 +28,34 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9664</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9664</p>
+      </odd>
     </descgrp>
     <bioghist>Officer in the University of Michigan Reserve Officers' Training Corps and drill instructor with the University of Michigan Band.</bioghist>
     <scopecontent>Copies of photographs of Band formations, 1938-1939, and a letter from Tom Harmon to Fariss written in 1940 on the day of the football game against Michigan State.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6420">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Fariss</primary_name>
         <rest_of_name>Walter B.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6031">
+      <persname source="local" encodinganalog="700">
         <primary_name>Harmon</primary_name>
         <rest_of_name>Tom</rest_of_name>
         <dates>1919-1990</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/899">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Band</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Football.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

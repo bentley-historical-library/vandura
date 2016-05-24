@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85259 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/767">
+        <persname encodinganalog="100">
           <primary_name>Lichty</primary_name>
           <rest_of_name>George Maurice</rest_of_name>
           <dates>1905-1983</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5872</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5872</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,48 +41,76 @@
     <bioghist>Newspaper cartoonist, creator of the syndicated feature, "Grin and Bear It".</bioghist>
     <scopecontent>Correspondence, newsclippings, photographs and printed material concerning his career.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/97">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Caricatures and cartoons.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8072">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Cartoonists</term>
         <term type="geographic">United States.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5918">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Journalists</term>
         <term type="geographic">United States.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/601">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Newspapers</term>
         <term type="topical">Sections, columns, etc.</term>
         <term type="topical">Comics.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/767">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Lichty</primary_name>
         <rest_of_name>George Maurice</rest_of_name>
         <dates>1905-1983</dates>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Caricatures and cartoons.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Cartoonists</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Journalists</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Newspapers</term>
+        <term type="topical">Sections, columns, etc.</term>
+        <term type="topical">Comics.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lichty</primary_name>
+        <rest_of_name>George Maurice</rest_of_name>
+        <dates>1905-1983</dates>
+      </persname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7429">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Beauty contests.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8232">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Cartoonists.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/528">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Cartoons (Commentary)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6529">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Hope</primary_name>
         <rest_of_name>Bob</rest_of_name>
         <dates>1903-2003</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6277">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Russell</primary_name>
         <rest_of_name>Jane</rest_of_name>
         <dates>1921-2011</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lichty</primary_name>
+        <rest_of_name>George Maurice</rest_of_name>
+        <dates>1905-1983</dates>
       </persname>
     </controlaccess>
     <dsc>
@@ -105,6 +135,5 @@
         <scopecontent>Informal photos, including photo of Lichty with Bob Hope, Jane Russell, and beauty pageant winner.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

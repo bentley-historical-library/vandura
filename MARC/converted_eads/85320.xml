@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85320 AA Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/2091">
+        <persname encodinganalog="100">
           <primary_name>Minges</primary_name>
           <rest_of_name>Abram</rest_of_name>
           <dates>1818-1908</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6851</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6851</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Accompanied by partial transcript.</p>
@@ -39,23 +41,22 @@
     <bioghist>Battle Creek, Michigan, resident.</bioghist>
     <scopecontent>Description of his travels from Missouri to California and his life in the California gold fields.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655" ref="/subjects/4649">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5448">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Overland journeys to the Pacific.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5770">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Travelers</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/867">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Battle Creek (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4504">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">California</term>
         <term type="topical">Gold discoveries.</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86573 Aa 1 Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/7358">
+        <persname encodinganalog="100">
           <primary_name>Maltman</primary_name>
           <rest_of_name>John S.</rest_of_name>
           <dates>b. 1840</dates>
@@ -35,28 +34,30 @@
         <head>Reproduction Note</head>
         <p>Typescript copy.</p>
       </odd>
-      <acqinfo>Donor: 3630</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3630</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier from Ypsilanti, Michigan, who served in the Seventeenth Michigan Infantry during the Civil War.</bioghist>
     <scopecontent>Letter in diary form written to his brother describing wartime activities.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2804">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ypsilanti (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/589">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 17th (1862-1865)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

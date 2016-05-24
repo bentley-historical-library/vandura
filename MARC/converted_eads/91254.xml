@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -34,16 +33,19 @@ oil</physfacet>
         <head>Publication, Distribution, Etc.</head>
         <p>[19--].</p>
       </odd>
-      <acqinfo>Donor: 7847</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7847</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="gmgpc" encodinganalog="655" ref="/subjects/810">
+      <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Paintings.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3385">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Philippines.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/102">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Rizal</primary_name>
         <rest_of_name>José</rest_of_name>
         <dates>1861-1896</dates>

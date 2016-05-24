@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9846 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4320">
+        <persname encodinganalog="100">
           <primary_name>McClure</primary_name>
           <rest_of_name>Katherine A.</rest_of_name>
         </persname>
@@ -33,47 +32,62 @@
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 8733</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8733</p>
+      </odd>
     </descgrp>
     <bioghist>Katherine (Truax) McClure was a native of Big Rapids, Michigan, who later moved to Ann Arbor where she became an elementary school teacher at Angell School.</bioghist>
     <scopecontent>Personal correspondence, 1941-1950, exchanged with several friends, including one in the military, and from family remaining in Big Rapids; and collected photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3505">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Big Rapids (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4320">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>McClure</primary_name>
         <rest_of_name>Katherine A.</rest_of_name>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/1189">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Automobiles.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2194">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Carriages and coaches.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7672">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Schools</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Big Rapids.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8005">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Lumber industry</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Big Rapids.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7503">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Clothing stores</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Big Rapids.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8294">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Business enterprises</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Big Rapids.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Big Rapids (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Big Rapids (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McClure</primary_name>
+        <rest_of_name>Katherine A.</rest_of_name>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -97,6 +111,5 @@
         <scopecontent>Photographs of the Big Rapids, Michigan, area showing family activities, family carriages and automobiles, men's store, lumber mills, and school scenes.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

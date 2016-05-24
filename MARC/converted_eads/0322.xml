@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0322 Aa2 Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1823">
+        <persname encodinganalog="100">
           <primary_name>Ervay</primary_name>
           <rest_of_name>George W.</rest_of_name>
           <dates>1842 or 3-1863</dates>
@@ -31,41 +30,43 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 9293</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9293</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier in Company H, 16th Michigan Infantry, during the Civil War. Ervay was killed at Gettysburg, Pa.</bioghist>
     <scopecontent>Diary recording daily events of military life, including the battle of Chancellorsville; also includes transcript of diary.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/4649">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3375">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Virginia</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6205">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Pennsylvania</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1823">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Ervay</primary_name>
         <rest_of_name>George W.</rest_of_name>
         <dates>1842 or 3-1863</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2228">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 16th (1861-1865)</subordinate_name>
         <subordinate_name>Company H</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

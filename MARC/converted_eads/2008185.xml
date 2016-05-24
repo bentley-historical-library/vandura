@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2008185 BD Outsize</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/96">
+        <corpname encodinganalog="110">
           <primary_name>Freemasons</primary_name>
           <subordinate_name>Ann Arbor Lodge, no. 85 (Ann Arbor, Mich.)</subordinate_name>
         </corpname>
@@ -35,22 +34,23 @@
         <head>Reproduction Note</head>
         <p>Photostats (negative) in part.</p>
       </odd>
-      <acqinfo>Donor: 1180, 7821</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1180, 7821</p>
+      </odd>
     </descgrp>
     <bioghist>Masonic lodge established in Ann Arbor, Mich., in 1855 and disbanded in 1869.</bioghist>
     <scopecontent>Annual returns of officers and members; minutes of meetings.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2675">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Freemasonry</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/96">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Freemasons</primary_name>
         <subordinate_name>Ann Arbor Lodge, no. 85 (Ann Arbor, Mich.)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">2</container>
   </archdesc>
 </ead>

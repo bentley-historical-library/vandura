@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89327 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/7448">
+        <persname encodinganalog="100">
           <primary_name>Thomas</primary_name>
           <rest_of_name>William Wallace</rest_of_name>
           <dates>1853-1926</dates>
@@ -30,32 +29,34 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4847</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4847</p>
+      </odd>
     </descgrp>
     <bioghist>Law student at the University of Michigan.</bioghist>
     <scopecontent>Letter describes in detail political speech given by Michigan senator Zachariah Chandler, also with mention of law school activities.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6201">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">Politics and government</term>
         <term type="temporal">1869-1877.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/757">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Chandler</primary_name>
         <rest_of_name>Zachariah</rest_of_name>
         <dates>1813-1879</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3117">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Law</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1871-1880.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

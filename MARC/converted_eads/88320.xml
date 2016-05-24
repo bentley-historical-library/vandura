@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88320 Aa 1</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local" ref="/agents/people/7087">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Redfield</primary_name>
           <rest_of_name>Amelia Frink</rest_of_name>
         </persname>
@@ -33,21 +32,24 @@
         <head>Reproduction Note</head>
         <p>Largely typescripts with some originals.</p>
       </odd>
-      <acqinfo>Donor: 920</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 920</p>
+      </odd>
     </descgrp>
     <bioghist>Marshall, Michigan, local historian.</bioghist>
     <scopecontent>Collected letters, journal fragments, and other materials relating to the early settlement of Marshall, Michigan, and the activities of its citizens; also papers relating to the migration of Marshall citizens to California to form a cooperative settlement; and letter concerning Hastings, Michigan.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1310">
+      <subject source="ftamc" encodinganalog="655"/>
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">California.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5684">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Hastings (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5814">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Marshall (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

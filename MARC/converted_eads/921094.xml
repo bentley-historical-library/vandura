@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>921094 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/4094">
+        <persname encodinganalog="100">
           <primary_name>Ellsworth</primary_name>
           <rest_of_name>Oliver C.</rest_of_name>
           <dates>1841 or 2-1864</dates>
@@ -30,22 +29,24 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8035</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8035</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Howell, Michigan, who served in the 22nd Michigan Infantry during the Civil War.</bioghist>
     <scopecontent>Letter to his parents describing camp life.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3071">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 22nd (1862-1865)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

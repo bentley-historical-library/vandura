@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>95109 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/33">
+        <persname encodinganalog="100">
           <primary_name>Sharpe</primary_name>
           <rest_of_name>Ernest W.</rest_of_name>
         </persname>
@@ -29,20 +28,22 @@
     </did>
     <descgrp>
       <userestrict>Donor reserves literary rights to quotations totalling more than 250 words.</userestrict>
-      <acqinfo>Donor: 8424</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8424</p>
+      </odd>
     </descgrp>
     <bioghist>Manager of Wilson Dairy, Livonia, Mich.</bioghist>
     <scopecontent>Memoir of his experiences as an infantryman in World War II, including D-Day, Battle of the Bulge, liberation of Dachau, and other events.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4532">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1939-1945</term>
         <term type="geographic">Personal narratives, American.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Sharpe</primary_name>
         <rest_of_name>Ernest W.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

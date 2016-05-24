@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85512 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="local" ref="/agents/families/405">
+        <famname encodinganalog="100">
           <family_name>Inglis family (Detroit and Ann Arbor, Mich.)</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5973, 6007, 3770, 9871</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5973, 6007, 3770, 9871</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,68 +39,122 @@
     <bioghist>Detroit and Ann Arbor, Michigan, family.</bioghist>
     <scopecontent>Family history and genealogy; records of David Inglis, Detroit physician, including journal of trip to Hamburg, Germany, 1872, compositions, and letter, 1867, concerning student life at the University of Michigan, and medical lecture, 1877; his wife, Jenny Baxter Inglis; papers of children Henry Baxter Inglis, and Dorothy Inglis Milliken; miscellanea of other family members; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2167">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Medicine</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7034">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Transatlantic voyages.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6382">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6174">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6643">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Hamburg (Germany)</term>
         <term type="topical">Description and travel.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6740">
+      <persname source="local" encodinganalog="700">
         <primary_name>Inglis</primary_name>
         <rest_of_name>David</rest_of_name>
         <dates>1850-1922</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/2592">
+      <persname source="local" encodinganalog="700">
         <primary_name>Inglis</primary_name>
         <rest_of_name>Henry Baxter</rest_of_name>
         <dates>1884-1966</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4036">
+      <persname source="local" encodinganalog="700">
         <primary_name>Inglis</primary_name>
         <rest_of_name>Jennie Baxter</rest_of_name>
         <dates>1855-1939</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1383">
+      <persname source="local" encodinganalog="700">
         <primary_name>Milliken</primary_name>
         <rest_of_name>Dorothy Inglis.</rest_of_name>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/110">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>English family</family_name>
       </famname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1861-1870.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Medicine</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Transatlantic voyages.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hamburg (Germany)</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Inglis</primary_name>
+        <rest_of_name>David</rest_of_name>
+        <dates>1850-1922</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Inglis</primary_name>
+        <rest_of_name>Henry Baxter</rest_of_name>
+        <dates>1884-1966</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Inglis</primary_name>
+        <rest_of_name>Jennie Baxter</rest_of_name>
+        <dates>1855-1939</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Milliken</primary_name>
+        <rest_of_name>Dorothy Inglis.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>English family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1861-1870.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/5277">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Children.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8246">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Families.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4801">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Women.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/358">
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>English family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Class of 1871</subordinate_name>
       </corpname>
@@ -125,6 +181,5 @@
         <scopecontent>Portraits of Agnes Inglis and other family members.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

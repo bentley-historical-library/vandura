@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851530 BB.2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/2949">
+        <corpname encodinganalog="110">
           <primary_name>Johnson and Thompson Hardware Store (Ionia, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,21 +27,23 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Business records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1995">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Hardware stores</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ionia.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7474">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ionia (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

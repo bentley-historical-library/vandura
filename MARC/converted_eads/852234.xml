@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852234 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="local" ref="/agents/families/39">
+        <famname encodinganalog="100">
           <family_name>Selden family</family_name>
         </famname>
       </origination>
@@ -33,18 +32,20 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 5621</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5621</p>
+      </odd>
     </descgrp>
     <bioghist>Marquette, Michigan family.</bioghist>
     <scopecontent>Family correspondence, legal papers, and other materials concerning life in Michigan's Upper Peninsula.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/590">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Marquette (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6395">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Upper Peninsula (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

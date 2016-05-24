@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>87284 Bimu C529 1</unitid>
       <origination>
-        <corpname encodinganalog="111" source="lcnaf" ref="/agents/corporate_entities/2077">
+        <corpname encodinganalog="111">
           <primary_name>University of Michigan Near East Research Expedition,</primary_name>
         </corpname>
       </origination>
@@ -28,24 +27,26 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1801</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1801</p>
+      </odd>
     </descgrp>
     <scopecontent>Detailed descriptions of University of Michigan expedition to the Near East.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7412">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Archaeology.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6039">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Middle East.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Research.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/2077">
+      <corpname source="lcnaf" encodinganalog="611">
         <primary_name>University of Michigan Near East Research Expedition,</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85993 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/519">
+        <famname encodinganalog="100">
           <family_name>Cornelius family</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1189, 2725</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1189, 2725</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,49 +39,89 @@
     <bioghist>William Cornelius family of Adrian, Michigan.</bioghist>
     <scopecontent>Family correspondence of members of the Cornelius and Mead families, including letter, 1844, from Colonel Richard Cornelius concerning economic and business activities in New York state and national politics; school copybooks; typescript of a diary of a trip around the world taken by William R. and Charles S. Cornelius in 1925; genealogy, poems, photographs, and other miscellanea.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5690">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Poetry.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6823">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Voyages around the world.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2337">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Travelers.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5228">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Adrian (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2492">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">New York (State)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/5712">
+      <persname source="local" encodinganalog="700">
         <primary_name>Cornelius</primary_name>
         <rest_of_name>Richard.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4693">
+      <persname source="local" encodinganalog="700">
         <primary_name>Cornelius</primary_name>
         <rest_of_name>William R.</rest_of_name>
         <dates>b. 1859</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1560">
+      <persname source="local" encodinganalog="700">
         <primary_name>Mead</primary_name>
         <rest_of_name>Nathaniel</rest_of_name>
         <dates>b. 1750</dates>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/519">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Cornelius family</family_name>
       </famname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Poetry.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages around the world.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Travelers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Adrian (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">New York (State)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Cornelius</primary_name>
+        <rest_of_name>Richard.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Cornelius</primary_name>
+        <rest_of_name>William R.</rest_of_name>
+        <dates>b. 1859</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Mead</primary_name>
+        <rest_of_name>Nathaniel</rest_of_name>
+        <dates>b. 1750</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Cornelius family</family_name>
+      </famname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3822">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Russell</primary_name>
         <rest_of_name>Stephen</rest_of_name>
         <dates>1797-1884</dates>
       </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Cornelius family</family_name>
+      </famname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -103,6 +145,5 @@
         <scopecontent>Family photos including portrait of Stephen Russell of Detroit, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

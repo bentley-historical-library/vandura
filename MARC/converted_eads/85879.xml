@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85879 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5739">
+        <persname encodinganalog="100">
           <primary_name>Campbell</primary_name>
           <rest_of_name>Caroline Belzora</rest_of_name>
           <dates>1859-1926</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1278, 3734</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1278, 3734</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,39 +41,72 @@
     <bioghist>Grand Rapids, Michigan, civic leader.</bioghist>
     <scopecontent>Correspondence, papers, and photographs, concerning the state seal of Michigan, physical restoration of the Michigan constitution of 1835, replacement of the Michigan plaque in the Washington monument, and Michigan-Wisconsin territorial dispute, 1924-1925.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3612">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Grand Rapids.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7091">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Boundary disputes</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2121">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Bondary disputes</term>
         <term type="geographic">Wisconsin.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7858">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Grand Rapids (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1843">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Michigan</term>
         <term type="topical">Seal.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2083">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan</primary_name>
         <term type="uniform_title">Constitution (1835)</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1057">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan State Federation of Art</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Grand Rapids.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Boundary disputes</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Bondary disputes</term>
+        <term type="geographic">Wisconsin.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Grand Rapids (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Seal.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan</primary_name>
+        <term type="uniform_title">Constitution (1835)</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan State Federation of Art</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2621">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">State seals</term>
         <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Seal.</term>
       </subject>
     </controlaccess>
     <dsc>
@@ -96,6 +131,5 @@
         <scopecontent>Pictures and samples of the Michigan State Seal, illustrating its development.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

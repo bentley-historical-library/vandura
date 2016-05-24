@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89484 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/6127">
+        <persname encodinganalog="100">
           <primary_name>Foster</primary_name>
           <rest_of_name>Calvin.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 945</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 945</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -38,41 +40,58 @@
     <bioghist>Employee of the Ann Arbor, Michigan-based camera company, Argus, Inc.</bioghist>
     <scopecontent>Collected materials relating to Argus and its predecessor firms, Cavac Corporation and International Radio Corporation, including dealer and employee newsletters, catalogs and promotional materials, clippings, visual materials, and miscellaneous.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2245">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Camera industry.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2923">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Argus, inc</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2993">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Cavac Corporation</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1935">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>International Radio Corporation</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Camera industry.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Argus, inc</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Cavac Corporation</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>International Radio Corporation</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4529">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Business enterprises</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2383">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Industrial facilities.</term>
       </subject>
-      <subject source="local" encodinganalog="650" ref="/subjects/4533">
+      <subject source="local" encodinganalog="650">
         <term type="topical">Photographic apparatus and supplies.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/40">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Photography industry</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/1363">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Business enterprises.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Argus, inc</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -96,6 +115,5 @@
         <scopecontent>Photographs and slide strip detailing company activities.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

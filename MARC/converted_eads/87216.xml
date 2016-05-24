@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>87216 BImu F21</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2014">
+        <corpname encodinganalog="110">
           <primary_name>Lyceum Club (University of Michigan)</primary_name>
         </corpname>
       </origination>
@@ -28,20 +27,22 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1024</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1024</p>
+      </odd>
     </descgrp>
     <bioghist>Student organization established to give its members practice in the art of public speaking.</bioghist>
     <scopecontent>Record book containing constitution, minutes, accounts, and reports of lecture courses given by the club.</scopecontent>
     <controlaccess>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Societies, etc.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2014">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Lyceum Club (University of Michigan)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

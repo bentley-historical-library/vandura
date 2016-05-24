@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852075 Ba 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2742">
+        <corpname encodinganalog="110">
           <primary_name>United Presbyterian Church in the U.S.A</primary_name>
           <subordinate_name>Presbytery of Petoskey (Mich.)</subordinate_name>
         </corpname>
@@ -30,23 +29,24 @@
     </did>
     <descgrp>
       <altformavail>available on microfilm as part of Presbytery of Lake Superior microfilm collection. Minutes, 1888-1923</altformavail>
-      <acqinfo>Donor: 1123</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1123</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes, registers of churches, and financial records.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6410">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Petoskey (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2559">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United Presbyterian Church in the U.S.A</primary_name>
         <term type="geographic">Michigan.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2742">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United Presbyterian Church in the U.S.A</primary_name>
         <subordinate_name>Presbytery of Petoskey (Mich.)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

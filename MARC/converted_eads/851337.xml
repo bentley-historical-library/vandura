@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851337 Bq</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3790">
+        <corpname encodinganalog="110">
           <primary_name>Trades and Labor Council of Grand Rapids (Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,18 +27,20 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3988</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3988</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2980">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Labor</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Grand Rapids.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7858">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Grand Rapids (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

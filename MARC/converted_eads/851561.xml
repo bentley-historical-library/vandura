@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851561 CB.2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1927">
+        <corpname encodinganalog="110">
           <primary_name>Schoolcraft (Kalamazoo County, Mich. : Township)</primary_name>
         </corpname>
       </origination>
@@ -32,21 +31,23 @@
         <head>Reproduction Note</head>
         <p>Microfilm copy available.</p>
       </odd>
-      <acqinfo>Donor: 265</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 265</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/149">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Taxation</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Schoolcraft (Kalamazoo County : Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3108">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Kalamazoo County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1182">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Schoolcraft (Kalamazoo County, Mich. : Township)</term>
       </subject>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

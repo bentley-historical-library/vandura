@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852207 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2420">
+        <persname encodinganalog="100">
           <primary_name>Reichle</primary_name>
           <rest_of_name>Lewis.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1581</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1581</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,55 +40,76 @@
     <bioghist>Instructor in Latin at University of Michigan.</bioghist>
     <scopecontent>Personal account books, 1887-1908, Latin teaching manual, and miscellaneous correspondence and grade reports; and biographical sketches, poems and notes of Flora Slayton Reichle, including letters received about her book Rimes from the Great Lakes; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/8157">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Account books.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5690">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Poetry.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5852">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Reichle</primary_name>
         <rest_of_name>Flora Slayton.</rest_of_name>
         <term type="uniform_title">Rimes from the Great Lakes.</term>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/5852">
+      <persname source="local" encodinganalog="700">
         <primary_name>Reichle</primary_name>
         <rest_of_name>Flora Slayton.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/378">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Dept. of Classical Studies</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Account books.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Poetry.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Reichle</primary_name>
+        <rest_of_name>Flora Slayton.</rest_of_name>
+        <term type="uniform_title">Rimes from the Great Lakes.</term>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Reichle</primary_name>
+        <rest_of_name>Flora Slayton.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of Classical Studies</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="gmgpc" encodinganalog="655" ref="/subjects/6346">
+      <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Tintypes.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/3209">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Costumes.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7516">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Schools</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Saginaw.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4801">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Women.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/3494">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Saginaw (Mich.)</term>
         <term type="topical">Schools.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5852">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Reichle</primary_name>
         <rest_of_name>Flora Slayton.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2420">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Reichle</primary_name>
         <rest_of_name>Lewis.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1986">
+      <persname source="local" encodinganalog="700">
         <primary_name>Brown</primary_name>
         <rest_of_name>Fedora E. D.</rest_of_name>
       </persname>
@@ -113,6 +136,5 @@
         <scopecontent>Portraits of Lewis Reichle and his wife, Flora Slayton Reichle; informal photos; and photo of a school in Saginaw, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

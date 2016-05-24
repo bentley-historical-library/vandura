@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89469 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5981">
+        <persname encodinganalog="100">
           <primary_name>Zimmerman</primary_name>
           <rest_of_name>Minnie Fuller.</rest_of_name>
         </persname>
@@ -33,21 +32,23 @@
         <head>Reproduction Note</head>
         <p>Typescript copies.</p>
       </odd>
-      <acqinfo>Donor: 612</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 612</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Albion, Michigan.</bioghist>
     <scopecontent>Historical sketches of the Albion Public Schools.</scopecontent>
     <controlaccess>
-      <subject source="local" encodinganalog="691" ref="/subjects/2366">
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Albion (Calhoun County, Mich.)</term>
         <term type="topical">Schools.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7327">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Education</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Albion (Calhoun County)</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

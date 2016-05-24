@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88370 CC</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/354">
+        <corpname encodinganalog="110">
           <primary_name>Grandville (Mich.)</primary_name>
           <subordinate_name>Board of Education</subordinate_name>
         </corpname>
@@ -29,19 +28,21 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2380</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2380</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes of meetings of school board district no. 1.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/702">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Education</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Grandville.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Grandville (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

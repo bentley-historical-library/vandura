@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851863 BH</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1946">
+        <corpname encodinganalog="110">
           <primary_name>High School Athletic Committee of Michigan</primary_name>
         </corpname>
       </origination>
@@ -28,19 +27,21 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 100</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 100</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes and rules.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3333">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Athletics</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8098">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Education</term>
         <term type="geographic">Michigan.</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

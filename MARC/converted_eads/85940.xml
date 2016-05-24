@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85940 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/6075">
+        <persname encodinganalog="100">
           <primary_name>Clayton</primary_name>
           <rest_of_name>E. B.</rest_of_name>
         </persname>
@@ -29,23 +28,25 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1180</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1180</p>
+      </odd>
     </descgrp>
     <bioghist>Muskegon, Michigan, tailor.</bioghist>
     <scopecontent>Record of tailoring orders.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Business records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/32">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Tailors</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Muskegon.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7989">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Muskegon (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88206 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/615">
+        <famname encodinganalog="100">
           <family_name>Davis family</family_name>
         </famname>
       </origination>
@@ -28,46 +27,48 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3215</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3215</p>
+      </odd>
     </descgrp>
     <scopecontent>Family letters and documents, collected in part by Mrs E. E. Davis; include indenture, 1771; also Civil War letters of John McIsaac of the 5th Michigan Infantry, and of New York family members, Patrick Moran and Frank Moran, an officer with the 73rd New York Regiment who wrote one letter as a prisoner of war from Libby Prison.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5264">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Prisoners of war</term>
         <term type="geographic">Confederate States of America.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5666">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Prisoners of war</term>
         <term type="geographic">United States.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1099">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="topical">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/740">
+      <persname source="local" encodinganalog="700">
         <primary_name>Moran</primary_name>
         <rest_of_name>Frank.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/7488">
+      <persname source="local" encodinganalog="700">
         <primary_name>McIsaac</primary_name>
         <rest_of_name>John.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1564">
+      <persname source="local" encodinganalog="700">
         <primary_name>Moran</primary_name>
         <rest_of_name>Patrick.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/310">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>New York Infantry Regiment, 73rd (1861-1865)</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3512">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 5th (1861-1865)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

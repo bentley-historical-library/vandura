@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86782 BA</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1604">
+        <corpname encodinganalog="110">
           <primary_name>Swedish Evangelical Lutheran Church (Alabaster, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -29,23 +28,25 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6389</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6389</p>
+      </odd>
     </descgrp>
     <scopecontent>List of names with record of dues (?)</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4499">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Lutheran Church</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Alabaster.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4912">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Swedish Americans</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/47">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Alabaster (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2013126 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1848">
+        <persname encodinganalog="100">
           <primary_name>Irwin</primary_name>
           <rest_of_name>George M.</rest_of_name>
         </persname>
@@ -32,7 +31,10 @@
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
       <otherfindaid>Finding aid in the library.</otherfindaid>
-      <acqinfo>Donor: 10787</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10787</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -41,44 +43,80 @@
     <bioghist>Student at the University of Michigan and manager of the University of Michigan Band.</bioghist>
     <scopecontent>Materials include photographs, posters and concert programs that Irwin collected during his time with the University Band.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5889">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Music</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8355">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Musicians</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1848">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Irwin</primary_name>
         <rest_of_name>George M.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/899">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Band</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Bands.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3386">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>School of Music</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Music</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Musicians</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Irwin</primary_name>
+        <rest_of_name>George M.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Band</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Bands.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>School of Music</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/5533">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Marching bands</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1476">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">University of Michigan.</term>
         <term type="topical">Band.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Irwin</primary_name>
+        <rest_of_name>George M.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Bands.</term>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -104,6 +142,5 @@
         <scopecontent>Primarily photographs of marching band, formations and group photographs of entire band, and photographs of Irwin.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

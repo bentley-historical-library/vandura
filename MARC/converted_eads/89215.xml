@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89215 Aa 1 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/2261">
+        <persname encodinganalog="100">
           <primary_name>Reynolds family.</primary_name>
         </persname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5302</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5302</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,52 +39,65 @@
     <bioghist>Dell and Estavan Reynolds family of Manton, Michigan.</bioghist>
     <scopecontent>Letters of Estavan D. Reynolds to parents concerning life in Montana and personal matters; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5747">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Montana.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6594">
+      <persname source="local" encodinganalog="700">
         <primary_name>Reynolds</primary_name>
         <rest_of_name>Dell.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4815">
+      <persname source="local" encodinganalog="700">
         <primary_name>Reynolds</primary_name>
         <rest_of_name>Estavan.</rest_of_name>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Montana.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Reynolds</primary_name>
+        <rest_of_name>Dell.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Reynolds</primary_name>
+        <rest_of_name>Estavan.</rest_of_name>
+      </persname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/1037">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Buildings</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Cadillac.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2191">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dwellings</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Manton.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7892">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Laborers.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/51">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Lumber industry.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2130">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Railroads</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/2581">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Cadillac (Mich.)</term>
         <term type="topical">Buildings.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6262">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Kalkaska County (Mich.)</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/7799">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Manton (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/164">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Sigma (Mich.)</term>
       </subject>
     </controlaccess>
@@ -108,6 +123,5 @@
         <scopecontent>Photo of dwelling; and photos of Jack Rennie's lumber camp in Kalkaska County, Michigan, and of Cummer &amp; Diggins Mill in Cadillac, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

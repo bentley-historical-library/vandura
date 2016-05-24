@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89431 Ac Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/500">
+        <famname encodinganalog="100">
           <family_name>White family</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 54, 995</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 54, 995</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,49 +39,77 @@
     <bioghist>New York state and Ann Arbor, Michigan family.</bioghist>
     <scopecontent>Genealogical materials, land grants and deeds, commissions, and other documents of various family members; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2492">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">New York (State)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6801">
+      <persname source="local" encodinganalog="700">
         <primary_name>White</primary_name>
         <rest_of_name>Alfred H.</rest_of_name>
         <fuller_form>(Alfred Holmes)</fuller_form>
         <dates>1873-1953</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4800">
+      <persname source="local" encodinganalog="700">
         <primary_name>White</primary_name>
         <rest_of_name>Dexter</rest_of_name>
         <dates>1819-1903</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/996">
+      <persname source="local" encodinganalog="700">
         <primary_name>White</primary_name>
         <rest_of_name>Samuel</rest_of_name>
         <dates>1794-1871</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6371">
+      <persname source="local" encodinganalog="700">
         <primary_name>White</primary_name>
         <rest_of_name>Thomas S.</rest_of_name>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
-        <term type="genre_form">Photographs.</term>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2822">
-        <term type="topical">Anniversaries.</term>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">New York (State)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6801">
+      <persname source="local" encodinganalog="700">
         <primary_name>White</primary_name>
         <rest_of_name>Alfred H.</rest_of_name>
         <fuller_form>(Alfred Holmes)</fuller_form>
         <dates>1873-1953</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1523">
+      <persname source="local" encodinganalog="700">
+        <primary_name>White</primary_name>
+        <rest_of_name>Dexter</rest_of_name>
+        <dates>1819-1903</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>White</primary_name>
+        <rest_of_name>Samuel</rest_of_name>
+        <dates>1794-1871</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>White</primary_name>
+        <rest_of_name>Thomas S.</rest_of_name>
+      </persname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Anniversaries.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>White</primary_name>
+        <rest_of_name>Alfred H.</rest_of_name>
+        <fuller_form>(Alfred Holmes)</fuller_form>
+        <dates>1873-1953</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>White</primary_name>
         <rest_of_name>Rebecca Mason Downey.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3402">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Chemistry</subordinate_name>
       </corpname>
@@ -106,6 +136,5 @@
         <scopecontent>Portraits of Alfred Holmes White, alone and with his wife, Rebecca D. White; informal photographs of the Whites' fiftieth wedding anniversary celebration; and photograph of Alfred White with chemistry students at University of Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

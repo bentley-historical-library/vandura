@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2011134 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2366">
+        <persname encodinganalog="100">
           <primary_name>Smith</primary_name>
           <rest_of_name>Donald N.</rest_of_name>
         </persname>
@@ -31,35 +30,37 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 9057</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9057</p>
+      </odd>
     </descgrp>
     <bioghist>Donald N. Smith was Associate Director of the Office for the Study of Automotive Transportation in the University of Michigan Transportation Research Institute. Smith was interested in the technological innovations of numerical controls in manufacturing and the machine tool industry.</bioghist>
     <scopecontent>Contains a chronicle of numeric control developments and a compilation of resources and documents relating to the development and growth of the field including Smith's guide "Numerical Control Innovation and Revolution: An Archival Research Aid," and an autobiography of pioneer John T. Parsons.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4422">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Machine-tools</term>
         <term type="topical">Numerical control</term>
         <term type="topical">History.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6769">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Machine-tools</term>
         <term type="topical">Numerical control</term>
         <term type="topical">Programming</term>
         <term type="topical">History.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3178">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Tool and die industry.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5753">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Parsons</primary_name>
         <rest_of_name>John T.</rest_of_name>
         <dates>1913-</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2366">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Smith</primary_name>
         <rest_of_name>Donald N.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

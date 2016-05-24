@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>07150 Ba 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2751">
+        <corpname encodinganalog="110">
           <primary_name>Christ Episcopal Church (Dearborn, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -34,31 +33,33 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 9951</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9951</p>
+      </odd>
     </descgrp>
     <bioghist>Church organized 1866.</bioghist>
     <scopecontent>Documents relating to construction of church building 1870-1871, and reminiscence by Henry A. Haigh.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7961">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Dearborn (Mich.)</term>
         <term type="topical">Church history.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4853">
+      <persname source="local" encodinganalog="700">
         <primary_name>Haigh</primary_name>
         <rest_of_name>Henry A.</rest_of_name>
         <fuller_form>(Henry Allyn)</fuller_form>
         <dates>1854-</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2751">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Christ Episcopal Church (Dearborn, Mich.)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/309">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Episcopal Church</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Dearborn</term>
         <term type="topical">History.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

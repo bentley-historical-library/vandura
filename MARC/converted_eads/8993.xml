@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8993 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/2624">
+        <persname encodinganalog="100">
           <primary_name>Peterson</primary_name>
           <rest_of_name>Robert G.</rest_of_name>
         </persname>
@@ -33,29 +32,31 @@
         <head>Reproduction Note</head>
         <p>Photocopy.</p>
       </odd>
-      <acqinfo>Donor: 4994</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4994</p>
+      </odd>
     </descgrp>
     <bioghist>Student in education at the University of Michigan.</bioghist>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6337">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Cook</primary_name>
         <rest_of_name>William W.</rest_of_name>
         <fuller_form>(William Wilson)</fuller_form>
         <dates>1858-1930</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Buildings.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">History.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3463">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Law School</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

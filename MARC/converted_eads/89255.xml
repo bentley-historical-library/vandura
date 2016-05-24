@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89255 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/229">
+        <persname encodinganalog="100">
           <primary_name>Schauppner</primary_name>
           <rest_of_name>Louis</rest_of_name>
           <dates>1903-1972</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5270</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5270</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,53 +41,86 @@
     <bioghist>Former convict in Jackson State Prison in Michigan.</bioghist>
     <scopecontent>Correspondence, primarily with sociologist Read Bain, concerning life in prison, parole, and rehabilitation; and miscellaneous articles, newspaper clippings, and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1770">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Prisons</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5283">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Criminals</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/229">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Schauppner</primary_name>
         <rest_of_name>Louis</rest_of_name>
         <dates>1903-1972</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6025">
+      <persname source="local" encodinganalog="700">
         <primary_name>Bain</primary_name>
         <rest_of_name>Read</rest_of_name>
         <dates>1892-</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/399">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>State Prison of Southern Michigan</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Prisons</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Criminals</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Schauppner</primary_name>
+        <rest_of_name>Louis</rest_of_name>
+        <dates>1903-1972</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Bain</primary_name>
+        <rest_of_name>Read</rest_of_name>
+        <dates>1892-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>State Prison of Southern Michigan</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/5221">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Automobile racing.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2233">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Shooting.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/4838">
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Schauppner</primary_name>
+        <rest_of_name>Louis</rest_of_name>
+        <dates>1903-1972</dates>
+      </persname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Sound recordings.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/1571">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Oral histories.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4583">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Prisoners</term>
         <term type="geographic">Michigan</term>
         <term type="topical">Biography.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6078">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Criminals</term>
         <term type="geographic">Michigan</term>
         <term type="topical">Biography.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6974">
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Schauppner</primary_name>
+        <rest_of_name>Louis</rest_of_name>
+        <dates>1903-1972</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
         <primary_name>Jones</primary_name>
         <rest_of_name>Thomas L.</rest_of_name>
       </persname>
@@ -128,6 +163,5 @@
         <scopecontent>Recording of interview conducted by Thomas Jones in which Schauppner recounts his life as a criminal, his years in prison, and his return to society.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

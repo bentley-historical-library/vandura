@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>87102 Aa 1 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/7271">
+        <persname encodinganalog="100">
           <primary_name>Hessenmueller</primary_name>
           <rest_of_name>Edwin Louis</rest_of_name>
           <dates>d. 1916</dates>
@@ -30,30 +29,31 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1278; 5547</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1278; 5547</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Letter, March 3, 1865, concerning life in Ann Arbor, Michigan, and at the University; and history, 1868, of the U-M Class of 1868.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1798">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">German Americans</term>
         <term type="topical">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/955">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Class of 1868</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1861-1870.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

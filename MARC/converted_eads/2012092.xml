@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012092 Aa 2</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local" ref="/agents/people/2739">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Graves</primary_name>
           <rest_of_name>Letha L.</rest_of_name>
         </persname>
@@ -31,22 +30,24 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 3161</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3161</p>
+      </odd>
     </descgrp>
     <scopecontent>Genealogical materials, originally compiled by Frank Leverett, then maintained and updated by Letha L. Graves, relating to the Leverett and Turner family.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3815">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Leverett</primary_name>
         <rest_of_name>Frank</rest_of_name>
         <dates>1859-1943</dates>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/279">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Leverett family</family_name>
       </famname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/512">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Turner family</family_name>
       </famname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

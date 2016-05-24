@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88417 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/4532">
+        <persname encodinganalog="100">
           <primary_name>Hubbs</primary_name>
           <rest_of_name>Carl L.</rest_of_name>
           <fuller_form>(Carl Leavitt)</fuller_form>
@@ -31,18 +30,20 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3628</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3628</p>
+      </odd>
     </descgrp>
     <bioghist>University of Michigan zoologist.</bioghist>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1266">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Water</term>
         <term type="topical">Pollution.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6984">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Saginaw River (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

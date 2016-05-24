@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -60,34 +59,33 @@ analog, 33 ¹/₃ rpm, stereo.
       </odd>
     </descgrp>
     <controlaccess>
-      <subject source="local" encodinganalog="830" ref="/subjects/2634">
+      <subject source="local" encodinganalog="830">
         <term type="uniform_title">Laboratory series.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4369">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Band music.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8194">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Band music, Arranged.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/7425">
+      <persname source="local" encodinganalog="700">
         <primary_name>Cavender</primary_name>
         <rest_of_name>George.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/5023">
+      <persname source="local" encodinganalog="700">
         <primary_name>Revelli</primary_name>
         <rest_of_name>William D.</rest_of_name>
         <fuller_form>(William Donald)</fuller_form>
         <dates>1902-1994</dates>
       </persname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/899">
+      <corpname source="local" encodinganalog="710">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Band</subordinate_name>
       </corpname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/440">
+      <corpname source="local" encodinganalog="710">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Symphony Band</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Phonograph record" type="record">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86545 Aa 1 Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/2833">
+        <persname encodinganalog="100">
           <primary_name>Heald</primary_name>
           <rest_of_name>Warren E.</rest_of_name>
           <dates>b. 1839</dates>
@@ -31,26 +30,28 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 4667</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4667</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier from Ionia County, Michigan, who served during the Civil War.</bioghist>
     <scopecontent>Letters to family members describing battles, daily events and personal matters; also discharge certificate.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3867">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ionia County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2257">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 16th (1861-1865)</subordinate_name>
         <subordinate_name>Company B</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

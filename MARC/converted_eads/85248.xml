@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85248 Bd 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1994">
+        <corpname encodinganalog="110">
           <primary_name>Order of Pythian Sisters</primary_name>
           <subordinate_name>Arbor Temple no. 80 (Ann Arbor, Mich.)</subordinate_name>
         </corpname>
@@ -29,32 +28,34 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4452</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4452</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes of meetings, financial records, and miscellanea; also one volume records of Knights of Pythias, Ann Arbor Lodge No. 44.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4842">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor</term>
         <term type="topical">Societies and clubs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1994">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Order of Pythian Sisters</primary_name>
         <subordinate_name>Arbor Temple no. 80 (Ann Arbor, Mich.)</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/311">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Knights of Pythias</primary_name>
         <subordinate_name>Ann Arbor Lodge no. 44 (Ann Arbor, Mich.)</subordinate_name>
       </corpname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/311">
+      <corpname source="local" encodinganalog="710">
         <primary_name>Knights of Pythias</primary_name>
         <subordinate_name>Ann Arbor Lodge no. 44 (Ann Arbor, Mich.)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

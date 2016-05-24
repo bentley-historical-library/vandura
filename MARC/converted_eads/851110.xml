@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851110 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4043">
+        <persname encodinganalog="100">
           <primary_name>Dodge</primary_name>
           <rest_of_name>Stanley Dalton</rest_of_name>
           <dates>1897-1966</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1100</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1100</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,49 +41,69 @@
     <bioghist>Professor of geography at University of Michigan and Episcopal priest.</bioghist>
     <scopecontent>Correspondence, 1963, received upon occasion of his retirement from the University, published geography articles, sermons, newspaper clippings, and other materials, relating primarily to his becoming an Episcopal priest; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/814">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Sermons.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3796">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Clergy</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/309">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Episcopal Church</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1609">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Geography</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="local" encodinganalog="655">
+        <term type="genre_form">Sermons.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Episcopal Church</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Geography</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/3191">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Churches</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor,</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4152">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Clergy.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7404">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Soldiers</term>
         <term type="topical">American.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/7163">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Churches.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4043">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Dodge</primary_name>
         <rest_of_name>Stanley Dalton</rest_of_name>
         <dates>1897-1966</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2118">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>St. Andrew's Episcopal Church (Ann Arbor, Mich.)</primary_name>
       </corpname>
     </controlaccess>
@@ -107,6 +129,5 @@
         <scopecontent>Portraits and informal photos relating to his career.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

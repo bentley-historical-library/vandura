@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -23,16 +22,18 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1991</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1991</p>
+      </odd>
     </descgrp>
     <scopecontent>Card file of photographers' names extracted from Michigan State Gazeteer and Business Directory, 1860-1931. Index has not been checked for accuracy or completeness.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7726">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Photographers</term>
         <term type="geographic">Michigan</term>
         <term type="genre_form">Directories.</term>
       </subject>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851429 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1454">
+        <persname encodinganalog="100">
           <primary_name>Harris</primary_name>
           <rest_of_name>Samuel Smith</rest_of_name>
           <dates>1841-1888</dates>
@@ -30,41 +29,42 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2172</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2172</p>
+      </odd>
     </descgrp>
     <bioghist>Episcopal bishop of Michigan.</bioghist>
     <scopecontent>Sermons, lectures, correspondence and miscellanea; also include volumes of sermons.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/814">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Sermons.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3796">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Clergy</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1454">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Harris</primary_name>
         <rest_of_name>Samuel Smith</rest_of_name>
         <dates>1841-1888</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/7334">
+      <persname source="local" encodinganalog="700">
         <primary_name>Brooks</primary_name>
         <rest_of_name>Phillips</rest_of_name>
         <dates>1835-1893</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3305">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Episcopal Church</primary_name>
         <subordinate_name>Diocese of Michigan</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/309">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Episcopal Church</primary_name>
         <term type="geographic">Michigan.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1035">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>St. Paul's Episcopal Church (Flint, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

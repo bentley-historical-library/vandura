@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851109 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/6203">
+        <persname encodinganalog="100">
           <primary_name>Dibble</primary_name>
           <rest_of_name>Fred A.</rest_of_name>
           <title>Mrs</title>
@@ -30,22 +29,24 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 607</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 607</p>
+      </odd>
     </descgrp>
     <bioghist>Historical sketch written by Plymouth, Michigan, resident.</bioghist>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6954">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Plymouth (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3776">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>First Presbyterian Church (Plymouth, Mich.)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3226">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Presbyterian Church in the U.S.A</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Plymouth.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

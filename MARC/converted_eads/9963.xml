@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9963 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5793">
+        <persname encodinganalog="100">
           <primary_name>Munro</primary_name>
           <rest_of_name>Donald J.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5617</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5617</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,28 +40,51 @@
     <bioghist>Associate with University of Michigan Center for Chinese Studies; member of an official U.S. delegation to China whose purpose was to study that country's educational system.</bioghist>
     <scopecontent>Notes and photographs documenting his visit to the People's Republic of China.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7062">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">China</term>
         <term type="topical">Description and travel.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7827">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">China</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1949-1976.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5793">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Munro</primary_name>
         <rest_of_name>Donald J.</rest_of_name>
       </persname>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/517">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">China</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Guangzhou (China)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7265">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Beijing (China)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8281">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Nanjing (Jiangsu Sheng, China)</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Munro</primary_name>
+        <rest_of_name>Donald J.</rest_of_name>
+      </persname>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">China</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">China</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1949-1976.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Munro</primary_name>
+        <rest_of_name>Donald J.</rest_of_name>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -83,6 +108,5 @@
         <scopecontent>Color photographs of views of Chinese cities, including Guangzhou, Beijing, and Nanjing.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -16,7 +16,7 @@
     <did>
       <unitid>89118 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5077">
+        <persname encodinganalog="100">
           <primary_name>Nyberg</primary_name>
           <rest_of_name>Chris.</rest_of_name>
         </persname>
@@ -28,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4649</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4649</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -36,16 +39,21 @@
     </descgrp>
     <scopecontent>Collected materials relating to the history of self-propelled combines and centrifugal harvesters; includes photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3124">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Agricultural machinery.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Agricultural machinery.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/3748">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Agricultural machinery &amp; implements.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1557">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Oliver Corporation</primary_name>
       </corpname>
     </controlaccess>

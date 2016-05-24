@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9439 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/715">
+        <persname encodinganalog="100">
           <primary_name>Armstrong</primary_name>
           <rest_of_name>William C.</rest_of_name>
           <fuller_form>(William Coleman)</fuller_form>
@@ -30,26 +29,28 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8111</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8111</p>
+      </odd>
     </descgrp>
     <bioghist>Medical student at the University of Michigan, graduate of the class of 1893.</bioghist>
     <scopecontent>Notebooks from classes taken in the University of Michigan Medical School.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/715">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Armstrong</primary_name>
         <rest_of_name>William C.</rest_of_name>
         <fuller_form>(William Coleman)</fuller_form>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/761">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Medicine and Surgery</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Outlines, syllabi, etc.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -33,57 +32,59 @@ sd., col. and b&amp;w</physfacet>
         <head>General Note</head>
         <p>VHS</p>
       </odd>
-      <acqinfo>Donor: 8600</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8600</p>
+      </odd>
     </descgrp>
     <scopecontent>History of Ann Arbor, Michigan's Old West Side, a neighborhood originally settled by German Americans. Interviews with older residents and historical views of buildings are included.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8333">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Videotapes.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5952">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">German Americans</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor</term>
         <term type="topical">History.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1524">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">German Americans</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor</term>
         <term type="topical">Biography.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/657">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Old West Side (Ann Arbor, Mich.)</term>
         <term type="topical">History.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1893">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Old West Side (Ann Arbor, Mich.)</term>
         <term type="topical">Biography.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7946">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">History.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6341">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Biography.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1274">
+      <persname source="local" encodinganalog="700">
         <primary_name>Chappell</primary_name>
         <rest_of_name>David.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6931">
+      <persname source="local" encodinganalog="700">
         <primary_name>Steward</primary_name>
         <rest_of_name>Rob.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6789">
+      <persname source="local" encodinganalog="700">
         <primary_name>Shackman</primary_name>
         <rest_of_name>Grace.</rest_of_name>
       </persname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/2824">
+      <corpname source="local" encodinganalog="710">
         <primary_name>NorthStar Video Productions</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Video Box" type="box">6</container>
   </archdesc>
 </ead>

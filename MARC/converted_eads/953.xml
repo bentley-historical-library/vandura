@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>953 Bk 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1595">
+        <corpname encodinganalog="110">
           <primary_name>Numa Club of Ann Arbor</primary_name>
         </corpname>
       </origination>
@@ -32,42 +31,63 @@
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 8296</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8296</p>
+      </odd>
     </descgrp>
     <bioghist>Women's auxiliary of Ann Arbor Lions Club.</bioghist>
     <scopecontent>Membership books, clippings, photos, and miscellanea.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4842">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor</term>
         <term type="topical">Societies and clubs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5594">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Social life and customs.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1595">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Numa Club of Ann Arbor</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor</term>
+        <term type="topical">Societies and clubs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+        <term type="topical">Social life and customs.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Numa Club of Ann Arbor</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2523">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Offices</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7160">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Second hand sales.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4801">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Women.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/4730">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Offices.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Numa Club of Ann Arbor</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -91,6 +111,5 @@
         <scopecontent>Photos of offices and rummage sale.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

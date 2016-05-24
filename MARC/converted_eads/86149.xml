@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86149 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/7044">
+        <persname encodinganalog="100">
           <primary_name>Thompson</primary_name>
           <rest_of_name>William</rest_of_name>
           <dates>b. 1785</dates>
@@ -30,31 +29,33 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 781</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 781</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Rose, Michigan.</bioghist>
     <scopecontent>Letter describing travel and general conditions in Michigan and at University of Michigan.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1173">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Voyages and travels.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2948">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Rose (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3813">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Michigan</term>
         <term type="topical">Description and travel.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1865">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Kirkland</primary_name>
         <rest_of_name>Caroline M.</rest_of_name>
         <fuller_form>(Caroline Matilda)</fuller_form>
         <dates>1801-1864</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

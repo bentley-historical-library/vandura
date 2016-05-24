@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2008049 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3926">
+        <persname encodinganalog="100">
           <primary_name>Rousseau</primary_name>
           <rest_of_name>Albert J. J.</rest_of_name>
           <dates>1886-1931</dates>
@@ -32,31 +31,31 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 9363</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9363</p>
+      </odd>
     </descgrp>
     <bioghist>Professor of architecture at the University of Michigan.</bioghist>
     <scopecontent>Architectural drawings of Rousseau's home, 2001 Vinewood, Ann Arbor, Mich., and other sketches and drawings.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/1768">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Architectural drawings.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8406">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Architecture, Domestic</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3926">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Rousseau</primary_name>
         <rest_of_name>Albert J. J.</rest_of_name>
         <dates>1886-1931</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Tubes" type="tube">1</container>
-    <container label="Oversize Folder" type="folder">1</container>
   </archdesc>
 </ead>

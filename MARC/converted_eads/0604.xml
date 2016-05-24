@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0604 Bimu 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/2663">
+        <corpname encodinganalog="110">
           <primary_name>University of Michigan</primary_name>
           <subordinate_name>Audio-Visual Education Center</subordinate_name>
         </corpname>
@@ -33,23 +32,25 @@
         <head>Publication, Distribution, Etc.</head>
         <p>1963-1967.</p>
       </odd>
-      <acqinfo>Donor: 4408</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4408</p>
+      </odd>
     </descgrp>
     <scopecontent>Filmstrips with accompanying published narration on topics relating to the Tulip Festival, to the Ann Arbor Street Art Fair, to Michigan's Upper Peninsula, and to variations in Michigan's seasons.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655" ref="/subjects/5395">
+      <subject source="lcsh" encodinganalog="655">
         <term type="genre_form">Filmstrips.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6395">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Upper Peninsula (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/2043">
+      <corpname source="lcnaf" encodinganalog="611">
         <primary_name>Ann Arbor Art Fairs</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/1437">
+      <corpname source="lcnaf" encodinganalog="611">
         <primary_name>Tulip Time Festival</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

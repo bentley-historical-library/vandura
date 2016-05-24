@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88263 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/163">
+        <persname encodinganalog="100">
           <primary_name>Downey</primary_name>
           <rest_of_name>David.</rest_of_name>
         </persname>
@@ -29,18 +28,20 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2306</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2306</p>
+      </odd>
     </descgrp>
     <bioghist>Timber cruiser for the Wisconsin Land and Lumber Company, Hermansville, Michigan.</bioghist>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6071">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Logging</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3702">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Wisconsin Land &amp; Lumber Company</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

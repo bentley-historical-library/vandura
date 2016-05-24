@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>90128 Bb 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/3115">
+        <corpname encodinganalog="110">
           <primary_name>Marketing Resource Group</primary_name>
         </corpname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7744</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7744</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual material described separately.</p>
@@ -37,43 +39,67 @@
     <bioghist>Lansing, Michigan, public relations and marketing firm.</bioghist>
     <scopecontent>Planning documents, flyers, news clippings, advertisements and drafts, and reports of television and radio coverage of the campaign against Michigan Proposals A and B of 1989, which were intended to reform the financing of education in Michigan; also video and audio tapes of campaign advertising.</scopecontent>
     <controlaccess>
-      <subject source="local" encodinganalog="691" ref="/subjects/2873">
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
         <term type="topical">Politics and government</term>
         <term type="temporal">1981-1990.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8098">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Education</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3260">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Elections</term>
         <term type="geographic">Michigan</term>
         <term type="temporal">1989.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7650">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Michigan</term>
         <term type="topical">Politics and government</term>
         <term type="temporal">1951-</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3115">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Marketing Resource Group</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8333">
-        <term type="genre_form">Videotapes.</term>
-      </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8432">
-        <term type="topical">Education.</term>
-      </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/6073">
-        <term type="topical">Political elections</term>
-        <term type="temporal">1989.</term>
-      </subject>
-      <subject source="local" encodinganalog="650" ref="/subjects/1045">
+    </controlaccess>
+    <controlaccess>
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
         <term type="topical">Politics and government</term>
         <term type="temporal">1981-1990.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6686">
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Education</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Elections</term>
+        <term type="geographic">Michigan</term>
+        <term type="temporal">1989.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1951-</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Marketing Resource Group</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Videotapes.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Education.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Political elections</term>
+        <term type="temporal">1989.</term>
+      </subject>
+      <subject source="local" encodinganalog="650">
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1981-1990.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
         <primary_name>Patterson</primary_name>
         <rest_of_name>L. Brooks.</rest_of_name>
       </persname>
@@ -100,6 +126,5 @@
         <scopecontent>Videotape of campaign commercials, featuring L. Brooks Patterson, opposing Michigan Proposals A and B of 1989, which were intended to reform the financing of education in Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

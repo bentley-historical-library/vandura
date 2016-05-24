@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>87168 CC</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/2550">
+        <corpname encodinganalog="110">
           <primary_name>Ann Arbor Transportation Authority</primary_name>
         </corpname>
       </origination>
@@ -32,27 +31,29 @@
         <head>Reproduction Note</head>
         <p>Photocopy.</p>
       </odd>
-      <acqinfo>Donor: 7440</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7440</p>
+      </odd>
     </descgrp>
     <scopecontent>History of public transit in Ann Arbor, Michigan, prepared for the Ann Arbor Transportation authority by Nancy K. Murphy.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1716">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Bus lines</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor</term>
         <term type="topical">History.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/332">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Street-railroads</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor</term>
         <term type="topical">History.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4936">
+      <persname source="local" encodinganalog="700">
         <primary_name>Murphy</primary_name>
         <rest_of_name>Nancy K.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

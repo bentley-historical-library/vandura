@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86779 BA</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1091">
+        <corpname encodinganalog="110">
           <primary_name>Baptist Church (Milford, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -29,23 +28,25 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 2351</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2351</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes of the congregation, membership rolls, and history of the church, 1838-1884, by H. H. Hewitt.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3060">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Baptists</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Milford.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1652">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Milford (Mich.)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/867">
+      <persname source="local" encodinganalog="700">
         <primary_name>Hewitt</primary_name>
         <rest_of_name>H. H.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

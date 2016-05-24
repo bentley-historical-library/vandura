@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012080 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/396">
+        <persname encodinganalog="100">
           <primary_name>Staebler</primary_name>
           <rest_of_name>Donald E.</rest_of_name>
         </persname>
@@ -41,35 +40,37 @@
         <head>Participant or Performer</head>
         <p>Interviewer, Dale Leslie.</p>
       </odd>
-      <acqinfo>Donor: 6874</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6874</p>
+      </odd>
     </descgrp>
     <scopecontent>Interviewed Nov. 30, 2011, 101 years old.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/7344">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">DVDs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3170">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Farmers</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Dixboro.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4121">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Dixboro (Mich.)</term>
         <term type="topical">History.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/396">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Staebler</primary_name>
         <rest_of_name>Donald E.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/5248">
+      <persname source="local" encodinganalog="700">
         <primary_name>Campbell</primary_name>
         <rest_of_name>Jim.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/746">
+      <persname source="local" encodinganalog="700">
         <primary_name>Leslie</primary_name>
         <rest_of_name>Dale R.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="DVD Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0651 Ba 2; Ba 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1282">
+        <corpname encodinganalog="110">
           <primary_name>Reconciliation Metropolitan Community Church (Grand Rapids, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9715</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9715</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -37,46 +39,79 @@
     <bioghist>Church established in 1980 to serve the religious needs of the gay community in Grand Rapids, Mich.</bioghist>
     <scopecontent>Church history and CD-ROM of photos taken throughout the first 25 years of the church's existence.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2819">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Gays</term>
         <term type="topical">Religious life</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Grand Rapids.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/951">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Gays</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Grand Rapids.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6114">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Grand Rapids (Mich.)</term>
         <term type="topical">Religion.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1282">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Reconciliation Metropolitan Community Church (Grand Rapids, Mich.)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1179">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Universal Fellowship of Metropolitan Community Churches</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Grand Rapids.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
-        <term type="genre_form">Photographs.</term>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Gays</term>
+        <term type="topical">Religious life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Grand Rapids.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/951">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Gays</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Grand Rapids.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2360">
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Grand Rapids (Mich.)</term>
+        <term type="topical">Religion.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Reconciliation Metropolitan Community Church (Grand Rapids, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Universal Fellowship of Metropolitan Community Churches</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Grand Rapids.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Gays</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Grand Rapids.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Religion</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Grand Rapids.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/6114">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Grand Rapids (Mich.)</term>
         <term type="topical">Religion.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Reconciliation Metropolitan Community Church (Grand Rapids, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Universal Fellowship of Metropolitan Community Churches</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Grand Rapids.</term>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -100,7 +135,5 @@
         <scopecontent>Photos of church members, activities, and buildings.</scopecontent>
       </c01>
     </dsc>
-    <container label="CD Box" type="box">4</container>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

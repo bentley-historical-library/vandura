@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851073 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/334">
+        <persname encodinganalog="100">
           <primary_name>Dean</primary_name>
           <rest_of_name>Elias.</rest_of_name>
         </persname>
@@ -29,30 +28,31 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771</p>
+      </odd>
     </descgrp>
     <bioghist>Pioneer of Northville Township, Wayne County, Michigan.</bioghist>
     <scopecontent>Receipts and three account books showing prices of articles of the period and including accounts at a store in Plymouth in 1841.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8157">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Account books.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8069">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Frontier and pioneer life</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Wayne County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4144">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Northville (Mich. : Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6954">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Plymouth (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3944">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Wayne County (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

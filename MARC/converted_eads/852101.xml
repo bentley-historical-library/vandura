@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852101 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="local" ref="/agents/families/35">
+        <famname encodinganalog="100">
           <family_name>Rasmussen family</family_name>
         </famname>
       </origination>
@@ -32,7 +31,10 @@
         <head>Reproduction Note</head>
         <p>Letter: Typescript translation.</p>
       </odd>
-      <acqinfo>Donor: 2473, 6937</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2473, 6937</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -41,40 +43,72 @@
     <bioghist>Family of August Rasmussen, Danish immigrant to Montcalm County, Michigan.</bioghist>
     <scopecontent>Letter to his brother in Denmark urging him and his friends to come to Michigan, and describing the favorable working conditions in the state; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7694">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Danish Americans</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6482">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Immigrants</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3972">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Michigan</term>
         <term type="topical">Emigration and immigration.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1494">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Montcalm County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/602">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Denmark</term>
         <term type="topical">Emigration and immigration.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/2028">
+      <persname source="local" encodinganalog="700">
         <primary_name>Rasmussen</primary_name>
         <rest_of_name>August.</rest_of_name>
       </persname>
-      <subject source="gmgpc" encodinganalog="655" ref="/subjects/810">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Danish Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Immigrants</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Emigration and immigration.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Montcalm County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Denmark</term>
+        <term type="topical">Emigration and immigration.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Rasmussen</primary_name>
+        <rest_of_name>August.</rest_of_name>
+      </persname>
+      <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Paintings.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2028">
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Danish Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Montcalm County (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Rasmussen</primary_name>
         <rest_of_name>August.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6565">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Rasmussen</primary_name>
         <rest_of_name>Ruth</rest_of_name>
         <dates>1919-1983</dates>
@@ -102,6 +136,5 @@
         <scopecontent>Family snapshots, including photos of Ruth Rasmussen; also a painted portrait of August Rasmussen.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

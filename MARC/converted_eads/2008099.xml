@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2008099 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/500">
+        <persname encodinganalog="100">
           <primary_name>Livezey</primary_name>
           <rest_of_name>Edwin.</rest_of_name>
         </persname>
@@ -31,30 +30,32 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 7151</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7151</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan 1889-1891. Livezey died in 1898.</bioghist>
     <scopecontent>Letter to Ruth W. Peaslee describing his work as a student assistant in the university's Detroit Observatory.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/500">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Livezey</primary_name>
         <rest_of_name>Edwin.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3285">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Detroit Observatory</primary_name>
         <term type="topical">Employees.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="temporal">1881-1890.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="genre_form">Correspondence.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

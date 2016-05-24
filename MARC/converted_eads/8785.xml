@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8785 BImu F99</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2244">
+        <corpname encodinganalog="110">
           <primary_name>University of Michigan</primary_name>
           <subordinate_name>Dept. of Law</subordinate_name>
           <subordinate_name>Class of 1908</subordinate_name>
@@ -30,22 +29,24 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 343</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 343</p>
+      </odd>
     </descgrp>
     <scopecontent>Meetings of the Law School class of 1908 of the University of Michigan.</scopecontent>
     <controlaccess>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2244">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Dept. of Law</subordinate_name>
         <subordinate_name>Class of 1908</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1901-1910.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

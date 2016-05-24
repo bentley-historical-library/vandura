@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85322 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/114">
+        <persname encodinganalog="100">
           <primary_name>Nowicki</primary_name>
           <rest_of_name>Leo J.</rest_of_name>
           <dates>1904-</dates>
@@ -34,28 +33,30 @@
         <head>Reproduction Note</head>
         <p>Photocopy.</p>
       </odd>
-      <acqinfo>Donor: 6009</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6009</p>
+      </odd>
     </descgrp>
     <scopecontent>Reminiscences, 1975, being an autobiographical account of his life as a Polish immigrant to Detroit and Hamtramck, and his career as Wayne County official and Democratic Lieutenant Governor, 1937-1939.</scopecontent>
     <controlaccess>
-      <subject source="local" encodinganalog="691" ref="/subjects/8114">
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
         <term type="topical">Politics and government</term>
         <term type="temporal">1929-1938.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7879">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Polish Americans</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4286">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Michigan</term>
         <term type="topical">Politics and government</term>
         <term type="temporal">1837-1950.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1477">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Democratic Party (Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

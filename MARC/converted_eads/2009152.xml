@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2009152 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/926">
+        <persname encodinganalog="100">
           <primary_name>Preston</primary_name>
           <rest_of_name>David M.</rest_of_name>
         </persname>
@@ -32,25 +31,27 @@
     <descgrp>
       <accruals>No further accruals are expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 9969</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9969</p>
+      </odd>
     </descgrp>
     <scopecontent>Letters, poetry and other materials from businessman and University of Michigan alumnus, J. Fred Lawton.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/926">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Preston</primary_name>
         <rest_of_name>David M.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/940">
+      <persname source="local" encodinganalog="700">
         <primary_name>Lawton</primary_name>
         <rest_of_name>J. Fred</rest_of_name>
         <fuller_form>(James Frederick)</fuller_form>
         <dates>1888-1969</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Alumni and alumnae.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

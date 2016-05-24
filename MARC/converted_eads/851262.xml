@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851262 AC</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/979">
+        <persname encodinganalog="100">
           <primary_name>Earl</primary_name>
           <rest_of_name>John.</rest_of_name>
         </persname>
@@ -29,23 +28,25 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 265</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 265</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Galesburg, Michigan.</bioghist>
     <scopecontent>Account book of general store.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Business records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/765">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">General stores</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Galesburg.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/328">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Galesburg (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

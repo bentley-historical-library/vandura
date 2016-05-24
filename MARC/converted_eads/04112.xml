@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>04112 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="local" ref="/agents/families/212">
+        <famname encodinganalog="100">
           <family_name>Humphries family (Berlin, Mich.)</family_name>
         </famname>
       </origination>
@@ -32,24 +31,26 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 7414</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7414</p>
+      </odd>
     </descgrp>
     <bioghist>Family of Francis and Susan Coburn Humphries of Berlin Township, Ionia County, Mich., and their daughter Frances Humphries, who married Robert Caine.</bioghist>
     <scopecontent>Letters from other family members to Susan and Frances Humphries, most from Rebecca Bowers of Boston, Mass., chiefly describing family events. Also genealogical chart.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1098">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Massachusetts.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5102">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ionia County.</term>
       </subject>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/124">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Humphrey family</family_name>
       </famname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

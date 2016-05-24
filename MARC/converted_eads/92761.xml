@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -37,22 +36,24 @@ sd., col.</physfacet>
         <head>General Note</head>
         <p>VHS.</p>
       </odd>
-      <acqinfo>Donor: 7747</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7747</p>
+      </odd>
     </descgrp>
     <scopecontent>Max Brail presents his collection of historic photos of Jackson, Michigan, and describes the scenes shown.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7031">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Jackson (Mich.)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4249">
+      <persname source="local" encodinganalog="700">
         <primary_name>Brail</primary_name>
         <rest_of_name>Max</rest_of_name>
         <dates>1910-1992</dates>
       </persname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/2001">
+      <corpname source="local" encodinganalog="710">
         <primary_name>Jackson County Historical Society (Jackson County, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Video Box" type="box">2</container>
   </archdesc>
 </ead>

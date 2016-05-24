@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Charles W. Rowley account book</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2013168 AA</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Rowley</primary_name>
+          <rest_of_name>Charles W.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Charles W. Rowley account book</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1854-1866</unitdate>
+      <physdesc>
+        <extent>1 volume</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accruals>Further accruals are not expected.</accruals>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 11025</acqinfo>
+    </descgrp>
+    <bioghist>Charles W. Rowley was a merchant in Ionia, Mich.</bioghist>
+    <scopecontent>Business account book.</scopecontent>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ionia (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rowley</primary_name>
+        <rest_of_name>Charles W.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <container label="Vol.">1</container>
+  </archdesc>
+</ead>

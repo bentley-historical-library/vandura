@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88548 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/2868">
+        <persname encodinganalog="100">
           <primary_name>Meads</primary_name>
           <rest_of_name>Mordecai Louis</rest_of_name>
           <dates>d. 1891</dates>
@@ -30,25 +29,27 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1575</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1575</p>
+      </odd>
     </descgrp>
     <bioghist>Medical student at the University of Michigan.</bioghist>
     <scopecontent>Letter concerns the University of Michigan Medical School and life in Ann Arbor, Michigan.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/761">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Medicine and Surgery</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1851-1860.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

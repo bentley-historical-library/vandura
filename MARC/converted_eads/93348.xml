@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -28,25 +27,28 @@ sd., col. ; 16 mm.</physfacet>
         <head>Publication, Distribution, Etc.</head>
         <p>[Ann Arbor, Mich.] : University of Michigan School of Art, c1982.</p>
       </odd>
-      <acqinfo>Donor: 7510</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7510</p>
+      </odd>
     </descgrp>
     <scopecontent>Produced with Jackson (Mich.) Alternative School, a high school student is confronted with messages about dropping out and staying in school.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2884">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Education, Secondary</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7031">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Jackson (Mich.)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6611">
+      <persname source="local" encodinganalog="700">
         <primary_name>Tassie</primary_name>
         <rest_of_name>Paul.</rest_of_name>
       </persname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/3611">
+      <corpname source="local" encodinganalog="710">
         <primary_name>Jackson Alternative School (Jackson, Mich.)</primary_name>
       </corpname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/797">
+      <corpname source="local" encodinganalog="710">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>School of Art</subordinate_name>
       </corpname>

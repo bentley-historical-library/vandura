@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86875 BA Ba 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/3372">
+        <corpname encodinganalog="110">
           <primary_name>First Presbyterian Church (Monroe, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,20 +27,21 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1083</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1083</p>
+      </odd>
     </descgrp>
     <scopecontent>Membership list of the Cradle Roll Sunday School Class, 1911 and 1925; copied extracts of early church records; and an historical sketch and other papers relating to the history of the Church.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6010">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Monroe (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3226">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Presbyterian Church in the U.S.A</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Monroe.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

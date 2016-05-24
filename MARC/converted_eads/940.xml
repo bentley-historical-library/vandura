@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>940 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1017">
+        <persname encodinganalog="100">
           <primary_name>MacNeal</primary_name>
           <rest_of_name>Ward J.</rest_of_name>
           <dates>1881-1946</dates>
@@ -30,30 +29,32 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8197</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8197</p>
+      </odd>
     </descgrp>
     <bioghist>1905 graduate of the University of Michigan Medical School; later faculty member at New York Post-Graduate Medical School and Hospital.</bioghist>
     <scopecontent>Notebooks of Medical School rotations, 1904-1905; and reprints of writings, 1903-1947.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7070">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Medicine</term>
         <term type="topical">Study and teaching.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1017">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>MacNeal</primary_name>
         <rest_of_name>Ward J.</rest_of_name>
         <dates>1881-1946</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/761">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Medicine and Surgery</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Outlines, syllabi, etc.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

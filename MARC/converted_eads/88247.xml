@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88247 Ca Outsize</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1296">
+        <corpname encodinganalog="110">
           <primary_name>Historic American Buildings Survey</primary_name>
         </corpname>
       </origination>
@@ -28,23 +27,25 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4654</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4654</p>
+      </odd>
     </descgrp>
     <scopecontent>Survey of the home of Judge Samuel Dexter in Dexter, Michigan, including plans, drawings, and specifications.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6433">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Dexter (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6006">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Dexter</primary_name>
         <rest_of_name>Samuel William</rest_of_name>
         <dates>1792-1863</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2440">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Samuel W. Dexter House (Dexter, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Oversize Folder" type="folder">1</container>
   </archdesc>
 </ead>

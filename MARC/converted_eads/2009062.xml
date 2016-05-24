@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2009062 Bz 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1775">
+        <corpname encodinganalog="110">
           <primary_name>Detroit Suburban Librarians Roundtable</primary_name>
         </corpname>
       </origination>
@@ -34,23 +33,24 @@
         <head>General Note</head>
         <p>Survey reports in box 2.</p>
       </odd>
-      <acqinfo>Donor: 10059</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10059</p>
+      </odd>
     </descgrp>
     <scopecontent>Correspondence and minutes of meetings; annual survey reports with salary information, benefits, library budgets, circulation statistics, and related information.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3184">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Librarians</term>
         <term type="geographic">Michigan, Southeastern.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1211">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Public libraries</term>
         <term type="geographic">Michigan, Southeastern.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1775">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Detroit Suburban Librarians Roundtable</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

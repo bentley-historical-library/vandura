@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>87221 Bimu C482 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1632">
+        <corpname encodinganalog="110">
           <primary_name>University of Michigan</primary_name>
           <subordinate_name>Laundry</subordinate_name>
         </corpname>
@@ -29,16 +28,18 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4310</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4310</p>
+      </odd>
     </descgrp>
     <scopecontent>Payroll record books listing employee names, hours worked, and wages received.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4254">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Laundry workers</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

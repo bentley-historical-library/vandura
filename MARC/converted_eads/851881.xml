@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851881 CB.2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/3468">
+        <corpname encodinganalog="110">
           <primary_name>Hillman (Mich : Township)</primary_name>
         </corpname>
       </origination>
@@ -28,22 +27,24 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4358</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4358</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes of the Board of Review.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8553">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Taxation</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Hillman (Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3897">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Montmorency County (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3468">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Hillman (Mich : Township)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8762 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/1164">
+        <persname encodinganalog="100">
           <primary_name>van Hartesveldt</primary_name>
           <rest_of_name>Fred</rest_of_name>
           <dates>1922-</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7395</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7395</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,46 +41,55 @@
     <bioghist>By Fred van Hartesveldt, resident of Wyoming, Michigan.</bioghist>
     <scopecontent>Includes descriptions and slides of polychromatic, patterned brickwork buildings built by the Dutch in western Michigan.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6449">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Architecture.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2975">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Dutch Americans</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
-        <term type="genre_form">Photographs.</term>
-      </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/6449">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Architecture.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/5104">
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Dutch Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Architecture.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dutch Americans</term>
         <term type="geographic">Michigan</term>
         <term type="topical">Dwellings.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4542">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dwellings.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7833">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dwellings</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Allegan County.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/5203">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dwellings</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ottawa County.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/6007">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Schools</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/7419">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Allegan County (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/3519">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Ottawa County (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
@@ -107,6 +118,5 @@ col.</physfacet>
         <scopecontent>Color slides of buildings in Ottawa, Allegan, and other counties in Michigan, exhibiting polychromatic, patterned brickwork.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

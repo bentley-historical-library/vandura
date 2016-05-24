@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852104 BJ</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/2745">
+        <corpname encodinganalog="110">
           <primary_name>Redford Temperance Society (Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,19 +27,21 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 112</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 112</p>
+      </odd>
     </descgrp>
     <scopecontent>Constitution, list of members, and minutes.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/475">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Temperance</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Redford (Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/823">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Redford (Mich. : Township)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8814 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/3479">
+        <persname encodinganalog="100">
           <primary_name>Prosser</primary_name>
           <rest_of_name>Ellen M.</rest_of_name>
         </persname>
@@ -30,7 +29,10 @@
     </did>
     <descgrp>
       <userestrict>Copyright retained by donor.</userestrict>
-      <acqinfo>Donor: 7263</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7263</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,23 +41,41 @@
     <bioghist>Ann Arbor, Michigan, writer.</bioghist>
     <scopecontent>Script of her Michigan sesquicentennial play, Aliens and Scoundrels, and photographs of the play's production.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2439">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Theater.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2283">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Michigan</term>
         <term type="topical">Centennial celebrations, etc.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3479">
+      <persname source="local" encodinganalog="700">
         <primary_name>Prosser</primary_name>
         <rest_of_name>Ellen M.</rest_of_name>
         <term type="uniform_title">Aliens and scoundrels.</term>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Theater.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Centennial celebrations, etc.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Prosser</primary_name>
+        <rest_of_name>Ellen M.</rest_of_name>
+        <term type="uniform_title">Aliens and scoundrels.</term>
+      </persname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4668">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Theatrical productions.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Centennial celebrations, etc.</term>
       </subject>
     </controlaccess>
     <dsc>
@@ -81,6 +101,5 @@
         <scopecontent>Photographs of the dress rehearsal of her Michigan sesquicentennial play, Aliens and Scoundrels.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

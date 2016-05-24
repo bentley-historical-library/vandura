@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851320 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/6768">
+        <persname encodinganalog="100">
           <primary_name>Gibbs</primary_name>
           <rest_of_name>Kenneth P.</rest_of_name>
           <dates>1920-</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4538</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4538</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,24 +41,53 @@
     <bioghist>Toledo, Ohio, Peace Corps volunteer in Jamaica and VISTA volunteer in California.</bioghist>
     <scopecontent>Correspondence and other papers relating to his volunteer activities and continuing interest in current events; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1310">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">California.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1565">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Jamaica.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2116">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Toledo (Ohio)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3471">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Peace Corps (U.S.)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/765">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Volunteers in Service to America</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">California.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Jamaica.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Toledo (Ohio)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Peace Corps (U.S.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Volunteers in Service to America</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">California.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Jamaica.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Peace Corps (U.S.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Volunteers in Service to America</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -80,7 +111,5 @@
         <scopecontent>Photos illustrating his Peace Corps service in Jamaica and VISTA service in California.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

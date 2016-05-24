@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851486 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/7411">
+        <persname encodinganalog="100">
           <primary_name>Hauser</primary_name>
           <rest_of_name>William M.</rest_of_name>
         </persname>
@@ -29,33 +28,35 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1278</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1278</p>
+      </odd>
     </descgrp>
     <bioghist>Clerk in the Detroit, Michigan, branch of the Federal Reserve Bank of Chicago.</bioghist>
     <scopecontent>Correspondence with Senator James Couzens about banking legislation.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6295">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Banks and banking</term>
         <term type="geographic">United States.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4703">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Depressions</term>
         <term type="temporal">1929</term>
         <term type="geographic">United States.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2999">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/5082">
+      <persname source="local" encodinganalog="700">
         <primary_name>Couzens</primary_name>
         <rest_of_name>James</rest_of_name>
         <dates>1872-1936</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2721">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Federal Reserve Board</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

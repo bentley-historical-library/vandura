@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88127 BImu C34</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/6249">
+        <persname encodinganalog="100">
           <primary_name>Burnett</primary_name>
           <rest_of_name>Mary Anne</rest_of_name>
           <dates>1897-</dates>
@@ -30,23 +29,25 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1485</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1485</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Geology field notebook, entitled, "An aid to geological field studies in the vicinity of Ann Arbor" by R. C. Allen and I. D. Scott, and containing notes taken by Mary Anne Burnett on the exercises and lectures.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/411">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Dept. of Geology</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9805 Bp 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2810">
+        <corpname encodinganalog="110">
           <primary_name>Golden Age Showcase (Organization)</primary_name>
         </corpname>
       </origination>
@@ -28,24 +27,26 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8659</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8659</p>
+      </odd>
     </descgrp>
     <bioghist>Ann Arbor, Michigan organization established to preserve traditional craft work (quilting, knitting, woodworking, etc.) among seniors. The organization operated a store where the craft work could be displayed and sold.</bioghist>
     <scopecontent>Subject files relating to the activities of the organization.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1980">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Older people</term>
         <term type="topical">Recreation.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7453">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Craft shops</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2810">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Golden Age Showcase (Organization)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

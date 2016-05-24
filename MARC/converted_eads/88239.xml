@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88239 AC</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/1040">
+        <persname encodinganalog="100">
           <primary_name>Dewey</primary_name>
           <rest_of_name>Fred G.</rest_of_name>
         </persname>
@@ -29,36 +28,38 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4107</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4107</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan, class of 1902.</bioghist>
     <scopecontent>Scrapbook concerning student activities and detailing founding of the University of Michigan Association of Detroit.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3396">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan Club of Detroit</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1891-1900.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1901-1910.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Alumni and alumnae</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </corpname>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>87395 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/4838">
+        <persname encodinganalog="100">
           <primary_name>Achenbaum</primary_name>
           <rest_of_name>W. Andrew.</rest_of_name>
         </persname>
@@ -29,29 +28,31 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5460</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5460</p>
+      </odd>
     </descgrp>
     <scopecontent>Student paper written for University of Michigan anthropology class relating in part to the establishment of Zion Lutheran Church in Ann Arbor.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="691" ref="/subjects/8487">
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Church history.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/500">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">German Americans</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/556">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Anthropology</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/927">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Zion Lutheran Church (Ann Arbor, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

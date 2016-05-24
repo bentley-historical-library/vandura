@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851778 BB.2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/663">
+        <corpname encodinganalog="110">
           <primary_name>Fargo and Fargo General Store and Flour Mill (Manchester, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,37 +27,36 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 801</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 801</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Business records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3859">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Flour-mills</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Manchester.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5357">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">General stores</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Manchester.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5019">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Manchester (Mich.)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6128">
+      <persname source="local" encodinganalog="700">
         <primary_name>Fargo</primary_name>
         <rest_of_name>James H.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/2481">
+      <persname source="local" encodinganalog="700">
         <primary_name>Fargo</primary_name>
         <rest_of_name>W. G.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
-    <container label="Oversize Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">2</container>
   </archdesc>
 </ead>

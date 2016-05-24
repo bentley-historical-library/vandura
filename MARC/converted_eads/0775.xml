@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0775 Bimu 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/3612">
+        <corpname encodinganalog="110">
           <primary_name>Druids (University of Michigan)</primary_name>
         </corpname>
       </origination>
@@ -34,24 +33,26 @@
         <head>Reproduction Note</head>
         <p>Photocopies in part.</p>
       </odd>
-      <acqinfo>Donor: 9893</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9893</p>
+      </odd>
     </descgrp>
     <bioghist>University of Michigan honorary society organized in 1909/1910.</bioghist>
     <scopecontent>Minute books, 1915-1923 and 1936-1942.</scopecontent>
     <controlaccess>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3612">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Druids (University of Michigan)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Honorary societies.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Societies, etc.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

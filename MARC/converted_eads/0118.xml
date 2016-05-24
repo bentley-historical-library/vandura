@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0118 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1049">
+        <persname encodinganalog="100">
           <primary_name>Moses</primary_name>
           <rest_of_name>Harry E.</rest_of_name>
         </persname>
@@ -29,43 +28,45 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1332</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1332</p>
+      </odd>
     </descgrp>
     <bioghist>Student in physics at the university 1940-1949 as an undergraduate and graduate student.</bioghist>
     <scopecontent>Notebooks containing notes on physics lectures of George Uhlenbeck, Otto Laporte, and David Dennison.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8019">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Physics.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1049">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Moses</primary_name>
         <rest_of_name>Harry E.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/991">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Dennison</primary_name>
         <rest_of_name>David M.</rest_of_name>
         <fuller_form>(David Mathias)</fuller_form>
         <dates>1900-1976</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1616">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Laporte</primary_name>
         <rest_of_name>Otto</rest_of_name>
         <dates>1902-1971</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/45">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Uhlenbeck</primary_name>
         <rest_of_name>George Eugene</rest_of_name>
         <dates>1900-</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1046">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Physics</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

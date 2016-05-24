@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2009119 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3952">
+        <persname encodinganalog="100">
           <primary_name>Parker</primary_name>
           <rest_of_name>Justine L.</rest_of_name>
         </persname>
@@ -31,29 +30,31 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 7402</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7402</p>
+      </odd>
     </descgrp>
     <bioghist>Daughter of Thomas A. Parker and Elizabeth Maxwell Parker of Detroit, Mich., born about 1861. Thomas A. Parker was a wholesale grocer.</bioghist>
     <scopecontent>Travel journal of a tour of Europe taken by Justine Parker and her mother, including visits to England, France, and Italy.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/4649">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7540">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Girls</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit</term>
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3336">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Europe</term>
         <term type="topical">Description and travel.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3952">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Parker</primary_name>
         <rest_of_name>Justine L.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

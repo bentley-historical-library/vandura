@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8954 Aa 1 UAm</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local" ref="/agents/people/3998">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Nutting</primary_name>
           <rest_of_name>E. P.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2114, 2307</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2114, 2307</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,46 +39,70 @@
     </descgrp>
     <scopecontent>Collected materials relating to Lodi Academy, Washtenaw County, Michigan, prep school founded by his father Rufus Nutting.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7002">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Schools</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Lodi Plains.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/833">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Lodi Plains (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6120">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Washtenaw County (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1340">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Nutting</primary_name>
         <rest_of_name>Rufus.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/928">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Lodi Academy</primary_name>
       </corpname>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/638">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Schools</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Lodi Plains.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Lodi Plains (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Nutting</primary_name>
+        <rest_of_name>Rufus.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Lodi Academy</primary_name>
+      </corpname>
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Carts and wagons.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/3209">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Costumes.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6629">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Nutting</primary_name>
         <rest_of_name>Mary.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Nutting</primary_name>
+        <rest_of_name>Rufus.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Alumni and alumnae.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3432">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Class of 1902</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
@@ -105,6 +131,5 @@
         <scopecontent>Portraits of Rufus Nutting, founder of Lodi Academy, Washtenaw County, Michigan prep school, and his daughter, Mary; also photos of the University of Michigan Class of 1902 in a costumed procession at its tenth reunion.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

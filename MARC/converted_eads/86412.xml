@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86412 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2830">
+        <persname encodinganalog="100">
           <primary_name>Hampton</primary_name>
           <rest_of_name>George</rest_of_name>
           <dates>1889-1923</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6010</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6010</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,42 +41,71 @@
     <bioghist>Physician with the Rockefeller Foundation in Ceylon and Mauritius.</bioghist>
     <scopecontent>Letters to family members concerning life and customs of the areas in which he served; miscellaneous visas, army discharage, and newspaper obituary; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2097">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Physicians</term>
         <term type="geographic">Sri Lanka.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8310">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Physicians</term>
         <term type="geographic">Mauritius.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2918">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Mauritius.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/824">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Sri Lanka.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2830">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Hampton</primary_name>
         <rest_of_name>George</rest_of_name>
         <dates>1889-1923</dates>
       </persname>
-      <subject source="gmgpc" encodinganalog="655" ref="/subjects/7780">
-        <term type="genre_form">Albums.</term>
-      </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
-        <term type="genre_form">Photographs.</term>
-      </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/356">
-        <term type="topical">Medicine</term>
-        <term type="geographic">Sri Lanka.</term>
-      </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2097">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Physicians</term>
         <term type="geographic">Sri Lanka.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8018">
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Physicians</term>
+        <term type="geographic">Mauritius.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Mauritius.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Sri Lanka.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hampton</primary_name>
+        <rest_of_name>George</rest_of_name>
+        <dates>1889-1923</dates>
+      </persname>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Albums.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Medicine</term>
+        <term type="geographic">Sri Lanka.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Physicians</term>
+        <term type="geographic">Sri Lanka.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Travel.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Sri Lanka.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hampton</primary_name>
+        <rest_of_name>George</rest_of_name>
+        <dates>1889-1923</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -98,6 +129,5 @@
         <scopecontent>Photographs relating to Hampton's life and work in Ceylon.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Letter</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>9421 Ac</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Duncan</primary_name>
+          <rest_of_name>William</rest_of_name>
+          <dates>1778-1852</dates>
+        </persname>
+      </origination>
+      <unittitle>Letter</unittitle>
+      <unitdate type="inclusive" label="creation">March 1, 1837</unitdate>
+      <physdesc>
+        <extent>2 items</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 8224</acqinfo>
+    </descgrp>
+    <scopecontent>Letters by William and John Duncan of Prairie Ronde, Michigan, describing a trip to the rapids of the Des Moines River, Iowa, accompanied by typescript and analysis by Winthrop Hudson.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Iowa</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Prairie Ronde (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Duncan</primary_name>
+        <rest_of_name>John.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Hudson</primary_name>
+        <rest_of_name>Winthrop S.</rest_of_name>
+        <fuller_form>(Winthrop Still)</fuller_form>
+        <dates>1911-</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Duncan family</family_name>
+      </famname>
+    </controlaccess>
+    <container label="Folder">1</container>
+  </archdesc>
+</ead>

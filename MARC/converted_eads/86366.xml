@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86366 AA microcopy</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1193">
+        <persname encodinganalog="100">
           <primary_name>Cronin</primary_name>
           <rest_of_name>Henry M.</rest_of_name>
           <dates>1836-1890</dates>
@@ -33,27 +32,29 @@ negative.</physfacet>
     </did>
     <descgrp>
       <altformavail>Original available.</altformavail>
-      <acqinfo>Donor: 4005</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4005</p>
+      </odd>
     </descgrp>
     <bioghist>Marshall, Michigan businessman.</bioghist>
     <scopecontent>Brief descriptions of his daily activities; comments on weather, business dealings, and deaths of acquaintances.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5814">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Marshall (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7308">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Marshall (Mich.)</term>
         <term type="topical">Climate.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1193">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Cronin</primary_name>
         <rest_of_name>Henry M.</rest_of_name>
         <dates>1836-1890</dates>
       </persname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

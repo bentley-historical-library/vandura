@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88496 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2892">
+        <persname encodinganalog="100">
           <primary_name>Kurath</primary_name>
           <rest_of_name>Gertrude Prokosch.</rest_of_name>
         </persname>
@@ -35,25 +34,27 @@ American Philosophical Society Library.</originalsloc>
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771</p>
+      </odd>
     </descgrp>
     <scopecontent>Field report for the American Philosophical Society.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1096">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Indians of North America</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3727">
+      <persname source="local" encodinganalog="700">
         <primary_name>Ettawageshik</primary_name>
         <rest_of_name>Fred</rest_of_name>
         <dates>1896-1969</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/2962">
+      <persname source="local" encodinganalog="700">
         <primary_name>Ettawageshik</primary_name>
         <rest_of_name>Jane</rest_of_name>
         <dates>1915-1996</dates>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

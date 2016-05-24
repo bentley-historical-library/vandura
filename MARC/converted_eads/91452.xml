@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>91452 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1117">
+        <persname encodinganalog="100">
           <primary_name>Fuller</primary_name>
           <rest_of_name>Benjamin F.</rest_of_name>
           <dates>1827 or 1828-1865</dates>
@@ -30,28 +29,30 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7923</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7923</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier in Company C, 3rd Michigan Infantry, during the Civil War.</bioghist>
     <scopecontent>Letters to his family relating to military life.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1117">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Fuller</primary_name>
         <rest_of_name>Benjamin F.</rest_of_name>
         <dates>1827 or 1828-1865</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1013">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 3rd (1864-1866)</subordinate_name>
         <subordinate_name>Company C</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

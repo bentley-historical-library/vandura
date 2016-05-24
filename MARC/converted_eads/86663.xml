@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86663 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/3663">
+        <persname encodinganalog="100">
           <primary_name>Yates</primary_name>
           <rest_of_name>John B.</rest_of_name>
           <dates>b. 1833</dates>
@@ -34,26 +33,28 @@
         <head>Reproduction Note</head>
         <p>Typescript copy.</p>
       </odd>
-      <acqinfo>Donor: 3474</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3474</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier from Calhoun County, Michigan who served as an officer in Company A, First Michigan Engineers and Mechanics during the Civil War.</bioghist>
     <scopecontent>Account of his wartime activities.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/425">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Calhoun County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2936">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Engineers and Mechanics Regiment, 1st (1861-1865)</subordinate_name>
         <subordinate_name>Company A</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

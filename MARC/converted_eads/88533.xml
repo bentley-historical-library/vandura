@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88533 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/56">
+        <persname encodinganalog="100">
           <primary_name>McCracken</primary_name>
           <rest_of_name>Russell Elliott.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1485</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1485</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photograph described separately.</p>
@@ -38,20 +40,37 @@
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Student notebooks, scrapbooks, essays, plays, and other writings; and photograph.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/56">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>McCracken</primary_name>
         <rest_of_name>Russell Elliott.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McCracken</primary_name>
+        <rest_of_name>Russell Elliott.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McCracken</primary_name>
+        <rest_of_name>Russell Elliott.</rest_of_name>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -75,6 +94,5 @@
         <scopecontent>Portrait.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

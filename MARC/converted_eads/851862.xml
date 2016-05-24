@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851862 Bn.1 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1336">
+        <corpname encodinganalog="110">
           <primary_name>Michigan Forestry Association</primary_name>
         </corpname>
       </origination>
@@ -28,27 +27,29 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2875</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2875</p>
+      </odd>
     </descgrp>
     <scopecontent>Correspondence, financial records, constitution, membership lists, and reports. Correspondents include: Robert Craig, Jr.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4392">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Forests and forestry</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1481">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Parks</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/5224">
+      <persname source="local" encodinganalog="700">
         <primary_name>Craig</primary_name>
         <rest_of_name>Robert</rest_of_name>
         <dates>1882-1962</dates>
       </persname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/2648">
+      <corpname source="local" encodinganalog="710">
         <primary_name>Michigan Forestry and Park Association</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

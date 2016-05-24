@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851907 CA.4</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2416">
+        <corpname encodinganalog="110">
           <primary_name>Eastern Michigan Asylum for the Insane</primary_name>
         </corpname>
       </origination>
@@ -29,28 +28,30 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771</p>
+      </odd>
     </descgrp>
     <bioghist>Located in Pontiac, Michigan.</bioghist>
     <scopecontent>Listing of articles of clothing and private possessions brought by the inmates from home and those items provided by the state.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3284">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Hospitals</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Pontiac.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1724">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">People with mental disabilities</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Pontiac.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6097">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Pontiac (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2416">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Eastern Michigan Asylum for the Insane</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

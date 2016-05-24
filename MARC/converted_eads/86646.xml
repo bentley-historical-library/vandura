@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86646 Aa 2 Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/3438">
+        <persname encodinganalog="100">
           <primary_name>Alcott</primary_name>
           <rest_of_name>Russell H.</rest_of_name>
           <dates>1825-1862</dates>
@@ -31,26 +30,28 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 3210</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3210</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Manchester, Michigan, and captain in Co. A, First Michigan Infantry during the Civil War.</bioghist>
     <scopecontent>Letters to Mrs. Alcott describing the death of her husband at the Battle of Bull Run.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5019">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Manchester (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2076">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 1st (1861-1865)</subordinate_name>
         <subordinate_name>Company A</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

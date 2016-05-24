@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852232 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/3863">
+        <persname encodinganalog="100">
           <primary_name>Selleck</primary_name>
           <rest_of_name>F.</rest_of_name>
         </persname>
@@ -33,23 +32,25 @@
         <head>Reproduction Note</head>
         <p>Photocopy.</p>
       </odd>
-      <acqinfo>Donor: 5101</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5101</p>
+      </odd>
     </descgrp>
     <bioghist>Prospector in California gold fields.</bioghist>
     <scopecontent>Letter written from Sacramento City, California describing his travels in California in search of gold.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="691" ref="/subjects/5237">
+      <subject source="local" encodinganalog="691">
         <term type="geographic">California</term>
         <term type="topical">Social life and customs</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4504">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">California</term>
         <term type="topical">Gold discoveries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2878">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Sacramento (Calif.)</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

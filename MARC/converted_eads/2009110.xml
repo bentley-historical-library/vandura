@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2009110 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3310">
+        <persname encodinganalog="100">
           <primary_name>Parker</primary_name>
           <rest_of_name>Dotty Ann.</rest_of_name>
         </persname>
@@ -31,31 +30,33 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10210</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10210</p>
+      </odd>
     </descgrp>
     <bioghist>Dotty Ann Parker was a resident of Ann Arbor, Michigan. David Wolaver was son of Earl S. and Margaret L. Wolaver of Ann Arbor.</bioghist>
     <scopecontent>Letter from David Wolaver written while in military training at Fort McClellan, Alabama, discussing training exercises and his affection for Parker.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3013">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Military education</term>
         <term type="geographic">United States.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5646">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1939-1945.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3310">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Parker</primary_name>
         <rest_of_name>Dotty Ann.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6426">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Wolaver</primary_name>
         <rest_of_name>David.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6426">
+      <persname source="local" encodinganalog="700">
         <primary_name>Wolaver</primary_name>
         <rest_of_name>David.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

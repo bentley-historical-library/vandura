@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86607 AA Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/1901">
+        <persname encodinganalog="100">
           <primary_name>Brown</primary_name>
           <rest_of_name>William Anson</rest_of_name>
           <dates>1840-1862</dates>
@@ -30,29 +29,31 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 945</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 945</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier from Ann Arbor, Michigan, who served as an officer in Co. H, Eighth Michigan Infantry during the Civil War.</bioghist>
     <scopecontent>Brief entries of daily activities.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2151">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 8th (1861-1865)</subordinate_name>
         <subordinate_name>Company H</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

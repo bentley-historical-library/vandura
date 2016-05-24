@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851341 CC</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2478">
+        <corpname encodinganalog="110">
           <primary_name>Grand Blanc (Mich. : Township)</primary_name>
           <subordinate_name>School District No. 5</subordinate_name>
         </corpname>
@@ -30,31 +29,33 @@
     </did>
     <descgrp>
       <altformavail>Original and microfilm copy.</altformavail>
-      <acqinfo>Donor: 5551</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5551</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes, contracts, and miscellaneous financial accounts.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2767">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Education</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Grand Blanc (Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2688">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Schools</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Grand Blanc (Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8256">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Genesee County (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3800">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Grand Blanc (Mich. : Township)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2478">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Grand Blanc (Mich. : Township)</primary_name>
         <subordinate_name>School District No. 5</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

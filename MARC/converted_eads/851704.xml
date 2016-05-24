@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851704 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5353">
+        <persname encodinganalog="100">
           <primary_name>Lilly</primary_name>
           <rest_of_name>Grant Everett</rest_of_name>
           <dates>1864-1940</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5312</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5312</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,47 +41,92 @@
     <bioghist>Law student at University of Michigan (class of 1889) and Richmond, Kentucky attorney.</bioghist>
     <scopecontent>Law school class books, including notes on the lectures of William P. Wells, Levi T. Griffin, Henry W. Rogers, and Bradley M. Thompson; law school thesis concerning boundary lines; and newspaper clippings, photographs, and miscellanea.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5402">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Lawyers</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/325">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Richmond (Ky.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4227">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Griffin</primary_name>
         <rest_of_name>Levi T.</rest_of_name>
         <fuller_form>(Levi Thomas)</fuller_form>
         <dates>1837-1906</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5353">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Lilly</primary_name>
         <rest_of_name>Grant Everett</rest_of_name>
         <dates>1864-1940</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5597">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Rogers</primary_name>
         <rest_of_name>Henry Wade</rest_of_name>
         <dates>1853-1926</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5118">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Thompson</primary_name>
         <rest_of_name>Bradley Martin</rest_of_name>
         <dates>1835-1917</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6678">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Wells</primary_name>
         <rest_of_name>William P.</rest_of_name>
         <dates>1831-1891</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3117">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Law</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Lawyers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Richmond (Ky.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Griffin</primary_name>
+        <rest_of_name>Levi T.</rest_of_name>
+        <fuller_form>(Levi Thomas)</fuller_form>
+        <dates>1837-1906</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lilly</primary_name>
+        <rest_of_name>Grant Everett</rest_of_name>
+        <dates>1864-1940</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rogers</primary_name>
+        <rest_of_name>Henry Wade</rest_of_name>
+        <dates>1853-1926</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Thompson</primary_name>
+        <rest_of_name>Bradley Martin</rest_of_name>
+        <dates>1835-1917</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wells</primary_name>
+        <rest_of_name>William P.</rest_of_name>
+        <dates>1831-1891</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Law</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lilly</primary_name>
+        <rest_of_name>Grant Everett</rest_of_name>
+        <dates>1864-1940</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -103,6 +150,5 @@
         <scopecontent>Portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

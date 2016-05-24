@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89480 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/4550">
+        <persname encodinganalog="100">
           <primary_name>Hammell</primary_name>
           <rest_of_name>George L.</rest_of_name>
         </persname>
@@ -30,22 +29,24 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 1562</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1562</p>
+      </odd>
     </descgrp>
     <scopecontent>Typescript census index.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/5736">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Census records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/19">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ingham County (Mich.)</term>
         <term type="topical">Census, 1850.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6930">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">Census, 7th, 1850.</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

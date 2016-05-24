@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8880 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/6928">
+        <persname encodinganalog="100">
           <primary_name>Foster</primary_name>
           <rest_of_name>Fred William</rest_of_name>
           <dates>1909-</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1278</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1278</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,27 +41,45 @@
     <bioghist>Student in geography at the University of Michigan.</bioghist>
     <scopecontent>Study of development of the suburbs of Detroit, Michigan; includes accompanying photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7030">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">City planning</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7554">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Suburbs</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2999">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">City planning</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Suburbs</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/73">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Real estate development.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2652">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Urban growth.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
       </subject>
     </controlaccess>
     <dsc>
@@ -84,6 +104,5 @@
         <scopecontent>Photographs to accompany research paper, "Distribution of building density in the Detroit area"; include views of outlying Detroit property showing development of area suburbs.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

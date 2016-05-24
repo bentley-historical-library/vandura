@@ -23,7 +23,7 @@ def build_agent_source_dict(ead_dir):
 
 
 def agent_source_propagation(marc_dir):
-	ead_dir = join(marc_dir, "converted_eads")
+	ead_dir = join(marc_dir, "converted_eads_working")
 	agent_sources = build_agent_source_dict(ead_dir)
 
 	for filename in os.listdir(ead_dir):

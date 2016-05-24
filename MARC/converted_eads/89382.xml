@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89382 CA</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3462">
+        <corpname encodinganalog="110">
           <primary_name>United States</primary_name>
           <subordinate_name>Post Office (South Lyon, Mich.)</subordinate_name>
         </corpname>
@@ -29,21 +28,23 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 300</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 300</p>
+      </odd>
     </descgrp>
     <scopecontent>Postal accounts and record of magazine and newspaper subscribers, probably kept by the South Lyon, Michigan, postmaster.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5240">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">American newspapers</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1733">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Postal service.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/121">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">South Lyon (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

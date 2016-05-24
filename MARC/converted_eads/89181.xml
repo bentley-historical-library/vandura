@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89181 Ba 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/515">
+        <corpname encodinganalog="110">
           <primary_name>Alcona Presbyterian Church (Haynes, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,22 +27,24 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1151</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1151</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes of the session, 1934-1969; register, 1934-1968; minutes, 1936-1957, of the Board of Trustees; also treasurer's book and secretary's ledgers.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7270">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Alcona County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/969">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Haynes (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2559">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United Presbyterian Church in the U.S.A</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Haynes.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

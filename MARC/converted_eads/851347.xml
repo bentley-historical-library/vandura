@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851347 BA</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/3795">
+        <corpname encodinganalog="110">
           <primary_name>Grand Rapids Elementary Sunday School Association (Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,32 +27,33 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2252</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2252</p>
+      </odd>
     </descgrp>
     <scopecontent>Constitution, class rolls, minutes of organization, kept in part by Clara Wheeler.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3293">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Sunday schools</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Grand Rapids.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7858">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Grand Rapids (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6114">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Grand Rapids (Mich.)</term>
         <term type="topical">Religion.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4158">
+      <persname source="local" encodinganalog="700">
         <primary_name>Wheeler</primary_name>
         <rest_of_name>Clara Marian</rest_of_name>
         <dates>1861-1946</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3795">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Grand Rapids Elementary Sunday School Association (Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

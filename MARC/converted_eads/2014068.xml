@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2014068 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5264">
+        <persname encodinganalog="100">
           <primary_name>Malcolm</primary_name>
           <rest_of_name>Robert W.</rest_of_name>
         </persname>
@@ -32,34 +31,36 @@
     <descgrp>
       <accruals>No further accruals are expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 11049</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 11049</p>
+      </odd>
     </descgrp>
     <bioghist>Enlisted in Company A, 22nd Michigan Infantry in August 1862 at age of 18. Wounded and taken prisoner at the Battle of Chickamauga. Resident of Commerce Township, Oakland County, Michigan.</bioghist>
     <scopecontent>Diary and letters to home describing army life, campaign experiences, and imprisonment.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/4649">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6175">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Chickamauga, Battle of, Ga., 1863.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6615">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865</term>
         <term type="topical">Prisoners and prisons.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5264">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Malcolm</primary_name>
         <rest_of_name>Robert W.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2183">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 22nd (1862-1865)</subordinate_name>
         <subordinate_name>Company A</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

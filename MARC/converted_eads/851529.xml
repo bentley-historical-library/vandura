@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851529 Cb.2 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/860">
+        <corpname encodinganalog="110">
           <primary_name>Bunker Hill (Mich. : Township)</primary_name>
         </corpname>
       </origination>
@@ -32,22 +31,24 @@
         <head>Reproduction Note</head>
         <p>Microfilm copy available in part.</p>
       </odd>
-      <acqinfo>Donor: 3206</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3206</p>
+      </odd>
     </descgrp>
     <scopecontent>Supervisors minutes, financial records and other township records; also school orders; and apprentice agreement.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1472">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Schools</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Bunker Hill (Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3959">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ingham County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4863">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Bunker Hill (Mich. : Township)</term>
       </subject>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

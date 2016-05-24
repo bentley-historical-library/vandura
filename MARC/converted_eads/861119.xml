@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>861119 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/6130">
+        <persname encodinganalog="100">
           <primary_name>Van Riper</primary_name>
           <rest_of_name>Charles A.</rest_of_name>
           <dates>1821-1900</dates>
@@ -30,42 +29,44 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6045</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6045</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Cassopolis, Michigan, who served as first lieutenant, Company A, 12th Michigan Infantry, during the Civil War, and was taken prisoner at the battle of Shiloh.</bioghist>
     <scopecontent>Description of his experiences as a prisoner-of-war.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5264">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Prisoners of war</term>
         <term type="geographic">Confederate States of America.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5666">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Prisoners of war</term>
         <term type="geographic">United States.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/184">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Shiloh, Battle of, Tenn., 1862.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6130">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Van Riper</primary_name>
         <rest_of_name>Charles A.</rest_of_name>
         <dates>1821-1900</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/359">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 12th (1862-1866)</subordinate_name>
         <subordinate_name>Company A</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

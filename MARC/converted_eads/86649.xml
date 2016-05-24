@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86649 AA Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1995">
+        <persname encodinganalog="100">
           <primary_name>Wright</primary_name>
           <rest_of_name>Zenos Russell.</rest_of_name>
         </persname>
@@ -30,29 +29,31 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 3970</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3970</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier in Company G, Merrill Horse Unit, during the Civil War.</bioghist>
     <scopecontent>Diary concerning wartime activities.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1995">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Wright</primary_name>
         <rest_of_name>Zenos Russell.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3499">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Missouri Cavalry, 2nd</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

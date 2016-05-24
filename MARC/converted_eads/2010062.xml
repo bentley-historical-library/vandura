@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2010062 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/4692">
+        <persname encodinganalog="100">
           <primary_name>Anderson</primary_name>
           <rest_of_name>Leigh Charles</rest_of_name>
           <dates>1899-</dates>
@@ -38,30 +37,32 @@
         <head>General Note</head>
         <p>Includes index.</p>
       </odd>
-      <acqinfo>Donor: 587</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 587</p>
+      </odd>
     </descgrp>
     <bioghist>Leigh C. Anderson was a professor of Chemistry at the University of Michigan and served as chairman of the department, 1948-1966.</bioghist>
     <scopecontent>Unpublished history of Chemistry at the University of Michigan compiled by Anderson in 1970 with a 1976 update. Also touches upon Biological Chemistry, Pharmaceutical Chemistry, and Chemical Engineering.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6611">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Chemistry.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6257">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Pharmaceutical chemistry.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3402">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Chemistry</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/100">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Biological Chemistry</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1715">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Chemical Engineering</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

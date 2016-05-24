@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9641 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2701">
+        <persname encodinganalog="100">
           <primary_name>Jenison</primary_name>
           <rest_of_name>E. S.</rest_of_name>
           <fuller_form>(Edward Spencer)</fuller_form>
@@ -31,24 +30,26 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8439</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8439</p>
+      </odd>
     </descgrp>
     <bioghist>Chicago-based architect, graduate of the University of Michigan.</bioghist>
     <scopecontent>Architectural drawings (ink on linen) of proposed design for University Hall, a building at the University of Michigan.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/1768">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Architectural drawings.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2701">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Jenison</primary_name>
         <rest_of_name>E. S.</rest_of_name>
         <fuller_form>(Edward Spencer)</fuller_form>
         <dates>1847-1922</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/905">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University Hall (University of Michigan)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Oversize Folder" type="folder">1</container>
   </archdesc>
 </ead>

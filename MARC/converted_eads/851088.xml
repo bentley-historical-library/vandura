@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851088 Bi</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/2382">
+        <corpname encodinganalog="110">
           <primary_name>Detroit Optical Institute</primary_name>
         </corpname>
       </origination>
@@ -32,24 +31,26 @@
         <head>Reproduction Note</head>
         <p>Typescript copy.</p>
       </odd>
-      <acqinfo>Donor: 647</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 647</p>
+      </odd>
     </descgrp>
     <scopecontent>Notes on physical optics, prepared by John S. Owen for the Institute.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1609">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Physical optics</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1333">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Physicians</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/802">
+      <persname source="local" encodinganalog="700">
         <primary_name>Owen</primary_name>
         <rest_of_name>John S.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85865 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/1108">
+        <persname encodinganalog="100">
           <primary_name>Carrothers</primary_name>
           <rest_of_name>George E.</rest_of_name>
           <fuller_form>(George Ezra)</fuller_form>
@@ -35,7 +34,10 @@
         <head>Reproduction Note</head>
         <p>Photocopies and typescript carbon copies.</p>
       </odd>
-      <acqinfo>Donor: 2891, 5563</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2891, 5563</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Slides described separately.</p>
@@ -44,27 +46,46 @@
     <bioghist>Teacher in the Philippines and professor of education at University of Michigan.</bioghist>
     <scopecontent>Reminiscences concerning his teaching career in the Philippines, 1909-1913, with comments on the native culture and living conditions in the islands; also transcription of interview with Carrothers concerning his life in the Philippines; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/1571">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Oral histories.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/910">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Education</term>
         <term type="geographic">Philippines.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5376">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Philippines</term>
         <term type="topical">History</term>
         <term type="temporal">1898-1946.</term>
       </subject>
-      <subject source="gmgpc" encodinganalog="655" ref="/subjects/4261">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Oral histories.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Education</term>
+        <term type="geographic">Philippines.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Philippines</term>
+        <term type="topical">History</term>
+        <term type="temporal">1898-1946.</term>
+      </subject>
+      <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Lantern slides.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/5820">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Agriculture</term>
         <term type="geographic">Philippines.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Philippines</term>
+        <term type="topical">History</term>
+        <term type="temporal">1898-1946.</term>
       </subject>
     </controlaccess>
     <dsc>
@@ -89,6 +110,5 @@
         <scopecontent>Views of people and places in the Philippines.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

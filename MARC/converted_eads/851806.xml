@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851806 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/7288">
+        <persname encodinganalog="100">
           <primary_name>Mead</primary_name>
           <rest_of_name>James A.</rest_of_name>
         </persname>
@@ -29,26 +28,27 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3199</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3199</p>
+      </odd>
     </descgrp>
     <bioghist>Grand Rapids (Mich.) businessman.</bioghist>
     <scopecontent>Business correspondence relating to the Michigan Marble Company.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Business records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/725">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Marble industry and trade</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7858">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Grand Rapids (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1204">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan Marble Company</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

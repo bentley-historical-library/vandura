@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85337 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/2694">
+        <persname encodinganalog="100">
           <primary_name>Palmer</primary_name>
           <rest_of_name>Gardner</rest_of_name>
           <dates>1903-1976</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6291</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6291</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,68 +41,85 @@
     <bioghist>United States State Department official and Foreign Service officer.</bioghist>
     <scopecontent>Biographical material, career memorabilia, and miscellanea relating to Detroit, Michigan, and family members; also photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3440">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
         <term type="topical">History.</term>
       </subject>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/636">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Palmer family</family_name>
       </famname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1082">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Department of State</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3393">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Foreign Service</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+        <term type="topical">History.</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Palmer family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Department of State</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Foreign Service</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/1248">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Children</term>
         <term type="temporal">1901-1910.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4200">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Children playing</term>
         <term type="temporal">1901-1910.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/5687">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Diplomats.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/1323">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dwellings</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/6018">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dwellings</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Harbor Beach.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8246">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Families.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7830">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Interiors.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2622">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Miners.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2636">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="topical">Military service</term>
         <term type="temporal">1911-1920.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/2460">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/3646">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Harbor Beach (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1195">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>College of Engineering</subordinate_name>
         <subordinate_name>Class of 1925</subordinate_name>
@@ -128,6 +147,5 @@
         <scopecontent>Portraits and informal photos of Palmer and family members; photos of Palmer family homes in Detroit and Harbor Beach, Michigan; and photos of Palmer at various diplomatic functions.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86508 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/555">
+        <famname encodinganalog="100">
           <family_name>Wilson family</family_name>
         </famname>
       </origination>
@@ -32,31 +31,33 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 6286</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6286</p>
+      </odd>
     </descgrp>
     <bioghist>Immigrant family from Scotland to Lake County, Illinois.</bioghist>
     <scopecontent>Letters among family members describing daily life and family activities.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5100">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Scottish Americans</term>
         <term type="geographic">Illinois.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8241">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Immigrants</term>
         <term type="geographic">Illinois.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/605">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Illinois</term>
         <term type="topical">Emigration and immigration.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1528">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Lake County (Ill.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3785">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Scotland</term>
         <term type="topical">Emigration and immigration.</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

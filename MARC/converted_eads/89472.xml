@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89472 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/116">
+        <persname encodinganalog="100">
           <primary_name>Waldron</primary_name>
           <rest_of_name>Henry</rest_of_name>
           <dates>1819-1880</dates>
@@ -30,41 +29,71 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1265</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1265</p>
+      </odd>
     </descgrp>
     <bioghist>Engineer on preliminary survey of Michigan Southern Railroad. Later banker, railroad official, and Republican congressman from Michigan.</bioghist>
     <scopecontent>Survey of the route of the Lake Shore and Michigan Southern Railroad between Adrian and Hillsdale, Michigan.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2130">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Railroads</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7550">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Surveying</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1288">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Surveyors</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8078">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Hillsdale County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5605">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Lenawee County (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3116">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Lake Shore &amp; Michigan Southern Railway</primary_name>
       </corpname>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1036">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Railroads</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Surveying</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Surveyors</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hillsdale County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Lenawee County (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Lake Shore &amp; Michigan Southern Railway</primary_name>
+      </corpname>
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Hillsdale County (Mich.)</term>
         <term type="topical">Maps.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5969">
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hillsdale County (Mich.)</term>
+        <term type="topical">Maps.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Lenawee County (Mich.)</term>
         <term type="topical">Maps.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3116">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Lake Shore &amp; Michigan Southern Railway</primary_name>
         <term type="topical">Maps.</term>
       </corpname>
@@ -93,6 +122,5 @@ mss., maps</physfacet>
         </did>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

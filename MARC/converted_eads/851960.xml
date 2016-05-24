@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851960 BF.2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/36">
+        <corpname encodinganalog="110">
           <primary_name>Northeastern Michigan Medical Association</primary_name>
         </corpname>
       </origination>
@@ -28,16 +27,18 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 796</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 796</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/358">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Medicine.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1778">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Romeo (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

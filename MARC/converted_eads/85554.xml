@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85554 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/387">
+        <persname encodinganalog="100">
           <primary_name>Ainsworth</primary_name>
           <rest_of_name>Arthur Sardius</rest_of_name>
           <dates>1862-</dates>
@@ -30,28 +29,30 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1718</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1718</p>
+      </odd>
     </descgrp>
     <bioghist>Grand Rapids, Kent County, Michigan, businessman.</bioghist>
     <scopecontent>Journal of trip to Yellowstone National Park and Alaska; and brief autobiographical sketch.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655" ref="/subjects/4649">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1173">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Voyages and travels.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2337">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Travelers.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/342">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Alaska</term>
         <term type="topical">Description and travel.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1016">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Yellowstone National Park.</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

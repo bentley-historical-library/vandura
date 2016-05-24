@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86544 AC</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/7045">
+        <persname encodinganalog="100">
           <primary_name>Halliday</primary_name>
           <rest_of_name>E. W.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 289</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 289</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Drawing described separately.</p>
@@ -38,39 +40,75 @@
     <bioghist>Major and commissary officer in the Confederate army during the Civil War.</bioghist>
     <scopecontent>Account book kept while stationed at Gainsville Junction, Mississippi, of supplies issued and work done; includes employment record of slaves hired as laborers; volume was later used as payroll record book of the Forty-sixth Illinois Infantry; and drawing.</scopecontent>
     <controlaccess>
-      <subject source="gmgpc" encodinganalog="655" ref="/subjects/1480">
+      <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Drawings.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3234">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">African Americans.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4634">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Gainsville Junction (Miss.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6721">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Mississippi.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/770">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Confederate States of America</primary_name>
         <subordinate_name>Army</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3431">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Illinois Infantry Regiment, 46th, (1861-1866)</subordinate_name>
       </corpname>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4732">
+    </controlaccess>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Drawings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African Americans.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Gainsville Junction (Miss.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Mississippi.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Confederate States of America</primary_name>
+        <subordinate_name>Army</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Illinois Infantry Regiment, 46th, (1861-1866)</subordinate_name>
+      </corpname>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Drawings.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Military camps.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3339">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Louisiana.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1036">
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Illinois Infantry Regiment, 46th (1861-1866)</subordinate_name>
@@ -97,6 +135,5 @@
         <scopecontent>Sketch of a military camp in Louisiana, by a member of the 46th Illinois Infantry.</scopecontent>
       </c01>
     </dsc>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

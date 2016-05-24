@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0796 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1493">
+        <persname encodinganalog="100">
           <primary_name>Blackmar</primary_name>
           <rest_of_name>T. S.</rest_of_name>
         </persname>
@@ -31,26 +30,28 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 1333</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1333</p>
+      </odd>
     </descgrp>
     <bioghist>University of Michigan student, class of 1849.</bioghist>
     <scopecontent>Letter to friend Jacob H. Camburn of Hillsdale County, Mich. describing first weeks as a freshman at the University of Michigan, especially his studies in Greek, Latin, and Algebra.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1493">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Blackmar</primary_name>
         <rest_of_name>T. S.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/272">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Class of 1849</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1841-1850.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

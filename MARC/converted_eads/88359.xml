@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88359 Aa 2; UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/7498">
+        <persname encodinganalog="100">
           <primary_name>Harris</primary_name>
           <rest_of_name>Jennie M.</rest_of_name>
         </persname>
@@ -30,7 +29,10 @@
     </did>
     <descgrp>
       <relatedmaterial>Additional Jennie M. Harris papers are held at the Rutherford B. Hayes Presidential Center, Fremont, Ohio, as part of their Rawson family collection.</relatedmaterial>
-      <acqinfo>Donor: 1005, 3689</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1005, 3689</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -39,26 +41,41 @@
     <bioghist>Student at the University of Michigan, later married Verner Winslow Crane.</bioghist>
     <scopecontent>Student notes on history lectures of Claude Van Tyne; also lecture notes on course in hygiene; and photograph.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6724">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Van Tyne</primary_name>
         <rest_of_name>Claude Halstead</rest_of_name>
         <dates>1869-1930</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3155">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Dept. of History</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Van Tyne</primary_name>
+        <rest_of_name>Claude Halstead</rest_of_name>
+        <dates>1869-1930</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of History</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/730">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Deutscher Verein (University of Michigan)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Dramatics.</term>
       </corpname>
@@ -86,6 +103,5 @@
         <scopecontent>Cast photograph of Goethe's play "Egmont" produced by the Deutscher Verein group at the University of Michigan. Jennie Harris was a member of the cast.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

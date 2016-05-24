@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88190 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2462">
+        <persname encodinganalog="100">
           <primary_name>Conely</primary_name>
           <rest_of_name>Edwin Forrest</rest_of_name>
           <dates>1847-1902</dates>
@@ -30,27 +29,29 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3969</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3969</p>
+      </odd>
     </descgrp>
     <bioghist>Detroit, Michigan, superintendent of police.</bioghist>
     <scopecontent>Scrapbook containing newspaper clippings with accounts of police matters in which Conely was involved.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4074">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Police</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2999">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/535">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Detroit (Mich.)</primary_name>
         <subordinate_name>Police Department</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851924 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2590">
+        <persname encodinganalog="100">
           <primary_name>Moehlman</primary_name>
           <rest_of_name>Arthur B.</rest_of_name>
           <fuller_form>(Arthur Bernard)</fuller_form>
@@ -31,7 +30,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2026, 2482</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2026, 2482</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -40,38 +42,80 @@
     <bioghist>Professor in School of Education at University of Michigan.</bioghist>
     <scopecontent>Correspondence, mostly concerning educator William McAndrew, a manuscript address on McAndrew, and items relating to the career of Moehlman; also photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2632">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Education</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/838">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>McAndrew</primary_name>
         <rest_of_name>William</rest_of_name>
         <dates>1863-1937</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2590">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Moehlman</primary_name>
         <rest_of_name>Arthur B.</rest_of_name>
         <fuller_form>(Arthur Bernard)</fuller_form>
         <dates>1889-1952</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4587">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Murphy</primary_name>
         <rest_of_name>Frank</rest_of_name>
         <dates>1890-1949</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/412">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>School of Education</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Education</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McAndrew</primary_name>
+        <rest_of_name>William</rest_of_name>
+        <dates>1863-1937</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Moehlman</primary_name>
+        <rest_of_name>Arthur B.</rest_of_name>
+        <fuller_form>(Arthur Bernard)</fuller_form>
+        <dates>1889-1952</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Murphy</primary_name>
+        <rest_of_name>Frank</rest_of_name>
+        <dates>1890-1949</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>School of Education</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McAndrew</primary_name>
+        <rest_of_name>William</rest_of_name>
+        <dates>1863-1937</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Moehlman</primary_name>
+        <rest_of_name>Arthur B.</rest_of_name>
+        <fuller_form>(Arthur Bernard)</fuller_form>
+        <dates>1889-1952</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -95,9 +139,5 @@
         <scopecontent>Portraits of Moehlman and William McAndrew.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
-    <container label="Folder" type="folder">4</container>
   </archdesc>
 </ead>

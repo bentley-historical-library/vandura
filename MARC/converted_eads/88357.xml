@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88357 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5899">
+        <persname encodinganalog="100">
           <primary_name>Harris</primary_name>
           <rest_of_name>George DeWitt</rest_of_name>
           <dates>d. 1918</dates>
@@ -30,20 +29,22 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1727</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1727</p>
+      </odd>
     </descgrp>
     <bioghist>Law student at the University of Michigan.</bioghist>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1891-1900.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

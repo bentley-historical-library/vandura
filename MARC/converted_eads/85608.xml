@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85608 BImu E17</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/917">
+        <corpname encodinganalog="110">
           <primary_name>Ann Arbor Commission for the University of Michigan Sesquicentennial</primary_name>
         </corpname>
       </origination>
@@ -28,27 +27,29 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5345</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5345</p>
+      </odd>
     </descgrp>
     <bioghist>Mrs. Elizabeth Kummer, secretary-treasurer.</bioghist>
     <scopecontent>Minutes, progress reports, and miscellanea relating to Ann Arbor's role in the 150th anniversary of the University of Michigan.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Anniversaries, etc.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">History.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/402">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Sesquicentennial Celebration</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

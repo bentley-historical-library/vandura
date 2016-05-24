@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88331 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2020">
+        <persname encodinganalog="100">
           <primary_name>Goodrich</primary_name>
           <rest_of_name>Ernest Payson</rest_of_name>
           <dates>1874-1955</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 54</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 54</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,51 +41,71 @@
     <bioghist>Engineering student at the University of Michigan.</bioghist>
     <scopecontent>Surveying notes taken from course given at Camp Davis; also photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/275">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Camp Davis (University of Michigan)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/889">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>College of Engineering</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Camp Davis (University of Michigan)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8455">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Libraries</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ypsilanti.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7550">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Surveying</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8221">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Teachers</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Grand Rapids.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6192">
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Camp Davis (University of Michigan)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Fort Mackinac (Mackinac Island, Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2020">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Goodrich</primary_name>
         <rest_of_name>Ernest Payson</rest_of_name>
         <dates>1874-1955</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2406">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan State Normal College</primary_name>
         <term type="topical">Buildings.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1249">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Grand Rapids High School (Mich.)</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students.</term>
       </corpname>
@@ -110,6 +132,5 @@
         <scopecontent>Views of Camp Davis, 1897, of Fort Mackinac, of the library at Michigan State Normal College, and of the faculty of Grand Rapids High School, Grand Rapids, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

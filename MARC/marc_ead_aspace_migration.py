@@ -33,7 +33,7 @@ def main():
 	print "*************************************************************"
 	ready_to_go = raw_input("Has everything been run? (y/n): ")
 	if ready_to_go.lower() == 'y':
-		aspace_ead_dir = join(marc_dir, "converted_eads")
+		aspace_ead_dir = join(marc_dir, "converted_eads_working")
 		aspace_url, username, password = aspace_credentials()
 		run_aspace_ead_migration(marc_dir, aspace_ead_dir, aspace_url, username, password)
 	else:

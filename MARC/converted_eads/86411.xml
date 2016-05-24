@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86411 Aa 1</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local" ref="/agents/people/5673">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Doolittle</primary_name>
           <rest_of_name>Howard S.</rest_of_name>
           <dates>1888-1967</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6688</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6688</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,35 +41,73 @@
     <bioghist>Michigan Upper Peninsula educator.</bioghist>
     <scopecontent>Correspondence, clippings, photograph, and other papers concerning Houghton County, Michigan educators and school administrators, Fred A. Jeffers and Cora Doolittle Jeffers.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8317">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Education</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Houghton County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7387">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Teachers</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Houghton County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4166">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Houghton County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6395">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Upper Peninsula (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6950">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Jeffers</primary_name>
         <rest_of_name>Cora Doolittle</rest_of_name>
         <dates>1871-1949</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2367">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Jeffers</primary_name>
         <rest_of_name>Frederick Albert</rest_of_name>
         <dates>1869-</dates>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Education</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Houghton County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Teachers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Houghton County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Houghton County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Upper Peninsula (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Jeffers</primary_name>
+        <rest_of_name>Cora Doolittle</rest_of_name>
+        <dates>1871-1949</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Jeffers</primary_name>
+        <rest_of_name>Frederick Albert</rest_of_name>
+        <dates>1869-</dates>
+      </persname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Jeffers</primary_name>
+        <rest_of_name>Cora Doolittle</rest_of_name>
+        <dates>1871-1949</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Jeffers</primary_name>
+        <rest_of_name>Frederick Albert</rest_of_name>
+        <dates>1869-</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -91,8 +131,5 @@
         <scopecontent>Photo of Fred A. Jeffers and Cora Doolittle Jeffers.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
   </archdesc>
 </ead>

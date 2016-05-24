@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>024 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/3735">
+        <persname encodinganalog="100">
           <primary_name>Teeter</primary_name>
           <rest_of_name>Robert M.</rest_of_name>
           <dates>1939-</dates>
@@ -30,29 +29,31 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9158</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9158</p>
+      </odd>
     </descgrp>
     <bioghist>Public opinion pollster and political strategist for the Republican Party.</bioghist>
     <scopecontent>Correspondence and reports from George Romney relating to voluntarism and the National Volunteer Center.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/849">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Voluntarism</term>
         <term type="geographic">United States.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6538">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Romney</primary_name>
         <rest_of_name>George W.</rest_of_name>
         <dates>1907-1995</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6538">
+      <persname source="local" encodinganalog="700">
         <primary_name>Romney</primary_name>
         <rest_of_name>George W.</rest_of_name>
         <dates>1907-1995</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3079">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>National Volunteer Center</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

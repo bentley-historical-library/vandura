@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88562 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/4518">
+        <persname encodinganalog="100">
           <primary_name>MacPherson</primary_name>
           <rest_of_name>Kenneth C.</rest_of_name>
         </persname>
@@ -29,25 +28,27 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7103</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7103</p>
+      </odd>
     </descgrp>
     <bioghist>Detroit, Michigan, physician.</bioghist>
     <scopecontent>Billing records, patient receipts, and record of income and expenses.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7985">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Medical fees</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1333">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Physicians</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2999">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

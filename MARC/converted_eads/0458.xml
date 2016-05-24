@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0458 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/50">
+        <famname encodinganalog="100">
           <family_name>Couch family</family_name>
         </famname>
       </origination>
@@ -32,21 +31,23 @@
         <head>Publication, Distribution, Etc.</head>
         <p>1870s-1890s.</p>
       </odd>
-      <acqinfo>Donor: 8758</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8758</p>
+      </odd>
     </descgrp>
     <bioghist>Family of John Couch and Mary Clifton Couch, residents of Lake City and Cadillac, Mich.</bioghist>
     <scopecontent>Photo album and loose photos (including tintypes), all portraits. Also genealogical charts.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/6346">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Tintypes.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/50">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Couch family</family_name>
       </famname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

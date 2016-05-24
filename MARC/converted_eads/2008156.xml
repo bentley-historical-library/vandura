@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2008156 Aa 1 ; Aa 2</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local" ref="/agents/people/1683">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Beach</primary_name>
           <rest_of_name>Kelly M.</rest_of_name>
         </persname>
@@ -31,7 +30,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 9965</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9965</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -40,37 +42,75 @@
     <bioghist>Darwin Olney was a resident of Dowagiac, Mich., who served in the First Michigan Cavalry during the Civil War, was taken prisoner and died in prison in 1865.</bioghist>
     <scopecontent>Transcriptions of Civil War service records of Darwin Olney and pension application by his widow, and photographs.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3895">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">CD-ROMs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8435">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Dowagiac (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1974">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Olney</primary_name>
         <rest_of_name>Darwin</rest_of_name>
         <dates>d. 1865</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3848">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Cavalry Regiment, 1st (1861-1866)</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/852">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">CD-ROMs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Dowagiac (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Olney</primary_name>
+        <rest_of_name>Darwin</rest_of_name>
+        <dates>d. 1865</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 1st (1861-1866)</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">CD-ROM.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6021">
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Olney</primary_name>
+        <rest_of_name>Darwin</rest_of_name>
+        <dates>d. 1865</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Olney</primary_name>
         <rest_of_name>Almira.</rest_of_name>
       </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 1st (1861-1866)</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -96,7 +136,5 @@
         <scopecontent>Digital copies (jpeg) of portraits of Darwin Olney and his wife Almira Olney, and photos of their gravestone, a letter, and an inscription by Olney.</scopecontent>
       </c01>
     </dsc>
-    <container label="CD Box" type="box">6</container>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86613 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/6100">
+        <persname encodinganalog="100">
           <primary_name>Bellamy</primary_name>
           <rest_of_name>Henry H.</rest_of_name>
           <dates>1837-1862</dates>
@@ -30,36 +29,38 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier from Easton Township, Ionia County, Michigan who served in the First Michigan Engineers and Mechanics during the Civil War.</bioghist>
     <scopecontent>Letter from Charles E. Henry of the Third Michigan Infantry, and two letters to his parents concerning his Civil War activities.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3867">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ionia County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/2325">
+      <persname source="local" encodinganalog="700">
         <primary_name>Henry</primary_name>
         <rest_of_name>Charles E.</rest_of_name>
         <dates>b. 1838</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2275">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Engineers and Mechanics Regiment, 1st (1861-1865)</subordinate_name>
         <subordinate_name>Company E</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1352">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 3rd (1861-1864)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

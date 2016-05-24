@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86684 Aa 1 Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2639">
+        <persname encodinganalog="100">
           <primary_name>Stockton</primary_name>
           <rest_of_name>T. B. W.</rest_of_name>
           <fuller_form>(Thomas Baylis Whitmarsh)</fuller_form>
@@ -36,31 +35,33 @@
         <head>Reproduction Note</head>
         <p>Typescript.</p>
       </odd>
-      <acqinfo>Donor: 1538</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1538</p>
+      </odd>
     </descgrp>
     <bioghist>Officer in the 16th Michigan Infantry during the Civil War.</bioghist>
     <scopecontent>Comments on daily life and wartime activities.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/4649">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2639">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Stockton</primary_name>
         <rest_of_name>T. B. W.</rest_of_name>
         <fuller_form>(Thomas Baylis Whitmarsh)</fuller_form>
         <dates>1805-1890</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/202">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 16th (1861-1865)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85909 BB.2 outsize</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2975">
+        <corpname encodinganalog="110">
           <primary_name>Champion Copper Company</primary_name>
         </corpname>
       </origination>
@@ -28,25 +27,27 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771</p>
+      </odd>
     </descgrp>
     <scopecontent>Record of stamping and wash expenses.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4315">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Copper mines and mining</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Painesdale.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4166">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Houghton County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7981">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Painesdale (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2975">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Champion Copper Company</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

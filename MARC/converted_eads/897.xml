@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>897 CA</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/2508">
+        <corpname encodinganalog="110">
           <primary_name>State Archives of Michigan</primary_name>
         </corpname>
       </origination>
@@ -28,15 +27,16 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1991</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1991</p>
+      </odd>
     </descgrp>
     <scopecontent>Surveys made of Washtenaw County, Michigan, county and township records.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6120">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Washtenaw County (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

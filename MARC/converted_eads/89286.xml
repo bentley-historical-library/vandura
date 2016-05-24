@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89286 BImu C74</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/6079">
+        <persname encodinganalog="100">
           <primary_name>Smoyer</primary_name>
           <rest_of_name>Levi</rest_of_name>
           <dates>d. 1909</dates>
@@ -30,25 +29,27 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 343</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 343</p>
+      </odd>
     </descgrp>
     <bioghist>Law student at the University of Michigan.</bioghist>
     <scopecontent>Notes taken on lectures of Thomas M. Cooley on partnerships and constitutional law.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1732">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Cooley</primary_name>
         <rest_of_name>Thomas McIntyre</rest_of_name>
         <dates>1824-1898</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3117">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Law</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -26,26 +25,28 @@
     <descgrp>
       <accruals>No further accruals are expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 1333</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1333</p>
+      </odd>
     </descgrp>
     <scopecontent>Scrapbook containing programs of theater and concert productions; most of the programs are from Hillsdale, Adrian, and Detroit, Michigan, a lesser number from Toledo, Ohio.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3282">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Theater programs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5228">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Adrian (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2999">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/113">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Hillsdale (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2116">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Toledo (Ohio)</term>
       </subject>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86212 BB.2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1464">
+        <corpname encodinganalog="110">
           <primary_name>Thomas Haskins Wagon Repair Shop (Scio, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,36 +27,38 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 593</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 593</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Business records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3775">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Carriage industry</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Scio.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5206">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Wagons</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Scio.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2791">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Scio (Mich. : Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6120">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Washtenaw County (Mich.)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6485">
+      <persname source="local" encodinganalog="700">
         <primary_name>Haskins</primary_name>
         <rest_of_name>Thomas.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1464">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Thomas Haskins Wagon Repair Shop (Scio, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

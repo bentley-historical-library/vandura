@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0471 Aa 2 vault</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/401">
+        <famname encodinganalog="100">
           <family_name>Lowell family</family_name>
         </famname>
       </origination>
@@ -28,38 +27,40 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9469</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9469</p>
+      </odd>
     </descgrp>
     <scopecontent>Civil War letters of Smith Lowell, sergeant with Co. K, 4th Michigan Cavalry, and of his son, Henry S. Lowell, member of the 13th Michigan Battery, and of other members of the Lowell family.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4832">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Lowell</primary_name>
         <rest_of_name>Henry S.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1041">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Lowell</primary_name>
         <rest_of_name>Smith.</rest_of_name>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/401">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Lowell family</family_name>
       </famname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3741">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Cavalry Regiment, 4th (1862-1865)</subordinate_name>
         <subordinate_name>Company K</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2233">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Light Artillery, 13th Independent Battery (1864-1865)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>91434 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2123">
+        <persname encodinganalog="100">
           <primary_name>Elliott</primary_name>
           <rest_of_name>Arthur G.</rest_of_name>
           <dates>1916-</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7890</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7890</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,46 +41,87 @@
     <bioghist>Delegate to the 1961-1962 Michigan Constitutional Convention. Later George Romney's campaign manager and chairman of the Michigan Republican State Central Committee.</bioghist>
     <scopecontent>Pocket diaries kept during the Constitutional Convention, which contain information about the Romney campaign; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="local" encodinganalog="691" ref="/subjects/6077">
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
         <term type="topical">Politics and government</term>
         <term type="temporal">1961-1970.</term>
       </subject>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7650">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Michigan</term>
         <term type="topical">Politics and government</term>
         <term type="temporal">1951-</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2123">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Elliott</primary_name>
         <rest_of_name>Arthur G.</rest_of_name>
         <dates>1916-</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6538">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Romney</primary_name>
         <rest_of_name>George W.</rest_of_name>
         <dates>1907-1995</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/75">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan</primary_name>
         <subordinate_name>Constitutional Convention</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3193">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Republican Party (Mich.)</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
-        <term type="genre_form">Photographs.</term>
-      </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/660">
-        <term type="topical">Constitutional conventions.</term>
-      </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7279">
+    </controlaccess>
+    <controlaccess>
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
         <term type="topical">Politics and government</term>
         <term type="temporal">1961-1970.</term>
       </subject>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1951-</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Elliott</primary_name>
+        <rest_of_name>Arthur G.</rest_of_name>
+        <dates>1916-</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Romney</primary_name>
+        <rest_of_name>George W.</rest_of_name>
+        <dates>1907-1995</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>Constitutional Convention</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Republican Party (Mich.)</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Constitutional conventions.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1961-1970.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Elliott</primary_name>
+        <rest_of_name>Arthur G.</rest_of_name>
+        <dates>1916-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>Constitutional Convention</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -102,6 +145,5 @@
         <scopecontent>Photos taken during March-April 1962 sessions of the Constitutional Convention, showing delegates at work.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851875 Ca.4b 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/77">
+        <corpname encodinganalog="110">
           <primary_name>Michigan</primary_name>
           <subordinate_name>State Highway Department</subordinate_name>
         </corpname>
@@ -33,15 +32,17 @@
         <head>Reproduction Note</head>
         <p>Photocopies collected by Ken Peters.</p>
       </odd>
-      <acqinfo>Donor: 4495</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4495</p>
+      </odd>
     </descgrp>
     <scopecontent>Papers relating to the conditions and development of highway service in Michigan; and historical sketch, undated, concerning Michigan highways and the State Highway Department.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6905">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Roads</term>
         <term type="geographic">Michigan.</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

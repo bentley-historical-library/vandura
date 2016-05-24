@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851093 BK.W</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3123">
+        <corpname encodinganalog="110">
           <primary_name>Women's Architectural League of Detroit</primary_name>
         </corpname>
       </origination>
@@ -32,57 +31,96 @@
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 5240</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5240</p>
+      </odd>
     </descgrp>
     <bioghist>Compiled by Frances L. Youtz.</bioghist>
     <scopecontent>Material relating to the preservation and furnishing of the Biddle House on Mackinac Island, including reports, correspondence, and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/655">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Architects.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6449">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Architecture.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1998">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Historic buildings</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Mackinac Island.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3037">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit</term>
         <term type="topical">Societies and clubs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2999">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8186">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Mackinac Island (Mich.)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/2666">
+      <persname source="local" encodinganalog="700">
         <primary_name>Youtz</primary_name>
         <rest_of_name>Frances May Leffler</rest_of_name>
         <dates>1897-1975</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3599">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Biddle House (Mackinac Island, Mich.)</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Architects.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Architecture.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Historic buildings</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Mackinac Island.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit</term>
+        <term type="topical">Societies and clubs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Mackinac Island (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Youtz</primary_name>
+        <rest_of_name>Frances May Leffler</rest_of_name>
+        <dates>1897-1975</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Biddle House (Mackinac Island, Mich.)</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7830">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Interiors.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8600">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dwellings</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Mackinac Island.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/1892">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Mackinac Island (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Biddle House (Mackinac Island, Mich.)</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -106,6 +144,5 @@
         <scopecontent>Photos of interior of Biddle House restoration, Mackinac Island, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

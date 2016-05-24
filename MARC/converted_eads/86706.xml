@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86706 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/790">
+        <persname encodinganalog="100">
           <primary_name>Bruce</primary_name>
           <rest_of_name>James D.</rest_of_name>
           <fuller_form>(James Deacon)</fuller_form>
@@ -31,7 +30,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6079</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6079</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -40,36 +42,53 @@
     <bioghist>Physician and army officer during World War I, later faculty member in the University of Michigan Medical School and University administrator.</bioghist>
     <scopecontent>Correspondence largely with his wife and other materials concerning his activities in the Canadian and U.S. Armed Forces during the war; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7036">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Physicians</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/695">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1914-1918.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
-        <term type="genre_form">Photographs.</term>
-      </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/89">
-        <term type="topical">Hospitals.</term>
-      </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/3379">
-        <term type="topical">Military medicine.</term>
-      </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7036">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Physicians</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3227">
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Hospitals.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Military medicine.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Physicians</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">France.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/790">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Bruce</primary_name>
         <rest_of_name>James D.</rest_of_name>
         <fuller_form>(James Deacon)</fuller_form>
@@ -98,6 +117,5 @@
         <scopecontent>Portraits, family photos, and photos relating to Bruce's World War I service.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

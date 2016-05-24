@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88258 Aa 1 UAs UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/4212">
+        <persname encodinganalog="100">
           <primary_name>Dott</primary_name>
           <rest_of_name>Richard Millard.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 469, 4568</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 469, 4568</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,41 +40,61 @@
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Description of the University of Michigan's first trips for baseball and football games in 1881 and 1882; also debate material and miscellaneous; also photographs.</scopecontent>
     <controlaccess>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Sports.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Baseball.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Football.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1881-1890.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Sports.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Baseball.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Football.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1881-1890.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="gmgpc" encodinganalog="655" ref="/subjects/3252">
+      <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Stereographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4304">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Fraternities and sororities.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/891">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Ann Arbor High School (Mich.)</primary_name>
         <subordinate_name>Class of 1880</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3811">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Delta Theta Phi (Ann Arbor High School, Mich.)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/611">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Delta Upsilon Fraternity</primary_name>
         <subordinate_name>University of Michigan Chapter</subordinate_name>
       </corpname>
@@ -99,8 +121,5 @@
         <scopecontent>Photographs of Ann Arbor High School Class of 1880; photo of high school fraternity, Delta Theta Phi, 1879; and unidentified men, possibly high school graduates.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85436 Aa 1 UAs</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5262">
+        <persname encodinganalog="100">
           <primary_name>Van Deman</primary_name>
           <rest_of_name>Esther Boise</rest_of_name>
           <dates>1862-1937</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 748, 5254</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 748, 5254</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,64 +41,80 @@
     <bioghist>Archeologist.</bioghist>
     <scopecontent>Notes on lectures of Herbert F. DeCou in classical archaeology given in Rome, 1901-1902; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7412">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Archaeology.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3046">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women archaeologists.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1209">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Archaeologists.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5566">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>De Cou</primary_name>
         <rest_of_name>Herbert Fletcher</rest_of_name>
         <dates>d. 1911</dates>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Archaeology.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women archaeologists.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Archaeologists.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>De Cou</primary_name>
+        <rest_of_name>Herbert Fletcher</rest_of_name>
+        <dates>d. 1911</dates>
+      </persname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/6267">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Archaeological sites</term>
         <term type="geographic">Italy.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7412">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Archaeology.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7175">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Cats.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/568">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dwellings</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Beulah.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/180">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Gardens.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/6007">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Schools</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8018">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Travel.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/3200">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="topical">Work.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8129">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Woodcutting.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/7633">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Beulah (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/2865">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Italy</term>
         <term type="topical">Archaeological sites.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5262">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Van Deman</primary_name>
         <rest_of_name>Esther Boise</rest_of_name>
         <dates>1862-1937</dates>
@@ -124,6 +142,5 @@
         <scopecontent>Portraits and snapshots; photos from archaeological excavations and travels; and photos of homes and activities in Michigan and Ohio.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

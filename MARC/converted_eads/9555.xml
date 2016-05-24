@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9555 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3179">
+        <persname encodinganalog="100">
           <primary_name>Sparrow</primary_name>
           <rest_of_name>Nan.</rest_of_name>
         </persname>
@@ -29,18 +28,31 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8074</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8074</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Ann Arbor, Mich.</bioghist>
     <scopecontent>Photos and tributes on the occasion of her 90th birthday.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3179">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Sparrow</primary_name>
         <rest_of_name>Nan.</rest_of_name>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Sparrow</primary_name>
+        <rest_of_name>Nan.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Sparrow</primary_name>
+        <rest_of_name>Nan.</rest_of_name>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -64,6 +76,5 @@
         <scopecontent>Photos taken at her 90th birthday celebration and some earlier photos.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

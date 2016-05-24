@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9626 Bimu F47 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/94">
+        <corpname encodinganalog="110">
           <primary_name>Psi Upsilon Fraternity</primary_name>
           <subordinate_name>Phi Chapter (University of Michigan)</subordinate_name>
         </corpname>
@@ -29,35 +28,52 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8441</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8441</p>
+      </odd>
     </descgrp>
     <scopecontent>Correspondence (1906-1918) received from other chapters describing chapter activities; also photographs and miscellanea (1890s) collected by Frederick Coleman.</scopecontent>
     <controlaccess>
-      <persname source="local" encodinganalog="700" ref="/agents/people/855">
+      <persname source="local" encodinganalog="700">
         <primary_name>Coleman</primary_name>
         <rest_of_name>Frederick William Backus.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/94">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Psi Upsilon Fraternity</primary_name>
         <subordinate_name>Phi Chapter (University of Michigan)</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Coleman</primary_name>
+        <rest_of_name>Frederick William Backus.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Psi Upsilon Fraternity</primary_name>
+        <subordinate_name>Phi Chapter (University of Michigan)</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/1668">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Street railroads</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/7775">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Street railroads.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <persname source="local" encodinganalog="700">
+        <primary_name>Coleman</primary_name>
+        <rest_of_name>Frederick William Backus.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Buildings.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students.</term>
       </corpname>
@@ -84,6 +100,5 @@
         <scopecontent>Photographs collected by Frederick Coleman of campus buildings and scenes.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

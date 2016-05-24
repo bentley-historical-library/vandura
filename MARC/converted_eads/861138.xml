@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>861138 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3871">
+        <persname encodinganalog="100">
           <primary_name>McLean</primary_name>
           <rest_of_name>James B.</rest_of_name>
         </persname>
@@ -29,30 +28,32 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7388</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7388</p>
+      </odd>
     </descgrp>
     <scopecontent>Marriage of James B. McLean and Elma J. Hooker of Ann Arbor, Michigan; signed by Erastus O. Haven.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1421">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Marriage records</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3871">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>McLean</primary_name>
         <rest_of_name>James B.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6137">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>McLean</primary_name>
         <rest_of_name>Elma J. Hooker.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/2804">
+      <persname source="local" encodinganalog="700">
         <primary_name>Haven</primary_name>
         <rest_of_name>E. O.</rest_of_name>
         <fuller_form>(Erastus Otis)</fuller_form>
         <dates>1820-1881</dates>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

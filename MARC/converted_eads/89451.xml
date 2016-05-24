@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89451 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1421">
+        <persname encodinganalog="100">
           <primary_name>Winship</primary_name>
           <rest_of_name>John.</rest_of_name>
         </persname>
@@ -33,27 +32,29 @@
         <head>Reproduction Note</head>
         <p>Typescript copy.</p>
       </odd>
-      <acqinfo>Donor: 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier in the 2nd Massachusetts Cavalry during the Civil War.</bioghist>
     <scopecontent>Letters to Sarah A. Hyde describing picket duty, and the assassination and funeral of Abraham Lincoln.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3581">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Lincoln</primary_name>
         <rest_of_name>Abraham</rest_of_name>
         <dates>1809-1865</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1101">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Massachusetts Cavalry Regiment, 2nd (1862-1865)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88144 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/17">
+        <persname encodinganalog="100">
           <primary_name>Carpenter</primary_name>
           <rest_of_name>Joel</rest_of_name>
         </persname>
@@ -29,18 +28,20 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4319</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4319</p>
+      </odd>
     </descgrp>
     <bioghist>Student at Calvin College.</bioghist>
     <scopecontent>Student term paper.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5228">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Adrian (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/56">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Ku Klux Klan (1915- )</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

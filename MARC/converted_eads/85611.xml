@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85611 Bp.2 2 Bp.2 Outsize</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1223">
+        <corpname encodinganalog="110">
           <primary_name>Nell Gwyn's Company (Ann Arbor, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,41 +27,64 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3203</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3203</p>
+      </odd>
     </descgrp>
     <bioghist>Theatrical company.</bioghist>
     <scopecontent>Programs, clippings, financial records, scattered correspondence, scripts, and research materials collected by James Umphrey for his thesis on the history of the company; also paintings of stage settings.</scopecontent>
     <controlaccess>
-      <subject source="gmgpc" encodinganalog="655" ref="/subjects/810">
+      <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Paintings.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2282">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Theater</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/7387">
+      <persname source="local" encodinganalog="700">
         <primary_name>Umphrey</primary_name>
         <rest_of_name>James Raymond.</rest_of_name>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Paintings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Theater</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Umphrey</primary_name>
+        <rest_of_name>James Raymond.</rest_of_name>
+      </persname>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Paintings.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/836">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Plays.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4668">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Theatrical productions.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4458">
+      <persname source="local" encodinganalog="700">
         <primary_name>Slusser</primary_name>
         <rest_of_name>Jean Paul</rest_of_name>
         <dates>1886-</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1223">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Nell Gwyn's Company (Ann Arbor, Mich.)</primary_name>
       </corpname>
     </controlaccess>
@@ -88,6 +110,5 @@
         <scopecontent>Photographs of play productions and paintings of stage settings (most by Jean Paul Slusser).</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

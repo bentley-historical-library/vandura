@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88389 CB.5</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/760">
+        <corpname encodinganalog="110">
           <primary_name>Fayette (Mich. : Township)</primary_name>
         </corpname>
       </origination>
@@ -28,17 +27,19 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1165</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1165</p>
+      </odd>
     </descgrp>
     <scopecontent>Financial records.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8078">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Hillsdale County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7309">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Fayette (Mich. : Township)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

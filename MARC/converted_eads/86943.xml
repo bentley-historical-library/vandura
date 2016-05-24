@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86943 Ba 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/573">
+        <corpname encodinganalog="110">
           <primary_name>Immanuel German Evangelical Lutheran Church (Moltke, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -33,24 +32,26 @@
         <head>Reproduction Note</head>
         <p>Photocopy</p>
       </odd>
-      <acqinfo>Donor: 5307</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5307</p>
+      </odd>
     </descgrp>
     <scopecontent>Register of members and church protocol.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/500">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">German Americans</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7363">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Moltke (Mich. : Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5983">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Presque Isle County (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/573">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Immanuel German Evangelical Lutheran Church (Moltke, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

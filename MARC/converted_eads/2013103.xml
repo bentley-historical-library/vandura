@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2013103 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3361">
+        <persname encodinganalog="100">
           <primary_name>Davison</primary_name>
           <rest_of_name>Samuel James.</rest_of_name>
         </persname>
@@ -32,34 +31,36 @@
     <descgrp>
       <accruals>No further accruals are expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10963</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10963</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Alpena, Mich., a University of Michigan Engineering student from 1904 to 1909.</bioghist>
     <scopecontent>A bound student expense journal from 1904 to 1906.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8157">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Account books.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5560">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">College students</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3361">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Davison</primary_name>
         <rest_of_name>Samuel James.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student life and customs</term>
         <term type="temporal">1901-1910.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="temporal">1901-1910.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

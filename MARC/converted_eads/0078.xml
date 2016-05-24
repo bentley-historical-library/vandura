@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0078 Bd 2 Bd Outsize</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/908">
+        <corpname encodinganalog="110">
           <primary_name>Chaldean Federation of America</primary_name>
         </corpname>
       </origination>
@@ -28,60 +27,92 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor:8962</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor:8962</p>
+      </odd>
     </descgrp>
     <bioghist>Metropolitan Detroit area-based organization of Chaldean Catholics.</bioghist>
     <scopecontent>Programs, newsletters, and other publications accumulated by the organization; also videotapes and artifactual miscellanea.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2874">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Assyrians</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit Region.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/709">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Chaldean Catholics</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit Region.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/280">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit Region (Mich.)</term>
         <term type="topical">Ethnic relations.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/908">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Chaldean Federation of America</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8333">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Videotapes.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4625">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Chaldean Catholics</term>
         <term type="topical">History.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7896">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Middle East</term>
         <term type="topical">Civilization.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6796">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Middle East</term>
         <term type="topical">History.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/2787">
+      <persname source="local" encodinganalog="700">
         <primary_name>Acho</primary_name>
         <rest_of_name>Andrew G.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1723">
+      <persname source="local" encodinganalog="700">
         <primary_name>Goryoka</primary_name>
         <rest_of_name>Faris.</rest_of_name>
       </persname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/908">
+      <corpname source="local" encodinganalog="710">
         <primary_name>Chaldean Federation of America</primary_name>
       </corpname>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/286">
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Videotapes.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Chaldean Catholics</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit Region</term>
         <term type="topical">History.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Chaldean Catholics</term>
+        <term type="topical">History.</term>
+      </subject>
+      <corpname source="local" encodinganalog="710">
+        <primary_name>Chaldean Federation of America</primary_name>
+      </corpname>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Assyrians</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit Region.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Chaldean Catholics</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit Region.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit Region (Mich.)</term>
+        <term type="topical">Ethnic relations.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Chaldean Federation of America</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -119,6 +150,5 @@ sd., col.</physfacet>
         </did>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

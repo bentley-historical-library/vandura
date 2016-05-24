@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851947 Cb.2 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1685">
+        <corpname encodinganalog="110">
           <primary_name>Highland (Oakland County, Mich. : Township)</primary_name>
         </corpname>
       </origination>
@@ -29,19 +28,21 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available in part.</altformavail>
-      <acqinfo>Donor: 2918</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2918</p>
+      </odd>
     </descgrp>
     <scopecontent>Health records, assessment rolls, and register of electors in 1890.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7289">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Public health</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Highland (Oakland County, Mich. : Township).</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4418">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Oakland County (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

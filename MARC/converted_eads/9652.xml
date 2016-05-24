@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>amim</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -31,22 +30,24 @@ sd., b&amp;w</physfacet>
         <head>Publication, Distribution, Etc.</head>
         <p>1955.</p>
       </odd>
-      <acqinfo>Donor: 4408</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4408</p>
+      </odd>
     </descgrp>
     <scopecontent>Videocassette (VHS) copies of motion picture films of announcement of the successful results of the testing of the polio vaccine developed by Jonas Salk.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8333">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Videotapes.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4477">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Poliomyelitis.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/5610">
+      <persname source="local" encodinganalog="700">
         <primary_name>Salk</primary_name>
         <rest_of_name>Jonas</rest_of_name>
         <dates>1914-1995</dates>
       </persname>
     </controlaccess>
-    <container label="Video Box" type="box">4</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88480 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/3446">
+        <persname encodinganalog="100">
           <primary_name>John</primary_name>
           <rest_of_name>Waldemar Alfred Paul</rest_of_name>
           <dates>1895-</dates>
@@ -30,18 +29,20 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3198</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3198</p>
+      </odd>
     </descgrp>
     <scopecontent>Letters to Morris Levinkind describing his experiences in France during World War I.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/695">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1914-1918.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/5543">
+      <persname source="local" encodinganalog="700">
         <primary_name>Levinkind</primary_name>
         <rest_of_name>Morris.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

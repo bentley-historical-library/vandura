@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -23,21 +22,23 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1165</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1165</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Business records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1690">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">General stores</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Coldwater.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1303">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Coldwater (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

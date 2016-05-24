@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>00120 Bw 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2367">
+        <corpname encodinganalog="110">
           <primary_name>Ann Arbor Center for Independent Living</primary_name>
         </corpname>
       </origination>
@@ -32,31 +31,33 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 8990</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8990</p>
+      </odd>
     </descgrp>
     <bioghist>Washtenaw County agency established to assist persons with disabilities. Areas of service include housing assistance, transportation, consultation, and matters relating to problems associated with independent living.</bioghist>
     <scopecontent>Board minutes, 1977-August 1996.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2445">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">People with disabilities</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Washtenaw County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1041">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">People with disabilities</term>
         <term type="topical">Services for</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Washtenaw County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1128">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Social work with people with disabilities</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Washtenaw County.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2367">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Ann Arbor Center for Independent Living</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

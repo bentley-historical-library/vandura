@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -26,18 +25,20 @@
         <head>Publication, Distribution, Etc.</head>
         <p>December 16, 1974.</p>
       </odd>
-      <acqinfo>Donor: 5447</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5447</p>
+      </odd>
     </descgrp>
     <scopecontent>Dramatic production relating to the history of Ann Arbor, Michigan, and presented on the occasion of the city's sesquicentennial.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/4838">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Sound recordings.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7946">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">History.</term>
       </subject>
     </controlaccess>
-    <container label="Sd Rec Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86888 Ba 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1996">
+        <corpname encodinganalog="110">
           <primary_name>Trinity Episcopal Church (Caro, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -29,24 +28,26 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available in part.</altformavail>
-      <acqinfo>Donor: 1059</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1059</p>
+      </odd>
     </descgrp>
     <scopecontent>Incomplete minutes, 1906-1927, of the vestry meetings of the church, and records of marriages, baptisms, and burials.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1477">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Registers of births, etc.</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Caro.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5249">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Caro (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/309">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Episcopal Church</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Caro.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

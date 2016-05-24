@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>98102 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1352">
+        <persname encodinganalog="100">
           <primary_name>Ross</primary_name>
           <rest_of_name>Morton.</rest_of_name>
         </persname>
@@ -33,30 +32,32 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 8772</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8772</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan; co-founder of the Symphonic Swing Orchestra.</bioghist>
     <scopecontent>Correspondence, clippings, and other materials relating to the activities of the University of Michigan Symphonic Swing Orchestra.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1265">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Swing (Music)</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2788">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Big bands</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1352">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Ross</primary_name>
         <rest_of_name>Morton.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/645">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Symphonic Swing Orchestra</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

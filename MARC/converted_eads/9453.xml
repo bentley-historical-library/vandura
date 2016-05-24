@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -24,24 +23,26 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 7159</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7159</p>
+      </odd>
     </descgrp>
     <scopecontent>Reminiscence of an officer in the 1st Michigan Cavalry describing the campaign in June and July 1863 centered on the Battle of Gettysburg. Fragmentary copy, including leaves 1-9, 12-19, 76-81, 85, and 2 unnumbered leaves.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8297">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Gettysburg Campaign, 1863.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3848">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Cavalry Regiment, 1st (1861-1866)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

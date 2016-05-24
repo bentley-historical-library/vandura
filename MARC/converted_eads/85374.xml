@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85374 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5684">
+        <persname encodinganalog="100">
           <primary_name>Smith</primary_name>
           <rest_of_name>Joseph.</rest_of_name>
         </persname>
@@ -33,23 +32,25 @@
         <head>Reproduction Note</head>
         <p>Photocopy.</p>
       </odd>
-      <acqinfo>Donor: 6301</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6301</p>
+      </odd>
     </descgrp>
     <bioghist>Manistee County, Michigan, businessman.</bioghist>
     <scopecontent>Accounts with customers of his general store.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Business records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7975">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">General stores</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Manistee County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4343">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Manistee County (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

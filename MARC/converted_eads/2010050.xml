@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2010050 Bd 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/526">
+        <corpname encodinganalog="110">
           <primary_name>Knights Templar (Masonic order)</primary_name>
           <subordinate_name>Ann Arbor Commandery, No. 13 (Ann Arbor, Mich.)</subordinate_name>
         </corpname>
@@ -31,27 +30,25 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10271</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10271</p>
+      </odd>
     </descgrp>
     <scopecontent>Minute books, 1865-1868 and 1916-1948; and membership returns with names of officers and members.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2675">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Freemasonry</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/526">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Knights Templar (Masonic order)</primary_name>
         <subordinate_name>Ann Arbor Commandery, No. 13 (Ann Arbor, Mich.)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Oversize Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">2</container>
-    <container label="Oversize Volume" type="volume">3</container>
-    <container label="Oversize Volume" type="volume">4</container>
   </archdesc>
 </ead>

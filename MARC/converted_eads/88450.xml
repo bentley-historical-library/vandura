@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88450 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/193">
+        <famname encodinganalog="100">
           <family_name>Landwehr family</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5959</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5959</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,39 +39,59 @@
     <bioghist>Saline Township, Washtenaw County, Michigan, family.</bioghist>
     <scopecontent>Family register, passport, school reports, and other materials of the Landwehr, Meyer, and Davidter families; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4995">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Saline (Mich. : Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6120">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Washtenaw County (Mich.)</term>
       </subject>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/300">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Davidter family</family_name>
       </famname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/193">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Landwehr family</family_name>
       </famname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/545">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Myers family</family_name>
       </famname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Saline (Mich. : Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Davidter family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Landwehr family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Myers family</family_name>
+      </famname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="gmgpc" encodinganalog="655" ref="/subjects/6346">
+      <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Tintypes.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/5277">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Children.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2585">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Schools</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Saline (Township).</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/1160">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Saline (Mich. : Township)</term>
         <term type="topical">Schools.</term>
       </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Davidter family</family_name>
+      </famname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -93,6 +115,5 @@
         <scopecontent>Photographs (1901-1905) of the students, teacher, and building of Benton Public School, District 9, Saline Township, Michigan; also group portrait of members of the Davidter family of Chelsea, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

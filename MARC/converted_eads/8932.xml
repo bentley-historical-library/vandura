@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8932 CB.1 Outsize Cb.1 Out.</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3644">
+        <corpname encodinganalog="110">
           <primary_name>Washtenaw County (Mich.)</primary_name>
           <subordinate_name>County Clerk</subordinate_name>
         </corpname>
@@ -30,21 +29,23 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 1343</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1343</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/5736">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Census records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4592">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Washtenaw County (Mich.)</term>
         <term type="topical">Census, 1827.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5724">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Washtenaw County (Mich.)</term>
         <term type="topical">Census, 1834.</term>
       </subject>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

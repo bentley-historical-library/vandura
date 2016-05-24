@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86598 Aa 1 UAl</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2945">
+        <persname encodinganalog="100">
           <primary_name>Pommerening</primary_name>
           <rest_of_name>William K.</rest_of_name>
         </persname>
@@ -35,7 +34,10 @@ in possession of Mrs. Pommerening of Ann Arbor, Michigan.</originalsloc>
         <head>Reproduction Note</head>
         <p>Diary is photocopy of typescript.</p>
       </odd>
-      <acqinfo>Donor: 4262, 8174</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4262, 8174</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -44,48 +46,69 @@ in possession of Mrs. Pommerening of Ann Arbor, Michigan.</originalsloc>
     <bioghist>Member of Co. E, 126th Infantry (Michigan National Guard) in World War I; 1916 graduate of the University of Michigan College of Engineering.</bioghist>
     <scopecontent>Diary describing his experiences in World War I, especially the Aisne-Marne offensive of July and Aug. 1918; also miscellanea and photographs.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/4649">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/695">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1914-1918.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2945">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Pommerening</primary_name>
         <rest_of_name>William K.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3621">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Infantry Regiment, 126th</subordinate_name>
         <subordinate_name>Company E</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Pommerening</primary_name>
+        <rest_of_name>William K.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Infantry Regiment, 126th</subordinate_name>
+        <subordinate_name>Company E</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7404">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Soldiers</term>
         <term type="topical">American.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3406">
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Infantry Regiment, 126th</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Alumni and alumnae.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3609">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>College of Engineering</subordinate_name>
         <subordinate_name>Class of 1916</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1898">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Outing Club</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students.</term>
       </corpname>
@@ -112,6 +135,5 @@ in possession of Mrs. Pommerening of Ann Arbor, Michigan.</originalsloc>
         <scopecontent>Group portraits of members of the 126th Infantry; group portraits of reunions of the University of Michigan Engineering Class of 1916; group photo of University of Michigan Outing Club (1937).</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

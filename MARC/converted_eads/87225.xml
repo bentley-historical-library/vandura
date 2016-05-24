@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>87225 Bimu M3 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2337">
+        <corpname encodinganalog="110">
           <primary_name>Katholepistemiad Club (University of Michigan)</primary_name>
         </corpname>
       </origination>
@@ -28,20 +27,21 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 99</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 99</p>
+      </odd>
     </descgrp>
     <bioghist>University of Michigan faculty club.</bioghist>
     <scopecontent>Correspondence, introductions to speakers and other remarks made at club meetings, and draft of publication.</scopecontent>
     <controlaccess>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2337">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Katholepistemiad Club (University of Michigan)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

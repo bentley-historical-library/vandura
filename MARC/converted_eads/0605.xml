@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0605 Aa 2</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local" ref="/agents/people/824">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Gold</primary_name>
           <rest_of_name>Jeffrey</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9668</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9668</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials and sound recording described separately.</p>
@@ -37,37 +39,67 @@
     </descgrp>
     <scopecontent>Pamphlets, newspaper clippings, and other materials, mainly relating to the arrest and imprisonment of John Sinclair for violation of the law on marijuana possession and on efforts to obtain his release, especially the Free John Rally at Crisler Arena (Ann Arbor, Mich.); also two letters of Pun Plamondon to his wife written from, and describing his life in, Leavenworth Prison; photographs and sound recording.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2192">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Prisoners</term>
         <term type="geographic">United States</term>
         <term type="genre_form">Correspondence.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1147">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Radicalism</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3617">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Plamondon</primary_name>
         <rest_of_name>Pun.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3066">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Sinclair</primary_name>
         <rest_of_name>John</rest_of_name>
         <dates>1941-</dates>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Prisoners</term>
+        <term type="geographic">United States</term>
+        <term type="genre_form">Correspondence.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Radicalism</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Plamondon</primary_name>
+        <rest_of_name>Pun.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Sinclair</primary_name>
+        <rest_of_name>John</rest_of_name>
+        <dates>1941-</dates>
+      </persname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1739">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Levine</primary_name>
         <rest_of_name>Ron.</rest_of_name>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/4838">
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Sinclair</primary_name>
+        <rest_of_name>John</rest_of_name>
+        <dates>1941-</dates>
+      </persname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Sound recordings.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5782">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Fields</primary_name>
         <rest_of_name>Danny.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Sinclair</primary_name>
+        <rest_of_name>John</rest_of_name>
+        <dates>1941-</dates>
       </persname>
     </controlaccess>
     <dsc>
@@ -105,6 +137,5 @@
         <scopecontent>Recording of a Free John (Sinclair) meeting held at the apartment of record executive Danny Fields.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86935 Ba 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1895">
+        <corpname encodinganalog="110">
           <primary_name>St. Anthony's Church (Buchanan, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,21 +27,23 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1368</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1368</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4946">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Buchanan (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3541">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Catholic Church</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Buchanan.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1895">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>St. Anthony's Church (Buchanan, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

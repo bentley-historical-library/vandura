@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851989 BG</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/505">
+        <corpname encodinganalog="110">
           <primary_name>East Huron Grange, No. 1097 (Harbor Beach, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,30 +27,32 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3711</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3711</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes of meetings, 1907-1916, and miscellaneous correspondence, 1916-1918, of Grange official Burr Lincoln.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6610">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Agriculture</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Huron County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5373">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Harbor Beach (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1637">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Sand Beach (Mich. : Township)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1700">
+      <persname source="local" encodinganalog="700">
         <primary_name>Lincoln</primary_name>
         <rest_of_name>Burr</rest_of_name>
         <dates>1880-1937</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/505">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>East Huron Grange, No. 1097 (Harbor Beach, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

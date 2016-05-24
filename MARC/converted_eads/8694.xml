@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8694 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2350">
+        <persname encodinganalog="100">
           <primary_name>Strang</primary_name>
           <rest_of_name>James Jesse</rest_of_name>
           <dates>1813-1856</dates>
@@ -34,23 +33,25 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 4124</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4124</p>
+      </odd>
     </descgrp>
     <bioghist>Mormon leader on Beaver Island, Michigan.</bioghist>
     <scopecontent>Letter to Governor John S. Barry requesting protection for the Mormons on Beaver Island, Michigan, and indenture deeding land on Beaver Island to Strang.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/416">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Mormons.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3589">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Beaver Island (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1948">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Barry</primary_name>
         <rest_of_name>John Stewart</rest_of_name>
         <dates>1802-1870</dates>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

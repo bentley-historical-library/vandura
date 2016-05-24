@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>94159 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/4272">
+        <persname encodinganalog="100">
           <primary_name>Werling</primary_name>
           <rest_of_name>Donn Paul.</rest_of_name>
         </persname>
@@ -42,31 +41,33 @@ analog, stereo., Dolby processed</physfacet>
         <head>General Note</head>
         <p>"Words &amp; music by Donn Werling.</p>
       </odd>
-      <acqinfo>Donor: 7525</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7525</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="local" encodinganalog="740" ref="/subjects/4381">
+      <subject source="local" encodinganalog="740">
         <term type="uniform_title">Sweetwater Journey, lakes and lighthouses.</term>
       </subject>
-      <subject source="local" encodinganalog="740" ref="/subjects/7561">
+      <subject source="local" encodinganalog="740">
         <term type="uniform_title">Lakes and lighthouses.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/693">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Lighthouses</term>
         <term type="geographic">Great Lakes (North America)</term>
         <term type="topical">Songs and music.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5695">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Great Lakes Region (North America)</term>
         <term type="topical">Songs and music.</term>
       </subject>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/2352">
+      <corpname source="local" encodinganalog="710">
         <primary_name>Sweetwater Journey (Musical group)</primary_name>
       </corpname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/3377">
+      <corpname source="local" encodinganalog="710">
         <primary_name>Great Lakes Lighthouse Keepers Association</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Sd Rec Box" type="box">1</container>
   </archdesc>
 </ead>

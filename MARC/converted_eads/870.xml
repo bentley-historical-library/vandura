@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>870 AC Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2989">
+        <persname encodinganalog="100">
           <primary_name>Stebbins</primary_name>
           <rest_of_name>Francis Burgoyne.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7073</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7073</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,67 +40,87 @@
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Scrapbook containing photographs, clippings, correspondence, and memorabilia relating to student life; also loose items from scrapbook.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7395">
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Christmas.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7830">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Interiors.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4668">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Theatrical productions.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2570">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women college students</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2989">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Stebbins</primary_name>
         <rest_of_name>Francis Burgoyne.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/930">
+      <persname source="local" encodinganalog="700">
         <primary_name>Stebbins</primary_name>
         <rest_of_name>Stowell Cortland.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3780">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Card Club (University of Michigan)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/734">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Chi Psi</primary_name>
         <subordinate_name>Alpha Epsilon Chapter (University of Michigan)</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/94">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Psi Upsilon Fraternity</primary_name>
         <subordinate_name>Phi Chapter (University of Michigan)</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/282">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Sigma Phi</primary_name>
         <subordinate_name>Alpha Chapter (University of Michigan)</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1901-1910.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student housing</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1880">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Zeta Psi Fraternity</primary_name>
         <subordinate_name>Xi Chapter (University of Michigan)</subordinate_name>
       </corpname>
@@ -125,7 +147,5 @@
         <scopecontent>Photographs from the collections of Francis B. Stebbins and Stowell Stebbins; include photos of the Psi Upsilon fraternity house and fraternity members; photos of athletic events and figures; photos of social activities; and snapshots of Francis Stebbins and friends.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

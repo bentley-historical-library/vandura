@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86128 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5152">
+        <persname encodinganalog="100">
           <primary_name>Townsend</primary_name>
           <rest_of_name>Charles E.</rest_of_name>
           <fuller_form>(Charles Elroy)</fuller_form>
@@ -31,7 +30,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4828, 2191, 2668</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4828, 2191, 2668</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -40,40 +42,72 @@
     <bioghist>Republican congressman from Michigan, 1903-1911, and U.S. Senator, 1911-1922.</bioghist>
     <scopecontent>Newspaper clippings, 1905-1909 and 1921-1922, concerning his political activities in Congress, and copies of legislation he introduced; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">Politics and government</term>
         <term type="temporal">1901-1909.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3180">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">Politics and government</term>
         <term type="temporal">1913-1921.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4455">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">Politics and government</term>
         <term type="temporal">1921-1923.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6281">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">Politics and government</term>
         <term type="temporal">1909-1913.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/434">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Kelley</primary_name>
         <rest_of_name>Patrick Henry</rest_of_name>
         <dates>1867-1925</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/655">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Congress</subordinate_name>
         <term type="topical">Elections, 1922.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1901-1909.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1913-1921.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1921-1923.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1909-1913.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Kelley</primary_name>
+        <rest_of_name>Patrick Henry</rest_of_name>
+        <dates>1867-1925</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Congress</subordinate_name>
+        <term type="topical">Elections, 1922.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6406">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Townsend</primary_name>
         <rest_of_name>Charles Elroy</rest_of_name>
         <dates>1856-1924</dates>
@@ -101,6 +135,5 @@
         <scopecontent>Portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012074 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/169">
+        <persname encodinganalog="100">
           <primary_name>Edwards</primary_name>
           <rest_of_name>Julia Knight</rest_of_name>
           <dates>1845-1943</dates>
@@ -32,26 +31,28 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: XXXX</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: XXXX</p>
+      </odd>
     </descgrp>
     <bioghist>First woman freshman at the University of Michigan, attended 1870-1871. Resident of Adrian, Mich.</bioghist>
     <scopecontent>Mathematics notebook.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2570">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women college students</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/169">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Edwards</primary_name>
         <rest_of_name>Julia Knight</rest_of_name>
         <dates>1845-1943</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="genre_form">Student notebooks.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

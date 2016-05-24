@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851215 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/6733">
+        <persname encodinganalog="100">
           <primary_name>Fishburn</primary_name>
           <rest_of_name>Junius Matthew</rest_of_name>
           <dates>1830-1858</dates>
@@ -34,37 +33,39 @@
         <head>Reproduction Note</head>
         <p>Microfilm copy available.</p>
       </odd>
-      <acqinfo>Donor: 15</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 15</p>
+      </odd>
     </descgrp>
     <bioghist>Professor of Languages at Washington and Lee University, Lexington, Virginia.</bioghist>
     <scopecontent>Diaries of travels in Europe in 1856 with traveling companion Professor Henry S. Frieze of University of Michigan, including comments on religion, churches, condition of land, architecture and art; also miscellaneous correspondence and biographical material.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655" ref="/subjects/4649">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1173">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Voyages and travels.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2337">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Travelers.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3336">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Europe</term>
         <term type="topical">Description and travel.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6451">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Lexington (Va.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4592">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Frieze</primary_name>
         <rest_of_name>Henry S.</rest_of_name>
         <fuller_form>(Henry Simmons)</fuller_form>
         <dates>1817-1889</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2592">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Washington and Lee University</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

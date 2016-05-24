@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0720 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/502">
+        <persname encodinganalog="100">
           <primary_name>Haber</primary_name>
           <rest_of_name>Fannie.</rest_of_name>
         </persname>
@@ -31,15 +30,17 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 5400</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5400</p>
+      </odd>
     </descgrp>
     <bioghist>Fannie Haber was a resident of Barton Hills, Michigan.</bioghist>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7114">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Barton Hills (Mich.)</term>
         <term type="topical">History.</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

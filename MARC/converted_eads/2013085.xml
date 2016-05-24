@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2013085 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5553">
+        <persname encodinganalog="100">
           <primary_name>Sipes</primary_name>
           <rest_of_name>Lorri.</rest_of_name>
         </persname>
@@ -30,7 +29,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10925</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10925</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -39,39 +41,56 @@
     <bioghist>Graduate student in architecture at the University of Michigan.</bioghist>
     <scopecontent>Snipes' research paper "The Architecture of George B. Brigham, Jr. 1936-1950" written for her class in Theory and Philosophy of Architecture in April 1976. Also a copy of "The story of Dad's life," as dictated to Brigham's daughter Alice in May 1976.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6684">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Architects</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/582">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Brigham</primary_name>
         <rest_of_name>George Bickford</rest_of_name>
         <dates>1889-</dates>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/1768">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Architectural drawings.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/1">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Slides (photographs)</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/1336">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dwellings</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/1740">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Architecture</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/5036">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Brigham</primary_name>
+        <rest_of_name>George Bickford</rest_of_name>
+        <dates>1889-</dates>
+      </persname>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Architects</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Brigham</primary_name>
+        <rest_of_name>George Bickford</rest_of_name>
+        <dates>1889-</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -97,6 +116,5 @@
         <scopecontent>Slides of houses in the Ann Arbor, Mich., area, designed by George B. Brigham, including exterior and interior views and plans, taken by Lorri Sipes as part of a research project.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

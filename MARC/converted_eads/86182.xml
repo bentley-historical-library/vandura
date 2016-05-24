@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86182 AA Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3060">
+        <persname encodinganalog="100">
           <primary_name>Voelker</primary_name>
           <rest_of_name>Paul Frederick</rest_of_name>
           <dates>1875-</dates>
@@ -30,23 +29,36 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4018</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4018</p>
+      </odd>
     </descgrp>
     <bioghist>Michigan Superintendent of Public Instruction.</bioghist>
     <scopecontent>Speeches, clippings, and miscellaneous papers concerning his career in education; and materials used in his popular lectures.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8098">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Education</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/627">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan</primary_name>
         <subordinate_name>Department of Public Instruction</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Education</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>Department of Public Instruction</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3060">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Voelker</primary_name>
         <rest_of_name>Paul Frederick</rest_of_name>
         <dates>1875-</dates>
@@ -74,7 +86,5 @@
         <scopecontent>Portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

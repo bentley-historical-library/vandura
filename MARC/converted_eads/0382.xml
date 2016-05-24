@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0382 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2995">
+        <persname encodinganalog="100">
           <primary_name>Young</primary_name>
           <rest_of_name>Celestia A.</rest_of_name>
           <dates>1840-1915</dates>
@@ -30,35 +29,40 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Photocopy; donor retains original.</acqinfo>
-      <acqinfo>Donor: 8555</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Photocopy; donor retains original.</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8555</p>
+      </odd>
     </descgrp>
     <bioghist>Celestia A. Young resided with her family on a farm near Plymouth, Michigan.</bioghist>
     <scopecontent>Diaries recount chores, social activities, and other interests. The 1866 diary also refers to the death of her beau during the Civil War.</scopecontent>
     <controlaccess>
-      <subject source="local" encodinganalog="691" ref="/subjects/133">
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1861-1870.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/4649">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7720">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Plymouth</term>
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6954">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Plymouth (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2995">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Young</primary_name>
         <rest_of_name>Celestia A.</rest_of_name>
         <dates>1840-1915</dates>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

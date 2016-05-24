@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86880 BA Ba 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1186">
+        <corpname encodinganalog="110">
           <primary_name>First Presbyterian Church (Vicksburg, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -32,20 +31,21 @@
         <head>Reproduction Note</head>
         <p>Photocopy in part.</p>
       </odd>
-      <acqinfo>Donor: 3744</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3744</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes of meetings, membership list, and record of baptisms and election.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4476">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Vicksburg (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3226">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Presbyterian Church in the U.S.A</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Vicksburg.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

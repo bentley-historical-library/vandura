@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>87449 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/3301">
+        <persname encodinganalog="100">
           <primary_name>Anderson</primary_name>
           <rest_of_name>William D.</rest_of_name>
         </persname>
@@ -33,29 +32,31 @@
         <head>Reproduction Note</head>
         <p>Photostatic copy.</p>
       </odd>
-      <acqinfo>Donor: 3405</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3405</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Letter commenting on student life, Professor Francis Brünnow's arrival, literary societies, and fraternities.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6479">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Brünnow</primary_name>
         <rest_of_name>F.</rest_of_name>
         <fuller_form>(Franz)</fuller_form>
         <dates>1821-1891</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Correspondence.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1851-1860.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

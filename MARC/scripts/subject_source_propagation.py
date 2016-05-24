@@ -56,7 +56,7 @@ def propagate_sources(lcsh_list, aat_list, converted_ead_dir):
 				f.write(etree.tostring(tree, encoding="utf-8", xml_declaration=True, pretty_print=True))
 
 def subject_source_propagation(ead_dir, marc_dir):
-	converted_eads = join(marc_dir, "converted_eads")
+	converted_eads = join(marc_dir, "converted_eads_working")
 	ead_subject_csv = join(ead_dir, "subjects_agents", "ead_unique_subjects.csv")
 	lcsh_list, aat_list = make_source_lists(ead_subject_csv, converted_eads)
 	propagate_sources(lcsh_list, aat_list, converted_eads)

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89360 Aa 2 Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4856">
+        <persname encodinganalog="100">
           <primary_name>Phelps</primary_name>
           <rest_of_name>Edgar A.</rest_of_name>
           <dates>d. 1864</dates>
@@ -35,28 +34,30 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 4319, 7909</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4319, 7909</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Scio Township, Washtenaw County, Michigan, who served in Co. D., 20th Michigan Infantry, during the Civil War.</bioghist>
     <scopecontent>Correspondence, primarily with his parents, describing his activities in the army.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4856">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Phelps</primary_name>
         <rest_of_name>Edgar A.</rest_of_name>
         <dates>d. 1864</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/954">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 20th (1862-1865)</subordinate_name>
         <subordinate_name>Company D</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86900 Ba 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/26">
+        <corpname encodinganalog="110">
           <primary_name>St. Andrew's Church (Saline, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,30 +27,32 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2244</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2244</p>
+      </odd>
     </descgrp>
     <scopecontent>Notes and list of references on the development of St. Andrew's as a mission of St. Francis of Assisi Parish of Ann Arbor, Michigan.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3556">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Saline (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3541">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Catholic Church</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Saline.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3541">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Catholic Church</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/26">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>St. Andrew's Church (Saline, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

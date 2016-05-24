@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9419 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/755">
+        <persname encodinganalog="100">
           <primary_name>Speechly</primary_name>
           <rest_of_name>Anna Wallington</rest_of_name>
           <dates>1840-1924</dates>
@@ -30,50 +29,91 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4005</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4005</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Ann Arbor Township, Michigan; wife of Robert L. Speechly.</bioghist>
     <scopecontent>Diaries describing everyday life of a farm wife; also photographs. Also includes notes about the Speechly family and the diaries, by Winston Wessels.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/4649">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4737">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Agriculture</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor (Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5481">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Farm life</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor (Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2775">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor (Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/719">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor Township (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/755">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Speechly</primary_name>
         <rest_of_name>Anna Wallington</rest_of_name>
         <dates>1840-1924</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1798">
+      <persname source="local" encodinganalog="700">
         <primary_name>Wessels</primary_name>
         <rest_of_name>Winston.</rest_of_name>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/582">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Speechly family</family_name>
       </famname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Agriculture</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor (Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farm life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor (Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor (Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor Township (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Speechly</primary_name>
+        <rest_of_name>Anna Wallington</rest_of_name>
+        <dates>1840-1924</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Wessels</primary_name>
+        <rest_of_name>Winston.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Speechly family</family_name>
+      </famname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="gmgpc" encodinganalog="655" ref="/subjects/6346">
+      <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Tintypes.</term>
       </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Speechly family</family_name>
+      </famname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -97,6 +137,5 @@
         <scopecontent>Family portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

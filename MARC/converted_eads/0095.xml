@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0095 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/494">
+        <persname encodinganalog="100">
           <primary_name>Johnson</primary_name>
           <rest_of_name>J. B.</rest_of_name>
           <fuller_form>(John Butler)</fuller_form>
@@ -35,35 +34,37 @@
         <head>Reproduction Note</head>
         <p>Photocopies and transcripts.</p>
       </odd>
-      <acqinfo>Donor: 7466</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7466</p>
+      </odd>
     </descgrp>
     <bioghist>Civil engineer, 1878 graduate of the University of Michigan College of Engineering.</bioghist>
     <scopecontent>Four letters to his classmate O. C. Simonds. Three of the letters are written from a surveying job near Escanaba, Mich.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1730">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Surveying</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Upper Peninsula.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6745">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Escanaba (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6395">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Upper Peninsula (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/494">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Johnson</primary_name>
         <rest_of_name>J. B.</rest_of_name>
         <fuller_form>(John Butler)</fuller_form>
         <dates>1850-1902</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1724">
+      <persname source="local" encodinganalog="700">
         <primary_name>Simonds</primary_name>
         <rest_of_name>O. C.</rest_of_name>
         <fuller_form>(Ossian Cole)</fuller_form>
         <dates>1855-1931</dates>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

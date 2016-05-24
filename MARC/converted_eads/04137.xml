@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>04137 Bi 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1748">
+        <corpname encodinganalog="110">
           <primary_name>School District No. 2 Fractional (Ann Arbor and Superior, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,26 +27,28 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9536</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9536</p>
+      </odd>
     </descgrp>
     <bioghist>School building known as Dixboro School.</bioghist>
     <scopecontent>Record books include proceedings of school district meetings and of district board, school census, treasurer's accounts, and registers containing student attendance and promotion information.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3054">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Schools</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Washtenaw County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/719">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor Township (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6603">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Superior (Washtenaw County, Mich. : Township)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1748">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>School District No. 2 Fractional (Ann Arbor and Superior, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

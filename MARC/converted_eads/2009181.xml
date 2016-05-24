@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -44,17 +43,14 @@ ill.</physfacet>
       </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1614">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Polish Americans</term>
         <term type="geographic">Michigan</term>
         <term type="genre_form">Newspapers.</term>
       </subject>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/1048">
+      <corpname source="local" encodinganalog="710">
         <primary_name>Polish Daily News</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Bundle" type="bundle">2</container>
-    <container label="Bundle" type="bundle">1</container>
   </archdesc>
 </ead>

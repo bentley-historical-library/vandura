@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85645 Bj 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2036">
+        <corpname encodinganalog="110">
           <primary_name>Ann Arbor Community Fund Association (Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,25 +27,27 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 995</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 995</p>
+      </odd>
     </descgrp>
     <scopecontent>Correspondencc, chiefly of Alfred H. White (chairman of the budget committee), financial records, and other papers.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7688">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Community foundations</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6801">
+      <persname source="local" encodinganalog="700">
         <primary_name>White</primary_name>
         <rest_of_name>Alfred H.</rest_of_name>
         <fuller_form>(Alfred Holmes)</fuller_form>
         <dates>1873-1953</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2036">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Ann Arbor Community Fund Association (Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

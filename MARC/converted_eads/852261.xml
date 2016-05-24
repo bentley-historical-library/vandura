@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852261 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1982">
+        <persname encodinganalog="100">
           <primary_name>Simonton</primary_name>
           <rest_of_name>Melvin W.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4737</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4737</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,20 +40,28 @@
     <bioghist>Veteran of World War I from Hartland, Michigan.</bioghist>
     <scopecontent>Account of wartime experiences, letters from the front lines, and printed material from war period.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/695">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1914-1918.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3138">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Hartland (Mich.)</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hartland (Mich.)</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7404">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Soldiers</term>
         <term type="topical">American.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1982">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Simonton</primary_name>
         <rest_of_name>Melvin W.</rest_of_name>
       </persname>
@@ -78,6 +88,5 @@
         <scopecontent>Portrait in uniform.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86642 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/2369">
+        <persname encodinganalog="100">
           <primary_name>Sadler</primary_name>
           <rest_of_name>Silas W.</rest_of_name>
         </persname>
@@ -35,32 +34,34 @@
         <head>Reproduction Note</head>
         <p>Typescript copies.</p>
       </odd>
-      <acqinfo>Donor: 4163</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4163</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier from Lenawee County, Michigan who served in Co. G., 4th Michigan Infantry, and Co. I, 30th Michigan Infantry during the Civil War.</bioghist>
     <scopecontent>Letters written to his parents concerning his wartime experiences.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5605">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Lenawee County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/520">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 4th (1861-1864)</subordinate_name>
         <subordinate_name>Company G</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2569">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 30th (1865)</subordinate_name>
         <subordinate_name>Company I</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

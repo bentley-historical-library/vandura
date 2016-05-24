@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851504 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4897">
+        <persname encodinganalog="100">
           <primary_name>Hotchkiss</primary_name>
           <rest_of_name>George Woodward</rest_of_name>
           <dates>1831-</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3892</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3892</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual material described separately.</p>
@@ -39,60 +41,115 @@
     <bioghist>Lumberman at Bay City and Saginaw, Michigan, and editor of the Lumberman's Gazette.</bioghist>
     <scopecontent>Autobiography concerning his experiences in the Bay City and Saginaw, Michigan, area, 1862-1878; also miscellaneous clippings and other materials relating to his career, especially his experiences in the California gold rush; and visual material.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1096">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Indians of North America</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6071">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Logging</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/248">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Lumbering</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5240">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">American newspapers</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2458">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Shipping</term>
         <term type="geographic">Great Lakes (North America).</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4890">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Ships</term>
         <term type="geographic">Great Lakes (North America)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1173">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Voyages and travels.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2337">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Travelers.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7011">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Mexican War, 1846-1848</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3469">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Bay City (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4504">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">California</term>
         <term type="topical">Gold discoveries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5874">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Saginaw (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4897">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Hotchkiss</primary_name>
         <rest_of_name>George Woodward</rest_of_name>
         <dates>1831-</dates>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Indians of North America</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Logging</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Lumbering</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">American newspapers</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Shipping</term>
+        <term type="geographic">Great Lakes (North America).</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Ships</term>
+        <term type="geographic">Great Lakes (North America)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Travelers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Mexican War, 1846-1848</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Bay City (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">California</term>
+        <term type="topical">Gold discoveries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Saginaw (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hotchkiss</primary_name>
+        <rest_of_name>George Woodward</rest_of_name>
+        <dates>1831-</dates>
+      </persname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="gmgpc" encodinganalog="655" ref="/subjects/6189">
+      <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Prints.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hotchkiss</primary_name>
+        <rest_of_name>George Woodward</rest_of_name>
+        <dates>1831-</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -116,9 +173,5 @@
         <scopecontent>Portrait.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
-    <container label="Folder" type="folder">4</container>
   </archdesc>
 </ead>

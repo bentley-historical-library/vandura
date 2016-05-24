@@ -24,7 +24,7 @@ def make_beal_classifications_dict(beal_classifications):
 	return collection_types, faculty_collections
 
 def add_classifications(marc_dir, shared_dir):
-	converted_eads = join(marc_dir, "converted_eads")
+	converted_eads = join(marc_dir, "converted_eads_working")
 	beal_classifications_csv = join(shared_dir, "CSVs", "beal_classifications.csv")
 
 	classification_base = '/repositories/2/classifications/'

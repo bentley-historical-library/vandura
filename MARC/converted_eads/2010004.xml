@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2010004 BD</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/3416">
+        <corpname encodinganalog="110">
           <primary_name>Royal Arch Masons</primary_name>
           <subordinate_name>Meridian Chapter No. 48 (Manchester, Mich.)</subordinate_name>
         </corpname>
@@ -31,25 +30,25 @@
     </did>
     <descgrp>
       <accessrestrict>The records are open for research use.</accessrestrict>
-      <acqinfo>Donor: 10272</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10272</p>
+      </odd>
     </descgrp>
     <scopecontent>Minute books documenting membership and election of officers, 1867-1945; also returns of officers and members, 1877-1892.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1488">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Freemasonry</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Manchester.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5019">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Manchester (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3416">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Royal Arch Masons</primary_name>
         <subordinate_name>Meridian Chapter No. 48 (Manchester, Mich.)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">2</container>
-    <container label="Oversize Volume" type="volume">3</container>
   </archdesc>
 </ead>

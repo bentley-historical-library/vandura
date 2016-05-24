@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>00114 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/1771">
+        <persname encodinganalog="100">
           <primary_name>Mitchell</primary_name>
           <rest_of_name>Hattie Patterson.</rest_of_name>
         </persname>
@@ -33,15 +32,17 @@
         <head>Reproduction Note</head>
         <p>Photocopy.</p>
       </odd>
-      <acqinfo>Donor: 194</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 194</p>
+      </odd>
     </descgrp>
     <scopecontent>Paper read before the Adrian Woman's Club.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5620">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Lenawee County (Mich.)</term>
         <term type="topical">History.</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

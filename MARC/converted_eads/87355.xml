@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>87355 Bimu F44 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2683">
+        <corpname encodinganalog="110">
           <primary_name>Winchell House (University of Michigan)</primary_name>
         </corpname>
       </origination>
@@ -28,22 +27,24 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3853, 9150</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3853, 9150</p>
+      </odd>
     </descgrp>
     <bioghist>University of Michigan residence house.</bioghist>
     <scopecontent>Correspondence, reports of activities, and guest register.</scopecontent>
     <controlaccess>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student housing.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2391">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>West Quadrangle (University of Michigan)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2683">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Winchell House (University of Michigan)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

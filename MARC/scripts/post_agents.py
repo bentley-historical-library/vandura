@@ -236,7 +236,7 @@ def extract_id(response):
 	return aspace_id
 
 def get_and_post_agents(marc_dir, aspace_url, username, password):
-	ead_dir = join(marc_dir, "converted_eads")
+	ead_dir = join(marc_dir, "converted_eads_working")
 	subjects_and_agents_dir = join(marc_dir, "subjects_agents")
 	if not os.path.exists(subjects_and_agents_dir):
 		os.makedirs(subjects_and_agents_dir)

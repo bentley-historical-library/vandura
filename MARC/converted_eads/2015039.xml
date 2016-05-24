@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2015039 Ac</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/7322">
+        <persname encodinganalog="100">
           <primary_name>Pipp</primary_name>
           <rest_of_name>Herman W.</rest_of_name>
         </persname>
@@ -32,24 +31,26 @@
     <descgrp>
       <accruals>Further accruals are not expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 4452</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4452</p>
+      </odd>
     </descgrp>
     <bioghist>Herman W. Pipp, born 1872, was an architect in Ann Arbor, Mich.</bioghist>
     <scopecontent>Set of architectural plans for a single family residence.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/6691">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Architectural drawings (visual works)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1740">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Architecture</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7322">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Pipp</primary_name>
         <rest_of_name>Herman W.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Oversize Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851063 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5726">
+        <persname encodinganalog="100">
           <primary_name>Davis</primary_name>
           <rest_of_name>Ferdinand</rest_of_name>
           <dates>b. 1840</dates>
@@ -30,30 +29,31 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2284</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2284</p>
+      </odd>
     </descgrp>
     <bioghist>New Hampshire carpenter.</bioghist>
     <scopecontent>Autobiographical account dealing with his Civil War service in the Seventh New Hampshire Infantry.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3879">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Carpenters</term>
         <term type="geographic">New Hampshire.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3147">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">New Hampshire.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2390">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>New Hampshire Infantry Regiment, 7th (1861-1865)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

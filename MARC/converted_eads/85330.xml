@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85330 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2041">
+        <persname encodinganalog="100">
           <primary_name>Olander</primary_name>
           <rest_of_name>Oscar G.</rest_of_name>
           <fuller_form>(Oscar Gustaf)</fuller_form>
@@ -31,7 +30,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6878, 3322</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6878, 3322</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -40,38 +42,63 @@
     <bioghist>Commissioner of the Michigan State Police.</bioghist>
     <scopecontent>Materials relating to his work as advisor in restructuring the Japanese police force after World War II; and miscellaneous; also photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6356">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Police</term>
         <term type="geographic">Japan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7159">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Police, State</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8174">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Japan.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2041">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Olander</primary_name>
         <rest_of_name>Oscar G.</rest_of_name>
         <fuller_form>(Oscar Gustaf)</fuller_form>
         <dates>1899-1963</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3574">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan State Police</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Police</term>
+        <term type="geographic">Japan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Police, State</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Japan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Olander</primary_name>
+        <rest_of_name>Oscar G.</rest_of_name>
+        <fuller_form>(Oscar Gustaf)</fuller_form>
+        <dates>1899-1963</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan State Police</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/531">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Police</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2442">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Strikes.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/163">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Ford Motor Company</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan State Police</primary_name>
       </corpname>
     </controlaccess>
     <dsc>
@@ -96,7 +123,5 @@
         <scopecontent>Album of photos of strikers and violent acts associated with the Ford Motor strike of 1941; also portraits of Olander and others; and photos relating to Michigan State Police activities.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -57,25 +56,26 @@ Use copy:</physfacet>
         <head>General Note</head>
         <p>Accompanied by log relating speakers and discs to cassettes.</p>
       </odd>
-      <acqinfo>Donor: 4107, 7761</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4107, 7761</p>
+      </odd>
     </descgrp>
     <scopecontent>Dinner to celebrate University of Michigan football coach Fielding H. Yost on his retirement. Includes Michigan songs, speeches by alumni, political figures, and students, and speech by Yost.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1559">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Yost</primary_name>
         <rest_of_name>Fielding Harris</rest_of_name>
         <dates>1871-1946</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Football.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Songs and music.</term>
       </corpname>
     </controlaccess>
-    <container label="Sound Rec" type="??">1</container>
-    <container label="Sd Rec Box" type="box">1</container>
   </archdesc>
 </ead>

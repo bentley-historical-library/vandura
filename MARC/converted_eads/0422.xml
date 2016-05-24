@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0422 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/174">
+        <famname encodinganalog="100">
           <family_name>Meggison family</family_name>
         </famname>
       </origination>
@@ -28,21 +27,23 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7344</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7344</p>
+      </odd>
     </descgrp>
     <bioghist>James and Hattie Thompson Meggison family of Charlevoix County, Michigan.</bioghist>
     <scopecontent>Letters (mainly to Hattie Meggison) from family describing health and activities of other Meggisons; also letters, 1894, from John Ward, officer with the Michigan branch of the Christian Crusaders.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4692">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Charlevoix County (Mich.)</term>
       </subject>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/174">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Meggison family</family_name>
       </famname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3789">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Christian Crusaders</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

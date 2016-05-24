@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012155 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2127">
+        <persname encodinganalog="100">
           <primary_name>Pollmar</primary_name>
           <rest_of_name>F. Carl</rest_of_name>
           <dates>1872-1961</dates>
@@ -36,25 +35,27 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 10364</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10364</p>
+      </odd>
     </descgrp>
     <bioghist>Detroit architect. Pollman's mother was Elise Heike.</bioghist>
     <scopecontent>Miscellaneous photocopies of family papers; day-journal of Elise Heike describing her visit to Germany in 1859; letter in German written from Guatemala; also account by Elise Heike of visit to Guatemala in 1901.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4036">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Germany</term>
         <term type="topical">Description and travel.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1465">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Guatemala</term>
         <term type="topical">Description and travel.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2127">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Pollmar</primary_name>
         <rest_of_name>F. Carl</rest_of_name>
         <dates>1872-1961</dates>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

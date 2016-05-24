@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012151 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3612">
+        <persname encodinganalog="100">
           <primary_name>Good</primary_name>
           <rest_of_name>Tommy.</rest_of_name>
         </persname>
@@ -32,7 +31,10 @@
     <descgrp>
       <accruals>Further accruals are not expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10826</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10826</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Sound recordings described separately.</p>
@@ -41,29 +43,45 @@
     <bioghist>1960s Motown recording artist.</bioghist>
     <scopecontent>Programs for Motown productions Motor Town Revue (1964) and Americans in Harmony (1965) and sound recordings.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3612">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Good</primary_name>
         <rest_of_name>Tommy.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1645">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Motown Record Corporation</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/4838">
+    </controlaccess>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Good</primary_name>
+        <rest_of_name>Tommy.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Motown Record Corporation</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Sound recordings.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6623">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Popular music</term>
         <term type="geographic">United States</term>
         <term type="temporal">1961-1970.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7472">
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Good</primary_name>
+        <rest_of_name>Tommy.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Gordy</primary_name>
         <rest_of_name>Berry.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/7472">
+      <persname source="local" encodinganalog="700">
         <primary_name>Gordy</primary_name>
         <rest_of_name>Berry.</rest_of_name>
       </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Motown Record Corporation</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -89,6 +107,5 @@
         <scopecontent>Tape of Berry Gordy singing "Bad Bad Baby," a song he had written for Good; also "The Motown Collection," a 2005 compilation compact disc of Good's recordings, with some accompanying notes.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

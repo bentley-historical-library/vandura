@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851910 CB.1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1450">
+        <corpname encodinganalog="110">
           <primary_name>Montmorency County (Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,18 +27,20 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4358</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4358</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2603">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Montmorency County (Mich.)</term>
         <term type="topical">Politics and government.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2255">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Montmorency County (Mich.)</primary_name>
         <subordinate_name>County Treasurer</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852098 BB.2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3130">
+        <corpname encodinganalog="110">
           <primary_name>J. F. Tibbits Lumber and Hardware Store (Ravenna, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,30 +27,32 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2229</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2229</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Business records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4963">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Hardware stores</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ravenna.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6146">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Lumber trade</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ravenna.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/109">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ravenna (Mich. : Township)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1750">
+      <persname source="local" encodinganalog="700">
         <primary_name>Tibbits</primary_name>
         <rest_of_name>J. F.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

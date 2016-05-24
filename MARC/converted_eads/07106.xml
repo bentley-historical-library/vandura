@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -28,36 +27,38 @@
         <head>Publication, Distribution, Etc.</head>
         <p>1880.</p>
       </odd>
-      <acqinfo>Donor: 1617</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1617</p>
+      </odd>
     </descgrp>
     <scopecontent>Photograph album containing 21 cartes-de-visite portraits, primarily of members of the University of Michigan Medical School class of 1880. Includes portrait of José Celso Barbosa believed to be the first student enrolled from Puerto Rico.</scopecontent>
     <controlaccess>
-      <subject source="gmgpc" encodinganalog="655" ref="/subjects/7780">
+      <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Albums.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/6289">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">International students</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3916">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Barbosa</primary_name>
         <rest_of_name>José Celso</rest_of_name>
         <dates>1857-1921</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/64">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Class of 1880</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/973">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Dept. of Medicine and Surgery</subordinate_name>
         <subordinate_name>Class of 1880</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

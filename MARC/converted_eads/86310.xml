@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86310 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/3894">
+        <persname encodinganalog="100">
           <primary_name>Willard</primary_name>
           <rest_of_name>Hobart H.</rest_of_name>
           <fuller_form>(Hobart Hurd)</fuller_form>
@@ -31,24 +30,25 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5558</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5558</p>
+      </odd>
     </descgrp>
     <bioghist>Professor of chemistry at University of Michigan, specialist in analytical chemistry.</bioghist>
     <scopecontent>Class notes, reprints of publications, correspondence, and newspaper clippings relating to his professional activities.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6611">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Chemistry.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3402">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Chemistry</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

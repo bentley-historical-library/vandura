@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851430 Aa 2 vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/2925">
+        <persname encodinganalog="100">
           <primary_name>Harter</primary_name>
           <rest_of_name>Mathias</rest_of_name>
           <dates>1826-1906</dates>
@@ -31,27 +30,29 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 3539</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3539</p>
+      </odd>
     </descgrp>
     <bioghist>Student at University of Michigan and Civil War soldier.</bioghist>
     <scopecontent>Student commencement oration, 1855; six Civil War letters written while he was serving in the Ninth Iowa Infantry; and miscellaneous papers.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/462">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Iowa Infantry Regiment, 9th (1861-1865)</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Commencements</term>
         <term type="temporal">1851-1855.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>87370 Bimu F47 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/108">
+        <corpname encodinganalog="110">
           <primary_name>Delta Kappa Epsilon</primary_name>
           <subordinate_name>Omicron Chapter (University of Michigan)</subordinate_name>
         </corpname>
@@ -29,28 +28,30 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3741</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3741</p>
+      </odd>
     </descgrp>
     <scopecontent>Register of members (1856-1902), correspondence of scriptors (1855-1862), minutes of meetings (1855-1927), and minutes of the Omicron Literary Association (1873-1932).</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8369">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Greek letter societies</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Societies, etc.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/108">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Delta Kappa Epsilon</primary_name>
         <subordinate_name>Omicron Chapter (University of Michigan)</subordinate_name>
       </corpname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/15">
+      <corpname source="local" encodinganalog="710">
         <primary_name>Omicron Literary Association (University of Michigan)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

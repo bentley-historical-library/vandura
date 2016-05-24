@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0334 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/471">
+        <famname encodinganalog="100">
           <family_name>Allen family</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8784</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8784</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Many of the letters are in German often accompanied by English translations.</p>
@@ -37,45 +39,39 @@
     <bioghist>Edward Allen was a professor of mathematics at the University of Michigan (1915-1919) later Iowa State University. He and his wife Minne were both active in peace causes. Their son Julius was an economist with the Library of Congress.</bioghist>
     <scopecontent>Letters of Minne and Edward Allen, of their son Julius W. Allen, and of other members of Muller-Allen family. Include letters of Minne Muller Allen to her mother, 1894-1919 (in German with translations); letters exchanged between Julius W. Allen and his parents, 1931-1981.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7569">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">German American women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2575">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women immigrants</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/7163">
+      <persname source="local" encodinganalog="700">
         <primary_name>Allen</primary_name>
         <rest_of_name>Edward S.</rest_of_name>
         <fuller_form>(Edward Switzer)</fuller_form>
         <dates>1887-1985</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/26">
+      <persname source="local" encodinganalog="700">
         <primary_name>Allen</primary_name>
         <rest_of_name>Julius W.</rest_of_name>
         <fuller_form>(Julius Willfried)</fuller_form>
         <dates>1916-2002</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4124">
+      <persname source="local" encodinganalog="700">
         <primary_name>Allen</primary_name>
         <rest_of_name>Minne Elisabeth.</rest_of_name>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/471">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Allen family</family_name>
       </famname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
-    <container label="Box" type="box">3</container>
-    <container label="Box" type="box">4</container>
-    <container label="Box" type="box">5</container>
-    <container label="Box" type="box">6</container>
   </archdesc>
 </ead>

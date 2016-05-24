@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851013 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/4246">
+        <persname encodinganalog="100">
           <primary_name>Cox</primary_name>
           <rest_of_name>Murrell Howard.</rest_of_name>
         </persname>
@@ -29,21 +28,23 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3408</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3408</p>
+      </odd>
     </descgrp>
     <bioghist>Detroit, Michigan, branch office manager of the Fafnir Bearing Company.</bioghist>
     <scopecontent>Business correspondence and miscellaneous papers dealing with the Fafnir Bearing Company and the Ainsworth Manufacturing Company of Detroit, Michigan.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2999">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3859">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Ainsworth Manufacturing Company (Detroit, Mich.)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3777">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Fafnir Bearing Company</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>04120 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/756">
+        <persname encodinganalog="100">
           <primary_name>Kennedy</primary_name>
           <rest_of_name>James.</rest_of_name>
         </persname>
@@ -29,37 +28,39 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9528</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9528</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Northfield Township, Washtenaw County, Mich.</bioghist>
     <scopecontent>Letters from his brother Edmond Kennedy in Ballyneety, Limerick, Ireland describing family news, conditions in the country, and the popularity of emigration to America.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1695">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ballyneety (Ireland)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3390">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ireland</term>
         <term type="topical">Emigration and immigration.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8382">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Northfield (Mich. : Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5784">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">Emigration and immigration.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/756">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Kennedy</primary_name>
         <rest_of_name>James.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/536">
+      <persname source="local" encodinganalog="700">
         <primary_name>Kennedy</primary_name>
         <rest_of_name>Edmond.</rest_of_name>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/592">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Kennedy family</family_name>
       </famname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

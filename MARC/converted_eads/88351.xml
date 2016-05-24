@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88351 AC</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/2973">
+        <persname encodinganalog="100">
           <primary_name>Hayden</primary_name>
           <rest_of_name>William H.</rest_of_name>
         </persname>
@@ -29,48 +28,65 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1242</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1242</p>
+      </odd>
     </descgrp>
     <bioghist>Operator of the Globe Mill, Tecumseh, Michigan.</bioghist>
     <scopecontent>Volume containing accounts, 1878-1880; also clippings, programs, and other materials largely relating to events in Tecumseh, Michigan.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/5130">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Business records.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1223">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Tecumseh (Mich.)</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Business records.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Tecumseh (Mich.)</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2570">
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women college students</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Campus</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Pushball.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1743">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Women's League</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/2238">
+      <corpname source="lcnaf" encodinganalog="611">
         <primary_name>Ann Arbor May Festival</primary_name>
       </corpname>
     </controlaccess>
@@ -96,6 +112,5 @@
         <scopecontent>Photographs relating to campus activities and student life.</scopecontent>
       </c01>
     </dsc>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

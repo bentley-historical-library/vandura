@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85100 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5949">
+        <persname encodinganalog="100">
           <primary_name>Cleary</primary_name>
           <rest_of_name>Barbara Ann.</rest_of_name>
         </persname>
@@ -33,7 +32,10 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 5845</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5845</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -42,45 +44,59 @@
     <bioghist>Student in museum practice at the University of Michigan.</bioghist>
     <scopecontent>Entitled, "Log Houses in Washtenaw County" being a detailed description of log house construction during the settlement of Washtenaw County, Michigan; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7420">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Dwellings</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Washtenaw County</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6304">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Log cabins.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7699">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Washtenaw County (Mich.)</term>
         <term type="topical">Buildings, structures, etc.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Dwellings</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Washtenaw County</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Log cabins.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+        <term type="topical">Buildings, structures, etc.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/1336">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dwellings</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/6418">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dwellings</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Washtenaw County.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/1151">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Log cabins</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Washtenaw County.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/5036">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/4632">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Washtenaw County (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/4512">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Washtenaw County (Mich.)</term>
         <term type="topical">Log cabins.</term>
       </subject>
@@ -107,6 +123,5 @@
         <scopecontent>Photographs of Washtenaw County houses, made in preparation of a term paper, "Log Houses in Washtenaw County," prepared for the Graduate Program in Museum Practice, April 1976.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

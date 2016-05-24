@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85467 Bb 1 Micro copy</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1843">
+        <corpname encodinganalog="110">
           <primary_name>American Fur Company</primary_name>
         </corpname>
       </origination>
@@ -33,29 +32,31 @@
         <head>General Note</head>
         <p>Microfilm reels are numbered reel 3 and 4.</p>
       </odd>
-      <acqinfo>Donor: 715, 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 715, 1771</p>
+      </odd>
     </descgrp>
     <scopecontent>Microfilm of letterbooks, financial ledgers, and journals, chiefly from Mackinac Island, but some from Wisconsin; trader's contract (1818).</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2293">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Fur trade</term>
         <term type="geographic">Wisconsin.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2265">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Fur trade</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3909">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Mackinac Island (Mich.)</term>
         <term type="topical">Commerce.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1843">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>American Fur Company</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/533">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michilimackinac Company</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>861118 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/2753">
+        <persname encodinganalog="100">
           <primary_name>Martin</primary_name>
           <rest_of_name>James</rest_of_name>
           <dates>b. ca. 1842</dates>
@@ -34,32 +33,34 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 7194</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7194</p>
+      </odd>
     </descgrp>
     <bioghist>Non-commissioned officer in Co. H, 11th Michigan Infantry during the Civil War.</bioghist>
     <scopecontent>Letters to his parents in Coldwater, Michigan; include discussions of battles participated in, impressions of the South, camp life and army food, the weather, sickness and hospital life, and killing and death.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5291">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Death.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4557">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865</term>
         <term type="topical">Medical care.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1209">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 11th (1861-1864)</subordinate_name>
         <subordinate_name>Company H</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

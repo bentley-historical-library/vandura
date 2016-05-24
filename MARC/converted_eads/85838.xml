@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85838 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/347">
+        <persname encodinganalog="100">
           <primary_name>Burmeister</primary_name>
           <rest_of_name>Byron</rest_of_name>
           <dates>1852-1923</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1619</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1619</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,45 +41,68 @@
     <bioghist>Sailor on the Great Lakes, later general store proprietor in Onekama, Manistee County, Michigan.</bioghist>
     <scopecontent>Scrapbook with clippings relating to business in Onekama, local events, and Great Lakes shipping; autobiography and biographical sketch; photographs; and miscellanea.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6678">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">General stores</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Onekama.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2458">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Shipping</term>
         <term type="geographic">Great Lakes (North America).</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/718">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Great Lakes (North America)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4343">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Manistee County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Onekama (Mich.)</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
-        <term type="genre_form">Photographs.</term>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/6678">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">General stores</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Onekama.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/8607">
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Shipping</term>
+        <term type="geographic">Great Lakes (North America).</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Great Lakes (North America)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Manistee County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Onekama (Mich.)</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">General stores</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Onekama.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Onekama (Mich.)</term>
         <term type="topical">General stores.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/347">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Burmeister</primary_name>
         <rest_of_name>Byron</rest_of_name>
         <dates>1852-1923</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2927">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Burmeister</primary_name>
         <rest_of_name>Mary.</rest_of_name>
       </persname>
@@ -104,6 +129,5 @@
         <scopecontent>Exterior photo of the Burmeister general store in Onekama, Michigan; also portraits of Burmeister and his wife, Mary.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

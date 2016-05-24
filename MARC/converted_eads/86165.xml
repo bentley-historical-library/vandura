@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86165 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="local" ref="/agents/families/325">
+        <famname encodinganalog="100">
           <family_name>Van Valin family</family_name>
         </famname>
       </origination>
@@ -28,34 +27,35 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1333</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1333</p>
+      </odd>
     </descgrp>
     <bioghist>Residents of Marshall, Michigan.</bioghist>
     <scopecontent>Indentures and legal papers, including land grants, appointment as notary public and divorce decree; also miscellaneous correspondence, 1844-1885, including letters to Eastern relatives from Oliver VanValin, soldier in the Civil War.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5814">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Marshall (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/2906">
+      <persname source="local" encodinganalog="700">
         <primary_name>Van Valin</primary_name>
         <rest_of_name>Amos.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4232">
+      <persname source="local" encodinganalog="700">
         <primary_name>Van Valin</primary_name>
         <rest_of_name>Charles E.</rest_of_name>
         <dates>1851-1896</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3420">
+      <persname source="local" encodinganalog="700">
         <primary_name>Van Valin</primary_name>
         <rest_of_name>Oliver.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

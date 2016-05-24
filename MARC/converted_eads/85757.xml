@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85757 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/2801">
+        <persname encodinganalog="100">
           <primary_name>Bird</primary_name>
           <rest_of_name>Henry</rest_of_name>
           <dates>d. 1800</dates>
@@ -34,24 +33,26 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 4288</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4288</p>
+      </odd>
     </descgrp>
     <bioghist>Captain in the British army.</bioghist>
     <scopecontent>Correspondence with his sister, Betsy Bird, in England, concerning personal matters and military campaigns during which he spent part of his time in Detroit, Michigan, ca. 1780-1784.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/378">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">England.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8346">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Revolution, 1775-1783.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1843">
+      <persname source="local" encodinganalog="700">
         <primary_name>Bird</primary_name>
         <rest_of_name>Betsy.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

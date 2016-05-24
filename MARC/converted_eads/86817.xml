@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86817 Ba 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3414">
+        <corpname encodinganalog="110">
           <primary_name>First Presbyterian Church (Jonesville, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,23 +27,25 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1120</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1120</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes and membership rolls, 1836-1895; minutes of the church society and trustees, 1837-1906; financial records, 1878-1905; correspondence concerning work of the church and pew rental; and material on the 1936 centennial celebration.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1531">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Jonesville (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3377">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Childs</primary_name>
         <rest_of_name>E. W.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3226">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Presbyterian Church in the U.S.A</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Jonesville.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2010132 Aa 2; Ac; UAm</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/128">
+        <famname encodinganalog="100">
           <family_name>Sibley family</family_name>
         </famname>
       </origination>
@@ -31,7 +30,10 @@
     <descgrp>
       <accruals>Further accruals are expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 9841</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9841</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -40,40 +42,63 @@
     <bioghist>Judson Sibley was an Oakland County, Michigan businessman with various interests, including produce, lumber and coal. He was partner with Willard Wixom in the produce business.</bioghist>
     <scopecontent>Letters, photographs, and other materials of Judson Sibley, Sibley family members, Willard Wixom and members of his family; some materials relate to the village of Wixom in Oakland County; business letterbook of Wixom and Sibley, 1885-1899; photographs; biographical and genealogical materials; and miscellaneous.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6214">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Wixom (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4528">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Sibley</primary_name>
         <rest_of_name>Judson</rest_of_name>
         <dates>1846-1920</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7249">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Wixom</primary_name>
         <rest_of_name>Willard.</rest_of_name>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/128">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Sibley family</family_name>
       </famname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/340">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Wixom family</family_name>
       </famname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Wixom (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Sibley</primary_name>
+        <rest_of_name>Judson</rest_of_name>
+        <dates>1846-1920</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wixom</primary_name>
+        <rest_of_name>Willard.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Sibley family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Wixom family</family_name>
+      </famname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4756">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Offices</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Oakland County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4418">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Oakland County (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5841">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Sibley</primary_name>
         <rest_of_name>Harry A.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/555">
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Sibley family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Albion College</primary_name>
         <term type="topical">Students.</term>
       </corpname>
@@ -102,6 +127,5 @@
         <scopecontent>Group portraits of members of Albion College fraternities, probably including member of the Sibley or Wixom family; also photo of the treasurer's office, Oakland County, Michigan (1904); and portrait of Harold A. Sibley, University of Michigan student.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

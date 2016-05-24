@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88143 BImu C74 UAs</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4102">
+        <persname encodinganalog="100">
           <primary_name>Cartwright</primary_name>
           <rest_of_name>James Henry</rest_of_name>
           <dates>1842-1924</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4222, 5347</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4222, 5347</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,49 +41,81 @@
     <bioghist>Law student at the University of Michigan.</bioghist>
     <scopecontent>Volume containing notes on the lectures of Charles A. Kent, Ashley Pond, and Charles I. Walker; and photographs.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4102">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Cartwright</primary_name>
         <rest_of_name>James Henry</rest_of_name>
         <dates>1842-1924</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/674">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Kent</primary_name>
         <rest_of_name>Charles A.</rest_of_name>
         <fuller_form>(Charles Artemas)</fuller_form>
         <dates>1835-1917</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2862">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Pond</primary_name>
         <rest_of_name>Ashley</rest_of_name>
         <dates>1827-1910</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3738">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Walker</primary_name>
         <rest_of_name>Charles I.</rest_of_name>
         <fuller_form>(Charles Irish)</fuller_form>
         <dates>1814-1895</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3117">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Law</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cartwright</primary_name>
+        <rest_of_name>James Henry</rest_of_name>
+        <dates>1842-1924</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Kent</primary_name>
+        <rest_of_name>Charles A.</rest_of_name>
+        <fuller_form>(Charles Artemas)</fuller_form>
+        <dates>1835-1917</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Pond</primary_name>
+        <rest_of_name>Ashley</rest_of_name>
+        <dates>1827-1910</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Walker</primary_name>
+        <rest_of_name>Charles I.</rest_of_name>
+        <fuller_form>(Charles Irish)</fuller_form>
+        <dates>1814-1895</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Law</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1976">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Illinois Infantry Regiment, 69th (1862)</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2729">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Dept. of Law</subordinate_name>
         <subordinate_name>Class of 1867</subordinate_name>
@@ -109,6 +143,5 @@
         <scopecontent>Photographs of the Law School Class of 1867, and of law school faculty, including Thomas M. Cooley; also photographs of the 69th Illinois Infantry.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

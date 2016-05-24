@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9525 Ca 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/977">
+        <corpname encodinganalog="110">
           <primary_name>United States</primary_name>
           <subordinate_name>Army</subordinate_name>
           <subordinate_name>Michigan Infantry Regiment, 12th (1862-1866)</subordinate_name>
@@ -31,22 +30,24 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8356</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8356</p>
+      </odd>
     </descgrp>
     <scopecontent>Vol. is damaged and incomplete.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/977">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 12th (1862-1866)</subordinate_name>
         <subordinate_name>Company E</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

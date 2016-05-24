@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85359 BP</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1528">
+        <corpname encodinganalog="110">
           <primary_name>Rochester Young Men's Society (Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,26 +27,28 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5913</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5913</p>
+      </odd>
     </descgrp>
     <bioghist>A local lyceum.</bioghist>
     <scopecontent>Minutes, membership lists and constitution.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5280">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Arts</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Rochester</term>
         <term type="topical">Societies, etc.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2393">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Lyceums</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Rochester.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1432">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Rochester (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

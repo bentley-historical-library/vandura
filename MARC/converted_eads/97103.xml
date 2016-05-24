@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -33,32 +32,34 @@ col. with b&amp;w sequences</physfacet>
         <head>General Note</head>
         <p>VHS</p>
       </odd>
-      <acqinfo>Donor: 8619</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8619</p>
+      </odd>
     </descgrp>
     <scopecontent>Includes interviews with former students in Macomb County, Mich. one-room schools.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8333">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Videotapes.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3751">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Education</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Macomb County.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/1087">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">One-room schools</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Macomb County.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/5909">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Macomb County (Mich.)</term>
         <term type="topical">One-room schools.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4906">
+      <persname source="local" encodinganalog="700">
         <primary_name>Urcavich</primary_name>
         <rest_of_name>Tanya.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Video Box" type="box">6</container>
   </archdesc>
 </ead>

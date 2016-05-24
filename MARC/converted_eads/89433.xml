@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89433 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/6158">
+        <persname encodinganalog="100">
           <primary_name>Whitney</primary_name>
           <rest_of_name>Andrew G.</rest_of_name>
           <dates>1786-1826</dates>
@@ -34,25 +33,27 @@
         <head>Reproduction Note</head>
         <p>Photostat (negative)</p>
       </odd>
-      <acqinfo>Donor: 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771</p>
+      </odd>
     </descgrp>
     <bioghist>Lawyer in Detroit, Michigan.</bioghist>
     <scopecontent>Probate inventory of his estate, listing his library and household furnishings.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7253">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Lawyers</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6946">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Libraries</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2999">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

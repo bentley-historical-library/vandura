@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8925 BImu C94</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/3660">
+        <persname encodinganalog="100">
           <primary_name>Mitchell</primary_name>
           <rest_of_name>Andrew Stuart.</rest_of_name>
         </persname>
@@ -29,26 +28,28 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 291</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 291</p>
+      </odd>
     </descgrp>
     <bioghist>Student in the College of Pharmacy at the University of Michigan.</bioghist>
     <scopecontent>Notes on the lectures of Albert B. Prescott.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2535">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Prescott</primary_name>
         <rest_of_name>A. B.</rest_of_name>
         <fuller_form>(Albert Benjamin)</fuller_form>
         <dates>1832-1905</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1267">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>College of Pharmacy</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

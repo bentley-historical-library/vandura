@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851562 Ca.5b 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1879">
+        <corpname encodinganalog="110">
           <primary_name>Soldiers' Aid Society of Kalamazoo</primary_name>
         </corpname>
       </origination>
@@ -33,18 +32,20 @@
         <head>Reproduction Note</head>
         <p>Typescript copy.</p>
       </odd>
-      <acqinfo>Donor: 196</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 196</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6886">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Kalamazoo (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

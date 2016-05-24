@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88173 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3628">
+        <persname encodinganalog="100">
           <primary_name>Cleveland</primary_name>
           <rest_of_name>J. H.</rest_of_name>
         </persname>
@@ -29,23 +28,25 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3038</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3038</p>
+      </odd>
     </descgrp>
     <scopecontent>Letter to Lewis Cass concerning subscription to the Congressional Globe, including response by Cass at bottom of letter.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="630" ref="/subjects/3712">
+      <subject source="lcsh" encodinganalog="630">
         <term type="uniform_title">Congressional globe.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3628">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Cleveland</primary_name>
         <rest_of_name>J. H.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3448">
+      <persname source="local" encodinganalog="700">
         <primary_name>Cass</primary_name>
         <rest_of_name>Lewis</rest_of_name>
         <dates>1782-1866</dates>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

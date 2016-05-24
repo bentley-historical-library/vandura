@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0122 BG</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/858">
+        <corpname encodinganalog="110">
           <primary_name>Richmond and Riley Farmers Club</primary_name>
         </corpname>
       </origination>
@@ -28,25 +27,27 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5225</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5225</p>
+      </odd>
     </descgrp>
     <bioghist>Located in the Memphis, Mich., area.</bioghist>
     <scopecontent>Minutes and membership lists.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7511">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Farmers</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Memphis</term>
         <term type="topical">Societies, etc.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7927">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Memphis (Mich.)</term>
         <term type="topical">Social life and customs.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/858">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Richmond and Riley Farmers Club</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

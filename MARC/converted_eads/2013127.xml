@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2013127 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4261">
+        <persname encodinganalog="100">
           <primary_name>Gibson</primary_name>
           <rest_of_name>Giles Henry.</rest_of_name>
         </persname>
@@ -32,7 +31,10 @@
     <descgrp>
       <accruals>No further accruals are expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10670</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10670</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -41,31 +43,54 @@
     <bioghist>Student at the University of Michigan, member of the College of Engineering class of 1911, from Saginaw, Michigan.</bioghist>
     <scopecontent>Student material including notebook on math course, student handbook, anthropometric measurement chart, and photographs including freshmen-sophomore rush.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4261">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Gibson</primary_name>
         <rest_of_name>Giles Henry.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/889">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>College of Engineering</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3853">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Engineering</subordinate_name>
         <subordinate_name>Class of 1911</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gibson</primary_name>
+        <rest_of_name>Giles Henry.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Engineering</subordinate_name>
+        <subordinate_name>Class of 1911</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gibson</primary_name>
+        <rest_of_name>Giles Henry.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Sophomores.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
@@ -96,6 +121,5 @@
         <scopecontent>1908 panoramic photograph of the University of Michigan College of Engineering class of 1911, sophomore bill posters, 1908, Marshall Vinegar Co. building, unidentified football team.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

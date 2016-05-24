@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -25,28 +24,30 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 9631</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9631</p>
+      </odd>
     </descgrp>
     <bioghist>Northside School is an elementary school apart of the Ann Arbor Public School System.</bioghist>
     <scopecontent>Assorted newspaper clippings, newsletters, pamphlets, with information on the 50th anniversary celebration of Northside School.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6252">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Elementary schools</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3811">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Public schools</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1919">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Northside School (Ann Arbor, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

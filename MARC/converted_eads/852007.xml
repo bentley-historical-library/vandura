@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852007 CB</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/3057">
+        <corpname encodinganalog="110">
           <primary_name>Ontonagon County (Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,24 +27,25 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2643</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2643</p>
+      </odd>
     </descgrp>
     <scopecontent>Docket books of court of Justice of the Peace.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6025">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Justices of the peace</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ontonagon County.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6395">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Upper Peninsula (Mich.)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1456">
+      <persname source="local" encodinganalog="700">
         <primary_name>Cash</primary_name>
         <rest_of_name>D. S.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852105 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5999">
+        <persname encodinganalog="100">
           <primary_name>Rademacher</primary_name>
           <rest_of_name>Marie Jaeger.</rest_of_name>
         </persname>
@@ -33,31 +32,33 @@
         <head>Reproduction Note</head>
         <p>Photocopy.</p>
       </odd>
-      <acqinfo>Donor: 2643</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2643</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Ford River, Michigan.</bioghist>
     <scopecontent>Reminiscence of Ford River, Michigan.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7631">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Logging</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ford River.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7341">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Lumbering</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ford River.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6378">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Delta County (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1519">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ford River (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6395">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Upper Peninsula (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

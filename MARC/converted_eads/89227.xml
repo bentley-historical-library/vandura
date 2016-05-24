@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89227 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/6326">
+        <persname encodinganalog="100">
           <primary_name>Robinson</primary_name>
           <rest_of_name>Remus</rest_of_name>
           <dates>1904-1970</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5073</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5073</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,28 +41,48 @@
     <bioghist>Detroit, Michigan physician and civic leader.</bioghist>
     <scopecontent>Student notes and other materials taken while attending the Medical School of the University of Michigan; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/700">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">African Americans</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6852">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Medical students</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6326">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Robinson</primary_name>
         <rest_of_name>Remus</rest_of_name>
         <dates>1904-1970</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1196">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Medical School</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Medical students</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Robinson</primary_name>
+        <rest_of_name>Remus</rest_of_name>
+        <dates>1904-1970</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Medical School</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/3608">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">African Americans</term>
         <term type="topical">Women.</term>
       </subject>
@@ -87,7 +109,5 @@
         <scopecontent>Portraits of friends.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

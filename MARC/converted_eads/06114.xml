@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>06114 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1494">
+        <persname encodinganalog="100">
           <primary_name>McBride</primary_name>
           <rest_of_name>James G.</rest_of_name>
           <dates>b. 1844</dates>
@@ -32,7 +31,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 9784</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9784</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -41,54 +43,91 @@
     <bioghist>Resident of Monroe, Mich., who served with the 9th Michigan Cavalry during the Civil War, rising to the rank of major. He had earlier served with the 15th Michigan Infantry.</bioghist>
     <scopecontent>Diary, March to Sept. 27, 1864, detailing McBride's actions in Kentucky, Tennessee, and Georgia, including clashes with Morgan's Cavalry. Also miscellaneous clippings, a 1927 letter about the collection, and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4162">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Kentucky</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4743">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Tennessee</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8058">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Georgia</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1494">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>McBride</primary_name>
         <rest_of_name>James G.</rest_of_name>
         <dates>b. 1844</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3171">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Cavalry Regiment, 9th (1863-1865)</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/6346">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Kentucky</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Tennessee</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Georgia</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McBride</primary_name>
+        <rest_of_name>James G.</rest_of_name>
+        <dates>b. 1844</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 9th (1863-1865)</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Tintypes.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4682">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dogs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2210">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Girls.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2229">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Soldiers</term>
         <term type="topical">American</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4531">
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McBride</primary_name>
+        <rest_of_name>James G.</rest_of_name>
+        <dates>b. 1844</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Darrah</primary_name>
         <rest_of_name>John</rest_of_name>
         <dates>d. 1862</dates>
@@ -118,6 +157,5 @@
         <scopecontent>Tintype portrait (and cabinet card copy) of McBride with "Mr. Darraugh," probably John Darrah of the 15th Michigan Infantry, "taken in Tennessee at the time of the Shiloh campaign." Also tintype of girl and dog.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

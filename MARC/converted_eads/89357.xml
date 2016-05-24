@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89357 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/793">
+        <persname encodinganalog="100">
           <primary_name>Klinger</primary_name>
           <rest_of_name>Pat.</rest_of_name>
         </persname>
@@ -33,22 +32,24 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 7544</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7544</p>
+      </odd>
     </descgrp>
     <bioghist>Peace Corps volunteer from Ann Arbor, Michigan, serving in Dominica.</bioghist>
     <scopecontent>Letters describing her experiences as a Peace Corps volunteer.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2348">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women in development</term>
         <term type="geographic">Dominica.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7575">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Dominica.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3471">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Peace Corps (U.S.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85833 Aa 2 Vault</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/140">
+        <famname encodinganalog="100">
           <family_name>Butterworth family</family_name>
         </famname>
       </origination>
@@ -29,7 +28,10 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 4546</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4546</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,34 +40,74 @@
     <bioghist>Coldwater, Michigan, family.</bioghist>
     <scopecontent>Civil War letters relating to Captain Ebenezer Butterworth of Co. C, 1st Michigan Infantry, and genealogical material; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1303">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Coldwater (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/820">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Butterworth</primary_name>
         <rest_of_name>Ebenezer</rest_of_name>
         <dates>1827-1861</dates>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/140">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Butterworth family</family_name>
       </famname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1800">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 1st (1861)</subordinate_name>
         <subordinate_name>Company C</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Coldwater (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Butterworth</primary_name>
+        <rest_of_name>Ebenezer</rest_of_name>
+        <dates>1827-1861</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Butterworth family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 1st (1861)</subordinate_name>
+        <subordinate_name>Company C</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2387">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Military officers.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Butterworth</primary_name>
+        <rest_of_name>Ebenezer</rest_of_name>
+        <dates>1827-1861</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 1st (1861)</subordinate_name>
+        <subordinate_name>Company C</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -89,6 +131,5 @@
         <scopecontent>Family portraits, including portraits of Captain Ebenezer Butterworth of Co. C, 1st Michigan Infantry.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

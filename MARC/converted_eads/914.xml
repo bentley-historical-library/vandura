@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -27,21 +26,20 @@
         <head>Publication, Distribution, Etc.</head>
         <p>1990.</p>
       </odd>
-      <acqinfo>Donor: 1991</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1991</p>
+      </odd>
     </descgrp>
     <scopecontent>Photographs and captions used in exhibit prepared by Michigan Historical Collections.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="genre_form">Exhibitions.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
-    <container label="Box" type="box">3</container>
-    <container label="Box" type="box">4</container>
   </archdesc>
 </ead>

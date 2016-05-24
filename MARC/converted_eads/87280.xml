@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>87280 BImu F21</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1641">
+        <corpname encodinganalog="110">
           <primary_name>Phi Phi Alpha (University of Michigan)</primary_name>
         </corpname>
       </origination>
@@ -28,17 +27,18 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1278</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1278</p>
+      </odd>
     </descgrp>
     <bioghist>University of Michigan honorary society.</bioghist>
     <scopecontent>Minutes of meetings and constitution.</scopecontent>
     <controlaccess>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Honorary societies.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

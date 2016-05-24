@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>921073 Bj Basement</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/3451">
+        <corpname encodinganalog="110">
           <primary_name>Circle Pines Center</primary_name>
         </corpname>
       </origination>
@@ -32,28 +31,28 @@
         <head>General Note</head>
         <p>Located in basement blueprint cabinets.</p>
       </odd>
-      <acqinfo>Donor: 8000</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8000</p>
+      </odd>
     </descgrp>
     <bioghist>Cloverdale, Michigan, educational and vocational cooperative.</bioghist>
     <scopecontent>Architectural drawings, blueprints, and aerial view renderings of proposed Circle Pines Center complex of buildings designed by Frank Lloyd Wright; also letter from Wright about payment for drawings.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/1768">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Architectural drawings.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/1329">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Cloverdale (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5796">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Wright</primary_name>
         <rest_of_name>Frank Lloyd</rest_of_name>
         <dates>1867-1959</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3451">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Circle Pines Center</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Oversize Folder" type="folder">1</container>
-    <container label="Oversize Folder" type="folder">2</container>
-    <container label="Oversize Folder" type="folder">3</container>
   </archdesc>
 </ead>

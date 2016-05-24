@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8746 BImu F27</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/566">
+        <corpname encodinganalog="110">
           <primary_name>Christian Library Association (University of Michigan)</primary_name>
         </corpname>
       </origination>
@@ -28,23 +27,25 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1278</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1278</p>
+      </odd>
     </descgrp>
     <scopecontent>Constitution and minutes of meetings.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2156">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Libraries</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2035">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Office of Religious Affairs</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/566">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Christian Library Association (University of Michigan)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0691 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/441">
+        <famname encodinganalog="100">
           <family_name>Kent family</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9756</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9756</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -37,60 +39,91 @@
     <bioghist>Augusta, Michigan, farming family.</bioghist>
     <scopecontent>Journal, 1876-1893, probably kept by James or Frank Kent, documenting farming activities; also expense accounts, 1920-1925; miscellaneous other family materials; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/8325">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Agriculture</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Augusta.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6035">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Augusta (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6457">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Kent</primary_name>
         <rest_of_name>Karl L.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6623">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Kent</primary_name>
         <rest_of_name>Frank F.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6557">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Kent</primary_name>
         <rest_of_name>James.</rest_of_name>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/441">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Kent family</family_name>
       </famname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3252">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Agriculture</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Augusta.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Augusta (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Kent</primary_name>
+        <rest_of_name>Karl L.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Kent</primary_name>
+        <rest_of_name>Frank F.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Kent</primary_name>
+        <rest_of_name>James.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Kent family</family_name>
+      </famname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Stereographs.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/3669">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Harvesting</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4384">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Apple orchards</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/3491">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Schools</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Augusta.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6266">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Threshing</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Augusta.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6886">
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Augusta (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Kalamazoo (Mich.)</term>
       </subject>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/412">
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Kent family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Bradley family</family_name>
       </famname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/347">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Flanders family</family_name>
       </famname>
     </controlaccess>
@@ -116,6 +149,5 @@
         <scopecontent>Portraits and group photos of the Kent, Bradley, and Flanders families; also landscape views of Augusta, Michigan; photo of an apple orchard harvesting crew; and stereoscope views of Kalamazoo and lumbering activities.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

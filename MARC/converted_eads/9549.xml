@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9549 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/2667">
+        <persname encodinganalog="100">
           <primary_name>Hoffman</primary_name>
           <rest_of_name>Wallace.</rest_of_name>
         </persname>
@@ -33,27 +32,44 @@
         <head>General Note</head>
         <p>Photographs cataloged separately.</p>
       </odd>
-      <acqinfo>Donor: 7412</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7412</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Toledo, Ohio, who worked for U.N.R.R.A. on a famine relief project in Hunan, China, in 1946-1947.</bioghist>
     <scopecontent>Letters, miscellanea, and photographs relating to his experiences in China.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5792">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">China</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1945-1949.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/2667">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Hoffman</primary_name>
         <rest_of_name>Wallace.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1716">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United Nations Relief and Rehabilitation Administration</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">China</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1945-1949.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hoffman</primary_name>
+        <rest_of_name>Wallace.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United Nations Relief and Rehabilitation Administration</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3953">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">China</term>
         <term type="topical">History</term>
         <term type="temporal">Republic, 1912-1949.</term>
@@ -81,6 +97,5 @@
         <scopecontent>Snapshots relating to his work in China.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

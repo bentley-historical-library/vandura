@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86520 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3798">
+        <persname encodinganalog="100">
           <primary_name>Compton</primary_name>
           <rest_of_name>Silas H.</rest_of_name>
           <dates>1832-1870</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4073</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4073</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,25 +41,48 @@
     <bioghist>Soldier in Co. B, 3rd Michigan Infantry during the Civil War.</bioghist>
     <scopecontent>Description of company affairs and the prospect of a battle; also photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3798">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Compton</primary_name>
         <rest_of_name>Silas H.</rest_of_name>
         <dates>1832-1870</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/155">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 3rd (1861-1864)</subordinate_name>
         <subordinate_name>Company B</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Compton</primary_name>
+        <rest_of_name>Silas H.</rest_of_name>
+        <dates>1832-1870</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 3rd (1861-1864)</subordinate_name>
+        <subordinate_name>Company B</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Compton</primary_name>
+        <rest_of_name>Silas H.</rest_of_name>
+        <dates>1832-1870</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -81,6 +106,5 @@
         <scopecontent>Portrait (not in uniform).</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

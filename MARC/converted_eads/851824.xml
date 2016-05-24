@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851824 BA</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1203">
+        <corpname encodinganalog="110">
           <primary_name>Methodist Episcopal Church</primary_name>
           <subordinate_name>Women's Home Missionary Society (Adrian, Mich.)</subordinate_name>
         </corpname>
@@ -29,26 +28,28 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2412</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2412</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes and financial statements of the annual meetings.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1067">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="topical">Religious life</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Adrian.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7489">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Adrian</term>
         <term type="topical">Societies and clubs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5228">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Adrian (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

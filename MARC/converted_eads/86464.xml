@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86464 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/2005">
+        <persname encodinganalog="100">
           <primary_name>Lyon</primary_name>
           <rest_of_name>Lucius</rest_of_name>
           <dates>1800-1851</dates>
@@ -34,33 +33,35 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 207</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 207</p>
+      </odd>
     </descgrp>
     <bioghist>Surveyor, congressman, U.S. Senator.</bioghist>
     <scopecontent>Letters to John Johnson of Burlington, Vermont, commenting on land surveys, travel, and congressional politics.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1679">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Surveying</term>
         <term type="geographic">United States.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1173">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Voyages and travels.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6271">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">Politics and government</term>
         <term type="temporal">1829-1837.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1841">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Johnson</primary_name>
         <rest_of_name>John.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2044">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Congress</subordinate_name>
         <subordinate_name>House</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

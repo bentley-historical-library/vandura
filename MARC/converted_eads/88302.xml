@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88302 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5865">
+        <persname encodinganalog="100">
           <primary_name>Fargo</primary_name>
           <rest_of_name>William G.</rest_of_name>
           <dates>1867-1957</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 837</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 837</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,52 +40,67 @@
     </descgrp>
     <scopecontent>Collected historical documents, photographs, and scattered correspondence of the William G. Fargo family of Jackson, Michigan.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7031">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Jackson (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5865">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Fargo</primary_name>
         <rest_of_name>William G.</rest_of_name>
         <dates>1867-1957</dates>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Jackson (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Fargo</primary_name>
+        <rest_of_name>William G.</rest_of_name>
+        <dates>1867-1957</dates>
+      </persname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3234">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">African Americans.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8165">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Agriculture</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Washtenaw County.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/5277">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Children.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/6483">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Clothing and dress</term>
         <term type="temporal">1863.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7504">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Farms</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Manchester.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/51">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Lumber industry.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7550">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Surveying</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5856">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Little Manistee River (Mich.)</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/7202">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Manchester (Mich.)</term>
         <term type="topical">Farms.</term>
       </subject>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/445">
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Fargo</primary_name>
+        <rest_of_name>William G.</rest_of_name>
+        <dates>1867-1957</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Fargo family</family_name>
       </famname>
     </controlaccess>
@@ -109,7 +126,5 @@
         <scopecontent>Portraits; views of the Gilbert farm near Manchester, Michigan; surveying scene, 1904, on Little Manistee River; and miscellaneous.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>894 Ca.5b 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/615">
+        <corpname encodinganalog="110">
           <primary_name>United States</primary_name>
           <subordinate_name>Army</subordinate_name>
           <subordinate_name>Michigan Artillery Regiment, 6th (1863-1865)</subordinate_name>
@@ -31,34 +30,36 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 945</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 945</p>
+      </odd>
     </descgrp>
     <scopecontent>Quartermaster and other records.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/615">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Artillery Regiment, 6th (1863-1865)</subordinate_name>
         <subordinate_name>Company F</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3760">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 6th (1861-1863)</subordinate_name>
         <subordinate_name>Company F</subordinate_name>
       </corpname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/3760">
+      <corpname source="local" encodinganalog="710">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 6th (1861-1863)</subordinate_name>
         <subordinate_name>Company F</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

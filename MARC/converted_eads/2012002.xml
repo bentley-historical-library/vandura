@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012002 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5378">
+        <persname encodinganalog="100">
           <primary_name>Nolte</primary_name>
           <rest_of_name>Glenina H.</rest_of_name>
         </persname>
@@ -31,23 +30,25 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10692</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10692</p>
+      </odd>
     </descgrp>
     <bioghist>Clinical social worker at the Hawthorn Center, a children's mental health facility in Northville, Michigan, administered by the Michigan Department of Community Health.</bioghist>
     <scopecontent>Reports, letters, conference papers, and her employee job description; papers relate to the issue of community placement of children and to administrative concerns within the Hawthorn Center.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5728">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Child mental health</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5378">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Nolte</primary_name>
         <rest_of_name>Glenina H.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/732">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Hawthorn Center</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852227 AA Ac Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/478">
+        <famname encodinganalog="100">
           <family_name>Risdon family</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2750</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2750</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,73 +39,128 @@
     <bioghist>Residents of Ann Arbor, Michigan.</bioghist>
     <scopecontent>Papers, 1825-1831, of Orange Risdon, surveyor of much of southern Michigan, including letters exchanged with his wife, letter from Joseph Jennings inquiring about conditions in Michigan, and composition by his daughter on Indians; cookbook and letters of Gertrude Judd Risdon and other family papers, including letter from Susan W. Judd, and Lewis Cass Risdon; also photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4202">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Cooking.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1096">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Indians of North America</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6382">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7770">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Land use</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1288">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Surveyors</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3297">
+      <persname source="local" encodinganalog="700">
         <primary_name>Jennings</primary_name>
         <rest_of_name>Joseph.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/5983">
+      <persname source="local" encodinganalog="700">
         <primary_name>Judd</primary_name>
         <rest_of_name>Susan Wood.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4306">
+      <persname source="local" encodinganalog="700">
         <primary_name>Risdon</primary_name>
         <rest_of_name>Gertrude Betsy Judd.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/7133">
+      <persname source="local" encodinganalog="700">
         <primary_name>Risdon</primary_name>
         <rest_of_name>Lewis Cass</rest_of_name>
         <dates>1824-1884</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3382">
+      <persname source="local" encodinganalog="700">
         <primary_name>Risdon</primary_name>
         <rest_of_name>Orange</rest_of_name>
         <dates>1786-1876</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4988">
+      <persname source="local" encodinganalog="700">
         <primary_name>Risdon</primary_name>
         <rest_of_name>Sally Newland</rest_of_name>
         <dates>d. 1866</dates>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/478">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Risdon family</family_name>
       </famname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
-        <term type="genre_form">Photographs.</term>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Cooking.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/7133">
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Indians of North America</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Land use</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Surveyors</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Jennings</primary_name>
+        <rest_of_name>Joseph.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Judd</primary_name>
+        <rest_of_name>Susan Wood.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Risdon</primary_name>
+        <rest_of_name>Gertrude Betsy Judd.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
         <primary_name>Risdon</primary_name>
         <rest_of_name>Lewis Cass</rest_of_name>
         <dates>1824-1884</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3382">
+      <persname source="local" encodinganalog="700">
         <primary_name>Risdon</primary_name>
         <rest_of_name>Orange</rest_of_name>
         <dates>1786-1876</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4988">
+      <persname source="local" encodinganalog="700">
+        <primary_name>Risdon</primary_name>
+        <rest_of_name>Sally Newland</rest_of_name>
+        <dates>d. 1866</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Risdon family</family_name>
+      </famname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Risdon</primary_name>
+        <rest_of_name>Lewis Cass</rest_of_name>
+        <dates>1824-1884</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Risdon</primary_name>
+        <rest_of_name>Orange</rest_of_name>
+        <dates>1786-1876</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Risdon</primary_name>
         <rest_of_name>Sally Newland</rest_of_name>
         <dates>d. 1866</dates>
@@ -131,7 +188,5 @@
         <scopecontent>Portraits of Orange, Sally, and Lewis Cass Risdon.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

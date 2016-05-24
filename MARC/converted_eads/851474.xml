@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851474 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4857">
+        <persname encodinganalog="100">
           <primary_name>Howard</primary_name>
           <rest_of_name>William Alanson</rest_of_name>
           <dates>1813-1880</dates>
@@ -35,7 +34,10 @@
         <head>Reproduction Note</head>
         <p>In part, photostatic copies.</p>
       </odd>
-      <acqinfo>Donor: 700, 1771, 1772</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 700, 1771, 1772</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described in Visual Materials Files.</p>
@@ -44,32 +46,62 @@
     <bioghist>Republican congressman from Michigan and governor of Dakota Territory.</bioghist>
     <scopecontent>Twenty-two items of correspondence, twenty-three miscellaneous papers, photographs, and scrapbook, 1856-1880, largely dealing with political affairs in which Howard was involved. Correspondents include: Rutherford B. Hayes.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6261">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Dakota Territory.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4704">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Howard</primary_name>
         <rest_of_name>William Alanson</rest_of_name>
         <dates>1813-1880</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/2650">
+      <persname source="local" encodinganalog="700">
         <primary_name>Hayes</primary_name>
         <rest_of_name>Rutherford B.</rest_of_name>
         <dates>1822-1893</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/571">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan</primary_name>
         <subordinate_name>Legislature</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3193">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Republican Party (Mich.)</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Dakota Territory.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Howard</primary_name>
+        <rest_of_name>William Alanson</rest_of_name>
+        <dates>1813-1880</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Hayes</primary_name>
+        <rest_of_name>Rutherford B.</rest_of_name>
+        <dates>1822-1893</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>Legislature</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Republican Party (Mich.)</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Howard</primary_name>
+        <rest_of_name>William Alanson</rest_of_name>
+        <dates>1813-1880</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -93,6 +125,5 @@
         <scopecontent>Portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

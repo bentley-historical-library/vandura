@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0564 Bi 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/133">
+        <corpname encodinganalog="110">
           <primary_name>Louis Tendler Elementary School</primary_name>
         </corpname>
       </origination>
@@ -28,31 +27,33 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6892</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6892</p>
+      </odd>
     </descgrp>
     <bioghist>Detroit, Michigan elementary school.</bioghist>
     <scopecontent>Scrapbooks, class photo albums, and miscellaneous reports relating to the school.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/114">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">African Americans</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/926">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Schools</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/133">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Louis Tendler Elementary School</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/51">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Detroit Public Schools</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

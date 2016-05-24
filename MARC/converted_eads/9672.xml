@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -33,35 +32,37 @@ sd., col.</physfacet>
         <head>Creation/Production Credits</head>
         <p>Produced and edited by Mike Dreiling.</p>
       </odd>
-      <acqinfo>Donor: 7066</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7066</p>
+      </odd>
     </descgrp>
     <scopecontent>Footage of rallies, press conferences, and confrontations with police during the Detroit newspaper strike of 1995.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="630" ref="/subjects/5308">
+      <subject source="lcsh" encodinganalog="630">
         <term type="uniform_title">Detroit free press.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="630" ref="/subjects/4506">
+      <subject source="lcsh" encodinganalog="630">
         <term type="uniform_title">Detroit news.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8333">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Videotapes.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/5342">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Strikes</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2938">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Strikes and lockouts</term>
         <term type="topical">Newspapers</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/5423">
+      <persname source="local" encodinganalog="700">
         <primary_name>Dreiling</primary_name>
         <rest_of_name>Mike.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Video Box" type="box">5</container>
   </archdesc>
 </ead>

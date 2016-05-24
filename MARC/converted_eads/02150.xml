@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>02150 Aa 2 AC</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1594">
+        <persname encodinganalog="100">
           <primary_name>Matthaei</primary_name>
           <rest_of_name>Frederick C.</rest_of_name>
           <fuller_form>(Frederick Carl)</fuller_form>
@@ -31,7 +30,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9112</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9112</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -40,38 +42,76 @@
     <bioghist>Detroit industrialist, alumnus of the University of Michigan, class of 1914.</bioghist>
     <scopecontent>Scrapbook of clippings, photographs, and memorabilia of life as student at Michigan Agricultural College, later as student at the University of Michigan; and later photographs and miscellanea.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1594">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Matthaei</primary_name>
         <rest_of_name>Frederick C.</rest_of_name>
         <fuller_form>(Frederick Carl)</fuller_form>
         <dates>1892-1973</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/268">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan Agricultural College</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3501">
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Matthaei</primary_name>
+        <rest_of_name>Frederick C.</rest_of_name>
+        <fuller_form>(Frederick Carl)</fuller_form>
+        <dates>1892-1973</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Cooper</primary_name>
         <rest_of_name>Harry D.</rest_of_name>
         <dates>1863-1933</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2612">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Linsdale University (Club)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan Agricultural College</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student housing.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Matthaei</primary_name>
+        <rest_of_name>Frederick C.</rest_of_name>
+        <fuller_form>(Frederick Carl)</fuller_form>
+        <dates>1892-1973</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan Agricultural College</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
       </corpname>
     </controlaccess>
     <dsc>
@@ -96,7 +136,5 @@
         <scopecontent>Photos of school activities at Michigan Agricultural College and the University of Michigan; photos of U-M athlethic and social events; photo of Railroad Jack; photos of U-M alumni train trip to Michigan-Illinois football game in 1947 as part of fictitious Linsdale University group.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>921102 Ba 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/204">
+        <corpname encodinganalog="110">
           <primary_name>Ypsilanti Evangelical Friends Church (Ypsilanti, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8042</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8042</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,42 +40,84 @@
     <bioghist>Church established in 1835, formerly called Ypsilanti Friends Church.</bioghist>
     <scopecontent>Scrapbooks compiled by Lelanel Gorton Malick, church historian, of photographs, historical notes and lists, bulletins and programs, and other materials documenting church history.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1522">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Society of Friends</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ypsilanti.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2804">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ypsilanti (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8154">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ypsilanti (Mich.)</term>
         <term type="topical">Churches.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3084">
+      <persname source="local" encodinganalog="700">
         <primary_name>Malick</primary_name>
         <rest_of_name>Lelanel Gorton.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/204">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Ypsilanti Evangelical Friends Church (Ypsilanti, Mich.)</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3718">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Ypsilanti Friends Church (Ypsilanti, Mich.)</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Society of Friends</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ypsilanti.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ypsilanti (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ypsilanti (Mich.)</term>
+        <term type="topical">Churches.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Malick</primary_name>
+        <rest_of_name>Lelanel Gorton.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ypsilanti Evangelical Friends Church (Ypsilanti, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ypsilanti Friends Church (Ypsilanti, Mich.)</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/6822">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Churches</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ypsilanti.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8349">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Friends' meeting houses.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Society of Friends</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ypsilanti.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ypsilanti (Mich.)</term>
+        <term type="topical">Churches.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ypsilanti Evangelical Friends Church (Ypsilanti, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ypsilanti Friends Church (Ypsilanti, Mich.)</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -98,6 +142,5 @@
         <scopecontent>Photographs scattered throughout historical albums of church buildings, members, and various congregational activities.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

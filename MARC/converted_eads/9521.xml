@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -33,38 +32,40 @@ sd., col. ; 1/2 in.</physfacet>
         <head>General Note</head>
         <p>VHS.</p>
       </odd>
-      <acqinfo>Donor: 8331</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8331</p>
+      </odd>
     </descgrp>
     <scopecontent>Scenes of sculpture in public places in Ann Arbor, Mich.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8333">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Videotapes.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/941">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Sculpture</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/7172">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Sculpture.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3978">
+      <persname source="local" encodinganalog="700">
         <primary_name>Reed</primary_name>
         <rest_of_name>Lisa.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4326">
+      <persname source="local" encodinganalog="700">
         <primary_name>Bradley</primary_name>
         <rest_of_name>Kathy.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3285">
+      <persname source="local" encodinganalog="700">
         <primary_name>Sheperdigian</primary_name>
         <rest_of_name>Mary Ellen.</rest_of_name>
       </persname>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/45">
+      <corpname source="local" encodinganalog="710">
         <primary_name>Vine Productions</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Video Box" type="box">3</container>
   </archdesc>
 </ead>

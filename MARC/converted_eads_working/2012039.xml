@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the John Zoller sound recording collection</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>dacs</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>2012039 Aa 2</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Zoller</primary_name>
+          <rest_of_name>John</rest_of_name>
+          <dates>1889-</dates>
+        </persname>
+      </origination>
+      <unittitle>John Zoller sound recording collection</unittitle>
+      <langmaterial>In English.</langmaterial>
+      <unitdate type="inclusive" label="creation">1941</unitdate>
+      <physdesc>
+        <extent>4 sound discs</extent>
+        <physfacet>
+analog, 33¹/₃ rpm, mono.</physfacet>
+        <dimensions>16 in.</dimensions>
+      </physdesc>
+    </did>
+    <descgrp>
+      <accessrestrict>The collection is open for research use.</accessrestrict>
+      <acqinfo>Donor: 1350</acqinfo>
+    </descgrp>
+    <bioghist>Detroit, Mich., radio evangelist, president and preacher of the Wesley Radio League.</bioghist>
+    <scopecontent>Recordings of radio broadcasts.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Sound recordings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Radio broadcasting</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Radio in religion</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Zoller</primary_name>
+        <rest_of_name>John</rest_of_name>
+        <dates>1889-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Wesley Radio League</primary_name>
+      </corpname>
+    </controlaccess>
+    <container label="Sd Rec Box">1</container>
+    <container label="Sd Rec Box">2</container>
+    <container label="Sd Rec Box">3</container>
+    <container label="Sd Rec Box">4</container>
+  </archdesc>
+</ead>

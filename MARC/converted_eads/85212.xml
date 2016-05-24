@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85212 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/3257">
+        <persname encodinganalog="100">
           <primary_name>Huebner</primary_name>
           <rest_of_name>Gertrude</rest_of_name>
           <dates>1915-</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6488</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6488</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,33 +41,55 @@
     <bioghist>Executive with Maxon, Inc., advertising agency, regent of the University of Michigan, 1967-1975.</bioghist>
     <scopecontent>Examples of advertisements and scripts for television commercial spots; clippings and other memorabilia relating to her business career and years as university regent; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/43">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Advertising.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6757">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="topical">Political activity</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5449">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Advertising executives</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1564">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Board of Regents</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Advertising.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="topical">Political activity</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Advertising executives</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Board of Regents</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4801">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Women.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/3257">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Huebner</primary_name>
         <rest_of_name>Gertrude</rest_of_name>
         <dates>1915-</dates>
       </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Board of Regents</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -89,6 +113,5 @@
         <scopecontent>Photographs illustrative of regental activities; photographs showing Huebner receiving award and honorary degree.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

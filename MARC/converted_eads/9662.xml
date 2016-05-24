@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -29,31 +28,33 @@ sd., col.</physfacet>
         <head>Publication, Distribution, Etc.</head>
         <p>Burbank, CA : Mark Howell Productions, c1996.</p>
       </odd>
-      <acqinfo>Donor: 8481</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8481</p>
+      </odd>
     </descgrp>
     <scopecontent>Brief excerpts and advertisements for Mark Howell Productions film restoration service and films Building the Mighty Mac and Mackinac Bridge story.</scopecontent>
     <controlaccess>
-      <subject source="local" encodinganalog="730" ref="/subjects/4441">
+      <subject source="local" encodinganalog="730">
         <term type="uniform_title">Mackinac Bridge story.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8333">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Videotapes.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/3963">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Suspension bridges</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7377">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Bridge construction</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3638">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Mackinac Bridge (Mich.)</term>
       </subject>
-      <corpname source="local" encodinganalog="710" ref="/agents/corporate_entities/1266">
+      <corpname source="local" encodinganalog="710">
         <primary_name>Mark Howell Productions</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Video Box" type="box">4</container>
   </archdesc>
 </ead>

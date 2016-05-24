@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012181 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/544">
+        <famname encodinganalog="100">
           <family_name>Hitchingham family</family_name>
         </famname>
       </origination>
@@ -30,26 +29,28 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10847</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10847</p>
+      </odd>
     </descgrp>
     <bioghist>Augusta Township, Washtenaw County, Michigan family.</bioghist>
     <scopecontent>School records, including certificates of promotion, report cards, and commencement programs, of member of the Hitchingham family; also postcard photo of class members of Bishop School District no. 12 (1922) and abstract title of the Hitchingham property, 1926.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6343">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Schools</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Augusta (Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6554">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Augusta (Mich. : Township)</term>
       </subject>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/544">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Hitchingham family</family_name>
       </famname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

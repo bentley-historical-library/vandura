@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9465 AC</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/657">
+        <persname encodinganalog="100">
           <primary_name>McKean</primary_name>
           <rest_of_name>Josiah S.</rest_of_name>
           <fuller_form>(Josiah Slutz)</fuller_form>
@@ -34,45 +33,72 @@
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 8286</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8286</p>
+      </odd>
     </descgrp>
     <bioghist>1914 graduate of the University of Michigan College of Engineering.</bioghist>
     <scopecontent>Photos and memorabilia relating to his student experiences.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3238">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/657">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>McKean</primary_name>
         <rest_of_name>Josiah S.</rest_of_name>
         <fuller_form>(Josiah Slutz)</fuller_form>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McKean</primary_name>
+        <rest_of_name>Josiah S.</rest_of_name>
+        <fuller_form>(Josiah Slutz)</fuller_form>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/8485">
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Construction industry</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/2827">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Construction industry.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/275">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Camp Davis (University of Michigan)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McKean</primary_name>
+        <rest_of_name>Josiah S.</rest_of_name>
+        <fuller_form>(Josiah Slutz)</fuller_form>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student housing.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="temporal">1911-1920.</term>
@@ -100,6 +126,5 @@
         <scopecontent>Photos of student activities including rooming house and Camp Davis, campus scenes, and construction activities.</scopecontent>
       </c01>
     </dsc>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

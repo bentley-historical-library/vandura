@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85779 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/4205">
+        <persname encodinganalog="100">
           <primary_name>Boutwell</primary_name>
           <rest_of_name>William Thurston</rest_of_name>
           <dates>1803-1890</dates>
@@ -34,23 +33,25 @@
         <head>Reproduction Note</head>
         <p>Photostatic copy.</p>
       </odd>
-      <acqinfo>Donor: 2492</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2492</p>
+      </odd>
     </descgrp>
     <bioghist>Missionary.</bioghist>
     <scopecontent>Journal of the Henry R. Schoolcraft expedition in the Upper Peninsula.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655" ref="/subjects/4649">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6395">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Upper Peninsula (Mich.)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/629">
+      <persname source="local" encodinganalog="700">
         <primary_name>Schoolcraft</primary_name>
         <rest_of_name>Henry Rowe</rest_of_name>
         <dates>1793-1864</dates>
       </persname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

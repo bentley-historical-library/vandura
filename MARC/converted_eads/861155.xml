@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>861155 Bimu M3 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/792">
+        <corpname encodinganalog="110">
           <primary_name>Azazels (University of Michigan)</primary_name>
         </corpname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2647, 1638</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2647, 1638</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photoprints described separately.</p>
@@ -37,16 +39,32 @@
     <bioghist>University of Michigan faculty dining club.</bioghist>
     <scopecontent>History, membership lists, biographical material, schedules of meetings, and photographs.</scopecontent>
     <controlaccess>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/792">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Azazels (University of Michigan)</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Azazels (University of Michigan)</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Azazels (University of Michigan)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -70,6 +88,5 @@
         <scopecontent>Photographs of members.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

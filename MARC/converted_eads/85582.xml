@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85582 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/5344">
+        <persname encodinganalog="100">
           <primary_name>Adams</primary_name>
           <rest_of_name>Ephraim</rest_of_name>
           <dates>1818-1907</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4029, 4320</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4029, 4320</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,49 +41,89 @@
     <bioghist>Superintendent of American Home Missionary Society in Iowa, and Congregational minister, father of Ephraim Douglass Adams and Henry Carter Adams.</bioghist>
     <scopecontent>Correspondence, reminiscences, legal papers, and miscellanea, largely relating to missionary activities and personal affairs.</scopecontent>
     <controlaccess>
-      <subject source="local" encodinganalog="691" ref="/subjects/3301">
+      <subject source="local" encodinganalog="691">
         <term type="geographic">American Home Missionary Society.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1464">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Congregational Churches.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/898">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Iowa.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5920">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Adams</primary_name>
         <rest_of_name>Elizabeth Sylvia Ann (Douglass)</rest_of_name>
         <dates>1821-1905</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5344">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Adams</primary_name>
         <rest_of_name>Ephraim</rest_of_name>
         <dates>1818-1907</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6528">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Adams</primary_name>
         <rest_of_name>Ephraim Douglass</rest_of_name>
         <dates>1865-1930</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/622">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Adams</primary_name>
         <rest_of_name>Henry C.</rest_of_name>
         <fuller_form>(Henry Carter)</fuller_form>
         <dates>1851-1921</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3181">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Congregational Home Missionary Society</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">American Home Missionary Society.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Congregational Churches.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Iowa.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Adams</primary_name>
+        <rest_of_name>Elizabeth Sylvia Ann (Douglass)</rest_of_name>
+        <dates>1821-1905</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Adams</primary_name>
+        <rest_of_name>Ephraim</rest_of_name>
+        <dates>1818-1907</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Adams</primary_name>
+        <rest_of_name>Ephraim Douglass</rest_of_name>
+        <dates>1865-1930</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Adams</primary_name>
+        <rest_of_name>Henry C.</rest_of_name>
+        <fuller_form>(Henry Carter)</fuller_form>
+        <dates>1851-1921</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Congregational Home Missionary Society</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6842">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Congregational churches</term>
         <term type="topical">Clergy.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4152">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Clergy.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Adams</primary_name>
+        <rest_of_name>Ephraim</rest_of_name>
+        <dates>1818-1907</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -105,6 +147,5 @@
         <scopecontent>Photographs of Adams and associates.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

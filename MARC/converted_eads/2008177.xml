@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2008177 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/6507">
+        <persname encodinganalog="100">
           <primary_name>Miller</primary_name>
           <rest_of_name>Grace H.</rest_of_name>
           <dates>b. 1887</dates>
@@ -32,7 +31,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10028</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10028</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -41,63 +43,112 @@
     <bioghist>Grace H. Miller was a teacher at Brent School in the Philippines during the 1920s, her brother, Dr. James M. Miller, was a U.S. Army physician at the Sternburg General Hospital, Manila, during the same period.</bioghist>
     <scopecontent>Diaries of Grace H. Miller (1921-1922) describing life in the Philippines and travel in China, South Asia, and Europe; correspondence of James M. Miller (1924-1926) describing life in the Philippines, one letter (1938) from Miller's wife Bess describing life in the Canal Zone; and visual materials.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/4649">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4964">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Physicians</term>
         <term type="geographic">Philippines.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2549">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Teachers</term>
         <term type="geographic">Philippines.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5758">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Philippines.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5376">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Philippines</term>
         <term type="topical">History</term>
         <term type="temporal">1898-1946.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6507">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Miller</primary_name>
         <rest_of_name>Grace H.</rest_of_name>
         <dates>b. 1887</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1562">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Miller</primary_name>
         <rest_of_name>James M.</rest_of_name>
         <dates>b. 1890</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/1562">
+      <persname source="local" encodinganalog="700">
         <primary_name>Miller</primary_name>
         <rest_of_name>James M.</rest_of_name>
         <dates>b. 1890</dates>
       </persname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/810">
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Paintings.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/2776">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Hospitals</term>
         <term type="geographic">Philippines.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/5758">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Philippines.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3385">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Philippines.</term>
       </subject>
-      <subject source="gmgpc" encodinganalog="655" ref="/subjects/2593">
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Miller</primary_name>
+        <rest_of_name>Grace H.</rest_of_name>
+        <dates>b. 1887</dates>
+      </persname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Physicians</term>
+        <term type="geographic">Philippines.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Teachers</term>
+        <term type="geographic">Philippines.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Philippines.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Philippines</term>
+        <term type="topical">History</term>
+        <term type="temporal">1898-1946.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Miller</primary_name>
+        <rest_of_name>Grace H.</rest_of_name>
+        <dates>b. 1887</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Miller</primary_name>
+        <rest_of_name>James M.</rest_of_name>
+        <dates>b. 1890</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Miller</primary_name>
+        <rest_of_name>James M.</rest_of_name>
+        <dates>b. 1890</dates>
+      </persname>
+      <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Oil paintings.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/4801">
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Philippines.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Women.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Philippines.</term>
       </subject>
     </controlaccess>
     <dsc>
@@ -137,7 +188,5 @@ oil</physfacet>
         <scopecontent>Oil painting depicting Philippine women, signed by T. Amurgot (?) and dated 1925.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Framed Art" type="art">1</container>
   </archdesc>
 </ead>

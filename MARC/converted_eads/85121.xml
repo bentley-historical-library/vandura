@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85121 BD Microcopy</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1921">
+        <corpname encodinganalog="110">
           <primary_name>Danish Brotherhood in America (Trufant, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -31,25 +30,26 @@ positive and negative.</physfacet>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6532</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6532</p>
+      </odd>
     </descgrp>
     <bioghist>Trufant, Michigan, lodge of the Danish Brotherhood, Montcalm County.</bioghist>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/7694">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Danish Americans</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/2340">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Montcalm County (Mich.).</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3995">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Trufant (Mich.).</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1921">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Danish Brotherhood in America (Trufant, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">2</container>
   </archdesc>
 </ead>

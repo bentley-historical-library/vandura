@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86433 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5108">
+        <persname encodinganalog="100">
           <primary_name>Herbert</primary_name>
           <rest_of_name>Paul A.</rest_of_name>
           <fuller_form>(Paul Anthony)</fuller_form>
@@ -31,43 +30,70 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5638</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5638</p>
+      </odd>
     </descgrp>
     <bioghist>Professor of forestry at Michigan State University.</bioghist>
     <scopecontent>Correspondence, news clippings, and other materials largely relating to life of Harry R. Gaines, first president of the Michigan United Conservation Clubs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5582">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Conservation of natural resources</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/193">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Gaines</primary_name>
         <rest_of_name>Harry Robert</rest_of_name>
         <dates>1891-1974</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2059">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan United Conservation Clubs</primary_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2837">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan State University</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/4838">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Conservation of natural resources</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gaines</primary_name>
+        <rest_of_name>Harry Robert</rest_of_name>
+        <dates>1891-1974</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan United Conservation Clubs</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan State University</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Sound recordings.</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/1571">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Oral histories.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5108">
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Conservation of natural resources</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Herbert</primary_name>
         <rest_of_name>Paul A.</rest_of_name>
         <fuller_form>(Paul Anthony)</fuller_form>
         <dates>1899-</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/193">
+      <persname source="local" encodinganalog="700">
         <primary_name>Gaines</primary_name>
         <rest_of_name>Harry Robert</rest_of_name>
         <dates>1891-1974</dates>
       </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan United Conservation Clubs</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -91,7 +117,5 @@
         <scopecontent>Recording of Herbert interviewing Harry R. Gaines, secretary-manager of the Michigan United Conservation Clubs; and recordings, 1974, of Paul A. Herbert, recounting his remembrances of Harry R. Gaines, the MUCC, and Michigan conservation matters.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Sd Rec Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -28,23 +27,25 @@
         <head>Publication, Distribution, Etc.</head>
         <p>1927.</p>
       </odd>
-      <acqinfo>Donor: 8082</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8082</p>
+      </odd>
     </descgrp>
     <scopecontent>Postcards with images of the aftermath of the 3 bombings of the school in Bath, Michigan, May 18, 1927.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/1581">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Postcards.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/1049">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Murder</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Bath.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/4341">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Bath (Mich.)</term>
         <term type="topical">History.</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

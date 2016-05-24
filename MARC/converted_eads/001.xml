@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>001 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/4444">
+        <persname encodinganalog="100">
           <primary_name>Felch</primary_name>
           <rest_of_name>Theodore A.</rest_of_name>
           <dates>b. 1847</dates>
@@ -30,36 +29,67 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 207</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 207</p>
+      </odd>
     </descgrp>
     <bioghist>Ishpeming, Michigan physician, son of Michigan governor Alpheus Felch.</bioghist>
     <scopecontent>Biographical information about Felch and other members of his family, including his father; scattered correspondence; and family photographs.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4444">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Felch</primary_name>
         <rest_of_name>Theodore A.</rest_of_name>
         <dates>b. 1847</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4051">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Felch</primary_name>
         <rest_of_name>Alpheus</rest_of_name>
         <dates>1804-1896</dates>
       </persname>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/291">
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Felch family</family_name>
       </famname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Felch</primary_name>
+        <rest_of_name>Theodore A.</rest_of_name>
+        <dates>b. 1847</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Felch</primary_name>
+        <rest_of_name>Alpheus</rest_of_name>
+        <dates>1804-1896</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Felch family</family_name>
+      </famname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/7094">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Houses</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Ishpeming.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="651" ref="/subjects/1006">
+      <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Ishpeming (Mich.)</term>
         <term type="topical">Houses.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Felch</primary_name>
+        <rest_of_name>Theodore A.</rest_of_name>
+        <dates>b. 1847</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Felch</primary_name>
+        <rest_of_name>Alpheus</rest_of_name>
+        <dates>1804-1896</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Felch family</family_name>
+      </famname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -83,6 +113,5 @@
         <scopecontent>Photographs of Felch and other family members, including his father Alpheus Felch; also photograph of home in Ishpeming.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

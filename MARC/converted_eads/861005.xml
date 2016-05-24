@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>861005 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/1063">
+        <persname encodinganalog="100">
           <primary_name>Thompson</primary_name>
           <rest_of_name>Fred</rest_of_name>
           <dates>1902-</dates>
@@ -34,13 +33,15 @@
         <head>Reproduction Note</head>
         <p>Photo copy.</p>
       </odd>
-      <acqinfo>Donor: 7348</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7348</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7715">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Lewiston (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

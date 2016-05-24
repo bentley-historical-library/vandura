@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85706 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/282">
+        <persname encodinganalog="100">
           <primary_name>Barlow</primary_name>
           <rest_of_name>Leicester.</rest_of_name>
         </persname>
@@ -29,17 +28,19 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1996</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1996</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Van Buren County, Michigan.</bioghist>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/8157">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Account books.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3837">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Van Buren County (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

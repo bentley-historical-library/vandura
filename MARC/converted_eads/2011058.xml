@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2011058 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/1838">
+        <persname encodinganalog="100">
           <primary_name>White</primary_name>
           <rest_of_name>Aaron B.</rest_of_name>
           <dates>b. 1837 or 38</dates>
@@ -32,31 +31,33 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10534</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10534</p>
+      </odd>
     </descgrp>
     <bioghist>Aaron B. White, of St. Joseph County, Mich., enlisted in Company A, 11th Michigan Infantry, Aug. 24, 1861. He served with the regiment until being mustered our Sept. 30, 1864, at the expiration of the regiment's term of service.</bioghist>
     <scopecontent>Letters to his parents describing his activities and fighting in Tennessee and Georgia. Also one letter from his mother relating information about his brothers Ira and Edwin, also serving in the military. The collection includes transcriptions of the letters and a portrait of White in civilian dress.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/1838">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>White</primary_name>
         <rest_of_name>Aaron B.</rest_of_name>
         <dates>b. 1837 or 38</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2724">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 11th (1861-1864)</subordinate_name>
         <subordinate_name>Company A</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

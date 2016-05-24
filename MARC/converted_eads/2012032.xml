@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012032 Bm 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/2922">
+        <corpname encodinganalog="110">
           <primary_name>League of Women Voters of the Grand Rapids Area</primary_name>
         </corpname>
       </origination>
@@ -30,29 +29,31 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10721</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10721</p>
+      </odd>
     </descgrp>
     <scopecontent>Published history covering the period of 1921-1971; scattered meeting minutes, and voter guide for the May 2008 Grand Rapids Board of Education election.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4739">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Elections</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Grand Rapids.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6421">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Grand Rapids</term>
         <term type="topical">Societies and clubs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/5367">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Grand Rapids (Mich.)</term>
         <term type="topical">Politics and government.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2922">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>League of Women Voters of the Grand Rapids Area</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

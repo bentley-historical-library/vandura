@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85634 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/6771">
+        <persname encodinganalog="100">
           <primary_name>Andrews</primary_name>
           <rest_of_name>C. L.</rest_of_name>
           <fuller_form>(Charles Lincoln)</fuller_form>
@@ -31,7 +30,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 852</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 852</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -40,67 +42,121 @@
     <bioghist>Student at the University of Michigan, later Librarian and registrar at the University of Denver.</bioghist>
     <scopecontent>Notebook containing biographical sketch, genealogy and notes on members of his family, and letter from James B. Angell; University of Michigan student English themes and geometry notes, 1885-1886, prepared for courses given by Benjamin C. Burt, Isaac N. Demmon, and Elisha Jones; and photographs.</scopecontent>
     <controlaccess>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/6771">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Andrews</primary_name>
         <rest_of_name>C. L.</rest_of_name>
         <fuller_form>(Charles Lincoln)</fuller_form>
         <dates>1864-1946</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4991">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Burt</primary_name>
         <rest_of_name>Benjamin Chapman</rest_of_name>
         <dates>1852-1915</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4273">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Demmon</primary_name>
         <rest_of_name>Isaac Newton</rest_of_name>
         <dates>1842-1920</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4993">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Jones</primary_name>
         <rest_of_name>Elisha</rest_of_name>
         <dates>1832-1888</dates>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4523">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Kingsley</primary_name>
         <rest_of_name>Homer Hitchcock.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6797">
+      <persname source="local" encodinganalog="700">
         <primary_name>Angell</primary_name>
         <rest_of_name>James Burrill</rest_of_name>
         <dates>1829-1916</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1315">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Class of 1886</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/2432">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Dept. of English Language and Literature</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/948">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Mathematics</subordinate_name>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Andrews</primary_name>
+        <rest_of_name>C. L.</rest_of_name>
+        <fuller_form>(Charles Lincoln)</fuller_form>
+        <dates>1864-1946</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Burt</primary_name>
+        <rest_of_name>Benjamin Chapman</rest_of_name>
+        <dates>1852-1915</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Demmon</primary_name>
+        <rest_of_name>Isaac Newton</rest_of_name>
+        <dates>1842-1920</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Jones</primary_name>
+        <rest_of_name>Elisha</rest_of_name>
+        <dates>1832-1888</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Kingsley</primary_name>
+        <rest_of_name>Homer Hitchcock.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Angell</primary_name>
+        <rest_of_name>James Burrill</rest_of_name>
+        <dates>1829-1916</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1886</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of English Language and Literature</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Mathematics</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="gmgpc" encodinganalog="655" ref="/subjects/6346">
+      <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Tintypes.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5261">
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Andrews</primary_name>
+        <rest_of_name>C. L.</rest_of_name>
+        <fuller_form>(Charles Lincoln)</fuller_form>
+        <dates>1864-1946</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Becker</primary_name>
         <rest_of_name>Louis.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4980">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Caldwell</primary_name>
         <rest_of_name>Edward.</rest_of_name>
       </persname>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/4540">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Shattuck</primary_name>
         <rest_of_name>Jesse Cornell.</rest_of_name>
       </persname>
@@ -127,6 +183,5 @@
         <scopecontent>Student portrait; tintype portraits of Andrews with Jesse C. Shattuck, and of Andrews with Louis Becker and Edward Caldwell.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851358 BP</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/2807">
+        <corpname encodinganalog="110">
           <primary_name>Shakespeare Society of Greenville, Michigan</primary_name>
         </corpname>
       </origination>
@@ -28,25 +27,26 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1278</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1278</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6079">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Literature</term>
         <term type="topical">Societies, etc.</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Greenville.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3772">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Greenville (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/782">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Shakespeare</primary_name>
         <rest_of_name>William</rest_of_name>
         <dates>1564-1616</dates>
       </persname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

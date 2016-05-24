@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>861096 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="local" ref="/agents/families/551">
+        <famname encodinganalog="100">
           <family_name>Heitsch family</family_name>
         </famname>
       </origination>
@@ -28,31 +27,33 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6001</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6001</p>
+      </odd>
     </descgrp>
     <bioghist>Robert and Grace Heitsch, brother and sister from Pontiac, Michigan, students at the University of Michigan.</bioghist>
     <scopecontent>Letters to mother and other family members relating to student life and family affairs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3793">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Pontiac.</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3454">
+      <persname source="local" encodinganalog="700">
         <primary_name>Heitsch</primary_name>
         <rest_of_name>Grace.</rest_of_name>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/6964">
+      <persname source="local" encodinganalog="700">
         <primary_name>Heitsch</primary_name>
         <rest_of_name>Robert Dawson.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/807">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1901-1910.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

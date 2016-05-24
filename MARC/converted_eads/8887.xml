@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8887 Bk 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/716">
+        <corpname encodinganalog="110">
           <primary_name>Boy Scouts of America</primary_name>
           <subordinate_name>Troop 3 (Ann Arbor, Mich.)</subordinate_name>
         </corpname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4752</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4752</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,19 +39,24 @@
     </descgrp>
     <scopecontent>Ten year history of Troop 3, Ann Arbor, Michigan, miscellanea, and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/936">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/218">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Camping.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/6531">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Camp Brady (Waterford, Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/716">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Boy Scouts of America</primary_name>
         <subordinate_name>Troop 3 (Ann Arbor, Mich.)</subordinate_name>
       </corpname>
@@ -76,6 +83,5 @@
         <scopecontent>Views of camping activities.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

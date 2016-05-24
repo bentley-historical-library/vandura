@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85776 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/918">
+        <persname encodinganalog="100">
           <primary_name>Branson</primary_name>
           <rest_of_name>Edward L.</rest_of_name>
           <dates>1870-1935</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4958</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4958</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,26 +41,49 @@
     <bioghist>Executive in the Postum Company of Battle Creek, Michigan, and Republican state senator 1929-1933.</bioghist>
     <scopecontent>Correspondence with C. W. Post relating to Branson's employment with the Postum Company in 1902; and newspaper obituaries and family genealogy; also photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/867">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Battle Creek (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/918">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Branson</primary_name>
         <rest_of_name>Edward L.</rest_of_name>
         <dates>1870-1935</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/135">
+      <persname source="local" encodinganalog="700">
         <primary_name>Post</primary_name>
         <rest_of_name>Charles William</rest_of_name>
         <dates>1854-1914</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3870">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Postum Company</primary_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Battle Creek (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Branson</primary_name>
+        <rest_of_name>Edward L.</rest_of_name>
+        <dates>1870-1935</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Post</primary_name>
+        <rest_of_name>Charles William</rest_of_name>
+        <dates>1854-1914</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Postum Company</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <famname source="lcnaf" encodinganalog="600" ref="/agents/families/101">
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Branson</primary_name>
+        <rest_of_name>Edward L.</rest_of_name>
+        <dates>1870-1935</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Branson family</family_name>
       </famname>
     </controlaccess>
@@ -84,6 +109,5 @@
         <scopecontent>Portraits and family photos.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

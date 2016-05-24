@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88271 Bb.2/2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/315">
+        <corpname encodinganalog="110">
           <primary_name>Dort Motor Car Company</primary_name>
         </corpname>
       </origination>
@@ -35,23 +34,25 @@ Flint, Mich.</originalsloc>
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 6755</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6755</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes of directors' meetings and annual stockholders' meetings.</scopecontent>
     <controlaccess>
-      <subject source="ftamc" encodinganalog="655" ref="/subjects/5130">
+      <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Business records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/4669">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Automobile industry and trade</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Flint.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/539">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Flint (Mich.)</term>
         <term type="topical">Commerce.</term>
       </subject>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

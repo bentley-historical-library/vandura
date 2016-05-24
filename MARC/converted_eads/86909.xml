@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86909 Ba 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/1371">
+        <corpname encodinganalog="110">
           <primary_name>First Presbyterian Church (Bridgehampton, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -29,25 +28,27 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available in part.</altformavail>
-      <acqinfo>Donor: 790</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 790</p>
+      </odd>
     </descgrp>
     <scopecontent>Minutes, financial records, historical notes and miscellaneous papers.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/7620">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Bridgehampton (Mich. : Township)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/8243">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Sanilac County (Mich.)</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3226">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Presbyterian Church in the U.S.A</primary_name>
         <term type="geographic">Michigan</term>
         <term type="geographic">Bridgehampton.</term>
       </corpname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1371">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>First Presbyterian Church (Bridgehampton, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">13</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>861123 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/5517">
+        <persname encodinganalog="100">
           <primary_name>Smith</primary_name>
           <rest_of_name>Richard Root</rest_of_name>
           <dates>1869-1940</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7361</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7361</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,26 +41,46 @@
     <bioghist>Physician, resident of Grand Rapids, Michigan, who served with U. S. Army Hospital Group Q in France during World War I and was appointed a regent of the University of Michigan in 1931.</bioghist>
     <scopecontent>Reprints, typescripts, and newspaper clippings relating to his World War I experiences and appointment as regent; and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/6434">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1914-1918</term>
         <term type="topical">Medical care.</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/5517">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Smith</primary_name>
         <rest_of_name>Richard Root</rest_of_name>
         <dates>1869-1940</dates>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1564">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Board of Regents</subordinate_name>
       </corpname>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918</term>
+        <term type="topical">Medical care.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Smith</primary_name>
+        <rest_of_name>Richard Root</rest_of_name>
+        <dates>1869-1940</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Board of Regents</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lctgm" encodinganalog="650" ref="/subjects/1598">
+      <subject source="lctgm" encodinganalog="650">
         <term type="topical">Offices</term>
         <term type="temporal">1911-1920.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Smith</primary_name>
+        <rest_of_name>Richard Root</rest_of_name>
+        <dates>1869-1940</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -82,6 +104,5 @@
         <scopecontent>Portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

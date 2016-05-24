@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852217 BB.2 outsize</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local" ref="/agents/corporate_entities/1358">
+        <corpname encodinganalog="110">
           <primary_name>Brown and Scott General Store (Schoolcraft, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -28,31 +27,33 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 265</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 265</p>
+      </odd>
     </descgrp>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/3636">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Business records.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/5945">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">General stores</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Schoolcraft.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/970">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Schoolcraft (Mich.)</term>
       </subject>
-      <persname source="local" encodinganalog="700" ref="/agents/people/3115">
+      <persname source="local" encodinganalog="700">
         <primary_name>Brown</primary_name>
         <rest_of_name>E. Lakin</rest_of_name>
         <fuller_form>(Ebenezer Lakin)</fuller_form>
         <dates>1809-1899</dates>
       </persname>
-      <persname source="local" encodinganalog="700" ref="/agents/people/4218">
+      <persname source="local" encodinganalog="700">
         <primary_name>Scott</primary_name>
         <rest_of_name>A. H.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

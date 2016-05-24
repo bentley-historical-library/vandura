@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>06101 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/72">
+        <persname encodinganalog="100">
           <primary_name>Crum</primary_name>
           <rest_of_name>Charles Walter.</rest_of_name>
         </persname>
@@ -31,29 +30,31 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 9774</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9774</p>
+      </odd>
     </descgrp>
     <bioghist>McBride, Michigan cattle farmer, secretary of the Central Michigan Short-Horn Breeders' Association.</bioghist>
     <scopecontent>Correspondence relating to the breeding and selling of cattle, and to his involvement in the Central Michigan Short-Horn Breeders' Association; and photographs of cattle; portrait of Crum.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655" ref="/subjects/3310">
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650" ref="/subjects/2992">
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Shorthorn cattle</term>
         <term type="geographic">Michigan.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3533">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">McBride (Mich.)</term>
       </subject>
-      <persname source="lcnaf" encodinganalog="600" ref="/agents/people/72">
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Crum</primary_name>
         <rest_of_name>Charles Walter.</rest_of_name>
       </persname>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/3405">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Central Michigan Short-Horn Breeders' Association</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

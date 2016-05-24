@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88328 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local" ref="/agents/people/3007">
+        <persname encodinganalog="100">
           <primary_name>Gilbert</primary_name>
           <rest_of_name>James W.</rest_of_name>
         </persname>
@@ -29,21 +28,23 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3316</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3316</p>
+      </odd>
     </descgrp>
     <scopecontent>Letter, October 14, 1862, to Captain M. Mayer, U.S. Mustering Officer, Jackson, Michigan, about services rendered the 19th Michigan Infantry during the Civil War; also bill for services rendered.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="651" ref="/subjects/3210">
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/1069">
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 19th (1862-1865)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>
