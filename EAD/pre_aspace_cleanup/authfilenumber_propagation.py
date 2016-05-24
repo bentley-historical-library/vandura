@@ -70,6 +70,7 @@ def a2_and_detroit_authfilenumber_fix(ead_dir):
 def authfilenumber_propagation(ead_dir):
 	text_to_authfilenumber_dict = build_text_to_authfilenumber_dict(ead_dir)
 	apply_authfilenumbers(text_to_authfilenumber_dict, ead_dir)
+	a2_and_detroit_authfilenumber_fix(ead_dir)
 
 def main():
 	project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
