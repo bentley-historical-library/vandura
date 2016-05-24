@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>03134 Aa 2 UAm</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Snow family</family_name>
         </famname>
       </origination>
@@ -25,14 +24,64 @@
       <unitdate type="inclusive" label="creation">1880-1965</unitdate>
       <unitdate type="bulk" label="creation">(bulk 1910-1914)</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>0.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4725, 9327</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4725, 9327</p>
+      </odd>
     </descgrp>
     <bioghist>Dearborn, Michigan, family, many of whose members attended the University of Michigan.</bioghist>
     <scopecontent>Diary, 1882-1883 (with transcript) of Herbert Montgomery Snow, student at the University of Michigan; also papers of Clara Snow, including letters from trip to Europe, 1923, biographical essay written by Katherine Moore Cushman, and notes from trip to Europe in 1912; and family photographs and photographs from activities as University of Michigan students.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Students</term>
+        <term type="topical">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Europe</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Snow</primary_name>
+        <rest_of_name>Clara L.</rest_of_name>
+        <dates>1884-1973</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Snow</primary_name>
+        <rest_of_name>Herbert M.</rest_of_name>
+        <dates>1858-1897</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Cushman</primary_name>
+        <rest_of_name>Katherine Moore.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Snow</primary_name>
+        <rest_of_name>Clara L.</rest_of_name>
+        <dates>1884-1973</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Snow</primary_name>
+        <rest_of_name>Herbert M.</rest_of_name>
+        <dates>1858-1897</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Snow family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1881-1890.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -97,8 +146,16 @@
       </persname>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Snow</primary_name>
+        <rest_of_name>Clara L.</rest_of_name>
+        <dates>1884-1973</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Snow</primary_name>
         <rest_of_name>Gertrude.</rest_of_name>
       </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Snow family</family_name>
+      </famname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>College of Engineering</subordinate_name>
@@ -116,7 +173,7 @@
         <did>
           <unittitle>Snow family papers</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>0.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1880-1965</unitdate>
           <unitdate type="bulk" label="creation">(bulk 1910-1914)</unitdate>
@@ -127,13 +184,12 @@
         <did>
           <unittitle>Snow family photograph series.</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>0.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1880-1965</unitdate>
         </did>
         <scopecontent>Photograph album (1880-1882) of Mary Louise Martyn, student at the University of Michigan containing portraits of classmates and faculty members; photographs (probably from scrapbooks) of Clara Snow and Gertrude Snow, daughters of Herbert M. Snow and Mary Louise Martyn, and of George E. Moore (Gertrude Snow's future husband), all students at the University of Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

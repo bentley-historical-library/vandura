@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>03108 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Kozel</primary_name>
           <rest_of_name>Andrew D.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Andrew D. Kozel papers</unittitle>
       <unitdate type="inclusive" label="creation">1940s-1970s</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>0.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1991</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1991</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -41,6 +43,8 @@
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1939-1945.</term>
       </subject>
+    </controlaccess>
+    <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -52,13 +56,16 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">China.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Andrew D. Kozel papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>0.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1940s-1970s</unitdate>
         </did>
@@ -75,6 +82,5 @@
         <scopecontent>Photographs of China, its people and sites taken while serving in the U.S. Army during World War II; also photos of his comrades.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

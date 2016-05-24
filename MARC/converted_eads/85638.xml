@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85638 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Allmendinger</primary_name>
           <rest_of_name>Henry A.</rest_of_name>
           <dates>1846-1906</dates>
@@ -26,16 +25,19 @@
       <unittitle>Henry A. Allmendinger diaries</unittitle>
       <unitdate type="inclusive" label="creation">1865-1866, 1872-1876, 1884</unitdate>
       <physdesc>
-        <extent>8 volumes (1 box)</extent>
+        <extent>8 v. (1 box)</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5035</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5035</p>
+      </odd>
     </descgrp>
     <bioghist>Carpenter and sawmill laborer, of Ann Arbor, Michigan.</bioghist>
     <scopecontent>Diaries commenting on daily work, including accounts and record of wages earned.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -52,6 +54,5 @@
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

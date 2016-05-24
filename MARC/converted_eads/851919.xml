@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851919 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Mundy</primary_name>
           <rest_of_name>Edward</rest_of_name>
           <dates>1794-1851</dates>
@@ -30,10 +29,22 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4593</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4593</p>
+      </odd>
     </descgrp>
     <bioghist>Michigan Democratic Lieutenant Governor, 1835-1840.</bioghist>
     <scopecontent>Legal documents pertaining to assault and battery charge against him brought by Mark Howard in Washtenaw County, Michigan, that grew out of an altercation over admission of Michigan to Union.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Howard</primary_name>
+        <rest_of_name>Mark.</rest_of_name>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Washtenaw County (Mich.)</term>
@@ -77,6 +88,5 @@
         <scopecontent>Portraits of Edward and Sarah Mundy (copy prints made 1880s?).</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

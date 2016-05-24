@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88240 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Dewey</primary_name>
           <rest_of_name>John</rest_of_name>
           <dates>1859-1952</dates>
@@ -34,7 +33,10 @@
         <head>Reproduction Note</head>
         <p>Photocopies in part.</p>
       </odd>
-      <acqinfo>Donor: 1991, 3191</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1991, 3191</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -62,9 +64,35 @@
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Philosophy.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Dewey</primary_name>
+        <rest_of_name>John</rest_of_name>
+        <dates>1859-1952</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Chicago</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Philosophy</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Dewey</primary_name>
+        <rest_of_name>John</rest_of_name>
+        <dates>1859-1952</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -88,6 +116,5 @@
         <scopecontent>Portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

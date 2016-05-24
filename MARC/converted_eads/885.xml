@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>885 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Appleton</primary_name>
           <rest_of_name>Edward Everett.</rest_of_name>
         </persname>
@@ -29,10 +28,19 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4235</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4235</p>
+      </odd>
     </descgrp>
     <bioghist>Law student at the University of Michigan, class of 1866.</bioghist>
     <scopecontent>Graduation thesis, 1866, entitled, "The Law of Nations"; also letter of recommendation, 1864, and graduation program.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Law</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
@@ -67,13 +75,12 @@
         <did>
           <unittitle>Elizabeth Margaret Chandler / Street pinx. ; Sartain sculp.</unittitle>
           <physdesc>
-            <extent>1 print</extent>
+            <extent>1 print ;</extent>
             <dimensions>image 10 x 8 cm.</dimensions>
           </physdesc>
           <unitdate type="inclusive" label="creation">1845]</unitdate>
         </did>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89130 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Prescott</primary_name>
           <rest_of_name>A. B.</rest_of_name>
           <fuller_form>(Albert Benjamin)</fuller_form>
@@ -31,7 +30,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2065, 5585</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2065, 5585</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,6 +41,23 @@
     </descgrp>
     <bioghist>Professor of chemistry at the University of Michigan.</bioghist>
     <scopecontent>Civil War orders and receipts, and letters from Silas Douglas about Prescott's position at the University of Michigan; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Douglas</primary_name>
+        <rest_of_name>Silas H.</rest_of_name>
+        <fuller_form>(Silas Hamilton)</fuller_form>
+        <dates>1816-1890</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Chemistry</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
@@ -114,6 +133,5 @@
         <scopecontent>Primarily portraits; also interior and exterior photos of his house in Ann Arbor, Michigan; and photographs of Prescott lecturing in a chemistry classroom at the University of Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

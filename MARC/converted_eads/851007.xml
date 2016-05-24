@@ -11,28 +11,27 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>2 volumes outsize</extent>
-      </physdesc>
-      <physdesc>
-        <extent>3 volumes</extent>
-      </physdesc>
       <unitid>851007 AA AC</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Cressy</primary_name>
           <rest_of_name>Alonzo.</rest_of_name>
         </persname>
       </origination>
       <unittitle>Alonzo Cressy account books</unittitle>
       <unitdate type="inclusive" label="creation">1840-1890</unitdate>
+      <physdesc>
+        <extent>3 v. and 2 v. [outsize]</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1165</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1165</p>
+      </odd>
     </descgrp>
     <bioghist>Physician at Clinton and Hillsdale, Michigan.</bioghist>
     <scopecontent>Record of patients and notes on his practice, 1852-1877.</scopecontent>
@@ -64,10 +63,5 @@
         <term type="geographic">Hillsdale (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
-    <container label="Volume" type="volume">3</container>
-    <container label="Oversize Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">2</container>
   </archdesc>
 </ead>

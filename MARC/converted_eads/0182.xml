@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0182 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Stapp</primary_name>
           <rest_of_name>William B.</rest_of_name>
         </persname>
@@ -25,14 +24,30 @@
       <unittitle>William B. Stapp papers</unittitle>
       <unitdate type="inclusive" label="creation">1964-1994</unitdate>
       <physdesc>
-        <extent>1.5 linear feet (2 boxes)</extent>
+        <extent>1.5 linear ft. (2 boxes)</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9024</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9024</p>
+      </odd>
     </descgrp>
     <bioghist>Environmental educator, professor within the school of natural resources and environment of the University of Michigan.</bioghist>
     <scopecontent>Scrapbooks, visual materials, and published material detailing his professional career and activities.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Environmental education.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Stapp</primary_name>
+        <rest_of_name>William B.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Environmental education.</term>
@@ -51,6 +66,10 @@
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Stapp</primary_name>
+        <rest_of_name>William B.</rest_of_name>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Global Rivers Environmental Education Network</primary_name>
       </corpname>
@@ -60,7 +79,7 @@
         <did>
           <unittitle>William B. Stapp papers</unittitle>
           <physdesc>
-            <extent>1.5 linear feet (2 boxes)</extent>
+            <extent>1.5 linear ft. (2 boxes)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1964-1994</unitdate>
         </did>
@@ -68,19 +87,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>scattered snapshots in scrapbooks (number approximate)</extent>
-          </physdesc>
-          <physdesc>
-            <extent>40 slides, 3 videocassettes,</extent>
-          </physdesc>
           <unittitle>William B. Stapp visual materials.</unittitle>
+          <physdesc>
+            <extent>ca. 40 slides, 3 videocassettes, and scattered snapshots in scrapbooks</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1990s</unitdate>
         </did>
         <scopecontent>Slide presentation given upon his retirement, 1993; videotape of a program about him, 1994; videotape regarding the Global Rivers Environmental Education Network; and photos of Stapp and his friends and colleagues.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

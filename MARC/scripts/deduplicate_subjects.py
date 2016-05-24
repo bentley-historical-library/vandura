@@ -6,7 +6,7 @@ from os.path import join
 
 def deduplicate_subjects(marc_dir):
 
-	converted_eads = join(marc_dir, "converted_eads")
+	converted_eads = join(marc_dir, "converted_eads_working")
 
 	for filename in os.listdir(converted_eads):
 		print "Deduplicating subjects in {}".format(filename)

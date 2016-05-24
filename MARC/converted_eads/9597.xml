@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9597 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Monaghan</primary_name>
           <rest_of_name>Tom</rest_of_name>
           <dates>1937-</dates>
@@ -25,8 +24,7 @@
       <unittitle>Tom Monaghan sound recording.</unittitle>
       <unitdate type="inclusive" label="creation">Jan. 1979</unitdate>
       <physdesc>
-        <extent>1 sound cassette</extent>
-        <dimensions>(ca. 30 min.)</dimensions>
+        <extent>1 sound cassette (ca. 30 min.)</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -34,7 +32,10 @@
         <head>Publication, Distribution, Etc.</head>
         <p>Jan. 1979.</p>
       </odd>
-      <acqinfo>Donor: 3808</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3808</p>
+      </odd>
     </descgrp>
     <bioghist>Founder of Domino's Pizza.</bioghist>
     <scopecontent>Recording of speech given before the Ann Arbor, Michigan, Kiwanis in which Monaghan discusses the history of his business to 1979.</scopecontent>
@@ -51,6 +52,5 @@
         <primary_name>Domino's Pizza (Firm)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Sd Rec Box" type="box">1</container>
   </archdesc>
 </ead>

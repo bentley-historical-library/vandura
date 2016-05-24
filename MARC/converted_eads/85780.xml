@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85780 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Bowersox</primary_name>
           <rest_of_name>Jessie Rice</rest_of_name>
           <dates>1875-</dates>
@@ -26,17 +25,28 @@
       <unittitle>Jessie Rice Bowersox manuscript history</unittitle>
       <unitdate type="inclusive" label="creation">1954</unitdate>
       <physdesc>
-        <extent>2 volumes</extent>
+        <extent>2 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3319</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3319</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
     </descgrp>
     <scopecontent>History of Litchfield Township, Hillsdale County, Michigan, including many original documents such as letters and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hillsdale County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Litchfield (Mich.)</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Hillsdale County (Mich.)</term>
@@ -123,7 +133,7 @@
         <did>
           <unittitle>Jessie Rice Bowersox manuscript history</unittitle>
           <physdesc>
-            <extent>2 volumes</extent>
+            <extent>2 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1954</unitdate>
         </did>
@@ -133,14 +143,12 @@
         <did>
           <unittitle>Jessie Rice Bowersox photograph series.</unittitle>
           <physdesc>
-            <extent>2 volumes</extent>
+            <extent>2 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1865-1950</unitdate>
         </did>
         <scopecontent>Photographs mounted in an album of history and reminiscences of Litchfield Township, Hillsdale County, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

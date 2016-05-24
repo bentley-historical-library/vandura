@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86435 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Bailey</primary_name>
           <rest_of_name>Ira K.</rest_of_name>
           <dates>1843-1863</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3685</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3685</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photograph described separately.</p>
@@ -98,17 +100,89 @@
         <subordinate_name>Minnesota Infantry Regiment, 3rd (1861-1865)</subordinate_name>
         <subordinate_name>Company E</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="amc" encodinganalog="655">
+        <term type="genre_form">Tintypes.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hillsdale County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Bailey</primary_name>
+        <rest_of_name>Edward G.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Barnes</primary_name>
+        <rest_of_name>O.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Brophy</primary_name>
+        <rest_of_name>William.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Hughes</primary_name>
+        <rest_of_name>Edward.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Rice</primary_name>
+        <rest_of_name>Lewis G.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Schermerhorn</primary_name>
+        <rest_of_name>James F.</rest_of_name>
+        <dates>b. 1829</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Artillery Regiment, 1st (1861-1865)</subordinate_name>
+        <subordinate_name>Battery G</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 18th (1862-1865)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Minnesota Infantry Regiment, 2nd (1861-1865)</subordinate_name>
+        <subordinate_name>Company C</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Minnesota Infantry Regiment, 3rd (1861-1865)</subordinate_name>
+        <subordinate_name>Company E</subordinate_name>
+      </corpname>
       <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Tintypes.</term>
       </subject>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Bailey</primary_name>
         <rest_of_name>Ira K.</rest_of_name>
         <dates>1843-1863</dates>
       </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Artillery Regiment, 1st (1861-1865)</subordinate_name>
+        <subordinate_name>Battery G</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -132,7 +206,5 @@
         <scopecontent>Tintype of Bailey in Civil War uniform.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

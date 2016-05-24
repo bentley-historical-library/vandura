@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851296 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Comin</primary_name>
           <rest_of_name>John</rest_of_name>
           <dates>1869-1947</dates>
@@ -26,11 +25,14 @@
       <unittitle>John Comin papers</unittitle>
       <unitdate type="inclusive" label="creation">1894-1945</unitdate>
       <physdesc>
-        <extent>1 linear feet</extent>
+        <extent>1 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 800, 2414, 2545</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 800, 2414, 2545</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -94,19 +96,81 @@
         <primary_name>Presbyterian Church in the U.S.A</primary_name>
         <subordinate_name>Synod of Michigan</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Sermons.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Bay City (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Fairgrove (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Germany.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Menominee (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Comin</primary_name>
+        <rest_of_name>John</rest_of_name>
+        <dates>1869-1947</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>First Presbyterian Church (Bay City, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>First Presbyterian Church (Fairgrove, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>First Presbyterian Church (Menominee, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Presbyterian Church</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Bay City.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Presbyterian Church</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Fairgrove.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Presbyterian Church</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Menominee.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Presbyterian Church in the U.S.A</primary_name>
+        <subordinate_name>Synod of Michigan</subordinate_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Clergy.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Comin</primary_name>
+        <rest_of_name>John</rest_of_name>
+        <dates>1869-1947</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>John Comin papers</unittitle>
           <physdesc>
-            <extent>1 linear feet</extent>
+            <extent>1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1894-1945</unitdate>
         </did>
@@ -123,6 +187,5 @@
         <scopecontent>Portrait.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

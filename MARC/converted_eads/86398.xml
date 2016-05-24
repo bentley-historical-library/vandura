@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 photograph</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 item (135 p.)</extent>
-      </physdesc>
       <unitid>86398 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Andersen</primary_name>
           <rest_of_name>Charles</rest_of_name>
           <dates>1902-</dates>
@@ -31,13 +24,19 @@
       </origination>
       <unittitle>Charles Andersen autobiography</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1972</unitdate>
+      <physdesc>
+        <extent>1 item (135 p.) and 1 photograph</extent>
+      </physdesc>
     </did>
     <descgrp>
       <odd>
         <head>Reproduction Note</head>
         <p>Photocopy.</p>
       </odd>
-      <acqinfo>Donor: 7109</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7109</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photograph described separately.</p>
@@ -45,7 +44,40 @@
     </descgrp>
     <scopecontent>Autobiography, ca. 1972, of Charles Andersen, Ludington, Michigan, area farmer and nurseryman and amateur boxer; and photo of Andersen, 1927, in boxing stance.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="691">
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1921-1930.</term>
+      </subject>
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1931-1940.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Boxing.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farmers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ludington.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ludington (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">20th century.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Andersen</primary_name>
+        <rest_of_name>Charles</rest_of_name>
+        <dates>1902-</dates>
+      </persname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1921-1930.</term>
@@ -82,17 +114,19 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Boxing.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Andersen</primary_name>
+        <rest_of_name>Charles</rest_of_name>
+        <dates>1902-</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 photograph</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 item (135 p.)</extent>
-          </physdesc>
           <unittitle>Charles Andersen autobiography</unittitle>
+          <physdesc>
+            <extent>1 item (135 p.) and 1 photograph</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1972</unitdate>
         </did>
         <scopecontent>Autobiography, ca. 1972, of Charles Andersen, Ludington, Michigan, area farmer and nurseryman and amateur boxer; and photo of Andersen, 1927, in boxing stance.</scopecontent>
@@ -108,6 +142,5 @@
         <scopecontent>Photo of Andersen in boxing stance.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8612 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Smith</primary_name>
           <rest_of_name>Martin H.</rest_of_name>
         </persname>
@@ -33,7 +32,10 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 3664</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3664</p>
+      </odd>
     </descgrp>
     <bioghist>Officer in Dundee Rifle Guards, a company of the Michigan state militia.</bioghist>
     <scopecontent>Commissions signed by Governor John S. Barry appointing Smith second and first lieutenant, lists of members, and letter outlining functions of the vigilance committee of the Washingtonian Society (a temperance organization).</scopecontent>
@@ -69,6 +71,5 @@
         <subordinate_name>Dundee Rifle Guards</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

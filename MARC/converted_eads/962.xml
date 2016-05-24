@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>962 Bm 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>Battle Creek Junior Chamber of Commerce</primary_name>
         </corpname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5499</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5499</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -61,6 +63,8 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>National Foundation for Infantile Paralysis</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -69,6 +73,34 @@
         <term type="topical">Patients</term>
         <term type="geographic">Michigan.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Battle Creek Junior Chamber of Commerce</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Poliomyelitis</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Calhoun County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Poliomyelitis</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Battle Creek.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Battle Creek (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Calhoun County (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Battle Creek Junior Chamber of Commerce</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>National Foundation for Infantile Paralysis</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -92,6 +124,5 @@
         <scopecontent>Photographs from scrapbook relating to March of Dimes campaigns in Calhoun County, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

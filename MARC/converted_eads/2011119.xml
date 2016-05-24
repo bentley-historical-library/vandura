@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2011119 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Wachtel</primary_name>
           <rest_of_name>Stanley Zenon</rest_of_name>
           <dates>1887-1959</dates>
@@ -32,7 +31,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10615</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10615</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -40,6 +42,25 @@
     </descgrp>
     <bioghist>Polish language radio broadcaster in Detroit, Michigan. Also known as Stanislaw Wachtel.</bioghist>
     <scopecontent>Essay by Estelle P. Wachtel-Torres on Polish radio broadcasting in pre-World War II Detroit (2011); biographical information; photographs; and miscellaneous clippings and a letter.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Ethnic radio broadcasting</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Polish American musicians</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Polish Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wachtel</primary_name>
+        <rest_of_name>Stanley Zenon</rest_of_name>
+        <dates>1887-1959</dates>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Ethnic radio broadcasting</term>
@@ -70,6 +91,11 @@
         <term type="topical">Radio broadcasting</term>
         <term type="geographic">Michigan.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wachtel</primary_name>
+        <rest_of_name>Stanley Zenon</rest_of_name>
+        <dates>1887-1959</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -95,6 +121,5 @@
         <scopecontent>Group photographs of the performers and production staff of Detroit-based Polish Morning Variety Program broadcast on radio station, WJBK.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

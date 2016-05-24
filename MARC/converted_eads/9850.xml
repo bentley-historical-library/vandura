@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9850 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Thomas</primary_name>
           <rest_of_name>Allison K.</rest_of_name>
           <dates>1914-</dates>
@@ -26,7 +25,7 @@
       <unittitle>Allison K. Thomas papers</unittitle>
       <unitdate type="inclusive" label="creation">1945-1997 (scattered)</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -34,10 +33,57 @@
         <head>Reproduction Note</head>
         <p>Photocopies in part.</p>
       </odd>
-      <acqinfo>Donor: 8759</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8759</p>
+      </odd>
     </descgrp>
     <bioghist>Allison Kent Thomas commanded an Office of Strategic Services group that parachuted into Vietnam in 1945 to train the Vietnamese resistance, led by Ho Chi Minh and General Vo Nguyen Giap, against the Japanese. He received an A.B. in 1935 and a J.D. in 1939 from the University of Michigan. Thomas later practiced law in East Lansing, Michigan. In 1990 and 1995 he again visited Vietnam as part of the U.S.-Indochina Reconciliation Project.</bioghist>
     <scopecontent>The collection contains Allison Thomas's correspondence with General Vo Nguyen Giap and Ho Chi Minh in 1945-1946, a diary from 1945, photographs from 1945, correspondence with General Vo Nguyen Giap and General Dam Quang Trung from 1981 to 1994, and newspaper and magazine clippings about Thomas and Giap from 1968 to 1997.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945</term>
+        <term type="topical">Secret service</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945</term>
+        <term type="topical">Secret service</term>
+        <term type="geographic">Vietnam.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">Foreign relations</term>
+        <term type="geographic">Vietnam.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Vietnam</term>
+        <term type="topical">Foreign relations</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Thomas</primary_name>
+        <rest_of_name>Allison K.</rest_of_name>
+        <dates>1914-</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hồ</primary_name>
+        <rest_of_name>Chí Minh</rest_of_name>
+        <dates>1890-1969</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Võ</primary_name>
+        <rest_of_name>Nguyên Giáp</rest_of_name>
+        <dates>1911-2013</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Đām</primary_name>
+        <rest_of_name>Quang Trung.</rest_of_name>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -97,13 +143,28 @@
         <term type="topical">Foriegn relations</term>
         <term type="geographic">United States.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">Foreign relations</term>
+        <term type="geographic">Vietnam.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Thomas</primary_name>
+        <rest_of_name>Allison K.</rest_of_name>
+        <dates>1914-</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hồ</primary_name>
+        <rest_of_name>Chí Minh</rest_of_name>
+        <dates>1890-1969</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Allison K. Thomas papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1945-1997 (scattered)</unitdate>
         </did>
@@ -120,6 +181,5 @@
         <scopecontent>The series consists of photographs (mainly copyprints) and photocopies of photographs. The images document the "Deer Mission" organized by the Office of Strategic Services and led by Allison Thomas in the Kim Long area of Vietnam in 1945. The photographs show OSS members parachuting into the region, the base camp near Kim Long, the training of guerilla forces, and their interactions with Ho Chi Minh and Vo Nguyen Giap.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

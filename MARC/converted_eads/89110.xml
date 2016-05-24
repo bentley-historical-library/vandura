@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89110 AA</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Palmer</primary_name>
           <rest_of_name>Jane</rest_of_name>
         </persname>
@@ -25,7 +24,7 @@
       <unittitle>Jane Palmer papers</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1966</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -33,7 +32,10 @@
         <head>Reproduction Note</head>
         <p>Includes some typescript copies and photocopies.</p>
       </odd>
-      <acqinfo>Donor: 945</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 945</p>
+      </odd>
     </descgrp>
     <scopecontent>Historical sketches, reminiscences, and letters concerning the settlement and early history of Manchester, Michigan.</scopecontent>
     <controlaccess>
@@ -41,6 +43,5 @@
         <term type="geographic">Manchester (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

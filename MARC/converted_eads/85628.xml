@@ -11,30 +11,43 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>2 oversize volumes</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 linear foot</extent>
-      </physdesc>
       <unitid>85628 Bp.4 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>Book and Thimble Club of Ann Arbor, Michigan</primary_name>
         </corpname>
       </origination>
       <unittitle>Book and Thimble Club of Ann Arbor records</unittitle>
       <unitdate type="inclusive" label="creation">1918-[ongoing]</unitdate>
+      <physdesc>
+        <extent>1 linear foot and 2 oversize volumes</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3761</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3761</p>
+      </odd>
     </descgrp>
     <bioghist>Women's literary society.</bioghist>
     <scopecontent>Minutes; booklets, containing programs, officers, and membership lists; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor</term>
+        <term type="topical">Societies and clubs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Book and Thimble Club of Ann Arbor, Michigan</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
@@ -58,17 +71,17 @@
         <term type="topical">Women</term>
         <term type="topical">Organizations.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Book and Thimble Club of Ann Arbor, Michigan</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>2 oversize volumes</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 linear foot</extent>
-          </physdesc>
           <unittitle>Book and Thimble Club of Ann Arbor records</unittitle>
+          <physdesc>
+            <extent>1 linear foot and 2 oversize volumes</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1918-[ongoing]</unitdate>
         </did>
         <scopecontent>Minutes; booklets, containing programs, officers, and membership lists; and photographs.</scopecontent>
@@ -84,8 +97,5 @@
         <scopecontent>Photo of club members and photo and postcards sent by French girl aided by the club.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Oversize Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">2</container>
   </archdesc>
 </ead>

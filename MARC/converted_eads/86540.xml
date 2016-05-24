@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86540 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Ford</primary_name>
           <rest_of_name>Edwin</rest_of_name>
           <dates>1837-1865</dates>
@@ -34,7 +33,10 @@
         <head>Reproduction Note</head>
         <p>Photostatic copy.</p>
       </odd>
-      <acqinfo>Donor: 3755</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3755</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier in Co. D, Eighteenth Michigan Infantry during the Civil War.</bioghist>
     <scopecontent>Letters written to his family.</scopecontent>
@@ -51,6 +53,5 @@
         <subordinate_name>Company D</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

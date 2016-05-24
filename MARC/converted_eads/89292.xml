@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89292 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Spalding</primary_name>
           <rest_of_name>Volney Morgan</rest_of_name>
           <dates>1849-1918</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 27</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 27</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,34 @@
     </descgrp>
     <bioghist>Professor of botany at the University of Michigan.</bioghist>
     <scopecontent>Autobiographical notes, 1918; essay on first efforts to establish botanical gardens at the University of Michigan; and letter, 1893, to future wife Effie Southworth about European trip; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Travelers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Europe</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Spalding</primary_name>
+        <rest_of_name>Effie Southworth.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Matthaei Botanical Gardens</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Botany</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Voyages and travels.</term>
@@ -96,6 +126,5 @@
         <scopecontent>Portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

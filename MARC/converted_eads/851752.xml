@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851752 AA UAs UAx</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>McCoskry</primary_name>
           <rest_of_name>Samuel Allen</rest_of_name>
           <dates>1804-1886</dates>
@@ -26,11 +25,14 @@
       <unittitle>Samuel Allen McCoskry diary</unittitle>
       <unitdate type="inclusive" label="creation">1836-1840</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1059, 1333</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1059, 1333</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,24 @@
     </descgrp>
     <bioghist>Pioneer bishop of the Michigan Episcopal Church.</bioghist>
     <scopecontent>Description of the placement of clergy in the Michigan diocese; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McCoskry</primary_name>
+        <rest_of_name>Samuel Allen</rest_of_name>
+        <dates>1804-1886</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Episcopal Church</primary_name>
+        <subordinate_name>Diocese of Michigan</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -64,13 +84,22 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Clergy.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McCoskry</primary_name>
+        <rest_of_name>Samuel Allen</rest_of_name>
+        <dates>1804-1886</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Episcopal Church</primary_name>
+        <subordinate_name>Diocese of Michigan</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Samuel Allen McCoskry diary</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1836-1840</unitdate>
         </did>
@@ -87,6 +116,5 @@
         <scopecontent>Daguerreotype portrait and retouched photograph of oil or pastel portrait of McCoskry.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

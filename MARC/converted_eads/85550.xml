@@ -11,22 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 item outsize</extent>
-      </physdesc>
-      <physdesc>
-        <extent>ca. 100 items)</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 linear feet (3 volumes</extent>
-      </physdesc>
       <unitid>85550 UAl Aa 2 UAx</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Rennells</primary_name>
           <rest_of_name>Charles S.</rest_of_name>
           <fuller_form>(Charles Stephen)</fuller_form>
@@ -35,9 +25,15 @@
       </origination>
       <unittitle>Charles S. Rennells papers</unittitle>
       <unitdate type="inclusive" label="creation">1890-1960</unitdate>
+      <physdesc>
+        <extent>1 linear ft. (3 v. and ca. 100 items) and 1 item [outsize]</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1052</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1052</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -46,7 +42,46 @@
     <bioghist>Hickory Corners, Michigan, Wesleyan Methodist clergyman.</bioghist>
     <scopecontent>Notebook containing date and topic of sermons preached; Rennells family history; typescript of history of the Michigan Conference of the Wesleyan Methodist Church, 1940; collected historical documents relating to churches in Detroit and Romulus, Michigan; correspondence and photographs.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
+        <term type="genre_form">Sermons.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Hickory Corners.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Barry County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hickory Corners (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rennells</primary_name>
+        <rest_of_name>Charles S.</rest_of_name>
+        <fuller_form>(Charles Stephen)</fuller_form>
+        <dates>1873-1962</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Rennells family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Wesleyan Methodist Connection (or Church) of America</primary_name>
+        <term type="geographic">Michigan.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Wesleyan Methodist Church (Detroit, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Wesleyan Methodist Church (Romulus, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Wesleyan Methodist Connection (or Church) of America</primary_name>
+        <subordinate_name>Michigan Conference</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Sermons.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -194,11 +229,24 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Sparks Foundation County Park (Jackson, Mich.)</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rennells</primary_name>
+        <rest_of_name>Charles S.</rest_of_name>
+        <fuller_form>(Charles Stephen)</fuller_form>
+        <dates>1873-1962</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Rennells family</family_name>
+      </famname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Christian Crusaders</primary_name>
       </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan Union College</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Wesleyan Methodist Connection (or Church) of America</primary_name>
+        <subordinate_name>Michigan Conference</subordinate_name>
       </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>White Swan Hotel (Adrian, Mich.)</primary_name>
@@ -207,34 +255,24 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 item outsize</extent>
-          </physdesc>
-          <physdesc>
-            <extent>ca. 100 items)</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 linear feet (3 volumes</extent>
-          </physdesc>
           <unittitle>Charles S. Rennells papers</unittitle>
+          <physdesc>
+            <extent>1 linear ft. (3 v. and ca. 100 items) and 1 item [outsize]</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1890-1960</unitdate>
         </did>
         <scopecontent>Notebook containing date and topic of sermons preached; Rennells family history; typescript of history of the Michigan Conference of the Wesleyan Methodist Church, 1940; collected historical documents relating to churches in Detroit and Romulus, Michigan; correspondence and photographs.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 volumes, 4 envelopes,</extent>
-          </physdesc>
           <unittitle>Charles S. Rennels photograph series.</unittitle>
+          <physdesc>
+            <extent>1 v., 4 envelopes, and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1890s-1954</unitdate>
         </did>
         <scopecontent>Portraits and family photographs; personal and collected photographs relating to the history and personalities of the Michigan Conference of the Wesleyan Methodist Church; and album (1934) of snapshots of the Hickory Corners, Michigan centennial celebration.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

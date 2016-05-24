@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85336 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Neuenfelt</primary_name>
           <rest_of_name>Lila</rest_of_name>
           <dates>1902-1981</dates>
@@ -26,11 +25,14 @@
       <unittitle>Lila Neuenfelt papers</unittitle>
       <unitdate type="inclusive" label="creation">1946-1981 (scattered dates)</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>0.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6963</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6963</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,23 @@
     </descgrp>
     <bioghist>Wayne County (Mich.) Circuit Court judge.</bioghist>
     <scopecontent>Clippings about her career; legal documents regarding her fight to retain her maiden name; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Judges</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Wayne County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women judges</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Wayne County.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Neuenfelt</primary_name>
+        <rest_of_name>Lila</rest_of_name>
+        <dates>1902-1981</dates>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Judges</term>
@@ -116,6 +135,11 @@
         <primary_name>Burr</primary_name>
         <rest_of_name>Raymond.</rest_of_name>
       </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Neuenfelt</primary_name>
+        <rest_of_name>Lila</rest_of_name>
+        <dates>1902-1981</dates>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan</primary_name>
         <subordinate_name>Circuit Court (Wayne County)</subordinate_name>
@@ -126,7 +150,7 @@
         <did>
           <unittitle>Lila Neuenfelt papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>0.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1946-1981 (scattered dates)</unitdate>
         </did>
@@ -134,18 +158,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.1 linear feet</extent>
-          </physdesc>
           <unittitle>Lila Neuenfelt photograph series.</unittitle>
+          <physdesc>
+            <extent>0.1 linear ft. and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1922-1971</unitdate>
         </did>
         <scopecontent>Portraits; photographs relating to Neuenfelt's career; and photographs of a service station (ca. 1920s) and fire station and firefighting equipment (ca. 1940s) in Dearborn, Michigan; also portrait of a child.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

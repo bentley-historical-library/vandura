@@ -11,35 +11,43 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 envelope</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 folder</extent>
-      </physdesc>
       <unitid>0411 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Weiland</primary_name>
           <rest_of_name>Keith F.</rest_of_name>
         </persname>
       </origination>
       <unittitle>Keith F. Weiland papers</unittitle>
       <unitdate type="inclusive" label="creation">1946-1950</unitdate>
+      <physdesc>
+        <extent>1 folder and 1 envelope</extent>
+      </physdesc>
     </did>
     <descgrp>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 9420</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9420</p>
+      </odd>
     </descgrp>
     <bioghist>1951 graduate of the University of Michigan College of Architecture and Design.</bioghist>
     <scopecontent>Letter, flyer, and clippings relating to his design for the National Ski Hall of Fame, and photographs.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Weiland</primary_name>
+        <rest_of_name>Keith F.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>National Ski Hall of Fame</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Weiland</primary_name>
@@ -93,6 +101,10 @@
         <term type="geographic">Fort Custer (Mich.)</term>
       </subject>
       <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Weiland</primary_name>
+        <rest_of_name>Keith F.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Dow</primary_name>
         <rest_of_name>Alden B.</rest_of_name>
         <dates>1904-1983</dates>
@@ -123,31 +135,24 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 envelope</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 folder</extent>
-          </physdesc>
           <unittitle>Keith F. Weiland papers</unittitle>
+          <physdesc>
+            <extent>1 folder and 1 envelope</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1946-1950</unitdate>
         </did>
         <scopecontent>Letter, flyer, and clippings relating to his design for the National Ski Hall of Fame, and photographs.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 envelope</extent>
-          </physdesc>
           <unittitle>Keith F. Weiland photograph series.</unittitle>
+          <physdesc>
+            <extent>1 envelope and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1918-1948 and undated</unitdate>
         </did>
         <scopecontent>Photographs (negatives only) of Alpha Rho Chi initiation and other activities (1946) including photos of Alden Dow; football games and homecoming decorations (1948); and the College of Architecture and Design (1948) including photos of classrooms and studios. Also photograph, undated, of the Star Cornet Band of Ishpeming, Mich., and photograph, 1918, of "the human U.S. shield" formed by 30,000 officers and men at Camp Custer, Battle Creek, Mich.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

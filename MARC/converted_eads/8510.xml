@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 oversize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.25 linear feet (1 box)</extent>
-      </physdesc>
       <unitid>8510 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Barker</primary_name>
           <rest_of_name>Ernest Franklin</rest_of_name>
           <dates>1886-</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>Ernest F. Barker papers</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1894-1934</unitdate>
+      <physdesc>
+        <extent>0.25 linear ft. (1 box) and 1 oversize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6059</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6059</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -41,6 +40,27 @@
     </descgrp>
     <bioghist>Professor of physics at the University of Michigan.</bioghist>
     <scopecontent>Letters received from grandparents, 1894-1902, Barker genealogical material, papers of wife, Emma (Swigart) Barker, miscellanea, and photographs, including two albums.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Barker</primary_name>
+        <rest_of_name>Emma Swigart.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Barker</primary_name>
+        <rest_of_name>Ernest Franklin</rest_of_name>
+        <dates>1886-</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Barker family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Swigart family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Barker</primary_name>
@@ -97,6 +117,21 @@
         <term type="geographic">Charlevoix (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Barker</primary_name>
+        <rest_of_name>Emma Swigart.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Barker</primary_name>
+        <rest_of_name>Ernest Franklin</rest_of_name>
+        <dates>1886-</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Barker family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Swigart family</family_name>
+      </famname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>First Congregational Church (Ann Arbor, Mich.)</primary_name>
       </corpname>
@@ -104,13 +139,10 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.25 linear feet (1 box)</extent>
-          </physdesc>
           <unittitle>Ernest F. Barker papers</unittitle>
+          <physdesc>
+            <extent>0.25 linear ft. (1 box) and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1894-1934</unitdate>
         </did>
         <scopecontent>Letters received from grandparents, 1894-1902, Barker genealogical material, papers of wife, Emma (Swigart) Barker, miscellanea, and photographs, including two albums.</scopecontent>
@@ -119,13 +151,12 @@
         <did>
           <unittitle>Ernest F. Barker photograph series.</unittitle>
           <physdesc>
-            <extent>0.1 linear feet</extent>
+            <extent>.1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1890s-1950s</unitdate>
         </did>
         <scopecontent>Portraits of Barker, his wife, Emma Swigart Barker, and members of the Barker and Swigart families; also photographs of Charlevoix, Michigan, and of a 1911 canoe trip in Algonquin Provincial Park, Ontario.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

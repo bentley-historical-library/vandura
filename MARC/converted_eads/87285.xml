@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -19,16 +18,19 @@
       <unittitle>Palladium (University of Michigan) minutes</unittitle>
       <unitdate type="inclusive" label="creation">1892</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2104</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2104</p>
+      </odd>
     </descgrp>
     <bioghist>University of Michigan student yearbook.</bioghist>
     <scopecontent>Minutes of board.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="130">
+      <subject source="local" encodinganalog="130">
         <term type="uniform_title">Palladium.</term>
       </subject>
       <corpname source="lcnaf" encodinganalog="610">
@@ -43,6 +45,5 @@
         <term type="topical">Periodicals.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

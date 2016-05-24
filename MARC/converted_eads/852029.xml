@@ -11,28 +11,27 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 oversize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.5 linear feet, 1 volumes,</extent>
-      </physdesc>
       <unitid>852029 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Pinson</primary_name>
           <rest_of_name>James G.</rest_of_name>
         </persname>
       </origination>
       <unittitle>James G. Pinson papers</unittitle>
       <unitdate type="inclusive" label="creation">1956-1962</unitdate>
+      <physdesc>
+        <extent>.5 linear ft., 1 v., and 1 oversize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4245</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4245</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -40,6 +39,26 @@
     </descgrp>
     <bioghist>Resident of St. Clair, Michigan.</bioghist>
     <scopecontent>Newsletters detailing activities of Wyandotte (Mich.) Old Time Baseball Players, clippings regarding shipping activities on the Great Lakes, and scrapbooks detailing history of Wyandotte in the 1920's; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Baseball</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Wyandotte.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Shipping</term>
+        <term type="geographic">Great Lakes (North America).</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Great Lakes (North America)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Wyandotte (Mich.)</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
@@ -84,6 +103,9 @@
       </subject>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Belle Isle (Detroit, Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Wyandotte (Mich.)</term>
       </subject>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Admiral C.F. Hughes (Ship)</primary_name>
@@ -133,32 +155,24 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.5 linear feet, 1 volumes,</extent>
-          </physdesc>
           <unittitle>James G. Pinson papers</unittitle>
+          <physdesc>
+            <extent>.5 linear ft., 1 v., and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1956-1962</unitdate>
         </did>
         <scopecontent>Newsletters detailing activities of Wyandotte (Mich.) Old Time Baseball Players, clippings regarding shipping activities on the Great Lakes, and scrapbooks detailing history of Wyandotte in the 1920's; also photographs.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 envelope</extent>
-          </physdesc>
           <unittitle>James G. Pinson photograph series.</unittitle>
+          <physdesc>
+            <extent>1 envelope and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1898-1930s</unitdate>
         </did>
         <scopecontent>Primarily photographs of shipping activity on the Great Lakes and photos of Great Lakes ships; also team and individual photos of University of Michigan football players.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

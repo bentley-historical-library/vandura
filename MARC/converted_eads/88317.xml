@@ -11,27 +11,26 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 oversize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>2 linear feet</extent>
-      </physdesc>
       <unitid>88317 Aa 2 UAm</unitid>
       <origination>
-        <famname encodinganalog="100" source="local">
+        <famname encodinganalog="100">
           <family_name>Foster family</family_name>
         </famname>
       </origination>
       <unittitle>Foster family papers</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1903-1961</unitdate>
+      <physdesc>
+        <extent>2 linear ft. and 1 oversize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1676, 4819</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1676, 4819</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,6 +38,36 @@
     </descgrp>
     <bioghist>Residents of Ann Arbor and Lansing, Michigan.</bioghist>
     <scopecontent>Diaries, correspondence, calendars, and photograph albums of Margaret Pattengill Foster; album and loose photographs of Theodore G. Foster, relating to University of Michigan student life.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Lansing.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Lansing (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Foster</primary_name>
+        <rest_of_name>Margaret Irene Pattengill.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Foster</primary_name>
+        <rest_of_name>Theodore George</rest_of_name>
+        <dates>1888-1960</dates>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -82,7 +111,13 @@
         <term type="geographic">Michigan.</term>
       </subject>
       <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Gull Lake (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Lansing (Mich.)</term>
       </subject>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Pentwater (Mich.)</term>
@@ -154,32 +189,24 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>2 linear feet</extent>
-          </physdesc>
           <unittitle>Foster family papers</unittitle>
+          <physdesc>
+            <extent>2 linear ft. and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1903-1961</unitdate>
         </did>
         <scopecontent>Diaries, correspondence, calendars, and photograph albums of Margaret Pattengill Foster; album and loose photographs of Theodore G. Foster, relating to University of Michigan student life.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.5 linear feet</extent>
-          </physdesc>
           <unittitle>Theodore G. and Margaret Foster photograph series.</unittitle>
+          <physdesc>
+            <extent>.5 linear ft. and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1860-ca. 1931 (scattered dates)</unitdate>
         </did>
         <scopecontent>Photograph albums, 1908-1931, of Margaret Pattengill Foster, including snapshots of friends, family, and vacation activities; album and loose photographs of Theodore G. Foster, graduate of Mercersburg Academy, and student at the University of Michigan, 1908-1909, including photos of member of Phi Kappa Psi Fraternity and the fraternity's house.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

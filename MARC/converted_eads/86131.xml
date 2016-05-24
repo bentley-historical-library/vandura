@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86131 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Titus</primary_name>
           <rest_of_name>Sam W.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Sam W. Titus marriage record books</unittitle>
       <unitdate type="inclusive" label="creation">1845-1907</unitdate>
       <physdesc>
-        <extent>3 volumes</extent>
+        <extent>3 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2001</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2001</p>
+      </odd>
     </descgrp>
     <bioghist>Baptist clergyman.</bioghist>
     <scopecontent>Record of marriages performed in Flint, Grand Rapids, and Detroit, Michigan.</scopecontent>
@@ -54,8 +56,5 @@
         <primary_name>Baptists</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
-    <container label="Volume" type="volume">3</container>
   </archdesc>
 </ead>

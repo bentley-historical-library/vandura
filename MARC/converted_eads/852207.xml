@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852207 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Reichle</primary_name>
           <rest_of_name>Lewis.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Lewis Reichle papers</unittitle>
       <unitdate type="inclusive" label="creation">1885-1945</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1581</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1581</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,27 @@
     </descgrp>
     <bioghist>Instructor in Latin at University of Michigan.</bioghist>
     <scopecontent>Personal account books, 1887-1908, Latin teaching manual, and miscellaneous correspondence and grade reports; and biographical sketches, poems and notes of Flora Slayton Reichle, including letters received about her book Rimes from the Great Lakes; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Account books.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Poetry.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Reichle</primary_name>
+        <rest_of_name>Flora Slayton.</rest_of_name>
+        <term type="uniform_title">Rimes from the Great Lakes.</term>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Reichle</primary_name>
+        <rest_of_name>Flora Slayton.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of Classical Studies</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Account books.</term>
@@ -96,7 +119,7 @@
         <did>
           <unittitle>Lewis Reichle papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1885-1945</unitdate>
         </did>
@@ -113,6 +136,5 @@
         <scopecontent>Portraits of Lewis Reichle and his wife, Flora Slayton Reichle; informal photos; and photo of a school in Saginaw, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

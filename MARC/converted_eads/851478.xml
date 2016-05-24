@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851478 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Horton</primary_name>
           <rest_of_name>George Byron</rest_of_name>
           <dates>1845-1922</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4940, 4008</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4940, 4008</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,29 @@
     </descgrp>
     <bioghist>Farmer, cheese manufacturer, state senator and Grange official from Lenawee County, Michigan.</bioghist>
     <scopecontent>Printed petition urging his candidacy as governor of Michigan and his response to this endorsement; also family history, 1923; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Elections</term>
+        <term type="geographic">Michigan</term>
+        <term type="temporal">1902.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farmers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Lenawee County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Lenawee County (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Horton</primary_name>
+        <rest_of_name>George Byron</rest_of_name>
+        <dates>1845-1922</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>National Grange</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Elections</term>
@@ -78,6 +103,14 @@
         <term type="geographic">Fairfield (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Lenawee County (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Horton</primary_name>
+        <rest_of_name>George Byron</rest_of_name>
+        <dates>1845-1922</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -101,6 +134,5 @@
         <scopecontent>Exterior photo of Horton's home in Fairfield, Michigan; photos of his wooded property in Lenawee County, Michigan, and of maple sugaring.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

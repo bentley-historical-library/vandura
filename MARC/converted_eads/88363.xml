@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 volumes</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 item</extent>
-      </physdesc>
       <unitid>88363 Aa Aa 1 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Gunn</primary_name>
           <rest_of_name>Moses</rest_of_name>
           <dates>1822-1887</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>Moses Gunn papers</unittitle>
       <unitdate type="inclusive" label="creation">1846 and undated</unitdate>
+      <physdesc>
+        <extent>1 item and 1 v</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1278, 4437</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1278, 4437</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -58,39 +57,54 @@
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Medicine and Surgery</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Ganglia, Sensory.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gunn</primary_name>
+        <rest_of_name>Moses</rest_of_name>
+        <dates>1822-1887</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Medicine and Surgery</subordinate_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gunn</primary_name>
+        <rest_of_name>Moses</rest_of_name>
+        <dates>1822-1887</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 volumes</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 item</extent>
-          </physdesc>
           <unittitle>Moses Gunn papers</unittitle>
+          <physdesc>
+            <extent>1 item and 1 v</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1846 and undated</unitdate>
         </did>
         <scopecontent>Essay, undated, entitled, "The ganglionic system of nerves" and announcement of his lectures in anatomy, 1846; also photographs.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 envelope</extent>
-          </physdesc>
           <unittitle>Moses Gunn photograph series.</unittitle>
+          <physdesc>
+            <extent>1 envelope and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1860-1880s</unitdate>
         </did>
         <scopecontent>Portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

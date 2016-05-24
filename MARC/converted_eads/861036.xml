@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>861036 Aa 1 UAs UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Hans</primary_name>
           <rest_of_name>Otto Henry</rest_of_name>
           <dates>1873-1940</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7206</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7206</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -54,6 +56,26 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1901-1910.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="630">
+        <term type="uniform_title">Michigan daily.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1891-1900.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+      <subject source="lcsh" encodinganalog="630">
+        <term type="uniform_title">Michigan daily.</term>
+      </subject>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -78,6 +100,18 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Law</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1891-1900.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
       </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
@@ -107,6 +141,5 @@
         <scopecontent>Photographs of the Michigan Daily staff, Law School student activities, students drilling during the Spanish American War, a student room, and a student parade.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

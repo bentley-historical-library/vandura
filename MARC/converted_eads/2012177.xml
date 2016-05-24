@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012177 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Silberman</primary_name>
           <rest_of_name>Jerome.</rest_of_name>
         </persname>
@@ -31,7 +30,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10751</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10751</p>
+      </odd>
     </descgrp>
     <bioghist>Michigan resident who served as Private in the 13th Infantry Regiment and as Corporal in the 3350th Signal Base Maintenance Co. during World War II.</bioghist>
     <arrangement>Box 1 contains undated correspondence and correspondence dated September 1943-August 1945; Box 2 contains correspondence dated September 1945-November 1945, printed material, and photograph.</arrangement>
@@ -66,7 +68,5 @@
         <subordinate_name>Signal Base Maintenance Company, 3350th</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

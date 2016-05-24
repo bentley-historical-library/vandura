@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>25 items</extent>
-      </physdesc>
-      <physdesc>
-        <extent>8 volumes</extent>
-      </physdesc>
       <unitid>85707 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Barker</primary_name>
           <rest_of_name>Richard W.</rest_of_name>
           <fuller_form>(Richard Watson)</fuller_form>
@@ -32,14 +25,20 @@
       </origination>
       <unittitle>Richard W. Barker diaries</unittitle>
       <unitdate type="inclusive" label="creation">April 1862-April 1863, 1880, 1882, 1884, and 1891</unitdate>
+      <physdesc>
+        <extent>8 v. and 25 items</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5212</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5212</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier from Laphamville, now Rockford, Michigan, who served in Company D, Michigan Engineers and Mechanics during the Civil War.</bioghist>
     <scopecontent>Descriptions of camp life during the Civil War and daily activities as a tradesman in the 1880's; also genealogy of the Barker family.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="651">
@@ -60,6 +59,5 @@
         <subordinate_name>Company D</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851757 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>McPeek</primary_name>
           <rest_of_name>Russell Roy</rest_of_name>
           <dates>1862-1945</dates>
@@ -26,11 +25,14 @@
       <unittitle>Russell Roy McPeek papers</unittitle>
       <unitdate type="inclusive" label="creation">1865-1962</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2220, 4067</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2220, 4067</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,43 @@
     </descgrp>
     <bioghist>Michigan Circuit Court judge.</bioghist>
     <scopecontent>Correspondence, memorials, obituaries of Judge McPeek and his wife Gertrude Smith McPeek; household cash books of Gertrude Smith, 1899-1901 and 1923-1929, when she lived in Hastings, Michigan; papers relating to Michigan governor Kim Sigler and to the Clement Smith family; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Judges</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Hastings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Charlotte (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hastings (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McPeek</primary_name>
+        <rest_of_name>Russell Roy</rest_of_name>
+        <dates>1862-1945</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>McPeek</primary_name>
+        <rest_of_name>Gertrude Smith</rest_of_name>
+        <dates>1877-1962</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Sigler</primary_name>
+        <rest_of_name>Kim</rest_of_name>
+        <dates>1894-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Smith</primary_name>
+        <rest_of_name>Clement McDonald</rest_of_name>
+        <dates>1844-1923</dates>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Judges</term>
@@ -88,6 +127,9 @@
         <term type="geographic">Bay View (Mich.)</term>
       </subject>
       <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Charlotte (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Philippines</term>
         <term type="topical">History</term>
         <term type="temporal">1898-1946.</term>
@@ -96,6 +138,11 @@
         <primary_name>McPeek</primary_name>
         <rest_of_name>Gertrude Smith</rest_of_name>
         <dates>1877-1962</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McPeek</primary_name>
+        <rest_of_name>Russell Roy</rest_of_name>
+        <dates>1862-1945</dates>
       </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Baughman's Military Band</primary_name>
@@ -106,7 +153,7 @@
         <did>
           <unittitle>Russell Roy McPeek papers</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1865-1962</unitdate>
         </did>
@@ -114,18 +161,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 volumes</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 envelope</extent>
-          </physdesc>
           <unittitle>Russell Roy McPeek photograph series.</unittitle>
+          <physdesc>
+            <extent>1 envelope and 1 v</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1910? and 1930s?</unitdate>
         </did>
         <scopecontent>Portraits; and photo of the members of Baughman's Military Band of Charlotte, Michigan, in front of a dwelling, possibly in Bay View, Michigan; also album given to Gertrude Smith McPeek by her uncle A. D. Kniskern while serving in the Philippines (ca. 1910).</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

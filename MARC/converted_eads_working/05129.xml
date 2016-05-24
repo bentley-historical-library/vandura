@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Albert Fialka paper</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>05129 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Fialka</primary_name>
+          <rest_of_name>Albert</rest_of_name>
+          <dates>1922-</dates>
+        </persname>
+      </origination>
+      <unittitle>Albert Fialka paper</unittitle>
+      <unitdate type="inclusive" label="creation">1996</unitdate>
+      <physdesc>
+        <extent>1 folder</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 9640</acqinfo>
+    </descgrp>
+    <bioghist>Resident of Flint, Mich., who served with the U.S. 9th Infantry Division during World War II; 1950 graduate of the University of Michigan.</bioghist>
+    <scopecontent>Reminiscence of his combat experience.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945</term>
+        <term type="genre_form">Personal narratives, American.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Fialka</primary_name>
+        <rest_of_name>Albert</rest_of_name>
+        <dates>1922-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Infantry Division, 9th</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <container label="Folder">1</container>
+  </archdesc>
+</ead>

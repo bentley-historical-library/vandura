@@ -11,24 +11,26 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852245 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Shearer family</family_name>
         </famname>
       </origination>
       <unittitle>Shearer family papers</unittitle>
       <unitdate type="inclusive" label="creation">1867-1948</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1271</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1271</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -36,6 +38,29 @@
     </descgrp>
     <bioghist>Bay City, Michigan family.</bioghist>
     <scopecontent>War diary, 1918, of Lieutenant James Shearer, II; correspondence and other papers concerning Alfred Shearer's activities in World War II; and also miscellaneous genealogical materials.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Bay City (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Shearer</primary_name>
+        <rest_of_name>Alfred Marston.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Shearer</primary_name>
+        <rest_of_name>James</rest_of_name>
+        <dates>1823-1896</dates>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -86,6 +111,12 @@
         <term type="topical">Interiors</term>
         <term type="temporal">1891-1900.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
       <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Bay City (Mich.)</term>
         <term type="topical">Dwellings.</term>
@@ -123,7 +154,7 @@
         <did>
           <unittitle>Shearer family papers</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1867-1948</unitdate>
         </did>
@@ -140,6 +171,5 @@
         <scopecontent>Portraits and informal photos of James Shearer II, and other family members; and interior and exterior photos of Shearer home in Bay City, Michigan; also photo of members of Psi Upsilon Fraternity.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

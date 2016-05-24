@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851914 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Murphy</primary_name>
           <rest_of_name>Harold</rest_of_name>
           <dates>1888-1945</dates>
@@ -26,11 +25,14 @@
       <unittitle>Harold Murphy papers</unittitle>
       <unitdate type="inclusive" label="creation">1911-1940</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3074</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3074</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -82,16 +84,66 @@
         <primary_name>Murphy</primary_name>
         <rest_of_name>Marguerite.</rest_of_name>
       </persname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Harbor Beach (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Philippines</term>
+        <term type="topical">History</term>
+        <term type="temporal">1898-1946.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Murphy</primary_name>
+        <rest_of_name>Harold</rest_of_name>
+        <dates>1888-1945</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Comstock</primary_name>
+        <rest_of_name>William Alfred</rest_of_name>
+        <dates>1877-1949</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Cramton</primary_name>
+        <rest_of_name>Louis C.</rest_of_name>
+        <fuller_form>(Louis Convers)</fuller_form>
+        <dates>1875-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Murphy</primary_name>
+        <rest_of_name>Frank</rest_of_name>
+        <dates>1890-1949</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Murphy</primary_name>
+        <rest_of_name>George</rest_of_name>
+        <dates>1897-1961</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Murphy</primary_name>
+        <rest_of_name>Irene Ellis</rest_of_name>
+        <dates>1900-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Murphy</primary_name>
+        <rest_of_name>Marguerite.</rest_of_name>
+      </persname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Murphy</primary_name>
+        <rest_of_name>Harold</rest_of_name>
+        <dates>1888-1945</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Harold Murphy papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1911-1940</unitdate>
         </did>
@@ -108,6 +160,5 @@
         <scopecontent>Portrait.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

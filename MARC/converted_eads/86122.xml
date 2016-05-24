@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 volumes</extent>
-      </physdesc>
-      <physdesc>
-        <extent>15 items</extent>
-      </physdesc>
       <unitid>86122 AA Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Thurber</primary_name>
           <rest_of_name>Henry Thomas</rest_of_name>
           <dates>1853-1904</dates>
@@ -31,13 +24,19 @@
       </origination>
       <unittitle>Henry Thomas Thurber papers</unittitle>
       <unitdate type="inclusive" label="creation">1893-1897</unitdate>
+      <physdesc>
+        <extent>15 items and 1 v</extent>
+      </physdesc>
     </did>
     <descgrp>
       <odd>
         <head>Reproduction Note</head>
         <p>Photostatic copies.</p>
       </odd>
-      <acqinfo>Donor: 1458</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1458</p>
+      </odd>
     </descgrp>
     <bioghist>Secretary to U.S. President Grover Cleveland.</bioghist>
     <scopecontent>Letter from William E. Quinby commenting on Thurber's appointment as Secretary to Cleveland, and fourteen clippings and a scrapbook on his appointment.</scopecontent>
@@ -56,7 +55,5 @@
         <dates>1835-1908</dates>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

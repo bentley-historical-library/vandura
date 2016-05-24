@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -19,16 +18,19 @@
       <unittitle>Anonymous diary</unittitle>
       <unitdate type="inclusive" label="creation">1882</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2440</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2440</p>
+      </odd>
     </descgrp>
     <bioghist>Farmer.</bioghist>
     <scopecontent>Diary written in Clinton and Albion, Michigan, by a twenty-one year old man in which he discusses the weather, daily farm activities, expenses and prices of farm products.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -42,6 +44,5 @@
         <term type="geographic">Clinton (Lenawee County, Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

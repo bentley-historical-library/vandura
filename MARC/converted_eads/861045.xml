@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 item (14 p.)</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 volumes</extent>
-      </physdesc>
       <unitid>861045 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Ball</primary_name>
           <rest_of_name>Frank W.</rest_of_name>
           <fuller_form>(Frank Webster)</fuller_form>
@@ -32,11 +25,17 @@
       </origination>
       <unittitle>Frank W. Ball diary</unittitle>
       <unitdate type="inclusive" label="creation">1871</unitdate>
+      <physdesc>
+        <extent>1 v. and 1 item (14 p.)</extent>
+      </physdesc>
     </did>
     <descgrp>
       <userestrict>Copyright reserved by donor.</userestrict>
       <altformavail>Original and photocopy of typescript.</altformavail>
-      <acqinfo>Donor: 5222</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5222</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Grand Rapids, Michigan.</bioghist>
     <scopecontent>Description of a trip to England and Germany.</scopecontent>
@@ -59,6 +58,5 @@
         <term type="topical">Description and travel.</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

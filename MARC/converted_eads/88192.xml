@@ -11,27 +11,45 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88192 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Comstock family</family_name>
         </famname>
       </origination>
       <unittitle>Comstock family papers</unittitle>
       <unitdate type="inclusive" label="creation">1892-1953</unitdate>
       <physdesc>
-        <extent>5 linear in (number approximate)</extent>
+        <extent>ca. 5 linear in</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6217</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6217</p>
+      </odd>
     </descgrp>
     <bioghist>Ypsilanti and Constantine, Michigan, family.</bioghist>
     <scopecontent>Scrapbooks of Edgar M. Comstock containing clippings of poetry, family-related clippings, and memorabilia; and family miscellanea.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Constantine (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ypsilanti (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Comstock</primary_name>
+        <rest_of_name>E. M.</rest_of_name>
+        <dates>1834-</dates>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
@@ -68,7 +86,7 @@
         <did>
           <unittitle>Comstock family papers</unittitle>
           <physdesc>
-            <extent>5 linear in (number approximate)</extent>
+            <extent>ca. 5 linear in</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1892-1953</unitdate>
         </did>
@@ -85,6 +103,5 @@
         <scopecontent>Photos of family homes in Ypsilanti, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

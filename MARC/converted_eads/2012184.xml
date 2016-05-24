@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012184 Aa 2</unitid>
       <origination>
-        <persname role="ive" encodinganalog="100" source="lcnaf">
+        <persname role="interviewee" encodinganalog="100">
           <primary_name>Schnitzer</primary_name>
           <rest_of_name>Robert C.</rest_of_name>
           <dates>1906-</dates>
@@ -37,7 +36,10 @@
         <head>Reproduction Note</head>
         <p>Digitized from sound cassette. Ann Arbor, Mich. : Bentley Historical Library, 2012.</p>
       </odd>
-      <acqinfo>Donor: 3190</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3190</p>
+      </odd>
     </descgrp>
     <bioghist>Robert C. Schnitzer was director of the University of Michigan Professional Theatre Program, 1962-1973. His wife, Marcella Cisney, was artistic director of the program.</bioghist>
     <scopecontent>Interview with Robert C. Schnitzer and Marcella Cisney conducted by Robert Chapel.</scopecontent>
@@ -57,7 +59,7 @@
         <rest_of_name>Robert C.</rest_of_name>
         <dates>1906-</dates>
       </persname>
-      <persname source="local" role="ive" encodinganalog="700">
+      <persname source="local" role="interviewee" encodinganalog="700">
         <primary_name>Cisney</primary_name>
         <rest_of_name>Marcella</rest_of_name>
       </persname>
@@ -66,6 +68,5 @@
         <subordinate_name>Professional Theatre Program</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="DVD Box" type="box">1</container>
   </archdesc>
 </ead>

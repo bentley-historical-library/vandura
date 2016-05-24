@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0327 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Allen</primary_name>
           <rest_of_name>Edward Payson</rest_of_name>
           <dates>1839-1909</dates>
@@ -26,7 +25,7 @@
       <unittitle>Edward Payson Allen papers</unittitle>
       <unitdate type="inclusive" label="creation">1864-1909 (scattered dates)</unitdate>
       <physdesc>
-        <extent>0.1 linear feet</extent>
+        <extent>0.1 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -34,10 +33,38 @@
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 9298</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9298</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Ypsilanti, Mich.; member of Congress 1887-1891.</bioghist>
     <scopecontent>Biographical material, Memorial Day address (1896), draft of a pure food and drug act, and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Memorial Day addresses.</term>
+      </subject>
+      <subject source="local" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1877-1898.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1837-1950.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Allen</primary_name>
+        <rest_of_name>Edward Payson</rest_of_name>
+        <dates>1839-1909</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Congress</subordinate_name>
+        <subordinate_name>House</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Memorial Day addresses.</term>
@@ -71,6 +98,11 @@
       </subject>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Allen</primary_name>
+        <rest_of_name>Edward Payson</rest_of_name>
+        <dates>1839-1909</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Allen</primary_name>
         <rest_of_name>Clara Cushman.</rest_of_name>
       </persname>
     </controlaccess>
@@ -79,7 +111,7 @@
         <did>
           <unittitle>Edward Payson Allen papers</unittitle>
           <physdesc>
-            <extent>0.1 linear feet</extent>
+            <extent>0.1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1864-1909 (scattered dates)</unitdate>
         </did>
@@ -96,6 +128,5 @@
         <scopecontent>Portraits of Edward Payson Allen and Clara Cushman Allen, including portrait of Edward Payson Allen in uniform during the Civil War.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

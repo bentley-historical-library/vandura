@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851274 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Gallagher</primary_name>
           <rest_of_name>Margaret.</rest_of_name>
         </persname>
@@ -25,16 +24,19 @@
       <unittitle>Margaret Gallagher journal</unittitle>
       <unitdate type="inclusive" label="creation">1855-1856</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2889</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2889</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Hillsdale, Michigan.</bioghist>
     <scopecontent>Diary kept while her husband Frederick was a student at Lane Seminary in Cincinnati and at the beginning of his ministry in Ohio prior to coming to Michigan.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -56,6 +58,5 @@
         <primary_name>Lane Theological Seminary</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

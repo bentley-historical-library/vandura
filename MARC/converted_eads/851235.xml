@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851235 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Fugate</primary_name>
           <rest_of_name>James</rest_of_name>
           <dates>1877-1938</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3165</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3165</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -57,9 +59,34 @@
         <primary_name>Cameron</primary_name>
         <rest_of_name>H. F.</rest_of_name>
       </persname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Philippines</term>
+        <term type="topical">History</term>
+        <term type="temporal">1898-1946.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Fugate</primary_name>
+        <rest_of_name>I. T.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Fugate</primary_name>
+        <rest_of_name>James</rest_of_name>
+        <dates>1877-1938</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Cameron</primary_name>
+        <rest_of_name>H. F.</rest_of_name>
+      </persname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Fugate</primary_name>
+        <rest_of_name>James</rest_of_name>
+        <dates>1877-1938</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -83,7 +110,5 @@
         <scopecontent>Portrait.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

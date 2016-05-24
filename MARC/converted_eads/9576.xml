@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9576 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Arscott</primary_name>
           <rest_of_name>William W.</rest_of_name>
         </persname>
@@ -32,7 +31,10 @@
         <head>Publication, Distribution, Etc.</head>
         <p>1966.</p>
       </odd>
-      <acqinfo>Donor: 7233</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7233</p>
+      </odd>
     </descgrp>
     <bioghist>Presque Isle County, Michigan, coroner.</bioghist>
     <scopecontent>Sound recording made in 1955 (rerecorded in 1966 with new introdutory material) containing reminiscences of the Metz forest fire of 1908.</scopecontent>
@@ -61,6 +63,5 @@
         <rest_of_name>William W.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Sd Rec Box" type="box">1</container>
   </archdesc>
 </ead>

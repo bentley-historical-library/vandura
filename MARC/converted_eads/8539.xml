@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8539 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Atwood</primary_name>
           <rest_of_name>William</rest_of_name>
           <dates>1860-1961</dates>
@@ -26,16 +25,19 @@
       <unittitle>William Atwood papers</unittitle>
       <unitdate type="inclusive" label="creation">1898-1900</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6066</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6066</p>
+      </odd>
     </descgrp>
     <bioghist>Sault Ste. Marie, Michigan, army quartermaster sergeant in Cuba during the Spanish-American War, later member of the militia serving during the Philippine Insurrection.</bioghist>
     <scopecontent>Diaries, 1898-1900, concerning war-time service; scrapbook containing miscellaneous quartermaster records and clippings of war news, poetry, and other general interest articles; and other documents relating to military service.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="aat" encodinganalog="655">
@@ -53,6 +55,5 @@
         <term type="temporal">Philippine American War, 1899-1902</term>
       </subject>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

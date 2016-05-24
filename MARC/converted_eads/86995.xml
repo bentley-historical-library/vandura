@@ -11,24 +11,26 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86995 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="local">
+        <famname encodinganalog="100">
           <family_name>Wyman family</family_name>
         </famname>
       </origination>
       <unittitle>Wyman family papers</unittitle>
       <unitdate type="inclusive" label="creation">1918-1931, and undated</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6061</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6061</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -36,6 +38,52 @@
     </descgrp>
     <bioghist>Family of William P. and Arminia McKee Wyman of Charlotte, Michigan.</bioghist>
     <scopecontent>Letters, 1918, of William McKee Wyman, describing his experiences in France during World War I; letters, 1918-1919 and 1928-1931, of Eleanor McKee Wyman, describing her experiences as a nurse in France and China and on leave in the Philippines; and reminiscences and clippings of Arminia McKee Wyman; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Charlotte.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">China</term>
+        <term type="topical">History</term>
+        <term type="temporal">Republic, 1912-1949.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">France.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Philippines</term>
+        <term type="topical">History</term>
+        <term type="temporal">1898-1946.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McKee</primary_name>
+        <rest_of_name>Robert G.</rest_of_name>
+        <dates>1813-1892</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Wyman</primary_name>
+        <rest_of_name>Arminia McKee</rest_of_name>
+        <dates>1862-1957</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Wyman</primary_name>
+        <rest_of_name>Eleanor McKee</rest_of_name>
+        <dates>1891-1983</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Wyman</primary_name>
+        <rest_of_name>William McKee</rest_of_name>
+        <dates>1886-1965</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>McKee family</family_name>
+      </famname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
@@ -115,7 +163,7 @@
         <did>
           <unittitle>Wyman family papers</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1918-1931, and undated</unitdate>
         </did>
@@ -132,6 +180,5 @@
         <scopecontent>Travel photos, several of them taken on the Grand River at Grand Haven, Michigan; also photographs of canoeing on the Huron River, possibly near Ann Arbor, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

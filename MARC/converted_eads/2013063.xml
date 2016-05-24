@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2013063 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="local">
+        <famname encodinganalog="100">
           <family_name>Carver family</family_name>
         </famname>
       </origination>
@@ -31,7 +30,10 @@
     <descgrp>
       <accruals>Further accruals are not expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10900</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10900</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -95,12 +97,83 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Civilian Conservation Corps (U.S.)</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Camp Dukes (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Elk Rapids (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Carver</primary_name>
+        <rest_of_name>Bradford Lang</rest_of_name>
+        <dates>1906-1956</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Carver</primary_name>
+        <rest_of_name>Charles Belding</rest_of_name>
+        <dates>1869-1942</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Carver</primary_name>
+        <rest_of_name>Evelyn Edith Lang</rest_of_name>
+        <dates>1876-1947</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lang</primary_name>
+        <rest_of_name>W. M.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Carver</primary_name>
+        <rest_of_name>Bradford Lang</rest_of_name>
+        <dates>1906-1956</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Carver</primary_name>
+        <rest_of_name>Charles Belding</rest_of_name>
+        <dates>1869-1942</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Carver</primary_name>
+        <rest_of_name>Evelyn Edith Lang</rest_of_name>
+        <dates>1876-1947</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Lang family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Civilian Conservation Corps (U.S.)</primary_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Camp Dukes (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Elk Rapids (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Carver</primary_name>
+        <rest_of_name>Bradford Lang</rest_of_name>
+        <dates>1906-1956</dates>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Antrim County (Mich.)</primary_name>
         <subordinate_name>Board of Supervisors</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Civilian Conservation Corps (U.S.)</primary_name>
       </corpname>
     </controlaccess>
     <dsc>
@@ -127,6 +200,5 @@
         <scopecontent>Photographs of Bradford Carver and Camp Dukes, Elk Rapids scenes, and the Antrim County, Mich., Board of Supervisors, 1899.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

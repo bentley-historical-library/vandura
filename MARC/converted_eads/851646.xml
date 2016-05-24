@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851646 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Langley</primary_name>
           <rest_of_name>John Williams</rest_of_name>
           <dates>1841-1918</dates>
@@ -26,11 +25,14 @@
       <unittitle>John Williams Langley papers</unittitle>
       <unitdate type="inclusive" label="creation">1871-1917</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 110</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 110</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -73,16 +75,57 @@
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Christmas.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Inventions.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Metallurgy.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Scientists</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Langley</primary_name>
+        <rest_of_name>John Williams</rest_of_name>
+        <dates>1841-1918</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Case Institute of Technology</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Chemistry</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Physics</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Langley</primary_name>
+        <rest_of_name>John Williams</rest_of_name>
+        <dates>1841-1918</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>John Williams Langley papers</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1871-1917</unitdate>
         </did>
@@ -99,6 +142,5 @@
         <scopecontent>Portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

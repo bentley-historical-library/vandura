@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8933 CB.1 Outsize</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local">
+        <corpname encodinganalog="110">
           <primary_name>Washtenaw County (Mich.)</primary_name>
           <subordinate_name>County Clerk</subordinate_name>
         </corpname>
@@ -25,7 +24,7 @@
       <unittitle>Census of Washtenaw County, Michigan</unittitle>
       <unitdate type="inclusive" label="creation">1884</unitdate>
       <physdesc>
-        <extent>5 volumes</extent>
+        <extent>5 v</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -46,7 +45,10 @@
         <head>Formatted Contents Note</head>
         <p>Schedule 5. Libraries, schools, and churches (bound with Schedule 4). Ann Arbor, Augusta, Bridgewater, Dexter, Freedom, Lima, Lodi, Lyndon, Manchester, Northfield, Pittsfield, Salem, Saline, Dexter village, Scio, Sharon, Superior, Chelsea village, Sylvan, Webster, York, Ypsilanti, Ann Arbor city, Ypsilanti city</p>
       </odd>
-      <acqinfo>Donor: 1343</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1343</p>
+      </odd>
     </descgrp>
     <controlaccess>
       <subject source="ftamc" encodinganalog="655">
@@ -81,10 +83,5 @@
         <term type="topical">Religion.</term>
       </subject>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">2</container>
-    <container label="Oversize Volume" type="volume">3</container>
-    <container label="Oversize Volume" type="volume">4</container>
-    <container label="Oversize Volume" type="volume">5</container>
   </archdesc>
 </ead>

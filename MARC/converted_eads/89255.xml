@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89255 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Schauppner</primary_name>
           <rest_of_name>Louis</rest_of_name>
           <dates>1903-1972</dates>
@@ -26,11 +25,14 @@
       <unittitle>Louis Schauppner papers</unittitle>
       <unitdate type="inclusive" label="creation">1937-1971</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5270</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5270</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,29 @@
     </descgrp>
     <bioghist>Former convict in Jackson State Prison in Michigan.</bioghist>
     <scopecontent>Correspondence, primarily with sociologist Read Bain, concerning life in prison, parole, and rehabilitation; and miscellaneous articles, newspaper clippings, and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Prisons</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Criminals</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Schauppner</primary_name>
+        <rest_of_name>Louis</rest_of_name>
+        <dates>1903-1972</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Bain</primary_name>
+        <rest_of_name>Read</rest_of_name>
+        <dates>1892-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>State Prison of Southern Michigan</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Prisons</term>
@@ -69,6 +94,11 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Shooting.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Schauppner</primary_name>
+        <rest_of_name>Louis</rest_of_name>
+        <dates>1903-1972</dates>
+      </persname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Sound recordings.</term>
       </subject>
@@ -85,6 +115,11 @@
         <term type="geographic">Michigan</term>
         <term type="topical">Biography.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Schauppner</primary_name>
+        <rest_of_name>Louis</rest_of_name>
+        <dates>1903-1972</dates>
+      </persname>
       <persname source="local" encodinganalog="700">
         <primary_name>Jones</primary_name>
         <rest_of_name>Thomas L.</rest_of_name>
@@ -95,7 +130,7 @@
         <did>
           <unittitle>Louis Schauppner papers</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1937-1971</unitdate>
         </did>
@@ -128,6 +163,5 @@
         <scopecontent>Recording of interview conducted by Thomas Jones in which Schauppner recounts his life as a criminal, his years in prison, and his return to society.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

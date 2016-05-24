@@ -11,25 +11,21 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>44 glass negatives (in 3 boxes)</extent>
-      </physdesc>
-      <physdesc>
-        <extent>81 copyprints</extent>
-      </physdesc>
       <unitid>0640 Aa 2</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Elliott</primary_name>
           <rest_of_name>James L.</rest_of_name>
         </persname>
       </origination>
       <unittitle>James Lee Elliott collection.</unittitle>
       <unitdate type="inclusive" label="creation">1889-1897</unitdate>
+      <physdesc>
+        <extent>81 copyprints and 44 glass negatives (in 3 boxes)</extent>
+      </physdesc>
     </did>
     <descgrp>
       <odd>
@@ -40,7 +36,10 @@
         <head>General Note</head>
         <p>Box 1 contains numbered prints; These numbers also refer to surviving glass negatives in boxes 2-3.</p>
       </odd>
-      <acqinfo>Donor: 9686</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9686</p>
+      </odd>
     </descgrp>
     <bioghist>James Lee Elliott, of Charlevoix, Mich., was a Great Lakes Region historian and collector.</bioghist>
     <scopecontent>Photographs taken by Ernest Peaslee of ships and railroads in the Charlevoix area of Michigan.</scopecontent>
@@ -74,8 +73,5 @@
         <rest_of_name>Ernest.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
-    <container label="Box" type="box">3</container>
   </archdesc>
 </ead>

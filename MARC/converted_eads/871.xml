@@ -11,28 +11,27 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>ca. 25 items</extent>
-      </physdesc>
-      <physdesc>
-        <extent>2 oversize volumes</extent>
-      </physdesc>
       <unitid>871 AC Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Stebbins</primary_name>
           <rest_of_name>Stowell Cortland.</rest_of_name>
         </persname>
       </origination>
       <unittitle>Stowell Cortland Stebbins scrapbooks</unittitle>
       <unitdate type="inclusive" label="creation">1909-1911</unitdate>
+      <physdesc>
+        <extent>2 oversize v. and ca. 25 items</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7073</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7073</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -60,8 +59,32 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Stebbins</primary_name>
+        <rest_of_name>Stowell Cortland.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Circuses and shows.</term>
@@ -83,17 +106,26 @@
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student housing.</term>
       </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>ca. 25 items</extent>
-          </physdesc>
-          <physdesc>
-            <extent>2 oversize volumes</extent>
-          </physdesc>
           <unittitle>Stowell Cortland Stebbins scrapbooks</unittitle>
+          <physdesc>
+            <extent>2 oversize v. and ca. 25 items</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1909-1911</unitdate>
         </did>
         <scopecontent>Scrapbooks containing photographs, clippings and memorabilia relating to student life; also loose items from scrapbooks.</scopecontent>
@@ -102,16 +134,12 @@
         <did>
           <unittitle>Stowell Cortland Stebbins photograph series.</unittitle>
           <physdesc>
-            <extent>2 volumes</extent>
+            <extent>2 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1909-1911</unitdate>
         </did>
         <scopecontent>Photos in scrapbooks relating to student life at the University of Michigan, including photos of freshman-sophomore contests outside the Majestic Theater and elsewhere, exterior and interior views of Psi Upsilon house, the Union Circus, and student rooms; also photos of scenes near Harbor Springs, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Oversize Box" type="box">1</container>
-    <container label="Oversize Box" type="box">2</container>
   </archdesc>
 </ead>

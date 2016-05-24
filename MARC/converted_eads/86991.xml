@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86991 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Clark</primary_name>
           <rest_of_name>George R.</rest_of_name>
           <fuller_form>(George Russell)</fuller_form>
@@ -27,11 +26,14 @@
       <unittitle>George R. Clark papers</unittitle>
       <unitdate type="inclusive" label="creation">1910-1976</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7283</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7283</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,6 +41,14 @@
     </descgrp>
     <bioghist>Aviator, member of Early Birds of Aviation group of pioneer pilots.</bioghist>
     <scopecontent>Reminiscences, correspondence, printed material, and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Aeronautics.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Early Birds of Aviation</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Aeronautics.</term>
@@ -70,13 +80,16 @@
         <fuller_form>(George Russell)</fuller_form>
         <dates>1894-ca. 1978</dates>
       </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Early Birds of Aviation</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>George R. Clark papers</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1910-1976</unitdate>
         </did>
@@ -84,18 +97,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 album</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 folder</extent>
-          </physdesc>
           <unittitle>George R. Clark photograph series.</unittitle>
+          <physdesc>
+            <extent>1 folder and 1 album</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1910-1976 (scattered dates)</unitdate>
         </did>
         <scopecontent>Include views of airplanes, automobiles, and a gas station in Prudenville, Michigan (ca. 1930); group portraits of members of Early Birds of Aviation (1970s).</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

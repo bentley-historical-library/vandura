@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89328 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Thompson</primary_name>
           <rest_of_name>Milton</rest_of_name>
           <dates>b. 1829</dates>
@@ -34,10 +33,37 @@
         <head>Reproduction Note</head>
         <p>Photocopy in part.</p>
       </odd>
-      <acqinfo>Donor: 4683</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4683</p>
+      </odd>
     </descgrp>
     <bioghist>Macomb County, Michigan, school teacher, later officer with Co. G, 8th Michigan Cavalry during the Civil War.</bioghist>
     <scopecontent>Contract to teach school in Richmond, Macomb County, Michigan, 1847; and reminiscences, 1890s, containing brief account of his life and Civil War service.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Teachers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Macomb County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Macomb County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Richmond (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 8th (1862-1865)</subordinate_name>
+        <subordinate_name>Company G</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Teachers</term>
@@ -67,11 +93,22 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Military officers.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Thompson</primary_name>
         <rest_of_name>Milton</rest_of_name>
         <dates>b. 1829</dates>
       </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 8th (1862-1865)</subordinate_name>
+        <subordinate_name>Company G</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -95,7 +132,5 @@
         <scopecontent>Portrait of Thompson (in uniform) and his wife Martha (copy print).</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

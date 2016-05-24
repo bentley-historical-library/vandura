@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 oversize photograph</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 folder</extent>
-      </physdesc>
       <unitid>861009 Aa 1 UAl</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Berner</primary_name>
           <rest_of_name>John Phillip</rest_of_name>
           <dates>1906-</dates>
@@ -31,16 +24,49 @@
       </origination>
       <unittitle>John Phillip Berner papers</unittitle>
       <unitdate type="inclusive" label="creation">1924</unitdate>
+      <physdesc>
+        <extent>1 folder and 1 oversize photograph</extent>
+      </physdesc>
     </did>
     <descgrp>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 7172</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7172</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier stationed at Citizens' Military Training Camps, Camp Custer (later Fort Custer), Michigan.</bioghist>
     <scopecontent>Photographs of Citizens' Military Training Camps training; regulations manual containing brief diary descriptions of his activities at Camp Custer.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Military art and science</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Soldiers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Fort Custer.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Fort Custer (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Berner</primary_name>
+        <rest_of_name>John Phillip</rest_of_name>
+        <dates>1906-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>War Department</subordinate_name>
+        <subordinate_name>Citizens' Military Training Camps</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -82,35 +108,41 @@
         <term type="geographic">Michigan</term>
         <term type="geographic">Fort Custer.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Fort Custer (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Berner</primary_name>
+        <rest_of_name>John Phillip</rest_of_name>
+        <dates>1906-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>War Department</subordinate_name>
+        <subordinate_name>Citizens' Military Training Camps</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize photograph</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 folder</extent>
-          </physdesc>
           <unittitle>John Phillip Berner papers</unittitle>
+          <physdesc>
+            <extent>1 folder and 1 oversize photograph</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1924</unitdate>
         </did>
         <scopecontent>Photographs of Citizens' Military Training Camps training; regulations manual containing brief diary descriptions of his activities at Camp Custer.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize photograph</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 folder</extent>
-          </physdesc>
           <unittitle>John Phillip Berner photograph series.</unittitle>
+          <physdesc>
+            <extent>1 folder and 1 oversize photograph</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1924</unitdate>
         </did>
         <scopecontent>Photographs of Citizens' Military Training Camps training.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

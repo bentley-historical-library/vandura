@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85156 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Emmons family</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6108</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6108</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -90,12 +92,70 @@
         <subordinate_name>Michigan Cavalry Regiment, 6th (1862-1865)</subordinate_name>
         <subordinate_name>Company H</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Southern states.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Gaines (Mich.).</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Genesee County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Kent County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Illinois.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Louisiana.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Emmons</primary_name>
+        <rest_of_name>Charles E.</rest_of_name>
+        <dates>b. 1834</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Emmons</primary_name>
+        <rest_of_name>Charles E.</rest_of_name>
+        <dates>1894-1974</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Solomon</primary_name>
+        <rest_of_name>Stephen S.</rest_of_name>
+        <dates>1838-1895</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Emmons family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 6th (1862-1865)</subordinate_name>
+        <subordinate_name>Company H</subordinate_name>
+      </corpname>
       <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Paintings.</term>
       </subject>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Emmons family</family_name>
+      </famname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -119,8 +179,5 @@
         <scopecontent>Painted miniature portrait of Charles E. Emmons I and photo of Amos and Sarah Shirk.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
   </archdesc>
 </ead>

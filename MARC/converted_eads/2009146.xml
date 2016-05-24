@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2009146 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Eberstein</primary_name>
           <rest_of_name>R. L.</rest_of_name>
         </persname>
@@ -35,7 +34,10 @@
         <head>General Note</head>
         <p>Unprocessed.</p>
       </odd>
-      <acqinfo>Donor: 10063</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10063</p>
+      </odd>
     </descgrp>
     <bioghist>Telegraph lineman with Western Union and New York Central Railroad in Oxford, Michigan.</bioghist>
     <scopecontent>Copies of daily work reports and employee's expense statements.</scopecontent>
@@ -64,8 +66,5 @@
         <primary_name>Western Union Telegraph Company</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
-    <container label="Box" type="box">3</container>
   </archdesc>
 </ead>

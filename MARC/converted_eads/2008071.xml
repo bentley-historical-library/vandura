@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2008071 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>McDonald</primary_name>
           <rest_of_name>Thomas F.</rest_of_name>
           <fuller_form>(Thomas Francis)</fuller_form>
@@ -34,7 +33,10 @@
     <descgrp>
       <accruals>Further accruals are not expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10018</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10018</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -62,9 +64,36 @@
         <subordinate_name>Law School</subordinate_name>
         <term type="topical">Alumni and alumnae.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McDonald</primary_name>
+        <rest_of_name>Thomas F.</rest_of_name>
+        <fuller_form>(Thomas Francis)</fuller_form>
+        <dates>1890-1981</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Centennial celebrations, etc.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Degrees.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Law School</subordinate_name>
+        <term type="topical">Alumni and alumnae.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McDonald</primary_name>
+        <rest_of_name>Thomas F.</rest_of_name>
+        <fuller_form>(Thomas Francis)</fuller_form>
+        <dates>1890-1981</dates>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Archons (University of Michigan)</primary_name>
       </corpname>
@@ -101,6 +130,5 @@
         <scopecontent>Photographs of student groups, including Phi Alpha Delta members and students in robes identified as candidates for the Archons.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

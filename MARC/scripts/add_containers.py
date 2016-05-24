@@ -7,7 +7,7 @@ from os.path import join
 import re
 
 def add_containers(marc_dir, shared_dir):
-	ead_dir = join(marc_dir, "converted_eads")
+	ead_dir = join(marc_dir, "converted_eads_working")
 	beal_locations_csv = join(shared_dir, "CSVs", "locations.csv")
 
 	beal_container_dict = make_beal_container_dict(beal_locations_csv)

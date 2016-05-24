@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 volumes in 1 box</extent>
-      </physdesc>
-      <physdesc>
-        <extent>75 items</extent>
-      </physdesc>
       <unitid>851695 Aa 2 Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Kay</primary_name>
           <rest_of_name>John B.</rest_of_name>
           <dates>1841-1864</dates>
@@ -31,6 +24,9 @@
       </origination>
       <unittitle>John B. Kay papers</unittitle>
       <unitdate type="inclusive" label="creation">1862-1864 and 1873-1895</unitdate>
+      <physdesc>
+        <extent>75 items and 1 v. in 1 box</extent>
+      </physdesc>
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
@@ -38,12 +34,15 @@
         <head>Reproduction Note</head>
         <p>Original and typescript copy of diary available.</p>
       </odd>
-      <acqinfo>Donor: 3400, 5486</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3400, 5486</p>
+      </odd>
     </descgrp>
     <bioghist>Sergeant in Co. G, 6th Michigan Cavalry during the Civil War from Shiawassee County, Michigan.</bioghist>
     <scopecontent>Correspondence describing his wartime activities, 1862-1864, including letters written from Camp Kellogg, Grand Rapids, Michigan, and later as prisoner-of-war from Andersonville Prison; also, prison diary, 1863-1864, written during Civil War at Libby, Belle Isle, and Andersonville prisons; and miscellaneous Kay family papers, 1873-1895, including letters of Mary Ann Kay written from Lansing, and Shiawassee County, Michigan.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -80,6 +79,5 @@
         <subordinate_name>Company G</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

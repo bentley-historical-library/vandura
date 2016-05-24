@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>3 oversize photos</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 volumes, 2 envelopes,</extent>
-      </physdesc>
       <unitid>85428 Aa 2 UAs UAl</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Thomas</primary_name>
           <rest_of_name>John P.</rest_of_name>
           <fuller_form>(John Philip)</fuller_form>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>John P. Thomas scrapbook</unittitle>
       <unitdate type="inclusive" label="creation">1910-1915</unitdate>
+      <physdesc>
+        <extent>1 v., 2 envelopes, and 3 oversize photos</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6430</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6430</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -54,8 +53,25 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ann Arbor High School (Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Fraternities and sororities.</term>
@@ -82,6 +98,9 @@
         <family_name>Boyce family</family_name>
       </famname>
       <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ann Arbor High School (Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Lambda Chi Alpha</primary_name>
         <subordinate_name>Sigma Zeta Chapter (University of Michigan)</subordinate_name>
       </corpname>
@@ -98,35 +117,34 @@
         <term type="topical">Students</term>
         <term type="topical">Societies, etc.</term>
       </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>3 oversize photos</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 volumes, 2 envelopes,</extent>
-          </physdesc>
           <unittitle>John P. Thomas scrapbook</unittitle>
+          <physdesc>
+            <extent>1 v., 2 envelopes, and 3 oversize photos</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1910-1915</unitdate>
         </did>
         <scopecontent>Programs, clippings, photographs, and other memorabilia relating to student life.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>3 oversize photos</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 volumes, 2 envelopes,</extent>
-          </physdesc>
           <unittitle>John P. Thomas photograph series.</unittitle>
+          <physdesc>
+            <extent>1 v., 2 envelopes, and 3 oversize photos</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1909-1915 and ca. 1965</unitdate>
         </did>
         <scopecontent>Photos relating to student activities, the University of Michigan Biological Camp, and fraternity and club parties; also photos of Thomas and other 1914 University of Michigan graduates at the Boyce home in Ann Arbor, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

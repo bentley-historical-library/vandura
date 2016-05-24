@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89145 BImu C94 UAs</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Scherer</primary_name>
           <rest_of_name>Otto.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Otto Scherer student Notebook</unittitle>
       <unitdate type="inclusive" label="creation">1886</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 291, 7331</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 291, 7331</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,20 @@
     </descgrp>
     <bioghist>Student in the College of Pharmacy at the University of Michigan.</bioghist>
     <scopecontent>Notes taken on lectures in organic pharmacy by Theodore J. Wrampelmeier (later known as Theodore J. Swift); and photographs.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Swift</primary_name>
+        <rest_of_name>Theodore John, 1856-1938.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Pharmacy</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Swift</primary_name>
@@ -95,7 +111,7 @@
         <did>
           <unittitle>Otto Scherer student Notebook</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1886</unitdate>
         </did>
@@ -112,6 +128,5 @@
         <scopecontent>Individual and group portraits of University of Michigan College of Pharmacy Class of 1886; also photograph of the J. C. Scherer drug store in Detroit, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0314 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Pierce</primary_name>
           <rest_of_name>Duncan Haldane.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Duncan H. Pierce scrapbook</unittitle>
       <unitdate type="inclusive" label="creation">1904-1907</unitdate>
       <physdesc>
-        <extent>1 volume (in 2 tray cases)</extent>
+        <extent>1 volume (in two tray cases)</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9236</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9236</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,25 @@
     </descgrp>
     <bioghist>Student at the University of Michigan, 1903-1907.</bioghist>
     <scopecontent>Scrapbook containing programs, photographs, clippings, and other memorabilia from his years as a student at the University of Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Pierce</primary_name>
+        <rest_of_name>Duncan Haldane.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Sports.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
@@ -72,6 +93,10 @@
         <term type="topical">Weddings</term>
         <term type="geographic">Michigan.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Pierce</primary_name>
+        <rest_of_name>Duncan Haldane.</rest_of_name>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigamua</primary_name>
       </corpname>
@@ -83,13 +108,19 @@
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Football.</term>
       </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Duncan H. Pierce scrapbook</unittitle>
           <physdesc>
-            <extent>1 volume (in 2 tray cases)</extent>
+            <extent>1 volume (in two tray cases)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1904-1907</unitdate>
         </did>
@@ -99,13 +130,12 @@
         <did>
           <unittitle>Duncan H. Pierce scrapbook.</unittitle>
           <physdesc>
-            <extent>50 images in scrapbook (number approximate)</extent>
+            <extent>ca. 50 images in scrapbook</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1904-1907</unitdate>
         </did>
         <scopecontent>Scrapbook containing photographs of fraternity costume parties and other group activities; team photos of University of Michigan football and baseball teams and individual team members; clowns and other minstrel show performers; Michigamua initiation and other events.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

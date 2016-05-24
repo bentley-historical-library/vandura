@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9476 Ba 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>Zion United Church of Christ (Mount Clemens, Mich.)</primary_name>
         </corpname>
       </origination>
@@ -32,10 +31,39 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 4591</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4591</p>
+      </odd>
     </descgrp>
     <bioghist>Formerly known as Zion Evangelical and Reformed Church and Zion German United Evangelical Congregation.</bioghist>
     <scopecontent>Historical writings, articles of association, photographs, and miscellanea of Zion and its associated church, St. John's German Evangelical Church of Macomb Corners, Mich.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Macomb (Mich.)</term>
+        <term type="topical">Church history.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Mount Clemens (Mich.)</term>
+        <term type="topical">Church history.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Evangelical and Reformed Church</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Macomb.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>St. John's German Evangelical Church (Macomb, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United Church of Christ</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Mount Clemens.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Zion United Church of Christ (Mount Clemens, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Macomb (Mich.)</term>
@@ -82,6 +110,9 @@
         <term type="geographic">Macomb (Mich.)</term>
         <term type="topical">Cemeteries.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>St. John's German Evangelical Church (Macomb, Mich.)</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -105,6 +136,5 @@
         <scopecontent>Photos of the former building and cemetery of associated church, St. John's German Evangelical Church of Macomb Corners, Mich.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8631 Aa 1 Aa Microcopy</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Sinclair</primary_name>
           <rest_of_name>Dennis.</rest_of_name>
         </persname>
@@ -35,7 +34,10 @@ positive and negative, and 4 items (70 p.), and 5 sound cassettes.</physfacet>
         <head>General Note</head>
         <p>Partially edited transcripts; tapes located in sound tape collection.</p>
       </odd>
-      <acqinfo>Donor: 5219</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5219</p>
+      </odd>
     </descgrp>
     <bioghist>National coordinator of the National Peace and Freedom Party.</bioghist>
     <scopecontent>Articles, newsletters, newspaper clippings, lists of supporters, and state correspondence files concerning the election campaign of Eldridge Cleaver in 1968; and transcripts, 1972, of interviews with Sinclair, conducted by Peggy Kusnerz, concerning his participation with the Peace and Freedom Party; also photographs.</scopecontent>
@@ -70,17 +72,70 @@ positive and negative, and 4 items (70 p.), and 5 sound cassettes.</physfacet>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Peace and Freedom Party (U.S.)</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Oral histories.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Presidents</term>
+        <term type="geographic">United States</term>
+        <term type="topical">Election</term>
+        <term type="temporal">1968.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Radicalism</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1963-1969.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cleaver</primary_name>
+        <rest_of_name>Eldridge</rest_of_name>
+        <dates>1935-1998</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Kusnerz</primary_name>
+        <rest_of_name>Peggy Ann.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Peace and Freedom Party (U.S.)</primary_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Sound recordings.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Oral histories.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Presidents</term>
+        <term type="geographic">United States</term>
+        <term type="topical">Election</term>
+        <term type="temporal">1968.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Radicalism</term>
         <term type="geographic">Michigan.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1963-1969.</term>
+      </subject>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Sinclair</primary_name>
         <rest_of_name>Dennis.</rest_of_name>
       </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Kusnerz</primary_name>
+        <rest_of_name>Peggy Ann.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Peace and Freedom Party (U.S.)</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -106,7 +161,5 @@ positive and negative, and 4 items (70 p.), and 5 sound cassettes.</physfacet>
         <scopecontent>Oral interview conducted by Peggy Ann Kusnerz relating to his participation in the 1968 election campaign.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Sd Rec Box" type="box">1</container>
   </archdesc>
 </ead>

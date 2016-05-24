@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851188 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Effinger</primary_name>
           <rest_of_name>John R.</rest_of_name>
           <fuller_form>(John Robert)</fuller_form>
@@ -31,7 +30,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1278</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1278</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,6 +41,26 @@
     </descgrp>
     <bioghist>Professor of French and dean of the College of Literature, Science and the Arts at University of Michigan.</bioghist>
     <scopecontent>Official and professional correspondence, 1908-1910; also letters of Mrs. Margaret Thain Effinger, including letters relating to her trip to Europe in 1910-1911; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Travelers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Europe</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Effinger</primary_name>
+        <rest_of_name>Margaret Thain.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Literature, Science, and the Arts</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Voyages and travels.</term>
@@ -94,10 +116,5 @@
         <scopecontent>Portraits of Effinger, and of his wife, Margaret Thain Effinger.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
-    <container label="Folder" type="folder">4</container>
-    <container label="Folder" type="folder">5</container>
   </archdesc>
 </ead>

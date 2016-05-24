@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85182 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Hansen</primary_name>
           <rest_of_name>Hans.</rest_of_name>
         </persname>
@@ -26,17 +25,54 @@
       <langmaterial>In Danish.</langmaterial>
       <unitdate type="inclusive" label="creation">ca. 1900-1958</unitdate>
       <physdesc>
-        <extent>75 items (number approximate)</extent>
+        <extent>ca. 75 items</extent>
       </physdesc>
     </did>
     <descgrp>
       <accessrestrict>Literary rights reserved.</accessrestrict>
-      <acqinfo>Donor: 6787</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6787</p>
+      </odd>
     </descgrp>
     <bioghist>Danish immigrant to Ann Arbor.</bioghist>
     <scopecontent>Letters from wife and other relatives in Copenhagen concerning family affairs and financial relationships; and diary of trip to Germany in 1901.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Danish Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Travelers</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Immigrants</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Copenhagen (Denmark)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Emigration and immigration.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Germany</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Denmark</term>
+        <term type="topical">Emigration and immigration.</term>
+      </subject>
+    </controlaccess>
+    <controlaccess>
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -82,7 +118,7 @@
           <unittitle>Hans Hansen papers</unittitle>
           <accessrestrict>Literary rights reserved.</accessrestrict>
           <physdesc>
-            <extent>75 items (number approximate)</extent>
+            <extent>ca. 75 items</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1900-1958</unitdate>
         </did>
@@ -99,9 +135,5 @@
         <scopecontent>Portrait of Emanuel Hansen.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
-    <container label="Folder" type="folder">4</container>
   </archdesc>
 </ead>

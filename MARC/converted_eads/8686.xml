@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8686 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Taylor</primary_name>
           <rest_of_name>Howell.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Howell Taylor papers</unittitle>
       <unitdate type="inclusive" label="creation">1907-1956</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 945, 2115, 4665</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 945, 2115, 4665</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,45 @@
     </descgrp>
     <bioghist>Architect and engineer from Adrian, and Ann Arbor, Michigan.</bioghist>
     <scopecontent>Correspondence and other papers concerning his attempts to participate in some branch of the service during World War I, his career as an architect and worker on the historic American buildings survey, and as a teacher in Beirut, Lebanon; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Architects.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Teachers</term>
+        <term type="geographic">Lebanon.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Adrian (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Beirut (Lebanon)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Lebanon.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Saline (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Taylor</primary_name>
+        <rest_of_name>Howell.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Risdon</primary_name>
+        <rest_of_name>Orange</rest_of_name>
+        <dates>1786-1876</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Historic American Buildings Survey</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Architects.</term>
@@ -163,7 +204,7 @@
         <did>
           <unittitle>Howell Taylor papers</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1907-1956</unitdate>
         </did>
@@ -180,6 +221,5 @@
         <scopecontent>Photonegatives of Howell family; photoprints of nineteenth century homes in Adrian, Clinton, Tecumseh, and Ann Arbor, Michigan; and photo (1920s) of a minstrel troupe in Adrian.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

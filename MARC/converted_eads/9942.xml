@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9942 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Monson</primary_name>
           <rest_of_name>Shirley.</rest_of_name>
         </persname>
@@ -26,11 +25,14 @@
       <unitdate type="inclusive" label="creation">1973-1979</unitdate>
       <unitdate type="bulk" label="creation">(bulk 1974-1977)</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8699</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8699</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -64,12 +66,42 @@
       <corpname source="lcnaf" encodinganalog="611">
         <primary_name>Focus: Michigan Women</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">International Women's Year, 1975.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="topical">Legal status, laws, etc.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="topical">International cooperation.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Feminists</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Monson</primary_name>
+        <rest_of_name>Shirley.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>National Organization for Women</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="611">
+        <primary_name>Focus: Michigan Women</primary_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Equal rights amendments</term>
         <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">International Women's Year, 1975.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Women's rights.</term>
@@ -87,6 +119,10 @@
         <term type="geographic">Detroit (Mich.)</term>
         <term type="topical">Political parades and rallies.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Monson</primary_name>
+        <rest_of_name>Shirley.</rest_of_name>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>National Organization for Women</primary_name>
         <subordinate_name>Michigan Conference</subordinate_name>
@@ -97,7 +133,7 @@
         <did>
           <unittitle>Shirley Monson papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1973-1979</unitdate>
           <unitdate type="bulk" label="creation">(bulk 1974-1977)</unitdate>
@@ -115,6 +151,5 @@
         <scopecontent>Photographs of the International Women's Year conference sessions and delegates; photos of pro-Equal Rights Amendment march in Detroit during 1976 Republican National Convention and of "An Evening for the ERA," Dec. 9, 1977, at Orchestra Hall, Detroit; also informal portrait of Shirley Monson.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

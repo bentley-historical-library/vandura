@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851805 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>McIntyre</primary_name>
           <rest_of_name>Donald</rest_of_name>
           <dates>1807-1891</dates>
@@ -34,7 +33,10 @@
         <head>Reproduction Note</head>
         <p>Typescript copies in part.</p>
       </odd>
-      <acqinfo>Donor: 1278</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1278</p>
+      </odd>
     </descgrp>
     <bioghist>University of Michigan regent.</bioghist>
     <scopecontent>Address delivered at the inauguration of Erastus O. Haven as president of University of Michigan; and correspondence with Horace Mann regarding coeducation.</scopecontent>
@@ -63,7 +65,5 @@
         <term type="topical">Inauguration, 1863.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

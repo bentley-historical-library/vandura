@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>921074 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Pinkus</primary_name>
           <rest_of_name>Felix</rest_of_name>
           <dates>1868-1947</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8001</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8001</p>
+      </odd>
     </descgrp>
     <bioghist>German Jewish physician who fled from Germany in 1938 and settled in Monroe, Michigan in 1941.</bioghist>
     <scopecontent>Reminiscences of his experiences travelling through Norway, the Soviet Union, Japan, and the United States in 1940/1941.</scopecontent>
@@ -50,7 +52,7 @@
         <term type="geographic">Michigan</term>
         <term type="geographic">Monroe.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650">
+      <subject source="local" encodinganalog="650">
         <term type="topical">Voyages and travels.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -83,6 +85,5 @@
         <dates>1868-1947</dates>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>93829 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Chisholm</primary_name>
           <rest_of_name>Betty.</rest_of_name>
         </persname>
@@ -33,9 +32,22 @@
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 7353</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7353</p>
+      </odd>
     </descgrp>
     <scopecontent>Student paper relating to barns in Washtenaw County, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Barns</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Washtenaw County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Barns</term>
@@ -80,6 +92,5 @@
         <scopecontent>Color photos of barns in Washtenaw County, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

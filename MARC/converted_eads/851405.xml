@@ -11,24 +11,26 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851405 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="local">
+        <famname encodinganalog="100">
           <family_name>Haight family</family_name>
         </famname>
       </origination>
       <unittitle>Haight family papers</unittitle>
       <unitdate type="inclusive" label="creation">1919-1986</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 840</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 840</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -36,6 +38,36 @@
     </descgrp>
     <bioghist>Dearborn, Michigan, family.</bioghist>
     <scopecontent>Papers of, or collected by, Floyd L. Haight relating to Dearborn, Michigan, history, and the activities of the Haight, Babian, and Sherer families; also account books, 1919-1948, of Mary Belle Haight, listing daily activities and expenses; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farm life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Dearborn.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Dearborn.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Dearborn (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Haight</primary_name>
+        <rest_of_name>Mary Belle.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Haight</primary_name>
+        <rest_of_name>Floyd L.</rest_of_name>
+        <dates>b. 1897</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Babian family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Shearer family</family_name>
+      </famname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Farm life</term>
@@ -74,6 +106,9 @@
         <term type="geographic">Montgomery.</term>
       </subject>
       <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Dearborn (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Montgomery (Mich.)</term>
       </subject>
       <persname source="lcnaf" encodinganalog="600">
@@ -101,7 +136,7 @@
         <did>
           <unittitle>Haight family papers</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1919-1986</unitdate>
         </did>
@@ -109,19 +144,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 volumes</extent>
-          </physdesc>
           <unittitle>Haight family photograph series.</unittitle>
+          <physdesc>
+            <extent>1 v. and 1 folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1900-1983</unitdate>
         </did>
         <scopecontent>Snapshots from album about activities of Montgomery High School class members, ca. 1912-1916; photos of Floyd L. Haight documenting various commemorative events in Dearborn or Michigan history; also photos of groundbreaking for Dearborn Public Library.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

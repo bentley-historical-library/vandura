@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0023 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Smith</primary_name>
           <rest_of_name>John A.</rest_of_name>
         </persname>
@@ -33,7 +32,10 @@
         <head>General Note</head>
         <p>Includes partial transcripts.</p>
       </odd>
-      <acqinfo>Donor: 4567</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4567</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Formerly part of Ness, Nina L. Nina L. Ness collection, 1793-1900.</p>
@@ -82,6 +84,5 @@
         <subordinate_name>Company A</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851905 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Morris</primary_name>
           <rest_of_name>Wayne E.</rest_of_name>
           <dates>b. 1836</dates>
@@ -26,14 +25,38 @@
       <unittitle>Wayne E. Morris papers</unittitle>
       <unitdate type="inclusive" label="creation">1860-1865 and 1908</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3941</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3941</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier from Ovid, Michigan, who served in Co. C, Twenty-third Michigan Infantry during Civil War.</bioghist>
     <scopecontent>Letters and miscellaneous papers.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Soldiers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ovid.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ovid (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 23rd (1862-1865)</subordinate_name>
+        <subordinate_name>Company C</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Soldiers</term>
@@ -76,7 +99,7 @@
         <did>
           <unittitle>Wayne E. Morris papers</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1860-1865 and 1908</unitdate>
         </did>
@@ -93,6 +116,5 @@
         <scopecontent>Portraits, also photo of Morris with a group of young women (probably in Plainwell, Michigan).</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

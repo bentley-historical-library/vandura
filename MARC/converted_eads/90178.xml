@@ -11,32 +11,72 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 oversize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.5 linear feet</extent>
-      </physdesc>
       <unitid>90178 Aa 2 Ac</unitid>
       <origination>
-        <famname encodinganalog="100" source="local">
+        <famname encodinganalog="100">
           <family_name>Rood family (Grand Rapids, Mich.)</family_name>
         </famname>
       </origination>
       <unittitle>Rood family papers</unittitle>
       <unitdate type="inclusive" label="creation">1879-1984</unitdate>
+      <physdesc>
+        <extent>0.5 linear ft. and 1 oversize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7835</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7835</p>
+      </odd>
     </descgrp>
     <bioghist>Grand Rapids, Michigan family involved with Foster, Stevens &amp; Company, a general store, and its successor E. A. Rood &amp; Company, a china and glassware specialty store. Charles F. Rood was a partner in Foster, Stevens and a nephew of the founder; his son Edward A. Rood, Sr. was founder of E. A. Rood &amp; Company.</bioghist>
     <scopecontent>Papers, primarily of Charles F. Rood and E. A. Rood, Jr., including Rood family history and photographs, papers regarding the C. F. Rood estate, and clippings documenting the histories of Foster, Stevens and Co. (1874-1926) and E. A. Rood and Co. (1926-1983); also two travel accounts, of E. A. Rood, Jr.'s trips through the Upper Peninsula to Chicago by car in 1928 and through Europe by bicycle in 1933.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="691">
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Grand Rapids (Mich.)</term>
+        <term type="topical">Commerce.</term>
+      </subject>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Europe</term>
+        <term type="topical">Description and travel</term>
+        <term type="temporal">1919-1944.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Upper Peninsula (Mich.)</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rood</primary_name>
+        <rest_of_name>Charles F.</rest_of_name>
+        <dates>1853-1914</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rood</primary_name>
+        <rest_of_name>Edward A.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rood</primary_name>
+        <rest_of_name>Edward A.</rest_of_name>
+        <title>Jr</title>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Rudd family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>E. A. Rood &amp; Company (Grand Rapids, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Foster, Stevens &amp; Company (Grand Rapids, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Grand Rapids (Mich.)</term>
         <term type="topical">Commerce.</term>
       </subject>
@@ -78,17 +118,17 @@
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Rudd family</family_name>
+      </famname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.5 linear feet</extent>
-          </physdesc>
           <unittitle>Rood family papers</unittitle>
+          <physdesc>
+            <extent>0.5 linear ft. and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1879-1984</unitdate>
         </did>
         <scopecontent>Papers, primarily of Charles F. Rood and E. A. Rood, Jr., including Rood family history and photographs, papers regarding the C. F. Rood estate, and clippings documenting the histories of Foster, Stevens and Co. (1874-1926) and E. A. Rood and Co. (1926-1983); also two travel accounts, of E. A. Rood, Jr.'s trips through the Upper Peninsula to Chicago by car in 1928 and through Europe by bicycle in 1933.</scopecontent>
@@ -104,6 +144,5 @@
         <scopecontent>Portraits of family members.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

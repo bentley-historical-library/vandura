@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9990 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Taylor</primary_name>
           <rest_of_name>Albert Davis</rest_of_name>
           <dates>1883-</dates>
@@ -26,11 +25,14 @@
       <unittitle>Albert Davis Taylor papers</unittitle>
       <unitdate type="inclusive" label="creation">1918-1942</unitdate>
       <physdesc>
-        <extent>3 volumes in 1 box</extent>
+        <extent>3 v. in 1 box</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor:5262</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor:5262</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -70,8 +72,46 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Montreal Mining Company (Mich.)</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Landscape architecture</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Company towns</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Gogebic County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Iron mines and mining</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Gogebic County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Gogebic County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Florida.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ohio.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Taylor</primary_name>
+        <rest_of_name>Albert Davis</rest_of_name>
+        <dates>1883-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Montreal Mining Company (Mich.)</primary_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Company towns</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Gogebic County.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Houses</term>
@@ -99,13 +139,16 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Montreal Mine (Gogebic County, Mich.)</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Montreal Mining Company (Mich.)</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Albert Davis Taylor papers</unittitle>
           <physdesc>
-            <extent>3 volumes in 1 box</extent>
+            <extent>3 v. in 1 box</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1918-1942</unitdate>
         </did>
@@ -115,13 +158,12 @@
         <did>
           <unittitle>Albert Davis Taylor photographs.</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1921</unitdate>
         </did>
         <scopecontent>"Improvements Report" made for the Montreal Mining Company contains descriptions and proposed improvements for the company's housing developments in the Ironwood, Mich., area; includes about 65 photographs of housing, the mine, and the vicinity.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

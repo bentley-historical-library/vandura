@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851490 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Hines</primary_name>
           <rest_of_name>Charles Phelps.</rest_of_name>
         </persname>
@@ -33,12 +32,15 @@
         <head>Reproduction Note</head>
         <p>Typescript copy.</p>
       </odd>
-      <acqinfo>Donor: 2148</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2148</p>
+      </odd>
     </descgrp>
     <bioghist>Member of the U.S. Navy Wolverine Squadron in World War II.</bioghist>
     <scopecontent>Excerpt from diaries of his wartime experiences.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -54,6 +56,5 @@
         <subordinate_name>Wolverine Squadron</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

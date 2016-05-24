@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851758 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Malpass</primary_name>
           <rest_of_name>William.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3838</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3838</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photograph described separately.</p>
@@ -37,6 +39,43 @@
     </descgrp>
     <bioghist>Charlevoix County, Michigan businessman.</bioghist>
     <scopecontent>Correspondence and business papers dealing with the establishment of an iron foundry in East Jordan, Michigan; also letter, 1880, from minister in England discussing immigration to the United States; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Foundries</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">East Jordan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Iron industry and trade</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">East Jordan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Immigrants</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">British Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Charlevoix County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">East Jordan (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Emigration and immigration.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">England</term>
+        <term type="topical">Emigration and immigration.</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Business records.</term>
@@ -128,6 +167,5 @@
         <scopecontent>Photograph of William and James Malpass in their foundry in East Jordan, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

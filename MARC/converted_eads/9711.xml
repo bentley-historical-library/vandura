@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -18,7 +17,7 @@
       <unittitle>The Social contract.</unittitle>
       <unitdate type="inclusive" label="creation">1990-</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>v. ;</extent>
         <dimensions>28 cm.</dimensions>
       </physdesc>
     </did>
@@ -55,6 +54,30 @@
         <rest_of_name>John</rest_of_name>
         <dates>1934-</dates>
       </persname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Social contract</term>
+        <term type="topical">Periodicals.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Emigration and immigration</term>
+        <term type="topical">Periodicals.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Population</term>
+        <term type="topical">Environmental aspects</term>
+        <term type="topical">Periodicals.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Language policy</term>
+        <term type="topical">Periodicals.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Tanton</primary_name>
+        <rest_of_name>John</rest_of_name>
+        <dates>1934-</dates>
+      </persname>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Classical literature</term>
         <term type="genre_form">Bibliography.</term>
@@ -68,7 +91,7 @@
         <did>
           <unittitle>The Social contract.</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>v. ;</extent>
             <dimensions>28 cm.</dimensions>
           </physdesc>
           <unitdate type="inclusive" label="creation">1990-</unitdate>
@@ -85,7 +108,5 @@
         </did>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852147 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Robbins</primary_name>
           <rest_of_name>Mary Ellen Thomas</rest_of_name>
           <dates>1884-1956</dates>
@@ -26,7 +25,7 @@
       <unittitle>Mary Ellen Thomas Robbins reminiscences</unittitle>
       <unitdate type="inclusive" label="creation">1953</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -34,10 +33,22 @@
         <head>Reproduction Note</head>
         <p>Photocopy.</p>
       </odd>
-      <acqinfo>Donor: 5095</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5095</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Battle Creek, Michigan.</bioghist>
     <scopecontent>Description of life in Canada, discovery that she was a mulatto, and her subsequent migration to and life in Battle Creek.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Battle Creek (Mich.)</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">African Americans</term>
@@ -74,7 +85,7 @@
         <did>
           <unittitle>Mary Ellen Thomas Robbins reminiscences</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1953</unitdate>
         </did>
@@ -91,6 +102,5 @@
         <scopecontent>Photograph showing Potts with Carlos Montezuma and several Native American ministers; also print of Potts.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

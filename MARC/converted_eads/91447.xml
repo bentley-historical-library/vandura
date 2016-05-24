@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>91447 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Harms</primary_name>
           <rest_of_name>Walter S.</rest_of_name>
         </persname>
@@ -25,14 +24,32 @@
       <unittitle>Walter S. Harms papers</unittitle>
       <unitdate type="inclusive" label="creation">1938-1940</unitdate>
       <physdesc>
-        <extent>0.1 linear feet</extent>
+        <extent>.1 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7912, 7587</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7912, 7587</p>
+      </odd>
     </descgrp>
     <bioghist>Officer in the Old Time Baseball Players Association of Detroit, Michigan.</bioghist>
     <scopecontent>Correspondence and other material relating to the promotion of baseball in Detroit; legal papers relating to a property dispute at Mandon Lake, White Lake Township, Oakland County, Michigan; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Baseball.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">White Lake Township (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Harms</primary_name>
+        <rest_of_name>Walter S.</rest_of_name>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Baseball.</term>
@@ -53,6 +70,13 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Baseball.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">White Lake Township (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Harms</primary_name>
+        <rest_of_name>Walter S.</rest_of_name>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Detroit Tigers (Baseball team)</primary_name>
       </corpname>
@@ -62,7 +86,7 @@
         <did>
           <unittitle>Walter S. Harms papers</unittitle>
           <physdesc>
-            <extent>0.1 linear feet</extent>
+            <extent>.1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1938-1940</unitdate>
         </did>
@@ -70,18 +94,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>3 film reels (8 mm)</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 folder</extent>
-          </physdesc>
           <unittitle>Walter S. Harms visual material.</unittitle>
+          <physdesc>
+            <extent>1 folder and 3 film reels (8 mm)</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1910-1972</unitdate>
         </did>
         <scopecontent>Family photos, including 1910 photo of Harms brothers playing baseball for Detroit Edison team and photos of family property at Mandon Lake, White Lake Township, Oakland County, Michigan, collected as evidence in a property dispute. Also motion pictures (8 mm) identified as Detroit Tigers at Lakeland, Fla. (1965, 1 reel, ca. 3 min.) and family scenes (undated, 2 reels, ca. 15 min. each)</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,28 +11,27 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>25 items</extent>
-      </physdesc>
-      <physdesc>
-        <extent>2 volumes</extent>
-      </physdesc>
       <unitid>852161 AC Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Raymond</primary_name>
           <rest_of_name>Uri Urich.</rest_of_name>
         </persname>
       </origination>
       <unittitle>Uri Urich Raymond papers</unittitle>
       <unitdate type="inclusive" label="creation">1857-1883</unitdate>
+      <physdesc>
+        <extent>2 v. and 25 items</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1409</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1409</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs and newspapers described separately.</p>
@@ -40,6 +39,42 @@
     </descgrp>
     <bioghist>Port Sanilac, Sanilac County, Michigan, general store proprietor.</bioghist>
     <scopecontent>Daybooks, 1860-1861 and 1864-1865, business receipts, and manuscript newspaper, "The Bark Shanty Times" (later changed to "Port Sanilac Times") detailing local events for years 1857-1858 and 1870; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1851-1860.</term>
+      </subject>
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1861-1870.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">General stores</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Port Sanilac.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">American newspapers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Port Sanilac.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Port Sanilac (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Sanilac County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">19th century.</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
@@ -118,21 +153,36 @@
       </persname>
       <subject source="local" encodinganalog="690">
         <term type="topical">Newspapers</term>
+        <term type="temporal">1851-1860</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Port Sanilac.</term>
+      </subject>
+      <subject source="local" encodinganalog="690">
+        <term type="topical">Newspapers</term>
         <term type="temporal">1861-1870</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Port Sanilac.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Port Sanilac (Mich.)</term>
+        <term type="topical">Newspapers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Sanilac County (Mich.)</term>
+        <term type="topical">Newspapers.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Raymond</primary_name>
+        <rest_of_name>Uri Urich.</rest_of_name>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>25 items</extent>
-          </physdesc>
-          <physdesc>
-            <extent>2 volumes</extent>
-          </physdesc>
           <unittitle>Uri Urich Raymond papers</unittitle>
+          <physdesc>
+            <extent>2 v. and 25 items</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1857-1883</unitdate>
         </did>
         <scopecontent>Daybooks, 1860-1861 and 1864-1865, business receipts, and manuscript newspaper, "The Bark Shanty Times" (later changed to "Port Sanilac Times") detailing local events for years 1857-1858 and 1870; and photographs.</scopecontent>
@@ -151,7 +201,7 @@
         <did>
           <unittitle>Bark Shanty times.</unittitle>
           <physdesc>
-            <extent>1 volumes [fake number supplied]</extent>
+            <extent>v</extent>
           </physdesc>
         </did>
       </c01>
@@ -159,18 +209,10 @@
         <did>
           <unittitle>Port Sanilac times.</unittitle>
           <physdesc>
-            <extent>1 volumes [fake number supplied]</extent>
+            <extent>v</extent>
           </physdesc>
         </did>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
-    <container label="Volume" type="volume">3</container>
-    <container label="Volume" type="volume">4</container>
-    <container label="Oversize Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">2</container>
   </archdesc>
 </ead>

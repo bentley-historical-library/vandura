@@ -11,24 +11,20 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>2 reels of microfilm</extent>
-      </physdesc>
       <unitid>85467 Bb 1 Micro copy</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>American Fur Company</primary_name>
         </corpname>
       </origination>
       <unittitle>American Fur Company records</unittitle>
       <unitdate type="inclusive" label="creation">1803-1806 and 1817-1843</unitdate>
+      <physdesc>
+        <extent>2 reels of microfilm and 1 folder</extent>
+      </physdesc>
     </did>
     <descgrp>
       <originalsloc>Originals of microfilmed materials held by Burton Historical Collection, Detroit Public Library.</originalsloc>
@@ -36,7 +32,10 @@
         <head>General Note</head>
         <p>Microfilm reels are numbered reel 3 and 4.</p>
       </odd>
-      <acqinfo>Donor: 715, 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 715, 1771</p>
+      </odd>
     </descgrp>
     <scopecontent>Microfilm of letterbooks, financial ledgers, and journals, chiefly from Mackinac Island, but some from Wisconsin; trader's contract (1818).</scopecontent>
     <controlaccess>
@@ -59,6 +58,5 @@
         <primary_name>Michilimackinac Company</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

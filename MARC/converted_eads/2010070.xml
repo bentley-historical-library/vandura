@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 oversize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.5 linear feet</extent>
-      </physdesc>
       <unitid>2010070 Aa 2; UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Johnston</primary_name>
           <rest_of_name>Thomas N.</rest_of_name>
           <dates>1930-</dates>
@@ -32,11 +25,17 @@
       <unittitle>Thomas N. Johnston papers</unittitle>
       <langmaterial>In English.</langmaterial>
       <unitdate type="inclusive" label="creation">1965-1977</unitdate>
+      <physdesc>
+        <extent>0.5 linear feet and 1 oversize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
       <accruals>Further accruals are expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10002</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10002</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -78,16 +77,59 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>WAAM (Radio station : Ann Arbor, Mich.)</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Sound recordings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Cable television</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Radio broadcasting</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Television broadcasting of sports</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Mackinac Island (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Johnston</primary_name>
+        <rest_of_name>Thomas N.</rest_of_name>
+        <dates>1930-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Allmand Development Corporation</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>North American Cable Company</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>WAAM (Radio station : Ann Arbor, Mich.)</primary_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">DVDs.</term>
       </subject>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Mackinac Island (Mich.)</term>
+      </subject>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Elliott</primary_name>
         <rest_of_name>Chalmers W.</rest_of_name>
         <dates>1925-</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Johnston</primary_name>
+        <rest_of_name>Thomas N.</rest_of_name>
+        <dates>1930-</dates>
       </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Mackinac College</primary_name>
@@ -100,33 +142,26 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.5 linear feet</extent>
-          </physdesc>
           <unittitle>Thomas N. Johnston papers</unittitle>
           <accessrestrict>The collection is open for research use.</accessrestrict>
+          <physdesc>
+            <extent>0.5 linear feet and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1965-1977</unitdate>
         </did>
         <scopecontent>Correspondence, contractual agreements, financial analyses detailing operation of the North American Cable Company; miscellaneous relating to the Allmand Development Corporation and the purchase of the Mackinac College facilities; compact disc of recording made at the 40th anniversary of radio station WAAM.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.5 linear feet</extent>
-          </physdesc>
           <unittitle>Thomas N. Johnston visual materials.</unittitle>
           <accessrestrict>The collection is open for research use.</accessrestrict>
+          <physdesc>
+            <extent>0.5 linear feet and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1960s-1970s</unitdate>
         </did>
         <scopecontent>Photos of Mackinac Island views, including construction of Mackinac College facilities; also photos of passenger vessels at Mackinac Island dock; photo of Johnston interviewing football coach Chalmers "Bump" Elliott for his radio program; and DVD copy of 1965 television program with Coach Elliott discussing the previous week's game.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

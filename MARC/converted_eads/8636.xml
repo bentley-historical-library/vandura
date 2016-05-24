@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8636 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Squier</primary_name>
           <rest_of_name>Victor Carroll.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Victor Carroll Squier papers</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1890-1963</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5339</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5339</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -53,11 +55,31 @@
         <primary_name>Squier</primary_name>
         <rest_of_name>Victor Carroll.</rest_of_name>
       </persname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Music</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Battle Creek.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Violin makers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Battle Creek (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Squier</primary_name>
+        <rest_of_name>Victor Carroll.</rest_of_name>
+      </persname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Musical instrument industry.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Violin makers.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Violins.</term>
@@ -67,13 +89,17 @@
         <term type="geographic">Michigan</term>
         <term type="geographic">Battle Creek</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Squier</primary_name>
+        <rest_of_name>Victor Carroll.</rest_of_name>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Victor Carroll Squier papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1890-1963</unitdate>
         </did>
@@ -83,13 +109,12 @@
         <did>
           <unittitle>Victor Carroll Squier photographic series.</unittitle>
           <physdesc>
-            <extent>0.1 linear feet</extent>
+            <extent>.1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">Ca. 1890-1949</unitdate>
         </did>
         <scopecontent>Portraits, photographs of shop, individuals with violins, and machine used to wind strings of musical instruments.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

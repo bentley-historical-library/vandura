@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851625 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>King</primary_name>
           <rest_of_name>Harold.</rest_of_name>
         </persname>
@@ -33,7 +32,10 @@
         <head>Reproduction Note</head>
         <p>Mimeograph copy.</p>
       </odd>
-      <acqinfo>Donor: 3743</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3743</p>
+      </odd>
     </descgrp>
     <bioghist>Student at University of Michigan.</bioghist>
     <scopecontent>Description of a hitch-hiking trip taken in 1939 through Michigan, Indiana, Illinois, and Wisconsin.</scopecontent>
@@ -78,6 +80,5 @@
         <term type="temporal">1931-1940.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,25 +11,21 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 CD-ROM</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 folder</extent>
-      </physdesc>
       <unitid>2008123 Aa 1; Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Walters</primary_name>
           <rest_of_name>Pauline.</rest_of_name>
         </persname>
       </origination>
       <unittitle>Pauline Walters photo album.</unittitle>
       <unitdate type="inclusive" label="creation">1947-1950</unitdate>
+      <physdesc>
+        <extent>1 folder and 1 CD-ROM</extent>
+      </physdesc>
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
@@ -37,7 +33,10 @@
         <head>Publication, Distribution, Etc.</head>
         <p>1947-1950.</p>
       </odd>
-      <acqinfo>Donor: 8722</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8722</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Photographs of students, most residents of Stockwell Hall; photos of student activities. Included is a CD-ROM of the album.</scopecontent>
@@ -68,7 +67,5 @@
         <term type="topical">Students.</term>
       </corpname>
     </controlaccess>
-    <container label="CD Box" type="box">6</container>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

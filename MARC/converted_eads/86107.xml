@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86107 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Stevenson</primary_name>
           <rest_of_name>Thomas.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2635</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2635</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Bay City, Michigan.</bioghist>
     <scopecontent>Letters written to Henry Hayden of Hartford, Connecticut, discussing the weather, crops, railroads, business conditions, and local and national politics.</scopecontent>
@@ -81,8 +83,5 @@
         <primary_name>Pere Marquette Railroad</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
   </archdesc>
 </ead>

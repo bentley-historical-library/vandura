@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>91453 Aa 1</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Goetz</primary_name>
           <rest_of_name>Francis R.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7922</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7922</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -44,9 +46,20 @@
       <famname source="lcnaf" encodinganalog="600">
         <family_name>Goetz family</family_name>
       </famname>
+    </controlaccess>
+    <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Goetz family</family_name>
+      </famname>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Goetzville (Mich.)</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Goetz family</family_name>
+      </famname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -70,6 +83,5 @@
         <scopecontent>Portrait of Mathew and Mary Goetz.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

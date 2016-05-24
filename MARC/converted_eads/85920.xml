@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85920 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Clark</primary_name>
           <rest_of_name>George.</rest_of_name>
         </persname>
@@ -25,16 +24,19 @@
       <unittitle>George Clark account book</unittitle>
       <unitdate type="inclusive" label="creation">1815-1867</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1486</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1486</p>
+      </odd>
     </descgrp>
     <bioghist>Lapeer, Michigan, resident.</bioghist>
     <scopecontent>Account book which includes the journal of Rebecca Beech Clark in which she describes her voyage from England to America in 1834.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -67,6 +69,5 @@
         <rest_of_name>Rebecca Beech.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

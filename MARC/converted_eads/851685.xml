@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851685 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Leonard</primary_name>
           <rest_of_name>Irving A.</rest_of_name>
           <fuller_form>(Irving Albert)</fuller_form>
@@ -27,7 +26,7 @@
       <unittitle>Irving A. Leonard journal</unittitle>
       <unitdate type="inclusive" label="creation">1922</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -35,7 +34,10 @@
         <head>Reproduction Note</head>
         <p>Typescript copy.</p>
       </odd>
-      <acqinfo>Donor: 4381</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4381</p>
+      </odd>
     </descgrp>
     <bioghist>Professor of history at University of Michigan and visiting professor at the University of the Philippines.</bioghist>
     <scopecontent>Journal of his stay in the Philippines entitled, "The Santo Nino of Cebu", "Afoot in the Mountains of Northern Luzon," and "Ten Days Afoot in the Mountains of Northern Luzon, Philippine Islands."</scopecontent>
@@ -49,7 +51,7 @@
       <subject source="local" encodinganalog="730">
         <term type="uniform_title">Ten days afoot in the mountains of northern Luzon, Philippine Islands.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -67,6 +69,5 @@
         <primary_name>University of the Philippines</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

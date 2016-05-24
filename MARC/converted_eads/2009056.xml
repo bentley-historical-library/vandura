@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2009056 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Bolgos</primary_name>
           <rest_of_name>Ola Elizabeth Parker.</rest_of_name>
         </persname>
@@ -30,7 +29,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10163</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10163</p>
+      </odd>
     </descgrp>
     <bioghist>Daughter of George Granville Parker and Grace Leola Pettibone, operators of Parker Mill, Ann Arbor Township, Mich. She married Zina Bolgos, operator of Bolgos Dairy, also in Ann Arbor Township.</bioghist>
     <scopecontent>Reminiscence of her life.</scopecontent>
@@ -59,6 +61,5 @@
         <primary_name>Parker Mill (Geddes, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

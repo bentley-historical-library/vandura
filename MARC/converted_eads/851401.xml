@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 oversize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.2 linear feet</extent>
-      </physdesc>
       <unitid>851401 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Hall</primary_name>
           <rest_of_name>Morris Stuart</rest_of_name>
           <dates>1839-1913</dates>
@@ -31,10 +24,16 @@
       </origination>
       <unittitle>Morris Stuart Hall papers</unittitle>
       <unitdate type="inclusive" label="creation">1860-1912</unitdate>
+      <physdesc>
+        <extent>.2 linear ft. and 1 oversize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 54</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 54</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -68,11 +67,43 @@
         <subordinate_name>Michigan Infantry Regiment, 18th (1862-1865)</subordinate_name>
         <subordinate_name>Company I</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hall</primary_name>
+        <rest_of_name>Reuben L.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wedemeyer</primary_name>
+        <rest_of_name>William Walter</rest_of_name>
+        <dates>1873-1913</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Colored Infantry Regiment, 44th (1864-1866)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 18th (1862-1865)</subordinate_name>
+        <subordinate_name>Company I</subordinate_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Military officers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Hall</primary_name>
@@ -82,19 +113,21 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Colored Infantry Regiment, 44th (1864-1866)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
         <subordinate_name>Colored Infantry Regiment, 14th (1863-1866)</subordinate_name>
       </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.2 linear feet</extent>
-          </physdesc>
           <unittitle>Morris Stuart Hall papers</unittitle>
+          <physdesc>
+            <extent>.2 linear ft. and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1860-1912</unitdate>
         </did>
         <scopecontent>Autobiographical sketch and reminiscences, 1908, containing an account of his experiences as a soldier in the Eighteenth Michigan Infantry and officer in the Forty-fourth U.S. Colored Infantry during the Civil War; also correspondence and papers relating to war service and subsequent efforts to receive government pension; deed to property; and photographs.</scopecontent>
@@ -110,6 +143,5 @@
         <scopecontent>Carte de visite portraits of some of the officers of the 14th and 44th U.S. Colored Infantry during the Civil War.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

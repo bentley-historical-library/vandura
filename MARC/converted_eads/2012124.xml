@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012124 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Reitz</primary_name>
           <rest_of_name>Carl F.</rest_of_name>
           <dates>1918-2009</dates>
@@ -30,7 +29,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10132</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10132</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -67,6 +69,8 @@
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Transportation Corps</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -82,6 +86,62 @@
       <subject source="aat" encodinganalog="650">
         <term type="topical">Trucks.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Reitz</primary_name>
+        <rest_of_name>Carl F.</rest_of_name>
+        <dates>1918-2009</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <term type="topical">African American troops.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Quartermaster Corps</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Quartermaster Truck Company, 4012th</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Transportation Corps</subordinate_name>
+      </corpname>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Reitz</primary_name>
+        <rest_of_name>Carl F.</rest_of_name>
+        <dates>1918-2009</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <term type="topical">African American troops.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Quartermaster Corps</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Quartermaster Truck Company, 4012th</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Transportation Corps</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -107,6 +167,5 @@
         <scopecontent>Photographs and photograph album relating to training maneuvers in Tennessee; snapshots of officers and men in Europe, including African American members of his truck company.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85459 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>White</primary_name>
           <rest_of_name>Eber</rest_of_name>
           <dates>b. 1798</dates>
@@ -34,7 +33,10 @@
         <head>General Note</head>
         <p>On deposit.</p>
       </odd>
-      <acqinfo>Donor: 4452</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4452</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -55,9 +57,28 @@
         <rest_of_name>Eber</rest_of_name>
         <dates>b. 1798</dates>
       </persname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor Township (Mich.)</term>
+        <term type="topical">History.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>White</primary_name>
+        <rest_of_name>Eber</rest_of_name>
+        <dates>b. 1798</dates>
+      </persname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>White</primary_name>
+        <rest_of_name>Eber</rest_of_name>
+        <dates>b. 1798</dates>
+      </persname>
       <famname source="lcnaf" encodinganalog="600">
         <family_name>White family</family_name>
       </famname>
@@ -84,7 +105,5 @@
         <scopecontent>Portraits of White and family members.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

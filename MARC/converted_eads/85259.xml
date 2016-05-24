@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85259 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Lichty</primary_name>
           <rest_of_name>George Maurice</rest_of_name>
           <dates>1905-1983</dates>
@@ -26,11 +25,14 @@
       <unittitle>George M. Lichty papers</unittitle>
       <unitdate type="inclusive" label="creation">1942-1975</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5872</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5872</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,29 @@
     </descgrp>
     <bioghist>Newspaper cartoonist, creator of the syndicated feature, "Grin and Bear It".</bioghist>
     <scopecontent>Correspondence, newsclippings, photographs and printed material concerning his career.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Caricatures and cartoons.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Cartoonists</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Journalists</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Newspapers</term>
+        <term type="topical">Sections, columns, etc.</term>
+        <term type="topical">Comics.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lichty</primary_name>
+        <rest_of_name>George Maurice</rest_of_name>
+        <dates>1905-1983</dates>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Caricatures and cartoons.</term>
@@ -82,13 +107,18 @@
         <rest_of_name>Jane</rest_of_name>
         <dates>1921-2011</dates>
       </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lichty</primary_name>
+        <rest_of_name>George Maurice</rest_of_name>
+        <dates>1905-1983</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>George M. Lichty papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1942-1975</unitdate>
         </did>
@@ -105,6 +135,5 @@
         <scopecontent>Informal photos, including photo of Lichty with Bob Hope, Jane Russell, and beauty pageant winner.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

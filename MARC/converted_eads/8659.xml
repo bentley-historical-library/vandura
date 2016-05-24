@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8659 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Smith</primary_name>
           <rest_of_name>Philip G.</rest_of_name>
           <dates>1920-</dates>
@@ -26,11 +25,14 @@
       <unittitle>Philip G. Smith diary</unittitle>
       <unitdate type="inclusive" label="creation">1942-1943</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2069</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2069</p>
+      </odd>
     </descgrp>
     <bioghist>U.S. Army Air Corps gunner.</bioghist>
     <scopecontent>Diary recounting his World War II experiences in Australia and New Guinea.</scopecontent>
@@ -48,7 +50,5 @@
         <term type="geographic">New Guinea.</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

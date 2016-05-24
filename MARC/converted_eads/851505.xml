@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 outsize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.7 linear feet, 1 outsize volumes,</extent>
-      </physdesc>
       <unitid>851505 AC Ac Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Helme</primary_name>
           <rest_of_name>James W.</rest_of_name>
           <dates>1860-1938</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>James W. Helme papers</unittitle>
       <unitdate type="inclusive" label="creation">1844-1938</unitdate>
+      <physdesc>
+        <extent>.7 linear ft., 1 outsize v., and 1 outsize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 564</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 564</p>
+      </odd>
     </descgrp>
     <bioghist>Adrian, Michigan, lawyer; editor of Grange newspaper, The Michigan Patron, Democratic state senator, 1899-1903, and Republican state representative, 1931-1938.</bioghist>
     <scopecontent>Correspondence and business papers concerning farming and Grange affairs, legal business and Michigan politics; also material on the 1918 U.S. senatorial campaign in which Helme was a Democratic candidate in the primary election; and copies of articles and speeches, diary of everyday events in 1882, and scrapbooks of clippings on campaign activities, with notes by Helme. Correspondents include Woodbridge Ferris (Nov. 4 and Nov. 14, 1912) and Laura Haviland (undated).</scopecontent>
@@ -61,7 +60,7 @@
         <term type="topical">Politics and government</term>
         <term type="temporal">1929-1938.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="aat" encodinganalog="655">
@@ -142,7 +141,5 @@
         <term type="topical">Elections, 1918.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

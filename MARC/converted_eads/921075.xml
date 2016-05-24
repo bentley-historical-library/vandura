@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>921075 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Alston</primary_name>
           <rest_of_name>Christopher.</rest_of_name>
         </persname>
@@ -25,7 +24,7 @@
       <unittitle>Christopher Alston papers</unittitle>
       <unitdate type="inclusive" label="creation">1988-1990</unitdate>
       <physdesc>
-        <extent>0.1 linear feet</extent>
+        <extent>.1 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -33,7 +32,10 @@
         <head>General Note</head>
         <p>Photographs and sound recordings described separately.</p>
       </odd>
-      <acqinfo>Donor: 7779</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7779</p>
+      </odd>
     </descgrp>
     <bioghist>Organizer of the Inventory of Negro Manuscripts project of the Michigan Historical Records Survey and United Auto Workers official.</bioghist>
     <scopecontent>Photographs and sound recordings of Alston remarks at the dedication of the Robert Hayden Lounge in the University of Michigan Center for Afroamerican and African Studies (1988) and interview conducted by William McAdoo (1900, includes transcript) relating to the Inventory of Negro Manuscripts project; also miscellanea.</scopecontent>
@@ -49,9 +51,30 @@
         <primary_name>Alston</primary_name>
         <rest_of_name>Christopher.</rest_of_name>
       </persname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Oral histories.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Alston</primary_name>
+        <rest_of_name>Christopher.</rest_of_name>
+      </persname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Alston</primary_name>
+        <rest_of_name>Christopher.</rest_of_name>
+      </persname>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>McAdoo</primary_name>
         <rest_of_name>William.</rest_of_name>
@@ -64,8 +87,19 @@
         <subordinate_name>Center for Afroamerican and African Studies</subordinate_name>
       </corpname>
       <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Oral histories.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
         <term type="genre_form">Sound recordings.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Alston</primary_name>
+        <rest_of_name>Christopher.</rest_of_name>
+      </persname>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Hayden</primary_name>
         <rest_of_name>Robert</rest_of_name>
@@ -78,13 +112,17 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan Historical Records Survey</primary_name>
       </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Center for Afroamerican and African Studies</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Christopher Alston papers</unittitle>
           <physdesc>
-            <extent>0.1 linear feet</extent>
+            <extent>.1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1988-1990</unitdate>
         </did>
@@ -111,6 +149,5 @@
         <scopecontent>Recordings of Alston remarks at the dedication of the Robert Hayden Lounge in the University of Michigan Center for Afroamerican and African Studies (1988) and interview conducted by William McAdoo (1990, includes transcript) relating to the Inventory of Negro Manuscripts project.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

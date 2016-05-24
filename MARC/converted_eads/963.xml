@@ -11,24 +11,26 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>963 Bw 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>Parents, Families, and Friends of Lesbians and Gays (Detroit, Mich.)</primary_name>
         </corpname>
       </origination>
       <unittitle>Parents, Families and Friends of Lesbians and Gays (Detroit, Mich.)</unittitle>
       <unitdate type="inclusive" label="creation">1986-1996</unitdate>
       <physdesc>
-        <extent>0.8 linear feet</extent>
+        <extent>.8 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8446</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8446</p>
+      </odd>
     </descgrp>
     <bioghist>Detroit chapter of Parents, Families and Friends of Lesbians and Gays (also called P-FLAG) established in 1986 by Bill and Harriet Dart as an informational support group.</bioghist>
     <scopecontent>Records of organization include minutes, financial reports, newsletters, photographs, video cassette recordings, correspondence, promotional materials, clippings, and photographs.</scopecontent>
@@ -53,6 +55,8 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Parents, Families, and Friends of Lesbians and Gays (Detroit, Mich.)</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -72,6 +76,11 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Gay rights.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Parents of gays</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
       <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
         <term type="topical">Demonstrations.</term>
@@ -80,13 +89,36 @@
         <term type="geographic">Lansing (Mich.)</term>
         <term type="topical">Demonstrations.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Parents, Families, and Friends of Lesbians and Gays (Detroit, Mich.)</primary_name>
+      </corpname>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Parents of gays</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Parents of gays</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Dart</primary_name>
+        <rest_of_name>Harriet.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Dart</primary_name>
+        <rest_of_name>William.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Parents, Families, and Friends of Lesbians and Gays (Detroit, Mich.)</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Parents, Families and Friends of Lesbians and Gays (Detroit, Mich.)</unittitle>
           <physdesc>
-            <extent>0.8 linear feet</extent>
+            <extent>.8 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1986-1996</unitdate>
         </did>
@@ -111,6 +143,5 @@ sd., col.</physfacet>
         <scopecontent>Photographs of organizational functions; photo of 1988 PRIDE parade in Detroit and of 1992 rally at the Capitol in Lansing; also videocassette, 1989, produced by the organization, entitled, "Listening, Learning, Loving" and videocassette, ca. 1989, of television programs featuring the organization.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

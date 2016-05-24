@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>00118 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Zuckerberg</primary_name>
           <rest_of_name>Harvey D.</rest_of_name>
         </persname>
@@ -25,7 +24,7 @@
       <unittitle>Harvey D. Zuckerberg papers</unittitle>
       <unitdate type="inclusive" label="creation">1968-1988</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -33,7 +32,10 @@
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 8998</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8998</p>
+      </odd>
     </descgrp>
     <bioghist>Executive director of the Michigan Association for Retarded Citizens, 1970-1987.</bioghist>
     <scopecontent>Correspondence and other papers relating to his work.</scopecontent>
@@ -49,16 +51,33 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Association for Retarded Citizens/Michigan</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">People with mental disabilities</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Zuckerberg</primary_name>
+        <rest_of_name>Harvey D.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Association for Retarded Citizens/Michigan</primary_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Zuckerberg</primary_name>
+        <rest_of_name>Harvey D.</rest_of_name>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Harvey D. Zuckerberg papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1968-1988</unitdate>
         </did>
@@ -75,6 +94,5 @@
         <scopecontent>Photographs of Zuckerberg at a bill-signing ceremony, at a reception, and at a demonstration.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

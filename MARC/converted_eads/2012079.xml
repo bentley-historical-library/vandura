@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012079 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Boudette</primary_name>
           <rest_of_name>Neal.</rest_of_name>
         </persname>
@@ -24,8 +23,7 @@
       <unittitle>Kiwanis Club of Ann Arbor Morning Edition presents Neal Boudette [videorecording].</unittitle>
       <unitdate type="inclusive" label="creation">2012 January 18</unitdate>
       <physdesc>
-        <extent>1 DVD</extent>
-        <dimensions>(30 min.)</dimensions>
+        <extent>1 DVD (30 min.)</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -34,7 +32,10 @@
         <head>Publication, Distribution, Etc.</head>
         <p>2012 January 18.</p>
       </odd>
-      <acqinfo>Donor: 6874</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6874</p>
+      </odd>
     </descgrp>
     <bioghist>Neal Boudette is Detroit Bureau Chief for the Wall Street Journal.</bioghist>
     <scopecontent>Video of a presentation in which Boudette describes his experiences covering the automobile industry.</scopecontent>
@@ -59,6 +60,5 @@
         <primary_name>Kiwanis Club of Ann Arbor</primary_name>
       </corpname>
     </controlaccess>
-    <container label="DVD Box" type="box">1</container>
   </archdesc>
 </ead>

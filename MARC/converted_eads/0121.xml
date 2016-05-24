@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0121 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Baker</primary_name>
           <rest_of_name>Kate I.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8908</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8908</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan, class of 1907.</bioghist>
     <scopecontent>Notes on the sociology lectures of Charles Horton Cooley.</scopecontent>
@@ -51,6 +53,5 @@
         <term type="topical">Student notebooks.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

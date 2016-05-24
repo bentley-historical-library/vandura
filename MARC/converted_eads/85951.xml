@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85951 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Clubb</primary_name>
           <rest_of_name>Henry S.</rest_of_name>
           <fuller_form>(Henry Stephen)</fuller_form>
@@ -31,7 +30,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1771.1948</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771.1948</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,6 +41,54 @@
     </descgrp>
     <bioghist>Minister and editor in Grand Haven, Michigan; chief quartermaster of the 17th U.S. Army Corps during the Civil War; Michigan state senator, 1873-1874.</bioghist>
     <scopecontent>Correspondence, including letters between Anne Henderson Clubb and her family, 1849-1857, and Civil War letters between Henry and Anne, 1862-1866, almost entirely in Pitman shorthand with transcriptions; also six documents relating to the Northern Michigan Agricultural and Mechanical Society; and photographs. Correspondents include: James B. Angell, John H. Kellogg, and A. B. Pullman.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Agriculture</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Shorthand.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Vegetarianism.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Grand Haven (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ottawa County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Angell</primary_name>
+        <rest_of_name>James Burrill</rest_of_name>
+        <dates>1829-1916</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Henderson</primary_name>
+        <rest_of_name>Ann B.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Henderson</primary_name>
+        <rest_of_name>James D.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Kellogg</primary_name>
+        <rest_of_name>John Harvey</rest_of_name>
+        <dates>1852-1943</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Pullman</primary_name>
+        <rest_of_name>A. B.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Northern Michigan Agricultural and Mechanical Society</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Agriculture</term>
@@ -140,7 +190,5 @@
         <scopecontent>Portraits of Judge Myron B. Hopkins, Mrs. Hopkins, and unidentified people; photos of the First Holland Dutch Reformed Church and Takken's Blacksmith Shop in Grand Haven.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

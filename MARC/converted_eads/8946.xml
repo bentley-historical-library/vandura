@@ -11,27 +11,57 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8946 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Northrup family</family_name>
         </famname>
       </origination>
       <unittitle>Northrup family papers</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1904-1970</unitdate>
       <physdesc>
-        <extent>0.1 linear feet</extent>
+        <extent>.1 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3755</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3755</p>
+      </odd>
     </descgrp>
     <bioghist>Helen and Jack Northrup of Hillsdale, Michigan.</bioghist>
     <scopecontent>Letters, 1969-1970, received from George M. Hart, soldier stationed in Vietnam; collected newspaper clippings and other materials relating to the history of Hillsdale County and Jonesville, Michigan; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Hillsdale.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Vietnam War, 1961-1975.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hillsdale County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Jonesville (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Hart</primary_name>
+        <rest_of_name>George M.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Northrup</primary_name>
+        <rest_of_name>Helen.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Northrup</primary_name>
+        <rest_of_name>Jack C.</rest_of_name>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
@@ -86,6 +116,12 @@
         <term type="geographic">Hillsdale (Mich.)</term>
       </subject>
       <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hillsdale County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Jonesville (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Litchfield (Mich.)</term>
       </subject>
       <subject source="lcsh" encodinganalog="651">
@@ -93,7 +129,7 @@
         <term type="topical">History</term>
         <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
-      <persname source="local" role="col" encodinganalog="700">
+      <persname source="local" role="collector" encodinganalog="700">
         <primary_name>Northrup</primary_name>
         <rest_of_name>Jack C.</rest_of_name>
       </persname>
@@ -111,7 +147,7 @@
         <did>
           <unittitle>Northrup family papers</unittitle>
           <physdesc>
-            <extent>0.1 linear feet</extent>
+            <extent>.1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1904-1970</unitdate>
         </did>
@@ -128,6 +164,5 @@
         <scopecontent>Photos of historic markers and monuments in Hillsdale, Allen, Jonesville, and Litchfield, Michigan; photos of Hillsdale College groups; photo, 1920s, of the interior of a drug store in Addison, Michigan; and negative of a print of the camp of the 18th Regiment Michigan Volunteers.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

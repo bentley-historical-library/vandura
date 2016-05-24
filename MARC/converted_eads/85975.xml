@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85975 Aa 2 UAx Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Comte</primary_name>
           <rest_of_name>Victor E.</rest_of_name>
           <dates>1833-1864</dates>
@@ -32,7 +31,10 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 3529</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3529</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -40,6 +42,38 @@
     </descgrp>
     <bioghist>Soldier from Wayne County, Michigan, who served in Co. C, Fifth Michigan Cavalry during the Civil War.</bioghist>
     <scopecontent>Letters to his wife Elise, a marriage certificate, and miscellaneous items; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Wayne County (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Comte</primary_name>
+        <rest_of_name>Victor E.</rest_of_name>
+        <dates>1833-1864</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Custer</primary_name>
+        <rest_of_name>George A.</rest_of_name>
+        <fuller_form>(George Armstrong)</fuller_form>
+        <dates>1839-1876</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Melcher</primary_name>
+        <rest_of_name>Louis</rest_of_name>
+        <dates>b. 1838</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 5th (1862-1865)</subordinate_name>
+        <subordinate_name>Company C</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
@@ -81,6 +115,22 @@
         <term type="topical">Soldiers</term>
         <term type="topical">American.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Comte</primary_name>
+        <rest_of_name>Victor E.</rest_of_name>
+        <dates>1833-1864</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 5th (1862-1865)</subordinate_name>
+        <subordinate_name>Company C</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -104,6 +154,5 @@
         <scopecontent>Portrait (tintype original and copy print).</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>05109 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Eliot</primary_name>
           <rest_of_name>Johan W.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Johan W. Eliot papers</unittitle>
       <unitdate type="inclusive" label="creation">1941</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>0.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9627</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9627</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -37,6 +39,22 @@
     </descgrp>
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Papers written for a course in plant ecology at the University of Michigan Biological Station, including information on dune formation and dune, aspen, bog, and pine associations.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Plant ecology</term>
+        <term type="geographic">Michigan, Northern.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Sand dunes</term>
+        <term type="geographic">Michigan, Northern.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Sleeping Bear Dunes (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Sturgeon Bay (Emmet County, Mich.)</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Plant ecology</term>
@@ -79,13 +97,19 @@
         <term type="topical">Wetlands</term>
         <term type="geographic">Michigan, Northern.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Sleeping Bear Dunes (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Sturgeon Bay (Emmet County, Mich.)</term>
+      </subject>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Johan W. Eliot papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>0.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1941</unitdate>
         </did>
@@ -95,13 +119,12 @@
         <did>
           <unittitle>Johan W. Eliot photographs.</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>0.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1941</unitdate>
         </did>
         <scopecontent>Photographs associated with papers written for a course in plant ecology at the University of Michigan Biological Station, including photos of dune formation and associations at Sleeping Bear Dunes and Sturgeon Bay, Mich., and aspen, bog, and pine associations.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

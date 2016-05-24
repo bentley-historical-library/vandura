@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>859 Aa 1 UAl</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Barkman family</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5721</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5721</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -65,6 +67,39 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Barkman Lumber Company (East Tawas, Mich.)</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Logging</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Iosco County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Lumbering</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Iosco County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">East Tawas (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Iosco County (Mich.)</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Barkman family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Dow Chemical Company</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Barkman Lumber Company (East Tawas, Mich.)</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
       <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Prints.</term>
       </subject>
@@ -121,19 +156,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 folder</extent>
-          </physdesc>
           <unittitle>Barkman family photograph series.</unittitle>
+          <physdesc>
+            <extent>1 folder and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1877-1918</unitdate>
         </did>
         <scopecontent>Photographs of lumbering in the Tawas City, Michigan area; gypsum mining at Alabaster, Michigan; views of Camp Custer, Michigan, and group portraits of troops there; and a print of a photographic gallery railroad car.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

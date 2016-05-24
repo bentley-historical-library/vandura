@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85197 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Hearding</primary_name>
           <rest_of_name>William Hellins.</rest_of_name>
         </persname>
@@ -25,16 +24,19 @@
       <unittitle>W. H. Hearding journal</unittitle>
       <unitdate type="inclusive" label="creation">1849-1872</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2643</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2643</p>
+      </odd>
     </descgrp>
     <bioghist>Assistant engineer in the U. S. Corps of Engineers assigned to study the compressive power of pine and hemlock timber for use in the construction of piers.</bioghist>
     <scopecontent>Clippings, manuscript of survey report, description of trip by sled from Escanaba to L'Anse.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -55,6 +57,5 @@
         <rest_of_name>William Hellins.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

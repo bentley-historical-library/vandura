@@ -11,32 +11,31 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 outsize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 volumes, 1 envelope,</extent>
-      </physdesc>
       <unitid>93335 AA UAs UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Smallman</primary_name>
           <rest_of_name>Howard Lee.</rest_of_name>
         </persname>
       </origination>
       <unittitle>Howard Lee Smallman photograph collection.</unittitle>
       <unitdate type="inclusive" label="creation">1911-1916 and ca. 1945</unitdate>
+      <physdesc>
+        <extent>1 v., 1 envelope, and 1 outsize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
       <odd>
         <head>Publication, Distribution, Etc.</head>
         <p>1911-1916 and ca. 1945.</p>
       </odd>
-      <acqinfo>Donor: 3123</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3123</p>
+      </odd>
     </descgrp>
     <bioghist>1916 graduate of the University of Michigan Medical School.</bioghist>
     <scopecontent>Photograph album containing views of the Huron River, formal and informal photos of members of Phi Chi Fraternity and interior views of Phi Chi house; also photos of the Medical School faculty and photos depicting various aspects of student life.</scopecontent>
@@ -56,7 +55,7 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Ann Arbor (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651">
+      <subject source="local" encodinganalog="651">
         <term type="geographic">Huron River (Oakland County-Monroe County, Mich.)</term>
       </subject>
       <persname source="lcnaf" encodinganalog="600">
@@ -109,6 +108,5 @@
         <term type="topical">Track and field.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

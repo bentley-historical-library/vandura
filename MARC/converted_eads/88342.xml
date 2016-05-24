@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88342 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Greene</primary_name>
           <rest_of_name>Charles E.</rest_of_name>
           <fuller_form>(Charles Ezra)</fuller_form>
@@ -27,11 +26,14 @@
       <unittitle>Charles E. Greene papers</unittitle>
       <unitdate type="inclusive" label="creation">1872-1877</unitdate>
       <physdesc>
-        <extent>25 items (number approximate)</extent>
+        <extent>ca. 25 items</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 330, 1273</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 330, 1273</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,6 +41,40 @@
     </descgrp>
     <bioghist>Professor of civil engineering at the University of Michigan.</bioghist>
     <scopecontent>Letter, 1872, from DeVolson Wood, describing civil engineering program at the University with comments on faculty; also letters from James B. Angell, 1872, offering Greene a position at the university; reports on his activities as a member of the faculty, 1875-1877; and correspondence, 1873-1877, with Charles A. Smith concerning bridge construction; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Bridges.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Engineers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Greene</primary_name>
+        <rest_of_name>Charles E.</rest_of_name>
+        <fuller_form>(Charles Ezra)</fuller_form>
+        <dates>1842-1903</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Angell</primary_name>
+        <rest_of_name>James Burrill</rest_of_name>
+        <dates>1829-1916</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Wood</primary_name>
+        <rest_of_name>De Volson</rest_of_name>
+        <dates>1832-1897</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Bridges.</term>
@@ -83,6 +119,12 @@
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Greene</primary_name>
+        <rest_of_name>Charles E.</rest_of_name>
+        <fuller_form>(Charles Ezra)</fuller_form>
+        <dates>1842-1903</dates>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>College of Engineering</subordinate_name>
@@ -98,7 +140,7 @@
         <did>
           <unittitle>Charles E. Greene papers</unittitle>
           <physdesc>
-            <extent>25 items (number approximate)</extent>
+            <extent>ca. 25 items</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1872-1877</unitdate>
         </did>
@@ -115,6 +157,5 @@
         <scopecontent>Portraits; and photograph of Greene and students in classroom.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

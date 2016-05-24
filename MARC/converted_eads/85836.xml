@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85836 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Burrows</primary_name>
           <rest_of_name>Julius C.</rest_of_name>
           <fuller_form>(Julius Caesar)</fuller_form>
@@ -27,16 +26,19 @@
       <unittitle>Julius Caesar Burrows diary</unittitle>
       <unitdate type="inclusive" label="creation">1867</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2541</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2541</p>
+      </odd>
     </descgrp>
     <bioghist>Republican U. S. Senator from Michigan, 1895-1911.</bioghist>
     <scopecontent>Diary, May 29 to June 25, 1867 of trip to Europe with brief descriptions of places visited particularly in England and Germany.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -60,6 +62,5 @@
         <dates>1837-1915</dates>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

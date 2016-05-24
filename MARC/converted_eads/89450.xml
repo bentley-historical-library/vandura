@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89450 Aa 2 UAs</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Wines</primary_name>
           <rest_of_name>Harold D.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4031</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4031</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photograph described separately.</p>
@@ -37,6 +39,31 @@
     </descgrp>
     <bioghist>Student at the University of Michigan, later Ann Arbor, Michigan, engineer.</bioghist>
     <scopecontent>Scrapbook containing clippings and other memorabilia relating to student life at the University of Michigan, 1908-1912, to his engineering career, and to the life of his father Levi D. Wines, Ann Arbor, Michigan, high school teacher; also photograph.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wines</primary_name>
+        <rest_of_name>Levi Douglas</rest_of_name>
+        <dates>1852-1938</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Ann Arbor High School (Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
@@ -108,6 +135,5 @@
         <scopecontent>Class portrait of the fourth grade class, 1st Ward School, Ann Arbor, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

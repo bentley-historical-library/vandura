@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 volumes</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.2 linear feet</extent>
-      </physdesc>
       <unitid>861092 Aa 2 AC</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Lang</primary_name>
           <rest_of_name>Chester Henry</rest_of_name>
           <dates>1893-1961</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>Chester Henry Lang papers</unittitle>
       <unitdate type="inclusive" label="creation">1911-1914 and 1944-1945</unitdate>
+      <physdesc>
+        <extent>0.2 linear ft. and 1 v</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5750</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5750</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -64,11 +63,41 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lang</primary_name>
+        <rest_of_name>Chester Henry</rest_of_name>
+        <dates>1893-1961</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Sigma Alpha Epsilon</primary_name>
+        <subordinate_name>Iota Beta Chapter (University of Michigan)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Sports.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
       <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Albums.</term>
       </subject>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Barbershops.</term>
@@ -160,8 +189,17 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Saipan (Northern Mariana Islands)</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lang</primary_name>
+        <rest_of_name>Chester Henry</rest_of_name>
+        <dates>1893-1961</dates>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Majestic Theatre (Ann Arbor, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Sigma Alpha Epsilon</primary_name>
+        <subordinate_name>Iota Beta Chapter (University of Michigan)</subordinate_name>
       </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Sphinx (Fraternity : University of Michigan)</primary_name>
@@ -193,6 +231,12 @@
       </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
         <term type="topical">Student housing</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
@@ -210,32 +254,24 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 volumes</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.2 linear feet</extent>
-          </physdesc>
           <unittitle>Chester Henry Lang papers</unittitle>
+          <physdesc>
+            <extent>0.2 linear ft. and 1 v</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1911-1914 and 1944-1945</unitdate>
         </did>
         <scopecontent>Scrapbook (1911-1914) containing photographs, programs, and other memorabilia relating to campus events, athletic events, and the activities of Sigma Alpha Epsilon fraternity; documents and photographs relating to an inspection trip of Pacific islands, 1945.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 volumes</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.2 linear feet</extent>
-          </physdesc>
           <unittitle>Chester Henry Lang photograph series.</unittitle>
+          <physdesc>
+            <extent>0.2 linear ft. and 1 v</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1900s-ca. 1940s</unitdate>
         </did>
         <scopecontent>Portraits; photographs taken during an inspection trip of Pacific islands, Jan. 1945, including photos of military aircraft and encampments, native people and scenery of Kwajalein, Saipan, Palau, Leyte, New Guinea, and other places;</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

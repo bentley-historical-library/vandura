@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2010169 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Hovis</primary_name>
           <rest_of_name>Logan W.</rest_of_name>
         </persname>
@@ -31,7 +30,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10394</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10394</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan Medical School, 1938-1942. Originally from Parkersburg, West Virginia, earned M.D. degree in 1942.</bioghist>
     <scopecontent>Lecture notes taken by Hovis while a student. Consists of 26 notebooks maintained by term and course.</scopecontent>
@@ -49,8 +51,5 @@
         <term type="topical">Student notebooks.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
-    <container label="Box" type="box">3</container>
   </archdesc>
 </ead>

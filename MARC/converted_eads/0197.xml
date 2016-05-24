@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0197 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>James</primary_name>
           <rest_of_name>Warren B.</rest_of_name>
           <dates>1890-1987</dates>
@@ -32,7 +31,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 9149</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9149</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -55,6 +57,8 @@
         <rest_of_name>Warren B.</rest_of_name>
         <dates>1890-1987</dates>
       </persname>
+    </controlaccess>
+    <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -64,6 +68,11 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">San Francisco-Oakland Bay Bridge (Oakland and San Francisco, Calif.)</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>James</primary_name>
+        <rest_of_name>Warren B.</rest_of_name>
+        <dates>1890-1987</dates>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>College of Engineering</subordinate_name>
@@ -74,6 +83,20 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">CD-Rs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>James</primary_name>
+        <rest_of_name>Warren B.</rest_of_name>
+        <dates>1890-1987</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -98,6 +121,5 @@
         <scopecontent>Photograph album pages and dance program containing photographs of University of Michigan engineering students at Camp Davis; photographs (1930s) of activities and engineering staff from the time when he worked as resident engineer on the San Francisco-Oakland Bay Bridge.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

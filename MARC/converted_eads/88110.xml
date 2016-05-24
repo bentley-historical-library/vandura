@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88110 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Breitenbach</primary_name>
           <rest_of_name>Harold Prell</rest_of_name>
           <dates>1878-</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3637</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3637</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photograph described separately.</p>
@@ -38,6 +40,38 @@
     </descgrp>
     <bioghist>Alpena and Detroit, Michigan, teacher and school administrator; and instructor in rhetoric in the College of Engineering of the University of Michigan.</bioghist>
     <scopecontent>Correspondence regarding his work on an English edition of Dionysius of Halicarnassus; student paper on Robert Browning; and photographs. Correspondents include: James B. Angell, June 23, 1906, Fred Newton Scott, September 7, 1903 and January 14, 1904, Louis A. Strauss, January 17, 1916, W. B. Pitkin, and W. Rhys Roberts.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Breitenbach</primary_name>
+        <rest_of_name>Harold Prell</rest_of_name>
+        <dates>1878-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Pitkin</primary_name>
+        <rest_of_name>Walter B.</rest_of_name>
+        <dates>1878-1953</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Roberts</primary_name>
+        <rest_of_name>W. Rhys</rest_of_name>
+        <fuller_form>(William Rhys)</fuller_form>
+        <dates>1858-1929</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Scott</primary_name>
+        <rest_of_name>Fred Newton</rest_of_name>
+        <dates>1860-1931</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Strauss</primary_name>
+        <rest_of_name>Louis Abraham</rest_of_name>
+        <dates>1872-1938</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Breitenbach</primary_name>
@@ -107,6 +141,5 @@
         <scopecontent>Photograph of Alpena High School (Mich.)</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

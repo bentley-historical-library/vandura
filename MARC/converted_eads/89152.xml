@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89152 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Deardorff</primary_name>
           <rest_of_name>Neva Ruth</rest_of_name>
           <dates>1887-</dates>
@@ -26,11 +25,14 @@
       <unittitle>Neva R. Deardorff papers</unittitle>
       <unitdate type="inclusive" label="creation">1932-1958</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3968</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3968</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -72,16 +74,56 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Welfare Council of New York City</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Charities</term>
+        <term type="geographic">New York (State)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Insurance</term>
+        <term type="geographic">New York (State)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Social service</term>
+        <term type="geographic">New York (State)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women social workers</term>
+        <term type="geographic">New York (State)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">New York (N.Y.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">New York (State)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Deardorff</primary_name>
+        <rest_of_name>Neva Ruth</rest_of_name>
+        <dates>1887-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Health Insurance Plan of Greater New York</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Welfare Council of New York City</primary_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Deardorff</primary_name>
+        <rest_of_name>Neva Ruth</rest_of_name>
+        <dates>1887-</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Neva R. Deardorff papers</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1932-1958</unitdate>
         </did>
@@ -98,6 +140,5 @@
         <scopecontent>Portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

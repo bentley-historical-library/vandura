@@ -11,27 +11,26 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>2 volumes outsize</extent>
-      </physdesc>
-      <physdesc>
-        <extent>2 volumes</extent>
-      </physdesc>
       <unitid>851778 BB.2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local">
+        <corpname encodinganalog="110">
           <primary_name>Fargo and Fargo General Store and Flour Mill (Manchester, Mich.)</primary_name>
         </corpname>
       </origination>
       <unittitle>Fargo and Fargo General Store and Flour Mill daybook and ledgers</unittitle>
       <unitdate type="inclusive" label="creation">1833-1841</unitdate>
+      <physdesc>
+        <extent>2 v. and 2 v. [outsize]</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 801</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 801</p>
+      </odd>
     </descgrp>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
@@ -59,9 +58,5 @@
         <rest_of_name>W. G.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
-    <container label="Oversize Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">2</container>
   </archdesc>
 </ead>

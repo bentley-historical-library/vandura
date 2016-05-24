@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85679 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Armstrong</primary_name>
           <rest_of_name>Solomon</rest_of_name>
           <dates>1821-1897</dates>
@@ -26,16 +25,19 @@
       <unittitle>Solomon Armstrong papers</unittitle>
       <unitdate type="inclusive" label="creation">1823-1885</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2678</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2678</p>
+      </odd>
     </descgrp>
     <bioghist>Carpenter in Ann Arbor, Michigan.</bioghist>
     <scopecontent>Contracts, legal papers, receipts, correspondence, and work records; also two account books of Sylvester Armstrong of Saratoga County, New York, 1823-1851.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Account books.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -54,6 +56,5 @@
         <rest_of_name>Sylvester.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

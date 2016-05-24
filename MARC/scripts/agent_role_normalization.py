@@ -5,7 +5,7 @@ import os
 from os.path import join
 
 def normalize_agent_roles(marc_dir):
-	ead_dir = join(marc_dir, "converted_eads")
+	ead_dir = join(marc_dir, "converted_eads_working")
 
 	# From the ArchivesSpace linked_agent_archival_record_relators enum
 	role_normalization_dict = {"collector":"col",

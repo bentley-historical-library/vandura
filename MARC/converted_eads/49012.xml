@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -18,13 +17,13 @@
       <unittitle>The Michigan Lutheran.</unittitle>
       <unitdate>[No date provided]</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>v.</extent>
         <physfacet>
 ill.</physfacet>
         <dimensions>37 cm.</dimensions>
       </physdesc>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>v.</extent>
         <physfacet>
 ill.</physfacet>
         <dimensions>37 cm.</dimensions>
@@ -54,6 +53,21 @@ ill.</physfacet>
         <term type="topical">Religion</term>
         <term type="genre_form">Periodicals.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Religion</term>
+        <term type="genre_form">Periodicals.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Lutheran Church--Missouri Synod</primary_name>
+        <subordinate_name>Michigan District</subordinate_name>
+        <term type="genre_form">Periodicals.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Lutheran Church--Missouri Synod</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="genre_form">Periodicals.</term>
+      </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Lutheran Church--Missouri Synod</primary_name>
         <subordinate_name>Michigan District</subordinate_name>
@@ -73,11 +87,15 @@ ill.</physfacet>
         <subordinate_name>Michigan District</subordinate_name>
         <subordinate_name>Dept. of Public Relations</subordinate_name>
       </corpname>
+      <corpname source="local" encodinganalog="710">
+        <primary_name>Lutheran Church--Missouri Synod</primary_name>
+        <subordinate_name>Michigan District</subordinate_name>
+      </corpname>
+      <corpname source="local" encodinganalog="710">
+        <primary_name>Lutheran Church--Missouri Synod</primary_name>
+        <subordinate_name>Michigan District</subordinate_name>
+        <subordinate_name>Dept. of Public Relations</subordinate_name>
+      </corpname>
     </controlaccess>
-    <container label="Box" type="box">4</container>
-    <container label="Box" type="box">5</container>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
-    <container label="Box" type="box">3</container>
   </archdesc>
 </ead>

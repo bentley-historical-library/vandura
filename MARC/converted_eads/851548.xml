@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851548 Aa 1 UAs UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>James</primary_name>
           <rest_of_name>William Stuart.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>William S. James reminiscences, undated.</unittitle>
       <unitdate>[No date provided]</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3994</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3994</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,25 @@
     </descgrp>
     <bioghist>Ann Arbor, Michigan, dentist.</bioghist>
     <scopecontent>Remembrances of his activities in South Africa as a dental assistant during the Boer War, with a few notes on lectures in University of Michigan School of Dentistry; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Dentists</term>
+        <term type="geographic">South Africa.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">South African War, 1899-1902.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">South Africa.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>School of Dentistry</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Dentists</term>
@@ -123,25 +144,21 @@
         <did>
           <unittitle>William S. James reminiscences, undated.</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
         </did>
         <scopecontent>Remembrances of his activities in South Africa as a dental assistant during the Boer War, with a few notes on lectures in University of Michigan School of Dentistry; also photographs.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 envelope</extent>
-          </physdesc>
           <unittitle>William Stuart James photograph series.</unittitle>
+          <physdesc>
+            <extent>1 envelope and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1910-1915</unitdate>
         </did>
         <scopecontent>Photos of the University of Michigan School of Dentistry, Class of 1915, the Men's Glee Club, the Mandolin Club, Quadrangle, Senior Girls' Play, soccer team, football games, class games including tug-of-war, commencement, and the Huron River.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

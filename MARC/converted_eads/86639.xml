@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86639 Aa 2 Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Shattuck</primary_name>
           <rest_of_name>Lucius L.</rest_of_name>
           <dates>1836-1863</dates>
@@ -31,7 +30,10 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 3738, 1333, 11032. Gift of Marquis E. Shattuck, Robert Shattuck Travis, and Jeffrey F. Travis.</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3738, 1333, 11032. Gift of Marquis E. Shattuck, Robert Shattuck Travis, and Jeffrey F. Travis.</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Includes originals, photocopies, and typescripts.</p>
@@ -63,7 +65,5 @@
         <subordinate_name>Company C</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89248 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Saier</primary_name>
           <rest_of_name>Edward Herbert.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Edward Herbert Saier papers</unittitle>
       <unitdate type="inclusive" label="creation">1909-1916</unitdate>
       <physdesc>
-        <extent>2 volumes in 1 box</extent>
+        <extent>2 v. in 1 box</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3356</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3356</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,17 @@
     </descgrp>
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Photograph album and loose materials from scrapbook relating to student life at the University of Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
@@ -74,13 +87,19 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1901-1910.</term>
       </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Edward Herbert Saier papers</unittitle>
           <physdesc>
-            <extent>2 volumes in 1 box</extent>
+            <extent>2 v. in 1 box</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1909-1916</unitdate>
         </did>
@@ -90,13 +109,12 @@
         <did>
           <unittitle>Edward Herbert Saier photograph album.</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1909-1916</unitdate>
         </did>
         <scopecontent>Photographs of renderings for proposed Michigan Union building; photos of Michigan Union Opera and other Union functions; photos of most University buildings (ca. 1915); and photos of various athletic and class activities.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

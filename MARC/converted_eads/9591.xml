@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9591 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Lowrie</primary_name>
           <rest_of_name>Kathleen.</rest_of_name>
         </persname>
@@ -32,7 +31,10 @@
         <head>Publication, Distribution, Etc.</head>
         <p>1980?</p>
       </odd>
-      <acqinfo>Donor: 6544</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6544</p>
+      </odd>
     </descgrp>
     <bioghist>Secretary to Jane Addams in the Children's Bureau, active in Detroit women's and social causes in the 1920s.</bioghist>
     <scopecontent>Interview with Lowrie conducted by Mary Loeffler.</scopecontent>
@@ -62,6 +64,5 @@
         <rest_of_name>Mary.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Sd Rec Box" type="box">1</container>
   </archdesc>
 </ead>

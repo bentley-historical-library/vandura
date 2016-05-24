@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>861123 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Smith</primary_name>
           <rest_of_name>Richard Root</rest_of_name>
           <dates>1869-1940</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7361</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7361</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -52,6 +54,21 @@
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Board of Regents</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918</term>
+        <term type="topical">Medical care.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Smith</primary_name>
+        <rest_of_name>Richard Root</rest_of_name>
+        <dates>1869-1940</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Board of Regents</subordinate_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -59,6 +76,11 @@
         <term type="topical">Offices</term>
         <term type="temporal">1911-1920.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Smith</primary_name>
+        <rest_of_name>Richard Root</rest_of_name>
+        <dates>1869-1940</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -82,6 +104,5 @@
         <scopecontent>Portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

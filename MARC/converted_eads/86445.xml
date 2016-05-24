@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86445 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Jacobs</primary_name>
           <rest_of_name>Eugene C.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Eugene C. Jacobs papers</unittitle>
       <unitdate type="inclusive" label="creation">1948-1988</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6177</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6177</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -37,6 +39,39 @@
     </descgrp>
     <bioghist>Physician.</bioghist>
     <scopecontent>Miscellaneous articles concerning his experiences as prisoner of war in the Philippines, Japan, and Manchuria during World War II; also visual materials.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Physicians</term>
+        <term type="geographic">Philippines.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Prisoners of war</term>
+        <term type="geographic">Philippines.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Prisoners of war</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945</term>
+        <term type="topical">Prisoners and prisons, Japanese.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Japan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Manchuria (China)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Philippines</term>
+        <term type="topical">History</term>
+        <term type="temporal">Japanese occupation, 1942-1945.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Jacobs</primary_name>
+        <rest_of_name>Eugene C.</rest_of_name>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Physicians</term>
@@ -83,7 +118,11 @@
         <term type="topical">Prisoners of war</term>
         <term type="geographic">United States.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651">
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945</term>
+        <term type="topical">Prisoners and prisons, Japanese.</term>
+      </subject>
+      <subject source="local" encodinganalog="651">
         <term type="geographic">Philippines</term>
         <term type="topical">History</term>
         <term type="temporal">Japanese occupation, 1942-1945.</term>
@@ -94,7 +133,7 @@
         <did>
           <unittitle>Eugene C. Jacobs papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1948-1988</unitdate>
         </did>
@@ -111,6 +150,5 @@
         <scopecontent>Reproductions of sketches made while a prisoner of war in the Philippines during World War II.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

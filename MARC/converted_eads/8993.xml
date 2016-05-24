@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8993 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Peterson</primary_name>
           <rest_of_name>Robert G.</rest_of_name>
         </persname>
@@ -33,7 +32,10 @@
         <head>Reproduction Note</head>
         <p>Photocopy.</p>
       </odd>
-      <acqinfo>Donor: 4994</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4994</p>
+      </odd>
     </descgrp>
     <bioghist>Student in education at the University of Michigan.</bioghist>
     <controlaccess>
@@ -56,6 +58,5 @@
         <subordinate_name>Law School</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

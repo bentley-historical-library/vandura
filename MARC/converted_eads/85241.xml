@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85241 Aa 2 UAm</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Kempf</primary_name>
           <rest_of_name>Edith Staebler</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Edith Staebler Kempf papers</unittitle>
       <unitdate type="inclusive" label="creation">1857-1970s</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6972</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6972</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual Materials described separately.</p>
@@ -78,8 +80,55 @@
       <famname source="lcnaf" encodinganalog="600">
         <family_name>Widenmann family</family_name>
       </famname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">German Americans</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Music</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Musicians</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+        <term type="topical">History.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Kempf</primary_name>
+        <rest_of_name>Pauline Widenmann.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Kempf</primary_name>
+        <rest_of_name>Reuben</rest_of_name>
+        <dates>1835-</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Kemp family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Staebler family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Widenmann family</family_name>
+      </famname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">German Americans</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Singers.</term>
@@ -97,7 +146,7 @@
         <did>
           <unittitle>Edith Staebler Kempf papers</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1857-1970s</unitdate>
         </did>
@@ -114,6 +163,5 @@
         <scopecontent>Photo of cast of University of Michigan Junior Girls' Play, 1921; and print made 1960 of 1894 photo of the Lyra Gesangverein of Ann Arbor, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

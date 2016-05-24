@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>8 items</extent>
-      </physdesc>
-      <physdesc>
-        <extent>2 volumes</extent>
-      </physdesc>
       <unitid>85583 AA Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Germain</primary_name>
           <rest_of_name>George W.</rest_of_name>
           <dates>b. 1818</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>George W. Germain papers</unittitle>
       <unitdate type="inclusive" label="creation">1842-1852</unitdate>
+      <physdesc>
+        <extent>2 v. and 8 items</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1991</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1991</p>
+      </odd>
     </descgrp>
     <bioghist>Ionia County, Michigan, farmer, Whig politician, later Republican state legislator.</bioghist>
     <scopecontent>Journals commenting on politics, the temperance and anti-slavery movements, journey from New York state to Michigan, and religion; and miscellanea.</scopecontent>
@@ -48,7 +47,7 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1851-1860.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -107,8 +106,5 @@
         <primary_name>Whig Party (U.S.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

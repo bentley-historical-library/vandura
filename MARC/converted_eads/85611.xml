@@ -11,27 +11,26 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 oversize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.4 linear feet (1 box)</extent>
-      </physdesc>
       <unitid>85611 Bp.2 2 Bp.2 Outsize</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>Nell Gwyn's Company (Ann Arbor, Mich.)</primary_name>
         </corpname>
       </origination>
       <unittitle>Nell Gwyn's Company records</unittitle>
       <unitdate type="inclusive" label="creation">1930-1956</unitdate>
+      <physdesc>
+        <extent>.4 linear ft. (1 box) and 1 oversize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3203</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3203</p>
+      </odd>
     </descgrp>
     <bioghist>Theatrical company.</bioghist>
     <scopecontent>Programs, clippings, financial records, scattered correspondence, scripts, and research materials collected by James Umphrey for his thesis on the history of the company; also paintings of stage settings.</scopecontent>
@@ -51,6 +50,26 @@
         <primary_name>Umphrey</primary_name>
         <rest_of_name>James Raymond.</rest_of_name>
       </persname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Paintings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Theater</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Umphrey</primary_name>
+        <rest_of_name>James Raymond.</rest_of_name>
+      </persname>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Paintings.</term>
+      </subject>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -72,31 +91,24 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.4 linear feet (1 box)</extent>
-          </physdesc>
           <unittitle>Nell Gwyn's Company records</unittitle>
+          <physdesc>
+            <extent>.4 linear ft. (1 box) and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1930-1956</unitdate>
         </did>
         <scopecontent>Programs, clippings, financial records, scattered correspondence, scripts, and research materials collected by James Umphrey for his thesis on the history of the company; also paintings of stage settings.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>2 folders</extent>
-          </physdesc>
           <unittitle>Nell Gwyn's Company visual material series.</unittitle>
+          <physdesc>
+            <extent>2 folders and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1930s</unitdate>
         </did>
         <scopecontent>Photographs of play productions and paintings of stage settings (most by Jean Paul Slusser).</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

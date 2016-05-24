@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85410 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Smith</primary_name>
           <rest_of_name>Warren H.</rest_of_name>
           <fuller_form>(Warren Hadley)</fuller_form>
@@ -27,11 +26,14 @@
       <unittitle>Warren H. Smith papers</unittitle>
       <unitdate type="inclusive" label="creation">1885-1901 (scattered dates)</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2297</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2297</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,6 +41,61 @@
     </descgrp>
     <bioghist>Student at the University of Michigan, later Ann Arbor, Michigan, real estate dealer and attorney.</bioghist>
     <scopecontent>Notes on lectures of Fred M. Taylor in political economy, Burke A. Hinsdale in education, Thomas M. Cooley in constitutional history, H. R. Stanley in architecture, James A. Woodburn in civil government, and Richard Hudson in English history; and diary, 1885, describing student life and part of bicycle trip from Ann Arbor, Michigan, through Canada to Buffalo, New York; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Cycling.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cooley</primary_name>
+        <rest_of_name>Thomas McIntyre</rest_of_name>
+        <dates>1824-1898</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hinsdale</primary_name>
+        <rest_of_name>B. A.</rest_of_name>
+        <fuller_form>(Burke Aaron)</fuller_form>
+        <dates>1837-1900</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hudson</primary_name>
+        <rest_of_name>Richard</rest_of_name>
+        <dates>1845-1915</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Smith</primary_name>
+        <rest_of_name>Warren H.</rest_of_name>
+        <fuller_form>(Warren Hadley)</fuller_form>
+        <dates>1865-</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Stanley</primary_name>
+        <rest_of_name>H. R.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Taylor</primary_name>
+        <rest_of_name>F. M.</rest_of_name>
+        <fuller_form>(Fred Manville)</fuller_form>
+        <dates>1855-1932</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Woodburn</primary_name>
+        <rest_of_name>James Albert</rest_of_name>
+        <dates>1856-1943</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1881-1890.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -114,13 +171,19 @@
         <term type="geographic">Cass Lake (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Smith</primary_name>
+        <rest_of_name>Warren H.</rest_of_name>
+        <fuller_form>(Warren Hadley)</fuller_form>
+        <dates>1865-</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Warren H. Smith papers</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1885-1901 (scattered dates)</unitdate>
         </did>
@@ -137,6 +200,5 @@
         <scopecontent>Photos of family groups (one at Cass Lake, Michigan, cottage) and photo of Smith house, corner of Washington and Division, Ann Arbor, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

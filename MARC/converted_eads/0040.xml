@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0040 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Hallock family</family_name>
         </famname>
       </origination>
@@ -32,10 +31,18 @@
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor:8924</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor:8924</p>
+      </odd>
     </descgrp>
     <bioghist>Ann Arbor, Michigan family.</bioghist>
     <scopecontent>Typescripts of family letters written ca. 1870 and other Hallock family information; also photographs.</scopecontent>
+    <controlaccess>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Hallock family</family_name>
+      </famname>
+    </controlaccess>
     <controlaccess>
       <famname source="lcnaf" encodinganalog="600">
         <family_name>Hallock family</family_name>
@@ -52,6 +59,9 @@
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Lodging houses.</term>
       </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Hallock family</family_name>
+      </famname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Buildings.</term>
@@ -85,6 +95,5 @@
         <scopecontent>Photos of University of Michigan buildings; photos of boarders and their rooms; informal graduation photographs.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

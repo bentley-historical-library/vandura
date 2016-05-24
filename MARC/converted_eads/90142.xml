@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 outsize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.2 linear feet</extent>
-      </physdesc>
       <unitid>90142 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>McGriff</primary_name>
           <rest_of_name>Floyd</rest_of_name>
           <dates>1890-1968</dates>
@@ -31,16 +24,37 @@
       </origination>
       <unittitle>Floyd McGriff papers</unittitle>
       <unitdate type="inclusive" label="creation">1931-1966</unitdate>
+      <physdesc>
+        <extent>.2 linear ft. and 1 outsize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 7666</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7666</p>
+      </odd>
     </descgrp>
     <bioghist>Newspaper publisher of suburban Detroit, Michigan.</bioghist>
     <scopecontent>Correspondence, photographs, and other papers relating to his career and political interests.</scopecontent>
+    <controlaccess>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Journalists</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McGriff</primary_name>
+        <rest_of_name>Floyd</rest_of_name>
+        <dates>1890-1968</dates>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Journalists</term>
@@ -68,35 +82,33 @@
         <rest_of_name>Frank</rest_of_name>
         <dates>1890-1949</dates>
       </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>McGriff</primary_name>
+        <rest_of_name>Floyd</rest_of_name>
+        <dates>1890-1968</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.2 linear feet</extent>
-          </physdesc>
           <unittitle>Floyd McGriff papers</unittitle>
+          <physdesc>
+            <extent>.2 linear ft. and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1931-1966</unitdate>
         </did>
         <scopecontent>Correspondence, photographs, and other papers relating to his career and political interests.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 folder</extent>
-          </physdesc>
           <unittitle>Floyd McGriff photograph series.</unittitle>
+          <physdesc>
+            <extent>1 folder and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1931-1950s</unitdate>
         </did>
         <scopecontent>Photos of his political and other activities, including photos of McGriff with Frank Murphy.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

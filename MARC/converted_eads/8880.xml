@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8880 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Foster</primary_name>
           <rest_of_name>Fred William</rest_of_name>
           <dates>1909-</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1278</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1278</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,21 @@
     </descgrp>
     <bioghist>Student in geography at the University of Michigan.</bioghist>
     <scopecontent>Study of development of the suburbs of Detroit, Michigan; includes accompanying photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">City planning</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Suburbs</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">City planning</term>
@@ -61,6 +78,9 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Urban growth.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -77,13 +97,12 @@
         <did>
           <unittitle>Fred William Foster photograph series.</unittitle>
           <physdesc>
-            <extent>15 items (number approximate)</extent>
+            <extent>ca. 15 items</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1936</unitdate>
         </did>
         <scopecontent>Photographs to accompany research paper, "Distribution of building density in the Detroit area"; include views of outlying Detroit property showing development of area suburbs.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

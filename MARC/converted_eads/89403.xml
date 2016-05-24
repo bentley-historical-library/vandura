@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89403 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Walls</primary_name>
           <rest_of_name>Arch</rest_of_name>
           <dates>1895-1971</dates>
@@ -26,11 +25,14 @@
       <unittitle>Arch Walls papers</unittitle>
       <unitdate type="inclusive" label="creation">1955-1971</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5391</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5391</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -59,16 +61,46 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Michigan State Medical Society</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Medicine</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Physicians</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Walls</primary_name>
+        <rest_of_name>Arch</rest_of_name>
+        <dates>1895-1971</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan State Medical Society</primary_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Walls</primary_name>
+        <rest_of_name>Arch</rest_of_name>
+        <dates>1895-1971</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan State Medical Society</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Arch Walls papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1955-1971</unitdate>
         </did>
@@ -78,13 +110,12 @@
         <did>
           <unittitle>Arch Walls photograph series.</unittitle>
           <physdesc>
-            <extent>5 items (number approximate)</extent>
+            <extent>ca. 5 items</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1950s-1960s</unitdate>
         </did>
         <scopecontent>Photos relating to the society.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

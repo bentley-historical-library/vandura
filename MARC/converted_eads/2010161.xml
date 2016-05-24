@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2010161 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Erlewine</primary_name>
           <rest_of_name>Michael.</rest_of_name>
         </persname>
@@ -38,7 +37,10 @@
         <head>Publication, Distribution, Etc.</head>
         <p>1967-2007.</p>
       </odd>
-      <acqinfo>Donor: 10329</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10329</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Audiorecordings described separately.</p>
@@ -112,10 +114,83 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Rainbow Graphics</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">CD-ROMs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Digital images.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">DVDs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Hard drives.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Rock posters.</term>
+      </subject>
+      <subject source="lctgm" encodinganalog="650">
+        <term type="topical">Rock posters</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Alternative rock music.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Blues-rock music.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Heavy metal (music)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Punk rock music.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Rock music.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Arminski</primary_name>
+        <rest_of_name>Mark.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Griffin</primary_name>
+        <rest_of_name>Rick.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Grimshaw</primary_name>
+        <rest_of_name>Gary.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Fitzgerald</primary_name>
+        <rest_of_name>Kerry.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Kozik</primary_name>
+        <rest_of_name>Frank.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rogers</primary_name>
+        <rest_of_name>Jermaine.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Tuten</primary_name>
+        <rest_of_name>Randy.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Rainbow Graphics</primary_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">CD-ROMs.</term>
+      </subject>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Artists</term>
         <term type="temporal">20th century</term>
         <term type="genre_form">Interviews.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Rock music.</term>
       </subject>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Chantry</primary_name>
@@ -123,8 +198,20 @@
         <dates>1954-</dates>
       </persname>
       <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Grimshaw</primary_name>
+        <rest_of_name>Gary.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Kozik</primary_name>
+        <rest_of_name>Frank.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Miller</primary_name>
         <rest_of_name>Stanley.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Tuten</primary_name>
+        <rest_of_name>Randy.</rest_of_name>
       </persname>
     </controlaccess>
     <dsc>
@@ -151,10 +238,5 @@
         <scopecontent>Digital audio recordings of Michael Erlewine's interviews with various rock-and-roll poster artists. Among those interviewed are Gary Grimshaw, Stanley "Mouse" Miller, Art Chantry, Randy Tuten, and Frank Kozik.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
-    <container label="Box" type="box">3</container>
-    <container label="Box" type="box">4</container>
   </archdesc>
 </ead>

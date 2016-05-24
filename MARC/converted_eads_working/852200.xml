@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Ella Rock biographical sketch</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>852200 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Rock</primary_name>
+          <rest_of_name>Ella.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Ella Rock biographical sketch</unittitle>
+      <unitdate type="inclusive" label="creation">1954</unitdate>
+      <physdesc>
+        <extent>20 p</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 2790</acqinfo>
+    </descgrp>
+    <scopecontent>Biographical sketch of Heinrich Friedrich Bernhard Rock (1849-1918), German immigrant to Wexford County, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">German Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Wexford County (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rock</primary_name>
+        <rest_of_name>Heinrich Friedrich Bernhard</rest_of_name>
+        <dates>1849-1918</dates>
+      </persname>
+    </controlaccess>
+    <container label="Folder">1</container>
+  </archdesc>
+</ead>

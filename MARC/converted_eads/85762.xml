@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 volumes</extent>
-      </physdesc>
-      <physdesc>
-        <extent>15 items</extent>
-      </physdesc>
       <unitid>85762 Aa 1 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Blair</primary_name>
           <rest_of_name>Austin</rest_of_name>
           <dates>1818-1894</dates>
@@ -31,6 +24,9 @@
       </origination>
       <unittitle>Austin Blair papers</unittitle>
       <unitdate type="inclusive" label="creation">1861-1863 and 1882</unitdate>
+      <physdesc>
+        <extent>15 items and 1 v</extent>
+      </physdesc>
     </did>
     <descgrp>
       <originalsloc>Originals of the copies in the Burton Historical Collections, Detroit Public Library.</originalsloc>
@@ -38,7 +34,10 @@
         <head>Reproduction Note</head>
         <p>Photocopies in part.</p>
       </odd>
-      <acqinfo>Donor: 214, 1731, 3746, 4248, 4285</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 214, 1731, 3746, 4248, 4285</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -46,6 +45,27 @@
     </descgrp>
     <bioghist>Republican governor of Michigan, 1861-1864.</bioghist>
     <scopecontent>Letters, 1861-1862, concerning political matters; reminiscence, 1862, of a conference of northern governors held at Altoona, Pennsylvania; autobiographical sketch, miscellanea, and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Governors</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Politics and government</term>
+        <term type="temporal">1837-1950.</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
@@ -78,13 +98,10 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 volumes</extent>
-          </physdesc>
-          <physdesc>
-            <extent>15 items</extent>
-          </physdesc>
           <unittitle>Austin Blair papers</unittitle>
+          <physdesc>
+            <extent>15 items and 1 v</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1861-1863 and 1882</unitdate>
         </did>
         <scopecontent>Letters, 1861-1862, concerning political matters; reminiscence, 1862, of a conference of northern governors held at Altoona, Pennsylvania; autobiographical sketch, miscellanea, and photographs.</scopecontent>
@@ -100,7 +117,5 @@
         <scopecontent>Portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

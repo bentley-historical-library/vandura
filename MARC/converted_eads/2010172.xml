@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2010172 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Johnston</primary_name>
           <rest_of_name>William Murray</rest_of_name>
           <dates>d. 1906</dates>
@@ -32,7 +31,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor:10403</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor:10403</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -40,6 +42,27 @@
     </descgrp>
     <bioghist>Graduate of the Department of Medicine and Surgery at the University of Michigan, class fo 1887.</bioghist>
     <scopecontent>Student diary, 1886-1887, describing daily life and activities; also letter, genealogical information, and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Johnston</primary_name>
+        <rest_of_name>William Murray</rest_of_name>
+        <dates>d. 1906</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of Medicine and Survey</subordinate_name>
+        <term type="topical">Students.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs,</term>
+        <term type="temporal">1881-1890.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -72,6 +95,11 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Williams (Ariz.)</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Johnston</primary_name>
+        <rest_of_name>William Murray</rest_of_name>
+        <dates>d. 1906</dates>
+      </persname>
       <famname source="lcnaf" encodinganalog="600">
         <family_name>Johnston family</family_name>
       </famname>
@@ -100,6 +128,5 @@
         <scopecontent>Portrait; tintype of Johnston and wife and son, ca. 1890; also tintype of unidentified family grouping; street views of his office and residence in Williams, Arizona and Bazine, kansas, both ca. 1889-1890s.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

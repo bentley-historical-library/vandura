@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89326 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Thayer</primary_name>
           <rest_of_name>Stuart.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5192, 10880</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5192, 10880</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,62 @@
     </descgrp>
     <bioghist>Ann Arbor, Michigan, businessman and local historian, graduate of the Ann Arbor High School and the University of Michigan. Thayer was drafted into the U.S. Army in 1994 and served on a tank crew in the 3rd Armored Division, Company D, 32nd Regiment. Thayer fought and was wounded in the Battle of the Bulge, and was awarded a Purple Heart. After World War II Thayer returned to Ann Arbor where he operated an insurance company. After Thayer retired, he became an author and historian of the American circus. He died in 2009.</bioghist>
     <scopecontent>Thayer's letters home dating from August 1944 to June 1946, from Fort Knox, Kentucky, Washington, D.C., and locations in Belgium, Italy, France, Austria, and Germany. Letters describe daily life and activities, training, military hospitals, and local towns and customs.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Letters (correspondence)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Circus.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Historic buildings</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Washtenaw County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Soldiers</term>
+        <term type="geographic">United States</term>
+        <term type="genre_form">Correspondence.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Mills</primary_name>
+        <rest_of_name>Stephen</rest_of_name>
+        <dates>b. 1809</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Thayer</primary_name>
+        <rest_of_name>Stuart.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>O'Toole</primary_name>
+        <rest_of_name>Patricia.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Catholic Church</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Northfield (Township)</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>St. Patrick's Church (Northfield, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Armored Division, 3rd</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Armored Regiment, 32nd</subordinate_name>
+        <subordinate_name>Company D</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Letters (correspondence)</term>
@@ -139,6 +197,5 @@
         <scopecontent>View of buildings along the Huron River near Ann Arbor, Michigan; and photo of home (formerly a cheese factory) in Mooreville, York Township, Washtenaw County, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

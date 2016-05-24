@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851126 Aa 2 UAm UAl</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Davis</primary_name>
           <rest_of_name>Joseph Baker</rest_of_name>
           <dates>1845-1920</dates>
@@ -26,11 +25,14 @@
       <unittitle>Joseph Baker Davis papers</unittitle>
       <unitdate type="inclusive" label="creation">1875-1918</unitdate>
       <physdesc>
-        <extent>2 linear feet</extent>
+        <extent>2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1755, 2288</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1755, 2288</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,41 @@
     </descgrp>
     <bioghist>Professor of civil engineering and associate dean of the Department of Engineering at University of Michigan.</bioghist>
     <scopecontent>Correspondence, engineering notes, and manuscripts of his book, Surveying; also material on the Washington-Idaho boundary, and the Albert Kahn memorials to Charles S. Denison and DeVolson Wood; and biographical sketch of Stillman W. Robinson; also photographs.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Denison</primary_name>
+        <rest_of_name>Charles Simeon</rest_of_name>
+        <dates>1849-1913</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Robinson</primary_name>
+        <rest_of_name>S. W.</rest_of_name>
+        <fuller_form>(Stillman Williams)</fuller_form>
+        <dates>1838-1910</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wood</primary_name>
+        <rest_of_name>De Volson</rest_of_name>
+        <dates>1832-1897</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Kahn</primary_name>
+        <rest_of_name>Albert</rest_of_name>
+        <dates>1869-1942</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Summer Session</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Denison</primary_name>
@@ -104,7 +141,7 @@
         <did>
           <unittitle>Joseph Baker Davis papers</unittitle>
           <physdesc>
-            <extent>2 linear feet</extent>
+            <extent>2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1875-1918</unitdate>
         </did>
@@ -112,19 +149,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>2 oversize folders</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 envelope</extent>
-          </physdesc>
           <unittitle>Joseph Baker Davis photograph series.</unittitle>
+          <physdesc>
+            <extent>1 envelope and 2 oversize folders</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1875-ca. 1910s</unitdate>
         </did>
         <scopecontent>Portraits; photograph of Davis with his wife, and with Mortimer E. Cooley; photograph of Davis residence in Ann Arbor, Michigan; and photograph of Davis with a horse.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

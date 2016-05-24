@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86275 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Wallace</primary_name>
           <rest_of_name>Mary Austin</rest_of_name>
           <dates>-1921</dates>
@@ -34,7 +33,10 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 4764</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4764</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -83,9 +85,56 @@
         <rest_of_name>Mary Austin</rest_of_name>
         <dates>-1921</dates>
       </persname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1861-1870.</term>
+      </subject>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farm life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Calhoun County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women in agriculture</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Burlington.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Calhoun County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">19th century.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hughes</primary_name>
+        <rest_of_name>Charles E.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wallace</primary_name>
+        <rest_of_name>Mary Austin</rest_of_name>
+        <dates>-1921</dates>
+      </persname>
       <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wallace</primary_name>
+        <rest_of_name>Mary Austin</rest_of_name>
+        <dates>-1921</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -109,6 +158,5 @@
         <scopecontent>Portrait of Wallace with two children.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 oversize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.5 linear feet</extent>
-      </physdesc>
       <unitid>001 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Felch</primary_name>
           <rest_of_name>Theodore A.</rest_of_name>
           <dates>b. 1847</dates>
@@ -31,12 +24,33 @@
       </origination>
       <unittitle>Theodore A. Felch papers</unittitle>
       <unitdate type="inclusive" label="creation">1870s-1930s</unitdate>
+      <physdesc>
+        <extent>0.5 linear ft. and 1 oversize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 207</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 207</p>
+      </odd>
     </descgrp>
     <bioghist>Ishpeming, Michigan physician, son of Michigan governor Alpheus Felch.</bioghist>
     <scopecontent>Biographical information about Felch and other members of his family, including his father; scattered correspondence; and family photographs.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Felch</primary_name>
+        <rest_of_name>Theodore A.</rest_of_name>
+        <dates>b. 1847</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Felch</primary_name>
+        <rest_of_name>Alpheus</rest_of_name>
+        <dates>1804-1896</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Felch family</family_name>
+      </famname>
+    </controlaccess>
     <controlaccess>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Felch</primary_name>
@@ -63,35 +77,41 @@
         <term type="geographic">Ishpeming (Mich.)</term>
         <term type="topical">Houses.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Felch</primary_name>
+        <rest_of_name>Theodore A.</rest_of_name>
+        <dates>b. 1847</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Felch</primary_name>
+        <rest_of_name>Alpheus</rest_of_name>
+        <dates>1804-1896</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Felch family</family_name>
+      </famname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.5 linear feet</extent>
-          </physdesc>
           <unittitle>Theodore A. Felch papers</unittitle>
+          <physdesc>
+            <extent>0.5 linear ft. and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1870s-1930s</unitdate>
         </did>
         <scopecontent>Biographical information about Felch and other members of his family, including his father; scattered correspondence; and family photographs.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.3 linear feet</extent>
-          </physdesc>
           <unittitle>Theodore A. Felch photographs.</unittitle>
+          <physdesc>
+            <extent>0.3 linear ft. and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1870s-1930s</unitdate>
         </did>
         <scopecontent>Photographs of Felch and other family members, including his father Alpheus Felch; also photograph of home in Ishpeming.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

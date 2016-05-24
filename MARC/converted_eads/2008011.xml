@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 DVD-video</extent>
-      </physdesc>
-      <physdesc>
-        <extent>3 CD-ROMs</extent>
-      </physdesc>
       <unitid>2008011 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Westhead</primary_name>
           <rest_of_name>Pete.</rest_of_name>
         </persname>
@@ -31,10 +24,17 @@
       <unittitle>Pete Westhead collection, [electronic resource].</unittitle>
       <langmaterial>In English.</langmaterial>
       <unitdate type="inclusive" label="creation">2006-2007 and 2009-2010</unitdate>
+      <physdesc>
+        <extent>3 CD-ROMs and 1 DVD-video ;</extent>
+        <dimensions>4 3/4 in.</dimensions>
+      </physdesc>
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use. Images may only be reproduced in paper copy until Dec. 2017.</accessrestrict>
-      <acqinfo>Donor: 9985</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9985</p>
+      </odd>
     </descgrp>
     <bioghist>University of Michigan employee who served in Iraq with the U.S. Army 454th Transportation Company, 2006-2007, and the 90th Sustainment Brigade, 2009-2010.</bioghist>
     <scopecontent>Monthly illustrated newsletters (pdf) describing his experiences in Iraq; photographs and video clips; video of presentation on his experiences made after his return to Michigan.</scopecontent>
@@ -62,6 +62,5 @@
         <rest_of_name>Pete.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="CD Box" type="box">6</container>
   </archdesc>
 </ead>

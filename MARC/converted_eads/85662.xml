@@ -11,28 +11,30 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85662 BB.2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local">
+        <corpname encodinganalog="110">
           <primary_name>Thomson and Houston Electric Company (Ann Arbor, Mich.)</primary_name>
         </corpname>
       </origination>
       <unittitle>Thomson and Houston Electric Company report</unittitle>
       <unitdate type="inclusive" label="creation">1896</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1176</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1176</p>
+      </odd>
     </descgrp>
     <scopecontent>Report on the renovation of the company's light station.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="691">
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Commerce.</term>
       </subject>
@@ -45,6 +47,5 @@
         <term type="geographic">Ann Arbor.</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

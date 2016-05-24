@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86507 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Whitman</primary_name>
           <rest_of_name>Bertha Yerex.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5952</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5952</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,18 @@
     </descgrp>
     <bioghist>Ann Arbor, Michigan resident, first woman architecture graduate of the University of Michigan.</bioghist>
     <scopecontent>Reminiscence of her early career and miscellaneous articles; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Architects.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Whitman</primary_name>
+        <rest_of_name>Bertha Yerex.</rest_of_name>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Architects.</term>
@@ -89,6 +103,5 @@
         <scopecontent>Exterior and interior photographs of houses and other buildings designed by Whitman.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

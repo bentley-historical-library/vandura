@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0193 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Elmouchi</primary_name>
           <rest_of_name>Joan.</rest_of_name>
         </persname>
@@ -32,7 +31,10 @@
         <head>Publication, Distribution, Etc.</head>
         <p>[2001?]</p>
       </odd>
-      <acqinfo>Donor: 9154</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9154</p>
+      </odd>
     </descgrp>
     <bioghist>Joan Elmouchi is grandaughter of Harold Herman, 1921 graduate of the University of Michigan.</bioghist>
     <scopecontent>Paper containing excerpts of Harold Herman's letters relating to student life, the Students' Army Training Corps, and officer training school. A condensed version of the paper was published in Michigan today, summer 2001.</scopecontent>
@@ -77,6 +79,5 @@
         <term type="temporal">1921-1930.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

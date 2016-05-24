@@ -11,28 +11,27 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 oversize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 linear feet</extent>
-      </physdesc>
       <unitid>85937 Aa 2 UAl</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Cloon</primary_name>
           <rest_of_name>Mary King.</rest_of_name>
         </persname>
       </origination>
       <unittitle>Mary K. Cloon papers</unittitle>
       <unitdate type="inclusive" label="creation">1908-1965</unitdate>
+      <physdesc>
+        <extent>1 linear ft. and 1 oversize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5249</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5249</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -41,7 +40,36 @@
     <bioghist>Ironwood, Michigan, school teacher.</bioghist>
     <scopecontent>Correspondence, primarily with her husband, city attorney William G. Cloon, diaries describing daily activities and interests, and photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Teachers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ironwood.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women teachers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ironwood.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ironwood (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Upper Peninsula (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cloon</primary_name>
+        <rest_of_name>Mary King.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Cloon</primary_name>
+        <rest_of_name>William G.</rest_of_name>
+      </persname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -127,31 +155,24 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 linear feet</extent>
-          </physdesc>
           <unittitle>Mary K. Cloon papers</unittitle>
+          <physdesc>
+            <extent>1 linear ft. and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1908-1965</unitdate>
         </did>
         <scopecontent>Correspondence, primarily with her husband, city attorney William G. Cloon, diaries describing daily activities and interests, and photographs.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.2 linear feet</extent>
-          </physdesc>
           <unittitle>Mary K. Cloon photograph series.</unittitle>
+          <physdesc>
+            <extent>.2 linear ft. and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1900-1947</unitdate>
         </did>
         <scopecontent>Photographs of family members and depictions of life in Ironwood, Michigan, and Hurley, Wisconsin; also winter scenes and views of area mines; photo showing college rush scene on the streets of Big Rapids, Michigan, at Ferris Institute, 1911.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

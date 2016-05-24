@@ -11,24 +11,26 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851206 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Fitzgerald family</family_name>
         </famname>
       </origination>
       <unittitle>Fitzgerald family papers</unittitle>
       <unitdate type="inclusive" label="creation">1861-1921</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4675</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4675</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -36,6 +38,46 @@
     </descgrp>
     <bioghist>Michael W. Fitzgerald family of Caledonia, Michigan.</bioghist>
     <scopecontent>Diaries, 1863-1864, of Michael W. Fitzgerald recounting his experiences in North Carolina, South Carolina, and Virginia while a member of Company G, 2nd Michigan Cavalry during the Civil War; also notebook, 1886-1888, of Jennie Fitzgerald; miscellaneous papers and newspaper clippings concerning Washtenaw County, Michigan; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Caledonia.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Caledonia (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Geddes (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Fitzgerald</primary_name>
+        <rest_of_name>Michael W.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Fitzgerald</primary_name>
+        <rest_of_name>Jennie.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Fitzgerald family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 2nd (1861-1865)</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -84,13 +126,16 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Carriages and coaches.</term>
       </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Fitzgerald family</family_name>
+      </famname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Fitzgerald family papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1861-1921</unitdate>
         </did>
@@ -107,6 +152,5 @@
         <scopecontent>Family photos.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

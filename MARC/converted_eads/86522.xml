@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86522 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Caldwell</primary_name>
           <rest_of_name>William Clinton</rest_of_name>
           <dates>1837-1896</dates>
@@ -34,7 +33,10 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 3543</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3543</p>
+      </odd>
     </descgrp>
     <bioghist>Member of the 72nd Ohio Infantry during the Civil War.</bioghist>
     <scopecontent>Letters describing life as a soldier and his impressions of the battles of Shiloh and Vicksburg.</scopecontent>
@@ -65,8 +67,5 @@
         <term type="topical">Alumni and alumnae.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
   </archdesc>
 </ead>

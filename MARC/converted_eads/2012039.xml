@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012039 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Zoller</primary_name>
           <rest_of_name>John</rest_of_name>
           <dates>1889-</dates>
@@ -35,7 +34,10 @@ analog, 33¹/₃ rpm, mono.</physfacet>
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 1350</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1350</p>
+      </odd>
     </descgrp>
     <bioghist>Detroit, Mich., radio evangelist, president and preacher of the Wesley Radio League.</bioghist>
     <scopecontent>Recordings of radio broadcasts.</scopecontent>
@@ -62,9 +64,5 @@ analog, 33¹/₃ rpm, mono.</physfacet>
         <primary_name>Wesley Radio League</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Sd Rec Box" type="box">1</container>
-    <container label="Sd Rec Box" type="box">2</container>
-    <container label="Sd Rec Box" type="box">3</container>
-    <container label="Sd Rec Box" type="box">4</container>
   </archdesc>
 </ead>

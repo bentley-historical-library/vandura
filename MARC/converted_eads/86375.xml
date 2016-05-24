@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86375 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Young</primary_name>
           <rest_of_name>Leigh Jarvis</rest_of_name>
           <dates>1883-1960</dates>
@@ -26,11 +25,14 @@
       <unittitle>Leigh Jarvis Young papers</unittitle>
       <unitdate type="inclusive" label="creation">1908-1960</unitdate>
       <physdesc>
-        <extent>1 linear feet</extent>
+        <extent>1 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3781</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3781</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,71 @@
     </descgrp>
     <bioghist>Professor of forestry at University of Michigan; director of the Michigan Department of Conservation, 1927, and mayor of Ann Arbor, Michigan.</bioghist>
     <scopecontent>Correspondence, photographs, and other papers concerning his work at University of Michigan, in the Michigan Department of Conservation, and as mayor of Ann Arbor, Michigan; and seven volumes of his student notebooks on University courses in botany, economics, geology, psychology, forest engineering, entomology, forest botany, and dendrology. Correspondents include: Fred Green, Apr. 1927, William B. Mershon, Apr. 1927, Chase S. Osborn, Jan. 1927, and Gifford Pinchot, Dec. 1925.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Mayors</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Conservation of natural resources</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Forests and forestry</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Green</primary_name>
+        <rest_of_name>Fred Warren</rest_of_name>
+        <dates>1872-1936</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Mershon</primary_name>
+        <rest_of_name>Wm. B.</rest_of_name>
+        <fuller_form>(William Butts)</fuller_form>
+        <dates>1856-1943</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Osborn</primary_name>
+        <rest_of_name>Chase S.</rest_of_name>
+        <fuller_form>(Chase Salmon)</fuller_form>
+        <dates>1860-1949</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Pinchot</primary_name>
+        <rest_of_name>Gifford</rest_of_name>
+        <dates>1865-1946</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan</primary_name>
+        <subordinate_name>Department of Conservation</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Botany</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Economics</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of Geology</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Psychology</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>School of Natural Resources</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Mayors</term>
@@ -129,13 +196,17 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Saginaw Forest (Mich.)</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>School of Natural Resources</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Leigh Jarvis Young papers</unittitle>
           <physdesc>
-            <extent>1 linear feet</extent>
+            <extent>1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1908-1960</unitdate>
         </did>
@@ -152,6 +223,5 @@
         <scopecontent>Photographs of forests and logging in Antrim, Charlevoix, and Ogemaw counties, Michigan; and photos of School of Natural Resources activities at Saginaw Forest and Eberwhite Woods, Ann Arbor, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

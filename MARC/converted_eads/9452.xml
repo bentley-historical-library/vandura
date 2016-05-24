@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9452 Aa 1 Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Milnes</primary_name>
           <rest_of_name>Alfred</rest_of_name>
           <dates>1849-1921</dates>
@@ -35,7 +34,10 @@
         <head>Reproduction Note</head>
         <p>Photocopy.</p>
       </odd>
-      <acqinfo>Donor: 8277</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8277</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Coldwater, Michigan; member of Co. C of the 17th Michigan Infantry Regiment during the Civil War; later member of Congress.</bioghist>
     <scopecontent>Letter describing the Battle of the Crater in the siege of Petersburg, Va., and biographical information.</scopecontent>
@@ -60,6 +62,5 @@
         <subordinate_name>Company C</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead>
+  <eadheader>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Finding aid for the Joseph Wilsey account book</titleproper>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+      <descrules>appm</descrules>
+    </profiledesc>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>89447 Aa 1</unitid>
+      <origination>
+        <persname encodinganalog="100" source="local">
+          <primary_name>Wilsey</primary_name>
+          <rest_of_name>Joseph.</rest_of_name>
+        </persname>
+      </origination>
+      <unittitle>Joseph Wilsey account book</unittitle>
+      <unitdate type="inclusive" label="creation">1859-1868</unitdate>
+      <physdesc>
+        <extent>1 volumes</extent>
+      </physdesc>
+    </did>
+    <descgrp>
+      <acqinfo>Donor: 7119</acqinfo>
+    </descgrp>
+    <bioghist>Pittsfield Township, Washtenaw County, Michigan, farmer.</bioghist>
+    <scopecontent>Accounts of purchases and other farm activities.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Account books.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farmers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Washtenaw County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Pittsfield Charter Township (Mich.)</term>
+      </subject>
+    </controlaccess>
+    <container label="Folder">1</container>
+  </archdesc>
+</ead>

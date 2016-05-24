@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852059 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Mutton</primary_name>
           <rest_of_name>William Watts</rest_of_name>
           <dates>1854-1942</dates>
@@ -26,14 +25,60 @@
       <unittitle>William W. Mutton diaries</unittitle>
       <unitdate type="inclusive" label="creation">1875-1942</unitdate>
       <physdesc>
-        <extent>62 volumes (1 box)</extent>
+        <extent>62 v. (1 box)</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2384</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2384</p>
+      </odd>
     </descgrp>
     <bioghist>Farmer, auctioneer, and dealer in farm implements at Flushing, Michigan.</bioghist>
     <scopecontent>Record of daily activities of a self-educated farmer and businessman, including comments on local people and events, his participation in various organizations, notes on extensive travels in United States, Europe, Egypt and Palestine in 1912 and 1936, and socialism and travels in U.S.S.R.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Agriculture</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Genesee County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farmers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Flushing.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Travelers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Egypt</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Europe</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Flushing (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Palestine</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Soviet Union.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -90,7 +135,7 @@
         <did>
           <unittitle>William W. Mutton diaries</unittitle>
           <physdesc>
-            <extent>62 volumes (1 box)</extent>
+            <extent>62 v. (1 box)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1875-1942</unitdate>
         </did>
@@ -107,6 +152,5 @@
         <scopecontent>Portrait.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -6,7 +6,7 @@ from os.path import join
 import re
 
 def make_acqinfo_from_odd(marc_dir):
-	converted_eads = join(marc_dir, "converted_eads")
+	converted_eads = join(marc_dir, "converted_eads_working")
 
 	for filename in os.listdir(converted_eads):
 		print "Making acqinfo from odd in {}".format(filename)
@@ -30,7 +30,7 @@ def make_acqinfo_from_odd(marc_dir):
 
 
 def split_extents(marc_dir):
-	converted_eads = join(marc_dir, "converted_eads")
+	converted_eads = join(marc_dir, "converted_eads_working")
 
 	for filename in os.listdir(converted_eads):
 		print "Splitting extents in {}".format(filename)
@@ -60,7 +60,7 @@ def split_extents(marc_dir):
 
 
 def normalize_extents(marc_dir):
-	converted_eads = join(marc_dir, 'converted_eads')
+	converted_eads = join(marc_dir, 'converted_eads_working')
 
 	no_extents = []
 
@@ -78,11 +78,14 @@ def normalize_extents(marc_dir):
 		if extents:
 			for extent in extents:
 				physdesc = extent.getparent()
-				extent_statement = extent.text.replace(r"&lt;","").replace(r"&gt;","").replace("two","2").replace("One", "1").replace("computer optical","optical").strip()
+				extent_statement = extent.text.replace(r"&lt;","").replace(r"&gt;","").replace("two","2").replace("One", "1").replace("computer optical","optical").replace("computer laser optical", "optical").strip()
 				starts_with_digits = re.compile(r"^\d")
 				starts_without_digits = re.compile(r"^[^\d]")
 				starts_with_digit_letter = re.compile(r"^\d[A-Za-z]")
-				has_dimensions = re.compile(r"\(.*?min\..*?\)")
+				has_dimensions = re.compile(r"\(.*?\bmin\b.*?\)")
+				has_container_summary = re.compile(r"\(.*?\d+.*[A-Za-z]+.*?\)")
+				endswith_container_summary = re.compile(r"\bin \d+ box(es)?$")
+				has_parenthetical_physfacet = re.compile(r"\([A-Za-z\s]+\)$")
 				if extent_statement.endswith(";"):
 					extent_statement = re.sub(r";$","",extent_statement).strip()
 				extent_statement = re.sub(r"linear ft\.?","linear feet",extent_statement)
@@ -109,15 +112,48 @@ def normalize_extents(marc_dir):
 				if starts_without_digits.match(extent_statement):
 					extent_statement = "1 " + extent_statement + " [fake number supplied]"
 				if has_dimensions.search(extent_statement):
-					dimensions = re.findall(r"\(.*?min\..*?\)", extent_statement)[0]
+					dimensions = re.findall(r"\(.*?\bmin\b.*?\)", extent_statement)[0]
 					if physdesc.xpath("./dimensions"):
 						existing_dimensions = physdesc.xpath("./dimensions")[0]
-						existing_dimensions.text = existing_dimensions.text + "; {}".format(dimensions.replace("(","").replace(")",""))
+						existing_dimensions.text = existing_dimensions.text + "; {}".format(dimensions.replace("(","").replace(")","").strip())
 					else:
 						new_dimensions = etree.Element("dimensions")
-						new_dimensions.text = dimensions
+						new_dimensions.text = dimensions.replace("(","").replace(")","").strip()
 						physdesc.append(new_dimensions)
 					extent_statement = extent_statement.replace(dimensions, "").strip()
+				if has_container_summary.search(extent_statement):
+					container_summary = re.findall(r"\(.*?\d+.*[A-Za-z]+.*?\)", extent_statement)[0]
+					if len(physdesc.xpath("./extent")) > 1:
+						extent_carrier = physdesc.xpath("./extent")[1]
+						extent_carrier.text = extent_carrier.text + "; {}".format(container_summary.replace("(", "").replace(")", "").strip())
+					else:
+						extent_carrier = etree.Element("extent")
+						extent_carrier.attrib["altrender"] = "carrier"
+						extent_carrier.text = container_summary.replace("(", "").replace(")","").strip()
+						physdesc.append(extent_carrier)
+					extent_statement = extent_statement.replace(container_summary,"").strip()
+				if endswith_container_summary.search(extent_statement):
+					container_summary = re.findall(r"\b(in \d+ box(es)?$)", extent_statement)[0][0]
+					if len(physdesc.xpath("./extent")) > 1:
+						extent_carrier = physdesc.xpath("./extent")[1]
+						extent_carrier.text = extent_carrier.text + "; {}".format(container_summary)
+					else:
+						extent_carrier = etree.Element("extent")
+						extent_carrier.attrib["altrender"] = "carrier"
+						extent_carrier.text = container_summary.strip()
+						physdesc.append(extent_carrier)
+					extent_statement = extent_statement.replace(container_summary,"").strip()
+				if has_parenthetical_physfacet.search(extent_statement):
+					parenthetical_physfacet = re.findall(r"\([A-Za-z\s]+\)$", extent_statement)[0]
+					if physdesc.xpath("./physfacet"):
+						physfacet = physdesc.xpath("./physfacet")[0]
+						physfacet.text = physfacet.text + "; {}".format(parenthetical_physfacet.replace("(", "").replace(")", "").strip())
+					else:
+						physfacet = etree.Element("physfacet")
+						physfacet.text = parenthetical_physfacet.replace("(", "").replace(")", "").strip()
+						physdesc.append(physfacet)
+					extent_statement = extent_statement.replace(parenthetical_physfacet, "").strip()
+
 
 				extent.text = extent_statement.strip()
 			

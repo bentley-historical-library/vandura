@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9750 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Emerson</primary_name>
           <rest_of_name>Pauline Olga</rest_of_name>
           <dates>1894-1965</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8574</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8574</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan, class of 1916.</bioghist>
     <scopecontent>Scrapbook containing programs, clippings, and remembrances of her high school activities in Alexandria, Indiana, and relating to her subsequent social activities at the University of Michigan; and photograph album.</scopecontent>
@@ -50,6 +52,8 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -65,6 +69,30 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Jefferson Street (Ann Arbor, Mich.)</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Emerson</primary_name>
+        <rest_of_name>Pauline Olga</rest_of_name>
+        <dates>1894-1965</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1916</subordinate_name>
+      </corpname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Emerson</primary_name>
+        <rest_of_name>Pauline Olga</rest_of_name>
+        <dates>1894-1965</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1916</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -88,6 +116,5 @@
         <scopecontent>Album containing personal snapshots of friends and views in Alexandria, Indiana, in Franklin, Ohio, and at the University of Michigan. The album includes many views of Jefferson St. residences in Ann Arbor, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

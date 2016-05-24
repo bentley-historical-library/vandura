@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852150 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Robinson</primary_name>
           <rest_of_name>Maude</rest_of_name>
           <dates>1875-1959</dates>
@@ -30,10 +29,21 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3279</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3279</p>
+      </odd>
     </descgrp>
     <bioghist>Local historian of Vicksburg, Michigan.</bioghist>
     <scopecontent>Reminiscences, clippings, and other papers concerning history of Vicksburg, and Fulton, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Fulton (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Vicksburg (Mich.)</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Fulton (Mich.)</term>
@@ -70,6 +80,5 @@
         <scopecontent>Robinson family photos.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

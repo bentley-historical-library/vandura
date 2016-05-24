@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88239 AC</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Dewey</primary_name>
           <rest_of_name>Fred G.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Fred G. Dewey scrapbook</unittitle>
       <unitdate type="inclusive" label="creation">1895-1904</unitdate>
       <physdesc>
-        <extent>1 oversize volumes (ca. 100 p.)</extent>
+        <extent>1 oversize v. (ca. 100 p.)</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4107</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4107</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan, class of 1902.</bioghist>
     <scopecontent>Scrapbook concerning student activities and detailing founding of the University of Michigan Association of Detroit.</scopecontent>
@@ -59,6 +61,5 @@
         <term type="geographic">Detroit.</term>
       </corpname>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

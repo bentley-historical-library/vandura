@@ -11,35 +11,52 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 oversize box</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.1 linear feet</extent>
-      </physdesc>
       <unitid>88479 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Jocelyn</primary_name>
           <rest_of_name>Louis Parker.</rest_of_name>
         </persname>
       </origination>
       <unittitle>Louis Parker Jocelyn papers</unittitle>
       <unitdate type="inclusive" label="creation">1883-1937 (scattered dates)</unitdate>
+      <physdesc>
+        <extent>.1 linear ft. and 1 oversize box</extent>
+      </physdesc>
     </did>
     <descgrp>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 192, 8510</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 192, 8510</p>
+      </odd>
     </descgrp>
     <bioghist>Secretary of the Literary Alumni Society and the Alumni Association of the University of Michigan.</bioghist>
     <scopecontent>Manuscript history (ca. 1936) of the Literary Alumni Society and of the general Alumni Association of the University of Michigan; minutes of meetings and correspondence of class of 1887 (1883-1937); and photographs.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Alumni and alumnae.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Alumni Association</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1887</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Literary Alumni Society</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
@@ -70,6 +87,10 @@
       </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1887</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
         <term type="topical">Students.</term>
       </corpname>
       <corpname source="lcnaf" encodinganalog="610">
@@ -83,32 +104,24 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize box</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.1 linear feet</extent>
-          </physdesc>
           <unittitle>Louis Parker Jocelyn papers</unittitle>
+          <physdesc>
+            <extent>.1 linear ft. and 1 oversize box</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1883-1937 (scattered dates)</unitdate>
         </did>
         <scopecontent>Manuscript history (ca. 1936) of the Literary Alumni Society and of the general Alumni Association of the University of Michigan; minutes of meetings and correspondence of class of 1887 (1883-1937); and photographs.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 oversize box</extent>
-          </physdesc>
           <unittitle>Louis Parker Jocelyn photograph series.</unittitle>
+          <physdesc>
+            <extent>1 oversize box and 1 folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1883-1912 (scattered dates)</unitdate>
         </did>
         <scopecontent>Photos of members of Ann Arbor High School, class of 1883, of University of Michigan classes of 1869 and 1887, of members of Zeta Psi Fraternity, and of Ann Arbor High School faculty, 1902.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

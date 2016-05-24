@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>95110 Aa 1 Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Hathaway</primary_name>
           <rest_of_name>Arthur B.</rest_of_name>
           <dates>1840-1884</dates>
@@ -34,7 +33,10 @@
         <head>General Note</head>
         <p>Photograph cataloged separately.</p>
       </odd>
-      <acqinfo>Donor: 7240</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7240</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Owosso, Mich., who served in the 9th Michigan Infantry during the Civil War; later lived in East Saginaw, Mich.</bioghist>
     <scopecontent>Papers relating to his Civil war service, correspondence relating to purchase of timber lands, and photograph.</scopecontent>
@@ -58,6 +60,8 @@
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 9th (1861-1865)</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -66,6 +70,35 @@
         <term type="geographic">Michigan</term>
         <term type="geographic">Owosso.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hathaway</primary_name>
+        <rest_of_name>Arthur B.</rest_of_name>
+        <dates>1840-1884</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 9th (1861-1865)</subordinate_name>
+      </corpname>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Real property</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hathaway</primary_name>
+        <rest_of_name>Arthur B.</rest_of_name>
+        <dates>1840-1884</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 9th (1861-1865)</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -89,6 +122,5 @@
         <scopecontent>Portrait in uniform.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

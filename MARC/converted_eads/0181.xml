@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0181 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Cervini</primary_name>
           <rest_of_name>Adrian.</rest_of_name>
         </persname>
@@ -29,10 +28,31 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9020</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9020</p>
+      </odd>
     </descgrp>
     <bioghist>Sergeant with the U.S. Marine Corps serving in World War II and the Korean War; commandant with the U.S. Marine Corps League of Michigan, a veterans organization.</bioghist>
     <scopecontent>Albums containing photos, clippings, and other materials relating to his military service and his involvement in veterans affairs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Veterans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cervini</primary_name>
+        <rest_of_name>Adrian.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Marine Corps League (U.S.)</primary_name>
+        <subordinate_name>Dept. of Michigan</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Marine Corps</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Veterans</term>
@@ -67,6 +87,18 @@
         <term type="topical">Veterans organizations</term>
         <term type="geographic">Michigan.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cervini</primary_name>
+        <rest_of_name>Adrian.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Marine Corps League (U.S.)</primary_name>
+        <subordinate_name>Dept. of Michigan</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Marine Corps</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -90,6 +122,5 @@
         <scopecontent>Albums containing photos from his military service and from his participation in various veterans functions.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

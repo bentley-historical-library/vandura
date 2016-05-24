@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851342 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Graham</primary_name>
           <rest_of_name>Frederick J.</rest_of_name>
         </persname>
@@ -25,16 +24,19 @@
       <unittitle>Frederick J. Graham account book</unittitle>
       <unitdate type="inclusive" label="creation">1896-1897</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1278</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1278</p>
+      </odd>
     </descgrp>
     <bioghist>Physician at Sumner, Michigan.</bioghist>
     <scopecontent>Record of medical practice.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Account books.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -51,6 +53,5 @@
         <term type="geographic">Sumner (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

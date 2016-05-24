@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>25 items in 1 box</extent>
-      </physdesc>
-      <physdesc>
-        <extent>2 volumes</extent>
-      </physdesc>
       <unitid>85127 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>DeLamarter</primary_name>
           <rest_of_name>Mary B.</rest_of_name>
           <fuller_form>(Mary Baker)</fuller_form>
@@ -32,9 +25,15 @@
       </origination>
       <unittitle>Mary B. DeLamarter papers</unittitle>
       <unitdate type="inclusive" label="creation">1871-1938</unitdate>
+      <physdesc>
+        <extent>2 v. and 25 items in 1 box</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1562</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1562</p>
+      </odd>
     </descgrp>
     <bioghist>Lansing, Michigan, poet and writer of verse for newspapers [occasionally under the pen name Ruth Reade].</bioghist>
     <scopecontent>Scrapbook of newspaper poems, letters, and essays; notebook containing manuscripts of poems; loose scrapbook material; and diary, 1886, of train trip to California from Lansing [probably written by Mary B. DeLamarter or other member of Baker family].</scopecontent>
@@ -44,7 +43,7 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1881-1890.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="aat" encodinganalog="655">
@@ -91,6 +90,5 @@
         <family_name>Baker family</family_name>
       </famname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

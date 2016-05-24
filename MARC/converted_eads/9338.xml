@@ -11,20 +11,19 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9338 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="local">
+        <famname encodinganalog="100">
           <family_name>Wolff family (Livonia and Plymouth, Mich.)</family_name>
         </famname>
       </origination>
       <unittitle>Wolff family photograph collection.</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1880-ca. 1920</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>0.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -32,7 +31,10 @@
         <head>Publication, Distribution, Etc.</head>
         <p>ca. 1880-ca. 1920.</p>
       </odd>
-      <acqinfo>Donor: 7072</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7072</p>
+      </odd>
     </descgrp>
     <bioghist>Family of Livonia and Plymouth, Michigan.</bioghist>
     <scopecontent>Individual and group portraits of Wolff family members and friends; and photographs of businesses, public buildings, disasters, gatherings, and other activities, primarily in the Detroit, Plymouth, and Livonia, Michigan area.</scopecontent>
@@ -114,7 +116,7 @@
         <term type="topical">Ships</term>
         <term type="geographic">Great Lakes.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651">
+      <subject source="local" encodinganalog="651">
         <term type="geographic">Belle Isle (Detroit, Mich.)</term>
       </subject>
       <subject source="lctgm" encodinganalog="651">
@@ -174,6 +176,5 @@
         <primary_name>Michigan State Fair</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

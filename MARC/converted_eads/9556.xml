@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9556 AC</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Thornquist</primary_name>
           <rest_of_name>Russell A.</rest_of_name>
         </persname>
@@ -24,7 +23,7 @@
       <unittitle>Russell A. Thornquist scrapbook</unittitle>
       <unitdate type="inclusive" label="creation">1920-1923</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -32,7 +31,10 @@
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 8393</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8393</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Scrapbook includes student memorabilia and photographs.</scopecontent>
@@ -50,12 +52,34 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1921-1930.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Thornquist</primary_name>
+        <rest_of_name>Russell A.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1921-1930.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Fraternities and sororities.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Thornquist</primary_name>
+        <rest_of_name>Russell A.</rest_of_name>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Phi Delta Theta Fraternity</primary_name>
         <subordinate_name>Michigan Alpha Chapter (University of Michigan)</subordinate_name>
@@ -75,7 +99,7 @@
         <did>
           <unittitle>Russell A. Thornquist scrapbook</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1920-1923</unitdate>
         </did>
@@ -85,13 +109,12 @@
         <did>
           <unittitle>Russell A. Thornquist photographs.</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1920-1923</unitdate>
         </did>
         <scopecontent>Photographs of friends, of Thornquist's room, and of Phi Delta Theta House.</scopecontent>
       </c01>
     </dsc>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

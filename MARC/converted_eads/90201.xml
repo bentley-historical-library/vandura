@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>90201 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Willison</primary_name>
           <rest_of_name>Elizabeth.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Elizabeth Willison papers</unittitle>
       <unitdate type="inclusive" label="creation">[19--]</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7862</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7862</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,47 @@
     </descgrp>
     <bioghist>Resident of Sault Ste. Marie, Michigan, a seamstress.</bioghist>
     <scopecontent>Reminiscences (partly fictionalized?) of her early life in England, emigration as a child to Ontario, life there in Owen Sound and other communities, working as a seamstress, and moving to Sault Ste. Marie in 1892 and working there; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">British Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Tailors</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Sault Sainte Marie.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women tailors</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Sault Sainte Marie.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Sault Sainte Marie.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Immigrants</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ontario</term>
+        <term type="topical">Emigration and immigration.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Emigration and immigration.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">England</term>
+        <term type="topical">Emigration and immigration.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Willison</primary_name>
+        <rest_of_name>Elizabeth.</rest_of_name>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">British Americans</term>
@@ -89,7 +132,7 @@
         <did>
           <unittitle>Elizabeth Willison papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">[19--]</unitdate>
         </did>
@@ -106,6 +149,5 @@
         <scopecontent>A family portrait and several English scenes.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

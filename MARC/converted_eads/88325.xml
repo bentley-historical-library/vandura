@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88325 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Wagner</primary_name>
           <rest_of_name>George</rest_of_name>
           <dates>1873-1954</dates>
@@ -34,7 +33,10 @@
         <head>Reproduction Note</head>
         <p>Photocopy.</p>
       </odd>
-      <acqinfo>Donor: 7546</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7546</p>
+      </odd>
     </descgrp>
     <bioghist>1893 graduate of the University of Michigan College of Pharmacy, holder of 1903 graduate degree from the University of Michigan, and professor of zoology at the University of Wisconsin.</bioghist>
     <scopecontent>Description of his life to 1898.</scopecontent>
@@ -55,6 +57,5 @@
         <term type="temporal">1891-1900.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

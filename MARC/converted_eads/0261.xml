@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0261 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Kidder</primary_name>
           <rest_of_name>Wilbur Karl</rest_of_name>
           <dates>1912-1970</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9111</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9111</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Diaries, 1935-1949., in box 1; diaries, 1950-1970, and miscellaneous in box 2.</p>
@@ -64,7 +66,5 @@
         <dates>1912-1970</dates>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

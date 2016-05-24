@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>3 volumes</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 item</extent>
-      </physdesc>
       <unitid>86166 AA Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Van Koevering</primary_name>
           <rest_of_name>Adrian</rest_of_name>
           <dates>1874-1960</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>Adrian Van Koevering manuscript articles</unittitle>
       <unitdate type="inclusive" label="creation">1956</unitdate>
+      <physdesc>
+        <extent>1 item and 3 v</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3265</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3265</p>
+      </odd>
     </descgrp>
     <bioghist>Editor-manager of the Zeeland Record.</bioghist>
     <scopecontent>Historical sketch of the Zeeland Record and manuscript entitled, "The Dutch Colonial Pioneers of Western Michigan: the Story of a Mass Movement of 19th Century Pilgrims."</scopecontent>
@@ -88,9 +87,5 @@
         <dates>1811-1876</dates>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
-    <container label="Volume" type="volume">3</container>
   </archdesc>
 </ead>

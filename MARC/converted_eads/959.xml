@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>959 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Wells</primary_name>
           <rest_of_name>Mary.</rest_of_name>
         </persname>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8319</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8319</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Ypsilanti and Tecumseh, Mich. Wife of A. A. Wells.</bioghist>
     <scopecontent>Nine letters from her brother Clark Willson, a businessman in New York City, describing business activities and politics. One letter to Julia Willson (wife of Clark Willson) and one letter to an unnamed aunt, both describing family activities. One letter from Clara Wilson (Julia Willson's sister) and her husband John B. Wilson, of Lapeer, Mich., to Julia and Clark Willson, describing family activities and the operation of John B. Wilson's Lapeer sawmill.</scopecontent>
@@ -65,6 +67,5 @@
         <family_name>Wilson family</family_name>
       </famname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

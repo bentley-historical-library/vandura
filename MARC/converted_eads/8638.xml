@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8638 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Smith</primary_name>
           <rest_of_name>Joseph Rowe</rest_of_name>
           <dates>1831-1911</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1771.</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771.</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -65,12 +67,45 @@
         <primary_name>Smith</primary_name>
         <rest_of_name>Susan Wegg.</rest_of_name>
       </persname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Indians of North America</term>
+        <term type="geographic">Florida.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Physicians</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Seminole War, 2nd, 1835-1842.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Arkansas River.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Smith</primary_name>
+        <rest_of_name>Joseph Rowe</rest_of_name>
+        <dates>1831-1911</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Smith</primary_name>
+        <rest_of_name>Susan Wegg.</rest_of_name>
+      </persname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Military officers.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Smith</primary_name>
+        <rest_of_name>Joseph Rowe</rest_of_name>
+        <dates>1831-1911</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -94,6 +129,5 @@
         <scopecontent>Portraits and family photos.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

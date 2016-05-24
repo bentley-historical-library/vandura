@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851602 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Kirkpatrick</primary_name>
           <rest_of_name>Clifford</rest_of_name>
           <dates>b. 1855</dates>
@@ -26,11 +25,14 @@
       <unittitle>Clifford Kirkpatrick business records</unittitle>
       <unitdate type="inclusive" label="creation">1882-1895</unitdate>
       <physdesc>
-        <extent>2 volumes</extent>
+        <extent>2 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2115</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2115</p>
+      </odd>
     </descgrp>
     <bioghist>Adrian, Michigan physician.</bioghist>
     <scopecontent>Ledger and daybook concerning his medical practice.</scopecontent>
@@ -52,7 +54,5 @@
         <term type="geographic">Adrian (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

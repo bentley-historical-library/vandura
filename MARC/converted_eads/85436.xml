@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>3 envelopes</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 volumes</extent>
-      </physdesc>
       <unitid>85436 Aa 1 UAs</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Van Deman</primary_name>
           <rest_of_name>Esther Boise</rest_of_name>
           <dates>1862-1937</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>Esther Boise Van Deman papers</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1870-1936</unitdate>
+      <physdesc>
+        <extent>1 v. and 3 envelopes</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 748, 5254</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 748, 5254</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -41,6 +40,22 @@
     </descgrp>
     <bioghist>Archeologist.</bioghist>
     <scopecontent>Notes on lectures of Herbert F. DeCou in classical archaeology given in Rome, 1901-1902; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Archaeology.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women archaeologists.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Archaeologists.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>De Cou</primary_name>
+        <rest_of_name>Herbert Fletcher</rest_of_name>
+        <dates>d. 1911</dates>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Archaeology.</term>
@@ -108,13 +123,10 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>3 envelopes</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 volumes</extent>
-          </physdesc>
           <unittitle>Esther Boise Van Deman papers</unittitle>
+          <physdesc>
+            <extent>1 v. and 3 envelopes</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1870-1936</unitdate>
         </did>
         <scopecontent>Notes on lectures of Herbert F. DeCou in classical archaeology given in Rome, 1901-1902; and photographs.</scopecontent>
@@ -130,6 +142,5 @@
         <scopecontent>Portraits and snapshots; photos from archaeological excavations and travels; and photos of homes and activities in Michigan and Ohio.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

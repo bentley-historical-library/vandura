@@ -11,25 +11,21 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 envelope</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 volumes</extent>
-      </physdesc>
       <unitid>86667 Aa 1 UAs</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Christiancy</primary_name>
           <rest_of_name>Henry Clay.</rest_of_name>
         </persname>
       </origination>
       <unittitle>Henry Clay Christiancy diary</unittitle>
       <unitdate type="inclusive" label="creation">1862-1864</unitdate>
+      <physdesc>
+        <extent>1 v. and 1 envelope</extent>
+      </physdesc>
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
@@ -37,7 +33,10 @@
         <head>Reproduction Note</head>
         <p>Typescript and photocopies.</p>
       </odd>
-      <acqinfo>Donor: 5806</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5806</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -66,23 +65,56 @@
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Michigan Infantry Regiment, 1st (1861-1865)</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Monroe County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Christiancy</primary_name>
+        <rest_of_name>Henry Clay.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 1st (1861-1865)</subordinate_name>
+      </corpname>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Military officers.</term>
       </subject>
       <subject source="aat" encodinganalog="651">
         <term type="geographic">Photographs.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Christiancy</primary_name>
+        <rest_of_name>Henry Clay.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 1st (1861-1865)</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 envelope</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 volumes</extent>
-          </physdesc>
           <unittitle>Henry Clay Christiancy diary</unittitle>
+          <physdesc>
+            <extent>1 v. and 1 envelope</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1862-1864</unitdate>
         </did>
         <scopecontent>Brief notations of daily activities, maps of military engagements, photographs, and correspondence.</scopecontent>
@@ -98,6 +130,5 @@
         <scopecontent>Portraits (copy prints, one colored).</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

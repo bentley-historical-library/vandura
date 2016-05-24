@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 outsize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.2 linear feet</extent>
-      </physdesc>
       <unitid>86447 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Connable</primary_name>
           <rest_of_name>Ralph</rest_of_name>
           <dates>1873-</dates>
@@ -31,12 +24,40 @@
       </origination>
       <unittitle>Ralph Connable papers</unittitle>
       <unitdate type="inclusive" label="creation">1900-1932</unitdate>
+      <physdesc>
+        <extent>.2 linear ft. and 1 outsize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6674</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6674</p>
+      </odd>
     </descgrp>
     <bioghist>Petoskey, Michigan, resident, later executive with Woolworths of Canada.</bioghist>
     <scopecontent>Correspondence, newsletters, speeches and other materials relating to his activities with Woolworths, with the Victory Bond drive in Canada during World War I, and as an advocate of a national purchasing board for Canada; also photographs and miscellanea relating to his motor caravan; and family and genealogical materials.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Motor homes.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Canada.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Connable</primary_name>
+        <rest_of_name>Ralph</rest_of_name>
+        <dates>1873-</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Connable family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>F.W. Woolworth Company</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Motor homes.</term>
@@ -64,6 +85,9 @@
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">African Americans.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Motor homes.</term>
+      </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Servants.</term>
       </subject>
@@ -71,31 +95,24 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.2 linear feet</extent>
-          </physdesc>
           <unittitle>Ralph Connable papers</unittitle>
+          <physdesc>
+            <extent>.2 linear ft. and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1900-1932</unitdate>
         </did>
         <scopecontent>Correspondence, newsletters, speeches and other materials relating to his activities with Woolworths, with the Victory Bond drive in Canada during World War I, and as an advocate of a national purchasing board for Canada; also photographs and miscellanea relating to his motor caravan; and family and genealogical materials.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 folder</extent>
-          </physdesc>
           <unittitle>Ralph Connable photograph series.</unittitle>
+          <physdesc>
+            <extent>1 folder and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1925-ca. 1930</unitdate>
         </did>
         <scopecontent>Photographs of his motor caravan, built in 1925.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

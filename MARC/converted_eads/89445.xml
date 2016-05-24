@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89445 AA Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Willison</primary_name>
           <rest_of_name>Henry Clay</rest_of_name>
           <dates>1846-1906</dates>
@@ -26,11 +25,14 @@
       <unittitle>Henry Clay Willison papers</unittitle>
       <unitdate type="inclusive" label="creation">1865 and ca. 1870</unitdate>
       <physdesc>
-        <extent>2 volumes</extent>
+        <extent>2 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3623</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3623</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,12 @@
     </descgrp>
     <bioghist>Student at the University of Michigan Medical School, 1870-1871.</bioghist>
     <scopecontent>Autograph book, 1865 and photograph album, ca. 1870 including some photographs of Medical School faculty.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Medicine and Surgery</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
@@ -65,7 +73,7 @@
         <did>
           <unittitle>Henry Clay Willison papers</unittitle>
           <physdesc>
-            <extent>2 volumes</extent>
+            <extent>2 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1865 and ca. 1870</unitdate>
         </did>
@@ -75,14 +83,12 @@
         <did>
           <unittitle>Henry Clay Willison photograph series.</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1870</unitdate>
         </did>
         <scopecontent>Portraits of faculty and other persons.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

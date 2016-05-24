@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851835 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Maynard</primary_name>
           <rest_of_name>William Sumner</rest_of_name>
           <dates>1802-1866</dates>
@@ -35,7 +34,10 @@
         <head>Reproduction Note</head>
         <p>Woodbridge letter typescript copy.</p>
       </odd>
-      <acqinfo>Donor: 1278</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1278</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -43,6 +45,48 @@
     </descgrp>
     <bioghist>Mayor of Ann Arbor, Michigan.</bioghist>
     <scopecontent>Letter, 1843, of William Woodbridge concerning the University of Michigan, and correspondence, 1932, of Milo Quaife, Alexander Ruthven and Frank Robbins commenting on it; stock certificate, 1836, of the Ann Arbor Land Company; and wedding certificate, 1857, of Deborah Lansing and Maynard; and photograph.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Land use</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Maynard</primary_name>
+        <rest_of_name>Deborah Lansing.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Maynard</primary_name>
+        <rest_of_name>William Sumner</rest_of_name>
+        <dates>1802-1866</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Quaife</primary_name>
+        <rest_of_name>Milo Milton</rest_of_name>
+        <dates>1880-1959</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Robbins</primary_name>
+        <rest_of_name>Frank Egleston</rest_of_name>
+        <dates>1884-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Ruthven</primary_name>
+        <rest_of_name>Alexander Grant</rest_of_name>
+        <dates>1882-1971</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Woodbridge</primary_name>
+        <rest_of_name>William</rest_of_name>
+        <dates>1780-1861</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">History.</term>
+      </corpname>
+      <corpname source="local" encodinganalog="710">
+        <primary_name>Ann Arbor Land Company</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Land use</term>
@@ -114,6 +158,5 @@
         <scopecontent>Portrait of Mrs. Lulin Wilson, Maynard's eldest daughter.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

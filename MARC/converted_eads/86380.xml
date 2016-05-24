@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86380 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Wood</primary_name>
           <rest_of_name>Norman Asa</rest_of_name>
           <dates>1857-</dates>
@@ -26,11 +25,14 @@
       <unittitle>Norman Asa Wood papers</unittitle>
       <unitdate type="inclusive" label="creation">1848-1957</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3467</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3467</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,33 @@
     </descgrp>
     <bioghist>Curator of Birds at University of Michigan Museum.</bioghist>
     <scopecontent>Genealogical materials on the Wood and Phelps families of Lodi Township and Ann Arbor, Michigan; scrapbooks of miscellaneous items, including obituaries, news of the Wood family, sheep breeding in Washtenaw County, Michigan, and ornithological affairs; volume of flock records of Wood's merino sheep; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Birds.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Sheep.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Lodi Plains (Mich.)</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Phelps family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Wood family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Lodi Academy</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>University Museum</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
@@ -172,7 +201,7 @@
         <did>
           <unittitle>Norman Asa Wood papers</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1848-1957</unitdate>
         </did>
@@ -189,7 +218,5 @@
         <scopecontent>Portraits and informal photos of Wood, and his wife, Lillian Phelps Wood; photos of Wood at the museum and on various travels; photos of students and facilities at University of Michigan Biological Station, Douglas Lake, Michigan; photographs of Warren Dunes and woods in Berrien County, Michigan; and other forest views.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

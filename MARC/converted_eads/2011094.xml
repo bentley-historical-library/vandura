@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 volume</extent>
-      </physdesc>
       <unitid>2011094 AC; Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Sterzik</primary_name>
           <rest_of_name>Dolores Ione.</rest_of_name>
         </persname>
@@ -31,10 +24,16 @@
       <unittitle>Dolores Ione Sterzik scrapbook</unittitle>
       <langmaterial>In English.</langmaterial>
       <unitdate type="inclusive" label="creation">1937-1941</unitdate>
+      <physdesc>
+        <extent>1 volume and 1 folder</extent>
+      </physdesc>
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10582</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10582</p>
+      </odd>
     </descgrp>
     <bioghist>Graduate of the University of Michigan (BA Education, 1941).</bioghist>
     <scopecontent>Scrapbook containing clippings, programs, greeting cards, published material, and various other ephemera; also loose material taken from scrapbook.</scopecontent>
@@ -56,7 +55,5 @@
         <term type="topical">Students.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

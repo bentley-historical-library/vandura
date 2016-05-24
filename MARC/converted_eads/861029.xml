@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>861029 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Hicks</primary_name>
           <rest_of_name>Henry W.</rest_of_name>
           <dates>b. 1837</dates>
@@ -26,11 +25,14 @@
       <unittitle>Henry W. Hicks papers</unittitle>
       <unitdate type="inclusive" label="creation">1859-1865</unitdate>
       <physdesc>
-        <extent>0.2 linear feet (2 volumes and 2 folders)</extent>
+        <extent>0.2 linear feet (2 v. and 2 folders)</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1771, 3832</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771, 3832</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photograph described separately.</p>
@@ -77,16 +79,61 @@
         <primary_name>Methodist Episcopal Church</primary_name>
         <term type="geographic">Michigan.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Frontier and pioneer life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Holly.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Corunna (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Holly (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Marion (Livingston County, Mich. : Township)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hicks</primary_name>
+        <rest_of_name>Henry W.</rest_of_name>
+        <dates>b. 1837</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Methodist Protestant Church (U.S. : 1830-1939)</primary_name>
+        <term type="geographic">Michigan.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Methodist Protestant Church (U.S. : 1830-1939)</primary_name>
+        <subordinate_name>Allmont Circuit</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Methodist Episcopal Church</primary_name>
+        <term type="geographic">Michigan.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hicks</primary_name>
+        <rest_of_name>Henry W.</rest_of_name>
+        <dates>b. 1837</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Henry W. Hicks papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet (2 volumes and 2 folders)</extent>
+            <extent>0.2 linear feet (2 v. and 2 folders)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1859-1865</unitdate>
         </did>
@@ -103,6 +150,5 @@
         <scopecontent>Portrait.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -7,6 +7,7 @@ from scripts.agent_role_normalization import normalize_agent_roles
 from scripts.agent_source_propagation import agent_source_propagation
 from scripts.characterize_and_merge_marcxml import characterize_and_merge_marcxml
 from scripts.convert_marcxml_to_ead import convert_marcxml_to_ead
+from scripts.copy_master_eads import copy_master_eads
 from scripts.deduplicate_subjects import deduplicate_subjects
 from scripts.note_cleanup import make_acqinfo_from_odd
 from scripts.note_cleanup import normalize_extents
@@ -25,12 +26,16 @@ def characterize_and_convert_marcxml_to_ead(ead_dir, marc_dir, real_masters_all,
 	joined_dir = join(marc_dir, "marcxml_no_ead_joined")
 
 	# This one is SUPPRESSED, is not in BEAL, and is for an unspecified department's publications
-	os.remove(join(joined_dir, "011000.xml"))
+	if os.path.exists(join(joined_dir, "011000.xml")):
+		os.remove(join(joined_dir, "011000.xml"))
 
-	converted_dir = join(marc_dir, "converted_eads")
-	unconverted_dir = join(marc_dir, "unconverted_marcxml")
-	convert_marcxml_to_ead(joined_dir, converted_dir, unconverted_dir)
+	# Uncomment the below lines to convert MARC XML to EAD. Only necessary when changes are made to the EAD converter script
+	#converted_dir = join(marc_dir, "converted_eads")
+	#unconverted_dir = join(marc_dir, "unconverted_marcxml")
+	#convert_marcxml_to_ead(joined_dir, converted_dir, unconverted_dir)
 
+	working_dir = join(marc_dir, "converted_eads_working")
+	copy_master_eads(marc_dir)
 	normalize_extents(marc_dir)
 	split_extents(marc_dir)
 	make_acqinfo_from_odd(marc_dir)
@@ -42,7 +47,7 @@ def characterize_and_convert_marcxml_to_ead(ead_dir, marc_dir, real_masters_all,
 	agent_source_propagation(marc_dir)
 	normalize_agent_roles(marc_dir)
 
-	prettify_xml_in_directory(converted_dir, converted_dir)
+	prettify_xml_in_directory(working_dir, working_dir)
 
 
 

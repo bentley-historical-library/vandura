@@ -11,20 +11,19 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>953 Bk 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>Numa Club of Ann Arbor</primary_name>
         </corpname>
       </origination>
       <unittitle>Numa Club of Ann Arbor records</unittitle>
       <unitdate type="inclusive" label="creation">1960-1981</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -32,10 +31,28 @@
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 8296</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8296</p>
+      </odd>
     </descgrp>
     <bioghist>Women's auxiliary of Ann Arbor Lions Club.</bioghist>
     <scopecontent>Membership books, clippings, photos, and miscellanea.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor</term>
+        <term type="topical">Societies and clubs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+        <term type="topical">Social life and customs.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Numa Club of Ann Arbor</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Women</term>
@@ -68,13 +85,16 @@
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Offices.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Numa Club of Ann Arbor</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Numa Club of Ann Arbor records</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1960-1981</unitdate>
         </did>
@@ -84,13 +104,12 @@
         <did>
           <unittitle>Numa Club of Ann Arbor photographs.</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1964-1969</unitdate>
         </did>
         <scopecontent>Photos of offices and rummage sale.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

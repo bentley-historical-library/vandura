@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85654 Ac Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Angell</primary_name>
           <rest_of_name>Sarah Caswell</rest_of_name>
           <dates>1831-1903</dates>
@@ -26,16 +25,19 @@
       <unittitle>Sarah Caswell Angell papers</unittitle>
       <unitdate type="inclusive" label="creation">1850-1903</unitdate>
       <physdesc>
-        <extent>1 linear feet</extent>
+        <extent>1 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 485</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 485</p>
+      </odd>
     </descgrp>
     <bioghist>Wife of University of Michigan President, James B. Angell.</bioghist>
     <scopecontent>Diaries and letters concerning Ann Arbor, Michigan, the University of Michigan, church activities, social life, the Daughters of the American Revolution, family affairs, and travels to Turkey and China.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -115,6 +117,5 @@
         <primary_name>University of Michigan</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

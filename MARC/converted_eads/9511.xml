@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9511 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Peet</primary_name>
           <rest_of_name>Max Minor.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Max M. Peet papers</unittitle>
       <unitdate type="inclusive" label="creation">1907-1948</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6864</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6864</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,34 @@
     </descgrp>
     <bioghist>Surgeon and professor of surgery at the University of Michigan Medical School; inventor of an operation to reduce high blood pressure (splanchnicectomy) and considered one of the world's foremost neurosurgeons in his time; distinguished ornithologist; also taught at the University of Pennsylvania and was chief surgeon at Philadelphia General Hospital.</bioghist>
     <scopecontent>The collection consists primarily of typed manuscripts of articles, correspondence, surgical illustrations and some photographs related to Peet's career as a surgeon and medical researcher. Included are typed manuscripts of articles concerning the surgical treatment of hypertension and subdural hematoma; and a transcript of a lecture delivered by Peet on infantile paralysis in 1939.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Hypertension.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Nervous system</term>
+        <term type="topical">Surgery.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Poliomyelitis</term>
+        <term type="topical">Prevention.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Subdural hematoma.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Peet</primary_name>
+        <rest_of_name>Max Minor.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Medical School</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Hypertension.</term>
@@ -76,6 +106,10 @@
         <term type="topical">Surgery.</term>
       </subject>
       <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Peet</primary_name>
+        <rest_of_name>Max Minor.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Novy</primary_name>
         <rest_of_name>Frederick G.</rest_of_name>
         <fuller_form>(Frederick George)</fuller_form>
@@ -98,6 +132,14 @@
       </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Medical School</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1901-1910.</term>
@@ -108,7 +150,7 @@
         <did>
           <unittitle>Max M. Peet papers</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1907-1948</unitdate>
         </did>
@@ -125,6 +167,5 @@
         <scopecontent>Portraits (one with his wife); photos of Peet participating in a surgical operation with unidentified colleagues; photos of University of Michigan Medical School faculty; photos of University of Michigan student activities and campus buildings, 1907-1911.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

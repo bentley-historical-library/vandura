@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 volumes</extent>
-      </physdesc>
-      <physdesc>
-        <extent>7 items</extent>
-      </physdesc>
       <unitid>851771 AA Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Lowing</primary_name>
           <rest_of_name>Stephen Lampman</rest_of_name>
           <dates>1817-1891</dates>
@@ -31,12 +24,45 @@
       </origination>
       <unittitle>Stephen Lampman Lowing papers</unittitle>
       <unitdate type="inclusive" label="creation">1861-1864</unitdate>
+      <physdesc>
+        <extent>7 items and 1 v</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3939</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3939</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier from Georgetown township, Ottawa County, Michigan, who served in the Third Michigan Infantry during the Civil War.</bioghist>
     <scopecontent>Letters concerning his wartime activities and a scrapbook containing documents pertaining to Georgetown township, Michigan, the Civil War, and the Lowing family.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Soldiers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Georgetown (Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Georgetown Charter Township (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ottawa County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 3rd (1861-1864)</subordinate_name>
+        <subordinate_name>Company I</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
@@ -75,13 +101,10 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 volumes</extent>
-          </physdesc>
-          <physdesc>
-            <extent>7 items</extent>
-          </physdesc>
           <unittitle>Stephen Lampman Lowing papers</unittitle>
+          <physdesc>
+            <extent>7 items and 1 v</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1861-1864</unitdate>
         </did>
         <scopecontent>Letters concerning his wartime activities and a scrapbook containing documents pertaining to Georgetown township, Michigan, the Civil War, and the Lowing family.</scopecontent>
@@ -97,7 +120,5 @@
         <scopecontent>Portrait.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

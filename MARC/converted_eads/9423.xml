@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9423 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Judson</primary_name>
           <rest_of_name>Everett</rest_of_name>
           <dates>1891-1956</dates>
@@ -26,11 +25,14 @@
       <unittitle>Everett Judson and Bessie Belle White collection</unittitle>
       <unitdate type="inclusive" label="creation">1911-1916</unitdate>
       <physdesc>
-        <extent>0.5 linear feet (2 boxes, 1 oversize)</extent>
+        <extent>.5 linear ft. (2 boxes, 1 oversize)</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8205</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8205</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,35 @@
     </descgrp>
     <bioghist>Everett Judson was a graduate of the University of Michigan College of Engineering, class of 1916; Bessie Belle White was a graduate of the University of Michigan College of Literature, Science and the Arts, class of 1915. They married in 1915.</bioghist>
     <scopecontent>Scrapbook containing photographs, programs, and other memorabilia of their University of Michigan activities; diaries of Everett Judson (1912-1916), photographic album and loose photos.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Judson</primary_name>
+        <rest_of_name>Everett</rest_of_name>
+        <dates>1891-1956</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>White</primary_name>
+        <rest_of_name>Bessie Belle</rest_of_name>
+        <dates>1892-1945</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>White</primary_name>
+        <rest_of_name>Bessie Belle</rest_of_name>
+        <dates>1892-1945</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
@@ -79,6 +110,27 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Camp Davis (University of Michigan)</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Judson</primary_name>
+        <rest_of_name>Everett</rest_of_name>
+        <dates>1891-1956</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>White</primary_name>
+        <rest_of_name>Bessie Belle</rest_of_name>
+        <dates>1892-1945</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>White</primary_name>
+        <rest_of_name>Bessie Belle</rest_of_name>
+        <dates>1892-1945</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
@@ -90,7 +142,7 @@
         <did>
           <unittitle>Everett Judson and Bessie Belle White collection</unittitle>
           <physdesc>
-            <extent>0.5 linear feet (2 boxes, 1 oversize)</extent>
+            <extent>.5 linear ft. (2 boxes, 1 oversize)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1911-1916</unitdate>
         </did>
@@ -100,14 +152,12 @@
         <did>
           <unittitle>Everett Judson and Bessie Belle White photographs.</unittitle>
           <physdesc>
-            <extent>0.3 linear feet (1 oversize box and 2 folders)</extent>
+            <extent>.3 linear ft. (1 oversize box and 2 folders)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1911-1916</unitdate>
         </did>
         <scopecontent>Albums, 1911-1916, containing personal photos of student rooms, students studying and at social activities, campus buildings; also loose photos; and photoprints and negatives of Judson's experiences at Douglas Lake in 1915 (name later changed to Camp Davis).</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Oversize Box" type="box">2</container>
   </archdesc>
 </ead>

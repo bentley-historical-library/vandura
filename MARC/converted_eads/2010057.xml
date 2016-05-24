@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2010057 Bd 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>Freemasons</primary_name>
           <subordinate_name>Ann Arbor Lodge no. 544 (Ann Arbor, Mich.)</subordinate_name>
         </corpname>
@@ -31,7 +30,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 7821</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7821</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Minute books in box 1.</p>
@@ -53,7 +55,5 @@
         <subordinate_name>Ann Arbor Lodge no. 544 (Ann Arbor, Mich.)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

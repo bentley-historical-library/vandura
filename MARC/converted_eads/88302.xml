@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88302 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Fargo</primary_name>
           <rest_of_name>William G.</rest_of_name>
           <dates>1867-1957</dates>
@@ -30,13 +29,26 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 837</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 837</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
     </descgrp>
     <scopecontent>Collected historical documents, photographs, and scattered correspondence of the William G. Fargo family of Jackson, Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Jackson (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Fargo</primary_name>
+        <rest_of_name>William G.</rest_of_name>
+        <dates>1867-1957</dates>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Jackson (Mich.)</term>
@@ -83,6 +95,11 @@
         <term type="geographic">Manchester (Mich.)</term>
         <term type="topical">Farms.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Fargo</primary_name>
+        <rest_of_name>William G.</rest_of_name>
+        <dates>1867-1957</dates>
+      </persname>
       <famname source="lcnaf" encodinganalog="600">
         <family_name>Fargo family</family_name>
       </famname>
@@ -109,7 +126,5 @@
         <scopecontent>Portraits; views of the Gilbert farm near Manchester, Michigan; surveying scene, 1904, on Little Manistee River; and miscellaneous.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>03155 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Donner</primary_name>
           <rest_of_name>Henry F.</rest_of_name>
           <fuller_form>(Henry Frederick)</fuller_form>
@@ -27,11 +26,14 @@
       <unittitle>Henry F. Donner papers</unittitle>
       <unitdate type="inclusive" label="creation">1921-1928</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>0.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: xxxx, 9375</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: xxxx, 9375</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -39,6 +41,21 @@
     </descgrp>
     <bioghist>Engineering student at the University of Michigan, later research assistant at the University of Michigan's Lamont-Hussey Observatory, Bloemfontein, South Africa, from 1927 to 1933.</bioghist>
     <scopecontent>Letters describing in detail his leisure experiences in South Africa (but not the work of the observatory); and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">South Africa</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Donner</primary_name>
+        <rest_of_name>Henry F.</rest_of_name>
+        <fuller_form>(Henry Frederick)</fuller_form>
+        <dates>1902-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Lamont-Hussey Observatory (University of Michigan)</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">South Africa</term>
@@ -65,6 +82,15 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">South Africa.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Donner</primary_name>
+        <rest_of_name>Henry F.</rest_of_name>
+        <fuller_form>(Henry Frederick)</fuller_form>
+        <dates>1902-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Lamont-Hussey Observatory (University of Michigan)</primary_name>
+      </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
@@ -77,7 +103,7 @@
         <did>
           <unittitle>Henry F. Donner papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>0.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1921-1928</unitdate>
         </did>
@@ -85,18 +111,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 folder (in 1 box)</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 volumes</extent>
-          </physdesc>
           <unittitle>Henry F. Donner photograph series.</unittitle>
+          <physdesc>
+            <extent>1 v. and 1 folder (in 1 box)</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1921-1928</unitdate>
         </did>
         <scopecontent>Photograph album of University of Michigan campus, classmates, military training exercises, and student activities; photos of travels in South Africa; one photo of Lamont-Hussey Observatory under construction.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

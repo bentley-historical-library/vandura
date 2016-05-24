@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8916 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Middleton</primary_name>
           <rest_of_name>Lulu Brown.</rest_of_name>
         </persname>
@@ -25,14 +24,25 @@
       <unittitle>Lulu Brown Middleton scrapbooks</unittitle>
       <unitdate type="inclusive" label="creation">1941-1946</unitdate>
       <physdesc>
-        <extent>4 volumes</extent>
+        <extent>4 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4162</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4162</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Lake Orion, Michigan.</bioghist>
     <scopecontent>Letters received from U.S. servicemen during World War II.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
@@ -46,6 +56,9 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Scrapbooks.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Middleton</primary_name>
         <rest_of_name>Lulu Brown.</rest_of_name>
@@ -56,7 +69,7 @@
         <did>
           <unittitle>Lulu Brown Middleton scrapbooks</unittitle>
           <physdesc>
-            <extent>4 volumes</extent>
+            <extent>4 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1941-1946</unitdate>
         </did>
@@ -73,9 +86,5 @@
         <scopecontent>Photo of Middleton with World War II scrapbooks and memorabilia received from serviceman correspondents.</scopecontent>
       </c01>
     </dsc>
-    <container label="Oversize Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">2</container>
-    <container label="Oversize Volume" type="volume">3</container>
-    <container label="Oversize Volume" type="volume">4</container>
   </archdesc>
 </ead>

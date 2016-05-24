@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851624 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Kimmell</primary_name>
           <rest_of_name>Samuel B.</rest_of_name>
         </persname>
@@ -25,16 +24,19 @@
       <unittitle>Samuel B. Kimmell papers</unittitle>
       <unitdate type="inclusive" label="creation">1861-1875</unitdate>
       <physdesc>
-        <extent>2 volumes</extent>
+        <extent>2 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771</p>
+      </odd>
     </descgrp>
     <bioghist>Methodist Episcopal minister at Howell, Michigan.</bioghist>
     <scopecontent>Diary, 1875, containing description of a trip to Niagara Falls, a religious meeting in the East and notes on sermons; scrapbook, 1861-1863, of newspaper clippings on the Civil War.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="aat" encodinganalog="655">
@@ -69,6 +71,5 @@
         <term type="geographic">Howell.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

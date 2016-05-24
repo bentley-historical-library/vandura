@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85100 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Cleary</primary_name>
           <rest_of_name>Barbara Ann.</rest_of_name>
         </persname>
@@ -25,7 +24,7 @@
       <unittitle>Barbara Ann Cleary paper</unittitle>
       <unitdate type="inclusive" label="creation">1976</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -33,7 +32,10 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 5845</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5845</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -41,6 +43,20 @@
     </descgrp>
     <bioghist>Student in museum practice at the University of Michigan.</bioghist>
     <scopecontent>Entitled, "Log Houses in Washtenaw County" being a detailed description of log house construction during the settlement of Washtenaw County, Michigan; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Dwellings</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Washtenaw County</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Log cabins.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+        <term type="topical">Buildings, structures, etc.</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Dwellings</term>
@@ -90,7 +106,7 @@
         <did>
           <unittitle>Barbara Ann Cleary paper</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1976</unitdate>
         </did>
@@ -107,6 +123,5 @@
         <scopecontent>Photographs of Washtenaw County houses, made in preparation of a term paper, "Log Houses in Washtenaw County," prepared for the Graduate Program in Museum Practice, April 1976.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

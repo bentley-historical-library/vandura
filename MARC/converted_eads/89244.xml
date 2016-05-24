@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89244 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Rupright</primary_name>
           <rest_of_name>Howard Jesse</rest_of_name>
           <dates>d. 1973</dates>
@@ -26,11 +25,14 @@
       <unittitle>Howard Jesse Rupright scrapbook</unittitle>
       <unitdate type="inclusive" label="creation">1912-1915</unitdate>
       <physdesc>
-        <extent>1 volumes in 1 box</extent>
+        <extent>1 v. in 1 box</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5508</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5508</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -52,8 +54,26 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Dwellings</term>
@@ -92,6 +112,12 @@
       </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
         <term type="topical">Student housing</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
@@ -106,7 +132,7 @@
         <did>
           <unittitle>Howard Jesse Rupright scrapbook</unittitle>
           <physdesc>
-            <extent>1 volumes in 1 box</extent>
+            <extent>1 v. in 1 box</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1912-1915</unitdate>
         </did>
@@ -116,13 +142,12 @@
         <did>
           <unittitle>Howard Jesse Rupright photograph series.</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1912-1915</unitdate>
         </did>
         <scopecontent>Photographs of student activities.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

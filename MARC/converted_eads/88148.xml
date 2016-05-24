@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88148 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Carey</primary_name>
           <rest_of_name>Harold Nevin</rest_of_name>
           <dates>1907-</dates>
@@ -30,10 +29,28 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6601</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6601</p>
+      </odd>
     </descgrp>
     <bioghist>Civil engineer, member of U. S. Coast and Geodetic Survey.</bioghist>
     <scopecontent>Diaries containing description of trip to California in 1931 with his wife Louise, and describing activities with the U. S. Coast Survey, 1933-1936, and other travels; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Engineers</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">California.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>U.S. Coast and Geodetic Survey</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -93,6 +110,5 @@
         <scopecontent>Views of vacations to various national parks, and photos from travel throughout the United States.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

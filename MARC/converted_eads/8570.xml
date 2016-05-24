@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8570 Aa microcopy</unitid>
       <origination>
-        <famname encodinganalog="100" source="local">
+        <famname encodinganalog="100">
           <family_name>Bibbins family</family_name>
         </famname>
       </origination>
@@ -30,12 +29,15 @@ positive</physfacet>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5718</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5718</p>
+      </odd>
     </descgrp>
     <bioghist>New York and Hanover, Jackson County, Michigan, family.</bioghist>
     <scopecontent>Letters, 1859-1865, of Newton Bibbins, officer in Co. D, 1st regiment, Michigan Volunteer Infantry during the Civil War; letters and journal of J. M. Bibbins containing account of trip to Colorado mines, 1859-1862; and "Early Recollections" by James O. Bibbins.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -81,6 +83,5 @@ positive</physfacet>
         <subordinate_name>Company D</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Microfilm C" type="reel">1</container>
   </archdesc>
 </ead>

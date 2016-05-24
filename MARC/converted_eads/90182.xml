@@ -11,28 +11,27 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 volume</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 oversize folder</extent>
-      </physdesc>
       <unitid>90182 Bimu F41 2; Bimu F41 Outsize</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>Alpha Omicron Pi</primary_name>
           <subordinate_name>Omicron Pi Chapter (University of Michigan)</subordinate_name>
         </corpname>
       </origination>
       <unittitle>Alpha Omicron Pi, Omicron Pi Chapter (University of Michigan) records</unittitle>
       <unitdate type="inclusive" label="creation">1921-1946</unitdate>
+      <physdesc>
+        <extent>1 oversize folder and 1 volume</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 10461</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10461</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately</p>
@@ -66,6 +65,39 @@
         <term type="topical">Students</term>
         <term type="temporal">1921-1930.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Greek letter societies</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women college students</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Alpha Omicron Pi</primary_name>
+        <subordinate_name>Omicron Pi Chapter (University of Michigan)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="temporal">1921-1930.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Fraternities and sororities</term>
         <term type="geographic">Michigan</term>
@@ -88,6 +120,10 @@
         <term type="geographic">Ann Arbor.</term>
       </subject>
       <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Alpha Omicron Pi</primary_name>
+        <subordinate_name>Omicron Pi Chapter (University of Michigan)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student housing.</term>
       </corpname>
@@ -95,13 +131,10 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 volume</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
           <unittitle>Alpha Omicron Pi, Omicron Pi Chapter (University of Michigan) records</unittitle>
+          <physdesc>
+            <extent>1 oversize folder and 1 volume</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1921-1946</unitdate>
         </did>
         <scopecontent>Charter of Omicron Pi chapter with list of names; charter of alumnae chapter of sorority; also scrapbook containing clippings, programs, and photographs relating to events and activities of the sorority, including theatrical productions.</scopecontent>
@@ -117,6 +150,5 @@
         <scopecontent>Scrapbook containing clippings, programs, and photographs relating activities of the sorority; include group photos, photo of theatrical production, and of student rooms.</scopecontent>
       </c01>
     </dsc>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

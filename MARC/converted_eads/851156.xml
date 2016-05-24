@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851156 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Doty</primary_name>
           <rest_of_name>William A.</rest_of_name>
         </persname>
@@ -33,12 +32,15 @@
         <head>Reproduction Note</head>
         <p>Typescript copy.</p>
       </odd>
-      <acqinfo>Donor: 1828</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1828</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Raisin Township, Lenawee County, Michigan.</bioghist>
     <scopecontent>Excerpts taken from his diaries recording daily activities and events.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="651">
@@ -48,6 +50,5 @@
         <term type="geographic">Raisin (Mich. : Township)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

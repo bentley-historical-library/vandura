@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85841 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Bursley</primary_name>
           <rest_of_name>Joseph Aldrich</rest_of_name>
           <dates>1877-1950</dates>
@@ -26,11 +25,14 @@
       <unittitle>Joseph A. Bursley papers</unittitle>
       <unitdate type="inclusive" label="creation">1909-1950</unitdate>
       <physdesc>
-        <extent>1 linear feet</extent>
+        <extent>1 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 220, 1718</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 220, 1718</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -75,9 +77,52 @@
         <term type="topical">Students</term>
         <term type="topical">Scholarships, fellowships, etc.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Bursley</primary_name>
+        <rest_of_name>Joseph Aldrich</rest_of_name>
+        <dates>1877-1950</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Angell</primary_name>
+        <rest_of_name>James Burrill</rest_of_name>
+        <dates>1829-1916</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Comstock</primary_name>
+        <rest_of_name>William Alfred</rest_of_name>
+        <dates>1877-1949</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1899</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Funds and scholarships.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Scholarships, fellowships, etc.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Bursley</primary_name>
+        <rest_of_name>Joseph Aldrich</rest_of_name>
+        <dates>1877-1950</dates>
+      </persname>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Bursley</primary_name>
         <rest_of_name>Marguerite Knowlton.</rest_of_name>
@@ -88,7 +133,7 @@
         <did>
           <unittitle>Joseph A. Bursley papers</unittitle>
           <physdesc>
-            <extent>1 linear feet</extent>
+            <extent>1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1909-1950</unitdate>
         </did>
@@ -105,6 +150,5 @@
         <scopecontent>Portrait and snapshot of Bursley; and childhood photograph of Bursley's wife, Marjorie Knowlton Bursley.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

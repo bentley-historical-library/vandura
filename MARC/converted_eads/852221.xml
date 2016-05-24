@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 item outsize</extent>
-      </physdesc>
-      <physdesc>
-        <extent>2 volumes</extent>
-      </physdesc>
       <unitid>852221 AA UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Schlatter</primary_name>
           <rest_of_name>Wm.</rest_of_name>
           <fuller_form>(William)</fuller_form>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>William Schlatter diary</unittitle>
       <unitdate type="inclusive" label="creation">1851-1852</unitdate>
+      <physdesc>
+        <extent>2 v. and 1 item [outsize]</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4449, 4708</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4449, 4708</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -41,6 +40,37 @@
     </descgrp>
     <bioghist>Surveyor in northern Michigan.</bioghist>
     <scopecontent>Account of copper mining activity in the area of Eagle Harbor, Ontonagon and Copper Harbor, Michigan, include also translation of diary by Don H. Clarke of Essexville, Michigan; also bibliography of research materials relating to copper mining in Mr. Clarke's possession; also visual materials.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Copper mines and mining</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Upper Peninsula.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Copper Harbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Eagle Harbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ontonagon (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Upper Peninsula (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Schlatter</primary_name>
+        <rest_of_name>Wm.</rest_of_name>
+        <fuller_form>(William)</fuller_form>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Clarke</primary_name>
+        <rest_of_name>Don H.</rest_of_name>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -99,31 +129,23 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 item outsize</extent>
-          </physdesc>
-          <physdesc>
-            <extent>2 volumes</extent>
-          </physdesc>
           <unittitle>William Schlatter diary</unittitle>
+          <physdesc>
+            <extent>2 v. and 1 item [outsize]</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1851-1852</unitdate>
         </did>
         <scopecontent>Account of copper mining activity in the area of Eagle Harbor, Ontonagon and Copper Harbor, Michigan, include also translation of diary by Don H. Clarke of Essexville, Michigan; also bibliography of research materials relating to copper mining in Mr. Clarke's possession; also visual materials.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 volumes</extent>
-          </physdesc>
           <unittitle>William Schlatter diary.</unittitle>
+          <physdesc>
+            <extent>1 v. and 1 oversize folder</extent>
+          </physdesc>
         </did>
         <scopecontent>Diary contains scattered illustrations, mainly pencil with some watercolor. The sketches are of the sidewheeler "Baltimore," the shipwreck of the "Monticello," a view of Copper Falls, Michigan, machinery used in mine work, and miscellaneous landscapes. There is also an engraving of Michael Schlatter made by A. Helffenstein, Jr.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

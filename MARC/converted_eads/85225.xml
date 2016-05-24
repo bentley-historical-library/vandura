@@ -11,24 +11,26 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85225 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Gildart family.</primary_name>
         </persname>
       </origination>
       <unittitle>Gildart family letters</unittitle>
       <unitdate type="inclusive" label="creation">[185-]-[194-]</unitdate>
       <physdesc>
-        <extent>1 linear feet</extent>
+        <extent>1 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6357</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6357</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -42,7 +44,59 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1901-1910.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="691">
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Albion (Calhoun County, Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Stockbridge (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">20th century.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gildart</primary_name>
+        <rest_of_name>Henrietta</rest_of_name>
+        <dates>1856-1930</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Sawyer</primary_name>
+        <rest_of_name>Clarissa Gridley.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Gildart</primary_name>
+        <rest_of_name>Clyde.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Gridley family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Osborne family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Sawyer family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States Military Academy</primary_name>
+      </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </subject>
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
@@ -119,7 +173,7 @@
         <did>
           <unittitle>Gildart family letters</unittitle>
           <physdesc>
-            <extent>1 linear feet</extent>
+            <extent>1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">[185-]-[194-]</unitdate>
         </did>
@@ -136,6 +190,5 @@
         <scopecontent>Photos of William Howard Taft and others at a Republican Party commemoration in Jackson, Michigan, and photos of the Addison, Michigan public school, the school baseball team, and other groups.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

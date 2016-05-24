@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8927 AA UAs</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Moore</primary_name>
           <rest_of_name>Vivian Lyon</rest_of_name>
           <dates>1887-1963</dates>
@@ -26,11 +25,14 @@
       <unittitle>Vivian Lyon Moore papers</unittitle>
       <unitdate type="inclusive" label="creation">1927-ca. 1939</unitdate>
       <physdesc>
-        <extent>3 volumes</extent>
+        <extent>3 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3359</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3359</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photograph described separately.</p>
@@ -38,6 +40,20 @@
     </descgrp>
     <bioghist>Professor at Hillsdale College.</bioghist>
     <scopecontent>Research papers on early history of Hillsdale and Hillsdale County, Michigan, and on the Jones family, founders of Jonesville, Michigan; also photograph.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hillsdale (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hillsdale County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Jonesville (Mich.)</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Jones family</family_name>
+      </famname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Hillsdale (Mich.)</term>
@@ -72,7 +88,7 @@
         <did>
           <unittitle>Vivian Lyon Moore papers</unittitle>
           <physdesc>
-            <extent>3 volumes</extent>
+            <extent>3 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1927-ca. 1939</unitdate>
         </did>
@@ -89,8 +105,5 @@
         <scopecontent>Photograph of Sherman Free Will Baptist Church, Sherman, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
-    <container label="Volume" type="volume">3</container>
   </archdesc>
 </ead>

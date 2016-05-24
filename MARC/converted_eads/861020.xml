@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>861020 Aa 1</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Barber</primary_name>
           <rest_of_name>Austin B.</rest_of_name>
         </persname>
@@ -29,13 +28,29 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7294</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7294</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photograph described separately.</p>
       </odd>
     </descgrp>
     <bioghist>History of St. John's Episcopal Church, Clinton, Michigan (originally named St. Peter's Episcopal Church); also photograph of the church.</bioghist>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Clinton (Lenawee County, Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Episcopal Church</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Clinton.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>St. John's Episcopal Church (Clinton, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Clinton (Lenawee County, Mich.)</term>
@@ -60,6 +75,9 @@
         <term type="geographic">Clinton (Mich.)</term>
         <term type="topical">Churches.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>St. John's Episcopal Church (Clinton, Mich.)</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -82,6 +100,5 @@
         <scopecontent>Photograph of St. John's Episcopal Church, Clinton, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

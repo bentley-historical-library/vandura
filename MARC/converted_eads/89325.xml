@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89325 Aa 1</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Tefft</primary_name>
           <rest_of_name>Evangeline Grace</rest_of_name>
         </persname>
@@ -25,14 +24,26 @@
       <unittitle>Evangeline Grace Tefft papers</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1870-1965</unitdate>
       <physdesc>
-        <extent>1 volumes in 2 folders</extent>
+        <extent>1 v. in 2 folders</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4207</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4207</p>
+      </odd>
     </descgrp>
     <bioghist>Michigan teacher.</bioghist>
     <scopecontent>Reminiscences, 1965, and collected photographs, clippings, and correspondence relating to the Anschutz family.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Teachers</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Anschutz family</family_name>
+      </famname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Teachers</term>
@@ -51,6 +62,9 @@
         <primary_name>Tefft</primary_name>
         <rest_of_name>Evangeline Grace.</rest_of_name>
       </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Anschutz family</family_name>
+      </famname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>East Tawas High School (East Tawas, Mich.)</primary_name>
         <subordinate_name>Class of 1899</subordinate_name>
@@ -61,7 +75,7 @@
         <did>
           <unittitle>Evangeline Grace Tefft papers</unittitle>
           <physdesc>
-            <extent>1 volumes in 2 folders</extent>
+            <extent>1 v. in 2 folders</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1870-1965</unitdate>
         </did>
@@ -78,7 +92,5 @@
         <scopecontent>Family photos of Anschutz family, including photo of East Tawas (Michigan) High School Class of 1899.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

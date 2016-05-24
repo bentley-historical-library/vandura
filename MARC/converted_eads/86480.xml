@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86480 Aa 1 UAs</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Mitchell family</family_name>
         </famname>
       </origination>
@@ -28,10 +27,49 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7060</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7060</p>
+      </odd>
     </descgrp>
     <bioghist>Port Huron, Michigan, family.</bioghist>
     <scopecontent>Newspaper obituaries of family members, Judge William T. Mitchell, William H. Mitchell, and Frances Fish Ferguson; World War I letter, 1918, of Frank Crittenden containing description of England and France; also letter and notes relating to the history of the Fish family; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">France.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Great Britain.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Port Huron (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Ferguson</primary_name>
+        <rest_of_name>Frances Fish</rest_of_name>
+        <dates>1837-1926</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Mitchell</primary_name>
+        <rest_of_name>William Hosmer</rest_of_name>
+        <dates>1858-1893</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Mitchell</primary_name>
+        <rest_of_name>William T.</rest_of_name>
+        <dates>1819-1916</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Crittenden</primary_name>
+        <rest_of_name>Frank.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Fish family</family_name>
+      </famname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1914-1918.</term>
@@ -79,6 +117,11 @@
         <term type="geographic">Port Huron (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Mitchell</primary_name>
+        <rest_of_name>William Hosmer</rest_of_name>
+        <dates>1858-1893</dates>
+      </persname>
       <famname source="lcnaf" encodinganalog="600">
         <family_name>Mitchell family</family_name>
       </famname>
@@ -115,6 +158,5 @@
         <scopecontent>Portraits of family members, view of family home at Port Huron, and group portraits of Sigma Phi fraternity at the University of Michigan including William H. Mitchell, an 1882 graduate of the university.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

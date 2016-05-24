@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851055 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Corselius</primary_name>
           <rest_of_name>George</rest_of_name>
           <dates>1806-1849</dates>
@@ -26,7 +25,7 @@
       <unittitle>George Corselius papers</unittitle>
       <unitdate type="inclusive" label="creation">1833-1865</unitdate>
       <physdesc>
-        <extent>0.3 linear feet (9 items and 5 volumes)</extent>
+        <extent>.3 linear ft. (9 items and 5 v.)</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -34,7 +33,10 @@
         <head>Reproduction Note</head>
         <p>Letters are photostatic copies.</p>
       </odd>
-      <acqinfo>Donor: 3604</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3604</p>
+      </odd>
     </descgrp>
     <bioghist>Librarian at University of Michigan and editor of the Western Emigrant.</bioghist>
     <scopecontent>Five diaries dealing with his readings and intellectual life, politics, University of Michigan affairs, and the Western Emigrant; also letters describing Ann Arbor, Michigan, and letters of Edward Corselius written while serving in Company A, First Michigan Cavalry and letters of Fred Corselius written while serving in the Fifth Michigan Cavalry during the Civil War.</scopecontent>
@@ -52,7 +54,7 @@
         <term type="topical">Politics and government</term>
         <term type="temporal">1845-1860.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -98,6 +100,5 @@
         <subordinate_name>Library</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

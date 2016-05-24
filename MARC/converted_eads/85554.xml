@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85554 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Ainsworth</primary_name>
           <rest_of_name>Arthur Sardius</rest_of_name>
           <dates>1862-</dates>
@@ -26,16 +25,19 @@
       <unittitle>Arthur Sardius Ainsworth journal</unittitle>
       <unitdate type="inclusive" label="creation">1935</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1718</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1718</p>
+      </odd>
     </descgrp>
     <bioghist>Grand Rapids, Kent County, Michigan, businessman.</bioghist>
     <scopecontent>Journal of trip to Yellowstone National Park and Alaska; and brief autobiographical sketch.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -52,6 +54,5 @@
         <term type="geographic">Yellowstone National Park.</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

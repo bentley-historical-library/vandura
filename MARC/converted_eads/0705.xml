@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0705 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Reed</primary_name>
           <rest_of_name>Frank R.</rest_of_name>
         </persname>
@@ -31,7 +30,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 9794</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9794</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -39,6 +41,25 @@
     </descgrp>
     <bioghist>Carsonville, Michigan real estate dealer.</bioghist>
     <scopecontent>Business correspondence (1939 only) relating to sale and purchase of farm lands, writings on Carsonville history (ca. 1941, apparently by Frank R. Reed), and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Real property</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Sanilac County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Real estate business</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Sanilac County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Carsonville (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Reed</primary_name>
+        <rest_of_name>Frank R.</rest_of_name>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Real property</term>
@@ -68,6 +89,9 @@
         <term type="geographic">Michigan</term>
         <term type="geographic">Carsonville.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Carsonville (Mich.)</term>
+      </subject>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -93,6 +117,5 @@
         <scopecontent>Panoramic photographs (with negatives) of Carsonville, Michigan, showing main street businesses and farm equipment.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

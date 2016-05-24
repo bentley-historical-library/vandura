@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 oversize volume</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.5 linear feet</extent>
-      </physdesc>
       <unitid>2008033 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Apple</primary_name>
           <rest_of_name>Edward.</rest_of_name>
         </persname>
@@ -31,11 +24,17 @@
       <unittitle>Edward Apple papers</unittitle>
       <langmaterial>In English.</langmaterial>
       <unitdate type="inclusive" label="creation">1895-1958</unitdate>
+      <physdesc>
+        <extent>0.5 linear feet and 1 oversize volume</extent>
+      </physdesc>
     </did>
     <descgrp>
       <accruals>Further accruals are not expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 9942</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9942</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -65,14 +64,45 @@
         <term type="topical">Students</term>
         <term type="topical">Social life and customs.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Apple</primary_name>
+        <rest_of_name>Edward.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Alumni and alumnae.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Band</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Law School</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbook.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Apple</primary_name>
+        <rest_of_name>Edward.</rest_of_name>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Ann Arbor High School (Mich.)</primary_name>
+        <subordinate_name>Band</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
         <subordinate_name>Band</subordinate_name>
       </corpname>
       <corpname source="lcnaf" encodinganalog="610">
@@ -83,33 +113,25 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize volume</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.5 linear feet</extent>
-          </physdesc>
           <unittitle>Edward Apple papers</unittitle>
           <accessrestrict>The collection is open for research use.</accessrestrict>
+          <physdesc>
+            <extent>0.5 linear feet and 1 oversize volume</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1895-1958</unitdate>
         </did>
         <scopecontent>Edward Apple papers contain publications, mementos, photographs, and a scrapbook related to his experience as an undergraduate student, law student, and alumnus of the University of Michigan. Also included are papers and mementos relating to the University of Michigan by other members of the Apple family.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize volume</extent>
-          </physdesc>
-          <physdesc>
-            <extent>2 folders</extent>
-          </physdesc>
           <unittitle>Edward Apple visual materials series.</unittitle>
           <accessrestrict>The collection is open for research use.</accessrestrict>
+          <physdesc>
+            <extent>2 folders and 1 oversize volume</extent>
+          </physdesc>
         </did>
         <scopecontent>The Edward Apple visual materials series includes black and white photographs of the University of Michigan Band and a scrapbook with miscellaneous college-themed photographs.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

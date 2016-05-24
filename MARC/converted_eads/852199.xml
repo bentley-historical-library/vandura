@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852199 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Russell</primary_name>
           <rest_of_name>Clara C.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Clara C. Russell engagement books</unittitle>
       <unitdate type="inclusive" label="creation">1903-1935</unitdate>
       <physdesc>
-        <extent>24 volumes (2 boxes)</extent>
+        <extent>24 v. (2 boxes)</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3398</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3398</p>
+      </odd>
     </descgrp>
     <bioghist>Grand Rapids, Michigan civic leader; wife of Huntley Russell.</bioghist>
     <scopecontent>Engagement and account books with brief notes on daily events.</scopecontent>
@@ -39,12 +41,12 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1901-1910.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="691">
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="691">
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1921-1930.</term>
@@ -65,7 +67,5 @@
         <rest_of_name>Clara C.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

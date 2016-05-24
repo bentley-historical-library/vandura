@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2011033 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Traver</primary_name>
           <rest_of_name>Absolom</rest_of_name>
           <dates>1800-1869</dates>
@@ -35,7 +34,10 @@
         <head>Publication, Distribution, Etc.</head>
         <p>[between 1823 and 1833]</p>
       </odd>
-      <acqinfo>Donor: 10407</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10407</p>
+      </odd>
     </descgrp>
     <bioghist>Absolom Traver and his wife Charlotte were pioneers of Ann Arbor, Mich.</bioghist>
     <scopecontent>Scanned copies (JPEG) of painted portraits of Absolom and Charlotte Traver. According to a note on the back of Absolom's portrait, they were painted between 1823 and 1833 in New York City.</scopecontent>
@@ -62,6 +64,5 @@
         <dates>1803-1846</dates>
       </persname>
     </controlaccess>
-    <container label="CD Box" type="box">8</container>
   </archdesc>
 </ead>

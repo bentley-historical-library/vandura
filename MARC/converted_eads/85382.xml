@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85382 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Pierson</primary_name>
           <rest_of_name>J. K.</rest_of_name>
         </persname>
@@ -25,16 +24,19 @@
       <unittitle>J. K. Pierson diary-Ledger</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1872-1888</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 207</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 207</p>
+      </odd>
     </descgrp>
     <bioghist>Grand Blanc, Michigan, resident.</bioghist>
     <scopecontent>Diary, Jan.-Sept. 1872 containing brief comments concerning weather, crops, expenses, employment of hired help, social customs and events; ledger of accounts with hired help, 1882-[188-]; cattle breeding records, 1881-1882; and accounts of gifts or inheritance with various family members.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -56,6 +58,5 @@
         <term type="geographic">Grand Blanc (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

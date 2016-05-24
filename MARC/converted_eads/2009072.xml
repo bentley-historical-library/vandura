@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2009072 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Church family</family_name>
         </famname>
       </origination>
@@ -30,7 +29,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10173</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10173</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -38,6 +40,22 @@
     </descgrp>
     <bioghist>The Church family lived in Pittsford, Michigan.</bioghist>
     <scopecontent>Photograph album/scrapbook, perhaps compiled by Edna Ethel Church, relating to family activities. Many of the items in the album and the captions accompanying the photographs are about her son William Lee Church.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Pittsford (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Church</primary_name>
+        <rest_of_name>Edna Ethel.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Church</primary_name>
+        <rest_of_name>William Lee.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Church family</family_name>
+      </famname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Pittsford (Mich.)</term>
@@ -61,6 +79,16 @@
         <term type="geographic">Michigan</term>
         <term type="geographic">Pittsford.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Pittsford (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Church</primary_name>
+        <rest_of_name>William Lee.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Church family</family_name>
+      </famname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -86,6 +114,5 @@
         <scopecontent>Photographs in album/scrapbook depict activities of members of the Church family, particularly William Lee Church. The album includes views of occupants of shacks, probably on their property.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 oversize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>5 linear in.</extent>
-      </physdesc>
       <unitid>88137 Aa 2 UAl</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Brown</primary_name>
           <rest_of_name>Arthur Allen</rest_of_name>
           <dates>1900-</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>A. A. Brown papers</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1918-ca. 1986</unitdate>
+      <physdesc>
+        <extent>5 linear in. and 1 oversize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6041</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6041</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -62,12 +61,39 @@
         <primary_name>United States</primary_name>
         <subordinate_name>Forest Service</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Conservation of natural resources</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Forest fires</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Brown</primary_name>
+        <rest_of_name>Arthur Allen</rest_of_name>
+        <dates>1900-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Forest Service</subordinate_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Camp Davis (University of Michigan)</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Brown</primary_name>
+        <rest_of_name>Arthur Allen</rest_of_name>
+        <dates>1900-</dates>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
@@ -77,31 +103,24 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>5 linear in.</extent>
-          </physdesc>
           <unittitle>A. A. Brown papers</unittitle>
+          <physdesc>
+            <extent>5 linear in. and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1918-ca. 1986</unitdate>
         </did>
         <scopecontent>Diaries, scattered correspondence, articles and speeches, and other materials relating to his professional career; and photographs.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 folder</extent>
-          </physdesc>
           <unittitle>A. A. Brown photograph series.</unittitle>
+          <physdesc>
+            <extent>1 folder and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1918-1989 (scattered dates)</unitdate>
         </did>
         <scopecontent>Photos of Student Army Training Corps at the University of Michigan; also photos of Camp Davis.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

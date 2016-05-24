@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>2 items</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 volumes, 2 volumes outsize,</extent>
-      </physdesc>
       <unitid>852236 AA AC Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Sessions</primary_name>
           <rest_of_name>Clarence William</rest_of_name>
           <dates>1859-1931</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>Clarence William Sessions scrapbooks</unittitle>
       <unitdate type="inclusive" label="creation">1919-1920</unitdate>
+      <physdesc>
+        <extent>1 v., 2 v. [outsize], and 2 items</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1571</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1571</p>
+      </odd>
     </descgrp>
     <bioghist>U.S. District Judge for western Michigan.</bioghist>
     <scopecontent>Newspaper accounts of the trial of Truman Newberry for violation of the National Corrupt Practices Act; and miscellaneous testimonial and resolutions.</scopecontent>
@@ -56,10 +55,5 @@
         <dates>1864-1945</dates>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">2</container>
   </archdesc>
 </ead>

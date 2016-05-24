@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>98107 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Edmonds</primary_name>
           <rest_of_name>A. Grace.</rest_of_name>
         </persname>
@@ -25,7 +24,7 @@
       <unittitle>A. Grace Edmonds scrapbooks</unittitle>
       <unitdate type="inclusive" label="creation">1921-1970s</unitdate>
       <physdesc>
-        <extent>0.2 linear feet (3 volumes)</extent>
+        <extent>.2 linear ft. (3 v.)</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -33,10 +32,43 @@
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 8776</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8776</p>
+      </odd>
     </descgrp>
     <bioghist>Attended the University of Michigan, 1921-1924.</bioghist>
     <scopecontent>Scrapbooks containing photographs and memorabilia relating to her years as a University of Michigan student. One scrapbook is devoted to Asian women students at the university, and follows the later career of Wu Yi-fang.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Students, Foreign</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women college students</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Edmonds</primary_name>
+        <rest_of_name>A. Grace.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wu</primary_name>
+        <rest_of_name>Yifang</rest_of_name>
+        <dates>1893-1985</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1921-1930.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
@@ -84,13 +116,23 @@
         <term type="geographic">Michigan</term>
         <term type="geographic">Ann Arbor.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Edmonds</primary_name>
+        <rest_of_name>A. Grace.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1921-1930.</term>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>A. Grace Edmonds scrapbooks</unittitle>
           <physdesc>
-            <extent>0.2 linear feet (3 volumes)</extent>
+            <extent>.2 linear ft. (3 v.)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1921-1970s</unitdate>
         </did>
@@ -100,13 +142,12 @@
         <did>
           <unittitle>A. Grace Edmonds scrapbooks.</unittitle>
           <physdesc>
-            <extent>0.2 linear feet (3 volumes)</extent>
+            <extent>.2 linear ft. (3 v.)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1921-1924</unitdate>
         </did>
         <scopecontent>Photos of student activities; also photos of results of an ice storm on campus, spring 1922.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

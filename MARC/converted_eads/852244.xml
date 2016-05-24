@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852244 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="local">
+        <famname encodinganalog="100">
           <family_name>Sheldon family</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5129</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5129</p>
+      </odd>
     </descgrp>
     <bioghist>Residents of Washington, D.C. and Byron, Michigan.</bioghist>
     <scopecontent>Correspondence of E. A. Sheldon, Treasury Department clerk during Civil War, later Byron, Michigan businessman, and his son, Frank Sheldon, page in House of Representatives during Civil War and admirer of Abraham Lincoln; letters, 1861-1863, of George Hammond, officer in Co. D, 3rd Michigan Infantry.</scopecontent>
@@ -70,9 +72,5 @@
         <subordinate_name>Company D</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
-    <container label="Folder" type="folder">4</container>
   </archdesc>
 </ead>

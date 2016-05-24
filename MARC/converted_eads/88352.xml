@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88352 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Haslanger</primary_name>
           <rest_of_name>Clarence</rest_of_name>
           <title>Mrs</title>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -50,6 +52,19 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Cass County (Mich.)</term>
       </subject>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Ice industry</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Barron Lake.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Barron Lake (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Cass County (Mich.)</term>
+      </subject>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -57,6 +72,9 @@
         <term type="topical">Ice industry</term>
         <term type="geographic">Michigan</term>
         <term type="geographic">Cass County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Barron Lake (Mich.)</term>
       </subject>
       <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Cass County (Mich.)</term>
@@ -85,6 +103,5 @@
         <scopecontent>Copy prints of photographs used in her research of ice-making activities at or near Barron Lake in Cass County.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

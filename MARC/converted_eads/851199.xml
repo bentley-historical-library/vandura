@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>5 volumes in 1 box</extent>
-      </physdesc>
-      <physdesc>
-        <extent>2 items</extent>
-      </physdesc>
       <unitid>851199 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Durkee</primary_name>
           <rest_of_name>Henry Rogers</rest_of_name>
           <dates>1848-1916</dates>
@@ -31,14 +24,20 @@
       </origination>
       <unittitle>Henry R. Durkee papers</unittitle>
       <unitdate type="inclusive" label="creation">1864-1867</unitdate>
+      <physdesc>
+        <extent>2 items and 5 v. in 1 box</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1964</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1964</p>
+      </odd>
     </descgrp>
     <bioghist>Student at University of Michigan.</bioghist>
     <scopecontent>Letter, 1866, to his father concerning his activities at the University; also one page of a diary, 1867, recording a trip with Professor Alexander Winchell to Lake Superior; and five volumes of diaries containing accounts of various hunting trips taken in Pepin, Wisconsin and a description of a trip by raft down the Mississippi River from Pepin, Wisconsin to Burlington, Iowa.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -89,6 +88,5 @@
         <term type="topical">Correspondence.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

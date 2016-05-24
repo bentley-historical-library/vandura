@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86119 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Thorne</primary_name>
           <rest_of_name>George Taylor</rest_of_name>
           <dates>1865-1945</dates>
@@ -26,11 +25,14 @@
       <unittitle>George Taylor Thorne papers</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1885-ca. 1920</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5610</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5610</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,41 @@
     </descgrp>
     <bioghist>Worker in repair shop of the Overman Wheel Company of Detroit, Michigan, later employed with Universal Button Factory.</bioghist>
     <scopecontent>Diaries containing comments concerning work activities, life in Detroit, and his interest in bicycling; notebook concerning activities of the Detroit Wheelmen; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1891-1900.</term>
+      </subject>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Cycling.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Labor</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">19th century.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Detroit Wheelmen</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Overman Wheel Company</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Universal Button Factory (Detroit, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
@@ -167,13 +204,16 @@
         <rest_of_name>Billy</rest_of_name>
         <dates>1862-1935</dates>
       </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Detroit Wheelmen</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>George Taylor Thorne papers</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1885-ca. 1920</unitdate>
         </did>
@@ -183,13 +223,12 @@
         <did>
           <unittitle>George T. Thorne visual materials series.</unittitle>
           <physdesc>
-            <extent>0.1 linear feet</extent>
+            <extent>0.1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1885-ca. 1920</unitdate>
         </did>
         <scopecontent>Photographs detailing Detroit and rural Michigan scenes, special events, factories, bicycling activities, farm life, and automobile excursions; also miscellaneous portraits of individuals.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

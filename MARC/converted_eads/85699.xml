@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85699 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Baker</primary_name>
           <rest_of_name>John E.</rest_of_name>
           <dates>d. 1925</dates>
@@ -26,11 +25,14 @@
       <unittitle>John E. Baker diaries</unittitle>
       <unitdate type="inclusive" label="creation">1904-1917</unitdate>
       <physdesc>
-        <extent>2 volumes</extent>
+        <extent>2 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3285</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3285</p>
+      </odd>
     </descgrp>
     <bioghist>Tinker from Newaygo County, Michigan.</bioghist>
     <scopecontent>Comments on everyday events, the weather and church affairs.</scopecontent>
@@ -40,12 +42,12 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1901-1910.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="691">
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="651">
@@ -63,7 +65,5 @@
         <term type="temporal">20th century.</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

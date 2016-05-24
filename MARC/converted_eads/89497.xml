@@ -11,24 +11,26 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89497 Ba 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>Hammond Church of God in Christ (Detroit, Mich.)</primary_name>
         </corpname>
       </origination>
       <unittitle>Hammond Church of God in Christ records</unittitle>
       <unitdate type="inclusive" label="creation">1964-1989</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7711</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7711</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -58,8 +60,42 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Hammond Church of God in Christ (Detroit, Mich.)</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African American churches</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African Americans</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+        <term type="topical">Church history.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Church of God in Christ</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Hammond Church of God in Christ (Detroit, Mich.)</primary_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African American churches</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African Americans</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Churches</term>
@@ -70,13 +106,16 @@
         <term type="geographic">Detroit (Mich.)</term>
         <term type="topical">Churches.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Hammond Church of God in Christ (Detroit, Mich.)</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Hammond Church of God in Christ records</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1964-1989</unitdate>
         </did>
@@ -93,6 +132,5 @@
         <scopecontent>Snapshots of choir, pastor, and exterior of church building.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86463 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Loveday family</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6495</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6495</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -65,12 +67,47 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Loveday Opera House (East Jordan, Mich.)</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Real estate business</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">East Jordan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Theaters</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">East Jordan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">East Jordan (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Loveday</primary_name>
+        <rest_of_name>Douglas C.</rest_of_name>
+        <dates>b. 1840</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Loveday</primary_name>
+        <rest_of_name>William A.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Loveday family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Loveday Opera House (East Jordan, Mich.)</primary_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Bands.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Loveday</primary_name>
+        <rest_of_name>Douglas C.</rest_of_name>
+        <dates>b. 1840</dates>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>East Jordan Cornet Band</primary_name>
       </corpname>
@@ -97,6 +134,5 @@
         <scopecontent>Portrait of Douglas C. Loveday; and group portrait of East Jordan Cornet Band.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 volumes</extent>
-      </physdesc>
-      <physdesc>
-        <extent>75 items</extent>
-      </physdesc>
       <unitid>851465 AA Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Henry</primary_name>
           <rest_of_name>Charles Roswell</rest_of_name>
           <dates>b. 1856</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>Charles Roswell Henry papers</unittitle>
       <unitdate type="inclusive" label="creation">1905-1906</unitdate>
+      <physdesc>
+        <extent>75 items and 1 v</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4472</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4472</p>
+      </odd>
     </descgrp>
     <bioghist>Alpena, Michigan, attorney.</bioghist>
     <scopecontent>Letterbook, Aug.-Dec. 1905, and miscellaneous correspondence and other materials, 1905-1906, relating to his law practice and personal affairs, especially the maintenance of a new Model C Winton automobile.</scopecontent>
@@ -62,8 +61,5 @@
         <primary_name>Winton Motor Carriage Company</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

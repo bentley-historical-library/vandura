@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852139 Ba 2 UBAl</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>United Presbyterian Church in the U.S.A</primary_name>
           <subordinate_name>Synod of Michigan</subordinate_name>
         </corpname>
@@ -25,17 +24,30 @@
       <unittitle>United Presbyterian Church in the U.S.A., Synod of Michigan records</unittitle>
       <unitdate type="inclusive" label="creation">1834-1917 and 1960s</unitdate>
       <physdesc>
-        <extent>1 linear feet (9 volumes)</extent>
+        <extent>1 linear ft. (9 v.)</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 800, 1562, 3821</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 800, 1562, 3821</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
     </descgrp>
     <scopecontent>Minutes of Synod, 1834-1884; treasurer's record and minutes of Evangelistic Committee, 1912-1913; statistical records, 1875-1884; and photographs.</scopecontent>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United Presbyterian Church in the U.S.A</primary_name>
+        <term type="geographic">Michigan.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Presbyterian Church in the U.S.A</primary_name>
+        <subordinate_name>Synod of Michigan</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>United Presbyterian Church in the U.S.A</primary_name>
@@ -142,7 +154,7 @@
         <did>
           <unittitle>United Presbyterian Church in the U.S.A., Synod of Michigan records</unittitle>
           <physdesc>
-            <extent>1 linear feet (9 volumes)</extent>
+            <extent>1 linear ft. (9 v.)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1834-1917 and 1960s</unitdate>
         </did>
@@ -150,18 +162,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 envelope</extent>
-          </physdesc>
           <unittitle>United Presbyterian Church in the U.S.A., Synod of Michigan photograph series.</unittitle>
+          <physdesc>
+            <extent>1 envelope and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1960s</unitdate>
         </did>
         <scopecontent>Photographs of denomination-sponsored activities, conferences, and programs for the young, old, and disadvantaged of Detroit, Michigan's inner-city, and elsewhere; also photographs of churches in Dafter, and Battle Creek, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

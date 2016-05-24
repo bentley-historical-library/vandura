@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89259 CB</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local">
+        <corpname encodinganalog="110">
           <primary_name>Scio (Mich. : Township)</primary_name>
         </corpname>
       </origination>
@@ -25,7 +24,7 @@
       <langmaterial>Partially in German.</langmaterial>
       <unitdate type="inclusive" label="creation">1839-1866</unitdate>
       <physdesc>
-        <extent>3 volumes</extent>
+        <extent>3 v</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -33,7 +32,10 @@
         <head>Reproduction Note</head>
         <p>Microfilm copy available in part.</p>
       </odd>
-      <acqinfo>Donor: 806, 5231</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 806, 5231</p>
+      </odd>
     </descgrp>
     <bioghist>Records of school districts nos. 2, 5, and 8.</bioghist>
     <scopecontent>Minutes and financial records.</scopecontent>
@@ -51,8 +53,5 @@
         <term type="geographic">Scio (Mich. : Township)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
-    <container label="Volume" type="volume">3</container>
   </archdesc>
 </ead>

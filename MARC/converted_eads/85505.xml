@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85505 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Swigart</primary_name>
           <rest_of_name>John T.</rest_of_name>
           <dates>b. 1845</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6059</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6059</p>
+      </odd>
     </descgrp>
     <bioghist>Alma, Michigan, soldier in the 1st Michigan Engineers and Mechanics during the Civil War.</bioghist>
     <scopecontent>Letters exchanged with family members in Maple Rapids, Michigan, during the war; also family materials, including account of days worked, 1830's, journal of a camping trip, undated, and family letter, 1856.</scopecontent>
@@ -66,8 +68,5 @@
         <subordinate_name>Company M</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
   </archdesc>
 </ead>

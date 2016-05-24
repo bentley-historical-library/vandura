@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852190 Aa 1 Ac</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Sager</primary_name>
           <rest_of_name>Abram</rest_of_name>
           <dates>1810-1877</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2074</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2074</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -87,9 +89,64 @@
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Department of Medicine and Surgery</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Sager</primary_name>
+        <rest_of_name>Abram</rest_of_name>
+        <dates>1810-1877</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Angell</primary_name>
+        <rest_of_name>James Burrill</rest_of_name>
+        <dates>1829-1916</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Choate</primary_name>
+        <rest_of_name>William Edward</rest_of_name>
+        <dates>d. 1892</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Douglas</primary_name>
+        <rest_of_name>Silas H.</rest_of_name>
+        <fuller_form>(Silas Hamilton)</fuller_form>
+        <dates>1816-1890</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Gunn</primary_name>
+        <rest_of_name>Moses</rest_of_name>
+        <dates>1822-1887</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Houghton</primary_name>
+        <rest_of_name>Douglass</rest_of_name>
+        <dates>1809-1845</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Hubbard</primary_name>
+        <rest_of_name>Bela</rest_of_name>
+        <dates>1814-1896</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Pitcher</primary_name>
+        <rest_of_name>Zina</rest_of_name>
+        <dates>1797-1872</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Detroit Young Men's Society</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Medicine and Surgery</subordinate_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Sager</primary_name>
+        <rest_of_name>Abram</rest_of_name>
+        <dates>1810-1877</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -113,10 +170,5 @@
         <scopecontent>Portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
-    <container label="Folder" type="folder">4</container>
-    <container label="Folder" type="folder">5</container>
   </archdesc>
 </ead>

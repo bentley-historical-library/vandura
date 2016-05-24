@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2010062 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Anderson</primary_name>
           <rest_of_name>Leigh Charles</rest_of_name>
           <dates>1899-</dates>
@@ -25,7 +24,7 @@
       <unittitle>Chemistry at Michigan : a history of the Chemistry Department and the development of the Chemical Sciences at the University of Michigan from 1837 until 1970 / compiled by Leigh C. Anderson.</unittitle>
       <unitdate type="inclusive" label="creation">1976</unitdate>
       <physdesc>
-        <extent>57 leaves</extent>
+        <extent>57 leaves ;</extent>
         <dimensions>28 cm.</dimensions>
       </physdesc>
     </did>
@@ -38,7 +37,10 @@
         <head>General Note</head>
         <p>Includes index.</p>
       </odd>
-      <acqinfo>Donor: 587</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 587</p>
+      </odd>
     </descgrp>
     <bioghist>Leigh C. Anderson was a professor of Chemistry at the University of Michigan and served as chairman of the department, 1948-1966.</bioghist>
     <scopecontent>Unpublished history of Chemistry at the University of Michigan compiled by Anderson in 1970 with a 1976 update. Also touches upon Biological Chemistry, Pharmaceutical Chemistry, and Chemical Engineering.</scopecontent>
@@ -62,6 +64,5 @@
         <subordinate_name>Department of Chemical Engineering</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

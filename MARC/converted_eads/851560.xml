@@ -11,36 +11,35 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>60 items in 1 box</extent>
-      </physdesc>
-      <physdesc>
-        <extent>4 volumes</extent>
-      </physdesc>
       <unitid>851560 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Keeler family</family_name>
         </famname>
       </origination>
       <unittitle>Keeler family papers</unittitle>
       <unitdate type="inclusive" label="creation">1853-1889</unitdate>
+      <physdesc>
+        <extent>4 v. and 60 items in 1 box</extent>
+      </physdesc>
     </did>
     <descgrp>
       <odd>
         <head>Reproduction Note</head>
         <p>Typescript copies of diaries available.</p>
       </odd>
-      <acqinfo>Donor: 3971</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3971</p>
+      </odd>
     </descgrp>
     <bioghist>Macomb County, Michigan, family.</bioghist>
     <scopecontent>Diaries, 1863-1865, and correspondence of Alonzo M. Keeler, soldier in Co. B., Twenty-second Michigan Infantry during the Civil War, concerning his experiences during the Virginia campaign and later as a Confederate prisoner-of-war; correspondence of Alonzo's brother, Ezra, also Civil War soldier; and other family correspondence.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -74,6 +73,5 @@
         <subordinate_name>Company B</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

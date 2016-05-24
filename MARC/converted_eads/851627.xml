@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851627 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="local">
+        <famname encodinganalog="100">
           <family_name>Lambertson family (Belding, Mich.)</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5355</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5355</p>
+      </odd>
     </descgrp>
     <bioghist>Walter S. and Lola Louise Peterson Lambertson family of Belding, Michigan.</bioghist>
     <scopecontent>Journal, 1906, containing record of daily expenses; and letter, 1973, from daughter Louise Lambertson Baughan explaining the journal.</scopecontent>
@@ -38,7 +40,7 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1901-1910.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -61,6 +63,5 @@
         <family_name>Lambert family</family_name>
       </famname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

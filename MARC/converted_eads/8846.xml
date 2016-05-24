@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8846 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Baxter</primary_name>
           <rest_of_name>Benjamin Levi</rest_of_name>
           <dates>1815-1902</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2977, 3612</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2977, 3612</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photograph described separately.</p>
@@ -38,6 +40,18 @@
     </descgrp>
     <bioghist>Tecumseh, Michigan, newspaper editor, and regent of the University of Michigan.</bioghist>
     <scopecontent>Address, 1876, describing early settlement of Tecumseh, Michigan; biographical sketch, poetry, and miscellaneous; also photograph.</scopecontent>
+    <controlaccess>
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Tecumseh (Mich.)</term>
+        <term type="topical">Newspapers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Lenawee County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Tecumseh (Mich.)</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="local" encodinganalog="691">
         <term type="geographic">Tecumseh (Mich.)</term>
@@ -80,6 +94,5 @@
         <scopecontent>Portrait.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

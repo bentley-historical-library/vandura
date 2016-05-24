@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9963 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Munro</primary_name>
           <rest_of_name>Donald J.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Donald J. Munro papers</unittitle>
       <unitdate type="inclusive" label="creation">1973</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5617</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5617</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -51,6 +53,12 @@
         <primary_name>Munro</primary_name>
         <rest_of_name>Donald J.</rest_of_name>
       </persname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">China</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Guangzhou (China)</term>
       </subject>
@@ -60,13 +68,30 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Nanjing (Jiangsu Sheng, China)</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Munro</primary_name>
+        <rest_of_name>Donald J.</rest_of_name>
+      </persname>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">China</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">China</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1949-1976.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Munro</primary_name>
+        <rest_of_name>Donald J.</rest_of_name>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Donald J. Munro papers</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1973</unitdate>
         </did>
@@ -83,6 +108,5 @@
         <scopecontent>Color photographs of views of Chinese cities, including Guangzhou, Beijing, and Nanjing.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,28 +11,27 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>2 oversize folders</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.5 linear feet</extent>
-      </physdesc>
       <unitid>9515 Bd 2 Bd Out UBDl</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local">
+        <corpname encodinganalog="110">
           <primary_name>American Turners-Detroit</primary_name>
         </corpname>
       </origination>
       <unittitle>American Turners-Detroit records</unittitle>
       <unitdate type="inclusive" label="creation">1920s-1994</unitdate>
       <unitdate type="bulk" label="creation">(bulk 1930s-1950s)</unitdate>
+      <physdesc>
+        <extent>.5 linear ft. and 2 oversize folders</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8311</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8311</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -40,6 +39,21 @@
     </descgrp>
     <bioghist>German-American social organization formerly called Detroiter Socialer Turnverein.</bioghist>
     <scopecontent>Brief history of organization prepared in 1994; scattered issues of news magazine, Detroit Turner Time; clippings, ephemera; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">German Americans</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">German Americans</term>
+        <term type="geographic">Michigan</term>
+        <term type="topical">Societies, etc.</term>
+      </subject>
+      <corpname source="local" encodinganalog="610">
+        <primary_name>American Turners-Detroit</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">German Americans</term>
@@ -67,6 +81,11 @@
         <term type="topical">Physical fitness.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
+        <term type="topical">German Americans</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Female impersonators.</term>
       </subject>
       <corpname source="lcnaf" encodinganalog="610">
@@ -76,13 +95,10 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>2 oversize folders</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.5 linear feet</extent>
-          </physdesc>
           <unittitle>American Turners-Detroit records</unittitle>
+          <physdesc>
+            <extent>.5 linear ft. and 2 oversize folders</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1920s-1994</unitdate>
           <unitdate type="bulk" label="creation">(bulk 1930s-1950s)</unitdate>
         </did>
@@ -90,18 +106,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>2 oversize folders</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.3 linear feet</extent>
-          </physdesc>
           <unittitle>American Turners-Detroit photograph series.</unittitle>
+          <physdesc>
+            <extent>.3 linear ft. and 2 oversize folders</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1920s-1960s</unitdate>
         </did>
         <scopecontent>Photographs of members at various social and recreational activities; include photos of Masque ball and ballet with men dressed as ballerinas, 1930 (UBDl); photos of glee club cast members, 1940, banquet, 1933, and bowling tournament members, 1940 (Bd Outsize).</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

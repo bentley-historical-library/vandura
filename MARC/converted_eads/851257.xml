@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851257 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Forbes</primary_name>
           <rest_of_name>Darwin C.</rest_of_name>
           <dates>1871-</dates>
@@ -26,11 +25,14 @@
       <unittitle>Darwin C. Forbes papers</unittitle>
       <unitdate type="inclusive" label="creation">1866-1938</unitdate>
       <physdesc>
-        <extent>0.8 linear feet</extent>
+        <extent>.8 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 992</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 992</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,47 @@
     </descgrp>
     <bioghist>Engineer and surveyor of northern Michigan.</bioghist>
     <scopecontent>Souvenir post cards, business and legal papers, school papers, notes on Mexico and Brazil, autograph book, biographical and genealogical notes, and other family materials, and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="local" encodinganalog="655">
+        <term type="genre_form">Calling cards.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Engineers</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Logging</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Lumbering</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Surveyors</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Travelers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Leslie (Mich. : Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Mexico</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Brazil</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="local" encodinganalog="655">
         <term type="genre_form">Calling cards.</term>
@@ -138,7 +181,7 @@
       <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Houghton (Mich.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651">
+      <subject source="local" encodinganalog="651">
         <term type="geographic">Iosco County (Mich.)</term>
       </subject>
       <subject source="local" encodinganalog="651">
@@ -174,7 +217,7 @@
         <did>
           <unittitle>Darwin C. Forbes papers</unittitle>
           <physdesc>
-            <extent>0.8 linear feet</extent>
+            <extent>.8 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1866-1938</unitdate>
         </did>
@@ -184,14 +227,12 @@
         <did>
           <unittitle>Darwin C. Forbes photograph series.</unittitle>
           <physdesc>
-            <extent>0.4 linear feet</extent>
+            <extent>.4 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1850s-1942</unitdate>
         </did>
         <scopecontent>Portraits of Forbes and Peek family members; views of the Forbes home in Leslie, Michigan; views of Marquette, Michigan, including the courthouse, life saving crew, high school fire, and dam on Dead River; and a view of the Owen Trumbull sawmill in Sherman Township, Iosco County, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

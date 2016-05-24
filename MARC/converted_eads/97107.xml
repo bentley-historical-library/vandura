@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>97107 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Akrawi</primary_name>
           <rest_of_name>Adil J.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Adil J. Akrawi collection</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1978-1995</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8440</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8440</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -55,16 +57,49 @@
         <primary_name>Akrawi</primary_name>
         <rest_of_name>Adil J.</rest_of_name>
       </persname>
+    </controlaccess>
+    <controlaccess>
       <subject source="lcsh" encodinganalog="655">
         <term type="genre_form">Videotapes.</term>
       </subject>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Arab Americans</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Chaldean Catholics</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Akrawi</primary_name>
+        <rest_of_name>Adil J.</rest_of_name>
+      </persname>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Jackson</primary_name>
         <rest_of_name>Jesse</rest_of_name>
         <dates>1941-</dates>
+      </persname>
+      <subject source="local" encodinganalog="730">
+        <term type="uniform_title">Muntadá (Hazel Park, Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Arab Americans</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Chaldean Catholics</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Akrawi</primary_name>
+        <rest_of_name>Adil J.</rest_of_name>
       </persname>
     </controlaccess>
     <dsc>
@@ -72,7 +107,7 @@
         <did>
           <unittitle>Adil J. Akrawi collection</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1978-1995</unitdate>
         </did>
@@ -96,6 +131,5 @@ Videotapes</physfacet>
         <scopecontent>Photographs of visit, ca. 1990, of Jesse Jackson to meeting of Detroit Arab-American leaders; video cassettes of interview with Akrawi, undated, and of Arab World Festival, 1984 and undated.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

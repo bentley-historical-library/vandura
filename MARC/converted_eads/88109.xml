@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 outsize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>3 folders in 1 box</extent>
-      </physdesc>
       <unitid>88109 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Bryant</primary_name>
           <rest_of_name>Frances Maire</rest_of_name>
           <dates>1899-1970</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>Frances Maire Bryant papers</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1960-1973</unitdate>
+      <physdesc>
+        <extent>3 folders in 1 box and 1 outsize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5743</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5743</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -41,6 +40,26 @@
     </descgrp>
     <bioghist>Detroit, Michigan, resident.</bioghist>
     <scopecontent>Papers relating to her participation in the Huguenot Society of Michigan and to the genealogy of the Mettetal family; also tape of her husband, Edward Bryant, discussing her collection; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">French Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Bryant</primary_name>
+        <rest_of_name>Edward L.</rest_of_name>
+        <dates>b. 1898</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Mettetal family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Huguenot Society of Michigan</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">French Americans</term>
@@ -98,13 +117,10 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>3 folders in 1 box</extent>
-          </physdesc>
           <unittitle>Frances Maire Bryant papers</unittitle>
+          <physdesc>
+            <extent>3 folders in 1 box and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1960-1973</unitdate>
         </did>
         <scopecontent>Papers relating to her participation in the Huguenot Society of Michigan and to the genealogy of the Mettetal family; also tape of her husband, Edward Bryant, discussing her collection; and photographs.</scopecontent>
@@ -120,6 +136,5 @@
         <scopecontent>Photos of Bryant as a child with her parents, and as a student at the University of Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86536 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Cook</primary_name>
           <rest_of_name>Sullivan</rest_of_name>
           <dates>1834-1903</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4256</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4256</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier in Co. I, 1st U.S. Sharpshooters in the Civil War.</bioghist>
     <scopecontent>Letters written to his wife; also letter, 1863, of Albert Austin of Co. K, 1st U.S. Sharpshooters; and letter, 1863, of Orlen P. Cook of Co. G, 25th Michigan Infantry.</scopecontent>
@@ -69,9 +71,5 @@
         <subordinate_name>Company K</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
-    <container label="Folder" type="folder">4</container>
   </archdesc>
 </ead>

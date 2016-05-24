@@ -11,29 +11,28 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>2 folders</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 volumes (29 p.)</extent>
-      </physdesc>
       <unitid>88197 AA Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Corselius</primary_name>
           <rest_of_name>Cornelia E.</rest_of_name>
         </persname>
       </origination>
       <unittitle>Cornelia E. Corselius papers</unittitle>
       <unitdate type="inclusive" label="creation">1909 and undated</unitdate>
+      <physdesc>
+        <extent>1 v. (29 p.) and 2 folders</extent>
+      </physdesc>
     </did>
     <descgrp>
       <altformavail>Digital reproduction of "Some of the early homes of Ann Arbor, Michigan" available through the World Wide Web at</altformavail>
-      <acqinfo>Donor: 1274, 4041</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1274, 4041</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -41,6 +40,27 @@
     </descgrp>
     <bioghist>Ann Arbor, Michigan, local historian.</bioghist>
     <scopecontent>Research paper, 1909, entitled "Some of the early homes of Ann Arbor, Michigan," including photographs and other illustrations selected by Lucy Chapin (original and duplicate copy with minor variations); and undated paper about Washtenaw County Court House.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Dwellings</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Architecture.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Courthouses.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Chapin</primary_name>
+        <rest_of_name>Lucy E.</rest_of_name>
+        <dates>1834-1910</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Washtenaw County Courthouse (Ann Arbor, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Dwellings</term>
@@ -76,6 +96,11 @@
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Chapin</primary_name>
+        <rest_of_name>Lucy E.</rest_of_name>
+        <dates>1834-1910</dates>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Volney Chapin House (Ann Arbor, Mich.)</primary_name>
       </corpname>
@@ -137,13 +162,10 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>2 folders</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 volumes (29 p.)</extent>
-          </physdesc>
           <unittitle>Cornelia E. Corselius papers</unittitle>
+          <physdesc>
+            <extent>1 v. (29 p.) and 2 folders</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1909 and undated</unitdate>
         </did>
         <scopecontent>Research paper, 1909, entitled "Some of the early homes of Ann Arbor, Michigan," including photographs and other illustrations selected by Lucy Chapin (original and duplicate copy with minor variations); and undated paper about Washtenaw County Court House.</scopecontent>
@@ -152,15 +174,12 @@
         <did>
           <unittitle>Cornelia E. Corselius photograph series.</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1909 and undated</unitdate>
         </did>
         <scopecontent>Photographs and postcards included with paper, 1909, entitled "Some of the Early Homes of Ann Arbor, Michigan." Illustrations selected by Lucy Chapin.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

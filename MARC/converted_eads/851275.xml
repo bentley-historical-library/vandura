@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 outsize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.1 linear feet</extent>
-      </physdesc>
       <unitid>851275 Aa 2 Ac</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Gardner</primary_name>
           <rest_of_name>Nannette Brown Ellingwood</rest_of_name>
           <dates>1828-1900</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>Nannette B. E. Gardner papers</unittitle>
       <unitdate type="inclusive" label="creation">1871-1893</unitdate>
+      <physdesc>
+        <extent>.1 linear ft. and 1 outsize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2921</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2921</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -41,6 +40,54 @@
     </descgrp>
     <bioghist>Detroit, Michigan, woman suffrage leader.</bioghist>
     <scopecontent>Scrapbooks containing biographical sketch of Mrs. Gardner and members of her family; two pages of a diary on voting in Detroit, Michigan, 1871; miscellaneous papers which largely relate to woman suffrage; and visual materials.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Social reformers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="topical">Suffrage</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women's rights</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women social reformers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hillsdale (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gardner</primary_name>
+        <rest_of_name>Nannette Brown Ellingwood</rest_of_name>
+        <dates>1828-1900</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gardner</primary_name>
+        <rest_of_name>Sada M.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gardner</primary_name>
+        <rest_of_name>Sarah M.</rest_of_name>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -128,6 +175,15 @@
         <term type="topical">Living rooms.</term>
       </subject>
       <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gardner</primary_name>
+        <rest_of_name>Nannette Brown Ellingwood</rest_of_name>
+        <dates>1828-1900</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gardner</primary_name>
+        <rest_of_name>Sarah M.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Hammond</primary_name>
         <rest_of_name>Samuel.</rest_of_name>
       </persname>
@@ -145,31 +201,24 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.1 linear feet</extent>
-          </physdesc>
           <unittitle>Nannette B. E. Gardner papers</unittitle>
+          <physdesc>
+            <extent>.1 linear ft. and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1871-1893</unitdate>
         </did>
         <scopecontent>Scrapbooks containing biographical sketch of Mrs. Gardner and members of her family; two pages of a diary on voting in Detroit, Michigan, 1871; miscellaneous papers which largely relate to woman suffrage; and visual materials.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 volumes</extent>
-          </physdesc>
-          <physdesc>
-            <extent>2 envelopes</extent>
-          </physdesc>
           <unittitle>Nanette Brown Ellingwood Gardner photograph series.</unittitle>
+          <physdesc>
+            <extent>2 envelopes and 1 v</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1870s-1900s</unitdate>
         </did>
         <scopecontent>Family portraits; photos of Gardner's home in Ann Arbor, Michigan; photos of home of Samuel Hammond in Wayne, Michigan; pencil sketch of Samuel Hammond, a shoemaker, by Sarah M. Gardner.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

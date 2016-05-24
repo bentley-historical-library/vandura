@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9549 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Hoffman</primary_name>
           <rest_of_name>Wallace.</rest_of_name>
         </persname>
@@ -25,7 +24,7 @@
       <unittitle>Wallace Hoffman papers</unittitle>
       <unitdate type="inclusive" label="creation">1946-1948</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -33,10 +32,27 @@
         <head>General Note</head>
         <p>Photographs cataloged separately.</p>
       </odd>
-      <acqinfo>Donor: 7412</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7412</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Toledo, Ohio, who worked for U.N.R.R.A. on a famine relief project in Hunan, China, in 1946-1947.</bioghist>
     <scopecontent>Letters, miscellanea, and photographs relating to his experiences in China.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">China</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1945-1949.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hoffman</primary_name>
+        <rest_of_name>Wallace.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United Nations Relief and Rehabilitation Administration</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">China</term>
@@ -64,7 +80,7 @@
         <did>
           <unittitle>Wallace Hoffman papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1946-1948</unitdate>
         </did>
@@ -81,6 +97,5 @@
         <scopecontent>Snapshots relating to his work in China.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

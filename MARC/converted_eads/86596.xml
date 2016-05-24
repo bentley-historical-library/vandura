@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86596 Aa 2 UAm</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Gillette</primary_name>
           <rest_of_name>John W.</rest_of_name>
         </persname>
@@ -25,7 +24,7 @@
       <unittitle>John W. Gillette collection</unittitle>
       <unitdate type="inclusive" label="creation">1862-1864</unitdate>
       <physdesc>
-        <extent>0.4 linear feet</extent>
+        <extent>.4 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -33,13 +32,43 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 5151</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5151</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
     </descgrp>
     <scopecontent>Letters of members of the Twelfth Michigan Infantry Regiment including Ezekial P. Spaulding, Joseph Harper, and Joseph P. Edwards; contain comments relating to their wartime activities; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Edwards</primary_name>
+        <rest_of_name>Joseph R.</rest_of_name>
+        <dates>b. 1839</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Harper</primary_name>
+        <rest_of_name>Joseph</rest_of_name>
+        <dates>1805-1894</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Spaulding</primary_name>
+        <rest_of_name>Ezekial P.</rest_of_name>
+        <dates>b. 1841</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 12th (1862-1866)</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
@@ -110,7 +139,7 @@
         <did>
           <unittitle>John W. Gillette collection</unittitle>
           <physdesc>
-            <extent>0.4 linear feet</extent>
+            <extent>.4 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1862-1864</unitdate>
         </did>
@@ -120,13 +149,12 @@
         <did>
           <unittitle>John W. Gillette photograph series.</unittitle>
           <physdesc>
-            <extent>0.4 linear feet</extent>
+            <extent>.4 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1910-1917</unitdate>
         </did>
         <scopecontent>Photographs of American troops stationed in the Philippines before World War I; also photos of the training of troops in Texas and Kansas.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

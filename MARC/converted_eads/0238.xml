@@ -11,27 +11,56 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0238 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Vreeland family</family_name>
         </famname>
       </origination>
       <unittitle>Vreeland family papers</unittitle>
       <unitdate type="inclusive" label="creation">1820-1896</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>0.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9140</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9140</p>
+      </odd>
     </descgrp>
     <bioghist>The family of Michael Vreeland (or Vreelandt) of Flat Rock, Mich., and his children, especially Daniel C. Vreeland; also the related family of Francis I. Clarke (or Clark), also of Flat Rock. Francis I. Clarke's son Frank Clark served as a corporal in Company C, 1st Michigan Cavalry during the Civil War.</bioghist>
     <scopecontent>Family correspondence, chiefly from relatives in Geneva, N.Y., and St. Clair County, Mich.; also land records and other legal papers; one letter from Frank Clark while serving in the 1st Michigan Cavalry.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Flat Rock (Wayne County, Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Clark</primary_name>
+        <rest_of_name>Frank</rest_of_name>
+        <dates>d.1864</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Vreeland family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Clark family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 1st (1861-1866)</subordinate_name>
+        <subordinate_name>Company C</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Flat Rock (Wayne County, Mich.)</term>
@@ -76,7 +105,7 @@
         <did>
           <unittitle>Vreeland family papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>0.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1820-1896</unitdate>
         </did>
@@ -93,6 +122,5 @@
         <scopecontent>Photos of Florence Vreeland and friends.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

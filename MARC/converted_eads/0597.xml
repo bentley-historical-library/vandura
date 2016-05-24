@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0597 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Stein</primary_name>
           <rest_of_name>Ruth M.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9621</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9621</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -50,6 +52,8 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Sunrise Cooperative Farm Community</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -58,6 +62,30 @@
         <term type="geographic">Michigan</term>
         <term type="geographic">Saginaw County.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Jews</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Saginaw County.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Stein</primary_name>
+        <rest_of_name>Ruth M.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Sunrise Cooperative Farm Community</primary_name>
+      </corpname>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Jews</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Saginaw County.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Stein</primary_name>
+        <rest_of_name>Ruth M.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Sunrise Cooperative Farm Community</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -81,6 +109,5 @@
         <scopecontent>Group photo of community children with their teachers, with identification sheet.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

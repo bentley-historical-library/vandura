@@ -11,27 +11,26 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 CD-ROM</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 folder</extent>
-      </physdesc>
       <unitid>0651 Ba 2; Ba 1</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>Reconciliation Metropolitan Community Church (Grand Rapids, Mich.)</primary_name>
         </corpname>
       </origination>
       <unittitle>Reconciliation Metropolitan Community Church collection</unittitle>
       <unitdate type="inclusive" label="creation">1980-2005</unitdate>
+      <physdesc>
+        <extent>1 folder and 1 CD-ROM</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9715</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9715</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -39,6 +38,31 @@
     </descgrp>
     <bioghist>Church established in 1980 to serve the religious needs of the gay community in Grand Rapids, Mich.</bioghist>
     <scopecontent>Church history and CD-ROM of photos taken throughout the first 25 years of the church's existence.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Gays</term>
+        <term type="topical">Religious life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Grand Rapids.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Gays</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Grand Rapids.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Grand Rapids (Mich.)</term>
+        <term type="topical">Religion.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Reconciliation Metropolitan Community Church (Grand Rapids, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Universal Fellowship of Metropolitan Community Churches</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Grand Rapids.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Gays</term>
@@ -80,17 +104,22 @@
         <term type="geographic">Grand Rapids (Mich.)</term>
         <term type="topical">Religion.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Reconciliation Metropolitan Community Church (Grand Rapids, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Universal Fellowship of Metropolitan Community Churches</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Grand Rapids.</term>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 CD-ROM</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 folder</extent>
-          </physdesc>
           <unittitle>Reconciliation Metropolitan Community Church collection</unittitle>
+          <physdesc>
+            <extent>1 folder and 1 CD-ROM</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1980-2005</unitdate>
         </did>
         <scopecontent>Church history and CD-ROM of photos taken throughout the first 25 years of the church's existence.</scopecontent>
@@ -106,7 +135,5 @@
         <scopecontent>Photos of church members, activities, and buildings.</scopecontent>
       </c01>
     </dsc>
-    <container label="CD Box" type="box">4</container>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

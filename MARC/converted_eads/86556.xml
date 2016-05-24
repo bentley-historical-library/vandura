@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86556 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Lyon</primary_name>
           <rest_of_name>Solomon T.</rest_of_name>
           <dates>1835-1890</dates>
@@ -30,10 +29,39 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3805</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3805</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier from Howell, Michigan who served as an officer in the Fifth Michigan Infantry during the Civil War.</bioghist>
     <scopecontent>Twenty-three letters, and service records concerning his wartime activities; also family letters and papers, including death notices of William C. Rumsey, father of Mrs. Lyon.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Howell (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rumsey</primary_name>
+        <rest_of_name>William C.</rest_of_name>
+        <dates>1811-1893</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Custer</primary_name>
+        <rest_of_name>George A.</rest_of_name>
+        <fuller_form>(George Armstrong)</fuller_form>
+        <dates>1839-1876</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 5th (1861-1865)</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Howell (Mich.)</term>
@@ -74,6 +102,11 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Military officers.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Lyon</primary_name>
         <rest_of_name>Sarah E.</rest_of_name>
@@ -87,9 +120,19 @@
         <primary_name>Rumsey</primary_name>
         <rest_of_name>Permilla Henry.</rest_of_name>
       </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rumsey</primary_name>
+        <rest_of_name>William C.</rest_of_name>
+        <dates>1811-1893</dates>
+      </persname>
       <famname source="lcnaf" encodinganalog="600">
         <family_name>Lyons family</family_name>
       </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 5th (1861-1865)</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -113,8 +156,5 @@
         <scopecontent>Portraits of Lyon, his wife Sarah and children, and William C. Rumsey and Permilla Rumsey (parents of Sarah Lyon).</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85866 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Carhart</primary_name>
           <rest_of_name>Henry S.</rest_of_name>
           <fuller_form>(Henry Smith)</fuller_form>
@@ -27,7 +26,7 @@
       <unittitle>Henry S. Carhart papers</unittitle>
       <unitdate type="inclusive" label="creation">[ca. 1875-ca. 1920]</unitdate>
       <physdesc>
-        <extent>0.3 linear feet (5 folders and 2 volumes)</extent>
+        <extent>.3 linear ft. (5 folders and 2 v.)</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -35,7 +34,10 @@
         <head>Reproduction Note</head>
         <p>Photostatic copies in part.</p>
       </odd>
-      <acqinfo>Donor: 169, 3047</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 169, 3047</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -43,6 +45,37 @@
     </descgrp>
     <bioghist>Professor of physics at University of Michigan.</bioghist>
     <scopecontent>Student notebook, 1881-1882, with notes on work in the Physical Laboratory, Berlin, Germany; scrapbook, 1871-1888 and 1915 containing published articles and lectures, including article on University of Michigan Physical Laboratory; copies of letters, 1893 and 1905, received from William Thomson Kelvin; drafts of articles; biographical material; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Physicists</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Kelvin</primary_name>
+        <rest_of_name>William Thomson</rest_of_name>
+        <title>Baron</title>
+        <dates>1824-1907</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Friedrich-Wilhelms-Universität Berlin</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Physics</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Physical Laboratory</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
@@ -93,13 +126,21 @@
         <fuller_form>(Henry Smith)</fuller_form>
         <dates>1844-1920</dates>
       </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Physics</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Henry S. Carhart papers</unittitle>
           <physdesc>
-            <extent>0.3 linear feet (5 folders and 2 volumes)</extent>
+            <extent>.3 linear ft. (5 folders and 2 v.)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">[ca. 1875-ca. 1920]</unitdate>
         </did>
@@ -116,6 +157,5 @@
         <scopecontent>Portraits, a photo of Carhart in his laboratory, and a silhouette.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

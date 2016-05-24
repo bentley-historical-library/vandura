@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85416 Aa 2</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Stanis</primary_name>
           <rest_of_name>Antoinette</rest_of_name>
         </persname>
@@ -26,11 +25,14 @@
       <langmaterial>Polish American Women's Political Club material in Polish.</langmaterial>
       <unitdate type="inclusive" label="creation">1936-1971</unitdate>
       <physdesc>
-        <extent>1 linear feet</extent>
+        <extent>1 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6719</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6719</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,40 @@
     </descgrp>
     <bioghist>Records collected by Antoinette Stanis of Dearborn, Michigan, related to her civic, social and political activities in the Polish-American community in Detroit.</bioghist>
     <scopecontent>Minutes and treasurer's books of the Polish-American Women's Political Club; constitution and amendments of the West Side Council of Clubs (Democratic); miscellaneous personal material and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Clubs</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Polish Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit</term>
+        <term type="topical">Societies and clubs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Immigrants</term>
+        <term type="geographic">Michigan</term>
+        <term type="topical">Societies, etc.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Democratic Party (Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Polish-American Women's Political Club (Detroit, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>West Side Council of Clubs (Detroit, Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Clubs</term>
@@ -115,6 +151,9 @@
         <term type="topical">Women</term>
         <term type="topical">Political life.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Carter</primary_name>
         <rest_of_name>Jimmy</rest_of_name>
@@ -139,13 +178,19 @@
         <rest_of_name>G. Mennen</rest_of_name>
         <title>Mrs</title>
       </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Democratic Party (Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Polish-American Women's Political Club (Detroit, Mich.)</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Antoinette Stanis records</unittitle>
           <physdesc>
-            <extent>1 linear feet</extent>
+            <extent>1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1936-1971</unitdate>
         </did>
@@ -162,6 +207,5 @@
         <scopecontent>Photograph of members of Polish-American Women's Political Club (1940); photographs of victory celebrations for various Michigan candidates; and photographs of Stanis and others on various political and social occasions.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

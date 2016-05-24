@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -24,13 +23,13 @@
         <extent>1 volume</extent>
       </physdesc>
       <physdesc>
-        <extent>1 Online resource (7.17 GB) [fake number supplied]</extent>
+        <extent>Online resource (7.17 GB)</extent>
       </physdesc>
       <physdesc>
         <extent>1 volume</extent>
       </physdesc>
       <physdesc>
-        <extent>1 Online resource (7.17 GB) [fake number supplied]</extent>
+        <extent>Online resource (7.17 GB)</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -46,11 +45,27 @@ Monroe, Mich.</originalsloc>
         <head>Reproduction Note</head>
         <p>Digital copy. Ann Arbor, Mich. : Bentley Historical Library, 2011.</p>
       </odd>
-      <acqinfo>Donor: 2324</acqinfo>
-      <acqinfo>Donor: 2324</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2324</p>
+      </odd>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2324</p>
+      </odd>
     </descgrp>
     <scopecontent>Journal of a trading post in Monroe, Michigan, probably owned by John J. Wendell, later sheriff of Monroe County, who died in 1855. Accompanied by an index of names.</scopecontent>
     <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Merchants</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Monroe.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Trading posts</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Monroe.</term>
+      </subject>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Merchants</term>
         <term type="geographic">Michigan</term>
@@ -65,11 +80,18 @@ Monroe, Mich.</originalsloc>
         <term type="geographic">Monroe (Mich.)</term>
         <term type="topical">Commerce.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Monroe (Mich.)</term>
+        <term type="topical">Commerce.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Wendell</primary_name>
+        <rest_of_name>John J.</rest_of_name>
+      </persname>
       <persname source="local" encodinganalog="700">
         <primary_name>Wendell</primary_name>
         <rest_of_name>John J.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

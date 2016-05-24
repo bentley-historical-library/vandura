@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 outsize folder</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.2 linear feet</extent>
-      </physdesc>
       <unitid>2013127 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Gibson</primary_name>
           <rest_of_name>Giles Henry.</rest_of_name>
         </persname>
@@ -31,11 +24,17 @@
       <unittitle>Giles H. Gibson papers</unittitle>
       <langmaterial>In English.</langmaterial>
       <unitdate type="inclusive" label="creation">1907-1914</unitdate>
+      <physdesc>
+        <extent>0.2 linear feet and 1 outsize folder</extent>
+      </physdesc>
     </did>
     <descgrp>
       <accruals>No further accruals are expected.</accruals>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10670</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10670</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -61,9 +60,32 @@
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gibson</primary_name>
+        <rest_of_name>Giles Henry.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>College of Engineering</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Engineering</subordinate_name>
+        <subordinate_name>Class of 1911</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Gibson</primary_name>
+        <rest_of_name>Giles Henry.</rest_of_name>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Sophomores.</term>
@@ -78,33 +100,26 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.2 linear feet</extent>
-          </physdesc>
           <unittitle>Giles H. Gibson papers</unittitle>
           <accessrestrict>The collection is open for research use.</accessrestrict>
+          <physdesc>
+            <extent>0.2 linear feet and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1907-1914</unitdate>
         </did>
         <scopecontent>Student material including notebook on math course, student handbook, anthropometric measurement chart, and photographs including freshmen-sophomore rush.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.1 linear feet</extent>
-          </physdesc>
           <unittitle>Giles H. Gibson visual material.</unittitle>
           <accessrestrict>The collection is open for research use.</accessrestrict>
+          <physdesc>
+            <extent>0.1 linear feet and 1 oversize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1908</unitdate>
         </did>
         <scopecontent>1908 panoramic photograph of the University of Michigan College of Engineering class of 1911, sophomore bill posters, 1908, Marshall Vinegar Co. building, unidentified football team.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

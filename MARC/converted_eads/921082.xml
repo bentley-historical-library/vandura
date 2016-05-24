@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>921082 Aa 1 Ac</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>DeRemer</primary_name>
           <rest_of_name>Lionel H.</rest_of_name>
           <dates>1889-1962</dates>
@@ -34,7 +33,10 @@
         <head>Reproduction Note</head>
         <p>Photocopies</p>
       </odd>
-      <acqinfo>Donor:8024, 7992</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor:8024, 7992</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -69,6 +71,30 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>C.R. Wilson Body Company</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Aeronautics.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Air pilots</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Bay City.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Bay City (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>DeRemer</primary_name>
+        <rest_of_name>Lionel H.</rest_of_name>
+        <dates>1889-1962</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>C.R. Wilson Body Company</primary_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -77,6 +103,11 @@
         <term type="geographic">Michigan</term>
         <term type="geographic">Bay City.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>DeRemer</primary_name>
+        <rest_of_name>Lionel H.</rest_of_name>
+        <dates>1889-1962</dates>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Saginaw Bay Yacht Club</primary_name>
       </corpname>
@@ -103,7 +134,5 @@
         <scopecontent>Portrait and photos of DeRemer flying (all copy prints).</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Sd Rec Box" type="box">1</container>
   </archdesc>
 </ead>

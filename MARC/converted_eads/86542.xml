@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86542 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Hempstead</primary_name>
           <rest_of_name>Henry Mortimer</rest_of_name>
           <dates>1832-1916</dates>
@@ -26,15 +25,36 @@
       <unittitle>Henry Mortimer Hempstead diary</unittitle>
       <unitdate type="inclusive" label="creation">1861-1865</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
       <altformavail>Typescript copy available.</altformavail>
-      <acqinfo>Donor: 3252</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3252</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier from Marshall, Michigan who served as an officer in the Second Michigan Cavalry during the Civil War.</bioghist>
     <scopecontent>Diaries concerning his wartime activities.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Marshall (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 2nd (1861-1865)</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -58,18 +78,28 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Military officers.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Hempstead</primary_name>
         <rest_of_name>Henry Mortimer</rest_of_name>
         <dates>1832-1916</dates>
       </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 2nd (1861-1865)</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Henry Mortimer Hempstead diary</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1861-1865</unitdate>
         </did>
@@ -86,7 +116,5 @@
         <scopecontent>Portrait.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

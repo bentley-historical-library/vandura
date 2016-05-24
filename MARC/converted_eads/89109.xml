@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89109 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Parke</primary_name>
           <rest_of_name>Hervey Coke</rest_of_name>
           <dates>1827-1898</dates>
@@ -26,11 +25,14 @@
       <unittitle>Hervey Coke Parke papers</unittitle>
       <unitdate type="inclusive" label="creation">1845-ca. 1900 (scattered dates)</unitdate>
       <physdesc>
-        <extent>0.1 linear feet (1 box)</extent>
+        <extent>.1 linear ft. (1 box)</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7692</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7692</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -38,6 +40,19 @@
     </descgrp>
     <bioghist>Founder of Parke, Davis Company.</bioghist>
     <scopecontent>Letters, 1845-1847, written at Commerce, Mich., to his brothers about family matters; miscellanea; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Commerce Township (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Parke</primary_name>
+        <rest_of_name>Hervey Coke</rest_of_name>
+        <dates>1827-1898</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Park family</family_name>
+      </famname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Commerce Township (Mich.)</term>
@@ -77,13 +92,18 @@
         <term type="geographic">Detroit (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Parke</primary_name>
+        <rest_of_name>Hervey Coke</rest_of_name>
+        <dates>1827-1898</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Hervey Coke Parke papers</unittitle>
           <physdesc>
-            <extent>0.1 linear feet (1 box)</extent>
+            <extent>.1 linear ft. (1 box)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1845-ca. 1900 (scattered dates)</unitdate>
         </did>
@@ -100,6 +120,5 @@
         <scopecontent>Print made of an engraving of Parke's portrait; and interior and exterior photographs of his home on Woodward Avenue in Detroit, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

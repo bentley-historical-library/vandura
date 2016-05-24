@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85922 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Clark</primary_name>
           <rest_of_name>Chloe A.</rest_of_name>
           <dates>1817-1880</dates>
@@ -26,16 +25,19 @@
       <unittitle>Chloe A. Clark diary</unittitle>
       <unitdate type="inclusive" label="creation">1836</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3993</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3993</p>
+      </odd>
     </descgrp>
     <bioghist>Ann Arbor, Michigan, school teacher.</bioghist>
     <scopecontent>Diary describing her journey with her family from New York State to Michigan.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -72,6 +74,5 @@
         <term type="topical">Description and travel.</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

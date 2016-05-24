@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851480 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Hopkins</primary_name>
           <rest_of_name>Clark</rest_of_name>
           <dates>1895-1976</dates>
@@ -26,7 +25,7 @@
       <unittitle>Clark Hopkins notebook</unittitle>
       <unitdate type="inclusive" label="creation">1944</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -34,12 +33,15 @@
         <head>Reproduction Note</head>
         <p>Typescript copy.</p>
       </odd>
-      <acqinfo>Donor: 2113</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2113</p>
+      </odd>
     </descgrp>
     <bioghist>Professor at University of Michigan.</bioghist>
     <scopecontent>Eyewitness accounts of World War II battles by Camp Ellis Veterans.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -55,6 +57,5 @@
         <rest_of_name>John.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

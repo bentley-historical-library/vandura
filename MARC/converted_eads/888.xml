@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>888 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Baker</primary_name>
           <rest_of_name>Luther Byron</rest_of_name>
           <dates>1830-1896</dates>
@@ -34,7 +33,10 @@
         <head>Reproduction Note</head>
         <p>Typescript copy.</p>
       </odd>
-      <acqinfo>Donor: 388</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 388</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Print described separately.</p>
@@ -62,8 +64,34 @@
         <primary_name>United States</primary_name>
         <subordinate_name>Secret Service</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Baker</primary_name>
+        <rest_of_name>Luther Byron</rest_of_name>
+        <dates>1830-1896</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Booth</primary_name>
+        <rest_of_name>John Wilkes</rest_of_name>
+        <dates>1838-1865</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Secret Service</subordinate_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
       </subject>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Baker</primary_name>
@@ -72,9 +100,18 @@
         <dates>1826-1868</dates>
       </persname>
       <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Baker</primary_name>
+        <rest_of_name>Luther Byron</rest_of_name>
+        <dates>1830-1896</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Conger</primary_name>
         <rest_of_name>E. J.</rest_of_name>
       </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Secret Service</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -98,6 +135,5 @@
         <scopecontent>Print showing Col. L. C. Baker, with Lt. L. B. Baker and Lt. Col. E. J. Conger, planning the capture of John Wilkes Booth.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

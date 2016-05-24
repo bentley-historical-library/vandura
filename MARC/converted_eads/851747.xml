@@ -11,24 +11,26 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851747 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Lovell family</family_name>
         </famname>
       </origination>
       <unittitle>Lovell family papers</unittitle>
       <unitdate type="inclusive" label="creation">1834-1952</unitdate>
       <physdesc>
-        <extent>0.4 linear feet</extent>
+        <extent>.4 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4570</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4570</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -36,6 +38,37 @@
     </descgrp>
     <bioghist>Residents of Grafton, Vermont and Kalamazoo County, Michigan.</bioghist>
     <scopecontent>Family correspondence (including correspondence with the Peter Taft family of Cincinnati, Ohio), land transactions, receipts and miscellaneous genealogical material; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Climax (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Grafton (Vt.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Kalamazoo County (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Lovell</primary_name>
+        <rest_of_name>Enos T.</rest_of_name>
+        <dates>1821-1904</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Lovell</primary_name>
+        <rest_of_name>George W.</rest_of_name>
+        <dates>b. 1818</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Lovell</primary_name>
+        <rest_of_name>Willard.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Lovell family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Taft family</family_name>
+      </famname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Climax (Mich.)</term>
@@ -90,13 +123,16 @@
       <famname source="lcnaf" encodinganalog="600">
         <family_name>Beach family</family_name>
       </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Lovell family</family_name>
+      </famname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Lovell family papers</unittitle>
           <physdesc>
-            <extent>0.4 linear feet</extent>
+            <extent>.4 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1834-1952</unitdate>
         </did>
@@ -113,6 +149,5 @@
         <scopecontent>Photos of the family farm in Climax, Michigan; and portraits of family members, including Myra Beach Jordan and the Beach family.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

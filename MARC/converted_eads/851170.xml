@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851170 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Donnelly</primary_name>
           <rest_of_name>John.</rest_of_name>
         </persname>
@@ -29,12 +28,15 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 927</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 927</p>
+      </odd>
     </descgrp>
     <bioghist>Baptist clergyman from Port Huron, and Owosso, Michigan.</bioghist>
     <scopecontent>Correspondence, bills, receipts, and legal papers, largely concerning the activities of the Baptist church in Michigan, temperance and local option questions; also diary with brief entries for 1865.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -55,6 +57,5 @@
         <term type="geographic">Michigan.</term>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

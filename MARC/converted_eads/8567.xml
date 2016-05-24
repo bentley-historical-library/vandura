@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>50 items</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 volumes</extent>
-      </physdesc>
       <unitid>8567 AA Aa 2 Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Brethschneider</primary_name>
           <rest_of_name>Robert</rest_of_name>
           <dates>1819-1877</dates>
@@ -32,10 +25,16 @@
       <unittitle>Robert Brethschneider papers</unittitle>
       <langmaterial>In German.</langmaterial>
       <unitdate type="inclusive" label="creation">1842-1907</unitdate>
+      <physdesc>
+        <extent>1 v. and 50 items</extent>
+      </physdesc>
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 5577</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5577</p>
+      </odd>
     </descgrp>
     <bioghist>Papers of Robert Brethschneider and family, officer in the Prussian army, 1837-1849, captain in Co. E, 2nd Michigan Infantry during the Civil War, later Niles, Berrien County, Michigan, soap manufacturer.</bioghist>
     <scopecontent>Correspondence and other materials concerning life in Germany and Civil War service; and record book, 1868-1877, listing German settlers in the Dieckerill section of Niles brought to the United States by Brethschneider.</scopecontent>
@@ -82,9 +81,5 @@
         <subordinate_name>Company E</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

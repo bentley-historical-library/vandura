@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>861095 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Fellows</primary_name>
           <rest_of_name>Waldo Emerson.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Waldo Emerson Fellows scrapbook</unittitle>
       <unitdate type="inclusive" label="creation">1913-1914</unitdate>
       <physdesc>
-        <extent>1 volumes in 1 box</extent>
+        <extent>1 v. in 1 box</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6064</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6064</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -51,8 +53,26 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1911-1920.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Dramatics.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1911-1920.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
       </subject>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Comedy Club (University of Michigan)</primary_name>
@@ -86,6 +106,10 @@
       </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
+        <term type="topical">Dramatics.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
         <term type="topical">Students.</term>
       </corpname>
     </controlaccess>
@@ -94,7 +118,7 @@
         <did>
           <unittitle>Waldo Emerson Fellows scrapbook</unittitle>
           <physdesc>
-            <extent>1 volumes in 1 box</extent>
+            <extent>1 v. in 1 box</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1913-1914</unitdate>
         </did>
@@ -111,6 +135,5 @@
         <scopecontent>Photographs of student groups and dramatic presentations.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

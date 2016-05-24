@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85754 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Bliss</primary_name>
           <rest_of_name>Solomon B.</rest_of_name>
           <dates>1828-1884</dates>
@@ -26,22 +25,24 @@
       <unittitle>Solomon B. Bliss account book</unittitle>
       <unitdate type="inclusive" label="creation">1867-1876</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of East Saginaw, Michigan.</bioghist>
     <scopecontent>Detailed record of personal and other expenses.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Account books.</term>
       </subject>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">East Saginaw (Saginaw, Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

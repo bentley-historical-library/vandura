@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86589 Aa 1 Vault</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Moore</primary_name>
           <rest_of_name>Orlando Hurley</rest_of_name>
           <dates>1827-1890</dates>
@@ -31,7 +30,10 @@
     </did>
     <descgrp>
       <altformavail>Microfilm copy available.</altformavail>
-      <acqinfo>Donor: 751</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 751</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,6 +41,28 @@
     </descgrp>
     <bioghist>Colonel of the Twenty-Fifth Michigan Infantry during the Civil War.</bioghist>
     <scopecontent>Detailed account of his Civil War activities, photographs, and miscellanea.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Moore</primary_name>
+        <rest_of_name>Orlando Hurley</rest_of_name>
+        <dates>1827-1890</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Morgan</primary_name>
+        <rest_of_name>John Hunt</rest_of_name>
+        <dates>1825-1864</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 25th (1862-1865)</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">United States</term>
@@ -69,6 +93,16 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Military officers.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Moore</primary_name>
+        <rest_of_name>Orlando Hurley</rest_of_name>
+        <dates>1827-1890</dates>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Fort Douglas (Utah)</primary_name>
       </corpname>
@@ -76,6 +110,11 @@
         <primary_name>United States</primary_name>
         <subordinate_name>Army</subordinate_name>
         <subordinate_name>Infantry Regiment, 17th (1861- )</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 25th (1862-1865)</subordinate_name>
       </corpname>
     </controlaccess>
     <dsc>
@@ -100,6 +139,5 @@
         <scopecontent>Portraits of Moore in military uniform and with his staff (1865?); exterior view of Fort Douglas, post Moore commanded in Utah, 1881.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

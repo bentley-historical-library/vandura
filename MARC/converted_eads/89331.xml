@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 folder in 1 box</extent>
-      </physdesc>
-      <physdesc>
-        <extent>3 volumes</extent>
-      </physdesc>
       <unitid>89331 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Tinkham</primary_name>
           <rest_of_name>Ralph Russell.</rest_of_name>
         </persname>
@@ -31,9 +24,15 @@
       <unittitle>Ralph Russell Tinkham papers</unittitle>
       <unitdate type="inclusive" label="creation">1870-1905,</unitdate>
       <unitdate type="bulk" label="creation">bulk 1901-1905</unitdate>
+      <physdesc>
+        <extent>3 v. and 1 folder in 1 box</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6001, 6065</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6001, 6065</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -41,6 +40,17 @@
     </descgrp>
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Scrapbook, 1901-1905, containing programs, clippings, and other memorabilia of student life; and photograph albums, 1870-1905.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
@@ -172,6 +182,12 @@
       </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
         <term type="topical">Student housing</term>
         <term type="temporal">1901-1910.</term>
       </corpname>
@@ -184,13 +200,10 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 folder in 1 box</extent>
-          </physdesc>
-          <physdesc>
-            <extent>3 volumes</extent>
-          </physdesc>
           <unittitle>Ralph Russell Tinkham papers</unittitle>
+          <physdesc>
+            <extent>3 v. and 1 folder in 1 box</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1870-1905,</unitdate>
           <unitdate type="bulk" label="creation">bulk 1901-1905</unitdate>
         </did>
@@ -198,18 +211,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>2 volumes</extent>
-          </physdesc>
           <unittitle>Ralph Russell Tinkham photograph series.</unittitle>
+          <physdesc>
+            <extent>2 v. and 1 folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1870-1905</unitdate>
         </did>
         <scopecontent>Photo album of faculty, students, and activities at Camp Davis, and views of the area near Glen Lake, Michigan; and photo album and loose photos of buildings at the University of Michigan, and of students and activities, including commencement, 1905; also photos of Carry Nation addressing University of Michigan students in 1902.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

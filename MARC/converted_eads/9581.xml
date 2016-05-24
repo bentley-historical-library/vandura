@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>9581 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Hawkins</primary_name>
           <rest_of_name>Wilfred M.</rest_of_name>
         </persname>
@@ -35,7 +34,10 @@
         <head>Publication, Distribution, Etc.</head>
         <p>March 1972.</p>
       </odd>
-      <acqinfo>Donor: 5081</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5081</p>
+      </odd>
     </descgrp>
     <bioghist>Dentist, graduate of the University of Michigan School of Dentistry, class of 1902.</bioghist>
     <scopecontent>Recording of interview in which Hawkins reminiscences about his university life, classes and teachers; also unedited and uncorrected transcript of interview.</scopecontent>
@@ -64,6 +66,5 @@
         <subordinate_name>School of Dentistry</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Sd Rec Box" type="box">1</container>
   </archdesc>
 </ead>

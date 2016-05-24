@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85881 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Burrows</primary_name>
           <rest_of_name>Frances S. Peck.</rest_of_name>
         </persname>
@@ -25,16 +24,19 @@
       <unittitle>Frances S. Peck Burrows diaries</unittitle>
       <unitdate type="inclusive" label="creation">1860 and 1867</unitdate>
       <physdesc>
-        <extent>2 volumes</extent>
+        <extent>2 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2541</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2541</p>
+      </odd>
     </descgrp>
     <bioghist>Wife of U. S. Senator Julius C. Burrows.</bioghist>
     <scopecontent>Diary, 1860, of two months at Prairie Seminary; and account of a trip to Europe in 1867.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -54,6 +56,5 @@
         <primary_name>Prairie Seminary (Richland, Mich.)</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

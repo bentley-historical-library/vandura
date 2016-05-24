@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>99115 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Britton</primary_name>
           <rest_of_name>Edgar Clay</rest_of_name>
           <dates>1891-</dates>
@@ -26,11 +25,14 @@
       <unittitle>Edgar C. Britton papers</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1915-1962</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>0.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8903</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8903</p>
+      </odd>
     </descgrp>
     <bioghist>Organic chemist who headed Dow Chemical Company's organic laboratory.</bioghist>
     <scopecontent>University of Michigan student notebooks of geology class taught by Frank Leverett, ca. 1915; biographical information; correspondence; miscellaneous articles and reports; and photographs.</scopecontent>
@@ -52,16 +54,43 @@
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Britton</primary_name>
+        <rest_of_name>Edgar Clay</rest_of_name>
+        <dates>1891-</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Leverett</primary_name>
+        <rest_of_name>Frank</rest_of_name>
+        <dates>1859-1943</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Dow Chemical Company</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Britton</primary_name>
+        <rest_of_name>Edgar Clay</rest_of_name>
+        <dates>1891-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Dow Chemical Company</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Edgar C. Britton papers</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>0.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1915-1962</unitdate>
         </did>
@@ -78,6 +107,5 @@
         <scopecontent>Group photos from Dow Chemical and other professional functions.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

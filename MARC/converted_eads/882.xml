@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>882 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Askin</primary_name>
           <rest_of_name>John</rest_of_name>
           <dates>1739-1815</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1771, 1333</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771, 1333</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photoprint described separately.</p>
@@ -38,6 +40,16 @@
     </descgrp>
     <bioghist>Early Detroit, Michigan, merchant.</bioghist>
     <scopecontent>Letter to Robert Abbot declining financial responsibility for a note, and photoprint of silhouette.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Abbott</primary_name>
+        <rest_of_name>Robert</rest_of_name>
+        <dates>1773-1852</dates>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
@@ -81,6 +93,5 @@
         <scopecontent>Photoprint of silhouette.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

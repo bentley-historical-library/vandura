@@ -11,26 +11,28 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88324 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Gordy family</family_name>
         </famname>
       </origination>
       <unittitle>Gordy family papers</unittitle>
       <unitdate type="inclusive" label="creation">1928-1947</unitdate>
       <physdesc>
-        <extent>2 linear feet</extent>
+        <extent>2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
       <accessrestrict>Restricted access.</accessrestrict>
       <otherfindaid>Finding aid in the library.</otherfindaid>
-      <acqinfo>Donor: 5301</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5301</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -106,8 +108,81 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Howard University</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Grocers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+        <term type="topical">Commerce.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+        <term type="topical">Church history.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+        <term type="topical">Race relations.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Gordy</primary_name>
+        <rest_of_name>Berry.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Gordy</primary_name>
+        <rest_of_name>Bertha Fuller.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Gordy</primary_name>
+        <rest_of_name>Esther.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Gordy</primary_name>
+        <rest_of_name>Fuller.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Gordy</primary_name>
+        <rest_of_name>George.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>African Methodist Episcopal Church</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Bethel A.M.E. Church (Detroit, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Booker T. Washington Grocery Store (Detroit, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Booker T. Washington Trade Association</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Church of God in Christ (Detroit, Mich.)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Howard University</primary_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African Americans</term>
+        <term type="geographic">Michigan.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Grocery trade</term>
@@ -141,6 +216,9 @@
       <famname source="lcnaf" encodinganalog="600">
         <family_name>Gordy family</family_name>
       </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Booker T. Washington Grocery Store (Detroit, Mich.)</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -148,7 +226,7 @@
           <unittitle>Gordy family papers</unittitle>
           <accessrestrict>Restricted access.</accessrestrict>
           <physdesc>
-            <extent>2 linear feet</extent>
+            <extent>2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1928-1947</unitdate>
         </did>
@@ -159,14 +237,12 @@
           <unittitle>Gordy family photograph series.</unittitle>
           <accessrestrict>Restricted access.</accessrestrict>
           <physdesc>
-            <extent>0.15 linear feet</extent>
+            <extent>.15 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1920-1959</unitdate>
         </did>
         <scopecontent>Portraits and snapshots of family members; interior view of the Booker T. Washington Grocery Store.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

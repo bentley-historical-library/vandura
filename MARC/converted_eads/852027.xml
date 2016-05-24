@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>852027 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Muenzinger</primary_name>
           <rest_of_name>Rudolf.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Rudolf Muenzinger papers</unittitle>
       <unitdate type="inclusive" label="creation">1859-1936</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4124</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4124</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,67 @@
     </descgrp>
     <bioghist>German Lutheran pastor of Metz and Lupton, Michigan, and Toledo,Ohio.</bioghist>
     <scopecontent>Correspondence, baptism, marriage, and communicant records, certificates of naturalization and ordination, musical compositions, picture album of his seminary in Nördlingen, Germany, newspaper clippings, and letter, June 8, 1917, from Herbert Hoover concerning food conservation and the war.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">German Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Music</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Clergy</term>
+        <term type="geographic">Ohio.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Immigrants</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Emigration and immigration.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Germany</term>
+        <term type="topical">Emigration and immigration.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Lupton (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Metz (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Nördlingen (Germany)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Muenzinger</primary_name>
+        <rest_of_name>Rudolf.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Hoover</primary_name>
+        <rest_of_name>Herbert</rest_of_name>
+        <dates>1874-1964</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Lutheran Church</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Lupton.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Lutheran Church</primary_name>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Metz.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Clergy</term>
@@ -115,6 +178,10 @@
         <term type="topical">Funeral rites and ceremonies.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
+        <term type="topical">German Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
         <term type="topical">Lutheran Church</term>
         <term type="topical">Clergy.</term>
       </subject>
@@ -122,13 +189,17 @@
         <term type="geographic">Metz (Mich.)</term>
         <term type="topical">Fires.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Muenzinger</primary_name>
+        <rest_of_name>Rudolf.</rest_of_name>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Rudolf Muenzinger papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1859-1936</unitdate>
         </did>
@@ -145,6 +216,5 @@
         <scopecontent>Portrait, group photos (probably of Muenzinger with other Lutheran clergymen), and photos of the aftermath of the Metz fire, 1908.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

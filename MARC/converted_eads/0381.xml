@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0381 Painting</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Bainbrigge</primary_name>
           <rest_of_name>Philip John</rest_of_name>
           <dates>1817-1881</dates>
@@ -41,7 +40,10 @@ water color</physfacet>
         <head>General Note</head>
         <p>Framed.</p>
       </odd>
-      <acqinfo>Donor: 1333</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1333</p>
+      </odd>
     </descgrp>
     <bioghist>Lieutenant in the British Army.</bioghist>
     <controlaccess>
@@ -55,6 +57,5 @@ water color</physfacet>
         <term type="geographic">Detroit River (Mich. and Ont.)</term>
       </subject>
     </controlaccess>
-    <container label="Oversize Folder" type="folder">1</container>
   </archdesc>
 </ead>

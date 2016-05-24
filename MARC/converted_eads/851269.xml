@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851269 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Fowler</primary_name>
           <rest_of_name>Minnie Osborne</rest_of_name>
           <dates>1862-</dates>
@@ -26,20 +25,23 @@
       <unittitle>Minnie Osborne Fowler diaries</unittitle>
       <unitdate type="inclusive" label="creation">1913-1928</unitdate>
       <physdesc>
-        <extent>0.5 linear feet (11 volumes)</extent>
+        <extent>.5 linear ft. (11 v.)</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4124</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4124</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Saline, Michigan, and Los Angeles, California.</bioghist>
     <scopecontent>Detailed description of everyday life in California.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="691">
+      <subject source="local" encodinganalog="691">
         <term type="geographic">California</term>
         <term type="topical">Social life and customs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -80,6 +82,5 @@
         <dates>1862-</dates>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

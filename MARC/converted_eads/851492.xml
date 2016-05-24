@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851492 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Hulbert</primary_name>
           <rest_of_name>H. B.</rest_of_name>
         </persname>
@@ -29,12 +28,15 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3236</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3236</p>
+      </odd>
     </descgrp>
     <bioghist>Alma, Michigan, merchant.</bioghist>
     <scopecontent>Account books of general store merchandise and sales, and diary noting weather and trips taken.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -52,6 +54,5 @@
         <term type="geographic">Alma (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Oversize Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85569 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Alexander</primary_name>
           <rest_of_name>Kirkland Barker</rest_of_name>
           <dates>1874-</dates>
@@ -34,12 +33,15 @@
         <head>Reproduction Note</head>
         <p>Mimeograph copy.</p>
       </odd>
-      <acqinfo>Donor: 238</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 238</p>
+      </odd>
     </descgrp>
     <bioghist>Detroit, Michigan, newspaperman.</bioghist>
     <scopecontent>Account of a trip on Lake Superior, from Michipicoten Island to Jackfish Bay and return to Sault Ste. Marie (Chippewa County) including illustrations and a map.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="651">
@@ -56,6 +58,5 @@
         <rest_of_name>James.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

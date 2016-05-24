@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88503 BImu C34</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Lemish</primary_name>
           <rest_of_name>Jane.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Jane Lemish student notebooks</unittitle>
       <unitdate type="inclusive" label="creation">1944</unitdate>
       <physdesc>
-        <extent>2 volumes</extent>
+        <extent>2 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2174</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2174</p>
+      </odd>
     </descgrp>
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Notes on geography lectures of George Kish, history lectures of Preston Slosson, and political science lectures of Everett Brown.</scopecontent>
@@ -67,7 +69,5 @@
         <term type="topical">Student notebooks.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
-    <container label="Volume" type="volume">2</container>
   </archdesc>
 </ead>

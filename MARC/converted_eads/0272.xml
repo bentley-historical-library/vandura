@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0272 Aa 2 UAl</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Miller</primary_name>
           <rest_of_name>William Norton</rest_of_name>
           <dates>1881-1979</dates>
@@ -26,14 +25,48 @@
       <unittitle>William N. Miller papers</unittitle>
       <unitdate type="inclusive" label="creation">1910-1928</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>0.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8970</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8970</p>
+      </odd>
     </descgrp>
     <bioghist>Detroit, Michigan building contractor.</bioghist>
     <scopecontent>Drawings, photographs, and other materials depicting the Great Lakes Terminal Warehouse in Detroit and other projects.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Warehouses</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Detroit.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Warehouses</term>
+        <term type="geographic">Ohio</term>
+        <term type="geographic">Toledo.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Warehouses</term>
+        <term type="topical">Design and construction.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+        <term type="topical">Commerce.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Miller</primary_name>
+        <rest_of_name>William Norton</rest_of_name>
+        <dates>1881-1979</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Great Lakes Terminal Warehouse of Detroit</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Great Lakes Terminal Warehouse of Toledo</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Warehouses</term>
@@ -88,7 +121,7 @@
         <did>
           <unittitle>William N. Miller papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>0.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1910-1928</unitdate>
         </did>
@@ -98,13 +131,12 @@
         <did>
           <unittitle>William N. Miller photographs.</unittitle>
           <physdesc>
-            <extent>0.1 linear feet</extent>
+            <extent>0.1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1910-1928</unitdate>
         </did>
         <scopecontent>Photos (1910) of construction project in Detroit for the Michigan Central railroad; photos of other projects including the Great Lakes Terminal Warehouse in Detroit.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

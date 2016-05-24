@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851681 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Lichty</primary_name>
           <rest_of_name>David Martin</rest_of_name>
           <dates>1862-1942</dates>
@@ -26,14 +25,30 @@
       <unittitle>David Martin Lichty papers</unittitle>
       <unitdate type="inclusive" label="creation">1891-1920</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3911</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3911</p>
+      </odd>
     </descgrp>
     <bioghist>Professor of chemistry at University of Michigan.</bioghist>
     <scopecontent>Lecture notes.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Chemistry.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Chemistry</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Chemistry.</term>
@@ -63,7 +78,7 @@
         <did>
           <unittitle>David Martin Lichty papers</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1891-1920</unitdate>
         </did>
@@ -80,6 +95,5 @@
         <scopecontent>Portraits, photos of Lichty with unidentified groups, and photo of Lichty with other chemists.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

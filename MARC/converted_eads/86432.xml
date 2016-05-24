@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>2 items outsize</extent>
-      </physdesc>
-      <physdesc>
-        <extent>4 items</extent>
-      </physdesc>
       <unitid>86432 Ac Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Hatch</primary_name>
           <rest_of_name>Jennie L.</rest_of_name>
           <fuller_form>(Jennie Lucille)</fuller_form>
@@ -31,15 +24,29 @@
       </origination>
       <unittitle>Jennie L. Hatch papers</unittitle>
       <unitdate type="inclusive" label="creation">[ca. 1931-ca. 1935]</unitdate>
+      <physdesc>
+        <extent>4 items and 2 items [outsize]</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2678</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2678</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
     </descgrp>
     <scopecontent>Letters written from England by A. Bently; letter from U.S. Veterans Administration concerning her father; D.A.R. miscellanea; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Great Britain.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Daughters of the American Revolution</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Great Britain.</term>
@@ -128,31 +135,24 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>2 items outsize</extent>
-          </physdesc>
-          <physdesc>
-            <extent>4 items</extent>
-          </physdesc>
           <unittitle>Jennie L. Hatch papers</unittitle>
+          <physdesc>
+            <extent>4 items and 2 items [outsize]</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">[ca. 1931-ca. 1935]</unitdate>
         </did>
         <scopecontent>Letters written from England by A. Bently; letter from U.S. Veterans Administration concerning her father; D.A.R. miscellanea; and photographs.</scopecontent>
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 envelope</extent>
-          </physdesc>
           <unittitle>Jennie L. Hatch photograph series.</unittitle>
+          <physdesc>
+            <extent>1 envelope and 1 folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1915-ca. 1928</unitdate>
         </did>
         <scopecontent>Photos of various Ann Arbor, Michigan subjects, including buildings, football games, children, women, soldiers leaving Ann Arbor train station in 1916 and 1918, and family members; loose photos from album; and interior views of an office in Washtenaw County courthouse.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

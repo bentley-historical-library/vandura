@@ -11,7 +11,6 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -19,7 +18,7 @@
       <unittitle>Michigan House of Representatives portrait collection.</unittitle>
       <unitdate type="inclusive" label="creation">1903-1904</unitdate>
       <physdesc>
-        <extent>0.1 linear feet</extent>
+        <extent>.1 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -27,14 +26,17 @@
         <head>Publication, Distribution, Etc.</head>
         <p>1903-1904.</p>
       </odd>
-      <acqinfo>Donor: 2254</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2254</p>
+      </odd>
     </descgrp>
     <scopecontent>Portraits of some members of the 1903-1904 Michigan House of Representatives.</scopecontent>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650">
+      <subject source="local" encodinganalog="650">
         <term type="topical">Legislators</term>
         <term type="geographic">Michigan.</term>
       </subject>
@@ -44,6 +46,5 @@
         <subordinate_name>House of Representatives</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

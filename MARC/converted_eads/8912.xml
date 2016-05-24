@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8912 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Miller</primary_name>
           <rest_of_name>Donald Crandon</rest_of_name>
           <dates>1887-</dates>
@@ -26,11 +25,14 @@
       <unittitle>Donald Crandon Miller scrapbooks</unittitle>
       <unitdate type="inclusive" label="creation">1906-1909</unitdate>
       <physdesc>
-        <extent>2 volumes in 1 box</extent>
+        <extent>2 v. in 1 box</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4657</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4657</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -57,8 +59,31 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1901-1910.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Miller</primary_name>
+        <rest_of_name>Donald Crandon</rest_of_name>
+        <dates>1887-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1909</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Fraternities and sororities.</term>
@@ -85,6 +110,12 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1901-1910.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
         <term type="topical">Conduct of life.</term>
       </corpname>
     </controlaccess>
@@ -93,7 +124,7 @@
         <did>
           <unittitle>Donald Crandon Miller scrapbooks</unittitle>
           <physdesc>
-            <extent>2 volumes in 1 box</extent>
+            <extent>2 v. in 1 box</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1906-1909</unitdate>
         </did>
@@ -103,13 +134,12 @@
         <did>
           <unittitle>Donald Crandon Miller photograph series.</unittitle>
           <physdesc>
-            <extent>2 volumes</extent>
+            <extent>2 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1906-1909</unitdate>
         </did>
         <scopecontent>Scrapbook photographs depicting student life and activities.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

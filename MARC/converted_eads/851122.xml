@@ -11,24 +11,26 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851122 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="local">
+        <famname encodinganalog="100">
           <family_name>Delano family</family_name>
         </famname>
       </origination>
       <unittitle>Delano family papers</unittitle>
       <unitdate type="inclusive" label="creation">1830 and [ca. 1870]-[ca. 1929]</unitdate>
       <physdesc>
-        <extent>1 box (40 items and 1 volumes)</extent>
+        <extent>1 box (40 items and 1 v.)</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3895</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3895</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Drawings described separately.</p>
@@ -37,7 +39,7 @@
     <bioghist>Detroit, Michigan, family.</bioghist>
     <scopecontent>Diary, 1830, of Mortimer F. Delano, describing trip to France and Italy; memoirs of Frederick M. Delano, including account of his connection with the National Bell Telephone Company (from 1876); clipping of published letter of F. M. Delano, Jr., describing confrontation with U-boat during World War I; and miscellaneous correspondence, biographical information, and clippings.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="gmgpc" encodinganalog="655">
@@ -88,6 +90,62 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>American Telephone and Telegraph Company</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="local" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Drawings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Public utilities</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Telephone</term>
+        <term type="geographic">United States.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Travelers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Detroit (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">France</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Italy</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Delano</primary_name>
+        <rest_of_name>Frederick M.</rest_of_name>
+        <dates>b. 1842</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Delano</primary_name>
+        <rest_of_name>Frederick M.</rest_of_name>
+        <dates>1897-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Delano</primary_name>
+        <rest_of_name>Mortimer F.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>American Telephone and Telegraph Company</primary_name>
+      </corpname>
+      <subject source="gmgpc" encodinganalog="655">
+        <term type="genre_form">Drawings.</term>
+      </subject>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -110,7 +168,7 @@
         <did>
           <unittitle>Delano family papers</unittitle>
           <physdesc>
-            <extent>1 box (40 items and 1 volumes)</extent>
+            <extent>1 box (40 items and 1 v.)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1830 and [ca. 1870]-[ca. 1929]</unitdate>
         </did>
@@ -127,6 +185,5 @@
         <scopecontent>Drawings, by Frederick M. Delano; include a view of Windsor, Ontario, from Detroit, scenes of Belle Isle and a farm near Windsor, and other scenes; portrait of Frederick M. Delano.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

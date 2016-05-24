@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012128 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Stoerker</primary_name>
           <rest_of_name>Ruth A.</rest_of_name>
         </persname>
@@ -31,7 +30,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10814</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10814</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -61,6 +63,47 @@
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Medical School</subordinate_name>
         <subordinate_name>Class of 1953</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women college students</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Stoerker</primary_name>
+        <rest_of_name>Ruth A.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Alpha Epsilon Iota</primary_name>
+        <subordinate_name>Alpha chapter (University of Michigan)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Alumni and alumnae.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Medical School</subordinate_name>
+        <subordinate_name>Class of 1953</subordinate_name>
+      </corpname>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women college students</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Stoerker</primary_name>
+        <rest_of_name>Ruth A.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Alpha Epsilon Iota</primary_name>
+        <subordinate_name>Alpha chapter (University of Michigan)</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Alumni and alumnae.</term>
       </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
@@ -102,6 +145,5 @@
         <scopecontent>Album of photographs depicting life as a student in the Medical School and as a member of Alpha Epsilon Iota, also group photos of class visits to Eli Lilly laboratories and Parke, Davis and Company in Detroit..</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>91473 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Lau</primary_name>
           <rest_of_name>James.</rest_of_name>
         </persname>
@@ -25,14 +24,33 @@
       <unittitle>James Lau papers</unittitle>
       <unitdate type="inclusive" label="creation">1943-1946 and 1954-1960</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7959</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7959</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Ann Arbor, Michigan, who served in the U.S. Navy during World War II and raised horses.</bioghist>
     <scopecontent>Correspondence, photographs and miscellanea relating to his wartime service, and videotape of the Michigan Justin Morgan Horse Association.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lau</primary_name>
+        <rest_of_name>James.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Navy</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Notre Dame</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1939-1945.</term>
@@ -62,6 +80,9 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Horses.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Japan.</term>
       </subject>
@@ -79,7 +100,7 @@
         <did>
           <unittitle>James Lau papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1943-1946 and 1954-1960</unitdate>
         </did>
@@ -94,7 +115,7 @@
 Photographs</physfacet>
           </physdesc>
           <physdesc>
-            <extent>1 videotape (VHS) and 1 videotape (U-matic)</extent>
+            <extent>1videotape (VHS) and 1 videotape (U-matic)</extent>
             <physfacet>
 Videotape</physfacet>
           </physdesc>
@@ -103,6 +124,5 @@ Videotape</physfacet>
         <scopecontent>Photographs of his wartime service, including photos of devastation in Japan; and videotape of the early years (1954-1960) of the Michigan Justin Morgan Horse Association, including scenes of Alexander Ruthven, his farm, and his horses, and Detroit Race Course. The videotape was compiled and narration added in 1991.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

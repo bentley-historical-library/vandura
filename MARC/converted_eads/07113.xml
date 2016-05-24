@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>07113 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Hathaway</primary_name>
           <rest_of_name>Albert L.</rest_of_name>
         </persname>
@@ -35,7 +34,10 @@
         <head>Reproduction Note</head>
         <p>Photocopies.</p>
       </odd>
-      <acqinfo>Donor: 9899</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9899</p>
+      </odd>
     </descgrp>
     <bioghist>Hathaway was a resident of Hartford Township, Mich., and later Harbor Springs, Mich., who served in the 8th Michigan Cavalry during the Civil War. He was separated from his regiment and taken prisoner on Stoneman's Raid, August 1864.</bioghist>
     <scopecontent>Letters and undated autobiography describing his Civil War service in Kentucky, Tennessee, and Georgia with the 8th Michigan Cavalry.</scopecontent>
@@ -76,7 +78,5 @@
         <subordinate_name>Michigan Cavalry Regiment, 8th (1862-1865)</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

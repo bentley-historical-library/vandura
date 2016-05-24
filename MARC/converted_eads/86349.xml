@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86349 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Wheat</primary_name>
           <rest_of_name>Renville.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Renville Wheat papers</unittitle>
       <unitdate type="inclusive" label="creation">1917-1918, 1938, and 1959-1966</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4852</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4852</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,45 @@
     </descgrp>
     <bioghist>Resident of Grosse Pointe Farms, Michigan.</bioghist>
     <scopecontent>Instructional materials used at Field Artillery School of Instruction, Saumur, France during World War I; and copies of diaries detailing trips to Italy, Scotland and England, and the Mediterranean Islands; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">England</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">France.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Grosse Pointe Farms (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Italy</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Mediterranean Region.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Saumur (France)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Scotland</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wheat</primary_name>
+        <rest_of_name>Renville.</rest_of_name>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -95,6 +136,9 @@
         <term type="geographic">Michigan</term>
         <term type="geographic">Detroit.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Detroit (Mich.)</term>
       </subject>
@@ -118,6 +162,10 @@
         <primary_name>Mack</primary_name>
         <rest_of_name>Florence.</rest_of_name>
       </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wheat</primary_name>
+        <rest_of_name>Renville.</rest_of_name>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Ann Arbor High School (Mich.)</primary_name>
         <term type="topical">Students.</term>
@@ -132,7 +180,7 @@
         <did>
           <unittitle>Renville Wheat papers</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1917-1918, 1938, and 1959-1966</unitdate>
         </did>
@@ -140,18 +188,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 outsize folder</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 envelope</extent>
-          </physdesc>
           <unittitle>Renville Wheat photograph series.</unittitle>
+          <physdesc>
+            <extent>1 envelope and 1 outsize folder</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1880s and 1900s-1910s</unitdate>
         </did>
         <scopecontent>Photographs of Wheat, Florence Mack, and other Ann Arbor High School (Mich.) students (ca. 1910s); photo of Wheat and three friends in World War I uniform; group photos of Ann Arbor High School student organizations; photographs of Whitmore Lake (Mich.); and photograph of the 200 block of Woodward Avenue, Detroit, Michigan, ca. 1880s.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851619 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Kleinstuck</primary_name>
           <rest_of_name>Frieda.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 196</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 196</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,57 @@
     </descgrp>
     <bioghist>Lawyer and civic leader in Kalamazoo, Michigan.</bioghist>
     <scopecontent>Correspondence primarily concerning the efforts of the Women's League of University of Michigan to raise money for Palmer Field and for a women's dormitory at University of Michigan. Correspondents include: James B. Angell and Myrtle E. White; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Dormitories</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Lawyers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Kalamazoo.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women lawyers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Kalamazoo.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women civic leaders</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Kalamazoo.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Civic leaders</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Kalamazoo.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Palmer Field (University of Michigan)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Kleinstuck</primary_name>
+        <rest_of_name>Frieda</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Angell</primary_name>
+        <rest_of_name>James Burrill</rest_of_name>
+        <dates>1829-1916</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>White</primary_name>
+        <rest_of_name>Myrtle E.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student housing.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Women's League</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Dormitories</term>
@@ -146,6 +199,5 @@
         <scopecontent>Group portraits of University of Michigan Class of 1909 and Law School Class of 1911 (some are of women only); also a photograph of the May Pole Dance, and various snapshots.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

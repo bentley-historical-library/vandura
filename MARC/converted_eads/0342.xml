@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0342 Bimu 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>Sigma Theta Tau</primary_name>
           <subordinate_name>Rho Chapter (University of Michigan)</subordinate_name>
         </corpname>
@@ -25,11 +24,14 @@
       <unittitle>Sigma Theta Tau, Rho Chapter records</unittitle>
       <unitdate type="inclusive" label="creation">1959-1990s</unitdate>
       <physdesc>
-        <extent>1 linear feet</extent>
+        <extent>1 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8879</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8879</p>
+      </odd>
     </descgrp>
     <bioghist>University of Michigan chapter of national honor society of nursing.</bioghist>
     <scopecontent>Minutes, 1969-1981; programs, brochures, and other published material; and photographs.</scopecontent>
@@ -42,16 +44,30 @@
         <primary_name>Sigma Theta Tau</primary_name>
         <subordinate_name>Rho Chapter (University of Michigan)</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Nursing</term>
+        <term type="topical">Societies, etc.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Sigma Theta Tau</primary_name>
+        <subordinate_name>Rho Chapter (University of Michigan)</subordinate_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Sigma Theta Tau</primary_name>
+        <subordinate_name>Rho Chapter (University of Michigan)</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Sigma Theta Tau, Rho Chapter records</unittitle>
           <physdesc>
-            <extent>1 linear feet</extent>
+            <extent>1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1959-1990s</unitdate>
         </did>
@@ -61,13 +77,12 @@
         <did>
           <unittitle>Sigma Theta Tau, Rho Chapter photographs.</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>0.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1950s-1990s</unitdate>
         </did>
         <scopecontent>Photograph albums and other photos from chapter activities and participation in national conventions; also award cermonies and portraits of officers.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

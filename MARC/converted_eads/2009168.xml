@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2009168 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="local">
+        <famname encodinganalog="100">
           <family_name>Blackmer family (Milan, Mich.)</family_name>
         </famname>
       </origination>
@@ -34,7 +33,10 @@
         <head>General Note</head>
         <p>Forms part of the archives of the Milan Area Historical Society.</p>
       </odd>
-      <acqinfo>Donor: 9322</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9322</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -56,6 +58,8 @@
       <famname source="lcnaf" encodinganalog="600">
         <family_name>Farmer family</family_name>
       </famname>
+    </controlaccess>
+    <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Albums.</term>
       </subject>
@@ -71,6 +75,32 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Fowlerville (Mich.)</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Milan (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Farmer</primary_name>
+        <rest_of_name>Ruth.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Blakemore family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Farmer family</family_name>
+      </famname>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Milan (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Farmer</primary_name>
+        <rest_of_name>Ruth.</rest_of_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Blakemore family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Farmer family</family_name>
+      </famname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -95,6 +125,5 @@
         <scopecontent>Photograph albums (1860s-1930s), daguerreotypes, and a DVD of photographs of members of the David Blackmer and Zeriah Blackmer family of Milan; also album and other photos of Ruth Farmer, daughter of Will Farmer and Cynthia Blackmer, mainly of Farmer family members.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89505 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Lewis</primary_name>
           <rest_of_name>Adelaide Cloyes</rest_of_name>
           <dates>1868-1958</dates>
@@ -27,11 +26,14 @@
       <unitdate type="inclusive" label="creation">1834-1958</unitdate>
       <unitdate type="bulk" label="creation">(bulk 1870-1904)</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7706</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7706</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,6 +41,34 @@
     </descgrp>
     <bioghist>Farmington, Michigan, homemaker.</bioghist>
     <scopecontent>Letters, 1904, from husband, Horatio B. Lewis, Michigan businessman, later general manager of Cuban Products Company, Santiago, Cuba; also collected correspondence of Cloyes family members, including letters, 1870-1880, of Anson Cloyes concerning his life and observations while living in Texas; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Cuba.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Texas.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lewis</primary_name>
+        <rest_of_name>Adelaide Cloyes</rest_of_name>
+        <dates>1868-1958</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Cloyes</primary_name>
+        <rest_of_name>Anson.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Lewis</primary_name>
+        <rest_of_name>Horatio B.</rest_of_name>
+        <dates>1864-1905</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Cloyes family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Elk Rapids Iron Company (Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Cuba.</term>
@@ -76,6 +106,9 @@
         <term type="genre_form">Tintypes.</term>
       </subject>
       <famname source="lcnaf" encodinganalog="600">
+        <family_name>Cloyes family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
         <family_name>Lewis family</family_name>
       </famname>
     </controlaccess>
@@ -84,7 +117,7 @@
         <did>
           <unittitle>Adelaide Cloyes Lewis papers</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1834-1958</unitdate>
           <unitdate type="bulk" label="creation">(bulk 1870-1904)</unitdate>
@@ -102,6 +135,5 @@
         <scopecontent>Collected photographs of unidentified Lewis or Cloyes family members; an ambrotype and a tintype.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

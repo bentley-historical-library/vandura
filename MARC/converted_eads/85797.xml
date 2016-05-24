@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85797 Bq 2</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>Brotherhood of Painters, Decorators, and Paperhangers of America</primary_name>
           <subordinate_name>Local 514 (Ann Arbor, Mich.)</subordinate_name>
         </corpname>
@@ -25,17 +24,33 @@
       <unittitle>Brotherhood of Painters, Decorators and Paperhangers of America, Local 514 records</unittitle>
       <unitdate type="inclusive" label="creation">1899-1942</unitdate>
       <physdesc>
-        <extent>2 linear feet (21 volumes and 1 folder)</extent>
+        <extent>2 linear ft. (21 v. and 1 folder)</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2881</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2881</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photograph described separately.</p>
       </odd>
     </descgrp>
     <scopecontent>Minutes of meetings, roll book, financial records, and photograph.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Labor unions</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>American Federation of Labor</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Labor unions</term>
@@ -74,7 +89,7 @@
         <did>
           <unittitle>Brotherhood of Painters, Decorators and Paperhangers of America, Local 514 records</unittitle>
           <physdesc>
-            <extent>2 linear feet (21 volumes and 1 folder)</extent>
+            <extent>2 linear ft. (21 v. and 1 folder)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1899-1942</unitdate>
         </did>
@@ -91,7 +106,5 @@
         <scopecontent>Photograph of parade float designed by Local 139 (later Local 514); includes glimpses of houses on Ashley Street.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

@@ -11,28 +11,27 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 oversize volume</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 item</extent>
-      </physdesc>
       <unitid>86730 AC Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Abbott</primary_name>
           <rest_of_name>John Cyril.</rest_of_name>
         </persname>
       </origination>
       <unittitle>John Cyril Abbott papers</unittitle>
       <unitdate type="inclusive" label="creation">1910-1915 and 1918</unitdate>
+      <physdesc>
+        <extent>1 item and 1 oversize volume</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4568, 7070</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4568, 7070</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -40,6 +39,17 @@
     </descgrp>
     <bioghist>1916 graduate of the University of Michigan College of Engineering; engineer and army officer in World War I.</bioghist>
     <scopecontent>Letter to his mother, August 1918, containing his impressions of England and France written shortly after his arrival in Europe; and photograph album, ca. 1910-1915, relating to student life at the University of Michigan.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1914-1918.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">England.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">France.</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">World War, 1914-1918.</term>
@@ -109,13 +119,10 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 oversize volume</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 item</extent>
-          </physdesc>
           <unittitle>John Cyril Abbott papers</unittitle>
+          <physdesc>
+            <extent>1 item and 1 oversize volume</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1910-1915 and 1918</unitdate>
         </did>
         <scopecontent>Letter to his mother, August 1918, containing his impressions of England and France written shortly after his arrival in Europe; and photograph album, ca. 1910-1915, relating to student life at the University of Michigan.</scopecontent>
@@ -124,14 +131,12 @@
         <did>
           <unittitle>John C. Abbott photograph series.</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">Ca. 1910-1915</unitdate>
         </did>
         <scopecontent>Album of photographs and memorabilia relating to student activities, especially athletics, the Michigan Union Opera, Phi Delta Chi, Phi Kappa Sigma, Triangles, and Vulcans.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851832 CA.5b Vault</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>United States</primary_name>
           <subordinate_name>Army</subordinate_name>
           <subordinate_name>Michigan Cavalry Regiment, 4th (1862-1865)</subordinate_name>
@@ -26,11 +25,14 @@
       <unittitle>Michigan Cavalry Regiment, 4th (1862-1865) record</unittitle>
       <unitdate type="inclusive" label="creation">1862-1865</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1333</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1333</p>
+      </odd>
     </descgrp>
     <scopecontent>Record compiled by David H. Haines concerning the regiment's activities, including official report of the capture of Jefferson Davis.</scopecontent>
     <controlaccess>
@@ -50,6 +52,5 @@
         <dates>b. 1845</dates>
       </persname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

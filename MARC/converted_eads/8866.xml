@@ -11,28 +11,27 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 folder in 1 box</extent>
-      </physdesc>
-      <physdesc>
-        <extent>3 volumes</extent>
-      </physdesc>
       <unitid>8866 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Blaich</primary_name>
           <rest_of_name>George.</rest_of_name>
         </persname>
       </origination>
       <unittitle>George Blaich papers</unittitle>
       <unitdate type="inclusive" label="creation">1865-1934</unitdate>
+      <physdesc>
+        <extent>3 v. and 1 folder in 1 box</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1741</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1741</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -40,6 +39,22 @@
     </descgrp>
     <bioghist>Ann Arbor, Michigan, grocer.</bioghist>
     <scopecontent>Account book, 1888-1934; scrapbooks containing business and advertising cards, newspaper clippings, and programs; and miscellaneous deeds and mortgages to Ann Arbor, Michigan, property; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Business records.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Grocers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
@@ -93,13 +108,10 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 folder in 1 box</extent>
-          </physdesc>
-          <physdesc>
-            <extent>3 volumes</extent>
-          </physdesc>
           <unittitle>George Blaich papers</unittitle>
+          <physdesc>
+            <extent>3 v. and 1 folder in 1 box</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1865-1934</unitdate>
         </did>
         <scopecontent>Account book, 1888-1934; scrapbooks containing business and advertising cards, newspaper clippings, and programs; and miscellaneous deeds and mortgages to Ann Arbor, Michigan, property; also photographs.</scopecontent>
@@ -115,6 +127,5 @@
         <scopecontent>Photos of Blaich sitting on sleigh in front of his Chelsea, Michigan, home; and photos of Blaich Brothers Grocery on South University Avenue in Ann Arbor.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

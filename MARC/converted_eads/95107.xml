@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>95107 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Welliver</primary_name>
           <rest_of_name>Harry B.</rest_of_name>
         </persname>
@@ -42,7 +41,10 @@
         <head>Publication, Distribution, Etc.</head>
         <p>1948-1949 and 1965.</p>
       </odd>
-      <acqinfo>Donor: 5669</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5669</p>
+      </odd>
     </descgrp>
     <scopecontent>Recordings of Michigan Upper Peninsula folk songs and stories, mainly relating to the state's lumbering history. Each recording includes data sheets detailing circumstances of the recording.</scopecontent>
     <controlaccess>
@@ -67,7 +69,5 @@
         <rest_of_name>Harry B.</rest_of_name>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Sound Rec" type="??">1</container>
   </archdesc>
 </ead>

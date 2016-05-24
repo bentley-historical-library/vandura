@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>8 items</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 volumes</extent>
-      </physdesc>
       <unitid>8613 AA Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Spalding</primary_name>
           <rest_of_name>William Witter</rest_of_name>
           <dates>1820-1901</dates>
@@ -31,13 +24,19 @@
       </origination>
       <unittitle>William Witter Spalding diary</unittitle>
       <unitdate type="inclusive" label="creation">1844-1848</unitdate>
+      <physdesc>
+        <extent>1 v. and 8 items</extent>
+      </physdesc>
     </did>
     <descgrp>
       <odd>
         <head>Reproduction Note</head>
         <p>Typescript copy.</p>
       </odd>
-      <acqinfo>Donor: 1454, 2675</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1454, 2675</p>
+      </odd>
     </descgrp>
     <bioghist>Miner, storekeeper and hotel manager.</bioghist>
     <scopecontent>Account of journey from Iowa up the Mississippi River to Lake Superior region in search of minerals, including comments on Indians, modes of travel, weather, and copper mining in Michigan's Upper Peninsula; and miscellaneous biographical data.</scopecontent>
@@ -75,7 +74,5 @@
         <term type="topical">Description and travel.</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

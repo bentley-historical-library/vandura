@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89225 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Roberts</primary_name>
           <rest_of_name>Willis Reed.</rest_of_name>
         </persname>
@@ -47,6 +46,18 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1871-1880.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1877</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1871-1880.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -57,6 +68,10 @@
         <primary_name>Roberts</primary_name>
         <rest_of_name>Willis Reed.</rest_of_name>
       </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Class of 1877</subordinate_name>
+      </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Alumni and alumnae.</term>
@@ -93,6 +108,5 @@
         <scopecontent>Portraits of Roberts; group portraits of members of Zeta Psi fraternity; group portraits of 1916 reunion of the Class of 1877; and photo of the Zeta Psi house.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

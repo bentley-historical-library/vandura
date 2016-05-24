@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851245 AC</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Forbes</primary_name>
           <rest_of_name>Levi L.</rest_of_name>
         </persname>
@@ -25,16 +24,19 @@
       <unittitle>Levi L. Forbes account book</unittitle>
       <unitdate type="inclusive" label="creation">1865-1882</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 992</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 992</p>
+      </odd>
     </descgrp>
     <bioghist>Farmer and carpenter from Mason, Michigan.</bioghist>
     <scopecontent>Personal account book.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Account books.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -54,6 +56,5 @@
         <term type="geographic">Mason (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

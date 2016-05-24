@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86105 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Steere</primary_name>
           <rest_of_name>William Campbell</rest_of_name>
           <dates>1907-1989</dates>
@@ -26,11 +25,14 @@
       <unittitle>William Campbell Steere papers</unittitle>
       <unitdate type="inclusive" label="creation">1938-1950, 1984</unitdate>
       <physdesc>
-        <extent>0.4 linear feet</extent>
+        <extent>.4 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2068</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2068</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -70,16 +72,63 @@
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Faculty.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Cinchona.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Colombia.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ecuador.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Guatemala.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Steere</primary_name>
+        <rest_of_name>William Campbell</rest_of_name>
+        <dates>1907-1989</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Botany</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Colombia.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ecuador.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Guatemala.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Steere</primary_name>
+        <rest_of_name>William Campbell</rest_of_name>
+        <dates>1907-1989</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>William Campbell Steere papers</unittitle>
           <physdesc>
-            <extent>0.4 linear feet</extent>
+            <extent>.4 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1938-1950, 1984</unitdate>
         </did>
@@ -96,6 +145,5 @@
         <scopecontent>Photos of Steere with other members of group sent to Central and South America in search of cinchona during World War II.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

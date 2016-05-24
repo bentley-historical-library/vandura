@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88453 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Lappin</primary_name>
           <rest_of_name>Albert Roy.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Albert Roy Lappin letters</unittitle>
       <unitdate type="inclusive" label="creation">1927-1929</unitdate>
       <physdesc>
-        <extent>25 items (number approximate)</extent>
+        <extent>ca. 25 items</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6892</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6892</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,7 +40,37 @@
     <bioghist>Medical student at the University of Michigan.</bioghist>
     <scopecontent>Letters to Mollie Medow of Detroit, Michigan, describing his student activities and his affection for her; also photographs.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="691">
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1921-1930.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">20th century.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lappin</primary_name>
+        <rest_of_name>Albert Roy.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Medow</primary_name>
+        <rest_of_name>Mollie.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Medical School</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1921-1930.</term>
+      </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
         <term type="topical">Social life and customs</term>
         <term type="temporal">1921-1930.</term>
@@ -69,6 +101,10 @@
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Lappin</primary_name>
+        <rest_of_name>Albert Roy.</rest_of_name>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Medical School</subordinate_name>
@@ -84,7 +120,7 @@
         <did>
           <unittitle>Albert Roy Lappin letters</unittitle>
           <physdesc>
-            <extent>25 items (number approximate)</extent>
+            <extent>ca. 25 items</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1927-1929</unitdate>
         </did>
@@ -101,6 +137,5 @@
         <scopecontent>Graduation day photos of Lappin.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

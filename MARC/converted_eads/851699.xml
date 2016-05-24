@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851699 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Loomis</primary_name>
           <rest_of_name>Elisha</rest_of_name>
           <dates>1799-1836</dates>
@@ -30,12 +29,15 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2858</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2858</p>
+      </odd>
     </descgrp>
     <bioghist>Traveler to Michigan.</bioghist>
     <scopecontent>Diary, Oct.-Nov. 1830, of a journey from Rochester, New York to the Straits of Mackinac; and a letter commenting on a talk by Robert Stuart, 1831, in which he described his trip to the Columbia River and the establishment of the fur post there.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -63,6 +65,5 @@
         <dates>1785-1848</dates>
       </persname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

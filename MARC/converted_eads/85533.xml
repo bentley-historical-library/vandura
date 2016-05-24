@@ -11,20 +11,19 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85533 Aa 2</unitid>
       <origination>
-        <famname encodinganalog="100" source="local">
+        <famname encodinganalog="100">
           <family_name>Kenny family (Webster, Mich.)</family_name>
         </famname>
       </origination>
       <unittitle>Kenny family papers</unittitle>
       <unitdate type="inclusive" label="creation">[ca. 1828-ca. 1943]</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>0.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -32,7 +31,10 @@
         <head>Reproduction Note</head>
         <p>1828 diary: Original and typescript.</p>
       </odd>
-      <acqinfo>Donor: 1646</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1646</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -92,6 +94,65 @@
       <famname source="lcnaf" encodinganalog="600">
         <family_name>Kenney family</family_name>
       </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Kenney family</family_name>
+      </famname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Agriculture</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Washtenaw County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farm life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Washtenaw County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Frontier and pioneer life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Washtenaw County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Travelers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Dexter (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Vermont.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Washtenaw County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Webster (Mich.)</term>
+      </subject>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Kenny</primary_name>
+        <rest_of_name>Burt.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Kenny</primary_name>
+        <rest_of_name>Munnis</rest_of_name>
+        <dates>1788-1862</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Kenney family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Kenney family</family_name>
+      </famname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
@@ -115,6 +176,9 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Delhi (Mich.)</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Webster (Mich.)</term>
+      </subject>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Angell</primary_name>
         <rest_of_name>James Burrill</rest_of_name>
@@ -127,13 +191,16 @@
       <famname source="lcnaf" encodinganalog="600">
         <family_name>Phelps family</family_name>
       </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Kenney family</family_name>
+      </famname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Kenny family papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>0.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">[ca. 1828-ca. 1943]</unitdate>
         </did>
@@ -150,6 +217,5 @@
         <scopecontent>Photos of Washtenaw County supervisors, Webster Farmers Club, barn raising and house at Phelps homestead, interior of Kenny home, view of Delhi Mill, and road and railroad scenes.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86363 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Bunting</primary_name>
           <rest_of_name>Russell Welford</rest_of_name>
           <dates>1881-1962</dates>
@@ -26,11 +25,14 @@
       <unittitle>Russell Welford Bunting papers</unittitle>
       <unitdate type="inclusive" label="creation">1931-1957</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 764</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 764</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,21 @@
     </descgrp>
     <bioghist>Dean of the School of Dentistry of University of Michigan.</bioghist>
     <scopecontent>Correspondence and reports concerning the Dental School and his professional interests.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Dentistry</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>School of Dentistry</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Dentistry</term>
@@ -76,7 +93,7 @@
         <did>
           <unittitle>Russell Welford Bunting papers</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1931-1957</unitdate>
         </did>
@@ -93,6 +110,5 @@
         <scopecontent>Photos relating to Bunting's interest in civil defense, and his work as Dental Consultant to the Federal Defense Administration; and portrait.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

@@ -11,30 +11,42 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0194 Cb 2, UCBl</unitid>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">
+        <corpname encodinganalog="110">
           <primary_name>Northfield Township Historical Society</primary_name>
         </corpname>
       </origination>
       <unittitle>Northfield Township Historical Society records, 1910s-2009.</unittitle>
       <unitdate>[No date provided]</unitdate>
       <physdesc>
-        <extent>1 linear feet</extent>
+        <extent>1 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7295</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7295</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials and sound recordings described separately.</p>
       </odd>
     </descgrp>
     <scopecontent>Collected materials, mainly visual, used in preparation of pictorial history, Northfield Harvest (1999), and other collected items.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Northfield (Mich. : Township)</term>
+        <term type="topical">History.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Whitmore Lake (Mich.)</term>
+        <term type="topical">History.</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Northfield (Mich. : Township)</term>
@@ -70,6 +82,14 @@
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Sound recordings.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Northfield (Mich. : Township)</term>
+        <term type="topical">History.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Whitmore Lake (Mich.)</term>
+        <term type="topical">History.</term>
+      </subject>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Northfield Township Historical Society</primary_name>
       </corpname>
@@ -79,7 +99,7 @@
         <did>
           <unittitle>Northfield Township Historical Society records, 1910s-2009.</unittitle>
           <physdesc>
-            <extent>1 linear feet</extent>
+            <extent>1 linear ft</extent>
           </physdesc>
         </did>
         <scopecontent>Collected materials, mainly visual, used in preparation of pictorial history, Northfield Harvest (1999), and other collected items.</scopecontent>
@@ -88,7 +108,7 @@
         <did>
           <unittitle>Northfield Township Historical Society visual materials.</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>0.3 linear ft</extent>
             <physfacet>
 Photographs and postcards</physfacet>
           </physdesc>
@@ -110,6 +130,5 @@ Photographs and postcards</physfacet>
         <scopecontent>Recordings of conversations with several individuals discussing history of Northfield Township and Whitmore Lake, Michigan; include typscript summaries of the dicussions.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

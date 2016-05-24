@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>75 items</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 volumes</extent>
-      </physdesc>
       <unitid>85252 AC Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Lardner</primary_name>
           <rest_of_name>Henry</rest_of_name>
           <dates>1839-1914</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>Henry Lardner record book</unittitle>
       <unitdate type="inclusive" label="creation">1877-1905</unitdate>
+      <physdesc>
+        <extent>1 v. and 75 items</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5807</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5807</p>
+      </odd>
     </descgrp>
     <bioghist>Niles, Michigan, real estate and investment agent for the Equitable Trust Company of New York.</bioghist>
     <scopecontent>Record book and miscellaneous business papers.</scopecontent>
@@ -53,7 +52,5 @@
         <primary_name>Equitable Trust Company of New York</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Oversize Volume" type="volume">1</container>
   </archdesc>
 </ead>

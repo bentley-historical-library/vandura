@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>87256 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Proffitt</primary_name>
           <rest_of_name>Roy Franklin</rest_of_name>
           <dates>1918-</dates>
@@ -26,11 +25,14 @@
       <unittitle>Roy Franklin Proffitt papers</unittitle>
       <unitdate type="inclusive" label="creation">1965-1983</unitdate>
       <physdesc>
-        <extent>3 linear feet</extent>
+        <extent>3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6955</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6955</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -64,19 +66,54 @@
         <primary_name>State Bar of Michigan</primary_name>
         <subordinate_name>Special Committee of the Michigan State Bar for the Revision of the Criminal Code</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Criminal law</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Philippines</term>
+        <term type="topical">History</term>
+        <term type="temporal">1946-1986.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Angara</primary_name>
+        <rest_of_name>Edgardo J.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Law School</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Alumni and alumnae.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>State Bar of Michigan</primary_name>
+        <subordinate_name>Special Committee of the Michigan State Bar for the Revision of the Criminal Code</subordinate_name>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Aged persons.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Alumni and alumnae.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Law School</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Roy Franklin Proffitt papers</unittitle>
           <physdesc>
-            <extent>3 linear feet</extent>
+            <extent>3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1965-1983</unitdate>
         </did>
@@ -93,8 +130,5 @@
         <scopecontent>Photographs of 100-year-old alumni of the University of Michigan Law School.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
-    <container label="Box" type="box">3</container>
   </archdesc>
 </ead>

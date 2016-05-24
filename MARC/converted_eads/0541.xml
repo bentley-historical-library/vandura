@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0541 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="local">
+        <famname encodinganalog="100">
           <family_name>Marr family (Howell, Mich.)</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5338</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5338</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -36,6 +38,76 @@
     </descgrp>
     <bioghist>Duston Marr (1827-1897) of Onondaga, Ingham County, Mich., served in the 1st Michigan Cavalry during the Civil War. His nephew John Marr (1861-1904) lived in the Seattle, Wash. area in the 1880s. Another nephew, Douglas Marr (1865-1951) lived in Howell, Mich.</bioghist>
     <scopecontent>Letter (Nov. 23, 1861) from Duston Marr describing his attempt to move to Missouri disrupted by rebels there; letter (Apr. 12, 1864) from S.C.M. Carpenter of Co. I, 5th Michigan Infantry, in Virginia, to Jesse Marr; letter (Nov. 1865) from Duston Marr at Fort Leavenworth, Kans., describing army life; letter (Dec. 27, 1888) from John Marr describing life in the Puget Sound region; letter (Feb. 25, 1864) from Thomas J. Marr of the 5th Michigan Infantry; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Puget Sound Region (Wash.)</term>
+        <term type="topical">Description and travel.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Missouri</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Kansas</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Virginia</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Marr</primary_name>
+        <rest_of_name>Duston</rest_of_name>
+        <dates>1827-1897</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Marr</primary_name>
+        <rest_of_name>John</rest_of_name>
+        <dates>1861-1904</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Carpenter</primary_name>
+        <rest_of_name>S. C. M.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Marr</primary_name>
+        <rest_of_name>Duston</rest_of_name>
+        <dates>1827-1897</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Marr</primary_name>
+        <rest_of_name>John</rest_of_name>
+        <dates>1861-1904</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Marr</primary_name>
+        <rest_of_name>Thomas J.</rest_of_name>
+        <dates>d. 1864</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Marrs family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Cavalry Regiment, 1st (1861-1866)</subordinate_name>
+        <subordinate_name>Company M</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 5th (1861-1866)</subordinate_name>
+        <subordinate_name>Company I</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Puget Sound Region (Wash.)</term>
@@ -121,6 +193,9 @@
         <rest_of_name>Douglas</rest_of_name>
         <dates>1865-1951</dates>
       </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Marrs family</family_name>
+      </famname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -144,6 +219,5 @@
         <scopecontent>Photos of Douglas Marr family and their home and barns.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

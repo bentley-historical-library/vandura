@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -19,16 +18,16 @@
       <unitdate type="inclusive" label="creation">1993</unitdate>
       <unitdate type="inclusive" label="creation">1993</unitdate>
       <physdesc>
-        <extent>1 videocassette</extent>
+        <extent>1 videocassette (11 min.)</extent>
         <physfacet>
 sd., col.</physfacet>
-        <dimensions>1/2 in.; 11 min.</dimensions>
+        <dimensions>1/2 in.</dimensions>
       </physdesc>
       <physdesc>
-        <extent>1 videocassette</extent>
+        <extent>1 videocassette (11 min.)</extent>
         <physfacet>
 sd., col.</physfacet>
-        <dimensions>1/2 in.; 11 min.</dimensions>
+        <dimensions>1/2 in.</dimensions>
       </physdesc>
     </did>
     <descgrp>
@@ -61,6 +60,18 @@ sd., col.</physfacet>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Videotapes.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Videotapes.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Universities and colleges</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Universities and colleges</term>
+        <term type="geographic">Michigan</term>
+        <term type="topical">Admission.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Universities and colleges</term>
@@ -99,6 +110,37 @@ sd., col.</physfacet>
         <primary_name>Daniel</primary_name>
         <rest_of_name>Linda.</rest_of_name>
       </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Jones</primary_name>
+        <rest_of_name>James Earl.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Goldenberg</primary_name>
+        <rest_of_name>Edie N.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Lieberthal</primary_name>
+        <rest_of_name>Kenneth.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Stapp</primary_name>
+        <rest_of_name>William B.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Savage</primary_name>
+        <rest_of_name>Philip.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Tanter</primary_name>
+        <rest_of_name>Raymond.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Daniel</primary_name>
+        <rest_of_name>Linda.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+      </corpname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
       </corpname>
@@ -106,7 +148,10 @@ sd., col.</physfacet>
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>Office of Undergraduate Admissions</subordinate_name>
       </corpname>
+      <corpname source="local" encodinganalog="710">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Office of Undergraduate Admissions</subordinate_name>
+      </corpname>
     </controlaccess>
-    <container label="Video Box" type="box">9</container>
   </archdesc>
 </ead>

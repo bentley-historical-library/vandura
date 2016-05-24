@@ -11,20 +11,19 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851890 Aa 2 UAx Vault</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Moore family</family_name>
         </famname>
       </origination>
       <unittitle>Moore family papers</unittitle>
       <unitdate type="inclusive" label="creation">1856-1913</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -32,10 +31,47 @@
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
-      <acqinfo>Donor: 2908</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2908</p>
+      </odd>
     </descgrp>
     <bioghist>Family from Ypsilanti, Michigan.</bioghist>
     <scopecontent>Chiefly personal correspondence of James Martin Moore with friends and family, including three Civil War letters of Samuel R. Moore of the Twentieth Michigan Infantry; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farmers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ypsilanti.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ypsilanti (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Crapo</primary_name>
+        <rest_of_name>Henry Howland</rest_of_name>
+        <dates>1804-1869</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Moore</primary_name>
+        <rest_of_name>James Martin</rest_of_name>
+        <dates>1834-1913</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Moore family</family_name>
+      </famname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 20th (1862-1865)</subordinate_name>
+        <subordinate_name>Company F</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Farmers</term>
@@ -125,10 +161,23 @@
         <term type="geographic">Dixboro (Mich.)</term>
         <term type="topical">Churches.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
       <subject source="lctgm" encodinganalog="651">
         <term type="geographic">Ypsilanti (Mich.)</term>
         <term type="topical">Dwellings.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Moore</primary_name>
+        <rest_of_name>James Martin</rest_of_name>
+        <dates>1834-1913</dates>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Moore family</family_name>
+      </famname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Dixboro United Methodist Church (Dixboro, Mich.)</primary_name>
       </corpname>
@@ -147,7 +196,7 @@
         <did>
           <unittitle>Moore family papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1856-1913</unitdate>
         </did>
@@ -155,18 +204,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>4 items</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 envelope</extent>
-          </physdesc>
           <unittitle>Moore family photograph series.</unittitle>
+          <physdesc>
+            <extent>1 envelope and 4 items</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1860s-ca. 1930s</unitdate>
         </did>
         <scopecontent>Portraits and informal photos of family members; interior view of St. Thomas Catholic Church, Ann Arbor, Michigan; photos of log cabin built in 1831 by David Moore; portraits of members of the 3rd Michigan Cavalry, Company D, in the Civil War (friends of John M. Moore); also case photographs of James Martin Moore in his youth and while serving in the 3rd Regiment, Michigan Cavalry during the Civil War.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

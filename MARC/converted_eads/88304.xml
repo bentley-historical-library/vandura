@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88304 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Fairbanks</primary_name>
           <rest_of_name>Avard T.</rest_of_name>
           <fuller_form>(Avard Tennyson)</fuller_form>
@@ -27,14 +26,33 @@
       <unittitle>Avard T. Fairbanks papers</unittitle>
       <unitdate type="inclusive" label="creation">1938-1958</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 54, 6209, 6727</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 54, 6209, 6727</p>
+      </odd>
     </descgrp>
     <bioghist>Sculptor and professor of fine arts at the University of Michigan.</bioghist>
     <scopecontent>Biographical and genealogical information; scattered letters, prints of his sculptures, and miscellaneous.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Art.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Artists</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Dept. of Fine Arts</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Art.</term>
@@ -77,7 +95,7 @@
         <did>
           <unittitle>Avard T. Fairbanks papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1938-1958</unitdate>
         </did>
@@ -94,6 +112,5 @@
         <scopecontent>Family portrait; photographs of his works including various monuments and memorial sculpture; include photos of relief of Thomas Cooley in the courtyard of the University of Michigan Law School.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

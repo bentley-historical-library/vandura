@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8610 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Smith</primary_name>
           <rest_of_name>Clement McDonald</rest_of_name>
           <dates>1844-1923</dates>
@@ -26,12 +25,15 @@
       <unittitle>Clement McDonald Smith papers</unittitle>
       <unitdate type="inclusive" label="creation">1860-1922</unitdate>
       <physdesc>
-        <extent>2 linear feet</extent>
+        <extent>2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
       <altformavail>Microfilm copy of student notebooks available; also photographs.</altformavail>
-      <acqinfo>Donor: 379, 1718, 4067</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 379, 1718, 4067</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -39,6 +41,83 @@
     </descgrp>
     <bioghist>Lawyer in Barry and Eaton Counties, Michigan.</bioghist>
     <scopecontent>Diaries of daily happenings, 1860, 1869, 1901, and 1918-1922, letter describing a trip, 1876, from Detroit, Michigan to Philadelphia, Pennsylvania to attend the Centennial Exposition, nine account books, one scrapbook, and two volumes of University of Michigan student notebooks on courses by James V. Campbell, Thomas M. Cooley, Ashley Pond and Charles I. Walker.</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Account books.</term>
+      </subject>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Lawyers</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Travelers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Barry County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Hastings (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Marshall (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">San Francisco (Calif.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Campbell</primary_name>
+        <rest_of_name>James V.</rest_of_name>
+        <fuller_form>(James Valentine)</fuller_form>
+        <dates>1823-1890</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cooley</primary_name>
+        <rest_of_name>Thomas McIntyre</rest_of_name>
+        <dates>1824-1898</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Kent</primary_name>
+        <rest_of_name>Charles A.</rest_of_name>
+        <fuller_form>(Charles Artemas)</fuller_form>
+        <dates>1835-1917</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Pond</primary_name>
+        <rest_of_name>Ashley</rest_of_name>
+        <dates>1827-1910</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Walker</primary_name>
+        <rest_of_name>Charles I.</rest_of_name>
+        <fuller_form>(Charles Irish)</fuller_form>
+        <dates>1814-1895</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wells</primary_name>
+        <rest_of_name>William P.</rest_of_name>
+        <dates>1831-1891</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Department of Law</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="611">
+        <primary_name>Centennial Exhibition</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Account books.</term>
@@ -138,7 +217,7 @@
         <did>
           <unittitle>Clement McDonald Smith papers</unittitle>
           <physdesc>
-            <extent>2 linear feet</extent>
+            <extent>2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1860-1922</unitdate>
         </did>
@@ -155,7 +234,5 @@
         <scopecontent>Portraits of Smith and various family members; also photo of Barry County Bar Association.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>

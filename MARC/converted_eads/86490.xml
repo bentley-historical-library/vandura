@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86490 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Perry</primary_name>
           <rest_of_name>Oliver Hazard</rest_of_name>
           <dates>1817-1864</dates>
@@ -34,7 +33,10 @@
         <head>Reproduction Note</head>
         <p>Mimeograph copy.</p>
       </odd>
-      <acqinfo>Donor: 6771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6771</p>
+      </odd>
     </descgrp>
     <bioghist>Cleveland, Ohio, resident.</bioghist>
     <scopecontent>Describes his elk and deer hunting expedition to the Elk Creek region of Sanilac County, Michigan.</scopecontent>
@@ -56,6 +58,5 @@
         <term type="geographic">Sanilac County (Mich.)</term>
       </subject>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85360 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Schmid</primary_name>
           <rest_of_name>J. G. Fred.</rest_of_name>
         </persname>
@@ -25,16 +24,19 @@
       <unittitle>J. G. Fred Schmid records</unittitle>
       <unitdate type="inclusive" label="creation">1905-1924</unitdate>
       <physdesc>
-        <extent>4 volumes in 1 box</extent>
+        <extent>4 v. in 1 box</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 6588</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 6588</p>
+      </odd>
     </descgrp>
     <bioghist>Ann Arbor, Michigan, saloon-keeper and landlord.</bioghist>
     <scopecontent>Ledgers of accounts with customers, record of purchases, and tenant record book for room and stable rental.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="691">
+      <subject source="local" encodinganalog="691">
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Commerce.</term>
       </subject>
@@ -47,6 +49,5 @@
         <term type="geographic">Ann Arbor</term>
       </subject>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

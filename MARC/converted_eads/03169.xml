@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>03169 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Wright</primary_name>
           <rest_of_name>Audrey L.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Audrey L. Wright scrapbooks</unittitle>
       <unitdate type="inclusive" label="creation">1922-1929</unitdate>
       <physdesc>
-        <extent>0.3 linear feet (3 volumes)</extent>
+        <extent>0.3 linear ft. (3 v.)</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9393</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9393</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -65,6 +67,8 @@
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Betsey Barbour House (University of Michigan)</primary_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
       <subject source="gmgpc" encodinganalog="655">
         <term type="genre_form">Albums.</term>
       </subject>
@@ -113,13 +117,53 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Montague (Mich.)</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wright</primary_name>
+        <rest_of_name>Audrey L.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Betsey Barbour House (University of Michigan)</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1921-1930.</term>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women college students</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Travelers.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Voyages and travels.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Wright</primary_name>
+        <rest_of_name>Audrey L.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1921-1930.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Betsey Barbour House (University of Michigan)</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Audrey L. Wright scrapbooks</unittitle>
           <physdesc>
-            <extent>0.3 linear feet (3 volumes)</extent>
+            <extent>0.3 linear ft. (3 v.)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1922-1929</unitdate>
         </did>
@@ -129,13 +173,12 @@
         <did>
           <unittitle>Audrey L. Wright scrapbooks.</unittitle>
           <physdesc>
-            <extent>0.3 linear feet (3 volumes)</extent>
+            <extent>0.3 linear ft. (3 v.)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1922-1929</unitdate>
         </did>
         <scopecontent>Photos of student activities, a 1929 Students Travel Club tour to Europe aboard the RMS Ascania, and a photo album depicting life and scenes at summer camps including Camp Keewano, Camp Minohe, Camp Pontiac, and Camp Bryn Afon, includes scenes of trips to Ontonagon, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

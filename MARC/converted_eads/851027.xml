@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851027 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Cooley</primary_name>
           <rest_of_name>Rutger Horton</rest_of_name>
           <dates>1893-</dates>
@@ -26,16 +25,19 @@
       <unittitle>Rutger Horton Cooley diary</unittitle>
       <unitdate type="inclusive" label="creation">1914</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1255</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1255</p>
+      </odd>
     </descgrp>
     <bioghist>Student at University of Michigan.</bioghist>
     <scopecontent>Journal of trip to Great Britain in the summer of 1914, with comments on plays attended and places visited.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -55,6 +57,5 @@
         <term type="temporal">1911-1920.</term>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

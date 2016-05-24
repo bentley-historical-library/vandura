@@ -10,13 +10,12 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>07177 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Lockett</primary_name>
           <rest_of_name>Harold J.</rest_of_name>
           <dates>1924-1994</dates>
@@ -31,7 +30,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 9963</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9963</p>
+      </odd>
     </descgrp>
     <bioghist>Ann Arbor, Michigan African American psychiatrist; member and president of Ann Arbor Board of Education; board member of the Ann Arbor Black Theatre; psychiatrist and director with the Hawthorn Center in Northville, Michigan.</bioghist>
     <scopecontent>Biographical and personal materials; minutes of the board, clippings, and promotional materials for the Ann Arbor Black Theatre; and miscellaneous relating to the Hawthorn Center.</scopecontent>
@@ -62,6 +64,5 @@
         <primary_name>Hawthorn Center</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

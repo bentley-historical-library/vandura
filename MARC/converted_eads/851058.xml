@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851058 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Daschke</primary_name>
           <rest_of_name>George A.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>George A. Daschke papers</unittitle>
       <unitdate type="inclusive" label="creation">1943-1947</unitdate>
       <physdesc>
-        <extent>0.4 linear feet</extent>
+        <extent>.4 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3298</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3298</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,7 +40,23 @@
     <bioghist>Serviceman in the U.S. Navy stationed in the Pacific theater during World War II.</bioghist>
     <scopecontent>Letters to his mother and other members of his family relating his service in the war; diary, 1946, concerning daily activities; and photograph.</scopecontent>
     <controlaccess>
-      <subject source="lcsh" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">China</term>
+        <term type="topical">Republic, 1912-1949.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Navy</subordinate_name>
+      </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -55,6 +73,9 @@
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">World War, 1939-1945.</term>
+      </subject>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Daschke</primary_name>
         <rest_of_name>George A.</rest_of_name>
@@ -65,7 +86,7 @@
         <did>
           <unittitle>George A. Daschke papers</unittitle>
           <physdesc>
-            <extent>0.4 linear feet</extent>
+            <extent>.4 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1943-1947</unitdate>
         </did>
@@ -82,6 +103,5 @@
         <scopecontent>Portrait of Daschke.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

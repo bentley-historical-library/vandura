@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88262 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Drake</primary_name>
           <rest_of_name>Rollin Edward.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Chequamegon Band &amp; Orchestra 1883-1896</unittitle>
       <unitdate type="inclusive" label="creation">1954</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1782</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1782</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,21 @@
     </descgrp>
     <bioghist>Dental student at the University of Michigan, class of 1884.</bioghist>
     <scopecontent>Volume compiled in 1954 containing essay, clipping, photographs and other materials relating to this orchestra of largely University of Michigan students.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Musicians</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ann Arbor.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Societies, etc.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Chequamegon Band &amp; Orchestra</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Musicians</term>
@@ -60,13 +77,21 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Orchestras.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Chequamegon Band &amp; Orchestra</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Societies, etc.</term>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Chequamegon Band &amp; Orchestra 1883-1896</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1954</unitdate>
         </did>
@@ -83,6 +108,5 @@
         <scopecontent>Photographs to accompany the paper, "Chequamegon Band &amp; Orchestra 1883-1896," compiled by Drake in 1954; photos of the organization's members in uniform, with their instruments.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

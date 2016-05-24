@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>92243 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Harley</primary_name>
           <rest_of_name>Herbert.</rest_of_name>
         </persname>
@@ -25,7 +24,7 @@
       <unittitle>Herbert Harley photograph album.</unittitle>
       <unitdate type="inclusive" label="creation">1897-1906</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -33,7 +32,10 @@
         <head>Publication, Distribution, Etc.</head>
         <p>1897-1906.</p>
       </odd>
-      <acqinfo>Donor: 1771</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1771</p>
+      </odd>
     </descgrp>
     <bioghist>Manistee, Michigan, lawyer; later secretary of the American Judicature Society; full name Herbert Lincoln Harley, born 1871.</bioghist>
     <scopecontent>Photos of sailing ships and boats in the Manistee area, landscapes, and photos of Harley's friends and relatives.</scopecontent>
@@ -61,7 +63,7 @@
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Ferries.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="650">
+      <subject source="local" encodinganalog="650">
         <term type="topical">Frankfort (Mich.)</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
@@ -101,7 +103,7 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Chicago (Ill.)</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651">
+      <subject source="local" encodinganalog="651">
         <term type="geographic">Harbor Springs (Mich.)</term>
       </subject>
       <subject source="lcsh" encodinganalog="651">
@@ -119,6 +121,5 @@
         <dates>1828-1876</dates>
       </persname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

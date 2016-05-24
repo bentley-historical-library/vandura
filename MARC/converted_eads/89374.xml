@@ -11,25 +11,21 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>2 folders (outsize)</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 volumes</extent>
-      </physdesc>
       <unitid>89374 CB.1 Outsize</unitid>
       <origination>
-        <corpname encodinganalog="110" source="local">
+        <corpname encodinganalog="110">
           <primary_name>United States</primary_name>
           <subordinate_name>Census Office</subordinate_name>
         </corpname>
       </origination>
       <unittitle>Census records</unittitle>
       <unitdate type="inclusive" label="creation">1870</unitdate>
+      <physdesc>
+        <extent>1 v. and 2 folders (outsize)</extent>
+      </physdesc>
     </did>
     <descgrp>
       <odd>
@@ -40,7 +36,10 @@
         <head>Formatted Contents Note</head>
         <p>Inhabitants -- Persons who died during the year -- Products of industry</p>
       </odd>
-      <acqinfo>Donor: 1343</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1343</p>
+      </odd>
     </descgrp>
     <scopecontent>Census schedules for Washtenaw County, Michigan.</scopecontent>
     <controlaccess>
@@ -61,8 +60,5 @@
         <term type="topical">Census, 9th, 1870.</term>
       </subject>
     </controlaccess>
-    <container label="Oversize Volume" type="volume">1</container>
-    <container label="Oversize Volume" type="volume">2</container>
-    <container label="Oversize Volume" type="volume">3</container>
   </archdesc>
 </ead>

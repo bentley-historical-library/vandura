@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88279 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Knuth</primary_name>
           <rest_of_name>Clarence Paul Edward.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Clarence Paul Edward Knuth papers</unittitle>
       <unitdate type="inclusive" label="creation">1963-ca.1965</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7549</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7549</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -58,8 +60,34 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Van Buren County (Mich.)</term>
       </subject>
+    </controlaccess>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African Americans</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farmers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Van Buren County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farmers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Cass County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Cass County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Van Buren County (Mich.)</term>
+      </subject>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">African Americans</term>
+        <term type="geographic">Michigan.</term>
       </subject>
       <subject source="lctgm" encodinganalog="650">
         <term type="topical">Churches.</term>
@@ -79,7 +107,7 @@
         <did>
           <unittitle>Clarence Paul Edward Knuth papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1963-ca.1965</unitdate>
         </did>
@@ -96,6 +124,5 @@
         <scopecontent>Views of southwestern Michigan area settled by African Americans.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

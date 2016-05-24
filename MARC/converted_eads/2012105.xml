@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2012105 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Smith</primary_name>
           <rest_of_name>Lyman B.</rest_of_name>
         </persname>
@@ -31,7 +30,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: xxxx</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: xxxx</p>
+      </odd>
     </descgrp>
     <bioghist>Lyman B. Smith was born in Massachusetts and moved to Michigan with his parents in 1836. During the Civil war he served as lieutenant with Company D, 2nd Minnesota Cavalry. After the war he lived in Tawas City, Mich.</bioghist>
     <scopecontent>Roster and quartermaster records for Company D, 2nd Minnesota Cavalry.</scopecontent>
@@ -57,6 +59,5 @@
         <subordinate_name>Company D</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

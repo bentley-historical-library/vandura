@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88211 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Darling</primary_name>
           <rest_of_name>Robert B.</rest_of_name>
           <dates>1889-</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3318</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3318</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,14 @@
     </descgrp>
     <bioghist>Chaffeur to Michigan governor Chase S. Osborn, 1911-1912.</bioghist>
     <scopecontent>Letters of recommendation, car registration, and photographs.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Osborn</primary_name>
+        <rest_of_name>Chase S.</rest_of_name>
+        <fuller_form>(Chase Salmon)</fuller_form>
+        <dates>1860-1949</dates>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Osborn</primary_name>
@@ -96,6 +106,12 @@
         <dates>1889-</dates>
       </persname>
       <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Osborn</primary_name>
+        <rest_of_name>Chase S.</rest_of_name>
+        <fuller_form>(Chase Salmon)</fuller_form>
+        <dates>1860-1949</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Taft</primary_name>
         <rest_of_name>William H.</rest_of_name>
         <fuller_form>(William Howard)</fuller_form>
@@ -124,6 +140,5 @@
         <scopecontent>Photos of Osborn's car, some showing the car decorated with patriotic bunting; photos of the car on an Upper Peninsula road, Darling's Grosse Pointe Garage, and the ushers in the lobby of a Lansing theatre; also photoprints of international balloon race held in Detroit, 1927 or 1928.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

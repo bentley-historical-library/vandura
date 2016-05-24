@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851018 Aa 2 UAm</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Cowie</primary_name>
           <rest_of_name>David Murray</rest_of_name>
           <dates>1872-1940</dates>
@@ -26,11 +25,14 @@
       <unittitle>David M. Cowie papers</unittitle>
       <unitdate type="inclusive" label="creation">1924-1940</unitdate>
       <physdesc>
-        <extent>0.4 linear feet</extent>
+        <extent>.4 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1716</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1716</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -38,6 +40,25 @@
     </descgrp>
     <bioghist>Physician and professor in University of Michigan Medical School.</bioghist>
     <scopecontent>Correspondence and reports mostly concerning the work of an advisory committee of the Pediatric Section of the Michigan State Medical Society on the iodizing of salt and its effects; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Iodized salt.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Dow Chemical Company</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan State Medical Society</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Faculty.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>Medical School</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Iodized salt.</term>
@@ -70,7 +91,7 @@
         <did>
           <unittitle>David M. Cowie papers</unittitle>
           <physdesc>
-            <extent>0.4 linear feet</extent>
+            <extent>.4 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1924-1940</unitdate>
         </did>
@@ -80,13 +101,12 @@
         <did>
           <unittitle>David M. Cowie photograph series.</unittitle>
           <physdesc>
-            <extent>1930s (number approximate)</extent>
+            <extent>ca. 1930s</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1 envelope</unitdate>
         </did>
         <scopecontent>Portraits.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

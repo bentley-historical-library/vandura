@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88191 AA na nb</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Conover</primary_name>
           <rest_of_name>Charles Junius.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Charles Junius Conover account book</unittitle>
       <unitdate type="inclusive" label="creation">1907-1911</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4152</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4152</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately (na262-279, na297-311, nb193-221).</p>
@@ -37,6 +39,17 @@
     </descgrp>
     <bioghist>Student at the University of Michigan.</bioghist>
     <scopecontent>Account book detailing expenses as a student; also photographs.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Conover</primary_name>
+        <rest_of_name>Charles Junius.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Finance, Personal.</term>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Conover</primary_name>
@@ -92,7 +105,7 @@
         <did>
           <unittitle>Charles Junius Conover account book</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1907-1911</unitdate>
         </did>
@@ -109,6 +122,5 @@
         <scopecontent>Photos of campus buildings, student activities, construction of Hill Auditorium, camping, surveying, shooting (most unidentified).</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

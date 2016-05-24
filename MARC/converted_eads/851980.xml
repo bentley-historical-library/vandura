@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851980 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Nichoson</primary_name>
           <rest_of_name>John W.</rest_of_name>
           <dates>b. 1848</dates>
@@ -30,7 +29,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3334</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3334</p>
+      </odd>
     </descgrp>
     <bioghist>Soldier, farmer and register of deeds for Lake County, Michigan.</bioghist>
     <scopecontent>Thirty-four letters to his wife Mary, written while he was serving in Co. F, Tenth Michigan Cavalry in Civil War, letter to his daughter Clara, 1888, and two diaries, 1862 and 1865, covering his daily activities around Whitmore Lake, Michigan and his Civil War service.</scopecontent>
@@ -64,8 +66,5 @@
         <subordinate_name>Company F</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
   </archdesc>
 </ead>

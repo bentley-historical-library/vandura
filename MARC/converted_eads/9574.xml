@@ -10,7 +10,6 @@
       <creation>Encoded finding aid created from MARC record by Dallas Pillen</creation>
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <archdesc level="collection">
     <did>
@@ -34,7 +33,10 @@
         <head>General Note</head>
         <p>Impressions of seals. Original seals cataloged separately.</p>
       </odd>
-      <acqinfo>Donor: 5932</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5932</p>
+      </odd>
     </descgrp>
     <controlaccess>
       <corpname source="lcnaf" encodinganalog="610">
@@ -42,7 +44,5 @@
         <term type="topical">Seal.</term>
       </corpname>
     </controlaccess>
-    <container label="Box" type="box">1</container>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

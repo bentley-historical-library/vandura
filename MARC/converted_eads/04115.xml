@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>gihc</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>04115 Aa 2</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Arntson</primary_name>
           <rest_of_name>Michael</rest_of_name>
         </persname>
@@ -37,7 +36,10 @@
         <head>Reproduction Note</head>
         <p>Scanned images (tiff), one retouched, one unretouched.</p>
       </odd>
-      <acqinfo>Donor: 9519</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9519</p>
+      </odd>
     </descgrp>
     <scopecontent>Panoramic photo of Aspinwall Manufacturing Co. employees and building, Jackson, Mich. Photo by Fedor Foto.</scopecontent>
     <controlaccess>
@@ -64,6 +66,5 @@
         <primary_name>Fedor Foto</primary_name>
       </corpname>
     </controlaccess>
-    <container label="CD Box" type="box">4</container>
   </archdesc>
 </ead>

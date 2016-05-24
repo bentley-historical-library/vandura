@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>851706 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="local">
+        <famname encodinganalog="100">
           <family_name>Lerich family</family_name>
         </famname>
       </origination>
@@ -28,7 +27,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 1831</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 1831</p>
+      </odd>
     </descgrp>
     <bioghist>Macomb County, Michigan family.</bioghist>
     <scopecontent>Letters from relatives and friends concerning politics (including the election of 1848), and personal, family and business affairs; also six Civil War letters of Isaac N. Lerich of Co. B, Fifth Michigan Infantry and Co. I, Third Michigan Infantry, and of William F. Lerich, Co. B, Fifth Michigan Infantry.</scopecontent>
@@ -84,9 +86,5 @@
         <subordinate_name>Company B</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
-    <container label="Folder" type="folder">4</container>
   </archdesc>
 </ead>

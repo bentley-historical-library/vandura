@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>90152 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Upham</primary_name>
           <rest_of_name>H. A. J.</rest_of_name>
           <fuller_form>(Horace Alonzo Jaques)</fuller_form>
@@ -27,11 +26,14 @@
       <unittitle>H. A. J. Upham papers</unittitle>
       <unitdate type="inclusive" label="creation">1874-1875</unitdate>
       <physdesc>
-        <extent>0.2 linear feet</extent>
+        <extent>.2 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 7802</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 7802</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -61,16 +63,45 @@
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Student notebooks.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Adams</primary_name>
+        <rest_of_name>Charles Kendall</rest_of_name>
+        <dates>1835-1902</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Frieze</primary_name>
+        <rest_of_name>Henry S.</rest_of_name>
+        <fuller_form>(Henry Simmons)</fuller_form>
+        <dates>1817-1889</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Upham</primary_name>
+        <rest_of_name>H. A. J.</rest_of_name>
+        <fuller_form>(Horace Alonzo Jaques)</fuller_form>
+        <dates>d. 1919</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Student notebooks.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Upham</primary_name>
+        <rest_of_name>H. A. J.</rest_of_name>
+        <fuller_form>(Horace Alonzo Jaques)</fuller_form>
+        <dates>d. 1919</dates>
+      </persname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>H. A. J. Upham papers</unittitle>
           <physdesc>
-            <extent>0.2 linear feet</extent>
+            <extent>.2 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1874-1875</unitdate>
         </did>
@@ -87,6 +118,5 @@
         <scopecontent>A portrait.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

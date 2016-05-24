@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86192 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Walker</primary_name>
           <rest_of_name>Warren E.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Warren E. Walker papers</unittitle>
       <unitdate type="inclusive" label="creation">1880-1898</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4151</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4151</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Painting described separately.</p>
@@ -37,6 +39,39 @@
     </descgrp>
     <bioghist>Ann Arbor, Michigan builder.</bioghist>
     <scopecontent>Diaries, 1883-1885 and 1895, detailing business activities and building projects; accounts of building contracts, 1880-1898; water color of Miller Avenue at the railroad tracks; miscellaneous accounts and court records.</scopecontent>
+    <controlaccess>
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1881-1890.</term>
+      </subject>
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1891-1900.</term>
+      </subject>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Paintings.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Construction industry.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ann Arbor (Mich.)</term>
+        <term type="topical">Buildings, structures, etc.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">19th century.</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
@@ -90,7 +125,7 @@
         <did>
           <unittitle>Warren E. Walker papers</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1880-1898</unitdate>
         </did>
@@ -107,6 +142,5 @@
         <scopecontent>Watercolor painting of railroad crossing at Miller Avenue, Ann Arbor, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

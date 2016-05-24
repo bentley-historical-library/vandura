@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 item</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 volumes</extent>
-      </physdesc>
       <unitid>851834 AA Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Mayo</primary_name>
           <rest_of_name>Perry</rest_of_name>
           <dates>1839-1921</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>Perry Mayo journal</unittitle>
       <unitdate type="inclusive" label="creation">1865-1906</unitdate>
+      <physdesc>
+        <extent>1 v. and 1 item</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4045</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4045</p>
+      </odd>
     </descgrp>
     <bioghist>Grange official from North Marshall, Michigan.</bioghist>
     <scopecontent>Record of weather conditions, accounts, agreements with hired hands, and miscellaneous Grange records; also biographical sketch of Mayo.</scopecontent>
@@ -62,7 +61,5 @@
         <primary_name>Michigan State Grange</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

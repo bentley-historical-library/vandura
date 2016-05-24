@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89484 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Foster</primary_name>
           <rest_of_name>Calvin.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Calvin Foster papers</unittitle>
       <unitdate type="inclusive" label="creation">1931-1979</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 945</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 945</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -37,6 +39,20 @@
     </descgrp>
     <bioghist>Employee of the Ann Arbor, Michigan-based camera company, Argus, Inc.</bioghist>
     <scopecontent>Collected materials relating to Argus and its predecessor firms, Cavac Corporation and International Radio Corporation, including dealer and employee newsletters, catalogs and promotional materials, clippings, visual materials, and miscellaneous.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Camera industry.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Argus, inc</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Cavac Corporation</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>International Radio Corporation</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Camera industry.</term>
@@ -73,13 +89,16 @@
         <term type="geographic">Ann Arbor (Mich.)</term>
         <term type="topical">Business enterprises.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Argus, inc</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Calvin Foster papers</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1931-1979</unitdate>
         </did>
@@ -96,6 +115,5 @@
         <scopecontent>Photographs and slide strip detailing company activities.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

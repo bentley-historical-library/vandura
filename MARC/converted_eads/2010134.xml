@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2010134 Aa 2 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>McCarthy</primary_name>
           <rest_of_name>Jean</rest_of_name>
           <dates>1927-</dates>
@@ -32,7 +31,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 10352</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 10352</p>
+      </odd>
     </descgrp>
     <bioghist>Resident of Detroit, Michigan; civilian employee of the Detroit Police Department during the period of the 1967 Detroit Riot.</bioghist>
     <scopecontent>Oral history interview with Jean McCarthy conducted by her granddaughter Kelly Kucharski in which McCarthy details her work with the Detroit Police Department during the Detroit Riot of 1967; includes her memories of the 1943 Riot; also brief index.</scopecontent>
@@ -64,7 +66,5 @@
         <subordinate_name>Police Department</subordinate_name>
       </corpname>
     </controlaccess>
-    <container label="CD Box" type="box">7</container>
-    <container label="Folder" type="folder">1</container>
   </archdesc>
 </ead>

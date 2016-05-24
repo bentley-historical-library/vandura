@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>dacs</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>2009040 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Hilton</primary_name>
           <rest_of_name>John.</rest_of_name>
         </persname>
@@ -31,7 +30,10 @@
     </did>
     <descgrp>
       <accessrestrict>The collection is open for research use.</accessrestrict>
-      <acqinfo>Donor: 8918</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8918</p>
+      </odd>
     </descgrp>
     <bioghist>Writer for the Ann Arbor Observer.</bioghist>
     <scopecontent>Cassette tapes of interviews with University of Michigan administrators, regents, faculty, and friends and family of Harold Shapiro, relating mainly to his career and presidency at the University of Michigan; also partial transcripts and summaries of interviews.</scopecontent>
@@ -83,9 +85,66 @@
         <primary_name>University of Michigan</primary_name>
         <subordinate_name>President</subordinate_name>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Oral histories.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hilton</primary_name>
+        <rest_of_name>John.</rest_of_name>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Shapiro</primary_name>
+        <rest_of_name>Harold T.</rest_of_name>
+        <dates>1935-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Frye</primary_name>
+        <rest_of_name>B. E.</rest_of_name>
+        <fuller_form>(Billy Eugene)</fuller_form>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Gray</primary_name>
+        <rest_of_name>Hanna Holborn.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Kennedy</primary_name>
+        <rest_of_name>Richard L.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Pollack</primary_name>
+        <rest_of_name>Lana</rest_of_name>
+        <dates>1942-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Smith</primary_name>
+        <rest_of_name>Allan Frederick</rest_of_name>
+        <dates>1911-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Administration.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">History.</term>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>President</subordinate_name>
+      </corpname>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Oral histories.</term>
+      </subject>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Sound recordings.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Shapiro</primary_name>
+        <rest_of_name>Harold T.</rest_of_name>
+        <dates>1935-</dates>
+      </persname>
       <persname source="local" encodinganalog="700">
         <primary_name>Beatie</primary_name>
         <rest_of_name>Kay.</rest_of_name>
@@ -123,6 +182,10 @@
         <rest_of_name>Harold T.</rest_of_name>
         <dates>1935-</dates>
       </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <subordinate_name>President</subordinate_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
@@ -148,6 +211,5 @@
         <scopecontent>Cassette tapes of interviews with University of Michigan administrators, faculty, regents and friends and family of Harold Shapiro; include interviews with Robben Fleming, Sarah Power, Tom Roach, Kay Beatie, Jon Cosavich, Saul Hymans, Charles F. Lehmann, Harold Shapiro.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

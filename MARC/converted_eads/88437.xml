@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>88437 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Sprague</primary_name>
           <rest_of_name>Locke A.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Locke A. Sprague papers</unittitle>
       <unitdate type="inclusive" label="creation">ca. 1915-1988 (scattered dates)</unitdate>
       <physdesc>
-        <extent>1 linear feet</extent>
+        <extent>1 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 5843</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5843</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,38 @@
     </descgrp>
     <bioghist>Resident of Milwaukee, Wisconsin.</bioghist>
     <scopecontent>Genealogical information about the Mack, Sprague and Cooper families; and family photograph album.</scopecontent>
+    <controlaccess>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cooper</primary_name>
+        <rest_of_name>David</rest_of_name>
+        <dates>1789-1876</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cooper</primary_name>
+        <rest_of_name>David M.</rest_of_name>
+        <fuller_form>(David Mack)</fuller_form>
+        <dates>1827-1908</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Mack</primary_name>
+        <rest_of_name>Stephen</rest_of_name>
+        <dates>1762-1826</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Mack</primary_name>
+        <rest_of_name>Temperance</rest_of_name>
+        <dates>d. 1850</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Sprague family.</primary_name>
+      </persname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Cooper family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Mack family</family_name>
+      </famname>
+    </controlaccess>
     <controlaccess>
       <persname source="lcnaf" encodinganalog="600">
         <primary_name>Cooper</primary_name>
@@ -113,11 +147,28 @@
         <term type="geographic">Rochester</term>
       </subject>
       <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Cooper</primary_name>
+        <rest_of_name>David M.</rest_of_name>
+        <fuller_form>(David Mack)</fuller_form>
+        <dates>1827-1908</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Mack</primary_name>
+        <rest_of_name>Stephen</rest_of_name>
+        <dates>1762-1826</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
         <primary_name>Sprague</primary_name>
         <rest_of_name>Locke A.</rest_of_name>
       </persname>
       <famname source="lcnaf" encodinganalog="600">
         <family_name>Branson family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Cooper family</family_name>
+      </famname>
+      <famname source="lcnaf" encodinganalog="600">
+        <family_name>Mack family</family_name>
       </famname>
       <famname source="lcnaf" encodinganalog="600">
         <family_name>Sprague family</family_name>
@@ -131,7 +182,7 @@
         <did>
           <unittitle>Locke A. Sprague papers</unittitle>
           <physdesc>
-            <extent>1 linear feet</extent>
+            <extent>1 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1915-1988 (scattered dates)</unitdate>
         </did>
@@ -139,18 +190,14 @@
       </c01>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 envelope</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 volumes</extent>
-          </physdesc>
           <unittitle>Locke A. Sprague photograph series.</unittitle>
+          <physdesc>
+            <extent>1 v. and 1 envelope</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">ca. 1870s?-1988</unitdate>
         </did>
         <scopecontent>Portraits and photographs of the Locke Sprague, Steven Mack, and David Cooper families; photographs of dwellings, business enterprises, and tombstones pertaining to the families; and photos of paintings done by Winifred Sprague.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

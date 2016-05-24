@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>89113 Aa 2</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Puffer</primary_name>
           <rest_of_name>Lela</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Lela Puffer papers</unittitle>
       <unitdate type="inclusive" label="creation">[195-]-1982</unitdate>
       <physdesc>
-        <extent>0.5 linear feet</extent>
+        <extent>.5 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 2822</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 2822</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,16 @@
     </descgrp>
     <bioghist>Resident of South Boardman, Michigan.</bioghist>
     <scopecontent>Collected materials relating to her study of the German Christian Agricultural and Benevolent Society of Ora Labora; and photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Cooperative societies</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Bay Port.</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>German Christian Agricultural and Benevolent Society of Ora Labora</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Cooperative societies</term>
@@ -62,13 +74,16 @@
         <term type="geographic">Bay Port (Mich.)</term>
         <term type="topical">Collective settlements.</term>
       </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>German Christian Agricultural and Benevolent Society of Ora Labora</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Lela Puffer papers</unittitle>
           <physdesc>
-            <extent>0.5 linear feet</extent>
+            <extent>.5 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">[195-]-1982</unitdate>
         </did>
@@ -85,6 +100,5 @@
         <scopecontent>Photographs relating to the German Christian Agricultural and Benevolent Society of Ora Labora, a communal colony founded in 1864 by Emil Baur in Bay Port, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

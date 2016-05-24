@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85494 Aa 1</unitid>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">
+        <famname encodinganalog="100">
           <family_name>Smith family</family_name>
         </famname>
       </origination>
@@ -32,7 +31,10 @@
         <head>Reproduction Note</head>
         <p>Photocopies in part.</p>
       </odd>
-      <acqinfo>Donor: 5824</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 5824</p>
+      </odd>
     </descgrp>
     <bioghist>Papers of the Smith-Brooks families of Ontonagon, Michigan.</bioghist>
     <scopecontent>Papers of Martha Bracken Smith, including letters to mother concerning life as missionary, essay on the role of women written as student at Washington Female Seminary, and memoranda on her life written by her husband, James I. Smith, Presbyterian missionary in Michigan's Upper Peninsula; and miscellaneous genealogical and family material.</scopecontent>
@@ -98,10 +100,5 @@
         <primary_name>Presbyterian Church</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
-    <container label="Folder" type="folder">3</container>
-    <container label="Folder" type="folder">4</container>
-    <container label="Folder" type="folder">5</container>
   </archdesc>
 </ead>

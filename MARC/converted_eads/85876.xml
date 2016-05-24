@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85876 AA</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Carpenter</primary_name>
           <rest_of_name>Charles A.</rest_of_name>
           <dates>1813-1887</dates>
@@ -26,16 +25,19 @@
       <unittitle>Charles A. Carpenter account book</unittitle>
       <unitdate type="inclusive" label="creation">1846-1882</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3548</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3548</p>
+      </odd>
     </descgrp>
     <bioghist>Farmer from Orion, Michigan, and president of the Pontiac, Oxford, and Port Austin Railroad.</bioghist>
     <scopecontent>Record of personal expenditures and money owed him, and accounts, 1882, of the railroad.</scopecontent>
     <controlaccess>
-      <subject source="aat" encodinganalog="655">
+      <subject source="local" encodinganalog="655">
         <term type="genre_form">Account books.</term>
       </subject>
       <subject source="lcsh" encodinganalog="650">
@@ -50,6 +52,5 @@
         <primary_name>Pontiac, Oxford and Port Austin Railroad Company</primary_name>
       </corpname>
     </controlaccess>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

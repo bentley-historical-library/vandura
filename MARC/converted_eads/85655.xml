@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>85655 Aa 1</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Babcock</primary_name>
           <rest_of_name>Angus M.</rest_of_name>
         </persname>
@@ -29,7 +28,10 @@
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3575</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3575</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -37,6 +39,25 @@
     </descgrp>
     <bioghist>From Ann Arbor, Michigan, later San Carlos, California.</bioghist>
     <scopecontent>Correspondence with anthropology professor, Leslie White, and George Reeves, South Dakota sheep rancher; also photographs and etchings.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">South Dakota.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Babcock</primary_name>
+        <rest_of_name>Angus M.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Reeves</primary_name>
+        <rest_of_name>George Salmon</rest_of_name>
+        <dates>1905-</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>White</primary_name>
+        <rest_of_name>Leslie A.</rest_of_name>
+        <dates>1900-1975</dates>
+      </persname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">South Dakota.</term>
@@ -102,7 +123,5 @@
         <scopecontent>Etchings, 1920s, of view of bridge on the Raisin River and a scene of a house in Lower Town, Ann Arbor, Michigan; group portraits of children at Tappan School and of Van's Marine Band, Ann Arbor, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Folder" type="folder">1</container>
-    <container label="Folder" type="folder">2</container>
   </archdesc>
 </ead>

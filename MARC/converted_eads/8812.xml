@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>8812 AA UAs</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Ball</primary_name>
           <rest_of_name>Adele.</rest_of_name>
         </persname>
@@ -25,7 +24,7 @@
       <unittitle>Adele Ball papers</unittitle>
       <unitdate type="inclusive" label="creation">[192-]</unitdate>
       <physdesc>
-        <extent>1 volumes (22 p.)</extent>
+        <extent>1 v. (22 p.)</extent>
       </physdesc>
     </did>
     <descgrp>
@@ -33,12 +32,20 @@
         <head>Reproduction Note</head>
         <p>Typescript and photographs.</p>
       </odd>
-      <acqinfo>Donor: 812</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 812</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
       </odd>
     </descgrp>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Owosso (Mich.)</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Owosso (Mich.)</term>
@@ -64,7 +71,7 @@
         <did>
           <unittitle>Adele Ball papers</unittitle>
           <physdesc>
-            <extent>1 volumes (22 p.)</extent>
+            <extent>1 v. (22 p.)</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">[192-]</unitdate>
         </did>
@@ -80,6 +87,5 @@
         <scopecontent>Photographs of First Congregational Church, Owosso, Michigan.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

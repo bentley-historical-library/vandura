@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>0568 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Rockwood</primary_name>
           <rest_of_name>George Wenger.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>George Wenger Rockwood scrapbook</unittitle>
       <unitdate type="inclusive" label="creation">1920-1923</unitdate>
       <physdesc>
-        <extent>1 volumes</extent>
+        <extent>1 v</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 9598</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 9598</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Visual materials described separately.</p>
@@ -51,9 +53,28 @@
         <term type="topical">Social life and customs</term>
         <term type="temporal">1921-1930.</term>
       </corpname>
+    </controlaccess>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rockwood</primary_name>
+        <rest_of_name>George Wenger.</rest_of_name>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>University of Michigan</primary_name>
+        <term type="topical">Students</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1921-1930.</term>
+      </corpname>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Photographs.</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Rockwood</primary_name>
+        <rest_of_name>George Wenger.</rest_of_name>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>University of Michigan</primary_name>
         <term type="topical">Sports.</term>
@@ -76,7 +97,7 @@
         <did>
           <unittitle>George Wenger Rockwood scrapbook</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1920-1923</unitdate>
         </did>
@@ -86,13 +107,12 @@
         <did>
           <unittitle>George Wenger Rockwood scrapbook.</unittitle>
           <physdesc>
-            <extent>1 volumes</extent>
+            <extent>1 v</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1920-1923</unitdate>
         </did>
         <scopecontent>Scrapbook containing photographs of University of Michigan football games and members of track and baseball team; also photos of classmates and various student activities.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

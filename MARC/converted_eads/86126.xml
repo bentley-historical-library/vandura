@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>86126 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="local">
+        <persname encodinganalog="100">
           <primary_name>Todd</primary_name>
           <rest_of_name>Clara Patterson.</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Clara Patterson Todd papers</unittitle>
       <unitdate type="inclusive" label="creation">1920-1969</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3884</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3884</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,37 @@
     </descgrp>
     <bioghist>Temperance leader.</bioghist>
     <scopecontent>Newspaper clippings and printed material concerning the Women's Christian Temperance Union; also material on her mother, Phoebe E. Patterson; and reminiscences of fairs held in Plymouth, Michigan at the turn of the century; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Agricultural exhibitions</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Plymouth.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Prohibition</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Temperance</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="geographic">Michigan</term>
+        <term type="topical">Societies and clubs.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Plymouth (Mich.)</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Patterson</primary_name>
+        <rest_of_name>Phoebe Ely</rest_of_name>
+        <dates>1857-1931</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Woman's Christian Temperance Union</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="lcsh" encodinganalog="650">
         <term type="topical">Agricultural exhibitions</term>
@@ -82,13 +115,19 @@
         <term type="topical">Women</term>
         <term type="topical">Organizations.</term>
       </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Plymouth (Mich.)</term>
+      </subject>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Woman's Christian Temperance Union</primary_name>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01 level="series">
         <did>
           <unittitle>Clara Patterson Todd papers</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1920-1969</unitdate>
         </did>
@@ -105,6 +144,5 @@
         <scopecontent>Photos of members of Plymouth, Michigan Woman's Christian Temperance Union, 1879 and 1903; photograph, 1918-1919?, of temperance-related rally in Plymouth, Michigan; and photograph, 1935, of Michigan women, probably delegates to unspecified national convention.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

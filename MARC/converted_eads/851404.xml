@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 envelope</extent>
-      </physdesc>
-      <physdesc>
-        <extent>1 volumes (96 p.)</extent>
-      </physdesc>
       <unitid>851404 AA UAs</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Haire</primary_name>
           <rest_of_name>Anna M.</rest_of_name>
           <dates>1822-1875</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>Anna M. Haire journal</unittitle>
       <unitdate type="inclusive" label="creation">1873</unitdate>
+      <physdesc>
+        <extent>1 v. (96 p.) and 1 envelope</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 4232</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 4232</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -41,6 +40,48 @@
     </descgrp>
     <bioghist>Farm wife of Georgetown Township, Ottawa County, Michigan.</bioghist>
     <scopecontent>Description of household and religious affairs, and activities of family and friends; also photographs.</scopecontent>
+    <controlaccess>
+      <subject source="local" encodinganalog="691">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">1871-1880.</term>
+      </subject>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Agriculture</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ottawa County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farm life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ottawa County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women</term>
+        <term type="topical">Religious life</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ottawa County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Women in agriculture</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Ottawa County.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Georgetown Charter Township (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Ottawa County (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Michigan</term>
+        <term type="topical">Social life and customs</term>
+        <term type="temporal">19th century.</term>
+      </subject>
+    </controlaccess>
     <controlaccess>
       <subject source="local" encodinganalog="691">
         <term type="geographic">Michigan</term>
@@ -97,7 +138,7 @@
         <term type="geographic">Georgetown (Mich. : Township)</term>
         <term type="topical">Tombs and sepulchral monuments.</term>
       </subject>
-      <subject source="lcsh" encodinganalog="651">
+      <subject source="local" encodinganalog="651">
         <term type="geographic">Grand River (Mich.)</term>
       </subject>
       <subject source="local" encodinganalog="651">
@@ -117,13 +158,10 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 envelope</extent>
-          </physdesc>
-          <physdesc>
-            <extent>1 volumes (96 p.)</extent>
-          </physdesc>
           <unittitle>Anna M. Haire journal</unittitle>
+          <physdesc>
+            <extent>1 v. (96 p.) and 1 envelope</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1873</unitdate>
         </did>
         <scopecontent>Description of household and religious affairs, and activities of family and friends; also photographs.</scopecontent>
@@ -139,6 +177,5 @@
         <scopecontent>Portraits of Haire and her husband John Haire (copy prints), photo of painting of Haire's Landing on the Grand River, photo of Haire grave marker.</scopecontent>
       </c01>
     </dsc>
-    <container label="Volume" type="volume">1</container>
   </archdesc>
 </ead>

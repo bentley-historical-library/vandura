@@ -11,13 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
       <unitid>921106 Aa 2</unitid>
       <origination>
-        <persname role="col" encodinganalog="100" source="local">
+        <persname role="collector" encodinganalog="100">
           <primary_name>Ellsworth</primary_name>
           <rest_of_name>Alice</rest_of_name>
         </persname>
@@ -25,11 +24,14 @@
       <unittitle>Alice Ellsworth collection</unittitle>
       <unitdate type="inclusive" label="creation">1861-1897</unitdate>
       <physdesc>
-        <extent>0.3 linear feet</extent>
+        <extent>.3 linear ft</extent>
       </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 8051.</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 8051.</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -37,6 +39,81 @@
     </descgrp>
     <bioghist>Resident of Ann Arbor, Michigan.</bioghist>
     <scopecontent>Papers, 1861-1889, of Samuel D. Curtis of Springport, Michigan, who served in Co. I, 6th Michigan Infantry, during the Civil War. Contain letters received from friends and relatives, including Nelson R. Stevens and James F. Deyoe, fellow soldiers in the 6th Michigan Infantry, William R. Whitman, soldier in the 24th Michigan Infantry, and Edward A. Drake, soldier in the 7th Ohio Infantry; also diary and funeral oration. Diary, 1897, possibly of Charlie Smock of Northville, Michigan, a farmer. Contains</scopecontent>
+    <controlaccess>
+      <subject source="ftamc" encodinganalog="655">
+        <term type="genre_form">Diaries.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Farmers</term>
+        <term type="geographic">Michigan</term>
+        <term type="geographic">Northville.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Northville (Mich.)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">Springport (Mich. : Township)</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="651">
+        <term type="geographic">United States</term>
+        <term type="topical">History</term>
+        <term type="temporal">Civil War, 1861-1865.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Curtis</primary_name>
+        <rest_of_name>Samuel D.</rest_of_name>
+        <dates>b. 1835 or 6</dates>
+      </persname>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Smock</primary_name>
+        <rest_of_name>Charlie.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Curtis</primary_name>
+        <rest_of_name>Samuel D.</rest_of_name>
+        <dates>b. 1835 or 6</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Deyoe</primary_name>
+        <rest_of_name>James F.</rest_of_name>
+        <dates>b.1840 or 41</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Drake</primary_name>
+        <rest_of_name>Edward A.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Smock</primary_name>
+        <rest_of_name>Charlie.</rest_of_name>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Stevens</primary_name>
+        <rest_of_name>Nelson R.</rest_of_name>
+        <dates>b. 1840 or 41</dates>
+      </persname>
+      <persname source="local" encodinganalog="700">
+        <primary_name>Whitman</primary_name>
+        <rest_of_name>William R.</rest_of_name>
+        <dates>b. 1836 or 7</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Artillery Regiment, 6th (1863-1865)</subordinate_name>
+        <subordinate_name>Company I</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Michigan Infantry Regiment, 24th (1862-1865)</subordinate_name>
+        <subordinate_name>Company D</subordinate_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>United States</primary_name>
+        <subordinate_name>Army</subordinate_name>
+        <subordinate_name>Ohio Infantry Regiment, 7th (1861-1864)</subordinate_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="ftamc" encodinganalog="655">
         <term type="genre_form">Diaries.</term>
@@ -141,7 +218,7 @@
         <did>
           <unittitle>Alice Ellsworth collection</unittitle>
           <physdesc>
-            <extent>0.3 linear feet</extent>
+            <extent>.3 linear ft</extent>
           </physdesc>
           <unitdate type="inclusive" label="creation">1861-1897</unitdate>
         </did>
@@ -158,6 +235,5 @@
         <scopecontent>Street views of Three Oaks, Michigan, and unidentified town or towns.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
   </archdesc>
 </ead>

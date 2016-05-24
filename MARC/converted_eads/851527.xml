@@ -11,19 +11,12 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
       <descrules>appm</descrules>
     </profiledesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <physdesc>
-        <extent>1 volumes (2 boxes)</extent>
-      </physdesc>
-      <physdesc>
-        <extent>0.4 linear feet</extent>
-      </physdesc>
       <unitid>851527 Aa 2</unitid>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">
+        <persname encodinganalog="100">
           <primary_name>Hooper</primary_name>
           <rest_of_name>Lewis Edwin</rest_of_name>
           <dates>1895-</dates>
@@ -31,9 +24,15 @@
       </origination>
       <unittitle>Lewis Edwin Hooper papers</unittitle>
       <unitdate type="inclusive" label="creation">1930-1948</unitdate>
+      <physdesc>
+        <extent>.4 linear ft. and 1 v. (2 boxes)</extent>
+      </physdesc>
     </did>
     <descgrp>
-      <acqinfo>Donor: 3528</acqinfo>
+      <odd>
+        <head>General Note</head>
+        <p>Donor: 3528</p>
+      </odd>
       <odd>
         <head>General Note</head>
         <p>Photographs described separately.</p>
@@ -41,6 +40,30 @@
     </descgrp>
     <bioghist>President of the Michigan State Dental Association.</bioghist>
     <scopecontent>Correspondence and other papers relating to his dental career; also manuscript of his presidential address to the society; biographical sketch of Hooper; minutes and other papers of the Southern Wayne County Dental Club; a scrapbook, containing examples of unethical dental advertising and dental practices; and extensive correspondence relating to his campaign for legislation to control dentistry, 1931-1932.</scopecontent>
+    <controlaccess>
+      <subject source="aat" encodinganalog="655">
+        <term type="genre_form">Scrapbooks.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Dentistry</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <subject source="lcsh" encodinganalog="650">
+        <term type="topical">Dentists</term>
+        <term type="geographic">Michigan.</term>
+      </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hooper</primary_name>
+        <rest_of_name>Lewis Edwin</rest_of_name>
+        <dates>1895-</dates>
+      </persname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Michigan State Dental Society</primary_name>
+      </corpname>
+      <corpname source="lcnaf" encodinganalog="610">
+        <primary_name>Southern Wayne County Dental Club (Mich.)</primary_name>
+      </corpname>
+    </controlaccess>
     <controlaccess>
       <subject source="aat" encodinganalog="655">
         <term type="genre_form">Scrapbooks.</term>
@@ -76,6 +99,11 @@
       <subject source="lcsh" encodinganalog="651">
         <term type="geographic">Wyandotte (Mich.)</term>
       </subject>
+      <persname source="lcnaf" encodinganalog="600">
+        <primary_name>Hooper</primary_name>
+        <rest_of_name>Lewis Edwin</rest_of_name>
+        <dates>1895-</dates>
+      </persname>
       <corpname source="lcnaf" encodinganalog="610">
         <primary_name>Defoe Shipbuilding Company</primary_name>
       </corpname>
@@ -83,13 +111,10 @@
     <dsc>
       <c01 level="series">
         <did>
-          <physdesc>
-            <extent>1 volumes (2 boxes)</extent>
-          </physdesc>
-          <physdesc>
-            <extent>0.4 linear feet</extent>
-          </physdesc>
           <unittitle>Lewis Edwin Hooper papers</unittitle>
+          <physdesc>
+            <extent>.4 linear ft. and 1 v. (2 boxes)</extent>
+          </physdesc>
           <unitdate type="inclusive" label="creation">1930-1948</unitdate>
         </did>
         <scopecontent>Correspondence and other papers relating to his dental career; also manuscript of his presidential address to the society; biographical sketch of Hooper; minutes and other papers of the Southern Wayne County Dental Club; a scrapbook, containing examples of unethical dental advertising and dental practices; and extensive correspondence relating to his campaign for legislation to control dentistry, 1931-1932.</scopecontent>
@@ -105,7 +130,5 @@
         <scopecontent>Photos of Hooper at a war bond auction in Wyandotte, Michigan, and of a sub-chaser purchased with war bonds.</scopecontent>
       </c01>
     </dsc>
-    <container label="Box" type="box">1</container>
-    <container label="Box" type="box">2</container>
   </archdesc>
 </ead>
