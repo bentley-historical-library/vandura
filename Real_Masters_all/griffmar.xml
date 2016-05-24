@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>20150617</date>
         <item>Separated boxes for use with Aeon.</item>
       </change>
@@ -62,6 +66,10 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">33 film reels</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">5.6 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -73,12 +81,14 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright has not been transferred to the Regents of the University of Michigan.</p>
       </userestrict>
       <altformavail>
         <p>The 16mm films and two-inch videotapes in the collection were digitized in 2009 as part of a library video preservation project. Preservation master beta tapes for all titles and high resolution digital files of some titles were created along with DVD and streaming files for all titles. The DVDs are available for use in the library. A selection of the streaming files may be available online at a given time, others can be mounted on request.</p>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
       </altformavail>
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., Martha Wright Griffiths Papers, Bentley Historical Library, University of Michigan</p>
@@ -5745,140 +5755,416 @@
           <did>
             <unittitle>Reel-to-reel and cassettes</unittitle>
           </did>
-          <c03 level="file">
+          <accessrestrict>
+            <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+          </accessrestrict>
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">59</container>
-              <unittitle>"Report on Congress" (weekly report of MWG) <unitdate type="inclusive" normal="1955/1956" certainty="approximate">circa 1955-1956</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 audiotapes</extent>
-                <physfacet>reel-to-reel tapes; 7 1/2 ips; 7 in.</physfacet>
+              <unittitle>"Report on Congress" (weekly report of Martha Wright Griffiths) , <unitdate type="inclusive">[Between 1955-1956]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
               </physdesc>
             </did>
-            <odd>
-              <p>(This tape consists of a number of reports probably all recorded at one time.)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-28-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_h7sk4q77" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Discussing the Korean Crisis, the Housing Crisis, banking, crimes committed by youths, and other topics. At approximately 10:00 content switches to a recording of a religious program and church music.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">59</container>
-              <unittitle>Recording of MWG discussing the Federal National Mortgage Association, family food budgets, consent decrees in anti-trust suits, the <title render="italic">Statistical Abstract of the United States</title>, and population growth and new states., <unitdate type="inclusive" normal="1957" certainty="approximate">circa 1957</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 audiotapes</extent>
-                <physfacet>reel-to-reel tapes; 7 1/2 ips; 7 in.</physfacet>
+              <unittitle>Recording of Martha W. Griffiths, <unitdate type="inclusive">[1957]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-29-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_dg2xfwn3" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Discussing the Federal National Mortgage Association, family food budgets, consent decrees in antitrust suits, the Statistical Abstract of the United States, and population growth and new states.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">59</container>
-              <unittitle>Radio report of MWG discussing the achievements of the 85th Congress. <unitdate type="inclusive" normal="1957-10/1957-11">October-November 1957</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">4 audiotapes</extent>
-                <physfacet>reel-to-reel tapes; 7 1/2 ips; 5 in.</physfacet>
+              <unittitle>Radio report of Martha W. Griffiths, <unitdate type="inclusive">1957 October, 1957 November</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-30-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_703rowrq" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 1; Discussing the achievements of the 85th Congress.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">59</container>
-              <unittitle>"Report from Washington" on the topic of civil defense system. <unitdate type="inclusive" normal="1957-10-20">October 20, 1957</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 audiotapes</extent>
-                <physfacet>reel-to-reel tapes; 7 1/2 ips; 5 in.</physfacet>
+              <unittitle>Radio report of Martha W. Griffiths, <unitdate type="inclusive">1957 October, 1957 November</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-31-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_lr7af3gk" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 2; Discussing the achievements of the 85th Congress.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">59</container>
-              <unittitle>Recording of "Congress in Action" featuring MWG discussing the extension of the Reciprocal Trade Agreements Act with guest Henry Kerns. <unitdate type="inclusive" normal="1958-02-20">February 20, 1958</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 audiotapes</extent>
-                <physfacet>reel-to-reel tapes; 7 1/2 ips; 5 in.</physfacet>
-                <dimensions>13:08</dimensions>
+              <unittitle>Radio report of Martha W. Griffiths, <unitdate type="inclusive">1957 October, 1957 November</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-32-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_m3i9ldhb" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 3; Discussing the achievements of the 85th Congress.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">59</container>
-              <unittitle>Recording of interview between MWG and Rajni Kaul of the Voice of America on Griffith's entry into politics, issues before the Congress, and life as member of Congress. <unitdate type="inclusive" normal="1958-05-15">May 15, 1958</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 audiotapes</extent>
-                <physfacet>15 min.; reel-to-reel tapes; 7 1/2 ips; 7 in.</physfacet>
+              <unittitle>Radio report of Martha W. Griffiths, <unitdate type="inclusive">1957 October, 1957 November</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-33-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ng00kvo5" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 5; Discussing the achievements of the 85th Congress.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">59</container>
-              <unittitle>Recording discussing function of the General Accounting Office. <unitdate type="inclusive" normal="1959" certainty="approximate">circa 1959</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 audiotapes</extent>
-                <physfacet>reel-to-reel tapes; 7 1/2 ips; 3 in.</physfacet>
+              <unittitle>"Report from Washington" on the topic of civil defense system, <unitdate type="inclusive">1957 October 20</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-34-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_we8uxs0a" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Martha W. Griffiths discussing the limitations of the Civil Defense System. Includes a recording with Joseph McCarthy.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">59</container>
-              <unittitle>Interview with MWG on the trade expansion act recorded for the Voice of America. <unitdate type="inclusive" normal="1962-03-15">March 15, 1962</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 audiotapes</extent>
-                <physfacet>4 min.; reel-to-reel tapes; 7 1/2 ips; 7 in.</physfacet>
+              <unittitle>Recording of "Congress in Action" featuring Martha Wright Griffiths, <unitdate type="inclusive">1958 February 20</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 7 1/2 ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-35-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_46a2w0rs" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Discussing the extension of the Reciprocal Trade Agreements Act with guest Henry Kerns.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">59</container>
-              <unittitle>Recording of interview with MWG conducted by Ray Courage on tax cut bill in Congress. <unitdate type="inclusive" normal="1963" certainty="approximate">circa 1963</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 audiotapes</extent>
-                <physfacet>12 min.; reel-to-reel tapes; 7 1/2 ips; 5 in.</physfacet>
+              <unittitle>Recording of interview of Martha Wright Griffiths, <unitdate type="inclusive">1958 May 15</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-36-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_3sts97t2" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Rajni Kaul of the Voice of America on Griffith's entry into politics, issues before the Congress, and life as member of Congress.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">59</container>
-              <unittitle>Recording of ceremonies in capitol rotunda for President John F. Kennedy. Participants include: Russell Black, Mike Mansfield, Earl Warren, and John McCormack. <unitdate type="inclusive" normal="1963-11-24">November 24, 1963</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 audiotapes</extent>
-                <physfacet>reel-to-reel tapes; 7 1/2 ips; 7 in.</physfacet>
+              <unittitle>General Accounting Office, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 3 inch, 7 1/2 ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-37-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ce0dj9dg" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Martha W. Griffiths discussing function of the General Accounting Office.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">59</container>
-              <unittitle>Recording of Congressman Peter Dupont of Delaware with guest MWG discussing economic discrimination of women. <unitdate type="inclusive" normal="1970" certainty="approximate">circa 1970</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 audiotapes</extent>
-                <physfacet>reel-to-reel tapes; 7 1/2 ips; 5 in.</physfacet>
-                <dimensions>5:05</dimensions>
+              <unittitle>Interview with Martha Wright Griffiths, <unitdate type="inclusive">1962 March 15</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-38-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_sjicm7r0" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Discussing the trade expansion act recorded for the Voice of America.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">59</container>
-              <unittitle>Recordings of statement made for program "Capitol Hill Today;" include brief comments on sex discrimination <unitdate type="inclusive" normal="1969-10-21">October 21, 1969</unitdate>, <unitdate type="inclusive" normal="1970-08-10">August 10, 1970</unitdate> and health service, <unitdate type="inclusive" normal="1970-02-10">February 10, 1970</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">3 audiotapes</extent>
-                <physfacet>each statement runs about 30 seconds; reel-to-reel tapes; 7 1/2 ips; 3 in.</physfacet>
+              <unittitle>Recording of interview with Martha W. Griffiths, <unitdate type="inclusive">[1963?]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 7 1/2 ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-39-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_u64u9sdk" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Interview conducted by Ray Courage on tax cut bill in Congress of the 1960s.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">59</container>
-              <unittitle>Radio recording of "What's the Issue?" on the subject of welfare with guest Representative Martha Griffiths. Host: Arch N. Booth; Report: Craig Palmer. <unitdate type="inclusive" normal="1973-04-12">April 12, 1973</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 audiotapes</extent>
-                <physfacet>20:5; reel-to-reel tapes; 7 1/2 ips; 7 in.</physfacet>
+              <unittitle>Recording of Congressman Peter Dupont of Delaware with guest Martha W. Griffiths, <unitdate type="inclusive">[1970?]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-40-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_bhf88ts1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Speakers discussing economic discrimination of women.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Recordings of statement made for program "Capitol Hill Today" , <unitdate type="inclusive">1969 October 21</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 3 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-41-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_t17ygblm" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording is only 0:43, brief comments by Martha Wright Griffiths on sex discrimination.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Recordings of statement made for program "Capitol Hill Today", <unitdate type="inclusive">1970 August 10</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 3 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-42-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_k2vomd6w" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording is only 0:50, brief comments by Martha Wright Griffiths on sex discrimination.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Recordings of statement made for program "Capitol Hill Today" , <unitdate type="inclusive">1970 February 10</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 3 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-43-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_zj1vgo99" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Brief 0:37 comments on health services by Martha Wright Griffiths.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Radio recording of "What's the Issue?", <unitdate type="inclusive">1973 April 12</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[851378-SR-44-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_6dkjdufy" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Presented by the Chamber of Commerce of the United States. On the subject of welfare with guest Representative Martha Griffiths. Host: Arch N. Booth; Reporter is Craig Palmer. Griffiths discussing the effects of welfare on women.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>

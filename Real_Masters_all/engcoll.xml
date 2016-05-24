@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160516</date>
+        <item>Got rid of "DIGITAL MATERIAL" series and incorporated children into appropriate series.</item>
+      </change>
+      <change>
         <date>20160428</date>
         <item>Accessions 2006-2014.</item>
       </change>
@@ -66,13 +70,15 @@
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>Boxes 1-37 stored offsite. Two days notice required for retrieval.</physloc>
       <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">118.5 linear feet, including 207 reels of microfilm</extent>
+        <extent altrender="materialtype spaceoccupied">118.5 linear feet</extent>
+        <extent altrender="carrier">including 207 reels of microfilm</extent>
       </physdesc>
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">3 oversize folders</extent>
       </physdesc>
       <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">1,196 GB (online)</extent>
+        <extent altrender="materialtype spaceoccupied">1196 GB</extent>
+        <physfacet>online</physfacet>
       </physdesc>
       <repository encodinganalog="852">
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
@@ -289,10 +295,10 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Dean's Files <unitdate type="inclusive" normal="1904/1991">1904-1991</unitdate></unittitle>
+          <unittitle>Dean's Files <unitdate type="inclusive" normal="1904/1991">1904-1991</unitdate>, <unitdate type="inclusive" normal="2002/2014">2002-2014</unitdate></unittitle>
         </did>
         <scopecontent>
-          <p>The Dean's Files series (41 linear feet) comprises the bulk of the record group, spanning the years 1904 to 1991, and includes the records of Deans Cooley, Sadler, Anderson, Crawford, Brown, Attwood, Van Wylen, Ragone, Duderstadt, Vest and Atkins.</p>
+          <p>The Dean's Files series (41 linear feet) comprises the bulk of the record group, spanning the years 1904 to 1991 and 2002-2014, and includes the records of Deans Cooley, Sadler, Anderson, Crawford, Brown, Attwood, Van Wylen, Ragone, Duderstadt, Vest, Atkins and Munson, Jr.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
@@ -4914,6 +4920,79 @@
               </did>
             </c04>
           </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">115</container>
+              <unittitle>Agendas, <unitdate type="inclusive" normal="1982/1985">1982-1985</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2036-07-01">July 1, 2036</date>]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>David C. Munson, Jr. Files <unitdate type="inclusive" normal="2002/2014">2002-2014</unitdate></unittitle>
+          </did>
+          <scopecontent>
+            <p>The David C. Munson, Jr. subseries provides some sense of his administrative duties and concerns as dean (2006-). Some material overlaps with the tenure of the previous dean, Stephen W. Director (1996-2005).</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <physloc>Online </physloc>
+              <unittitle>ABET Accreditation Reports, <unitdate type="inclusive" normal="2002/2014">2002-2014</unitdate> </unittitle>
+              <dao href="http://hdl.handle.net/2027.42/117602" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2034-07-01">July 1, 2034</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online </physloc>
+              <unittitle>Engineering Alumni Society Board of Governors</unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2030-07-01">July 1, 2030</date>]</p>
+            </accessrestrict>
+            <c04 level="file">
+              <did>
+                <physloc>Online </physloc>
+                <unittitle>Strategic Plan, <unitdate type="inclusive" normal="2009/2014">2009-2014</unitdate></unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117601" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online </physloc>
+                <unittitle>Meeting Minutes, <unitdate normal="2009/2010">2009-2010</unitdate></unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117600" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online </physloc>
+                <unittitle>Rosters and Committee Lists, 2009-2010</unittitle>
+                <dao href="http://hdl.handle.net/2027.42/117599" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+          </c03>
         </c02>
       </c01>
       <c01 level="series">
@@ -8721,7 +8800,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">77</container>
-                <unittitle>General Correspondence <unitdate type="inclusive" normal="1904/1961">1904-1961</unitdate> (<unitdate normal="1924/1929" type="bulk">bulk 1924-1929</unitdate>)</unittitle>
+                <unittitle>General Correspondence <unitdate type="inclusive" normal="1904/1961">1904-1961</unitdate> <unitdate normal="1924/1929" type="bulk">1924-1929</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -12682,10 +12761,32 @@
             </did>
           </c03>
         </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online </physloc>
+            <unittitle>Survey of Degrees, <unitdate type="inclusive" normal="1968/1997">1968-1997</unitdate> </unittitle>
+            <dao href="http://hdl.handle.net/2027.42/117597" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online </physloc>
+            <unittitle>Survey of Enrollment, <unitdate type="inclusive" normal="1972/1997">1972-1997</unitdate> </unittitle>
+            <dao href="http://hdl.handle.net/.42/117598" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Archived College of Engineering Website</unittitle>
+          <unittitle>Archived College of Engineering Websites</unittitle>
         </did>
         <scopecontent>
           <p>The College of Engineering Archived Website series documents the academic programs, accomplishments, resources, events, and people at the College of Engineering. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the College. The website series is arranged chronologically, with captures from 2002 and 2003 stored on CD. Starting in 2010, this archived website is captured on a regular ongoing basis as part of the University of Michigan Web Archives.</p>
@@ -12715,6 +12816,17 @@
           <odd>
             <p>(Original URL http://www.engin.umich.edu)</p>
           </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online </physloc>
+            <unittitle>College of Engineering Website, <unitdate type="inclusive" normal="2006">2006</unitdate> </unittitle>
+            <dao href="http://hdl.handle.net/2027.42/117596" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view item]</p>
+              </daodesc>
+            </dao>
+          </did>
         </c02>
         <c02 level="file">
           <did>
@@ -12789,29 +12901,6 @@
               <container type="box" label="Box">102</container>
               <unittitle>Strategic Planning Implementation Faculty Committee Report, <unitdate type="inclusive">May 2004</unitdate></unittitle>
             </did>
-          </c03>
-        </c02>
-      </c01>
-      <c01 level="series">
-        <did>
-          <unittitle>Dean's Files</unittitle>
-        </did>
-        <scopecontent>
-          <p>The 2006-2014 accessions, which begin with box 103, contribute to previously gathered information on the College of Engineering, such as agendas added to the James J. Duderstadt Files, and introduce new information that highlights the work done in the office of the Associate Dean for Undergraduate Education. This accession also marks the beginning of a new series, Digital Material, for the purpose of describing records that were generated and donated through computer file formats.</p>
-          <p>The accession also includes the generation of a new subseries under the series Associate Deans' Files titled Associate Dean for Undergraduate Education, as the bulk of material was donated through this office. Also included in these accessions are additions to the Visual Material series </p>
-        </scopecontent>
-        <c02 level="subseries">
-          <did>
-            <unittitle>James J. Duderstadt Files</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">115</container>
-              <unittitle>Agendas, <unitdate type="inclusive" normal="1982/1985">1982-1985</unitdate></unittitle>
-            </did>
-            <accessrestrict>
-              <p>[ER RESTRICTED until <date type="restriction" normal="2036-07-01">July 1, 2036</date>]</p>
-            </accessrestrict>
           </c03>
         </c02>
       </c01>
@@ -14764,89 +14853,6 @@
               </accessrestrict>
             </c04>
           </c03>
-        </c02>
-      </c01>
-      <c01 level="series">
-        <did>
-          <unittitle>DIGITAL MATERIAL</unittitle>
-        </did>
-        <c02 level="file">
-          <did>
-            <physloc>Online </physloc>
-            <unittitle>ABET Accreditation Reports, <unitdate type="inclusive" normal="2002/2014">2002-2014</unitdate> </unittitle>
-          </did>
-          <accessrestrict>
-            <p>[ER RESTRICTED until <date type="restriction" normal="2034-07-01">July 1, 2034</date>]</p>
-          </accessrestrict>
-        </c02>
-        <c02 level="file">
-          <did>
-            <physloc>Online </physloc>
-            <unittitle>Engineering Alumni Society Board of Governors</unittitle>
-          </did>
-          <accessrestrict>
-            <p>[ER RESTRICTED until <date type="restriction" normal="2030-07-01">July 1, 2030</date>]</p>
-          </accessrestrict>
-        </c02>
-        <c02 level="file">
-          <did>
-            <physloc>Online </physloc>
-            <unittitle>ASB Strategic Plan 2009-2014</unittitle>
-          </did>
-          <accessrestrict>
-            <p>[ER RESTRICTED until <date type="restriction" normal="2030-07-01">July 1, 2030</date>]</p>
-          </accessrestrict>
-        </c02>
-        <c02 level="file">
-          <did>
-            <physloc>Online </physloc>
-            <unittitle> Meeting Minutes 2009-2010</unittitle>
-          </did>
-          <accessrestrict>
-            <p>[ER RESTRICTED until <date type="restriction" normal="2030-07-01">July 1, 2030</date>]</p>
-          </accessrestrict>
-        </c02>
-        <c02 level="file">
-          <did>
-            <physloc>Online </physloc>
-            <unittitle>Rosters and Committee Lists, 2009-2010</unittitle>
-          </did>
-          <accessrestrict>
-            <p>[ER RESTRICTED until <date type="restriction" normal="2030-07-01">July 1, 2030</date>]</p>
-          </accessrestrict>
-        </c02>
-        <c02 level="file">
-          <did>
-            <physloc>Online </physloc>
-            <unittitle>Survey of Degrees, <unitdate type="inclusive" normal="1968/1997">1968-1997</unitdate> </unittitle>
-            <dao href="http://hdl.handle.net/2027.42/117597" show="new" actuate="onrequest">
-              <daodesc>
-                <p>[view item]</p>
-              </daodesc>
-            </dao>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <physloc>Online </physloc>
-            <unittitle>Survey of Enrollment, <unitdate type="inclusive" normal="1972/1997">1972-1997</unitdate> </unittitle>
-            <dao href="http://hdl.handle.net/.42/117598" show="new" actuate="onrequest">
-              <daodesc>
-                <p>[view item]</p>
-              </daodesc>
-            </dao>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <physloc>Online </physloc>
-            <unittitle>College of Engineering Website, <unitdate type="inclusive" normal="2006">2006</unitdate> </unittitle>
-            <dao href="http://hdl.handle.net/2027.42/117596" show="new" actuate="onrequest">
-              <daodesc>
-                <p>[view item]</p>
-              </daodesc>
-            </dao>
-          </did>
         </c02>
       </c01>
     </dsc>

@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>20150625</date>
         <item>Added written notes from paper finding aid.</item>
       </change>
@@ -45,8 +49,12 @@
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009039 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Tape recordings of speeches by conservative and anti-communist lecturers.</abstract>
-      <physdesc altrender="whole">
+      <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">129 GB</extent>
+        <physfacet>online</physfacet>
       </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
@@ -62,6 +70,7 @@
       </accruals>
       <accessrestrict encodinganalog="506">
         <p>The collection is open to research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright is not held by the Regents of the University of Michigan.</p>
@@ -69,6 +78,9 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Arthur W. Kramer sound recording collection, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>Arthur W. Kramer (1906-1998) was an Ypsilanti, Michigan, police officer. Beyond this, nothing is known about the origin of the collection.</p>
@@ -145,6 +157,9 @@
         <did>
           <unittitle>Dated tapes</unittitle>
         </did>
+        <accessrestrict>
+          <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict>
         <c02 level="file">
           <did>
             <unittitle>
@@ -285,21 +300,43 @@
               </did>
             </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Stone, Willis</unittitle>
+              <unittitle>Willis E. Stone; “The Abolition of Income Taxes”, “The Proposed 23rd Amendment”, <unitdate type="inclusive">1959 October 21</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 8]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: "The Abolition of Income Taxes" and "The Proposed 23rd Amendment," Willis E. Stone, introduction by Orville Sherwood, Grosse Pointe, Mich., October 21, 1959.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-8-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_dk4efoox" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(“The Abolition of Income Taxes” and “The Proposed 23rd Amendment,” Willis E. Stone, introduction by Orville Sherwood, Grosse Pointe, Michigan.)</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: conclusion of lecture</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-8-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_hwkeeuib" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(“The Abolition of Income Taxes” and “The Proposed 23rd Amendment,” Willis E. Stone, introduction by Orville Sherwood, Grosse Pointe, Michigan. Conclusion of the lecture began on the first side.)</abstract>
               </did>
             </c04>
           </c03>
@@ -310,21 +347,43 @@
               <unitdate type="inclusive" normal="1960">1960</unitdate>
             </unittitle>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Anderson/Philbrick.</unittitle>
+              <unittitle>Anderson lecture, Detroit, Michigan; Herbert Philbrick, “Communist Brainwashing and Cybernetics,” Philadelphia, Pennsylvania, <unitdate type="inclusive">1960 November 16</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 9]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: Anderson lecture, Detroit, Mich.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-9-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_zefwoes9" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tom Anderson lecturing on the subject of federal aid and freedom, cautioning against increased government involvement in society.)</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: "Communist Brainwashing and Cybernetics," Herbert Philbrick, Philadelphia, Pa. <unitdate type="inclusive" normal="1960-11-16">November 16, 1960</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-9-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_r1l1aq1w" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Herbert Philbrick, Author and Lecturer, Rye Beach, New Hampshire. Former counterspy for the F.B.I., author of "I Led Three Lives," which has been dramatized on television.)</abstract>
               </did>
             </c04>
           </c03>
@@ -371,129 +430,283 @@
               <unitdate type="inclusive" normal="1961">1961</unitdate>
             </unittitle>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Brown/Skousen.</unittitle>
+              <unittitle>FBI counterspy Julia Brown; Cleon Skousen, Annual meeting of Michigan Farm Bureau, <unitdate type="inclusive">1961 November 08, 1964 April 24</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 12]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: FBI counterspy Julia Brown, Detroit, Mich., April 24, 1964.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-12-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_xqtxl1hc" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Julia Brown introduced by Jim Downes. Topics discussed include the relationship between the Civil Rights Movement and Communism.)</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: Cleon Skousen, Annual meeting of Michigan Farm Bureau, East Lansing, Mich. <unitdate type="inclusive" normal="1961-11-08">November 8, 1961</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-12-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_3gs05trg" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Cleon Skousen, author of "The Naked Communist" speaking on fears of Communism.)</abstract>
               </did>
             </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Bundy/Thurmond.</unittitle>
+              <unittitle>Strom Thurmond, Flint, Michigan; “Red Infiltration of National Council of Churches,” Edgar Bundy, <unitdate type="inclusive">1961 December, 1961 October</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 13]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: Strom Thurmond, Flint, Mich., December 1961.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-13-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_mr7zb2ri" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Strom Thurmond anti-Communist speeches in Flint Michigan.)</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: "Red Infiltration of N.C.C.," Edgar Bundy, Detroit, Mich. <unitdate type="inclusive" normal="1961-10">October 1961</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-13-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_2zeqkuqu" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Edgar Bundy discussing the possibility of Communist involvement of the National Council of Churches.)</abstract>
               </did>
             </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Dodd, Bella</unittitle>
+              <unittitle>“Counterattack,” Bella Dodd; first and second talk, question and answer session, <unitdate type="inclusive">1961 September 01</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 14]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: "Counterattack," Bella Dodd <unitdate type="inclusive" normal="1961-09-01">September 1, 1961</unitdate> first talk, questions and answers.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-14-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_lojriy1k" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Bella Dodd discussing fears of a coming of a World Government run by the United Nations.)</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: second talk and reminder of questions and answers from first talk</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-14-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_l6mqf4pg" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(At Counterattack Freedom School, Bella Dodd speaking on peril of the United Nations and Communism, Education and Communism.)</abstract>
               </did>
             </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Dodd/Philbrick.</unittitle>
+              <unittitle>“Communism in Education,” Bella Dodd; “Communism and Youth,” Herbert Philbrick with Ronald Reagan, George Putnam, Roy Rogers, Dale Evans, Pat Boone, <unitdate type="inclusive">1961 August, 1961 September 01</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 15]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: "Communism in Education," Bella Dodd, Detroit, Mich., September 1, 1961.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-15-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_gojngkzl" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Bella Dodd discussing fears of a coming of a World Government run by the United Nations. Identical to SR-14-1.)</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: "Communism and Youth," Herbert Philbrick with Ronald Reagan, George Putnam, Roy Rogers, Dale Evans, Pat Boone, Los Angeles, Calif. <unitdate type="inclusive" normal="1961-08">August 1961</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-15-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_2gtgk5qx" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Various speakers and actors discussing the fear of Communism infiltrators in the United States.)</abstract>
               </did>
             </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Dodd/Schwarz/Dunker.</unittitle>
+              <unittitle>“Brainwashing,” Fred Schwarz and Father Stephen Dunker; “Communist Infiltration of Education,” Bella Dodd, Detroit, Michigan, <unitdate type="inclusive">[Undated], 1961 September 01</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 16]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: "Brainwashing," Fred Schwarz and Father Stephen Dunker; "Communist Infiltration of Education," Bella Dodd, Detroit, Mich., September 1, 1961.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-16-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_2idc6qtj" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Fred Schwarz discussing Pavlov's dogs and the implications of brainwashing in Communist infiltration. )</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: Bella Dodd continued</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-16-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_o64oegra" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Bella Dodd discussing fears of a coming of a World Government run by the United Nations. Identical to SR-14-1.)</abstract>
               </did>
             </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Friedman/McKenzie.</unittitle>
+              <unittitle>Benjamin Freedman, Washington, D.C.; Rev. McKenzie, Staffin, Rood, Detroit, Michigan, <unitdate type="inclusive">1961, 1962 January 27</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 17]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: Benjamin Friedman, Washington, D.C., 1961.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-17-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_5ldnfgap" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Benjamin Friedman on Anti-Zionism, Anti-Communism, decrying Kennedy and Zionist organizations.)</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: Rev. McKenzie, Staffin, Rood, Detroit, Mich. <unitdate type="inclusive" normal="1962-01-27">January 27, 1962</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-17-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_98dlfevt" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Multiple speakers on faith and anti-Communism.)</abstract>
               </did>
             </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Kershner/Skousen.</unittitle>
+              <unittitle>Cleon Skousen, Annual meeting of Michigan Farm Bureau, East Lansing, Michigan; “Communist Takeover of America,” Howard Kershner, <unitdate type="inclusive">1961 November 08</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 18]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: Cleon Skousen, Annual meeting of Michigan Farm Bureau, East Lansing, Mich., November 8, 1961.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-18-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_vccfnb5f" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Kellogg Center, East Lansing Michigan. Speech by Cleon Skousen, anti-Communist activist and author of "The Naked Communist.")</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: "Communist Take-over of America," Howard Kershner</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-18-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_i83mm1yc" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Howard Kershner from Kansas and member of Herbert Hoover's "Committee Food For Small Democracies.")</abstract>
               </did>
             </c04>
           </c03>
@@ -558,21 +771,43 @@
               </did>
             </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Burke/Skousen.</unittitle>
+              <unittitle>“Probe,” Albert E. Burke; Captain Eddie; Detroit, Michigan; Cleon Skousen, Atlantic City, New Jersey, <unitdate type="inclusive">1962, 1964</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 22]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: "Probe," Albert E. Burke; Capt. Eddie, Detroit, Mich., March 1964.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-22-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_hwl5e167" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>("The Invisible Warrior" discussing Russian Communist and Guerrilla attempts at taking over America.)</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: Cleon Skousen, Atlantic City, N.J. <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-22-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_nu431m8z" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Cleon Skousen giving a speech entitled "Retreat Means Defeat" on Communist infiltration of America.)</abstract>
               </did>
             </c04>
           </c03>
@@ -620,29 +855,83 @@
               <p>[Tape 24]</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Hoover/McIntire. Radio talks by Carl McIntire <unitdate type="inclusive" normal="1962-10-24/1962-10-27">October 24-27, 1962</unitdate> J. Edgar Hoover, <unitdate type="inclusive" normal="1962-10-09">October 9, 1962</unitdate></unittitle>
+              <unittitle>Radio talks by Carl McIntire; J. Edgar Hoover, <unitdate type="inclusive">1962 October 09, 1962 October 24-27</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 26]</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <unittitle>Mayer/Prussion.</unittitle>
-            </did>
-            <odd>
-              <p>[Tape 27]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: "Brainwashing the Ultimate Weapon," William E, Mayer.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-26-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_lo4kq6rn" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Carl McIntire, editor of the "Christian Beacon" newsletter and pastor. Speaking out against new evangelicalism and against Communism, broadcast from New Jersey.)</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: Karl Prussion, Ann Arbor, Mich. <unitdate type="inclusive" normal="1963-10-10">October 10, 1963</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-26-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_30erddrl" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Continuation of Carl McIntire radio program. McIntire discussing fears of Nikita Khrushchev's campaign to take over the world. Tape says J. Edgar Hoover, but only Carl McIntire is heard.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>“Brainwashing the Ultimate Weapon,” William E, Mayer; Karl Prussion, Ann Arbor, Michigan, <unitdate type="inclusive">1963 October 10</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-27-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_5jgnyvp1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Major William E. Mayer, Army Psychiatrist who studied Korean War Prisoners who were captured by the Chinese.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-27-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_jdmr89rq" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Karl Prussion at the Michigan League discussing Communist infiltration of the Michigan Daily.)</abstract>
               </did>
             </c04>
           </c03>
@@ -653,7 +942,7 @@
             <c04 level="file">
               <did>
                 <unittitle>
-                  <unitdate type="inclusive" normal="1962-04-16/1962-04-17">April 16 and 17 1962</unitdate>
+                  <unitdate type="inclusive" normal="1962">April 16 and 17 1962</unitdate>
                 </unittitle>
               </did>
               <odd>
@@ -663,7 +952,7 @@
             <c04 level="file">
               <did>
                 <unittitle>
-                  <unitdate type="inclusive" normal="1962-04-24/1962-04-25">April 24 and 25 1962</unitdate>
+                  <unitdate type="inclusive" normal="1962">April 24 and 25 1962</unitdate>
                 </unittitle>
               </did>
               <odd>
@@ -683,7 +972,7 @@
             <c04 level="file">
               <did>
                 <unittitle>
-                  <unitdate type="inclusive" normal="1962-05-02/1962-05-03">May 2 and 3 1962</unitdate>
+                  <unitdate type="inclusive" normal="1962">May 2 and 3 1962</unitdate>
                 </unittitle>
               </did>
               <odd>
@@ -691,21 +980,43 @@
               </odd>
             </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Noble/Hallinan/Schwarz.</unittitle>
+              <unittitle>“I was a Slave in Russia,” John Noble, Ann Arbor, Michigan; Fred Schwarz-Vincent Hallinan debate, San Francisco, California, <unitdate type="inclusive">1963 January 05, 1963 September 15</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 32]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: "I was a Slave in Russia," John Noble, Ann Arbor, Mich., January 5, 1963.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-32-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_baptr7k0" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(John Noble speaking on his experiences in the Soviet Union.)</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: Fred Schwarz-Vincent Hallinan debate, San Francisco, Calif. <unitdate type="inclusive" normal="1962-09-15">September 15, 1962</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-32-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_c86bm8ex" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Hallinan, described as an "independent liberal, with strong left-wing tendencies" and Schwarz, "a religious conservative" debating their perspectives on Communism.)</abstract>
               </did>
             </c04>
           </c03>
@@ -734,43 +1045,84 @@
               </did>
             </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Prussion, Karl.</unittitle>
+              <unittitle>Karl Prussion, Detroit, Michigan; Karl Prussion, Ann Arbor, Michigan, <unitdate type="inclusive">1963 October 06, 1963 October 10</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 33]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: Karl Prussion, Detroit, Mich., October 6, 1963.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-33-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_f3y958rk" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape includes speech from Robert Morris speaking on Anti-Communism. Content is not Karl Prussion.)</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: Karl Prussion, Ann Arbor, Mich. <unitdate type="inclusive" normal="1963-10-10">October 10, 1963</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-33-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_l8jpub37" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>("Conquest by Progressive Surrender" discussing Communist infiltration of the United States. Cannot verify content is Karl Prussion.)</abstract>
               </did>
             </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Wilkinson, Frank</unittitle>
+              <unittitle>Sound track of film shown by Frank Wilkinson; lecture “Abolish the HUAC,” Frank Wilkinson. Side B: question and answer period after lecture, Ann Arbor, Michigan, <unitdate type="inclusive">1963 March 01</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 35]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: Sound track of film shown by Frank Wilkinson; lecture "Abolish the HUAC," Frank Wilkinson.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-35-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_h29at4fz" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape reel is labeled H. Robert Ingram of Texas with program entitled the "World Under God's Law")</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: question and answer period after lecture, Ann Arbor, Mich., March 1, 1963.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-35-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_36hf50j5" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape reel is labeled H. Robert Ingram of Texas with program entitled the "World Under God's Law")</abstract>
               </did>
-              <odd>
-                <p>(Tape reel is labeled H. Robert Ingram)</p>
-              </odd>
             </c04>
           </c03>
         </c02>
@@ -780,51 +1132,163 @@
               <unitdate type="inclusive" normal="1964">1964</unitdate>
             </unittitle>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>"American Opinion Interviews," Ann Arbor, Mich. <unitdate type="inclusive" normal="1964-03">March 1964</unitdate></unittitle>
+              <unittitle>“American Opinion Interviews,” Ann Arbor, Michigan, <unitdate type="inclusive">1964 March 01</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 36]</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <unittitle>Brown. "Communism vs. Civil Rights," Julia Brown, Detroit, Mich. <unitdate type="inclusive" normal="1964-04-24">April 24, 1964</unitdate></unittitle>
-            </did>
-            <odd>
-              <p>[Tape 37]</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <unittitle>Brown/Davidow.</unittitle>
-            </did>
-            <odd>
-              <p>[Tape 38]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: Julia Brown, April 24, 1964.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-36-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_eij4s545" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Two unknown speakers during an interview. Discussing multiple subjects on youth and citizen-government interaction. One speaker is difficult to hear.)</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: Larry Davidow <unitdate type="inclusive" normal="1964-05-21">May 21, 1964</unitdate></unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-36-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_s917447m" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Two unknown speakers during an interview. Discussing multiple subjects on youth and citizen-government interaction. One speaker is difficult to hear.)</abstract>
               </did>
             </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Davidow/Rousselot.</unittitle>
+              <unittitle>Brown. “Communism vs. Civil Rights,” Julia Brown, Detroit, Michigan, <unitdate type="inclusive">1964 April 24</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 39]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Why I am a Conservative, Larry Davidow, Ann Arbor, Mich., May 21, 1964. Rousselot on Civil Rights</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-37-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_y0u1xjyp" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Introduced by Jim Downes, Julia Brown discussing the relationship between Communism and the Civil Rights Movement.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-37-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_jrkyef36" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Cleon Skousen giving a speech entitled "Retreat Means Defeat" on Communist infiltration of America. Duplicate of SR-22-2.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Julia Brown; Larry Davidow, <unitdate type="inclusive">1964 April 24</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-38-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_2bq3n905" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Introduced by Jim Downes, Julia Brown discussing the relationship between Communism and the Civil Rights Movement. Duplicate of SR-36-1.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-38-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_7yzjnpyn" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Address decrying the Civil Right's bill and the problems of Communist infiltration. )</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Why I am a Conservative, Larry Davidow, Ann Arbor, Michigan; Rousselot on Civil Rights, <unitdate type="inclusive">1964 May 21</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-39-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_j83qe63x" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Larry Davidow talking about Communist infiltration in Labor Unions in the United States.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-39-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_fxlnr6n9" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Larry Davidow talking about Communist infiltration in Labor Unions in the United States.)</abstract>
               </did>
             </c04>
           </c03>
@@ -836,29 +1300,83 @@
               <p>[Tape 40]</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Greene/Philbrick/Schwarz. Flint Rally <unitdate type="inclusive" normal="1964-11-08">November 8, 1964</unitdate> Herbert Philbrick, Fred Schwarz, Janet Greene</unittitle>
+              <unittitle>Flint Rally, Herbert Philbrick, Fred Schwarz, Janet Greene, <unitdate type="inclusive">1964 November 08</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>[Tape 41]</p>
-            </odd>
-          </c03>
-          <c03 level="file">
-            <did>
-              <unittitle>Philbrick/Schwarz. Detroit Rally, July 28, 1964.</unittitle>
-            </did>
-            <odd>
-              <p>[Tape 42]</p>
-            </odd>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side A: "Communism and the FBI," Herbert Philbrick.</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-41-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ws45iork" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Speeches by Herbert Philbrick, Fred Schwarz, and Janet Greene on their anti-Communist efforts.)</abstract>
               </did>
             </c04>
-            <c04 level="file">
+            <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <unittitle>Side B: "Communist Plan for Conquest of the USA," Fred Schwarz</unittitle>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-41-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ziv4zvjy" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Speeches by Herbert Philbrick, Fred Schwarz, and Janet Greene on their anti-Communist efforts.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Detroit Rally; “Communist Plan for Conquest of the USA,” Fred Schwarz; Detroit Rally; “Communism and the FBI,” Herbert Philbrick, <unitdate type="inclusive">1964 July 28</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[2009039-SR-42-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_grtyx0yb" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Fred Schwarz and Herbert Philbrick speeches on Anti-Communist efforts in Detroit. )</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[2009039-SR-42-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_6hnun9vr" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Fred Schwarz and Herbert Philbrick speeches on Anti-Communist efforts in Detroit. )</abstract>
               </did>
             </c04>
           </c03>
@@ -883,6 +1401,9 @@
         <did>
           <unittitle><unitdate type="inclusive">Undated</unitdate> tapes</unittitle>
         </did>
+        <accessrestrict>
+          <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict>
         <c02 level="file">
           <did>
             <unittitle>"Christie and Fr. John"</unittitle>
@@ -938,21 +1459,43 @@
             </did>
           </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Edwards/Lesinski.</unittitle>
+            <unittitle>Lieutenant Governor T. John Lesinski, William J. Edwards, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
           </did>
-          <odd>
-            <p>[Tape 48]</p>
-          </odd>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <unittitle>Side A: Lieutenant Governor T. John Lesinski.</unittitle>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[2009039-SR-48-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_smt1kshh" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Speech by Lt. Governor T. John Lesinski, Jr. of Michigan at the Counterattack Freedom School on anti-Communist efforts in the United States)</abstract>
             </did>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <unittitle>Side B; William J. Edwards</unittitle>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[2009039-SR-48-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_ze3248r5" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(William J. Edwards at the Counterattack Freedom School on anti-Communist efforts in the United States)</abstract>
             </did>
           </c03>
         </c02>
@@ -1071,21 +1614,83 @@
             </did>
           </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Noble/Vaus.</unittitle>
+            <unittitle>John Noble; Jim Vaus, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
           </did>
-          <odd>
-            <p>[Tape 56]</p>
-          </odd>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <unittitle>Side A: John Noble Detroit lecture.</unittitle>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[2009039-SR-56-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_61rhwjpj" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Side A: John Noble Detroit lecture on Anti-Communism efforts.)</abstract>
             </did>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <unittitle>Side B: Jim Vaus, wiretapper for Mickey Cohen gang</unittitle>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[2009039-SR-56-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_0m6bbw7x" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Side B: Speech by Jim Vaus, wiretapper for Mickey Cohen gang.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>John Noble; Jim Vaus, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[2009039-SR-57-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_jqvlz7zf" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Side A: John Noble Detroit lecture on Anti-Communism efforts. Speech is entitled "I Was A Slave In Russia." Tape is identical to SR-56.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[2009039-SR-57-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_u1s7d86q" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Side B: Speech by Jim Vaus, wiretapper for Mickey Cohen gang. Speech is titled “My Experience in Organized Crime, and Why I Quit. Tape is identical to SR-56.)</abstract>
             </did>
           </c03>
         </c02>
@@ -1125,21 +1730,43 @@
             </did>
           </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <unittitle>Philbrick/Schwarz. Flint Rally.</unittitle>
+            <unittitle>Herbert Philbrick; Fred Schwarz. Flint Rally, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
           </did>
-          <odd>
-            <p>[Tape 59]</p>
-          </odd>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <unittitle>Side A: "Communism and Youth," Herbert Philbrick.</unittitle>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[2009039-SR-59-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_fkstvqcm" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Side A: “Communism and Youth,” Herbert Philbrick speech on Anti-Communism.)</abstract>
             </did>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-part">
             <did>
-              <unittitle>Side B: "Extremism, Fascism and Communism," Fred Schwarz</unittitle>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[2009039-SR-59-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_i7zaogok" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Side B; “Extremism, Fascism and Communism,” Fred Schwarz on anti-Communism efforts.)</abstract>
             </did>
           </c03>
         </c02>

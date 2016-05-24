@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>20150707</date>
         <item>Added written notes from paper finding aid.</item>
       </change>
@@ -52,6 +56,10 @@
         <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
         <physfacet>UAm</physfacet>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">5.2 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -66,6 +74,7 @@
       </accruals>
       <accessrestrict encodinganalog="506">
         <p>The collection is open to research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright is held by the Regents of the University of Michigan.</p>
@@ -73,6 +82,9 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Frederick E. Moncrieff papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>Frederick E. Moncrieff was born in Detroit, Michigan, on September 25, 1922, the first child of Frederick Edwin and Kathleen Garnet Moncrieff. After graduating from Southeastern High School in Detroit, he went on to obtain a Bachelor of Arts degree in English from Wayne State University in 1945. Moncrieff worked briefly as a correspondent for the Associated Press in Lansing, Ann Arbor, and Detroit before being hired by the University of Michigan News and Information Services in March 1946, as a photographer. In one of his letters, he mentioned that, "The University purchased my camera and film and even paid me to have the time of my life." Moncrieff added reporter and editor to his responsibilities during his initial ten year stint with the University of Michigan News and Information Services. Among the distinguishing aspects of this period of his career was the organization of the 1955 press conference when Thomas Francis announced that the Salk polio vaccine was safe and effective. He also assisted with the hosting of visiting dignitaries and was the photographer of a famous photograph, taken early in his career, of the University's Diag with students walking amid streaming rays of the sun.</p>
@@ -276,39 +288,156 @@
         <scopecontent>
           <p>The Audiovisual Materials series, 1947-ca. 1966, includes photographs, slides, and audiotapes of interviews and concerts from the University of Michigan Band Tour. The audiotapes are reel-to-reel recordings of concerts in the Soviet Union broadcast by Radio Moscow as well as post-tour interviews with participants. There are also photographs and a 16 mm color film of Camp Michigania, photographs of historic buildings, campus photographs, including the famous photograph from 1947 showing students on the Diag walking amid streaming rays of the morning sun, and some images of Moncrieff in the Audiovisual Materials series. The campus photographs and some of the Band Tour images are located in the oversize folder.</p>
         </scopecontent>
+        <accessrestrict>
+          <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict>
         <c02 level="subseries">
           <did>
             <unittitle>University of Michigan Band Tour</unittitle>
           </did>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Audiotapes of WUOM Broadcast of Concert at Leningrad Conservatory via Radio Moscow</unittitle>
+              <unittitle>Audio tapes of WUOM Broadcast of Concert at Leningrad Conservatory via Radio Moscow, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
               <physdesc>
-                <physfacet>1/4 inch magnetic tape reel</physfacet>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[93268-SR-1-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_1odott86" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 1; performs Rimsky-Korsakov "Procession of the Nobles" from Mlada, "Elsa's Procession to the Catherdral" by Richard Wagner, "Concerto for Saxophone and Band" by Paul Creston. "Summertime" by George Gershwin, "Rhapsody on Russian Folk Songs" by Jerry Bilik, "La Virgen de la Macarena" by Rafael Mendez, and "The Three Trumpeters" by Agostini.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Audiotape of WUOM Broadcast of Concert recorded by Radio Moscow</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Audiotapes of post-tour interviews with Gregory Munson, Tour Librarian, and with Dr. Revelli and Mr. Cavender</unittitle>
+              <unittitle>Audio tapes of WUOM Broadcast of Concert at Leningrad Conservatory via Radio Moscow, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
               <physdesc>
-                <physfacet>1/4 inch magnetic tape reels and cassette</physfacet>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[93268-SR-2-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_mee98k8x" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 2; Works performed are Dmitri Kabalevsky, "Comedian's Gallop", "La Compasa" by Ernesto Lecuona.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Audiotape of unknown interview (1/4 inch magnetic tape reel)</unittitle>
+              <unittitle>WUOM Broadcast of Symphony Band recorded by Radio Moscow, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch</physfacet>
+              </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[93268-SR-3-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_1evut0bd" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Excerpt from tape 93268-SR-1 playing George Gershwin's "Summertime" and "The Three Trumpeters" by Agostini.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Audio tapes of post-tour interviews with Gregory Munson, Tour Librarian, and with Dr. Revelli and Mr. Cavender, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[93268-SR-4-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_wcfiom37" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Interview with members of the band discussing the history of the University of Michigan Symphony band and its make up and structures.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Audio tapes of post-tour interviews with Gregory Munson, Tour Librarian, and with Dr. Revelli and Mr. Cavender, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[93268-SR-5-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_akzkdl51" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Interview discussing the band's Eastern Europe and Middle East tour in the 1960s. )</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>"The Bulge Goes To College" <unitdate type="inclusive">[ca. 1963]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[93268-SR-6-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_iws9cxax" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(President of Northern Michigan University, Edgar Harden, U-M President Harlan Hatcher and others. Radio program discussing the challenge of the rising number of college students entering into Michigan universities. Part two of "Micihigan's Battle of the Bulge" produced by Michigan State Radio.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>

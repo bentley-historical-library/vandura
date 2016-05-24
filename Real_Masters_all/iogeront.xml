@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>20150807</date>
         <item>Added written notes from paper finding aid.</item>
       </change>
@@ -52,8 +56,12 @@
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
-      <physdesc altrender="whole">
+      <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">28 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1.7 GB</extent>
+        <physfacet>online</physfacet>
       </physdesc>
       <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
     </did>
@@ -63,6 +71,7 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
         <p>
           <extptr href="uarpacc" show="embed" actuate="onload"/>
         </p>
@@ -73,6 +82,9 @@
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., Institute of Gerontology (University Michigan), Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
       <processinfo>
         <p>Records processed and finding aid prepared by Mark A. Greene, April 1985 (boxes 1-11), Katherine C. Owen, October 1989 (boxes 12-25)., Joan Patterson, October 1992 (boxes 26-28), Kenneth J. Varnum, June 1994 (boxes 26-28).</p>
         <p>Encoded finding aid created by Greg Kinney, July 2001</p>
@@ -975,7 +987,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">4</container>
-              <unittitle><unitdate type="inclusive">Undated</unitdate> and Miscellaneous Addresses and Papers</unittitle>
+              <unittitle><unitdate>Undated</unitdate> and Miscellaneous Addresses and Papers</unittitle>
             </did>
           </c03>
         </c02>
@@ -2559,7 +2571,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">9</container>
-              <unittitle>Staff and Student Directory <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Staff and Student Directory <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
         </c02>
@@ -3784,7 +3796,7 @@
           <unittitle><genreform normal="Photographs">Sound Recordings</genreform>, <unitdate type="inclusive" normal="1972">1972</unitdate>, <unitdate type="inclusive" normal="1950/1988" certainty="approximate">circa 1950-1988</unitdate></unittitle>
         </did>
         <scopecontent>
-          <p>The Sound Recording Series, primarily audio cassettes, is comprised of six subseries: 25th Annual Conference; three radio programs produced IoG; "The Aging of Europe," "New Goals for Aging" and a lecture series "Learning for Longer Living"; Miscellaneous tapes; and a collection IoG speeches, training tapes and conference proceedings. The originals of the radio programs were identified by a numerical designation preceded by "GE", although some of the tapes here are cassette copies. Few of the tapes are dated but the "GE" sequence seems to span the mid-1950s to the mid-1960s.</p>
+          <p>The Sound Recording Series, primarily audio cassettes, is comprised of four subseries: 25th Annual Conference; three radio programs produced IoG; "The Aging of Europe," "New Goals for Aging" and a lecture series "Learning for Longer Living"; Miscellaneous tapes; and a collection IoG speeches, training tapes and conference proceedings. The originals of the radio programs were identified by a numerical designation preceded by "GE", although some of the tapes here are cassette copies. Few of the tapes are dated but the "GE" sequence seems to span the mid-1950s to the mid-1960s.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
@@ -4146,11 +4158,32 @@
           <scopecontent>
             <p>The final radio program is "Learning for Longer Living," lectures delivered by noted physicians, psychologists, and pathologists.</p>
           </scopecontent>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">11</container>
-              <unittitle>GE 30: Clark Tibbitts and Charles Kidd, "Our Aging Population"</unittitle>
+              <unittitle>"Learning for Longer Living” - GE 30: Clark Tibbitts and Charles Kidd, "Our Aging Population", <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
+              </physdesc>
             </did>
+            <accessrestrict>
+              <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+            </accessrestrict>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[86996-SR-1-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_jde6415s" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Radio program "Learning for Longer Living” (GE 30) produced by the University of Michigan. )</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -4158,11 +4191,32 @@
               <unittitle>GE 31 &amp; 31b: Karl Weller, "Why Does Every Living Thing Age?"</unittitle>
             </did>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">11</container>
-              <unittitle>GE 32: Wilma Donahue, "Psychological Aspects of Aging," <unitdate type="inclusive" normal="1966-02-28">February 28, 1966</unitdate></unittitle>
+              <unittitle>"Learning for Longer Living” - GE 32: Wilma Donahue, "Psychological Aspects of Aging", <unitdate type="inclusive">1966 February 28</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
+              </physdesc>
             </did>
+            <accessrestrict>
+              <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+            </accessrestrict>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[86996-SR-2-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_8e6sa30v" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Radio program "Learning for Longer Living” (GE 32). Presented by the University of Michigan. Wilma Donahue, University of Michigan Institute for Human Adjustment.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -4352,7 +4406,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">26</container>
-            <unittitle>Application for Long-Range Support <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Application for Long-Range Support <unitdate>undated</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
@@ -4571,7 +4625,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">26</container>
-              <unittitle>Project Proposal <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Project Proposal <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -4638,7 +4692,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">26</container>
-              <unittitle>Unit Proposals <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Unit Proposals <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
         </c02>
@@ -4800,7 +4854,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">27</container>
-                <unittitle>"The Common Body of Knowledge" <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle>"The Common Body of Knowledge" <unitdate>undated</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -4812,7 +4866,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">27</container>
-                <unittitle>"Older Women Workers" <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle>"Older Women Workers" <unitdate>undated</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -4830,20 +4884,20 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">27</container>
-                <unittitle>Religion <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle>Religion <unitdate>undated</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">27</container>
-                <unittitle>Statistics <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle>Statistics <unitdate>undated</unitdate></unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">27</container>
-              <unittitle>Gottesman, Leonard <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Gottesman, Leonard <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -4874,7 +4928,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">27</container>
-            <unittitle>Visiting Scholars Program <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Visiting Scholars Program <unitdate>undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -5059,7 +5113,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">28</container>
-                <unittitle>Institute of Labor and Industrial Relations <unitdate type="inclusive">undated</unitdate></unittitle>
+                <unittitle>Institute of Labor and Industrial Relations <unitdate>undated</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">

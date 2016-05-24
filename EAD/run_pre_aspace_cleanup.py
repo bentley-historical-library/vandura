@@ -21,7 +21,7 @@ from pre_aspace_cleanup.wrap_unwrapped_unitdates import wrap_unwrapped_unitdates
 
 from vandura.shared.utilities.ead_cleanup.prettifydirectory import prettify_xml_in_directory
 
-def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir):
+def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir, dspace_xoai_dir):
 	fix_collection_level_unittitle_commas(ead_dir)
 	wrap_unwrapped_unitdates(ead_dir)
 	normalize_dates(ead_dir)
@@ -44,8 +44,8 @@ def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir):
 def main():
 	aspace_ead_dir = join(ead_dir, 'eads')
 	muschenheim_dir = join(ead_dir, 'muschenheim')
-	run_pre_aspace_cleanup(muschenheim_dir, dspace_mets_dir)
-	run_pre_aspace_cleanup(real_masters_all, dspace_mets_dir)
+	run_pre_aspace_cleanup(muschenheim_dir, dspace_mets_dir, dspace_xoai_dir)
+	run_pre_aspace_cleanup(real_masters_all, dspace_mets_dir, dspace_xoai_dir)
 
 if __name__ == "__main__":
 	main()

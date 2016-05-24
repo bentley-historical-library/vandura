@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>2011-01-10</date>
         <item>Changes made with the addition of new records.</item>
       </change>
@@ -54,6 +58,10 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">6 oversize volumes</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">10.1 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -65,6 +73,7 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The records are open for research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright has been retained by Guild House.</p>
@@ -72,6 +81,9 @@
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., Guild House, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>The roots of Guild House go back to 1893 when the Christian Women's Board of Missions of the Disciples Church established the Ann Arbor Bible Chair at the University of Michigan. Through the years other denominations have joined the Disciples in their aim to provide a setting for Bible study and the "Christian education" of university students. The Guild House became an ecumenical "United Campus Ministry" with local churches sponsoring their activities. These included Memorial Christian Church, the Bethlehem United Church of Christ, the First Congregational Church, the Church of the Good Shepherd, and the First Unitarian Universalist Church.</p>
@@ -2251,6 +2263,9 @@
         <scopecontent>
           <p>The final series, Sound Recordings, contains a series of reel-to-reel audio tapes. These include a conference on the Vietnam War sponsored by Guild House and sermons, as well as 18 unlabeled tapes.</p>
         </scopecontent>
+        <accessrestrict>
+          <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict>
         <c02 level="file">
           <did>
             <container type="box" label="Box">10</container>
@@ -2281,15 +2296,237 @@
             </physdesc>
           </did>
         </c02>
-        <c02 level="file">
+        <c02 level="otherlevel" otherlevel="item-main">
           <did>
-            <container type="box" label="Box">10</container>
-            <unittitle>Conference on Vietnam</unittitle>
-            <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">9 tapes</extent>
-              <physfacet>7 in. reel-to-reel audio tapes</physfacet>
+            <unittitle>Conference on Vietnam War, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
             </physdesc>
           </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[8514-SR-19-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_te84orsh" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 1; Realities of North Vietnam: Paul Kattenberg; P.J. Honey; Bernard Fall; John Schreckar. Speakers discussing the political situation surrounding Vietnam, including communism and revolutionary movements.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Conference on Vietnam War, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[8514-SR-20-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_s2bjzuxn" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 2; Speakers discussing politics and religion and the situation in South Vietnam during the run up to the War.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Conference on Vietnam War, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[8514-SR-21-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_aftkte9y" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 3; 1B track 1. Speakers discussing the military and political situation in North and South Vietnam.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Conference on Vietnam War, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[8514-SR-22-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_ycz5vrdf" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 4; Vietnamese citizen discussing Socialist philosophies and the effect they have had on Vietnamese political thinking in the context of the Vietnam War.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Conference on Vietnam War, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[8514-SR-23-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_usjnjyta" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 5; 1C track 1. Recording of political songs and then a speech in Spanish and possibly another unidentified language.)</abstract>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 2]</unittitle>
+              <unitid>[8514-SR-23-2]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_893eytj9" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 5; 1C track 1; Recording of political songs and then a speech in Spanish and possibly another unidentified language.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Conference on Vietnam War, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[8514-SR-24-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_6htogo2u" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 6; 1C track 2. Various speakers discussing the origins in the conflict in Vietnam. Remaining 5 minutes of the tape is chatter at the end of the conference session.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Conference on Vietnam War, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[8514-SR-25-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_rxkw82s8" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 7; 3B1. Wolf, Scalapino. Various speakers discussing the origins of the war in Vietnam in the 1950s. Discussion turns to the discussion of nationalism and communism in Southeast Asia.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Conference on Vietnam War, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[8514-SR-26-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_ybq66jvy" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 8; 3C2; Eric Wolf. Various speakers discussing Vietnamese nationalism and culture and the divides across the country.)</abstract>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="item-main">
+          <did>
+            <unittitle>Conference on Vietnam War, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>[Part 1]</unittitle>
+              <unitid>[8514-SR-27-1]</unitid>
+              <physdesc>
+                <physfacet>mp3 file</physfacet>
+              </physdesc>
+              <dao href="https://bentley.mivideo.it.umich.edu/media/1_01lpjatn" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+              <abstract>(Tape 9; Part of Vietnam conference. Realities of North Vietnam with Fall, Honey. Discussing the effects U.S. bombing and aid has an effect on the perceptions of the war amongst Vietnamese. Speakers are also discussing the Sino-Soviet split and other affairs relevant to the War.)</abstract>
+            </did>
+          </c03>
         </c02>
         <c02 level="file">
           <did>

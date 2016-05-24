@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>20040121</date>
         <item>Converted to EAD2002 using Word macro and Xmetal</item>
       </change>
@@ -50,6 +54,10 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">1 oversize volumes</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">10.2 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -61,6 +69,7 @@
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
@@ -68,6 +77,9 @@
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., Lenore LaFount Romney Papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>Lenore LaFount Romney was born in 1909 in Ogden, Utah. In 1931, she married George Wilcken Romney, who was later to become President of American Motors, Governor of Michigan and Secretary of Housing and Urban Development. A well-respected and admired politician and public figure in her own right, Lenore Romney took an active role in state politics as Michigan's first lady. Both then, and later as wife of a cabinet secretary, she traveled widely, speaking on issues such as poverty, volunteerism, women's rights and the Vietnam War. She announced her candidacy for United States Senator from Michigan in 1969, running against Democratic incumbent Phil Hart. Romney was hampered in her campaign by her unpopular positions--she supported Nixon's stand on the Vietnam War--and her lack of a concrete platform--long on moral positions but short on specifics. At a time when there was just one woman in the U.S. Senate, her being in the race at all raised many eyebrows, especially given her husband's own political career. Many thought that she should let Mr. Romney wear the political hat in the family. Although her moral courage was widely admired, she was soundly defeated in November 1970. After the election, she continued to live in the public eye, speaking out on issues of concern to her, including volunteerism, women's rights, abortion, and the inverse relationship between morality and crime.</p>
@@ -118,7 +130,7 @@
           <did>
             <container type="box" label="Box">1</container>
             <unittitle>
-              <unitdate type="inclusive">Undated</unitdate>
+              <unitdate>Undated</unitdate>
               <unitdate type="inclusive" normal="1962/1965-06">1962-June 1965</unitdate>
             </unittitle>
             <physdesc altrender="whole">
@@ -774,7 +786,7 @@
             <did>
               <container type="box" label="Box">7</container>
               <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
+                <unitdate>Undated</unitdate>
               </unittitle>
             </did>
           </c03>
@@ -789,6 +801,9 @@
         <scopecontent>
           <p>Recordings of speeches, interviews, and WJR Detroit radio program, "A Visit with Lenore Romney."</p>
         </scopecontent>
+        <accessrestrict>
+          <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict>
         <odd>
           <p>(7" except where indicated)</p>
         </odd>
@@ -799,203 +814,251 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">8</container>
-              <unittitle>LR, Birthday Party, Detroit <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>LR, Birthday Party, Detroit <unitdate>undated</unitdate></unittitle>
               <physdesc>
                 <physfacet>3-3/4 ips</physfacet>
               </physdesc>
             </did>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR interview <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+              <unittitle>Lenore Romney interview, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
               <physdesc>
-                <physfacet>7-1/2 ips</physfacet>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[852228-SR-2-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_mr03lw5v" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Les Brown's orchestra, "Concert at the Woodside." Dr. Dick Hate, and Lenore Romney discussing the role of business in Michigan and class warfare.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech, Royal Oak Republican Women's Club <unitdate type="inclusive" normal="1962-05">May 1962</unitdate></unittitle>
+              <unittitle>Lenore Romney speech, Royal Oak Republican Women's Club, <unitdate type="inclusive">1962 May 01</unitdate></unittitle>
               <physdesc>
-                <physfacet>3-3/4 ips</physfacet>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[852228-SR-3-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_xpcj2r2h" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Inconsistent speed issues on this tape. Lenore Romney at a Royal Oak Republican Women's Club discussing the strength of citizen's movement. )</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR press conference <unitdate type="inclusive" normal="1962-06-05">June 5, 1962</unitdate></unittitle>
+              <unittitle>Lenore Romney press conference, <unitdate type="inclusive">1962 June 05</unitdate></unittitle>
               <physdesc>
-                <physfacet>7-1/2 ips</physfacet>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[852228-SR-4-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_c9lp7wy2" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Press Conference where Lenore Romney answers questions during George Romney's gubernatorial campaign.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR interview, WTVB radio, Coldwater <unitdate type="inclusive" normal="1962-07-21">July 21, 1962</unitdate></unittitle>
+              <unittitle>Lenore Romney speech, Seventh-Day Adventists, Grand Ledge, Michigan, <unitdate type="inclusive">1966 August 03</unitdate></unittitle>
               <physdesc>
-                <physfacet>7-1/2 ips</physfacet>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[852228-SR-10-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_qi4ivhbg" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Grand Ledge Camp Meeting. Children singing "God Bless Our Governor." Includes sermons and services at Seventh-Day Adventist Church with musical performances from members of the congregation. Lenore Romney speech begins at 27:00.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech at opening of 17th District Headquarters <unitdate type="inclusive" normal="1962-09-12">September 12, 1962</unitdate></unittitle>
+              <unittitle>Lenore Romney address, Women's Federation Convention, Kalamazoo, Michigan, <unitdate type="inclusive">1966 September 23</unitdate></unittitle>
               <physdesc>
-                <physfacet>3-3/4 ips</physfacet>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[852228-SR-11-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_xxqyhrck" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Lenore Romney's Keynote address to the Women's Federation Convention, Kalamazoo during the 1966 Gubernatorial Election.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech <unitdate type="inclusive" normal="1962-10-22">October 22, 1962</unitdate></unittitle>
+              <unittitle>Lenore Romney speech, International Convention of Christian Business Men's Committee, Detroit, Michigan, <unitdate type="inclusive">1966 October 01</unitdate></unittitle>
               <physdesc>
-                <physfacet>3-3/4 ips</physfacet>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 3 ¾ ips</physfacet>
               </physdesc>
             </did>
-            <odd>
-              <p>(also includes speeches by Mrs. John B. Swainson and John F. Kennedy)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[852228-SR-12-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ioxahk1n" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(In Cobo Hall, discussing moral and social issues relevant to society.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech, Ionia County Fair <unitdate type="inclusive" normal="1962-08-12">August 12, 1962</unitdate></unittitle>
+              <unittitle>Lenore Romney interview, Lou Gordon Show, <unitdate type="inclusive">1967 April 16</unitdate></unittitle>
               <physdesc>
-                <physfacet>7-1/2 ips</physfacet>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 1-7/8 ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[852228-SR-16-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_4lh22ity" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Lenore Romney on the Lou Gordon discussing some of the aspects of being the First Lady of Michigan.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech, Farmers Week, Michigan State University <unitdate type="inclusive" normal="1965-02">February 1965</unitdate></unittitle>
+              <unittitle>Lenore Romney speech, Midwest Governor Conference , <unitdate type="inclusive">1967 August</unitdate></unittitle>
               <physdesc>
-                <physfacet>7-1/2 ips</physfacet>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[852228-SR-19-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_mo2hucvu" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Interview with Lenore Romney on her relationship with her husband and her reactions to the situation following the Detroit Riot.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech, Seventh-Day Adventists, Grand Ledge, Michigan <unitdate type="inclusive" normal="1966-08-03">August 3, 1966</unitdate></unittitle>
+              <unittitle>Lenore Romney interview with Bob Grant, KLAC, <unitdate type="inclusive">1967 August 03</unitdate></unittitle>
               <physdesc>
-                <physfacet>3-3/4 ips</physfacet>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 7 ½ ips</physfacet>
               </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[852228-SR-20-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_4vtm9e90" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Phone interview with Lenore Romney at her home in Birmingham, Michigan. Being questioned on the subject of Romney's running for the Presidency.)</abstract>
+              </did>
+            </c04>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR address, Women's Federation Convention, Kalamazoo, Michigan <unitdate type="inclusive" normal="1966-09-23">September 23, 1966</unitdate></unittitle>
+              <unittitle>Lenore Romney speech, Kiwanis Club of Danville, Illinois, <unitdate type="inclusive">1968 June 06</unitdate></unittitle>
               <physdesc>
-                <physfacet>7-1/2 ips</physfacet>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
               </physdesc>
             </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech, International Convention of Christian Business Men's Committee, Detroit, Michigan <unitdate type="inclusive" normal="1966-10-01">October 1, 1966</unitdate></unittitle>
-              <physdesc>
-                <physfacet>3-3/4 ips</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech, Dayton County Club, Dayton, Ohio <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-              <physdesc>
-                <physfacet>7-1/2 ips</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech, Republican Rally <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-              <physdesc>
-                <physfacet>3-3/4 ips</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech, BPOE <unitdate type="inclusive" normal="1967-02-21">February 21, 1967</unitdate></unittitle>
-              <physdesc>
-                <physfacet>5" tape; 3.75 ips</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR interview, Lou Gordon Show <unitdate type="inclusive" normal="1967-04-16">April 16, 1967</unitdate></unittitle>
-              <physdesc>
-                <physfacet>5" tape; 1-7/8 ips</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech, Holland, Michigan <unitdate type="inclusive" normal="1967-05-17">May 17, 1967</unitdate></unittitle>
-              <physdesc>
-                <physfacet>7-1/2 ips</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech, Convention (?) <unitdate type="inclusive" normal="1967-06-23">June 23, 1967</unitdate></unittitle>
-              <physdesc>
-                <physfacet>5" tape; 3.75 ips</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech, Midwest Governor Conference <unitdate type="inclusive" normal="1967-08">August 1967</unitdate></unittitle>
-              <physdesc>
-                <physfacet>7-1/2 ips</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR interview with Bob Grant, KLAC <unitdate type="inclusive" normal="1967-08-03">August 3, 1967</unitdate></unittitle>
-              <physdesc>
-                <physfacet>5" tape; 7-1/2 ips</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech, South Dakota <unitdate type="inclusive" normal="1967-10-25">October 25, 1967</unitdate></unittitle>
-              <physdesc>
-                <physfacet>5" tape; 3.75 ips</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>LR speech, Kiwanis Club of Danville, Illinois <unitdate type="inclusive" normal="1968-06-06">June 6, 1968</unitdate></unittitle>
-              <physdesc>
-                <physfacet>7-1/2 ips</physfacet>
-              </physdesc>
-            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[852228-SR-22-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ythlmrik" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Lenore Romney speaking on the subject of juvenile crime and other issues.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>

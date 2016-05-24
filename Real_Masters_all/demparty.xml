@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160208</date>
+        <item>Added digitized audio</item>
+      </change>
+      <change>
         <date>2012-06-10</date>
         <item>Typo corrected.</item>
       </change>
@@ -56,6 +60,10 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">1 film reels</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">18.4 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -70,6 +78,7 @@
       </accruals>
       <accessrestrict encodinganalog="506">
         <p>The record group is open to research.</p>
+        <p>The collection contains audio tapes from which digital copies have been made. Source tapes are for staff use only. Audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright is not held by the Regents of the University of Michigan.</p>
@@ -77,6 +86,9 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Democratic Party of Michigan records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>The Democratic Party of Michigan is a non-profit organization affiliated with the Democratic National Committee, and its State Chairman is a member of the Association of State Democratic chairs. The group is dedicated to supporting Democratic candidates for public office in the state of Michigan, promoting the party in Michigan, and fielding the concerns of Michigan citizens as part of their effort to affect legislative change.</p>
@@ -23574,6 +23586,9 @@
         <scopecontent>
           <p>The Sound Recordings series include recordings, May-Sept. 1963, of "Platform," a radio program produced by the Michigan Democratic Party. There are also recordings of state party conventions, 1972, 1973 and 1975; speeches of Hubert Humphrey and other party promotions produced during the 1968 campaign; and miscellaneous tapes of conferences and meetings, and political announcements.</p>
         </scopecontent>
+        <accessrestrict>
+          <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict>
         <c02 level="subseries">
           <did>
             <unittitle>Radio program "Platform" presented by Michigan Democratic Party</unittitle>
@@ -23617,14 +23632,29 @@
               <p>(tape 4)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">96</container>
-              <unittitle>William Patrick and Zolton Ferency discussing equal rights in Michigan. <unitdate type="inclusive" normal="1963-07-07">July 7, 1963</unitdate></unittitle>
+              <unittitle>Radio program “Platform” presented by Michigan Democratic Party: William Patrick and Zolton Ferency, <unitdate type="inclusive">1963 July 07</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(tape 5)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85686-SR-5-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_qpi7vsam" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Broadcast No. 9, discussion focused on equal rights in Michigan, housing, and other issues centered around the civil rights movement.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -23644,14 +23674,29 @@
               <p>(tape 7)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">96</container>
-              <unittitle>Averill Harriman and Philip A. Hart on test ban treaty; and Norman Crandall, director of special projects division of the Democratic Party of Michigan. <unitdate type="inclusive" normal="1963-08-11">August 11, 1963</unitdate></unittitle>
+              <unittitle>Radio program “Platform” presented by Michigan Democratic Party: Averill Harriman and Philip A. Hart, and Norman Crandall., <unitdate type="inclusive">1963 August 11</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(tape 8)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85686-SR-8-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_vuw3wh1m" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Broadcast No 14. Discussing the Partial Nuclear Test Ban Treaty and its implications.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -23662,14 +23707,29 @@
               <p>(tape 9)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">96</container>
-              <unittitle>Damon Keith on civil rights; and Norman Crandall, director of special projects division of the Democratic Party of Michigan. <unitdate type="inclusive" normal="1963-09-01">September 1, 1963</unitdate></unittitle>
+              <unittitle>Radio program “Platform” presented by Michigan Democratic Party: Damon Keith on civil rights; and Norman Crandall, director of special projects division of the Democratic Party of Michigan., <unitdate type="inclusive">1963 September 01</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
+              </physdesc>
             </did>
-            <odd>
-              <p>(tape 10)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85686-SR-10-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_127arhih" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Broadcast No. 17, discussing Civil Rights as well as news and current events.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -23750,18 +23810,205 @@
               <p>(tapes 17-18)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">96</container>
-              <unittitle>Recording <unitdate type="inclusive" normal="1972-08-27">August 27, 1972</unitdate> of Democratic State Convention.</unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">5 audiotapes</extent>
-                <physfacet>dual track; 7 1/2 ips; 7 inches; reel-to-reel tapes</physfacet>
+              <unittitle>Recording of Democratic State Convention., <unitdate type="inclusive">1972 August 27</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
               </physdesc>
             </did>
-            <odd>
-              <p>(tapes 19-23)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85686-SR-19-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_2wl2duuj" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 1; Voting and procedures for the 1972 Michigan Democratic State Convention.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[85686-SR-19-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_e45e3cct" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 1; Voting and procedures for the 1972 Michigan Democratic State Convention.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Recording of Democratic State Convention., <unitdate type="inclusive">1972 August 27</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85686-SR-20-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_nxzk6til" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 2; Voting and procedures for the 1972 Michigan Democratic State Convention.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[85686-SR-20-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_kb19sd6f" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 2; Voting and precedures for the 1972 Michigan Democratic State Convention.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Recording of Democratic State Convention., <unitdate type="inclusive">1972 August 27</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85686-SR-21-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_6zxi0t2n" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 3; Voting and precedures for the 1972 Michigan Democratic State Convention.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[85686-SR-21-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_kmtoaw0v" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 3; Voting and precedures for the 1972 Michigan Democratic State Convention.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Recording of Democratic State Convention., <unitdate type="inclusive">1972 August 27</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85686-SR-22-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_m2lmlazd" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 4; Voting and precedures for the 1972 Michigan Democratic State Convention.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[85686-SR-22-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ekzoq9kc" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 4; Voting and precedures for the 1972 Michigan Democratic State Convention.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Recording of Democratic State Convention., <unitdate type="inclusive">1972 August 27</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85686-SR-23-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_e45otpsy" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 5; Voting and precedures for the 1972 Michigan Democratic State Convention.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[85686-SR-23-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_3b11vs56" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 5; Voting and precedures for the 1972 Michigan Democratic State Convention.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -23926,18 +24173,29 @@
               <p>(tape 45)</p>
             </odd>
           </c03>
-          <c03 level="file">
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container type="box" label="Box">97</container>
-              <unittitle>Interview <unitdate type="inclusive" normal="1968">1968</unitdate> with Hubert Humphrey concerning the issues of the <unitdate type="inclusive" normal="1968">1968</unitdate> campaign.</unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 audiotapes</extent>
-                <physfacet>reel-to-reel tapes</physfacet>
+              <unittitle>Interview with Hubert Humphrey concerning the issues of the 1968 campaign., <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 7 1/2 ips</physfacet>
               </physdesc>
             </did>
-            <odd>
-              <p>(tape 46)</p>
-            </odd>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85686-SR-46-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_th1dd9z2" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Humphrey discussing foreign relations, bipartisan cooperation, and other issues. Recorded during 1968 Presidential Campaign.)</abstract>
+              </did>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
