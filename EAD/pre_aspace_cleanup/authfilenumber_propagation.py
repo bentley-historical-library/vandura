@@ -50,13 +50,14 @@ def apply_authfilenumbers(text_to_authfilenumber_dict, ead_dir):
 			with open(join(ead_dir,filename),'w') as f:
 				f.write(etree.tostring(tree,encoding='utf-8',xml_declaration=True,pretty_print=True))
 
-def a2_and_detroit_authfilenumber_fix(ead_dir):
+def misassigned_authfilenumber_fixes(ead_dir):
 	auth_to_text = {"http://id.loc.gov/authorities/names/n79045539": "Detroit (Mich.)", 
-					"http://id.loc.gov/authorities/names/n79022219": "Ann Arbor (Mich.)"
+					"http://id.loc.gov/authorities/names/n79022219": "Ann Arbor (Mich.)",
+					"http://id.loc.gov/authorities/names/n81129560": "Benton Harbor (Mich.)"
 					}
 	filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith(".xml")]
 	for filename in filenames:
-		print "Resolving Ann Arbor and Detroit authfilenumber issues in {}".format(filename)
+		print "Resolving misassigned authfilenumber issues in {}".format(filename)
 		tree = etree.parse(join(ead_dir, filename))
 		rewrite = False
 		for geogname in tree.xpath("//controlaccess/geogname"):
@@ -70,7 +71,7 @@ def a2_and_detroit_authfilenumber_fix(ead_dir):
 def authfilenumber_propagation(ead_dir):
 	text_to_authfilenumber_dict = build_text_to_authfilenumber_dict(ead_dir)
 	apply_authfilenumbers(text_to_authfilenumber_dict, ead_dir)
-	a2_and_detroit_authfilenumber_fix(ead_dir)
+	misassigned_authfilenumber_fixes(ead_dir)
 
 def main():
 	project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
