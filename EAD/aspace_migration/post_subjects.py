@@ -64,7 +64,7 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
         writer = csv.writer(csv_out)
         writer.writerows(subjects_data)
 
-    #s.post("{}/logout".format(aspace_url))
+    s.post("{}/logout".format(aspace_url))
 
 def main():
     aspace_ead_dir = join(ead_dir, 'eads')

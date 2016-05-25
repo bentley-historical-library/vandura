@@ -181,7 +181,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, dspace_x
         writer = csv.writer(f)
         writer.writerows(posted_data)
 
-    #s.post("{}/logout".format(aspace_url))
+    s.post("{}/logout".format(aspace_url))
 
 def main():
     aspace_ead_dir = join(ead_dir, 'eads')
