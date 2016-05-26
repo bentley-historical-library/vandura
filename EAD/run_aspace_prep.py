@@ -28,6 +28,13 @@ def run_aspace_prep(aspace_ead_dir, subjects_agents_dir, beal_classifications, d
 	get_compound_agents(aspace_ead_dir, subjects_agents_dir)
 	get_subjects(aspace_ead_dir, subjects_agents_dir)
 	subject_term_identification(aspace_ead_dir, subjects_agents_dir)
+	unidentified_terms_csv = join(subjects_agents_dir, "unidentified_terms.csv")
+	multiple_type_terms_csv = join(subjects_agents_dir, "multiple_type_terms.csv")
+	if os.path.exists(unidentified_terms_csv) or os.path.exists(multiple_type_terms_csv):
+		print "****** ATTENTION **********"
+		print "There are either unidentified or multiple type terms that need to be resolved and added to their respective CSVs"
+		print "Do that, and then run subject_term_identification again"
+		print "***************************"
 
 def main():
 	aspace_ead_dir = join(ead_dir, 'eads')
