@@ -53,7 +53,8 @@ def apply_authfilenumbers(text_to_authfilenumber_dict, ead_dir):
 def misassigned_authfilenumber_fixes(ead_dir):
 	auth_to_text = {"http://id.loc.gov/authorities/names/n79045539": "Detroit (Mich.)", 
 					"http://id.loc.gov/authorities/names/n79022219": "Ann Arbor (Mich.)",
-					"http://id.loc.gov/authorities/names/n81129560": "Benton Harbor (Mich.)"
+					"http://id.loc.gov/authorities/names/n81129560": "Benton Harbor (Mich.)",
+					"http://id.loc.gov/authorities/names/n00086557": "Willow Run (Mich.)"
 					}
 	filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith(".xml")]
 	for filename in filenames:

@@ -48,7 +48,7 @@ def post_defaults(aspace_url, username, password):
 	'''
 
 	mhc_classification = {'title':'Michigan Historical Collections','identifier':'MHC'}
-	uarp_classification = {'title':'University Archives and Records Program','identifier':'UARP'}
+	uarp_classification = {'title':'University Archives','identifier':'UA'}
 	faculty_classification = {'title':'Faculty Papers', 'identifier':'Faculty'}
 	rcs_classification = {'title':'Records Center Storage','identifier':'RCS'}
 
