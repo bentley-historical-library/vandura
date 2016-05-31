@@ -44,21 +44,27 @@ def convert_ead_to_aspace_json(base_dir, aspace_ead_dir, aspace_url, username, p
         ead.close()
         try:
             response = eadtojson.json()
+            conversion_errors = False
             for result in response:
                 if 'invalid_object' in result and filename not in errors:
-                    errors.append(filename)
-                    with open(ead_to_json_errors,'a') as f:
-                        f.write(filename + '\n')
-                    with open(join(json_error_dir,filename+'.json'),'w') as f:
-                        f.write(json.dumps(response))
-                elif filename not in successes:
-                    successes.append(filename)
-                    with open(join(json_success_dir, filename+'.json'),'w') as f:
-                        f.write(json.dumps(response))
+                    conversion_errors = True
+            if conversion_errors:
+                errors.append(filename)
+                with open(join(json_error_dir,filename+'.json'),'w') as f:
+                    f.write(json.dumps(response))
+            else:
+                successes.append(filename)
+                with open(join(json_success_dir, filename+'.json'),'w') as f:
+                    f.write(json.dumps(response))
+                    
         except:
             print eadtojson.content
             quit()
         time.sleep(2)
+
+    if errors:
+        with open(ead_to_json_errors, "w") as f:
+            f.write("\n".join(errors))
 
     end_time = datetime.now()
 
