@@ -2,7 +2,11 @@ from lxml import etree
 import os
 from os.path import join
 
-special_cases = ['University of Michigan--Dearborn','University of Michigan--Flint','University of Michigan--Dearborn. Department of History','University of Wisconsin--Milwaukee','Lutheran Church--Missouri Synod']
+special_cases = {'University of Michigan--Dearborn':'http://id.loc.gov/authorities/names/n79069136',
+				'University of Michigan--Flint':'http://id.loc.gov/authorities/names/n79128281',
+				'University of Michigan--Dearborn. Department of History':'',
+				'University of Wisconsin--Milwaukee':'http://id.loc.gov/authorities/names/n79046004',
+				'Lutheran Church--Missouri Synod':''}
 
 
 def build_text_to_authfilenumber_dict(ead_dir):
@@ -19,6 +23,8 @@ def build_text_to_authfilenumber_dict(ead_dir):
 					joined = '--'.join(subject_texts[0:2]).rstrip(".")
 					if joined in special_cases:
 						subject_text = joined
+						if special_cases.get(subject_text, ""):
+							subject.attrib['authfilenumber'] = special_cases[subject_text]
 					else:
 						subject_text = subject_texts[0]
 				authfilenumber = subject.attrib['authfilenumber']
