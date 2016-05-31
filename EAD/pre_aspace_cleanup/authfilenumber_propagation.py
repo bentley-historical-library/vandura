@@ -2,6 +2,8 @@ from lxml import etree
 import os
 from os.path import join
 
+from vandura.config import real_masters_all
+
 special_cases = {'University of Michigan--Dearborn':'http://id.loc.gov/authorities/names/n79069136',
 				'University of Michigan--Flint':'http://id.loc.gov/authorities/names/n79128281',
 				'University of Michigan--Dearborn. Department of History':'',
@@ -14,6 +16,7 @@ def build_text_to_authfilenumber_dict(ead_dir):
 	text_to_authfilenumber_dict = {}
 	filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith('.xml')]
 	for filename in filenames:
+		print filename
 		tree = etree.parse(join(ead_dir,filename))
 		for subject in tree.xpath('//controlaccess/*'):
 			if subject.text and 'authfilenumber' in subject.attrib:
@@ -21,7 +24,7 @@ def build_text_to_authfilenumber_dict(ead_dir):
 				if subject.tag in ['corpname','persname','famname'] and '--' in subject_text:
 					subject_texts = subject_text.split('--')
 					joined = '--'.join(subject_texts[0:2]).rstrip(".")
-					if joined in special_cases:
+					if joined in special_cases.keys():
 						subject_text = joined
 						if special_cases.get(subject_text, ""):
 							subject.attrib['authfilenumber'] = special_cases[subject_text]
@@ -45,7 +48,7 @@ def apply_authfilenumbers(text_to_authfilenumber_dict, ead_dir):
 				if subject.tag in ['corpname','persname','famname'] and '--' in subject_text:
 					subject_texts = subject_text.split('--')
 					joined = '--'.join(subject_texts[0:2]).rstrip(".")
-					if joined in special_cases:
+					if joined in special_cases.keys():
 						subject_text = joined
 					else:
 						subject_text = subject_texts[0]
@@ -81,9 +84,7 @@ def authfilenumber_propagation(ead_dir):
 	misassigned_authfilenumber_fixes(ead_dir)
 
 def main():
-	project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-	ead_dir = join(project_dir, "vandura", "Real_Masters_all")
-	authfilenumber_propagation(ead_dir)
+	authfilenumber_propagation(real_masters_all)
 
 if __name__ == "__main__":
 	main()
