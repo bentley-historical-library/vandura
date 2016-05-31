@@ -6,6 +6,7 @@ import csv
 import json
 import requests
 from os.path import join
+from tqdm import tqdm
 
 def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
     print "Posting subjects..."
@@ -27,7 +28,8 @@ def post_subjects(ead_dir, subjects_agents_dir, aspace_url, username, password):
     subjects_data = []
     with open(subjects_csv,'rb') as csvfile:
         reader = csv.reader(csvfile)
-        for row in reader:
+        rows = [row for row in reader]
+        for row in tqdm(rows, desc="Posting subjects..."):
             row_indexes = len(row) - 1
             source = row[1]
             full_text = row[2]

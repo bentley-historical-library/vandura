@@ -14,9 +14,9 @@ from aspace_migration.update_posted_digital_objects import update_posted_digital
 from aspace_migration.find_missing_refs import find_missing_refs
 
 def run_aspace_preliminary_postings(aspace_ead_dir, subjects_agents_dir, digital_objects_dir, json_dir, resources_dir, migration_stats_dir, dspace_mets_dir, dspace_xoai_dir, aspace_url, username, password):
-	post_agents_to_aspace(aspace_ead_dir, subjects_agents_dir, aspace_url, username, password)
-	post_subjects(aspace_ead_dir, subjects_agents_dir, aspace_url, username, password)
-	update_posted_subjects(aspace_ead_dir, subjects_agents_dir)
+	#post_agents_to_aspace(aspace_ead_dir, subjects_agents_dir, aspace_url, username, password)
+	#post_subjects(aspace_ead_dir, subjects_agents_dir, aspace_url, username, password)
+	#update_posted_subjects(aspace_ead_dir, subjects_agents_dir)
 	post_digital_objects(aspace_ead_dir, digital_objects_dir, dspace_mets_dir, dspace_xoai_dir, aspace_url, username, password,delete_csvs=True)
 	update_posted_digital_objects(aspace_ead_dir, digital_objects_dir)
 	add_compound_agent_terms(aspace_ead_dir, subjects_agents_dir)
@@ -36,8 +36,7 @@ def main():
 	migration_stats_dir = join(ead_dir, 'migration_stats')
 	aspace_url, username, password = aspace_credentials()
 	run_aspace_preliminary_postings(aspace_ead_dir, subjects_agents_dir, digital_objects_dir, json_dir, resources_dir, migration_stats_dir, dspace_mets_dir, dspace_xoai_dir, aspace_url, username, password)
-	print "*** RUN WALKER'S UNITDATE_UNITTITLE_FIX SCRIPT ***"
-	print "*** RUN THE RUN_UNITDATE_UNITTITLE_FIX_POST SCRIPT ***"
+	print "*** RUN THE RUN_UNITDATE_UNITTITLE_FIX SCRIPT ***"
 
 if __name__ == "__main__":
 	main()

@@ -157,10 +157,13 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, dspace_x
                         position = 0
                         for bitstream in bitstreams:
                             component_title = bitstream.xpath("./xoai:field[@name='name']", namespaces=ns)[0].text.strip()
-                            if bitstream.xpath("./xoai:field[@name='description']", namespaces=ns):
-                                component_label = bitstream.xpath("./xoai:field[@name='description']", namespaces=ns)[0].text.strip()[:255]
-                            else:
-                                component_label = None
+                            descriptions = bitstream.xpath("./xoai:field[@name='description']", namespaces=ns)
+                            if descriptions:
+                                description = descriptions[0]
+                                if description.text:
+                                    component_label = description.text.strip()[:255]
+                                else:
+                                    component_label = None
 
                             digital_object_components.append(build_digital_object_component(digital_object_uri, component_title, component_label, position))
                             position += 1
