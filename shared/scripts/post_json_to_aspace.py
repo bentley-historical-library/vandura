@@ -47,27 +47,29 @@ def post_json_to_aspace(base_dir, aspace_url, username, password):
         resource.close()
         try:
             response = jsontoresource.json()
+            posting_errors = False
             for result in response:
-                if 'saved' in result and not 'errors' in result:
-                    if filename not in successes:
-                        successes.append(filename)
-                elif 'errors' in result:
-                    if filename not in errors:
-                        errors.append(filename)
-                        with open(json_to_aspace_errors, 'a') as f:
-                            f.write(filename+"\n")
-            if filename in successes:
-                print "{0} posted successfully".format(filename)
-                with open(join(resource_success_dir,filename),'w') as f:
-                    f.write(json.dumps(response))
-            elif filename in errors:
-                print "Error posting {0}".format(filename)
+                if 'errors' in result:
+                    posting_errors = True
+
+            if posting_errors and filename not in errors:
+                print "Error posting {}".format(filename)
+                errors.append(filename)
                 with open(join(resource_error_dir, filename), 'w') as f:
-                    f.write(json.dumps(response))                    
+                    f.write(json.dumps(response))    
+            elif filename not in successes:
+                print "{} posted successfully".format(filename)
+                successes.append(filename)
+                with open(join(resource_success_dir,filename),'w') as f:
+                    f.write(json.dumps(response))                                
         except:
             print jsontoresource.content 
             quit()
         time.sleep(2)
+
+    if errors:
+        with open(json_to_aspace_errors, "w") as f:
+            f.write("\n".join(errors))
 
     end_time = datetime.now()
 
