@@ -28,7 +28,6 @@ def remove_nested_genreforms(ead_dir):
 		if rewrite:
 			with open(join(ead_dir,filename),'w') as ead_out:
 				ead_out.write(etree.tostring(tree,encoding='utf-8',xml_declaration=True,pretty_print=True))
-	print removed_tags
 
 def main():
 	project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

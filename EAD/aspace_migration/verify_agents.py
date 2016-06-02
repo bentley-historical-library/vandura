@@ -18,13 +18,15 @@ def verify_agents(ead_dir, aspace_url, username, password):
 			if ref not in agent_uris:
 				agent_uris.append(ref)
 
+	missing_agents = []
 	for agent_uri in tqdm(agent_uris, desc="verifying agents..."):
 		response = s.head("{}{}".format(aspace_url, agent_uri)).status_code
 		if response != 200:
-			print "{} NOT FOUND".format(agent_uri)
-			quit()
+			missing_agents.append(agent_uri)
 
 	s.post("{}/logout".format(aspace_url))
+
+	return missing_agents
 
 if __name__ == "__main__":
 	aspace_url, username, password = aspace_credentials()
