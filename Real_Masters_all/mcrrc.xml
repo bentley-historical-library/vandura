@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::mcrrc.xml//EN" encodinganalog="Identifier">umich-bhl-87354</eadid>
@@ -18,7 +18,10 @@
       <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
       <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
     </profiledesc>
-    <revisiondesc>
+    <revisiondesc><change>
+        <date>20160530</date>
+        <item>Added box 27.</item>
+      </change>
       <change>
         <date>20150706</date>
         <item>Corrected collection dates.</item>
@@ -32,8 +35,8 @@
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
-      <titleproper>Finding aid for <lb/>Michigan Central Railroad Company records, 1837-1928</titleproper>
-      <author>Finding aid created by <lb/>Catherine Arnott and Karen Mason (1986-1987); <lb/>Thomas E. Powers (1991 accession)</author>
+      <titleproper>Finding aid for <lb/>Michigan Central Railroad Company records, 1837-1990</titleproper>
+      <author>Finding aid created by <lb/>Catherine Arnott and Karen Mason (1986-1987); <lb/>Thomas E. Powers (1991 accession);<lb/>Elena Colon-Marrero (2015 acession);<lb/>Last update: May 2016</author>
     </titlepage>
   </frontmatter>
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
@@ -41,13 +44,19 @@
       <origination>
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n86134555">Michigan Central Railroad Company.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Michigan Central Railroad Company records <unitdate type="inclusive" encodinganalog="245$f" normal="1837/1928">1837-1928</unitdate></unittitle>
+      <unittitle encodinganalog="245">Michigan Central Railroad Company records <unitdate type="inclusive" encodinganalog="245$f" normal="1837/1928">1837-1990</unitdate>
+		
+<unitdate type="bulk" encodinganalog="245$g">
+1837-1928
+</unitdate>		
+		
+		</unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87354 Bb 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
-      <abstract>Letter books, 1883-1921, of company president and general manager (outgoing only); administrative records, including contracts, financial papers, and miscellanea; manuscript and printed agreements between MCR and other railway lines; volumes of letters received, 1846 and 1860 (fragmentary); time books, 1853-1872, detailing hours and wages on the Detroit-Chicago section of the railroad; and miscellaneous scattered correspondence of Alpheus Felch, James F. Joy, and William Woodbridge.</abstract>
+      <abstract> The Michigan Central Railroad Company was originally incorporated to provide rail service between Detroit, Michigan and St. Joseph, Michigan. The records consist of letter books of the company president and general manager, administrative records, financial papers, maps, and photographs. Included is correspondence from Alpheus Felch, James F. Joy, and William Woodbridge. </abstract>
       <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">25.3 linear feet</extent>
-        <extent altrender="carrier">in 26 boxes</extent>
+        <extent altrender="materialtype spaceoccupied">25.7 linear feet</extent>
+        <extent altrender="carrier">in 27 boxes</extent>
       </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
@@ -56,7 +65,7 @@
     </did>
     <descgrp type="admin">
       <acqinfo encodinganalog="541">
-        <p>These records have come from different sources (primarily donor nos. <num type="donor" encodinganalog="541$e">7310</num>, <num type="donor" encodinganalog="541$e">6480</num>, <num type="donor" encodinganalog="541$e">1856</num>, <num type="donor" encodinganalog="541$e">8027</num>, and <num type="donor" encodinganalog="541$e">6901</num>). The largest portion of the collection came from Syracuse University Library (donor no. <num type="donor" encodinganalog="541$e">4454</num>) in 1991.</p>
+        <p>These records have come from different sources (primarily donor nos. <num type="donor" encodinganalog="541$e">7310</num>, <num type="donor" encodinganalog="541$e">6480</num>, <num type="donor" encodinganalog="541$e">1856</num>, <num type="donor" encodinganalog="541$e">8027</num>, <num type="donor" encodinganalog="541$e">6901</num>, and <num type="donor" encodinganalog="541$e">6946</num>). The largest portion of the collection came from Syracuse University Library (donor no. <num type="donor" encodinganalog="541$e">4454</num>) in 1991.</p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The record group is open to research.</p>
@@ -90,7 +99,15 @@
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807">Joy, James F. (James Frederick), 1810-1896.</persname>
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88159841">Woodbridge, William, 1780-1861.</persname>
       </controlaccess>
-    </controlaccess>
+   
+ <controlaccess>
+        <head>Genre Terms:</head>	
+ <subject source="aat" encodinganalog="655">Maps.</subject>			  
+ <subject source="aat" encodinganalog="655">Photographs.</subject>	
+ <subject source="aat" encodinganalog="655">Postcards.</subject>	 
+ <subject source="aat" encodinganalog="655">Scrapbooks.</subject>	 </controlaccess>	
+	
+	 </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
@@ -230,7 +247,7 @@
           <unittitle>Miscellaneous</unittitle>
         </did>
         <scopecontent>
-          <p>The Miscellaneous series includes time books, 1853-1872, recording names of laborers, and hours and wages on the Detroit-Chicago section of the railroad; two scrapbooks containing photographs and article clippings of locomotives and rolling stock, and miscellaneous accounts and receipts.</p>
+          <p>The Miscellaneous series (received from donors nos. 1856 and 6901)  includes time books, 1853-1872, recording names of laborers, and hours and wages on the Detroit-Chicago section of the railroad; scrapbooks containing photographs and article clippings of locomotives and rolling stock, and miscellaneous accounts, receipts, and maps. </p>
         </scopecontent>
         <c02 level="file">
           <did>
@@ -262,24 +279,55 @@
             <container type="box" label="Box">2</container>
             <unittitle>Receipts, miscellaneous accounts, etc. <unitdate type="inclusive" normal="1846/1847">1846-1847</unitdate></unittitle>
           </did>
-        </c02>
-        <c02 level="file">
+        </c02></c01>
+        <c01 level="series">
           <did>
-            <unittitle>Scrapbooks</unittitle>
-          </did>
-          <c03 level="file">
+            <unittitle>Scrapbooks, Photographs and Maps</unittitle></did><scopecontent><p>The Scrapbooks, Photographs and Maps series, 1848-1990, contains images and maps of the railroad, as well as postcards and newspaper articles.</p>  </scopecontent>
+        
+          <c02 level="file">
             <did>
               <container type="box" label="Box">2</container>
-              <unittitle>Locomotives <unitdate type="inclusive" normal="1853/1927">1853-1927</unitdate></unittitle>
+              <unittitle>Locomotives scrapbook, <unitdate type="inclusive" normal="1853/1927">1853-1927</unitdate></unittitle>
             </did>
-          </c03>
-          <c03 level="file">
+          </c02>
+          <c02 level="file">
             <did>
               <container type="box" label="Box">2</container>
-              <unittitle>Rolling Stock <unitdate type="inclusive" normal="1870/1928">1870-1928</unitdate></unittitle>
+              <unittitle>Rolling Stock scrapbook, <unitdate type="inclusive" normal="1870/1928">1870-1928</unitdate></unittitle>
             </did>
-          </c03>
+          
+        </c02><c02 level="file">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Miscellaneous scrapbook, <unitdate type="inclusive" normal="1848/1928">1848-1928</unitdate></unittitle>
+            </did><note><p>(contents; donated by donor no. 6946)</p></note>
+          
         </c02>
+
+
+
+<c02 level="file">
+            <did>
+               
+              <unittitle>Photographs and postcards</unittitle></did><note><p>(Donated by donor no. 6946)</p></note>
+				  
+<c03 level="file">
+            <did>
+              <container type="box" label="Box">27</container><unittitle>Pere Marquette Railroad,<unitdate type="inclusive" normal="1923/1936">1923-1936</unitdate></unittitle>
+            </did></c03>
+<c03 level="file">
+            <did>
+              <container type="box" label="Box">27</container><unittitle>Various subjects,<unitdate type="inclusive" normal="1953/1990"> 1953-1990</unitdate></unittitle>
+            </did></c03> 
+
+
+				         
+        </c02>		
+<c02 level="file">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Maps, <unitdate type="inclusive" normal="1854/1922">1854-1922</unitdate></unittitle>
+            </did><note><p>(Donated by donor no. 6946)</p></note></c02>		    
         <c02 level="file">
           <did>
             <container type="box" label="Box">3</container>
