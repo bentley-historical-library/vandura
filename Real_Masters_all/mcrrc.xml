@@ -18,7 +18,8 @@
       <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
       <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
     </profiledesc>
-    <revisiondesc><change>
+    <revisiondesc>
+      <change>
         <date>20160530</date>
         <item>Added box 27.</item>
       </change>
@@ -46,7 +47,7 @@
       </origination>
       <unittitle encodinganalog="245">Michigan Central Railroad Company records <unitdate type="inclusive" encodinganalog="245$f" normal="1837/1928">1837-1990</unitdate>
 		
-<unitdate type="bulk" encodinganalog="245$g">
+<unitdate type="bulk" encodinganalog="245$g" normal="1837/1928">
 1837-1928
 </unitdate>		
 		
@@ -99,15 +100,14 @@
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807">Joy, James F. (James Frederick), 1810-1896.</persname>
         <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88159841">Woodbridge, William, 1780-1861.</persname>
       </controlaccess>
-   
- <controlaccess>
-        <head>Genre Terms:</head>	
- <subject source="aat" encodinganalog="655">Maps.</subject>			  
- <subject source="aat" encodinganalog="655">Photographs.</subject>	
- <subject source="aat" encodinganalog="655">Postcards.</subject>	 
- <subject source="aat" encodinganalog="655">Scrapbooks.</subject>	 </controlaccess>	
-	
-	 </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <subject source="aat" encodinganalog="655">Maps.</subject>
+        <subject source="aat" encodinganalog="655">Photographs.</subject>
+        <subject source="aat" encodinganalog="655">Postcards.</subject>
+        <subject source="aat" encodinganalog="655">Scrapbooks.</subject>
+      </controlaccess>
+    </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
@@ -279,55 +279,65 @@
             <container type="box" label="Box">2</container>
             <unittitle>Receipts, miscellaneous accounts, etc. <unitdate type="inclusive" normal="1846/1847">1846-1847</unitdate></unittitle>
           </did>
-        </c02></c01>
-        <c01 level="series">
-          <did>
-            <unittitle>Scrapbooks, Photographs and Maps</unittitle></did><scopecontent><p>The Scrapbooks, Photographs and Maps series, 1848-1990, contains images and maps of the railroad, as well as postcards and newspaper articles.</p>  </scopecontent>
-        
-          <c02 level="file">
-            <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Locomotives scrapbook, <unitdate type="inclusive" normal="1853/1927">1853-1927</unitdate></unittitle>
-            </did>
-          </c02>
-          <c02 level="file">
-            <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Rolling Stock scrapbook, <unitdate type="inclusive" normal="1870/1928">1870-1928</unitdate></unittitle>
-            </did>
-          
-        </c02><c02 level="file">
-            <did>
-              <container type="box" label="Box">27</container>
-              <unittitle>Miscellaneous scrapbook, <unitdate type="inclusive" normal="1848/1928">1848-1928</unitdate></unittitle>
-            </did><note><p>(contents; donated by donor no. 6946)</p></note>
-          
         </c02>
-
-
-
-<c02 level="file">
-            <did>
-               
-              <unittitle>Photographs and postcards</unittitle></did><note><p>(Donated by donor no. 6946)</p></note>
-				  
-<c03 level="file">
-            <did>
-              <container type="box" label="Box">27</container><unittitle>Pere Marquette Railroad,<unitdate type="inclusive" normal="1923/1936">1923-1936</unitdate></unittitle>
-            </did></c03>
-<c03 level="file">
-            <did>
-              <container type="box" label="Box">27</container><unittitle>Various subjects,<unitdate type="inclusive" normal="1953/1990"> 1953-1990</unitdate></unittitle>
-            </did></c03> 
-
-
-				         
-        </c02>		
-<c02 level="file">
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Scrapbooks, Photographs and Maps</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Scrapbooks, Photographs and Maps series, 1848-1990, contains images and maps of the railroad, as well as postcards and newspaper articles.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Locomotives scrapbook, <unitdate type="inclusive" normal="1853/1927">1853-1927</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Rolling Stock scrapbook, <unitdate type="inclusive" normal="1870/1928">1870-1928</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">27</container>
+            <unittitle>Miscellaneous scrapbook, <unitdate type="inclusive" normal="1848/1928">1848-1928</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(contents; donated by donor no. 6946)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Photographs and postcards</unittitle>
+          </did>
+          <odd>
+            <p>(Donated by donor no. 6946)</p>
+          </odd>
+          <c03 level="file">
             <did>
               <container type="box" label="Box">27</container>
-              <unittitle>Maps, <unitdate type="inclusive" normal="1854/1922">1854-1922</unitdate></unittitle>
-            </did><note><p>(Donated by donor no. 6946)</p></note></c02>		    
+              <unittitle>Pere Marquette Railroad,<unitdate type="inclusive" normal="1923/1936">1923-1936</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Various subjects,<unitdate type="inclusive" normal="1953/1990"> 1953-1990</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">27</container>
+            <unittitle>Maps, <unitdate type="inclusive" normal="1854/1922">1854-1922</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(Donated by donor no. 6946)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box">3</container>
