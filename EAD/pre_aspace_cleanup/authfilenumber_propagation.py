@@ -16,7 +16,7 @@ def build_text_to_authfilenumber_dict(ead_dir):
 	text_to_authfilenumber_dict = {}
 	filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith('.xml')]
 	for filename in filenames:
-		print filename
+		print "Building text to authfilenumber dict from {}".format(filename)
 		tree = etree.parse(join(ead_dir,filename))
 		for subject in tree.xpath('//controlaccess/*'):
 			if subject.text and 'authfilenumber' in subject.attrib:
