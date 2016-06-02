@@ -18,7 +18,10 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
     <revisiondesc>
-      <change>
+        <change>
+        <date>2016-06-01</date>
+        <item>Added digitized audio cassettes.</item>
+      </change><change>
         <date>2014-07-31</date>
         <item>Changes made with the addition of new material.</item>
       </change>
@@ -63,7 +66,10 @@
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">13.5 linear feet</extent>
       </physdesc>
-      <repository>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied"> GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc><repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -80,7 +86,13 @@
       </userestrict>
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Migrant Health Promotion records, Bentley Historical Library, University of Michigan</p>
-      </prefercite>
+      </prefercite><altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a
+          number of sound recordings within this collection. The resulting audio files are available
+          for playback only in the Bentley Library Reading Room. Links to item images and additional
+          information are available within this finding aid. Original sound recordings are only
+          available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>The Migrant Health Promotion (formerly known as the Midwest Migrant Health Information Office, or MMHIO) was established in 1983 as an initiative of the National Migrant Worker Council, Inc. Its aim was to improve the health and living conditions of migrant farmworkers in a six state area encompassing the upper Midwest. All of the programs of the Migrant Health Promotion are directed toward reducing the cultural, language, and transportation barriers preventing migrant farmworkers from having access to health care services, and beyond that, to increasing the participation of migrant families in their own health care.</p>
@@ -2539,18 +2551,14 @@
             <genreform normal="Sound recordings">Sound Recordings</genreform>
           </unittitle>
         </did>
-        <scopecontent>
+        <accessrestrict>
+          <p>[Digitized audio files are currently available only  in the Bentley Historical Library reading
+            room on designated Bentley Library computers.]</p>
+        </accessrestrict><scopecontent>
           <p>The Sound Recordings series contains one audiocassette, which is a recording of a radio interview with Alejandra Gonzales.</p>
         </scopecontent>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">13</container>
-            <unittitle>Radio Interview with Alejandra Gonzales (NPR-All Things Considered CHAP-Farmworkers-Mental Health) <unitdate type="inclusive" normal="2001-08">8/2001</unitdate></unittitle>
-            <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">1 audiocassettes</extent>
-            </physdesc>
-          </did>
-        </c02>
+<c02 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">13</container><unittitle>Interview with Alejandra Gonzales, <unitdate type="inclusive">2001 August</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c03 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[93812-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_9gu52zuq" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Radio Interview with Alejandra Gonzales on NPR's All Things Considered CHAP-Farmworkers-Mental Health.)</abstract></did></c03></c02>
+        
       </c01>
     </dsc>
   </archdesc>
