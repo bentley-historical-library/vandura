@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::leithem.xml//EN" encodinganalog="Identifier">umich-bhl-00105</eadid>
@@ -18,7 +18,10 @@
       <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
       <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
     </profiledesc>
-    <revisiondesc>
+    <revisiondesc> <change>
+        <date>2016-05-26</date>
+        <item>Added 2016 accession; corrected misspellings</item>
+      </change>
       <change>
         <date>2007-05-18</date>
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
@@ -51,7 +54,7 @@
     </did>
     <descgrp type="admin">
       <acqinfo encodinganalog="541">
-        <p>The first accession came from the Emmett Leith in June 2000 (Donor # <num type="donor" encodinganalog="541$e">8969</num>). The second accession came from the University of Michigan Department of Electrical Engineering and Computer Science in August 2006.</p>
+        <p>The first accession came from the Emmett Leith in June 2000 (Donor no.  <num type="donor" encodinganalog="541$e">8969</num>) in June 2000. Subsequent accessions came from the University of Michigan Department of Electrical Engineering and Computer Science (Donor no. <num type="donor" encodinganalog="541$e">6717</num>)  in August 2006.</p>
       </acqinfo>
       <accruals encodinganalog="584">
         <p>Periodic additions to the records expected.</p>
@@ -72,7 +75,7 @@
       <p>Leith became an Associate Professor of Electrical Engineering in 1963, a full professor in 1966, and the Schlumberger Professor of Engineering in 1981. He was well regarded by his students as an excellent teacher with a profound love for the subjects he taught and dedication to his students. Leith died on December 23, 2005, at the age of 78, just before his retirement was to become effective at the end of the year.</p>
     </bioghist>
     <scopecontent encodinganalog="520">
-      <p>The Bentley Historical Library received the materials in this collection through two accessions. The first came from Emmett Leith himself in 2000. The second came from the University of Michigan, Department of Electrical Engineering and Computer Science in 2006. The collection is comprised of five series: Background; Articles, 1959-2006; Teaching, 1966-2004; Research; and George Stroke. The materials were received with very little apparent order. Consequently, the series and subseries are artificial with the exception of the Articles Series which, for the most part, was well organized.</p>
+      <p>The Bentley Historical Library received the materials in this collection in three accessions. The first came from Emmett Leith himself in 2000. Tthe second and third accessions came from the University of Michigan, Department of Electrical Engineering and Computer Science in 2006 and 2016. The collection is comprised of five series: Background; Articles, 1959-2006; Teaching, 1966-2004; Research; and George Stroke. The materials were received with very little apparent order. Consequently, the series and subseries are artificial with the exception of the Articles Series which, for the most part, was well organized.</p>
     </scopecontent>
     <controlaccess>
       <p>
@@ -103,8 +106,14 @@
           <unittitle>Background</unittitle>
         </did>
         <scopecontent>
-          <p>The Background series (1 linear foot) contains materials that are descriptive of Leith and his career, including his CV. Notable in the series is a scrapbook containing newspaper articles in which Leith is mentioned. Many of the articles were printed around the time when Leith's advances in holography were becoming known to the public. This series contains photographs of Leith with various individuals, including some of Leith early in his career. Also included in this series is a recount by Upatnieks of his work with Leith in holography.</p>
+          <p>The Background series (1 linear foot) contains materials that are descriptive of Leith and his career, including his CV and diplomas. Notable in the series is a scrapbook containing newspaper articles in which Leith is mentioned. Many of the articles were printed around the time when Leith's advances in holography were becoming known to the public. The series contains photographs of Leith with various individuals. Also included in this series is a recount by Upatnieks of his work with Leith in holography.</p>
         </scopecontent>
+<c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Diplomas</unittitle>
+          </did>
+        </c02>		  
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
@@ -117,6 +126,12 @@
             <unittitle>"Development of Holography: from November 1962 to January 1965" by Juris Upatnieks <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
           </did>
         </c02>
+<c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>National Medal of Science</unittitle>
+          </did>
+        </c02>		  
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
@@ -125,7 +140,18 @@
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
+        </c02><c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Photographs, <unitdate type="inclusive" normal="1978">1978</unitdate>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+          </did>
         </c02>
+<c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Press Release Kit, <unitdate type="inclusive" normal="12-1963">December 1963</unitdate></unittitle>
+          </did>
+        </c02>		  
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
@@ -135,7 +161,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
-            <unittitle>Photographs</unittitle>
+            <unittitle>Unidentified Photographs</unittitle>
           </did>
         </c02>
       </c01>
@@ -305,7 +331,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">4</container>
-              <unittitle>[Best, D.C. and E. N. Leith, "An Optical Technique for Simultaneous Beamforming and Cross-Correlation"] <unitdate type="inclusive">undated</unitdate> <unitdate normal="1954/1972" type="inclusive" certainty="approximate">ca. 1954-1972</unitdate></unittitle>
+              <unittitle>[Best, D.C. and E. N. Leith, "An Optical Technique for Simultaneous Beamforming and Cross-Correlation"] <unitdate type="inclusive">undated</unitdate> (<unitdate normal="1954/1972" type="inclusive" certainty="approximate">ca. 1954-1972</unitdate>)</unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -689,6 +715,12 @@
               <unittitle>Papers to be Given <unitdate type="inclusive" normal="1954/1972" certainty="approximate">circa 1954-1972</unitdate></unittitle>
             </did>
           </c03>
+<c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Patent Files, <unitdate type="inclusive" normal="1969/1978">1969-1978</unitdate></unittitle><physdesc><extent>4 folders</extent></physdesc>
+            </did>
+          </c03>			 
           <c03 level="file">
             <did>
               <container type="box" label="Box">7</container>
@@ -1066,6 +1098,12 @@
               <unittitle>Optical Data Process[ing], Part II <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
             </did>
           </c03>
+ <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Transmission Holograms</unittitle>
+            </did>
+          </c03>			 
         </c02>
         <c02 level="subseries">
           <did>

@@ -22,22 +22,22 @@ from pre_aspace_cleanup.wrap_unwrapped_unitdates import wrap_unwrapped_unitdates
 from vandura.shared.utilities.ead_cleanup.prettifydirectory import prettify_xml_in_directory
 
 def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir, dspace_xoai_dir):
-	fix_collection_level_unittitle_commas(ead_dir)
-	wrap_unwrapped_unitdates(ead_dir)
-	normalize_dates(ead_dir)
-	authfilenumber_urls_to_uris(ead_dir)
-	authfilenumber_propagation(ead_dir)
+	#fix_collection_level_unittitle_commas(ead_dir)
+	#wrap_unwrapped_unitdates(ead_dir)
+	#normalize_dates(ead_dir)
+	#authfilenumber_urls_to_uris(ead_dir)
+	#authfilenumber_propagation(ead_dir)
 	#fetch_dspace_mets(ead_dir, dspace_mets_dir)
-	#fetch_dspace_xoai(ead_dir, dspace_mets_dir, dspace_xoai_dir)
-	note_to_odd(ead_dir)
-	move_odds(ead_dir)
-	remove_unitdates_from_ps(ead_dir)
-	move_daos(ead_dir)
-	remove_and_between_dates(ead_dir)
-	remove_extent_parens(ead_dir)
-	remove_expired_restrictions(ead_dir)
-	remove_nested_genreforms(ead_dir)
-	prettify_xml_in_directory(ead_dir, ead_dir)
+	fetch_dspace_xoai(ead_dir, dspace_mets_dir, dspace_xoai_dir)
+	#note_to_odd(ead_dir)
+	#move_odds(ead_dir)
+	#remove_unitdates_from_ps(ead_dir)
+	#move_daos(ead_dir)
+	#remove_and_between_dates(ead_dir)
+	#remove_extent_parens(ead_dir)
+	#remove_expired_restrictions(ead_dir)
+	#remove_nested_genreforms(ead_dir)
+	#prettify_xml_in_directory(ead_dir, ead_dir)
 	print "*** RUN WALKER'S EXTENT NORMALIZATION SCRIPT ***"
 	print "*** COPY THE MASTER FILES TO THE LOCAL EAD DIR"
 
