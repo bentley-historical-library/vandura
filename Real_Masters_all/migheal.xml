@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::migheal.xml//EN" encodinganalog="Identifier">umich-bhl-93812</eadid>
@@ -18,11 +18,10 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
     <revisiondesc>
-      <change>
+        <change>
         <date>2016-06-01</date>
         <item>Added digitized audio cassettes.</item>
-      </change>
-      <change>
+      </change><change>
         <date>2014-07-31</date>
         <item>Changes made with the addition of new material.</item>
       </change>
@@ -68,10 +67,9 @@
         <extent altrender="materialtype spaceoccupied">13.5 linear feet</extent>
       </physdesc>
       <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">500 MB</extent>
+        <extent altrender="materialtype spaceoccupied"> 571 MB</extent>
         <physfacet>online</physfacet>
-      </physdesc>
-      <repository>
+      </physdesc><repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -88,8 +86,7 @@
       </userestrict>
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Migrant Health Promotion records, Bentley Historical Library, University of Michigan</p>
-      </prefercite>
-      <altformavail>
+      </prefercite><altformavail>
         <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a
           number of sound recordings within this collection. The resulting audio files are available
           for playback only in the Bentley Library Reading Room. Links to item images and additional
@@ -2557,35 +2554,11 @@
         <accessrestrict>
           <p>[Digitized audio files are currently available only  in the Bentley Historical Library reading
             room on designated Bentley Library computers.]</p>
-        </accessrestrict>
-        <scopecontent>
+        </accessrestrict><scopecontent>
           <p>The Sound Recordings series contains one audiocassette, which is a recording of a radio interview with Alejandra Gonzales.</p>
         </scopecontent>
-        <c02 level="otherlevel" otherlevel="item-main">
-          <did>
-            <container type="box" label="Box">13</container>
-            <unittitle>Interview with Alejandra Gonzales, <unitdate type="inclusive">2001 August</unitdate></unittitle>
-            <physdesc>
-              <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
-            </physdesc>
-          </did>
-          <c03 level="otherlevel" otherlevel="item-part">
-            <did>
-              <physloc>Online</physloc>
-              <unittitle>[Side 1; no Side 2]</unittitle>
-              <unitid>[93812-SR-1-1]</unitid>
-              <physdesc>
-                <physfacet>mp3 file</physfacet>
-              </physdesc>
-              <dao href="https://bentley.mivideo.it.umich.edu/media/1_9gu52zuq" show="new" actuate="onrequest">
-                <daodesc>
-                  <p>[access item]</p>
-                </daodesc>
-              </dao>
-              <abstract>(Radio Interview with Alejandra Gonzales on NPR's All Things Considered CHAP-Farmworkers-Mental Health.)</abstract>
-            </did>
-          </c03>
-        </c02>
+<c02 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">13</container><unittitle>Interview with Alejandra Gonzales, <unitdate type="inclusive">2001 August</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c03 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[93812-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_9gu52zuq" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Radio Interview with Alejandra Gonzales on NPR's All Things Considered CHAP-Farmworkers-Mental Health.)</abstract></did></c03></c02>
+        
       </c01>
     </dsc>
   </archdesc>
