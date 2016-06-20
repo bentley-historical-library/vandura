@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::englerj.xml//EN" encodinganalog="identifier">umich-bhl-0434</eadid>
@@ -18,7 +18,10 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
     <revisiondesc>
-      <change>
+        <change>
+        <date>2016-06-15</date>
+        <item>Added digitized audio cassettes.</item>
+      </change><change>
         <date>20150819</date>
         <item>Corrected container listing.</item>
       </change>
@@ -50,7 +53,11 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
       </physdesc>
-      <repository>
+        <physdesc altrender="part">
+        
+        <extent altrender="materialtype spaceoccupied">1/25  GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc><repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -60,7 +67,8 @@
         <p>This collection was the gift of Governor John Engler and came to the library in January, 2003. Donor no. <num type="donor" encodinganalog="541$e">9332</num>. Digital website records were captured using Teleport Pro 1.29 by Bentley Library staff on December 10, 2001. Digital images of presentation materials made by Bentley Library staff, February, 2004.</p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
-        <p>The collection is open to research. For some portions of the collection, original tapes are restricted and researchers are required to use DVDs.</p>
+        <p>The collection is open to research. For some portions of the collection, original tapes are restricted and researchers are required to use DVDs.  Digitized audio files are currently available only  in the Bentley Historical Library reading
+            room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>The donor retains his literary rights until January 10, 2010</p>
@@ -68,7 +76,14 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, John Engler Papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
-    </descgrp>
+     <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a
+          number of sound recordings within this collection. The resulting audio files are available
+          for playback only in the Bentley Library Reading Room. Links to item images and additional
+          information are available within this finding aid. Original sound recordings are only
+          available for staff use.</p>
+      </altformavail>
+</descgrp>
     <bioghist encodinganalog="545">
       <p>When John Engler became Michigan's governor in 1991, he brought with him a classically conservative vision of a smaller, more efficient government, and of a state where taxes were lower, individual initiative was rewarded and business and opportunity could thrive. As Michigan's governor during the boom years of the 1990's, Engler led the state during a period of uncommon prosperity between 1991 and 2002. At the beginning of his tenure, however, Michigan's economy was less than ideal.</p>
       <p>After defeating incumbent James Blanchard in 1990 in an upset election, Engler inherited a $1.8 billion deficit. He embarked on an effort to cut spending and taxes, and reorganized the government. His first term spending cuts were painful and controversial, and included cuts in welfare for childless adults, state mental-health facilities, and arts programs. In the aftermath, Engler was widely viewed as a cold-hearted bureaucrat who was more concerned with balancing budgets than with the pain and suffering of poor people. But as it turned out, Michigan was on the vanguard of a national movement to change welfare, putting more focus on work. By the time Engler sought re-election in 1994, none of the three Democrats seeking the nomination proposed a return to the General Assistance Program.</p>
@@ -9399,25 +9414,25 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">61</container>
-                    <unittitle>Statewide opinion poll Michigan, Prepared for Michigan Governor's Club <unitdate normal="1991-11" type="inclusive">November, 1991</unitdate></unittitle>
+                    <unittitle>Statewide opinion poll Michigan, Prepared for Michigan Governor's Club <unitdate normal="1991-11">November, 1991</unitdate></unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">61</container>
-                    <unittitle>Michigan Statewide Survey. Prepared for: The Governor's Club <unitdate normal="1993-06-21/1993-06-23" type="inclusive">June 21-23, 1993</unitdate></unittitle>
+                    <unittitle>Michigan Statewide Survey. Prepared for: The Governor's Club <unitdate normal="1993-06-21/1993-06-23">June 21-23, 1993</unitdate></unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">61</container>
-                    <unittitle>Michigan Statewide Survey. Prepared for: The Michigan All Star Team for School and Tax Reform <unitdate normal="1993-06-21/1993-06-23" type="inclusive">June 21-23, 1993</unitdate></unittitle>
+                    <unittitle>Michigan Statewide Survey. Prepared for: The Michigan All Star Team for School and Tax Reform <unitdate normal="1993-06-21/1993-06-23">June 21-23, 1993</unitdate></unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">61</container>
-                    <unittitle>Michigan statewide survey. Prepared for Michigan Republican Party <unitdate normal="1995-04-18" type="inclusive">April 18, 1995</unitdate></unittitle>
+                    <unittitle>Michigan statewide survey. Prepared for Michigan Republican Party <unitdate normal="1995-04-18">April 18, 1995</unitdate></unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
@@ -9432,19 +9447,19 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">62</container>
-                    <unittitle>A poll of registered voters in Michigan. Preliminary report prepared for Michigan Republican State Committee <unitdate normal="1996-04-30" type="inclusive">April 30, 1996</unitdate></unittitle>
+                    <unittitle>A poll of registered voters in Michigan. Preliminary report prepared for Michigan Republican State Committee <unitdate normal="1996-04-30">April 30, 1996</unitdate></unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">62</container>
-                    <unittitle>The Elephant Looks in the Mirror: A Critical Look at the Face of Today's Grand Old Party. National Republican Leadership Briefing <unitdate normal="1997-02-25" type="inclusive">February 25, 1997</unitdate>. Fabrizio, McLaughlin &amp; Associates, Inc., Alexandria, Virginia.</unittitle>
+                    <unittitle>The Elephant Looks in the Mirror: A Critical Look at the Face of Today's Grand Old Party. National Republican Leadership Briefing <unitdate normal="1997-02-25">February 25, 1997</unitdate>. Fabrizio, McLaughlin &amp; Associates, Inc., Alexandria, Virginia.</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">62</container>
-                    <unittitle>A poll of registered voters in the state of Michigan. Report prepared for John Engler for Governor <unitdate normal="1997-05-01" type="inclusive">May 1, 1997</unitdate></unittitle>
+                    <unittitle>A poll of registered voters in the state of Michigan. Report prepared for John Engler for Governor <unitdate normal="1997-05-01">May 1, 1997</unitdate></unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
@@ -9456,13 +9471,13 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">62</container>
-                    <unittitle>A poll of registered voters in the state of Michigan. Report prepared for Michigan Republican Party <unitdate normal="1997-10-29" type="inclusive">October 29, 1997</unitdate>. Volume 2</unittitle>
+                    <unittitle>A poll of registered voters in the state of Michigan. Report prepared for Michigan Republican Party <unitdate normal="1997-10-29">October 29, 1997</unitdate>. Volume 2</unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">62</container>
-                    <unittitle>A poll of likely voters in the state of Michigan: Governor's Committee <unitdate normal="1999-11-11" type="inclusive">November 11, 1999</unitdate></unittitle>
+                    <unittitle>A poll of likely voters in the state of Michigan: Governor's Committee <unitdate normal="1999-11-11">November 11, 1999</unitdate></unittitle>
                   </did>
                 </c06>
               </c05>
@@ -9640,7 +9655,7 @@
               </did>
             </c04>
           </c03>
-          <c03 level="subseries">
+          <c03 level="file">
             <did>
               <unittitle>Career history <unitdate type="inclusive" normal="1990/2002">1990-2002</unitdate></unittitle>
               <physdesc altrender="whole">
@@ -41431,34 +41446,17 @@
                 <physfacet>reel-to-reel tapes</physfacet>
               </physdesc>
             </did>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">165</container>
-                <unittitle>Engler Election Spots <unitdate type="inclusive">undated</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">165</container>
-                <unittitle>Governor's Insurance Veto</unittitle>
-              </did>
-              <odd>
-                <p>(Audio only)</p>
-              </odd>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">165</container>
-                <unittitle>Radio Spots <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">165</container>
-                <unittitle>GOP Hotline: Sens. John Toepp (Cadillac) and Jack Welborn (Kalamazoo) comment on the Senate's override of the Governor's veto of the administrative rules bill <unitdate type="inclusive" normal="1977-09-20">September 20, 1977</unitdate></unittitle>
-              </did>
-            </c04>
-          </c03>
+            
+            
+            
+            
+          <accessrestrict>
+          <p>[Digitized audio files are currently available only  in the Bentley Historical Library reading
+            room on designated Bentley Library computers.]</p>
+        </accessrestrict><c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">165</container><unittitle>Engler Election Spots, <unitdate type="inclusive">[Undated]</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 5 inch, 7 1/2 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[0434-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_vjtajszl" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(13 John Engler State Senate commercial spots from the Engler Election Committee.)</abstract></did></c05></c04>
+<c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">165</container><unittitle>Governor's Insurance Veto  , <unitdate type="inclusive">[Undated]</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 5 inch, 15 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[0434-SR-2-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_j7pwiv5h" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Recording of John Engler discussing his Insurance Veto)</abstract></did></c05></c04>
+<c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">165</container><unittitle>Radio Spots, <unitdate type="inclusive">1974</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 5 inch, 7 1/2 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[0434-SR-3-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_9dlmgehj" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Jim Dickinson election spots during campaign against John Engler.)</abstract></did></c05></c04>
+<c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">165</container><unittitle>GOP Hotline: Senators John Toepp (Cadillac) and Jack Welborn (Kalamazoo) comment on the Senate's override of the Governor's veto of the administrative rules bill, <unitdate type="inclusive">1977 September 20</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 5 inch, 7 1/2 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[0434-SR-4-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_s4rnsmhl" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Tape of GOP Hotline number commenting on Governor's veto of the administrative rules bill.)</abstract></did></c05></c04></c03>
           <c03 level="subseries">
             <did>
               <unittitle>Slides</unittitle>
@@ -65113,15 +65111,7 @@
                 </physdesc>
               </did>
             </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">314</container>
-                <unittitle>Governor Engler Kept his Word, H. Jackson Brown, Jr. and Mike Myers <unitdate type="inclusive" normal="1994-04-11">April 11, 1994</unitdate></unittitle>
-                <physdesc>
-                  <physfacet>Reel-to-reel tape</physfacet>
-                </physdesc>
-              </did>
-            </c04>
+            <c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">314</container><unittitle>"Governor Engler Kept His Word", H. Jackson Brown, Jr. and Mike Myers, <unitdate type="inclusive">1994 April 11</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 15</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[0434-SR-5-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_l4ztzdwv" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Three versions of John Engler 1994 campaign song "Governor Engler Kept his Word.")</abstract></did></c05></c04>
           </c03>
         </c02>
         <c02 level="series">
@@ -66631,7 +66621,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">395</container>
-                <unittitle>Great Lakes Sea Lamprey Control (Background Letters from 1994-1997) <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+                <unittitle>Great Lakes Sea Lamprey Control (Background Letters from <unitdate normal="1994/1997" type="inclusive">1994-1997</unitdate>) <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -78360,7 +78350,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">432</container>
-                <unittitle>Clippings on Transportation Finance and 1997 Gas Tax increases, <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
+                <unittitle>Clippings on Transportation Finance and <unitdate type="inclusive" normal="1997">1997</unitdate> Gas Tax increases, <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -78597,7 +78587,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">1</container>
-                <unittitle><unitdate normal="1995" type="inclusive">1995</unitdate> Inaugural</unittitle>
+                <unittitle><unitdate normal="1995">1995</unitdate> Inaugural</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">22 floppy disks</extent>
                   <physfacet>3.5"</physfacet>
