@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::interloc.xml//EN" encodinganalog="identifier">umich-bhl-851981</eadid>
@@ -18,7 +18,10 @@
       <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
     </profiledesc>
     <revisiondesc>
-      <change>
+       <change>
+        <date>2016-06-01</date>
+        <item>Added digitized audio cassettes.</item>
+      </change><change>
         <date>20150908</date>
         <item>Corrected collection dates.</item>
       </change>
@@ -48,7 +51,7 @@
       <origination>
         <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n98020761">Interlochen Center for the Arts.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Interlochen Center for The Arts records <unitdate type="inclusive" encodinganalog="245$f" normal="1927/2005">1927-2005</unitdate> <unitdate type="bulk" encodinganalog="245$g" normal="1935/1994">1935-1994</unitdate></unittitle>
+      <unittitle encodinganalog="245">Interlochen Center for The Arts records <unitdate type="inclusive" encodinganalog="245$f" normal="1927/2005">1927-2005</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1935/1994">1935-1994</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851981 BImu Bimu C367 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Parent organization of the Interlochen Arts Academy and the Interlochen Arts Camp (formerly the National Music Camp) founded by Joseph Maddy. Includes administrative records of the Center, the Academy and the Camp and personal papers of Maddy, photographs, sound recordings, and motion pictures.</abstract>
@@ -67,25 +70,38 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
       </physdesc>
-      <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
+       
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied"> 21.2 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
+<physloc>Portions located in offsite storage; prior notification required for access.</physloc>
     </did>
     <descgrp type="admin">
       <acqinfo encodinganalog="541">
         <p>The bulk of this record group came from the National Music Camp/Interlochen Center for the Arts (donor no. <num type="donor" encodinganalog="541$e">1754</num>) beginning in 1942. Periodic additions have been received and are expected. Separate accessions have been received from the C. M. Tremaine family (donor no. <num type="donor" encodinganalog="541$e">5550</num>) and others (donor nos. <num type="donor" encodinganalog="541$e">6669</num>, and <num type="donor" encodinganalog="541$e">7769</num>).</p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
-        <p>The collection is open to research.</p>
+        <p>The collection is open to research. Digitized audio files are currently available only  in the Bentley Historical Library reading
+            room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright for the bulk of the record group remains with the Interlochen Center for the Arts. Copyright to those materials received from the C. M. Tremaine family and from Sheryl Szady has been transferred to the Regents of the University of Michigan.</p>
       </userestrict>
-      <processinfo>
-        <p>During processing of the 2005 accession significant changes were made to the organization of the finding aid. Some new material was physically interfiled in existing series or subseries in the appropriate box. In other cases, additions to a series or subseries has been placed in a new box. This finding aid reflects the intellectual arrangement of the collection with the result that in the detailed container listing box numbers are not always consecutive.</p>
-      </processinfo>
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Interlochen Center for The Arts Records, Bentley Historical Library, University of Michigan</p>
-      </prefercite>
-    </descgrp>
+      </prefercite><processinfo>
+        <p>During processing of the 2005 accession significant changes were made to the organization of the finding aid. Some new material was physically interfiled in existing series or subseries in the appropriate box. In other cases, additions to a series or subseries has been placed in a new box. This finding aid reflects the intellectual arrangement of the collection with the result that in the detailed container listing box numbers are not always consecutive.</p>
+      </processinfo>
+      
+       <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a
+          number of sound recordings within this collection. The resulting audio files are available
+          for playback only in the Bentley Library Reading Room. Links to item images and additional
+          information are available within this finding aid. Original sound recordings are only
+          available for staff use.</p>
+      </altformavail>
+</descgrp>
     <bioghist encodinganalog="545">
       <p>Joseph Maddy, Interlochen's founder and long-time leader, was born in Wellington, Kansas, on October 21, 1891. Both his parents were educators. His father taught before becoming a banker, and his mother served as county school superintendent. Both also enjoyed performing music, especially his mother, an accomplished amateur musician. Their first son, Harry, a year and a half older, served as a role model in Joe's early musical career.</p>
       <p>As youths, the two brothers joined the newly formed Wellington Boys Band. Its director took the group on a musical camping trip, which Joe greatly enjoyed. Later, the boys graduated to the town band. They also performed in the family quartet, which was expanded during their early teens when another talented musical family, the Petits, moved to town. The Petits' youngest daughter, Fay, who years later eventually became Mrs. Joseph Maddy, and the two families spent part of a summer playing music while camping together.</p>
@@ -388,7 +404,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">1</container>
-                  <unittitle>High school yearbooks, <unitdate type="inclusive" normal="1921">1921</unitdate> <unitdate type="inclusive" normal="1922">1922</unitdate></unittitle>
+                  <unittitle>High school yearbooks, 1921 and <unitdate type="inclusive" normal="1922">1922</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
@@ -10857,7 +10873,7 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">33</container>
-                    <unittitle>U.S.I.A., <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate> <unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate></unittitle>
+                    <unittitle>U.S.I.A., 1954-55 and <unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate></unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
@@ -13835,7 +13851,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">44</container>
-                <unittitle>Roster of Campers, <unitdate type="inclusive" normal="1933/1966">1933-1966</unitdate> <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate></unittitle>
+                <unittitle>Roster of Campers, 1933-66 and <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate></unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
@@ -17301,7 +17317,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">50</container>
-                  <unittitle>General (Marshall, Edwin) <unitdate normal="1973/1975" type="inclusive">1973-1975</unitdate></unittitle>
+                  <unittitle>General (Marshall, Edwin, <unitdate normal="1973/1975" type="inclusive">1973-1975</unitdate>)</unittitle>
                 </did>
               </c05>
               <c05 level="file">
@@ -18293,7 +18309,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">53</container>
-                  <unittitle>Music, <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate> <unitdate type="inclusive" normal="1979/1989">1979-1989</unitdate></unittitle>
+                  <unittitle>Music, 1974-76 and <unitdate type="inclusive" normal="1979/1989">1979-1989</unitdate></unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
                   </physdesc>
@@ -21314,7 +21330,7 @@
                 <c06 level="file">
                   <did>
                     <container type="box" label="Box">82</container>
-                    <unittitle><title render="italic">Scherzo</title>, <unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate>, <unitdate type="inclusive" normal="1966">1966</unitdate>, <unitdate type="inclusive" normal="1969/1976">1969-1976</unitdate><unitdate type="inclusive" normal="1979/1982">1979-1982</unitdate><unitdate type="inclusive" normal="1986/1990">1986-1990</unitdate></unittitle>
+                    <unittitle><title render="italic">Scherzo</title>, <unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate>, <unitdate type="inclusive" normal="1966">1966</unitdate>, <unitdate type="inclusive" normal="1969/1976">1969-1976</unitdate> 19791982 and <unitdate type="inclusive" normal="1986/1990">1986-1990</unitdate></unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
@@ -21556,7 +21572,7 @@
             <c04 level="file">
               <did>
                 <container type="box" label="Box">71</container>
-                <unittitle>Programs (for student and faculty performances) <unitdate type="inclusive" normal="1962/1977">1962-1977</unitdate> <unitdate type="inclusive" normal="1981/1986">1981-86</unitdate> <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate></unittitle>
+                <unittitle>Programs (for student and faculty performances) <unitdate type="inclusive" normal="1962/1977">1962-1977</unitdate> 1981-86, and <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
@@ -25299,7 +25315,8 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">75</container>
-              <unittitle>Appearances, State High School groups, including Michigan <unitdate type="inclusive" normal="1924/1955">1924-1955</unitdate> </unittitle>
+              <unittitle>Appearances, State High School groups, including Michigan</unittitle>
+              <unitdate type="inclusive" normal="1924/1955">1924-1955</unitdate>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">16 prints</extent>
               </physdesc>
@@ -27150,7 +27167,7 @@
         <scopecontent>
           <p>Motion Picture Films, circa 1930-1938, consist of 16 millimeter silent footage, both prints and negatives, probably taken by Maddy. A name index at the beginning of each portion will help guide researchers. With two exceptions (a Cherry Festival parade and Maddy's personal life), all are in black and white of Camp activities. Included are early promotional movies of the Camp based on privately shot footage, for which continuity was done commercially. In 1939, with funds provided by the State of Michigan, Camp films began being produced in sound by professionals. All the latter remain in the possession of Interlochen as is a copy of the 1940 Paramount film, "There's Magic in Music." Information about the various Camp promotional films can be found in Chronology Camp files, 1935-1945, under "publicity-movies" and in Subject Interlochen "Publicity" under "Internal" and in Subject Interlochen "Michigan" under "General/Legislature."</p>
         </scopecontent>
-        <c02 level="subseries">
+        <c02 level="series">
           <did>
             <unittitle>Positive prints</unittitle>
             <physdesc>
@@ -27443,7 +27460,10 @@
           <did>
             <unittitle>Audio tapes</unittitle>
           </did>
-          <c03 level="file">
+          <accessrestrict>
+          <p>[Digitized audio files are currently available only  in the Bentley Historical Library reading
+            room on designated Bentley Library computers.]</p>
+        </accessrestrict><c03 level="file">
             <did>
               <unittitle>
                 <unitdate type="inclusive">Undated</unitdate>
@@ -27455,12 +27475,7 @@
                 <unittitle>Gillis, Don, writer and producer, NBC Radio, "Arturo Toscanini....A Portrait of a Century,"</unittitle>
               </did>
             </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">84</container>
-                <unittitle>Johnson, Thor, A Conversation with, WEFM (Chicago) <unitdate type="inclusive">undated</unitdate> 2 tapes</unittitle>
-              </did>
-            </c04>
+            <c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">84</container><unittitle>A Conversation with Thor Johnson, WEFM (Chicago); Hosts George Stone &amp; Arrand Parsons, <unitdate type="inclusive">[Undated]</unitdate></unittitle><physdesc><physfacet>2 Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Tape 1, Part 1]</unittitle><unitid>[851981-SR-2-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_7p6sw04l" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Part 1 of 2; Interview with Thor Johnson on his work in the American musical scene.)</abstract></did></c05><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Taape 2, Part 1]</unittitle><unitid>[851981-SR-3-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_ut8lwgfb" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Part 2 of 2; Interview with Thor Johnson on his work in the American musical scene.)</abstract></did></c05></c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">84</container>
@@ -27473,15 +27488,7 @@
                 <unittitle>The Triumph of an Idea</unittitle>
               </did>
             </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">84</container>
-                <unittitle>Honors at Interlochen</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">2 tapes</extent>
-                </physdesc>
-              </did>
-            </c04>
+            <c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">84</container><unittitle>American Association of University Women "Honors at Interlochen" Dr. Joe Maddy and Mrs. Frederick Mueller, <unitdate type="inclusive">[Undated]</unitdate></unittitle><physdesc><physfacet>3 Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Tape 1, Part 1]</unittitle><unitid>[851981-SR-5-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_husn8lko" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Part 1; Discussion the power of music in the world and its implications in world peace.)</abstract></did></c05><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Tape 2, Part 1]</unittitle><unitid>[851981-SR-6-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_szan6ry6" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Part 2; Interview and discussion about the importance of musical education at Interlochen.)</abstract></did></c05><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Tape 3, Part 1]</unittitle><unitid>[851981-SR-7-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_bnno2zra" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Part 3; Interview and discussion about the importance of musical education at Interlochen.)</abstract></did></c05></c04>
             <c04 level="file">
               <did>
                 <container type="box" label="Box">84</container>
@@ -27495,12 +27502,7 @@
                 <unitdate type="inclusive" normal="1922">1922</unitdate>
               </unittitle>
             </did>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">84</container>
-                <unittitle>Richmond High School Orchestra: two tapes recordings sold to finance the orchestra's appearance at National Conference of Music Supervisors in Nashville, Tennessee</unittitle>
-              </did>
-            </c04>
+            <c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">84</container><unittitle>Richmond High School Orchestra: two recordings sold to finance the orchestra's appearance at National Conference of Music Supervisors in Nashville, Tennessee., <unitdate type="inclusive">1922 March</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 5 inch</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Tape 1, Part 1]</unittitle><unitid>[851981-SR-8-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_svv4izgr" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Tracks include: Mikhail Ippolitov-Ivanov "In the Village" from Caucasian Sketches No. 1; John Philip Sousa: "Red Man" from Suite  "Dwellers of the Western World.")</abstract></did></c05><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Tape 2, Part 1]</unittitle><unitid>[851981-SR-9-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_28b6drtf" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Mikhail Ippolitov-Ivanov: "In the Village" from Caucasian Sketches No. 1; duplicate recording from tape 851981-SR-8-1.)</abstract></did></c05></c04>
           </c03>
           <c03 level="file">
             <did>
@@ -27508,28 +27510,34 @@
                 <unitdate type="inclusive" normal="1958">1958</unitdate>
               </unittitle>
             </did>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">84</container>
-                <unittitle>Maddy, the National Music Camp Story <unitdate type="inclusive" normal="1958">1958</unitdate> (thirtieth anniversary)</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">2 tapes</extent>
-                </physdesc>
-              </did>
-            </c04>
+            <c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">84</container><unittitle>Dr. Joseph E. Maddy; the National Music Camp Story, <unitdate type="inclusive">1958 July 04</unitdate></unittitle><physdesc><physfacet>2 Audio Reel-to-Reel, 7 inch</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Tape 1, Part 1]</unittitle><unitid>[851981-SR-10-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_3dqdgjm2" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Part 1; Dr. Joseph Maddy discusses his own life story and the musical camp's story.)</abstract></did></c05><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Tape 2, Part 1]</unittitle><unitid>[851981-SR-11-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_nvu5r7u0" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Part 2; Dr. Joseph Maddy discusses his own life story and the musical camp's story.)</abstract></did></c05></c04>
           </c03>
-          <c03 level="file">
+          <c03 level="file"><did><unittitle><unitdate>1963</unitdate></unittitle></did>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">84</container><unittitle>James B. Hause interview with Joe Maddy regarding history of Michigan School Band and Orchestra Association, <unitdate type="inclusive">1963 May 05</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[851981-SR-15-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_z3mvpnhs" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Joe Maddy tape recording in reply to questions by James B. Hause regarding history of Michigan School Band and Orchestra Association.)</abstract></did></c05></c04>
+
+
+</c03><c03 level="file">
             <did>
               <unittitle>
                 <unitdate type="inclusive" normal="1966">1966</unitdate>
               </unittitle>
             </did>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">84</container>
-                <unittitle>Maddy, WOOD-TV (Grand Rapids), the sound track of the documentary production about Maddy following his death)</unittitle>
-              </did>
-            </c04>
+            <c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">84</container><unittitle>Maddy, WOOD-TV (Grand Rapids), the sound track of the documentary production about Maddy following his death., <unitdate type="inclusive">1966 April</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 7 inch</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[851981-SR-12-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_wkes4n6q" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>("Joe Maddy." Sound track from T.V. Show on Grand Rapids Station following Dr. Maddy's death.)</abstract></did></c05></c04>
           </c03>
           <c03 level="file">
             <did>
@@ -27537,15 +27545,7 @@
                 <unitdate type="inclusive" normal="1975">1975</unitdate>
               </unittitle>
             </did>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">84</container>
-                <unittitle>Interlochen, dedication ceremonies for Grand Traverse, Performing Arts Center</unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">2 tapes</extent>
-                </physdesc>
-              </did>
-            </c04>
+            <c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">84</container><unittitle>Interlochen, dedication ceremonies for Grand Traverse, Performing Arts Center, <unitdate type="inclusive">1975</unitdate></unittitle><physdesc><physfacet>2 Audio Reel-to-Reel, 7 inch</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Tape 1, Part 1]</unittitle><unitid>[851981-SR-13-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_emmfg4h8" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Part 1 of 2; Grand Traverse Performing Arts Center; Corson Auditorium; Dedication Ceremonies.)</abstract></did></c05><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Tape 2, Part 1]</unittitle><unitid>[851981-SR-14-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_s05febcf" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Part 2 of 2; Grand Traverse Performing Arts Center; Corson Auditorium; Dedication Ceremonies.)</abstract></did></c05></c04>
           </c03>
           <c03 level="file">
             <did>
@@ -28078,9 +28078,7 @@
           <c03 level="file">
             <did>
               <container type="volume" label="Oversize Volume">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1944-03/1944-04">March and April 1944</unitdate>
-              </unittitle>
+              <unittitle>March and <unitdate type="inclusive" normal="1944-04">April 1944</unitdate></unittitle>
             </did>
             <odd>
               <p>(Editorials about proposed Congressional legislation arranged alphabetically by state.)</p>
@@ -28407,7 +28405,7 @@
             </odd>
           </c03>
         </c02>
-        <c02 level="subseries">
+        <c02 level="file">
           <did>
             <unittitle>Karl Haas <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
           </did>
