@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::alumasso.xml//EN" encodinganalog="identifier">umich-bhl-8730</eadid>
@@ -778,7 +778,7 @@
         <c02 level="file">
           <did>
             <unittitle>
-              <unitdate normal="1953/1954" type="inclusive">1953-1954</unitdate>
+              <unitdate normal="1953/1954">1953-1954</unitdate>
             </unittitle>
           </did>
           <c03 level="file">
@@ -892,7 +892,7 @@
           <c03 level="file">
             <did>
               <unittitle>
-                <unitdate normal="1938/1954" type="inclusive">1938-1954</unitdate>
+                <unitdate normal="1938/1954">1938-1954</unitdate>
               </unittitle>
             </did>
             <c04 level="file">
@@ -3174,7 +3174,7 @@
             </odd>
           </c03>
         </c02>
-        <c02 level="subseries">
+        <c02 level="file">
           <did>
             <unittitle>Responses to Alumnae Council Questionnaires <unitdate type="inclusive" normal="1924">1924</unitdate></unittitle>
           </did>
@@ -3427,7 +3427,7 @@
             </did>
           </c03>
         </c02>
-        <c02 level="subseries">
+        <c02 level="file">
           <did>
             <unittitle>Correspondence and Miscellaneous Files</unittitle>
           </did>
@@ -6073,16 +6073,14 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">136</container>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1950">1950 and later</unitdate>
-                  </unittitle>
+                  <unittitle><unitdate type="inclusive" normal="1950">1950</unitdate> and later</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">136</container>
                   <unittitle>
-                    <unitdate type="inclusive">Undated</unitdate>
+                    <unitdate>Undated</unitdate>
                   </unittitle>
                 </did>
               </c05>
@@ -6192,7 +6190,7 @@
                 <container type="box" label="Box">137</container>
                 <unittitle>
                   <unitdate type="inclusive">Pre-1910</unitdate>
-                  <unitdate type="inclusive">undated</unitdate>
+                  <unitdate>undated</unitdate>
                 </unittitle>
               </did>
             </c04>
@@ -6976,7 +6974,7 @@
                 <did>
                   <container type="box" label="Box">138</container>
                   <unittitle>
-                    <unitdate type="inclusive">Undated</unitdate>
+                    <unitdate>Undated</unitdate>
                   </unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
@@ -7416,7 +7414,7 @@
             <c04 level="file">
               <did>
                 <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
+                  <unitdate>Undated</unitdate>
                 </unittitle>
               </did>
               <c05 level="file">
@@ -7550,7 +7548,7 @@
             </c04>
           </c03>
         </c02>
-        <c02 level="subseries">
+        <c02 level="file">
           <did>
             <unittitle>Individuals</unittitle>
           </did>
@@ -12494,7 +12492,7 @@
             </did>
           </c03>
         </c02>
-        <c02 level="subseries">
+        <c02 level="file">
           <did>
             <container type="box" label="Box">147</container>
             <unittitle>Slides</unittitle>
@@ -15266,7 +15264,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">159</container>
-            <unittitle>Minority Recruitment Proposal <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Minority Recruitment Proposal <unitdate>undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -15466,7 +15464,7 @@
           </did>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Amaizin' Blues; First Annual Campus Concert; John A. Smith, artistic director, <unitdate type="inclusive">1976 March 28</unitdate></unittitle>
+              <container type="box" label="Box">161</container><unittitle>Amaizin' Blues; First Annual Campus Concert; John A. Smith, artistic director, <unitdate type="inclusive">1976 March 28</unitdate></unittitle>
               <physdesc>
                 <physfacet>2 Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
               </physdesc>
@@ -15506,7 +15504,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Amaizin' Blues at the Power Center, <unitdate type="inclusive">1977 March 22</unitdate></unittitle>
+              <container type="box" label="Box">161</container><unittitle>Amaizin' Blues at the Power Center, <unitdate type="inclusive">1977 March 22</unitdate></unittitle>
               <physdesc>
                 <physfacet>2 Audio Reel-to-Reel, 10.5 inch, 7 1/2 ips</physfacet>
               </physdesc>
@@ -15546,7 +15544,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Amaizin' Blues at the Power Center, <unitdate type="inclusive">1977 November 18</unitdate></unittitle>
+              <container type="box" label="Box">161</container><unittitle>Amaizin' Blues at the Power Center, <unitdate type="inclusive">1977 November 18</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
               </physdesc>
@@ -15570,7 +15568,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Amaizin' Blues and The Wisconsin Collegiates, <unitdate type="inclusive">1976 October 22</unitdate></unittitle>
+              <container type="box" label="Box">161</container><unittitle>Amaizin' Blues and The Wisconsin Collegiates, <unitdate type="inclusive">1976 October 22</unitdate></unittitle>
               <physdesc>
                 <physfacet>2 Audio Reel-to-Reel, 10.5 inch, 7 1/2 ips</physfacet>
               </physdesc>
@@ -15610,7 +15608,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>University of Michigan; Band Day, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+              <container type="box" label="Box">161</container><unittitle>University of Michigan; Band Day, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
               </physdesc>
@@ -15634,7 +15632,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>The Hockettes, Live Music, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <container type="box" label="Box">161</container><unittitle>The Hockettes, Live Music, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
               <physdesc>
                 <physfacet>2 Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
               </physdesc>
@@ -15674,7 +15672,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Men's Glee Club, live performance, performed for the Emeritus [Club] Induction Ceremony, <unitdate type="inclusive">1980 May 01</unitdate></unittitle>
+              <container type="box" label="Box">161</container><unittitle>Men's Glee Club, live performance, performed for the Emeritus [Club] Induction Ceremony, <unitdate type="inclusive">1980 May 01</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
               </physdesc>
@@ -15698,7 +15696,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>University of Michigan Marching Band (Stars &amp; Stripes Forever), <unitdate type="inclusive">1960 October 08</unitdate></unittitle>
+              <container type="box" label="Box">161</container><unittitle>University of Michigan Marching Band (Stars &amp; Stripes Forever), <unitdate type="inclusive">1960 October 08</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Reel-to-Reel, 5 inch, 7 1/2 ips</physfacet>
               </physdesc>
@@ -15727,7 +15725,7 @@
           </did>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>"Football Report"; Interviews with Jerry Smith, Bump Elliott, and Fritz Crisler, <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
+              <container type="box" label="Box">161</container><unittitle>"Football Report"; Interviews with Jerry Smith, Bump Elliott, and Fritz Crisler, <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Reel-to-Reel, 5 inch, 7 1/2 ips</physfacet>
               </physdesc>
@@ -15767,7 +15765,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>"Sports Report"; Fritz Crisler; Bennie Oosterban, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+              <container type="box" label="Box">161</container><unittitle>"Sports Report"; Fritz Crisler; Bennie Oosterban, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
               </physdesc>
@@ -15791,7 +15789,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Henry Hatch, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <container type="box" label="Box">161</container><unittitle>Henry Hatch, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Reel-to-Reel, 5 inch, 7 1/2 ips</physfacet>
               </physdesc>
@@ -15869,7 +15867,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Little Brown Jug, a True Story, <unitdate type="inclusive">[Undated], 1982 November 1</unitdate></unittitle>
+              <container type="box" label="Box">161</container><unittitle>Little Brown Jug, a True Story, <unitdate type="inclusive">[Undated], 1982 November 1</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
               </physdesc>
@@ -15909,7 +15907,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Men of Science and Osborn Documentary, <unitdate type="inclusive">[Undated], 1960</unitdate></unittitle>
+              <container type="box" label="Box">161</container><unittitle>Men of Science and Osborn Documentary, <unitdate type="inclusive">[Undated], 1960</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
               </physdesc>
@@ -15933,7 +15931,7 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>"One Nation Indivisible" --award winning documentary on Nationalism in the 20th century, WUOM, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <container type="box" label="Box">161</container><unittitle>"One Nation Indivisible" --award winning documentary on Nationalism in the 20th century, WUOM, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
               </physdesc>
@@ -15971,11 +15969,11 @@
           <unittitle>"Magnetic Michigan"</unittitle>
         </did>
         <scopecontent>
-          <p>"Magnetic Michigan" consists of audiotapes and VHS videotapes featuring faculty members speaking on a variety of topics as part of the alumni continuing education program from 1986 to 1994. Faculty presenters include David Angus, Russell Bidlack, Nancy Cantor, James Chaffers, Francis Collins, Marion Marzolf, Harrison Morton, Michel Oksenberg, and Donn Werling. Topics include Michigan history, genetic research, Jens Jenson, Nichols Arboretum, school reform and urban planning. Several tapes include incomplete portions of lectures.</p>
+          <p>"Magnetic Michigan" consists of audiotapes and VHS videotapes featuring faculty members speaking on a variety of topics as part of the alumni continuing education program from 1986 to 1994. Faculty presenters include David Angus, Russell Bidlack, Nancy Cantor, James Chaffers, Francis Collins, Marion Marzolf, Harrison Morton, Michel Oksenberg, and Donn Werling. Topics include Michigan history, genetic research, Jens Jensen, Nichols Arboretum, school reform and urban planning. Several tapes include incomplete portions of lectures.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <container type="box" label="Box">162</container>
+            
             <unittitle>Catalog of Tapes Available <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
           </did>
         </c02>
@@ -15987,14 +15985,14 @@
           </did>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>"English Reputation of the University of Michigan, 1868-1969", W. H. G. Armytage (School of Education, University of Sheffield, England), <unitdate type="inclusive">1987 February 26</unitdate></unittitle>
+              <container type="box" label="Box">162</container><unittitle>"English Reputation of the University of Michigan, 1868-1969", W. H. G. Armytage (School of Education, University of Sheffield, England), <unitdate type="inclusive">1987 February 26</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
               </physdesc>
             </did>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 1]</unittitle>
                 <unitid>[8730-SR-18-1]</unitid>
                 <physdesc>
@@ -16005,7 +16003,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 2]</unittitle>
                 <unitid>[8730-SR-18-2]</unitid>
                 <physdesc>
@@ -16017,14 +16015,14 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Lecture by Professor Jonathan Bulkley on Water Quality and Other Current Environmental Problems of the Great Lakes, <unitdate type="inclusive">1987 November 17</unitdate></unittitle>
+              <container type="box" label="Box">162</container><unittitle>Lecture by Professor Jonathan Bulkley on Water Quality and Other Current Environmental Problems of the Great Lakes, <unitdate type="inclusive">1987 November 17</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Cassette</physfacet>
               </physdesc>
             </did>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 1]</unittitle>
                 <unitid>[8730-SR-19-1]</unitid>
                 <physdesc>
@@ -16035,7 +16033,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 2]</unittitle>
                 <unitid>[8730-SR-19-2]</unitid>
                 <physdesc>
@@ -16047,14 +16045,14 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Lecture by Professor Arthur Burks and Alice Burks on the ENIAC, the First Electronic Computer, <unitdate type="inclusive">1988 April 26</unitdate></unittitle>
+              <container type="box" label="Box">162</container><unittitle>Lecture by Professor Arthur Burks and Alice Burks on the ENIAC, the First Electronic Computer, <unitdate type="inclusive">1988 April 26</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
               </physdesc>
             </did>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 1]</unittitle>
                 <unitid>[8730-SR-20-1]</unitid>
                 <physdesc>
@@ -16065,7 +16063,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 2]</unittitle>
                 <unitid>[8730-SR-20-2]</unitid>
                 <physdesc>
@@ -16077,14 +16075,14 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Lecture by Professor Arthur Burks and Alice Burks on the ENIAC, the First Electronic Computer, <unitdate type="inclusive">1988 April 26</unitdate></unittitle>
+              <container type="box" label="Box">162</container><unittitle>Lecture by Professor Arthur Burks and Alice Burks on the ENIAC, the First Electronic Computer, <unitdate type="inclusive">1988 April 26</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
               </physdesc>
             </did>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 1]</unittitle>
                 <unitid>[8730-SR-21-1]</unitid>
                 <physdesc>
@@ -16095,7 +16093,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 2]</unittitle>
                 <unitid>[8730-SR-21-2]</unitid>
                 <physdesc>
@@ -16107,14 +16105,14 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Lecture by Professor G. Michael Deeb, M.D. on the Current State of Heart Transplantation Surgery, <unitdate type="inclusive">1987 April 21</unitdate></unittitle>
+              <container type="box" label="Box">162</container><unittitle>Lecture by Professor G. Michael Deeb, M.D. on the Current State of Heart Transplantation Surgery, <unitdate type="inclusive">1987 April 21</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
               </physdesc>
             </did>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 1]</unittitle>
                 <unitid>[8730-SR-22-1]</unitid>
                 <physdesc>
@@ -16125,7 +16123,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 2]</unittitle>
                 <unitid>[8730-SR-22-2]</unitid>
                 <physdesc>
@@ -16137,14 +16135,14 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Lectures by Professors William Frey and Louis A. Ferman as part of "The Changing Face of America" enrichment series, <unitdate type="inclusive">1986 June 21</unitdate></unittitle>
+              <container type="box" label="Box">162</container><unittitle>Lectures by Professors William Frey and Louis A. Ferman as part of "The Changing Face of America" enrichment series, <unitdate type="inclusive">1986 June 21</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
               </physdesc>
             </did>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 1]</unittitle>
                 <unitid>[8730-SR-23-1]</unitid>
                 <physdesc>
@@ -16155,7 +16153,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 2]</unittitle>
                 <unitid>[8730-SR-23-2]</unitid>
                 <physdesc>
@@ -16167,14 +16165,14 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Lecture by Michel Oksenberg on "Reflections on China Today" as part of Rose Bowl Faculty Seminar, <unitdate type="inclusive">1988 December 31</unitdate></unittitle>
+              <container type="box" label="Box">162</container><unittitle>Lecture by Michel Oksenberg on "Reflections on China Today" as part of Rose Bowl Faculty Seminar, <unitdate type="inclusive">1988 December 31</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
               </physdesc>
             </did>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 1]</unittitle>
                 <unitid>[8730-SR-24-1]</unitid>
                 <physdesc>
@@ -16185,7 +16183,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 2]</unittitle>
                 <unitid>[8730-SR-24-2]</unitid>
                 <physdesc>
@@ -16197,14 +16195,14 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Lectures by Professors Richard Teske and Roy Rappaport as part of Alumni Association Enrichment Series, <unitdate type="inclusive">1986 March 25</unitdate></unittitle>
+              <container type="box" label="Box">162</container><unittitle>Lectures by Professors Richard Teske and Roy Rappaport as part of Alumni Association Enrichment Series, <unitdate type="inclusive">1986 March 25</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
               </physdesc>
             </did>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 1]</unittitle>
                 <unitid>[8730-SR-25-1]</unitid>
                 <physdesc>
@@ -16215,7 +16213,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 2]</unittitle>
                 <unitid>[8730-SR-25-2]</unitid>
                 <physdesc>
@@ -16227,14 +16225,14 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Lecture by Professor Martha Vicinus, "Kipling: His Age and Ours", <unitdate type="inclusive">1986 March 22</unitdate></unittitle>
+              <container type="box" label="Box">162</container><unittitle>Lecture by Professor Martha Vicinus, "Kipling: His Age and Ours", <unitdate type="inclusive">1986 March 22</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
               </physdesc>
             </did>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 1]</unittitle>
                 <unitid>[8730-SR-26-1]</unitid>
                 <physdesc>
@@ -16245,7 +16243,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 2]</unittitle>
                 <unitid>[8730-SR-26-2]</unitid>
                 <physdesc>
@@ -16257,14 +16255,14 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Lecture by Dean Robert M. Warner, School of Library Science, "Preserving Our Nation's Heritage", <unitdate type="inclusive">1985 November 20</unitdate></unittitle>
+              <container type="box" label="Box">162</container><unittitle>Lecture by Dean Robert M. Warner, School of Library Science, "Preserving Our Nation's Heritage", <unitdate type="inclusive">1985 November 20</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
               </physdesc>
             </did>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 1]</unittitle>
                 <unitid>[8730-SR-27-1]</unitid>
                 <physdesc>
@@ -16275,7 +16273,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 2]</unittitle>
                 <unitid>[8730-SR-27-2]</unitid>
                 <physdesc>
@@ -16287,14 +16285,14 @@
           </c03>
           <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <unittitle>Lectures by Dean Robert M. Warner and Professor Judith Elkin, <unitdate type="inclusive">1992 August 24</unitdate></unittitle>
+              <container type="box" label="Box">162</container><unittitle>Lectures by Dean Robert M. Warner and Professor Judith Elkin, <unitdate type="inclusive">1992 August 24</unitdate></unittitle>
               <physdesc>
                 <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
               </physdesc>
             </did>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 2]</unittitle>
                 <unitid>[8730-SR-28-2]</unitid>
                 <physdesc>
@@ -16305,7 +16303,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                
                 <unittitle>[Side 1]</unittitle>
                 <unitid>[8730-SR-28-1]</unitid>
                 <physdesc>
