@@ -16,6 +16,7 @@ def add_container_barcodes(ead_dir):
     av_boxes = {}
     dvd_boxes = {}
     cd_boxes = {}
+    sr_boxes = {}
 
     # The same AV boxes and DVD boxes may appear in multiple collections -- they should all have the same barcode
     for filename in os.listdir(ead_dir):
@@ -36,6 +37,10 @@ def add_container_barcodes(ead_dir):
                     indicator = container.text.strip()
                     if indicator not in cd_boxes:
                         cd_boxes[indicator] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
+                if "sr" in container.text.lower():
+                    indicator = container.text.strip()
+                    if indicator not in sr_boxes:
+                        sr_boxes[indicator] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
 
     for filename in os.listdir(ead_dir):
         print "Adding container barcodes in {0}".format(filename)
@@ -57,6 +62,8 @@ def add_container_barcodes(ead_dir):
                                 container_ids[container_type_label_num] = dvd_boxes[indicator]
                             elif container.attrib['label'] == 'CD Box':
                                 container_ids[container_type_label_num] = cd_boxes[indicator]
+                            elif "sr" in indicator.lower():
+                                container_ids[container_type_label_num] = sr_boxes[indicator]
                             elif container_type_label_num not in container_ids:
                                 container_ids[container_type_label_num] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
 
