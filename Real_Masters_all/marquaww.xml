@@ -19,7 +19,10 @@
       <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
     </profiledesc>
     <revisiondesc>
-      <change>
+       <change>
+        <date>2016-06-01</date>
+        <item>Added digitized audio cassettes.</item>
+      </change><change>
         <date>20150701</date>
         <item>Corrected collection dates and separated boxes for use with Aeon.</item>
       </change>
@@ -41,14 +44,17 @@
       <origination>
         <persname source="lcnaf" encodinganalog="100">Marquardt, Walter W. (Walter William), 1878-</persname>
       </origination>
-      <unittitle encodinganalog="245">Walter W. Marquardt papers <unitdate type="inclusive" encodinganalog="245$f" normal="1896/1952">1896-1952</unitdate></unittitle>
+      <unittitle encodinganalog="245"></unittitle><unittitle encodinganalog="245">Walter W. Marquardt papers <unitdate type="inclusive" encodinganalog="245$f" normal="1896/1952">1896-1952</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">91421 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Educator and director of education 1916-1919 in the Philippines. Bound volumes containing correspondence, appointments, speeches, writings, diaries, and travel accounts detailing career in the Philippines.</abstract>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">8 linear feet</extent>
       </physdesc>
-      <repository>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied"> 446 MB</extent>
+        <physfacet>online</physfacet>
+      </physdesc><repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -69,7 +75,13 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Walter W. Marquardt papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
-    </descgrp>
+    <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a
+          number of sound recordings within this collection. The resulting audio files are available
+          for playback only in the Bentley Library Reading Room. Links to item images and additional
+          information are available within this finding aid. Original sound recordings are only
+          available for staff use.</p>
+      </altformavail></descgrp>
     <bioghist encodinganalog="545">
       <p>Walter Marquardt (1878-1962) arrived in the Philippine Islands as a teacher in 1909. He was quickly made a supervising teacher, then high school principal, and eventually Superintendent of Schools for the province of Leyte.</p>
       <p>He left Leyte in 1910 when he was made superintendent of the Philippine School of Arts and Trades in Manila. In 1916 he became the head of the entire Philippine school system with the title of Director of Education, remaining in the post until 1919 when he left to take charge of the "pensionado system," in which top Filipino students were sent to the United States at the Philippine government's expense for specialized training.</p>
@@ -3137,7 +3149,10 @@
             <container type="box" label="Box">7</container>
             <unittitle>Sound Recording</unittitle>
           </did>
-        </c02>
+        <accessrestrict>
+          <p>[Digitized audio files are currently available only  in the Bentley Historical Library reading
+            room on designated Bentley Library computers.]</p>
+        </accessrestrict><c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">7</container><unittitle>Marquardt Radio Speech To Phillipines, <unitdate type="inclusive">1945 February 28</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[91421-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_6r46aqtr" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(W.W. Marquardt speech to the Philippines transmitted by Office of War Information Feb. 28, 1945 to mark the liberation of Manila from Japanese troops.)</abstract></did></c04></c03></c02>
       </c01>
       <c01 level="series">
         <did>
