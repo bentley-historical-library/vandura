@@ -20,6 +20,9 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>2016-06-01</date>
+        <item>Added digitized audio cassettes.</item>
+      </change><change>
         <date>2008-10-28</date>
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
@@ -44,7 +47,10 @@
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">1.5 linear feet</extent>
       </physdesc>
-      <repository>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied"> 5.98 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc><repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -65,7 +71,13 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Janice J. Terry papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
-    </descgrp>
+    <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a
+          number of sound recordings within this collection. The resulting audio files are available
+          for playback only in the Bentley Library Reading Room. Links to item images and additional
+          information are available within this finding aid. Original sound recordings are only
+          available for staff use.</p>
+      </altformavail></descgrp>
     <bioghist encodinganalog="545">
       <p>Janice Terry was born in 1942 in Cleveland, Ohio. She pursued her education at Wooster College, earning her Bachelors in 1964, later at the American University of Beirut, earning her masters in 1966, and finally at the University of London, earning her PhD in 1968. Throughout her career she has focused on modern Middle East history, particularly problems facing Palestine and Arab-Americans. She currently is emeritus professor of history at Eastern Michigan University in Ypsilanti, Michigan.</p>
     </bioghist>
@@ -416,22 +428,28 @@
         <scopecontent>
           <p>Audio Visual Materials (1995-1996, .25 linear feet) includes one audiocassette tape and two VHS tapes of a program called <title render="italic">Tales from Arab Detroit</title>.</p>
         </scopecontent>
-        <c02 level="file">
+        <c02 level="subseries"><did><unittitle>Audio Cassette </unittitle></did>
+
+
+<accessrestrict>
+          <p>[Digitized audio files are currently available only  in the Bentley Historical Library reading
+            room on designated Bentley Library computers.]</p>
+        </accessrestrict><c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">2</container><unittitle>Sabreen [Palestinian Music Group], <unitdate type="inclusive">[Undated]</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1]</unittitle><unitid>[2008135-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_3zt8q7cp" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Musical performance of Sabreen, a Palestinian Music Group.)</abstract></did></c04>
+<c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 2]</unittitle><unitid>[2008135-SR-1-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_bwjj26da" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao><abstract>(Musical performance of Sabreen, a Palestinian Music Group.)</abstract></did></c04></c03>
+</c02><c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle>Audio Cassette Tape, Sabreen (Middle Eastern Music)</unittitle>
+            <unittitle>Video Cassette Tapes</unittitle>
           </did>
-        </c02>
-        <c02 level="file">
-          <did>
+        <c03><did>
             <container type="box" label="Box">2</container>
             <unittitle>Tales From Arab Detroit <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 videotapes</extent>
               <physfacet>VHS (TM)</physfacet>
             </physdesc>
-          </did>
-        </c02>
+          </did></c03></c02>
+        
       </c01>
     </dsc>
   </archdesc>
