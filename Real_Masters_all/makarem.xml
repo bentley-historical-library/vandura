@@ -19,7 +19,10 @@
       <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
     </profiledesc>
     <revisiondesc>
-      <change>
+       <change>
+        <date>2016-06-01</date>
+        <item>Added digitized audio cassettes.</item>
+      </change><change>
         <date>2008-07-18</date>
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
@@ -37,7 +40,7 @@
       <origination>
         <persname source="lcnaf" encodinganalog="100">Makarem, Julia.</persname>
       </origination>
-      <unittitle encodinganalog="245">Julia Makarem papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/2006">1930-2006</unitdate> <unitdate type="bulk" encodinganalog="245$g" normal="1987/2002">1987-2002</unitdate></unittitle>
+      <unittitle encodinganalog="245">Julia Makarem papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/2006">1930-2006</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1987/2002">1987-2002</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0258 Aa 2; UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language> and <language langcode="ara" encodinganalog="041">Arabic</language></langmaterial>
       <abstract>American born Druze, active in the American Druze Society and concerned with the history of the Druze in the United States. Papers relate to American Druze Society activities and to history of Druze in America.</abstract>
@@ -47,7 +50,10 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">1 oversize folders</extent>
       </physdesc>
-      <repository>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied"> GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc><repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -68,7 +74,13 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Julia Makarem papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
-    </descgrp>
+    <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a
+          number of sound recordings within this collection. The resulting audio files are available
+          for playback only in the Bentley Library Reading Room. Links to item images and additional
+          information are available within this finding aid. Original sound recordings are only
+          available for staff use.</p>
+      </altformavail></descgrp>
     <bioghist encodinganalog="545">
       <p>Julia Mullin Makarem, an American born Druze who devoted her life to her people and her Druze faith, was born in Detroit, Michigan. As a child, she witnessed the formation of the American Druze Society through the work of Druze immigrants including her parents, Farris Mullin (Melhim) and Nagela Farris Mullin, ne Abu Shakra.</p>
       <p>In 1962 she met and married Sami Nassib Makarem, a graduate student at the University of Michigan in Ann Arbor. She worked at Comerica Bank until her first child was born. Together they had four children, two daughters, Sahar and Rand, and twin sons, Samir and Nassib. In 1962 she was elected National President of the American Druze Society and moved with her husband to Ann Arbor. In May of 1962, Sami received his Ph.D.</p>
@@ -334,7 +346,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">2</container>
-              <unittitle>Programs and Invitations <unitdate type="inclusive" normal="1947/2002">1947-2002 (scattered)</unitdate></unittitle>
+              <unittitle>Programs and Invitations <unitdate type="inclusive" normal="1947/2002">1947-2002</unitdate> scattered dates</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
@@ -786,39 +798,25 @@
         <scopecontent>
           <p>The Audio/Visual series include 8mm films and audiocassette tapes. They contain images and recordings of American Druze Society conventions, meetings, and picnics.</p>
         </scopecontent>
-        <c02 level="file">
-          <did>
-            <unittitle>Sound cassettes</unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>American Druze Society "Bs meets" <unitdate type="inclusive" normal="1998-07-01">July 1, 1998</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>Board of Directors Meeting <unitdate type="inclusive" normal="1998-01-10">January 10, 1998</unitdate></unittitle>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">3 audiocassettes</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>Conference Call: Board, For my letter to Faouzi Mokarem</unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>S.H.A.D.A.W.I. Club <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
-          </c03>
-        </c02>
-        <c02 level="file">
+        
+        <c02 level="subseries"><did><unittitle>Audio Cassettes</unittitle></did>
+
+
+<accessrestrict>
+          <p>[Digitized audio files are currently available only  in the Bentley Historical Library reading
+            room on designated Bentley Library computers.]</p>
+        </accessrestrict><c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">5</container><unittitle>American Druze Society "BS meets", <unitdate type="inclusive">1998 July 01</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1]</unittitle><unitid>[0258-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc> <abstract>(Meeting of the American Druze Society.)</abstract></did></c04>
+<c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side S]</unittitle><unitid>[0258-SR-1-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><abstract>(Meeting of the American Druze Society.)</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">5</container><unittitle>Board of Directors Meeting, <unitdate type="inclusive">1998 January 10</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1]</unittitle><unitid>[0258-SR-2-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc> <abstract>(Part 1 of 3; recording of the Board of Directors meeting for the American Druze Society.)</abstract></did></c04>
+<c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 2]</unittitle><unitid>[0258-SR-2-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><abstract>(Part 1 of 3; recording of the Board of Directors meeting for the American Druze Society.)</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">5</container><unittitle>Board of Directors Meeting, <unitdate type="inclusive">1998 January 10</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1]</unittitle><unitid>[0258-SR-3-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc> <abstract>(Part 2 of 3; recording of the Board of Directors meeting for the American Druze Society.)</abstract></did></c04>
+<c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 2]</unittitle><unitid>[0258-SR-3-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><abstract>(Part 2 of 3; recording of the Board of Directors meeting for the American Druze Society.)</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">5</container><unittitle>Board of Directors Meeting, <unitdate type="inclusive">1998 January 10</unitdate></unittitle><physdesc><physfacet>Audio Cassette</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1]</unittitle><unitid>[0258-SR-4-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc> <abstract>(Part 3 of 3; recording of the Board of Directors meeting for the American Druze Society.)</abstract></did></c04>
+<c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 2]</unittitle><unitid>[0258-SR-4-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><abstract>(Part 3 of 3; recording of the Board of Directors meeting for the American Druze Society.)</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">5</container><unittitle>Conference Call: Board, <unitdate type="inclusive">[Undated]</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[0258-SR-5-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc> <abstract>(Conference Call to the Board of Directors, written on the tape: "For my letter to Faouzi Mokarem.")</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">5</container><unittitle>S.H.A.D.A.W.I. Club, <unitdate type="inclusive">1996</unitdate></unittitle><physdesc><physfacet>Audio Cassette</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1]</unittitle><unitid>[0258-SR-6-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc> <abstract>([unexpected content] This tape is a mix tape. Includes recordings of Celine Dion, Taylor Dayne, Basia and other music; no other content.)</abstract></did></c04>
+<c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 2]</unittitle><unitid>[0258-SR-6-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><abstract>([unexpected content]  This tape is a mix tape. Includes recordings of Celine Dion, Taylor Dayne, Basia and other music; no other content.)</abstract></did></c04></c03>
+</c02><c02 level="file">
           <did>
             <unittitle>
               <genreform normal="Motion pictures">Motion pictures</genreform>
