@@ -18,7 +18,10 @@
       <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
     </profiledesc>
     <revisiondesc>
-      <change>
+       <change>
+        <date>2016-06-01</date>
+        <item>Added digitized audio cassettes.</item>
+      </change><change>
         <date>20150617</date>
         <item>Corrected dates and extent and added written notes from paper finding aid.</item>
       </change>
@@ -64,7 +67,7 @@
       <origination>
         <corpname source="lcnaf" encodinganalog="110">Grand Hotel (Mackinac Island, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Grand Hotel (Mackinac Island, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1855/2011" certainty="approximate">circa 1855-2012</unitdate> <unitdate type="bulk" encodinganalog="245$g" normal="1946/2012">1946-2012</unitdate></unittitle>
+      <unittitle encodinganalog="245">Grand Hotel (Mackinac Island, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1855/2011" certainty="approximate">circa 1855-2012</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1946/2012">1946-2012</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05146 Bb 2 Bb outsize; UBB1</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The Grand Hotel records comprise documents, photographs, audio and videographic material collected about the hotel by its management. The strength of the collection is in its documentation of the guest experience at the hotel, and the evolution of amenities offered by the hotel during the mid-to-late 20th century. A small number of items also provide a glimpse of the hotel’s earliest days as a summer resort.</abstract>
@@ -75,7 +78,10 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">2 oversize folders</extent>
       </physdesc>
-      <repository>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">16.6  GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc><repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -97,7 +103,13 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Grand Hotel (Mackinac Island, Mich.) Records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
-    </descgrp>
+     <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a
+          number of sound recordings within this collection. The resulting audio files are available
+          for playback only in the Bentley Library Reading Room. Links to item images and additional
+          information are available within this finding aid. Original sound recordings are only
+          available for staff use.</p>
+      </altformavail></descgrp>
     <bioghist encodinganalog="545">
       <p>Grand Hotel opened on July 10, 1887 as a venture of the Mackinac Island Hotel Company. In 1910, the hotel was purchased by Henry Weaver, its manager since 1900. The hotel was sold again in 1918, this time to J. Logan Ballard, who died only five years later. In 1925, William Stewart Woodfill purchased the hotel with two other men, to whom he later sold his shares. In 1933, Woodfill would purchase the hotel again, this time as sole owner, after it fell into receivership. Woodfill, who also managed the hotel for a number of years, retained ownership throughout the mid-20th century, though he gradually turned responsibility for the hotel's management over to Dan Musser beginning in 1951. The Musser family purchased the hotel from Woodfill in 1979, and continue to run it today.</p>
       <p>Since its opening, Grand Hotel has become a popular family vacation destination and conference location with its upscale accommodations and dining facilities. Features of the hotel include an elaborate, multi-course dinner included for every guest, 18 holes of golf, a 660-foot front porch overlooking the water, and a pool that Esther Williams made famous in the movie <title render="italic">This Time For Keeps</title> in 1946.</p>
@@ -2916,7 +2928,10 @@
             <unitdate type="inclusive" normal="1981/2007">1981-2007</unitdate>
           </unittitle>
         </did>
-        <scopecontent>
+        <accessrestrict>
+          <p>[Digitized audio files are currently availableonly  in the Bentley Historical Library reading
+            room on designated Bentley Library computers.]</p>
+        </accessrestrict><scopecontent>
           <p>Audio Material, 1993-2000 comprises both commercial compact discs of music performed by Grand Hotel's musical staff, as well as radio advertisements promotions and interviews.</p>
         </scopecontent>
         <c02 level="subseries">
@@ -2946,43 +2961,11 @@
           <did>
             <unittitle>Radio Spots</unittitle>
           </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>Two commercials promoting Jazz Weekend <unitdate type="inclusive">undated</unitdate></unittitle>
-              <physdesc>
-                <physfacet>audio cassette tape</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>Three commercials mentioning review in Gourmet Magazine <unitdate type="inclusive" normal="1997-06">June 1997</unitdate></unittitle>
-              <physdesc>
-                <physfacet>audio cassette tape</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>Three general commercials <unitdate type="inclusive" normal="1998-05-27">May 27, 1998</unitdate></unittitle>
-              <physdesc>
-                <physfacet>audio cassette tape</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>Six general commercials <unitdate type="inclusive" normal="2000-05-10">May 10, 2000</unitdate></unittitle>
-              <physdesc>
-                <physfacet>audio cassette tape</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
+          
+          <c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>Grand Hotel Radio [Advertisement], <unitdate type="inclusive">[Undated]</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_tx8pitmp" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Two radio spots for the Grand Hotel describing Jazz music in the Fall. 1. Jazz and Big Band PR-GH-0199-05 (:60); 2. Jazz Weekend PR-GH-0199-04 (:60))</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>Grand Hotel Radio [Advertisement], <unitdate type="inclusive">1997 June 01</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-2-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_qlbiujqx" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Three radio spots highlighting music and activities available at Grand Hotel. 1. Bob Snyder / Gourmet (50+10); 2. Activities / Gourmet (50+10); 3. Cars Scare Us / Gourmet (50+10).)</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>Grand Hotel [Advertisement], <unitdate type="inclusive">1998 May 27</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-3-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_uqrc1n02" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Three radio spots highlighting music and activities available at Grand Hotel. (3) 60-Second Radio with :10 Tag; 1. Bob / Delicious Reasons; 2. Grand Pecan Ball / Delicious Reasons; 3. Chain / Delicious Reasons.)</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>Grand Hotel 6 X :50/:10 Radio [Advertisement], <unitdate type="inclusive">2000 May 05</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-4-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_h6ssvise" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Six radio spots highlighting music and activities available at Grand Hotel. 1. "You Will Know - A" :50/:10; 2. "Invitation - A" :50/:10; 3. "You Will Know - B" :50/:10; 4. "Invitation - B" :50/:10; 5. "You Will Know - C" :50/:10; 6. "Invitation - C" :50/:10.)</abstract></did></c04></c03><c03 level="file">
             <did>
               <container type="box" label="Box">8</container>
               <unittitle>Two commercials promoting Jazz Weekend <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
@@ -3005,25 +2988,10 @@
           <did>
             <unittitle>Promotional Giveaways</unittitle>
           </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>Bob Collins Show, WGN Radio 720 <unitdate type="inclusive" normal="1992-08-02">August 2, 1992</unitdate></unittitle>
-              <physdesc>
-                <physfacet>audio cassette tape</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>"Mackinac in the Morning", NewsRadio 790 WSGW <unitdate type="inclusive" normal="1998-05">May 1998</unitdate></unittitle>
-              <physdesc>
-                <physfacet>audio cassette tape</physfacet>
-              </physdesc>
-            </did>
-          </c03>
-        </c02>
+          
+          
+        <c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>More Grand Hotel promotion - Bob Collins Show, WGN Radio 720, <unitdate type="inclusive">1992 August 02</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-5-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_55uvgya3" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Radio promotion for a weekend giveaway to the Grand Hotel.)</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>"Mackinac in the Morning" , <unitdate type="inclusive">1998 May 01</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-6-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_iscaf0j1" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Grand Hotel weekend giveaway on NewsRadio 790 WSGW. First seven minutes is the radio advertisements used and then the rest of the content is actual live giveaway.)</abstract></did></c04></c03></c02>
         <c02 level="subseries">
           <did>
             <unittitle>Miscellaneous</unittitle>
@@ -3032,82 +3000,19 @@
             <did>
               <unittitle>Audio cassette tapes</unittitle>
             </did>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">8</container>
-                <unittitle>"Grand Hotel Visit" <unitdate type="inclusive" normal="1983-05-12/1983-05-15">May 12-15, 1983</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">8</container>
-                <unittitle>"Frank Kelly at Jeff-Jack" <unitdate type="inclusive" normal="1984-03-10">March 10, 1984</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">8</container>
-                <unittitle>"The Grand Hotel" WJR <unitdate type="inclusive" normal="1989-07-20">July 20, 1989</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">8</container>
-                <unittitle>"Michigan -- copy from client cassette master," Foote Cone &amp; Belding <unitdate type="inclusive" normal="1995-06-26">June 26, 1995</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">8</container>
-                <unittitle>"1995 Celebrity Golf Series" WJR <unitdate type="inclusive" normal="1995-07-12">July 12, 1995</unitdate></unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">2 audiocassettes</extent>
-                </physdesc>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">8</container>
-                <unittitle>Dan Musser on WKHM, Jackson, Mich. <unitdate type="inclusive" normal="1996-05-02">May 2, 1996</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">8</container>
-                <unittitle>"WSGW's Grand Getaway" <unitdate type="inclusive" normal="1997-03-27/1997-04-25">March 27-April 25, 1997</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">8</container>
-                <unittitle>"Taste Mention" WBBM, Chicago <unitdate type="inclusive" normal="1997-07-06">July 6, 1997</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">8</container>
-                <unittitle>"Sylvain on Travel" WWJ, July 30, year unidentified</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">8</container>
-                <unittitle>"Korab demos" <unitdate type="inclusive">undated</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">8</container>
-                <unittitle>Wally Phillips Show WGN, August 21, year unidentified</unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">8</container>
-                <unittitle>"Grand Hotel A.V.," <unitdate type="inclusive">undated</unitdate></unittitle>
-              </did>
-            </c04>
-          </c03>
+            <c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>Grand Hotel Visit, <unitdate type="inclusive">1983 May 12-15</unitdate></unittitle><physdesc><physfacet>Audio Cassette</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-7-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_l5q23y2i" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Interview with staff at the hotel on the rennovations and history of the hotel. Includes Mustang Bar event.)</abstract></did></c05></c04>
+<c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>Frank Kelly at Jeff-Jack, <unitdate type="inclusive">1984 March 10</unitdate></unittitle><physdesc><physfacet>Audio Cassette</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-8-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_helicjnw" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Fundraiser dinner and comedy performance at the Grand Hotel. Comedian makes jokes on Michigan cities and places.)</abstract></did></c05></c04>
+<c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>The Grand Hotel :6C, <unitdate type="inclusive">1989 July 20</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-9-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_uiy0w199" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Radio advertisement for the Grand Hotel.)</abstract></did></c05></c04>
+<c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>"Michigan" Foote, Cone &amp; Belding, <unitdate type="inclusive">1995 June 26</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-10-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_4vtqtob2" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Travel show discussing Michigan and Grand Hotel.)</abstract></did></c05></c04>
+<c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>1995 Celebrity Golf Series Mackinac Island, <unitdate type="inclusive">1995 July 12</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1]</unittitle><unitid>[05146-SR-11-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_aa0tewax" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Tape 1; WJR radio recording of Celebrity Golf Series and talking with Arnold Palmer.)</abstract></did></c05>
+<c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 2]</unittitle><unitid>[05146-SR-11-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_lc7oc87p" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao><abstract>(Tape 1; WJR radio recording of Celebrity Golf Series and talking with Arnold Palmer.)</abstract></did></c05></c04>
+<c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>1995 Celebrity Golf Series Mackinac Island, <unitdate type="inclusive">1995 July 12</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-12-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_8cdh50ax" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Tape 2; WJR radio recording of Celebrity Golf Series and talking with Arnold Palmer.)</abstract></did></c05></c04>
+
+          <c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>Sylvain on Travel WWJ - Saturday, <unitdate type="inclusive">1994 July 30</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-16-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_t4y6vg7v" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Advertisement for golfing on Mackinac Island and the Grand Hotel.)</abstract></did></c05></c04>
+<c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>Korab demos, <unitdate type="inclusive">[Undated]</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-17-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_64uvyfge" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Music recorded as part of advertisements for the Grand Hotel.)</abstract></did></c05></c04>
+<c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>WGN - Wally Phillips Show, <unitdate type="inclusive">August 21</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-18-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_4plkycsw" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Discussion of the activities and events going on on Mackinac Island and at the Grand Hotel in the Fall.)</abstract></did></c05></c04>
+<c04 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">8</container><unittitle>Grand Hotel A.V., <unitdate type="inclusive">[Undated]</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c05 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[05146-SR-19-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_2878m6cj" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Advertisement for the Grand Hotel for meetings and conferences.)</abstract></did></c05></c04>
+</c03>
           <c03 level="file">
             <did>
               <unittitle>Microcassette tapes</unittitle>
