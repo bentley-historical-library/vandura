@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::weillou.xml//EN" encodinganalog="Identifier">umich-bhl-85624</eadid>
@@ -371,7 +371,6 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
             <unittitle>
               <genreform normal="Sound recordings">Audio-tapes</genreform>
             </unittitle>
@@ -388,7 +387,7 @@
             </did>
             <c04 level="otherlevel" otherlevel="item-part">
               <did>
-                <physloc>Online</physloc>
+                <container type="box" label="Box">1</container>
                 <unittitle>[Part 1]</unittitle>
                 <unitid>[85624-SR-1-1]</unitid>
                 <physdesc>

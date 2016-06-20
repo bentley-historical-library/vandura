@@ -39,7 +39,7 @@ def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir, dspace_xoai_dir):
 	remove_nested_genreforms(ead_dir)
 	prettify_xml_in_directory(ead_dir, ead_dir)
 	print "*** RUN WALKER'S EXTENT NORMALIZATION SCRIPT ***"
-	print "*** COPY THE MASTER FILES TO THE LOCAL EAD DIR"
+	print "*** COPY THE MASTER FILES TO THE LOCAL EAD DIR ***"
 
 def main():
 	aspace_ead_dir = join(ead_dir, 'eads')

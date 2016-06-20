@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::cranehh.xml//EN" encodinganalog="identifier">umich-bhl-85164</eadid>
@@ -18,6 +18,10 @@
       <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
     </profiledesc>
     <revisiondesc>
+      <change>
+        <date>2016-06-01</date>
+        <item>Added digitized audio cassettes.</item>
+      </change>
       <change>
         <date>20150608</date>
         <item>Added written notes from paper finding aid.</item>
@@ -68,7 +72,11 @@
       </physdesc>
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">1 digital files</extent>
-        <physfacet>streaming file</physfacet>
+        <physfacet>streaming video file</physfacet>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied"> 113 GB</extent>
+        <physfacet>audiofiles, online</physfacet>
       </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
@@ -80,12 +88,13 @@
         <p>The collection was the gift of Henry Hitt Crane (donor no. <num type="donor" encodinganalog="541$e">4816</num>) and came to the library in 1974. A second accession arrived in 1997 from Audrey Brodowicz (donor no. <num type="donor" encodinganalog="541$e">8582</num>).</p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
-        <p>The collection is open for research; the donor requests that the names of individuals receiving pastoral counseling not be cited.</p>
+        <p>The collection is open for research; the donor requests that the names of individuals receiving pastoral counseling not be cited. Digitized audio files are currently available only in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
       </userestrict>
       <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
         <p>The 16mm film in the collection was digitized in 2009 as part of a library video preservation project. A preservation master beta tape was created along with DVD and streaming file. The DVD is available for use in the library. The streaming files may be available online at a given time, but can be mounted on request.</p>
       </altformavail>
       <prefercite encodinganalog="524">
@@ -2328,7 +2337,7 @@
         <scopecontent>
           <p>Sermon File, 1925-1958 (7.75 linear feet) consists of three subseries. One is an alphabetical sequence of typescripts and reprints of the sermons preached by Henry Hitt Crane while he was pastor of Central Methodist Church, 1938-1958. The second subseries is a card file with several sections. The most extensive is an alphabetical listing of sermon titles with the date(s) and place(s) where the message was given and followed by the notecards created by Crane in preparing the message. Unlike the subseries of sermon messages, this card file dates back to 1925. Smaller portions of the card file subseries document Crane's salary and speech honorarium payments. There is another card file, arranged alphabetically by city that lists the day, place, and title of message given by Crane. These card files, more than any other source, highlight the scope of Crane's speaking obligations. Crane in some years averaged more than one speech or sermon message per day. The third subseries within the Sermon File consists of reel-to-reel sound tapes of messages given by Crane at Central Methodist Church. There are approximately 150 reels in this series. Some of the tapes consist of messages given by other speakers. Dr. Martin Luther King, Jr., for one, spoke at Central Methodist in 1957.</p>
         </scopecontent>
-        <c02 level="file">
+        <c02 level="subseries">
           <did>
             <unittitle>Typescripts and reprints</unittitle>
           </did>
@@ -4762,70 +4771,1685 @@
             </did>
           </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="subseries">
           <did>
-            <unittitle>Notecards</unittitle>
+            <unittitle>Sermon Notecards</unittitle>
           </did>
-          <odd>
-            <p>(arranged alphabetically by sermon title; notecards list dates and place given of the message; also notes for message as used from the pulpit)</p>
-          </odd>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">26-a</container>
-              <unittitle>A-P</unittitle>
+              <unittitle>Notecards</unittitle>
+            </did>
+            <odd>
+              <p>(arranged alphabetically by sermon title; notecards list dates and place given of the message; also notes for message as used from the pulpit)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">26-a</container>
+                <unittitle>A-P</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">26-b</container>
+                <unittitle>P-Z</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">26-b</container>
+              <unittitle>Notecards listing salary and payment received for speeches, etc. <unitdate type="inclusive" normal="1925/1966">1925-1966</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">26-b</container>
-              <unittitle>P-Z</unittitle>
+              <unittitle>Notecards</unittitle>
+            </did>
+            <odd>
+              <p>(alphabetical by city listing date, place, title of message, etc.)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">26-b</container>
+              <unittitle>Miscellaneous notecards</unittitle>
             </did>
           </c03>
         </c02>
-        <c02 level="file">
+        <c02 level="subseries">
           <did>
-            <container type="box" label="Box">26-b</container>
-            <unittitle>Notecards listing salary and payment received for speeches, etc. <unitdate type="inclusive" normal="1925/1966">1925-1966</unitdate></unittitle>
+            <unittitle>Sound recordings of sermons and other speeches, <unitdate type="inclusive" normal="1952/1962">1952-1962</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">26-b</container>
-            <unittitle>Notecards</unittitle>
-          </did>
-          <odd>
-            <p>(alphabetical by city listing date, place, title of message, etc.)</p>
-          </odd>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">26-b</container>
-            <unittitle>Miscellaneous notecards</unittitle>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Sound recordings of sermons and other speeches</unittitle>
-            <container label="Box" type="box">27</container>
-          </did>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Sound recordings of sermons and other speeches</unittitle>
-            <container label="Box" type="box">28</container>
-          </did>
-          <odd>
-            <p>(continued)</p>
-          </odd>
-        </c02>
-        <c02 level="file">
-          <did>
-            <unittitle>Sound recordings of sermons and other speeches</unittitle>
-            <container label="Box" type="box">29</container>
-          </did>
-          <odd>
-            <p>(continued)</p>
-          </odd>
+          <accessrestrict>
+            <p>[Digitized audio files are currently available only in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+          </accessrestrict>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>[Dr. Henry Crane]; Peter Marshall; [Dr. Dale Oldham], <unitdate type="inclusive">1952 November 16, [Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Dr. Henry Crane] “The Trick of the Triumphant”</unittitle>
+                <unitid>[85164-SR-1-1-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-1-1-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_bmlyp9e3" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Henry Crane sermon: 1. “The Trick of the Triumphant” 2 A. “Trumpet of the Morm”, Peter Marshall B. “Trial by Fire” C. “Bethlehem.” Recording of Henry Crane sermon; Jack O'Dell, announcing; produced by Christian Brotherhood Hour of Anderson, IN.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Peter Marshall; “Trumpet of the Morm”; “Trial by Fire”; “Bethlehem"</unittitle>
+                <unitid>[85164-SR-1-1-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-1-1-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_kr6wh7oc" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Henry Crane sermon: 1. “The Trick of the Triumphant” 2 A. “Trumpet of the Morm”, Peter Marshall B. “Trial by Fire” C. “Bethlehem.” Recording of Henry Crane sermon; Jack O'Dell, announcing; produced by Christian Brotherhood Hour of Anderson, IN.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Dr. Dale Oldham; "What Christ Can Do for You"]</unittitle>
+                <unitid>[85164-SR-1-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-1-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_2jl2r8dm" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Henry Crane sermon: 1. “The Trick of the Triumphant” 2 A. “Trumpet of the Morm”, Peter Marshall B. “Trial by Fire” C. “Bethlehem.” Recording of Henry Crane sermon; Jack O'Dell, announcing; produced by Christian Brotherhood Hour of Anderson, IN.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>Don Smucker, <unitdate type="inclusive">1952 June 21</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Don Smucker, "Pacifist in Church"</unittitle>
+                <unitid>[85164-SR-4-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-4-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_9b20f3h2" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Don Smucker sermon: "The Pacifist in Church", A.M.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Don Smucker; "Pacifist as Citizen"</unittitle>
+                <unitid>[85164-SR-4-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-4-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_4ysigm2j" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Don Smucker sermon: "The Pacifist in Church", A.M.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>Rabbi Hertz, <unitdate type="inclusive">1954 March 31</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Rabbi Hertz, "Who are the real Subversives"</unittitle>
+                <unitid>[85164-SR-8-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-8-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_fduh1mv8" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Rabbi Hertz sermon: "Who are the real Subversives?")</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Rabbi Hertz, Question Period</unittitle>
+                <unitid>[85164-SR-8-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-8-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_1m9tacnl" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Rabbi Hertz, Question Period.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>Dr. Crane; Bishop G. Bromley Oxnam, <unitdate type="inclusive">1955 January 26</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Crane, "Which Way to Peace?"</unittitle>
+                <unitid>[85164-SR-18-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-18-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_8xm5lfd2" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Henry Crane sermons: Track 1 Which Way to Peace?, L.A. CAL; Dr. Crane Track 1-2; Bishop G. Bromley Oxnam; Track 2 Question Period.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Bishop G. Bromley Oxnam; Question Period</unittitle>
+                <unitid>[85164-SR-18-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-18-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_yir3h6iq" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Henry Crane sermons: Track 1 Which Way to Peace?, L.A. CA; Dr. Crane Track 1-2; Bishop G. Bromley Oxnam; Track 2 Question Period.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>[Dr. Crane;] Kirby Page, <unitdate type="inclusive">1956 March 15</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Dr. Crane;] "Prison Vs. Prayer"</unittitle>
+                <unitid>[85164-SR-24-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-24-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_55wers8h" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane sermon: April 15, 1954 a.m.Track 1 Prison Vs. Prayer HC (12th in Series on Acts of the Apostles); April 15, 1954 p.m. Track 2 Kirby Page, God’s Answer to the Cold War.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Kirby Page, "God’s Answer to the Cold War"</unittitle>
+                <unitid>[85164-SR-24-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-24-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_q9sj8s0n" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane sermon: April 15, 1954 a.m.Track 1 Prison Vs. Prayer HC (12th in Series on Acts of the Apostles); April 15, 1954 p.m. Track 2 Kirby Page, God’s Answer to the Cold War.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>Gerald Heard, <unitdate type="inclusive">1956 May 22</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Gerald Heard, "The Mystery of Teaching &amp; Learning"</unittitle>
+                <unitid>[85164-SR-27-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-27-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_99zwffvj" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of sermon by Gerald Heard: "The Mystery of Teaching &amp; Learning.")</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>Dr. Crane; Rev. Anthony R. Perrino, <unitdate type="inclusive">1957 December 08</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Crane, “You – In Person!”</unittitle>
+                <unitid>[85164-SR-30-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-30-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_gj6kfumn" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane sermons: December 8, 1957 a.m.Track 1; Dr. Crane, “You – In Person!” p.m.Track 2 Rev. Anthony R. Perrino, “The Imprisoned Splendor.” )</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Rev. Anthony R. Perrino, “The Imprisoned Splendor”</unittitle>
+                <unitid>[85164-SR-30-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-30-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_gfllwn9a" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane and Rev. Anthony R. Perrino sermons: December 8, 1957 a.m.Track 1; Dr. Crane, “You – In Person!” p.m.Track 2 Rev. Anthony R. Perrino, “The Imprisoned Splendor.” )</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>Rev. Tony Perrino; Dr. Crane, <unitdate type="inclusive">1958 February 09</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Rev. Tony Perrino, “A Face in the Crowd”</unittitle>
+                <unitid>[85164-SR-32-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-32-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_6341ylsh" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Tony Perrino sermon: February 9, 1958 a.m. Rev. Tony Perrino, “A Face in the Crowd” p.m.; Dr. Crane, “A Personal Emancipation Proclamation." )</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Crane, “A Personal Emancipation Proclamation"</unittitle>
+                <unitid>[85164-SR-32-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-32-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_9rzmt61t" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane and Rev. Tony Perrino sermons: February 9, 1958 a.m. Rev. Tony Perrino, “A Face in the Crowd” p.m.; Dr. Crane, “A Personal Emancipation Proclamation.")</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>Dr. Crane; Rev. Tony Perrino, <unitdate type="inclusive">1958 March 09</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Crane, “The Power Test”</unittitle>
+                <unitid>[85164-SR-34-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-34-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_03jzhdwn" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane and Rev. Tony Perrino sermons; March 9, 1958 Track 1 Dr. Crane, “The Power Test” Track 2 Rev. Tony Perrino, “Somewhere There’s Music.”)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Rev. Tony Perrino, “Somewhere There’s Music” </unittitle>
+                <unitid>[85164-SR-34-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-34-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_qfbv0frd" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane and Rev. Tony Perrino sermons: March 9, 1958 Track 1 Dr. Crane, “The Power Test” Track 2 Rev. Tony Perrino, “Somewhere There’s Music” )</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>Dr. Crane; Rev. Tony Perrino, <unitdate type="inclusive">1958 March 23</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Crane, “Taking the Cross Seriously”</unittitle>
+                <unitid>[85164-SR-35-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-35-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ij0vbuhc" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane and Rev. Tony Perrino sermons; March 9, 1958 Track 1 Dr. Crane, “The Power Test” Track 2 Rev. Tony Perrino, “Taking the Cross Seriously.”)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Rev. Tony Perrino, “Jesus’ Cry of Thirst” </unittitle>
+                <unitid>[85164-SR-35-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-35-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_e0ovzfi5" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane and Tony Perrino sermons: March 23, 1958 a.m. Dr. Crane, “Taking the Cross Seriously”; p.m. Rev. Tony Perrino, “Jesus’ Cry of Thirst.”)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>Dr. James Wilder Knoxville; Dr. Wilder, <unitdate type="inclusive">1958 April 13</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. James Wilder Knoxville, “What Can One Person Do?”</unittitle>
+                <unitid>[85164-SR-36-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-36-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_zbbwm4lz" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. James Wilder Knoxville sermons: April 13, 1958 a.m.; Dr. James Wilder Knoxville, “What Can One Person Do?” TN p.m. Dr. Wilder,“How Badly Do We Want It?” )</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Wilder,“How Badly Do We Want It?” </unittitle>
+                <unitid>[85164-SR-36-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-36-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_blohplq3" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Wilder sermons: April 13, 1958 a.m. Dr. James Wilder, Knoxville, “What Can One Person Do?” TN p.m. Dr. Wilder,“How Badly Do We Want It?”)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>Dr. Crane; Rev. Tony Perrino, <unitdate type="inclusive">1958 April 27</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Crane "Transferred Triumphs"</unittitle>
+                <unitid>[85164-SR-37-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-37-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_l3wz0hhg" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane and Rev. Tony Perrino sermons: April 27, 1958 a.m. Dr. Crane, “Transferred Triumphs” p.m. Rev. Tony Perrino, “The Holiness of Humor.” )</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Rev. Tony Perrino "The Holiness of Humor"</unittitle>
+                <unitid>[85164-SR-37-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-37-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_esugh5v5" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane and Rev. Tony Perrino sermons: April 27, 1958 a.m. Dr. Crane, “Transferred Triumphs” p.m. Rev. Tony Perrino, “The Holiness of Humor.” )</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>Robert W. Moon; Rev. Tony Perrino, <unitdate type="inclusive">1958 May 04</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Robert W. Moon, “The Way to Integrity”</unittitle>
+                <unitid>[85164-SR-38-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-38-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_mlsu94yy" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Robert W. Moon and Rev. Tony Perrino sermons: May 4, 1958 a.m. Robert W. Moon, “The Way to Integrity” San Leandro, CA p.m. Rev. Tony Perrino, “A Victim of Success.” )</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Rev. Tony Perrino, “A Victim of Success” </unittitle>
+                <unitid>[85164-SR-38-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-38-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_itukvd5a" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Robert W. Moon and Rev. Tony Perrino sermons: May 4, 1958 a.m. Robert W. Moon, “The Way to Integrity” San Leandro, CA p.m. Rev. Tony Perrino, “A Victim of Success.”)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Dr. Laird; Rev. Sutton, <unitdate type="inclusive">1960 January 15</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Laird, “To The End of the World near?”</unittitle>
+                <unitid>[85164-SR-45-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-45-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_0lwvlut1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Laird sermon, “To The End of the World near?”)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Rev. Sutton, “The Marks of a Christian”</unittitle>
+                <unitid>[85164-SR-45-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-45-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_mk338899" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Rev. Sutton sermon, “The Marks of a Christian.”)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Leslie Hayman, <unitdate type="inclusive">1962 October 15</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Leslie Hayman,"Our Hope for Peace"</unittitle>
+                <unitid>[85164-SR-48-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-48-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_5utzlgzp" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Leslie Hayman and Albert Bigelow sermons: Track 1, 1-18 Leslie Hayman,"Our Hope for Peace" Track 2, 20-300 Albert Bigelow, "The Power and Method of Non-Violence" October 15, 1962.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Albert Bigelow, "The Power and Method of Non-Violence"</unittitle>
+                <unitid>[85164-SR-48-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-48-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_g7mffg5q" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Leslie Hayman and Albert Bigelow sermons: Track 1, 1-18 Leslie Hayman,"Our Hope for Peace" Track 2, 20-300 Albert Bigelow, "The Power and Method of Non-Violence" October 15, 1962.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Dr. Laird; Dr. Laird/Mr. Sutton; Dr. Crane, <unitdate type="inclusive">1960 November 27</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Laird, “Wayne State Communism and Freedom Speech”</unittitle>
+                <unitid>[85164-SR-56-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-56-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_jr0ffvq6" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Laird, Sutton, and Crane sermons: November 27, 1960 Track 1; Dr. Laird, “Wayne State Communism and Freedom Speech”; Dr. Laird/Mr. Sutton “What about Elmer Gantry”; December 4, 1960 Track 2 Dr. Crane, “The Plight of the Pressured.” )</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Laird/Mr. Sutton “What about Elmer Gantry”</unittitle>
+                <unitid>[85164-SR-56-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-56-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ax84gyll" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Laird, Sutton, and Crane sermons: November 27, 1960 Track 1; Dr. Laird, “Wayne State Communism and Freedom Speech”; Dr. Laird / Mr. Sutton “What about Elmer Gantry”; December 4, 1960 Track 2 Dr. Crane, “The Plight of the Pressured.” )</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Dr. Martin Luther King; Norman Thomas, <unitdate type="inclusive">1958 August 24, 1958 August 31</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Martin Luther King, “Going Forward By Going Backwards”</unittitle>
+                <unitid>[85164-SR-57-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-57-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_h7ljbxfl" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Martin Luther King and Norman Thomas sermon: August 24, 1958 a.m. Dr. Martin Luther King, “Going Forward By Going Backwards”; August 31, 1958 a.m. Norman Thomas, “Religion and Labor in the Affluent Society.")</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Norman Thomas, “Religion and Labor in the Affluent Society"</unittitle>
+                <unitid>[85164-SR-57-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-57-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_vtuzb2au" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Martin Luther King and Norman Thomas sermon: August 24, 1958 a.m. Dr. Martin Luther King, “Going Forward By Going Backwards”; August 31, 1958 a.m. Norman Thomas, “Religion and Labor in the Affluent Society.")</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Rev. Tony Perrino; Dr. Crane, <unitdate type="inclusive">1957 December 29, 1958 January 05</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Rev. Tony Perrino, “Be Somebody On Campus”</unittitle>
+                <unitid>[85164-SR-60-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-60-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_rjehh793" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Rev. Tony Perrino and Dr. Crane sermons: December 29, 1957 Rev. Tony Perrino, “Be Somebody On Campus”; January 5, 1958 Dr. Crane, “On Providing The Power of Prayer." )</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Crane, “On Providing The Power of Prayer"</unittitle>
+                <unitid>[85164-SR-60-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-60-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ppdwzhd1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane and Rev. Tony Perrino sermon: December 29, 1957 Rev. Tony Perrino, “Be Somebody On Campus”; January 5, 1958 Dr. Crane, “On Providing The Power of Prayer.")</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Carl Adkins; Dr. Martin Luther King, Jr., <unitdate type="inclusive">1957 August 11, 1957 August 18</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Carl Adkins, “Sin &amp; Forgiveness”</unittitle>
+                <unitid>[85164-SR-62-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-62-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_r3zz5dt8" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Carl Adkins' sermon: “Sin &amp; Forgiveness.”)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Martin Luther King, Jr., “Paul’s Letter To American Christians”</unittitle>
+                <unitid>[85164-SR-62-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-62-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_95twtt6d" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Martin Luther King, Jr. sermon, “Paul’s Letter To American Christians.”)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Dr. Benjamin Mays; Dr. George A. Buttrick, <unitdate type="inclusive">1957 August 04, 1957 August 25</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Benjamin Mays, “How Righteous is our Righteousness?”</unittitle>
+                <unitid>[85164-SR-63-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-63-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_01mob9nk" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Benjamin Mays and Dr. George A. Buttrick sermons; August 4, 1957 a.m. Dr. Benjamin Mays, “How Righteous is our Righteousness?”; August 25, 1957 Dr. George A. Buttrick, “Two-World Conversation.” )</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. George A. Buttrick, “Two-World Conversation” </unittitle>
+                <unitid>[85164-SR-63-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-63-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_f305kq2g" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Benjamin Mays and Dr. George A. Buttrick sermons; August 4, 1957 a.m. Dr. Benjamin Mays, “How Righteous is our Righteousness?”; August 25, 1957 Dr. George A. Buttrick, “Two-World Conversation.” )</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Dr. Benjamin E. Mays; Dr. Hiram Weld, <unitdate type="inclusive">1956 August 05, 1956 August 12</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Benjamin E. Mays, “Everywhere I Turn I Meet Jesus”</unittitle>
+                <unitid>[85164-SR-68-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-68-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_w5huego8" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Benjamin E. Mays and Dr. Hiram Weld; August 5, 1956 Track 1 Benjamin E. Mays, “Everywhere I Turn I Meet Jesus” Dr. and August 12, 1956 Track 2 Dr. Hiram Weld; contains a paper program from the Church.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Hiram Weld, ["Living the Humble Life"]</unittitle>
+                <unitid>[85164-SR-68-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-68-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_s43wn00x" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Hiram Weld and Dr. Benjamin E. Mays sermons: August 5, 1956 Track 1 Benjamin E. Mays, “Everywhere I Turn I Meet Jesus” Dr. and August 12, 1956 Track 2 Dr. Hiram Weld; contains a paper program from the Church.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Dr. Crane; Tony Perrino, <unitdate type="inclusive">1955 December 25, 1956 January 01</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Crane, “And It Came To Pass”</unittitle>
+                <unitid>[85164-SR-69-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-69-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_2z07fqwu" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane sermon, “And It Came To Pass.”)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Tony Perrino</unittitle>
+                <unitid>[85164-SR-69-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-69-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_dmrj3gqc" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of an unlisted Rev. Tony Perrino sermon.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Dr. Norman Thomas; Dr. Crane, <unitdate type="inclusive">1955 September 04, 1955 December 11</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Norman Thomas</unittitle>
+                <unitid>[85164-SR-70-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-70-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_knydras3" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of an unlisted Dr. Norman Thomas sermon.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Crane, “What Do You Say?"</unittitle>
+                <unitid>[85164-SR-70-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-70-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_yl69oox4" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane sermon, “What Do You Say?")</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Bill Miner; Glenn E. Smiley, "Walking to Freedom", <unitdate type="inclusive">1956 November 28</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Bill Miner; [Untitled]</unittitle>
+                <unitid>[85164-SR-73-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-73-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_4cz2iun7" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Bill Miner and Glenn E. Smiley sermon; Track 1, Bill Miner; Track 2 November 28, 1956 Glenn E. Smiley, "Walking to Freedom.")</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>[Dr. Crane], <unitdate type="inclusive">1950 February 19, 1952 May 19</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Dr. Crane;] “Subversive Inactive”</unittitle>
+                <unitid>[85164-SR-82-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-82-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_s45vd4xc" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane sermons: Track 1 May 19, 1952 “Subversive Inactive”; Track 2 February 19, 1950 “The Lies That Blind.”)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Dr. Crane;] "The Lies That Blind”</unittitle>
+                <unitid>[85164-SR-82-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-82-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_gr0d7qls" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane sermons: Track 1 May 19, 1952 “Subversive Inactive”; Track 2 February 19, 1950 “The Lies That Blind.”)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>“No Corrupt Communication" ; “The Peril of Profitable Patriotism” ; “Personal Peace in a Warring World”, <unitdate type="inclusive">1949 May 01, 1950 May 07, 1951 May 21, 1951 November 21</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Dr. Crane], “No Corrupt Communication", “The Peril of Profitable Patriotism”</unittitle>
+                <unitid>[85164-SR-84-1-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-84-1-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_7x8isg14" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of sermons; Track 1 “No Corrupt Communication" ; November 21, 1951 “Personal Peace in a Warring World”; November 11, 1951 “The Peril of Profitable Patriotism” ; Track 2 May 1, 1949 “Faith-a Healing Factor” ; May 7, 1950 “The Ultimate Art.”)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Dr. Crane], “Personal Peace in a Warring World”</unittitle>
+                <unitid>[85164-SR-84-1-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-84-1-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_awvdfmq6" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of sermons: Track 1 “No Corrupt Communication" ; November 21, 1951 “Personal Peace in a Warring World”; November 11, 1951 “The Peril of Profitable Patriotism” ; Track 2 May 1, 1949 “Faith-a Healing Factor” ; May 7, 1950 “The Ultimate Art.”)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Dr. Crane], "No Corrupt Communication", “Faith-a Healing Factor”, “The Ultimate Art”</unittitle>
+                <unitid>[85164-SR-84-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-84-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_x6ujp5zu" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of sermons: Track 1 “No Corrupt Communication" ; November 21, 1951 “Personal Peace in a Warring World”; November 11, 1951 “The Peril of Profitable Patriotism” ; Track 2 May 1, 1949 “Faith-a Healing Factor” ; May 7, 1950 “The Ultimate Art.”)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">29</container>
+              <unittitle>“The Right To Be Inspired" ;“That Co-Essential Second Touch”, <unitdate type="inclusive">1949 September 17, 1950 October 29, [Undated], 1951 Spring</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Dr. Crane], “The Right To Be Inspired", “That Co-Essential Second Touch”</unittitle>
+                <unitid>[85164-SR-86-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-86-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ym1exxs3" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of sermons: Track 1 September 17, 1949 “The Right To Be Inspired" ; October 29, 1950 “That Co-Essential Second Touch” ; Track 2 “United Nations” ; Easter 1951, “The Ultimate Victory.”)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Dr. Crane], “United Nations”, “The Ultimate Victory”</unittitle>
+                <unitid>[85164-SR-86-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-86-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_xp0e0w8z" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of sermons: Track 1 September 17, 1949 “The Right To Be Inspired" ; October 29, 1950 “That Co-Essential Second Touch” ; Track 2 “United Nations” ; Easter 1951, “The Ultimate Victory.”)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">29</container>
+              <unittitle>Milton Mayer, "Anti-Red Menace", <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Milton Mayer, "Anti-Red Menace"</unittitle>
+                <unitid>[85164-SR-90-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-90-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_bcycvcow" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Milton Mayer sermon: "Anti-Red Menace.")</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Milton Mayer, "Anti-Red Menace"</unittitle>
+                <unitid>[85164-SR-90-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-90-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_j4jdr1hy" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Milton Mayer sermon: "Anti-Red Menace.")</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">29</container>
+              <unittitle>Dr. Norman Thomas, “Communism, McCarthyism and Freedom” , <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Dr. Norman Thomas, “Communism, McCarthyism and Freedom” </unittitle>
+                <unitid>[85164-SR-91-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-91-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_9nfdb4fx" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Norman Thomas sermon: “Communism, McCarthyism and Freedom.” )</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">29</container>
+              <unittitle>Wesley Grisham, “The Power of Silence”; “Life’s Greatest Discovery” , <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Wesley Grisham, “The Power of Silence”; “Life’s Greatest Discovery” </unittitle>
+                <unitid>[85164-SR-99-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-99-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ufposn2g" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Wesley Grisham sermons: Track 1 Wesley Grisham, “The Power of Silence”; “Life’s Greatest Discovery.” )</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">29</container>
+              <unittitle>Warner; Bainton, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Warner, "Implications of the Nuclear Age"</unittitle>
+                <unitid>[85164-SR-109-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-109-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ld5j8i85" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Warner sermon: Track 1 Warner, "Implications of the Nuclear Age; Track 2 Bainton, "Historical Basis." )</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Bainton, "Historical Basis" </unittitle>
+                <unitid>[85164-SR-109-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-109-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_1zyzzoag" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Bainton sermon: Track 1 Warner, "Implications of the Nuclear Age; Track 2 Bainton, "Historical Basis." )</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">29</container>
+              <unittitle>[Dr. Crane;] Korean Prisoners of War, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Dr. Crane;] Korean Prisoners of War</unittitle>
+                <unitid>[85164-SR-110-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-110-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_cuhy90h8" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane discussing Korean Prisoners of War.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Dr. Crane;] Korean Prisoners of War</unittitle>
+                <unitid>[85164-SR-110-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-110-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_zk1943ai" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Dr. Crane discussing Korean Prisoners of War.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">29</container>
+              <unittitle>Swomley; Freeman, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Swomley, "Militarism &amp; Disarmament"</unittitle>
+                <unitid>[85164-SR-111-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-111-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_8kpep30u" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Swomley sermon: "Militarism &amp; Disarmament.")</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Freeman, "Law-Pacif"</unittitle>
+                <unitid>[85164-SR-111-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-111-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_0h9cltmm" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Freeman sermon: "Law-Pacif.")</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">29</container>
+              <unittitle>Gregg; Bigelow, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Gregg, "Nonviolence"</unittitle>
+                <unitid>[85164-SR-112-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-112-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_jxkndnet" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Gregg sermon: Track 1 Gregg, "Nonviolence" and undated Track 2 Bigelow, "NV Resistance.")</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Bigelow, "NV Resistance"</unittitle>
+                <unitid>[85164-SR-112-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-112-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_ylgfhi8k" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of Gregg sermon: Track 1 Gregg, "Nonviolence" and undated Track 2 Bigelow, "NV Resistance.")</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">29</container>
+              <unittitle>Oxnam Dialogue Crane, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Gabriel] Oxnam; Dialogue w/Crane</unittitle>
+                <unitid>[85164-SR-116-1-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-116-1-1.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_46xekc5z" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of dialogue between Garfield Bromley Oxnam and Henry Crane.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Gabriel] Oxnam; Dialogue w/Crane</unittitle>
+                <unitid>[85164-SR-116-1-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-116-1-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_1rlvu5xq" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of dialogue between Garfield Bromley Oxnam and Henry Crane.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Gabriel] Oxnam; Dialogue w/Crane</unittitle>
+                <unitid>[85164-SR-116-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <physdesc>
+                  <physfacet>85164-SR-116-2.mp3, 00:33:45, 635 MB</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_4lpkznzi" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Recording of dialogue between Garfield Bromley Oxnam and Henry Crane.)</abstract>
+              </did>
+            </c04>
+          </c03>
         </c02>
       </c01>
       <c01 level="series">
@@ -4906,7 +6530,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">32</container>
-            <unittitle>Photographs <unitdate type="inclusive" normal="1952/1961">1952-1961</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Photographs <unitdate type="inclusive" normal="1952/1961">1952-1961</unitdate>, <unitdate>undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -4980,36 +6604,36 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">33</container>
-              <unittitle>General <unitdate type="inclusive" normal="1959/1965">1959-1965</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>General <unitdate type="inclusive" normal="1959/1965">1959-1965</unitdate>, <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">33</container>
-              <unittitle>Local Appearances <unitdate type="inclusive" normal="1956/1963">1956-1963</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Local Appearances <unitdate type="inclusive" normal="1956/1963">1956-1963</unitdate>, <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">33</container>
-              <unittitle>Personal <unitdate type="inclusive" normal="1955/1977">1955-1977</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Personal <unitdate type="inclusive" normal="1955/1977">1955-1977</unitdate>, <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">33</container>
-              <unittitle>Retirement <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Retirement <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>, <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate>, <unitdate>undated</unitdate></unittitle>
           </did>
           <c03 level="file">
             <did>
               <container type="box" label="Box">33</container>
-              <unittitle>General <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>General <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate>, <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -5022,7 +6646,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">33</container>
-            <unittitle>Programs and Pamphlets <unitdate type="inclusive" normal="1959/1964">1959-1964</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unittitle>Programs and Pamphlets <unitdate type="inclusive" normal="1959/1964">1959-1964</unitdate>, <unitdate>undated</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>

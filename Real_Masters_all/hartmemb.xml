@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>2016-06-01</date>
+        <item>Added digitized audio cassettes.</item>
+      </change>
+      <change>
         <date>2012-04-18</date>
         <item>Changes made with the addition of new material</item>
       </change>
@@ -63,6 +67,10 @@
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">18 linear feet</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">8.6 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -81,6 +89,9 @@
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., Hartford Memorial Baptist Church, Detroit, Mich., Records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>Between 1910 and 1920 the African-American population of Detroit increased from 5,741 to 40,838. Key institutions in the spiritual and social life of African Americans, African-American churches in Detroit grew in number from six in 1916 to over forty in 1926. African Americans settled on the east side of Detroit first and then migrated west, where there were no African-American churches. Rev. Edward Wendall Edwards approached the pastors of the Second Baptist Church and the Detroit Baptist Union and they both supported the establishment of a new church for the west side of Detroit. In 1917, the First Institutional Baptist Church of Detroit was organized with Rev. Edwards as its first pastor; it was the first African-American religious institution west of Woodward Avenue in Detroit.</p>
@@ -720,7 +731,7 @@
             </did>
           </c03>
         </c02>
-        <c02 level="subseries">
+        <c02 level="file">
           <did>
             <unittitle>"In Our Opinion" column of Charles Adams</unittitle>
           </did>
@@ -864,9 +875,80 @@
             <container type="box" label="Box">14</container>
             <unittitle>Hill family. Funeral and obituary of Bermecia Morrow-McCoy <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
           </did>
-          <odd>
-            <p>(includes sound cassettes)</p>
-          </odd>
+          <accessrestrict>
+            <p>[Digitized audio files are currently available only in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+          </accessrestrict>
+          <c03>
+            <did>
+              <unittitle>Papers</unittitle>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>Homegoing for Bermecia Morrow-McCoy, <unitdate type="inclusive">2002 June 14</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Side 1]</unittitle>
+                <unitid>[9930-SR-1-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_kjbgunvz" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 1; Hartford Memorial Baptist Church - Dr. Charles G. Adams, Pastor. Funeral service Bermecia Morrow-McCoy.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Side 2]</unittitle>
+                <unitid>[9930-SR-1-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_11u159f1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 1; Hartford Memorial Baptist Church - Dr. Charles G. Adams, Pastor. Funeral service Bermecia Morrow-McCoy.)</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>Homegoing for Bermecia Morrow-McCoy, <unitdate type="inclusive">2002 June 14</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Side 1; no Side 2]</unittitle>
+                <unitid>[9930-SR-2-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_as32o8oy" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Tape 2; Hartford Memorial Baptist Church - Dr. Charles G. Adams, Pastor. Funeral service Bermecia Morrow-McCoy.)</abstract>
+              </did>
+            </c04>
+          </c03>
         </c02>
         <c02 level="file">
           <did>

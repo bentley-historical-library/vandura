@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::bennettj.xml//EN" encodinganalog="Identifier">umich-bhl-85529</eadid>
@@ -61,7 +61,7 @@
         <p>The collection was the gift of Margaret Robinson (donor no. <num type="donor" encodinganalog="541$e">5393</num>).</p>
       </acqinfo>
       <accruals encodinganalog="584">
-        <p>Periodic additions to the records are not expected.</p>
+        <p>Periodic additions to the records are not expected. Digitized audio files are currently available only in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accruals>
       <accessrestrict encodinganalog="506">
         <p>The collection is open to research.</p>
@@ -77,6 +77,9 @@
           <extptr href="digitalproc" show="embed" actuate="onload"/>
         </p>
       </processinfo>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>John Bonifas Bennett was a Representative from Michigan. He was born in Garden, Delta County, Mich. on January 10, 1904. He attended the public schools, and graduated from Watersmeet High School in Michigan, and from Marquette University Law School in Milwaukee, Wisconsin, in 1925. Bennett took a postgraduate course at Chicago, IL University Law School in 1926, and was admitted to the Wisconsin bar in 1925 and the Michigan bar in 1926. He practiced law in Ontonagon, Michigan from 1926-1942. Bennett was a prosecuting attorney of Ontonagon County from 1929-1934, deputy commissioner of the Michigan Department of Labor and Industry from 1935-1937, and was elected as a republican to the Seventy-eighty Congress from January 3, 1943-January 3, 1945. He was an unsuccessful candidate for reelection in 1944 to the Seventy-ninth Congress, and resumed the practice of law. In 1946, Bennett was elected to the Eightieth and to the eight succeeding Congresses and served from January 3, 1947, until his death, August 9, 1964.</p>
@@ -646,6 +649,7 @@
       </c01>
       <c01 level="series">
         <did>
+          <container type="box" label="Box">2</container>
           <unittitle>
             <genreform normal="Sound recordings">Sound recordings</genreform>
           </unittitle>
@@ -654,6 +658,9 @@
             <physfacet>reel-to-reel tapes</physfacet>
           </physdesc>
         </did>
+        <accessrestrict>
+          <p>[Digitized audio files are currently available only in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+        </accessrestrict>
         <c02 level="otherlevel" otherlevel="item-main">
           <did>
             <unittitle>Radio program with Bennett and congressman Victor A. Knox on the subject of social security, <unitdate type="inclusive">1954 May</unitdate></unittitle>
@@ -680,6 +687,7 @@
         </c02>
         <c02 level="otherlevel" otherlevel="item-main">
           <did>
+            <container type="box" label="Box">2</container>
             <unittitle>Campaign message discussing the issues of special relevance to the voters of the Upper Peninsula, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
             <physdesc>
               <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>

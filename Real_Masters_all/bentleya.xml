@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>2016-06-01</date>
+        <item>Added digitized audio reel to reel tapes.</item>
+      </change>
+      <change>
         <date>20150819</date>
         <item>Corrected container listing and added written notes from paper finding aid.</item>
       </change>
@@ -59,6 +63,10 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">5 oversize volumes</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied"> 1.36 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -69,7 +77,7 @@
         <p>The collection was donated in a number of accessions between 1996 and 1981 by Alvin M. Bentley, his wife, and members of the Bentley family. Donor no. <num encodinganalog="541$e" type="donor">4322</num></p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
-        <p>The collection is open for research.</p>
+        <p>The collection is open for research. Digitized audio files are currently available only in the Bentley Historical Library reading room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
@@ -77,6 +85,9 @@
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., Alvin M. Bentley Papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>Alvin M. Bentley, III, the only child of Alvin M. Bentley, Jr., and Helen Webb Bentley, was born in Portland, Maine August 30, 1918, three months before his father died while serving in France during World War I. Although fatherless, Bentley was not penniless for he was an heir to a family fortune which originated with his grandfather who founded the Owosso Manufacturing Company (later a division of Mitchell-Bentley Corporation) and was an early investor in the General Motors Corporation.</p>
@@ -4365,7 +4376,7 @@
           <c03 level="file">
             <did>
               <container type="box" label="Box">37</container>
-              <unittitle>Speeches <unitdate type="inclusive">undated</unitdate></unittitle>
+              <unittitle>Speeches <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
         </c02>
@@ -11461,7 +11472,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">84</container>
-            <unittitle><unitdate type="inclusive">Undated</unitdate>, <unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate> (clippings)</unittitle>
+            <unittitle><unitdate>Undated</unitdate>, <unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate> (clippings)</unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -12039,7 +12050,7 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">94</container>
-            <unittitle><unitdate normal="1938-06-30/1938-08-27" type="inclusive">June 30-August 27, 1938</unitdate> (typescript)</unittitle>
+            <unittitle><unitdate normal="1938-06-30/1938-08-27">June 30-August 27, 1938</unitdate> (typescript)</unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -12651,7 +12662,7 @@
               <did>
                 <container type="box" label="Box">103</container>
                 <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
+                  <unitdate>Undated</unitdate>
                 </unittitle>
               </did>
             </c04>
@@ -12744,11 +12755,58 @@
           <did>
             <unittitle>Sound recordings</unittitle>
           </did>
-          <c03 level="file">
+          <accessrestrict>
+            <p>[Digitized audio files are currently available only in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+          </accessrestrict>
+          <c03 level="otherlevel" otherlevel="item-main">
             <did>
-              <container label="Box" type="box">103</container>
-              <unittitle>Unprocessed</unittitle>
+              <container type="box" label="Box">103</container>
+              <unittitle>Interview, Hugh W. Brenneman with Lindbergh Rogers, Alvin Bentley, Win Schuler, William Marshall, Tom Miles, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet>
+              </physdesc>
             </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85746-SR-1-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_c3bqcmzl" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Interview: Hugh W. Brenneman (Michigan Association of Professions) with Lindbergh Rogers (Minister of Interior Affairs and Health - Belize), Alvin Bentley (Michigan Partners of the Alliance), Win Schuler (Win-Schuler, Inc.), William Marshall ( AFL-CIO), Tom Miles (British Caribbean Empire, Ltd.))</abstract>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">103</container>
+              <unittitle>Alvin M. Bentley speaks on foreign policy, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 5 inch, 3 ¾ ips</physfacet>
+              </physdesc>
+            </did>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[85746-SR-2-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_5xgfl55a" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Alvin M. Bentley speaks on the subject of world hunger and foreign policy.)</abstract>
+              </did>
+            </c04>
           </c03>
         </c02>
       </c01>

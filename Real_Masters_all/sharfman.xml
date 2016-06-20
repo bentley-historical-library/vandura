@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>2016-06-01</date>
+        <item>Added digitized audio cassettes.</item>
+      </change>
+      <change>
         <date>2008-08-25</date>
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
@@ -44,6 +48,10 @@
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">11 linear feet</extent>
       </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2.1 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
@@ -65,6 +73,9 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, I. Leo Sharfman papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
+      <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a number of sound recordings within this collection. The resulting audio files are available for playback only in the Bentley Library Reading Room. Links to item images and additional information are available within this finding aid. Original sound recordings are only available for staff use.</p>
+      </altformavail>
     </descgrp>
     <bioghist encodinganalog="545">
       <p>Isaiah Leo Sharfman was born in Polonnoe, Ukraine, Russia, February 19, 1886. He came to the United States in 1894 and became a citizen by virtue of his father's naturalization on November 30, 1903. Sharfman graduated from the Boston Latin School in 1904, received the A.B. degree from Harvard College in 1904, and an LL.B. degree from the Harvard Law School in 1910. During the two academic years 1908-10 he was assistant in economics at Harvard.</p>
@@ -2144,10 +2155,41 @@
           <did>
             <container type="box" label="Box">11</container>
             <unittitle>Opera <unitdate type="inclusive" normal="1953">1953</unitdate> "Ileolanthe" presented on occasion of retirement</unittitle>
-            <physdesc>
-              <physfacet>also includes sound recording</physfacet>
-            </physdesc>
+            <physdesc> </physdesc>
           </did>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <unittitle>Papers</unittitle>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Ileolanthe [Misspelling: Iolanthe], <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
+              </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[Digitized audio files are currently available only in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+            </accessrestrict>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Side 1; no Side 2]</unittitle>
+                <unitid>[8656-SR-1-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_b37qt07c" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Performance of Iolanthe a comic opera, presented on Sharfman's retirement.)</abstract>
+              </did>
+            </c04>
+          </c03>
         </c02>
         <c02 level="file">
           <did>

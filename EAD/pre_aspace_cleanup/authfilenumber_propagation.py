@@ -45,17 +45,18 @@ def apply_authfilenumbers(text_to_authfilenumber_dict, ead_dir):
 		tree = etree.parse(join(ead_dir,filename))
 		rewrite = False
 		for subject in tree.xpath('//controlaccess/*'):
-			subject_text = subject.text.strip().rstrip('.').encode('utf-8')
-			if subject.tag in ['corpname','persname','famname'] and '--' in subject_text:
-				subject_texts = subject_text.split('--')
-				joined = '--'.join(subject_texts[0:2]).rstrip(".")
-				if joined in special_cases.keys():
-					subject_text = joined
-				else:
-					subject_text = subject_texts[0]
-			if subject_text in text_to_authfilenumber_dict:
-				rewrite = True
-				subject.attrib['authfilenumber'] = text_to_authfilenumber_dict[subject_text]
+			if subject.tag in ["corpname", "persname", "famname", "subject", "geogname"]:
+				subject_text = subject.text.strip().rstrip('.').encode('utf-8')
+				if subject.tag in ['corpname','persname','famname'] and '--' in subject_text:
+					subject_texts = subject_text.split('--')
+					joined = '--'.join(subject_texts[0:2]).rstrip(".")
+					if joined in special_cases.keys():
+						subject_text = joined
+					else:
+						subject_text = subject_texts[0]
+				if subject_text in text_to_authfilenumber_dict:
+					rewrite = True
+					subject.attrib['authfilenumber'] = text_to_authfilenumber_dict[subject_text]
 		if rewrite:
 			with open(join(ead_dir,filename),'w') as f:
 				f.write(etree.tostring(tree,encoding='utf-8',xml_declaration=True,pretty_print=True))
@@ -64,7 +65,12 @@ def misassigned_authfilenumber_fixes(ead_dir):
 	auth_to_text = {"http://id.loc.gov/authorities/names/n79045539": "Detroit (Mich.)", 
 					"http://id.loc.gov/authorities/names/n79022219": "Ann Arbor (Mich.)",
 					"http://id.loc.gov/authorities/names/n81129560": "Benton Harbor (Mich.)",
-					"http://id.loc.gov/authorities/names/n00086557": "Willow Run (Mich.)"
+					"http://id.loc.gov/authorities/names/n00086557": "Willow Run (Mich.)",
+					"http://id.loc.gov/authorities/names/n85046908": "Ferndale (Mich.)",
+					"http://id.loc.gov/authorities/names/n92069775": "Holly (Mich.)",
+					"http://id.loc.gov/authorities/names/n83030021": "Port Huron (Mich.)",
+					"http://id.loc.gov/authorities/names/n2003122107": "Eastlake (Mich.)",
+					"http://id.loc.gov/authorities/names/n85115336": "Harbor Beach (Mich.)"
 					}
 	filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith(".xml")]
 	for filename in filenames:
