@@ -21,7 +21,8 @@
       <change>
         <date>2016-07-01</date>
         <item>Added digitized audio reel.</item>
-      </change><change>
+      </change>
+      <change>
         <date>2006-05-05</date>
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
@@ -49,7 +50,8 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied"> GB</extent>
         <physfacet>online</physfacet>
-      </physdesc><repository>
+      </physdesc>
+      <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -297,15 +299,55 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">2</container>
-            <unittitle><genreform normal="Sound recordings">Sound Recording</genreform></unittitle>
-            
+            <unittitle>
+              <genreform normal="Sound recordings">Sound Recording</genreform>
+            </unittitle>
           </did>
-        <c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">2</container><unittitle>Farewell speech for mayor, [as candidate for mayor of Highland Park]<unitdate type="inclusive">1968 December</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 3 inch, 3 ¾ ips</physfacet></physdesc></did><accessrestrict>
-          <p>[Digitized audio files are currently available only  in the Bentley Historical Library reading
-            room on designated Bentley Library computers.]</p>
-        </accessrestrict><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[0606-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_lmio6s55" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Karoub's farewell speech for mayor.)</abstract></did></c04>
-<c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 2]</unittitle><unitid>[0606-SR-1-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_zlh64o8l" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao><abstract>(Karoub's farewell speech for mayor.)</abstract></did></c04></c03>
-</c02>
+          <c03 level="otherlevel" otherlevel="item-main">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Farewell speech for mayor, [as candidate for mayor of Highland Park]<unitdate type="inclusive">1968 December</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Audio Reel-to-Reel, 3 inch, 3 ¾ ips</physfacet>
+              </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[Digitized audio files are currently available only in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+            </accessrestrict>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 1]</unittitle>
+                <unitid>[0606-SR-1-1]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_lmio6s55" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Karoub's farewell speech for mayor.)</abstract>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="item-part">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>[Part 2]</unittitle>
+                <unitid>[0606-SR-1-2]</unitid>
+                <physdesc>
+                  <physfacet>mp3 file</physfacet>
+                </physdesc>
+                <dao href="https://bentley.mivideo.it.umich.edu/media/1_zlh64o8l" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[access item]</p>
+                  </daodesc>
+                </dao>
+                <abstract>(Karoub's farewell speech for mayor.)</abstract>
+              </did>
+            </c04>
+          </c03>
+        </c02>
       </c01>
     </dsc>
   </archdesc>

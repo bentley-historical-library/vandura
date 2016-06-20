@@ -45,17 +45,18 @@ def apply_authfilenumbers(text_to_authfilenumber_dict, ead_dir):
 		tree = etree.parse(join(ead_dir,filename))
 		rewrite = False
 		for subject in tree.xpath('//controlaccess/*'):
-			subject_text = subject.text.strip().rstrip('.').encode('utf-8')
-			if subject.tag in ['corpname','persname','famname'] and '--' in subject_text:
-				subject_texts = subject_text.split('--')
-				joined = '--'.join(subject_texts[0:2]).rstrip(".")
-				if joined in special_cases.keys():
-					subject_text = joined
-				else:
-					subject_text = subject_texts[0]
-			if subject_text in text_to_authfilenumber_dict:
-				rewrite = True
-				subject.attrib['authfilenumber'] = text_to_authfilenumber_dict[subject_text]
+			if subject.tag in ["corpname", "persname", "famname", "subject", "geogname"]:
+				subject_text = subject.text.strip().rstrip('.').encode('utf-8')
+				if subject.tag in ['corpname','persname','famname'] and '--' in subject_text:
+					subject_texts = subject_text.split('--')
+					joined = '--'.join(subject_texts[0:2]).rstrip(".")
+					if joined in special_cases.keys():
+						subject_text = joined
+					else:
+						subject_text = subject_texts[0]
+				if subject_text in text_to_authfilenumber_dict:
+					rewrite = True
+					subject.attrib['authfilenumber'] = text_to_authfilenumber_dict[subject_text]
 		if rewrite:
 			with open(join(ead_dir,filename),'w') as f:
 				f.write(etree.tostring(tree,encoding='utf-8',xml_declaration=True,pretty_print=True))
