@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::galens.xml//EN" encodinganalog="Identifier">umich-bhl-9859</eadid>
@@ -1779,49 +1779,9 @@
           <did>
             <unittitle>Smokers</unittitle>
           </did>
-          <c03 level="otherlevel" otherlevel="item-main">
-            <did>
-              <unittitle>Smoker, "The Sound of Mucus", <unitdate type="inclusive">1980 April 23</unitdate></unittitle>
-              <physdesc>
-                <physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet>
-              </physdesc>
-            </did>
-            <accessrestrict>
-              <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
-            </accessrestrict>
-            <c04 level="otherlevel" otherlevel="item-part">
-              <did>
-                <physloc>Online</physloc>
-                <unittitle>[Part 1]</unittitle>
-                <unitid>[9859-SR-1-1]</unitid>
-                <physdesc>
-                  <physfacet>mp3 file</physfacet>
-                </physdesc>
-                <dao href="https://bentley.mivideo.it.umich.edu/media/1_r8dl3dey" show="new" actuate="onrequest">
-                  <daodesc>
-                    <p>[access item]</p>
-                  </daodesc>
-                </dao>
-                <abstract>(Sound recording of the 1980 Smoker. Comedic performance produced by Medical Students at the University of Michigan.)</abstract>
-              </did>
-            </c04>
-            <c04 level="otherlevel" otherlevel="item-part">
-              <did>
-                <physloc>Online</physloc>
-                <unittitle>[Part 2]</unittitle>
-                <unitid>[9859-SR-1-2]</unitid>
-                <physdesc>
-                  <physfacet>mp3 file</physfacet>
-                </physdesc>
-                <dao href="https://bentley.mivideo.it.umich.edu/media/1_gwzjj0nd" show="new" actuate="onrequest">
-                  <daodesc>
-                    <p>[access item]</p>
-                  </daodesc>
-                </dao>
-                <abstract>(Sound recording of the 1980 Smoker. Comedic performance produced by Medical Students at the University of Michigan.)</abstract>
-              </did>
-            </c04>
-          </c03>
+          <c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">5</container><unittitle>Smoker, "The Sound of Mucus", <unitdate type="inclusive">1980 April 23</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 3 3/4 ips</physfacet></physdesc></did><accessrestrict><p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+          </accessrestrict><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[9859-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_r8dl3dey" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Sound recording of the 1980 Smoker. Comedic performance produced by Medical Students at the University of Michigan.)</abstract></did></c04>
+            <c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 2]</unittitle><unitid>[9859-SR-1-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_gwzjj0nd" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao><abstract>(Sound recording of the 1980 Smoker. Comedic performance produced by Medical Students at the University of Michigan.)</abstract></did></c04></c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">5</container>
