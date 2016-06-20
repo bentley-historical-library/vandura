@@ -19,6 +19,9 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20160601</date>
+        <item>added digitized audio cassettes</item>
+      </change><change>
         <date>20050805</date>
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
@@ -36,14 +39,17 @@
       <origination>
         <persname source="lcnaf" encodinganalog="100">Edwards, Billie Louise, 1947-1995.</persname>
       </origination>
-      <unittitle encodinganalog="245">Billie Louise Edwards Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1981/1993">1981-1993</unitdate> <unitdate type="bulk" encodinganalog="245$g" normal="1987/1992">1987-1992</unitdate></unittitle>
+      <unittitle encodinganalog="245">Billie Louise Edwards Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1981/1993">1981-1993</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1987/1992">1987-1992</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0591 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Billie Louise Edwards was a feminist, activist, lesbian, motorcyclist, co-parent, Metropolitan Community Church preacher, and clinical psychologist; she was also co-director of the University of Michigan Lesbian-Gay Male Programs Office (LGMPO) from 1987 to 1993. The Edwards papers include her educational materials and writings, training materials and correspondence from the LGMPO, audio cassettes from her ministry, and a photographic portrait.</abstract>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">1.5 linear feet</extent>
       </physdesc>
-      <repository>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">17.4 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc><repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -61,7 +67,13 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Billie Louise Edwards Papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
-    </descgrp>
+     <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a
+          number of sound recordings within this collection. The resulting audio files are available
+          for playback only in the Bentley Library Reading Room. Links to item images and additional
+          information are available within this finding aid. Original sound recordings are only
+          available for staff use.</p>
+      </altformavail></descgrp>
     <bioghist encodinganalog="545">
       <p>Billie Edwards was born in 1947 to a military family and moved frequently in her youth. She joined the Marine Corps in 1966 and received training in photography. She was dishonorably discharged in 1967 for her sexual orientation. President Carter had this changed to an Honorable Discharge in 1977. She worked several years in the graphic arts and later trained to be a draftsman. She became a minister with the Metropolitan Community Church in Oklahoma, later ministering in northern Virginia and Detroit. She received a Bachelor of Arts in Psychology from the Union for Experimenting Colleges and Universities in Los Angeles, California in 1985 and a Master of Arts in Humanistic and Clinical Psychology from the Center for Humanistic Studies in Detroit, Michigan in 1986.</p>
       <p>Ms. Edwards was hired as the co-director of the University of Michigan Lesbian-Gay Male Programs Office (LGMPO) in 1987. During her tenure there, she established the Educational Outreach Program, provided counseling for women and organized programs for the gay, lesbian and bi-sexual community. She resigned effective January 31, 1993 to protest against the university's decision to take counseling away from the office. She died at age 48 in 1995 of a brain tumor.</p>
@@ -122,47 +134,6 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <genreform normal="Sound recordings">Audio-cassettes</genreform>
-            </unittitle>
-          </did>
-          <c03 level="file">
-            <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Self Esteem Workshop <unitdate type="inclusive" normal="1985-11-02">November 2, 1985</unitdate></unittitle>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <unittitle>Sermons</unittitle>
-            </did>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">1</container>
-                <unittitle>Oklahoma City <unitdate type="inclusive" normal="1981-12-06">December 6, 1981</unitdate></unittitle>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">1</container>
-                <unittitle>Rockville MCC <unitdate type="inclusive" normal="1985-11-03">November 3, 1985</unitdate></unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">2 audiocassettes</extent>
-                </physdesc>
-              </did>
-            </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">1</container>
-                <unittitle>
-                  <unitdate type="inclusive">Undated</unitdate>
-                </unittitle>
-              </did>
-            </c04>
-          </c03>
-        </c02>
-        <c02 level="file">
-          <did>
             <container type="box" label="Box">1</container>
             <unittitle>Notebooks and Journals</unittitle>
           </did>
@@ -172,7 +143,25 @@
             <container type="box" label="Box">1</container>
             <unittitle>Drafting Examples <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
           </did>
+        </c02><c02 level="file">
+          <did>
+            <unittitle>
+              <genreform normal="Sound recordings">Audio-cassettes</genreform>
+            </unittitle>
+          </did>
+           <accessrestrict>
+          <p>[Digitized audio files are currently availableonly  in the Bentley Historical Library reading
+            room on designated Bentley Library computers.]</p>
+        </accessrestrict><c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">1</container><unittitle>Billie Edwards: Workshop on Self Esteem 9131.1, <unitdate type="inclusive">1985 November 02</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1]</unittitle><unitid>[0591-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_atkn9898" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Begins with musical performances of flute, harp, and other instruments. Recording of self-esteem workshop begins at 13:30. Talks center around self-esteem, communication, and strokes.)</abstract></did></c04>
+<c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 2]</unittitle><unitid>[0591-SR-1-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_299d9xax" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao><abstract>(Content begins at 0:45 seconds. Edwards lectures as part of her Self-Esteem Workshop; on identity and praise.)</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">1</container><unittitle>Reverend Billie Edwards - Sermon, Oklahoma City, <unitdate type="inclusive">1981 December 06</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[0591-SR-2-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_msi2r8fo" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Sermon on the subject discussing the profession of ministry, Mark 2:16.)</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">1</container><unittitle>Sermon, Rockville MCC [Part 1], <unitdate type="inclusive">1985 November 03</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1]</unittitle><unitid>[0591-SR-3-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_0rj7y86q" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Service segments are: Singspiration, Announcements, Prelude, Hymn of Adoration: Holy Holy Holy, Psalm 139: Invocation, Hymn of Prayer: It Is Well w/ My Soul, Prayers of the people, Offering, Hymn of Prep'n: Blessed Assurance.)</abstract></did></c04>
+<c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 2]</unittitle><unitid>[0591-SR-3-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_a58ztoeq" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao><abstract>(Service segments are: Blessed Assurance: continued, Sermon by Billie Edwards, Gifts of God for the People of God, Closing Hymn: Heaven Came Down &amp; Glory, Filled My Soul, Benediction.)</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">1</container><unittitle>Billie Edwards Preaches at Rockville MCC 7:00PM, <unitdate type="inclusive">1985 November 03</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1]</unittitle><unitid>[0591-SR-4-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_wxnynd7a" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Sermon only: Recorded by K. J. Edwards, Jr. Tape Master #9031.3. Hymns and songs sung include "All Hail the Power of Jesus' Name," "Happy Birthday," "The Hymn of Joy," and others.)</abstract></did></c04>
+<c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 2]</unittitle><unitid>[0591-SR-4-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_rdq8vc6q" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao><abstract>(Sermon only: Recorded by K. J. Edwards, Jr. Tape Master #9031.3)</abstract></did></c04></c03>
+<c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">1</container><unittitle>Sermon, Billie Edwards, <unitdate type="inclusive">[Undated]</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1; no Side 2]</unittitle><unitid>[0591-SR-5-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_o9ccrtlg" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Sermon discussing Spiritual Transformation and Moses and the Burning Bush.)</abstract></did></c04></c03>
         </c02>
+        
       </c01>
       <c01 level="series">
         <did>
