@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::hatcherh.xml//EN" encodinganalog="identifier">umich-bhl-851647</eadid>
@@ -48,7 +48,7 @@
       <origination>
         <persname source="lcnaf" encodinganalog="100">Hatcher, Harlan Henthorne, 1898-</persname>
       </origination>
-      <unittitle encodinganalog="245">Harlan Henthorne Hatcher Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1837/1998">1837-1998</unitdate> <unitdate type="bulk" encodinganalog="245$g" normal="1891/1986">1891-1986</unitdate></unittitle>
+      <unittitle encodinganalog="245">Harlan Henthorne Hatcher Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1837/1998">1837-1998</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1891/1986">1891-1986</unitdate></unittitle>
       <abstract>Harlan Henthorne Hatcher (1898-1998) was president of the University of Michigan from 1951 to 1967. The papers span the years 1837-1998 and document Dr. Hatcher's University of Michigan presidency, Ohio State University career, literary career, organizational involvement, personal life, and family history. Includes correspondence, newspaper clippings, manuscripts, speeches, yearly datebooks, oral history interview transcripts, magnetic audio tape recordings, an audiocassette recording, and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851647 Aa 2 Ac</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
@@ -144,7 +144,7 @@
         <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Anniversaries, etc.</corpname>
         <corpname source="lcnaf" encodinganalog="610">University of Michigan. Board in Control of Intercollegiate Athletics.</corpname>
         <corpname source="lcnaf" encodinganalog="610">University of Michigan. Board in Control of Student Publications.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79069136">University of Michigan--Dearborn.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Dearborn.</corpname>
         <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Military Science and Tactics.</corpname>
         <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Faculty.</corpname>
         <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Football.</corpname>
@@ -21187,33 +21187,8 @@
           <scopecontent>
             <p>The Audio Recordings of Speeches subseries contains two magnetic tapes: WIU Commencement Address, June 4, 1959; and Battelle Auditorium, January 14, 1970. There is also an audio cassette recording of a speech at Inglis House, about the Federal Writer's Project and The Ohio Guide, circa 1993.</p>
           </scopecontent>
-          <c03 level="otherlevel" otherlevel="item-main">
-            <did>
-              <unittitle>Western Illinois University; Commencement Address, <unitdate type="inclusive">1959 June 04</unitdate></unittitle>
-              <physdesc>
-                <physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet>
-              </physdesc>
-            </did>
-            <c04 level="otherlevel" otherlevel="item-part">
-              <did>
-                <physloc>Online</physloc>
-                <unittitle>[Part 1]</unittitle>
-                <unitid>[851647-SR-1-1]</unitid>
-                <physdesc>
-                  <physfacet>mp3 file</physfacet>
-                </physdesc>
-                <dao href="https://bentley.mivideo.it.umich.edu/media/1_2izi6wd8" show="new" actuate="onrequest">
-                  <daodesc>
-                    <p>[access item]</p>
-                  </daodesc>
-                </dao>
-                <abstract>(Harlan Hatcher giving the 1959 Western Illinois University commencement speech.)</abstract>
-              </did>
-              <accessrestrict>
-                <p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
-              </accessrestrict>
-            </c04>
-          </c03>
+          <c03 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">72</container><unittitle>Western Illinois University; Commencement Address, <unitdate type="inclusive">1959 June 04</unitdate></unittitle><physdesc><physfacet>Audio Reel-to-Reel, 7 inch, 7 1/2 ips</physfacet></physdesc></did><c04 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Part 1]</unittitle><unitid>[851647-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_2izi6wd8" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(Harlan Hatcher giving the 1959 Western Illinois University commencement speech.)</abstract></did><accessrestrict><p>[Digitized audio files are only available in the Bentley Historical Library reading room on designated Bentley Library computers.]</p>
+          </accessrestrict></c04></c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box">72</container>
