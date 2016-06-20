@@ -20,6 +20,9 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>2016-06-01</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change><change>
         <date>2010-12-20</date>
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
@@ -44,7 +47,10 @@
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">1 linear feet</extent>
       </physdesc>
-      <repository>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">5.76 MB</extent>
+        <physfacet>online</physfacet>
+      </physdesc><repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -65,7 +71,13 @@
       <prefercite encodinganalog="524">
         <p>[item], folder, box, Craig Covey papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
-    </descgrp>
+        <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a
+          number of sound recordings within this collection. The resulting audio files are available
+          for playback only in the Bentley Library Reading Room. Links to item images and additional
+          information are available within this finding aid. Original sound recordings are only
+          available for staff use.</p>
+      </altformavail></descgrp>
     <bioghist encodinganalog="545">
       <p>Craig Covey was born in Columbus, Ohio in 1957. He began his advocacy work on behalf of gay rights in Ohio in 1981. He founded the Stonewall Union there and then after moving to Michigan in 1985, he became executive director of the Michigan Organization for Human Rights. A resident of Ferndale, Michigan since the late 1980s, Covey has been active in a variety of both gay and community activities. Covey was a long-time member of the Ferndale city council, having served from 1999 to 2008. He had first run unsuccessfully in 1995. In 2007 he was the first openly-gay mayor of any municipality in the state of Michigan. Elected mayor of Ferndale on November 6, 2007, he was sworn into office on January 14, 2008 for a two-year term, succeeding three-term mayor Robert Porter. He was re-elected unopposed in November 2009. In 2010, he ran successfully for the Oakland County Commission in district 25, succeeding Dave Coulter (D-Ferndale).</p>
       <p>Besides political activity, Covey was also CEO of the Midwest AIDS Prevention Project (MAPP) and Chief Operating Officer of the Michigan AIDS Coalition, the organization resulting from the merging of MAPP and the Michigan AIDS Fund in 2009.</p>
@@ -81,7 +93,7 @@
         <head>Subjects:</head>
         <persname source="lcnaf" encodinganalog="600">Covey, Craig.</persname>
         <subject source="lcsh" encodinganalog="650">Elections--Michigan--Ferndale.</subject>
-        <geogname source="lcsh" encodinganalog="651">Ferndale (Mich.)--Politics and government.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85046908">Ferndale (Mich.)--Politics and government.</geogname>
         <subject source="lcsh" encodinganalog="650">Gay men--Michigan--Ferndale--Political activity.</subject>
         <subject source="lcsh" encodinganalog="650">AIDS (Disease)--Michigan--Prevention.</subject>
         <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91006418">Michigan Organization for Human Rights.</corpname>
@@ -235,7 +247,7 @@
             <container type="box" label="Box">1</container>
             <unittitle>MOHR Annual Meeting <unitdate type="inclusive" normal="1985-11">November 1985</unitdate></unittitle>
             <physdesc>
-              <physfacet>DVD; 0:59:32</physfacet>
+              <physfacet><genreform normal="DVDs">DVD</genreform>; 0:59:32</physfacet>
             </physdesc>
           </did>
         </c02>
@@ -244,7 +256,7 @@
             <container type="box" label="Box">1</container>
             <unittitle>AIDS Awareness &amp; Education, MGTV: In Depth Program, taped <unitdate type="inclusive" normal="1998-01-26">1-26-1998</unitdate></unittitle>
             <physdesc>
-              <physfacet>VHS videotape; 57:43 min.</physfacet>
+              <physfacet><genreform normal="Videotapes">VHS videotape</genreform>; 57:43 min.</physfacet>
             </physdesc>
           </did>
         </c02>
@@ -262,7 +274,7 @@
             <container type="box" label="Box">1</container>
             <unittitle>Pride Commitment Ceremony, 2006 <unitdate type="inclusive" normal="2006-05-03">5-3-2006</unitdate></unittitle>
             <physdesc>
-              <physfacet>DVD; 29 min.</physfacet>
+              <physfacet><genreform normal="DVDs">DVD</genreform>; 29 min.</physfacet>
             </physdesc>
           </did>
         </c02>
@@ -276,16 +288,12 @@
             </physdesc>
           </did>
         </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Craig Covey on WXYT radio program <unitdate type="inclusive" normal="1990-11">November 1990</unitdate></unittitle>
-            <physdesc>
-              <physfacet>1 audio cassette; 20 min.</physfacet>
-            </physdesc>
-          </did>
-        </c02>
-      </c01>
+        <c02 level="otherlevel" otherlevel="item-main"><did><container type="box" label="Box">1</container><unittitle>[Craig] Covey on WXYT radio program, <unitdate type="inclusive">1990 November</unitdate></unittitle><physdesc><physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet></physdesc></did><accessrestrict>
+          <p>[Digitized audio files are currently availableonly  in the Bentley Historical Library reading
+            room on designated Bentley Library computers.]</p>
+        </accessrestrict><c03 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 1]</unittitle><unitid>[9610-SR-1-1]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_sga2ky00" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao> <abstract>(On-air telephone interview discussing the subject of AIDS)</abstract></did></c03>
+<c03 level="otherlevel" otherlevel="item-part"><did><physloc>Online</physloc><unittitle>[Side 2]</unittitle><unitid>[9610-SR-1-2]</unitid><physdesc><physfacet>mp3 file</physfacet></physdesc><dao href="https://bentley.mivideo.it.umich.edu/media/1_nzv70g16" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao><abstract>(On-air telephone interview discussing the subject of AIDS [cont].)</abstract></did></c03></c02>
+</c01>
     </dsc>
   </archdesc>
 </ead>
