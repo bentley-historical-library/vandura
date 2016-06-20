@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "file:///S:/FindingAids/EAD/Master/ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::gmwill.xml//EN" encodinganalog="identifier">umich-bhl-86393</eadid>
@@ -68,7 +68,7 @@
       <origination>
         <persname encodinganalog="100" source="lcnaf">Williams, G. Mennen, 1911-</persname>
       </origination>
-      <unittitle encodinganalog="245">G. Mennen Williams papers <unitdate encodinganalog="245$f" type="inclusive" normal="1883/1988">1883-1988</unitdate> <unitdate encodinganalog="245$g" type="bulk" normal="1958/1980">1958-1980</unitdate></unittitle>
+      <unittitle encodinganalog="245">G. Mennen Williams papers <unitdate encodinganalog="245$f" type="inclusive" normal="1883/1988">1883-1988</unitdate>, <unitdate encodinganalog="245$g" type="bulk" normal="1958/1980">1958-1980</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86393 AC Ac Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>Portions of the collection are stored offsite; two days notice required for retrieval.</physloc>
@@ -89,7 +89,12 @@
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">30 phonograph records</extent>
       </physdesc>
-      <repository>
+       
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">27.7  GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
+<repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
         <extptr href="bhladd" show="embed" actuate="onload"/>
       </repository>
@@ -99,18 +104,25 @@
         <p>The collection was donated by G. Mennen Williams (Donor No. <num type="donor" encodinganalog="541$e">3734</num>) and Nancy Quirk Williams in several principal accessions. The bulk of the Williams papers were acquired in 1960-1961. Periodic additional accessions were received through 1988.</p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
-        <p>The collection is open to research except where noted in the finding aid. The bulk of the closed materials are Williams' case files for the Michigan Supreme Court. These are in boxes 30-61.</p>
+        <p>The collection is open to research except where noted in the finding aid. The bulk of the closed materials are Williams' case files for the Michigan Supreme Court. These are in boxes 30-61. Digitized audio files are currently available only  in the Bentley Historical Library reading
+            room on designated Bentley Library computers.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>Copyright has been transferred to the Regents of the University of Michigan</p>
       </userestrict>
-      <processinfo>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., G. Mennen Williams Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite> <altformavail>
+        <p><emph render="bold">Digitization:</emph> The Library has undertaken the digitization of a
+          number of sound recordings within this collection. The resulting audio files are available
+          for playback only in the Bentley Library Reading Room. Links to item images and additional
+          information are available within this finding aid. Original sound recordings are only
+          available for staff use.</p>
+      </altformavail><processinfo>
         <p>The Williams papers were originally arranged and described as six separate collections; Governor's Papers, Non-Gubernatorial Papers, Visual Material, Sound Recordings, Scrapbooks, and State Dept. Microfilm, each of which had its own paper finding aid. Each had a separate box number sequence. In this electronic finding aid each of these collections is treated as a subgroup of the G. Mennen Williams Papers. Boxes in the Governor's Papers subgroup are numbered 1 to 722; the Non-Gubernatorial Papers are 1-N to 105-N; the Visual Materials are 1-P to 21-P; and the Sound Recordings are 1-S to 6-S. Scrapbooks are identified by volume number and the microfilm by reel number. Portions of the Williams Papers were reprocessed in 1996. Some files were reappraised and eliminated from the collection. There was also significant consolidation of boxes with the result that some numbers were eliminated. To facilitate location of items based on citations to the previous physical arrangement, the empty box numbers have been included in the electronic finding aid with the notation "[Eliminated in reprocessing.]"</p>
         <p>Boxes 69, 77, 91, 95, 116, 146, 155, 177, 186, 214, 239, 250, 268, 271, 280, 297, 302, 310, 315, 355-360, 369-371, 681-688, 695-700, and 80-N were eliminated during reprocessing.</p>
       </processinfo>
-      <prefercite encodinganalog="524">
-        <p>item, folder title, box no., G. Mennen Williams Papers, Bentley Historical Library, University of Michigan</p>
-      </prefercite>
+      
     </descgrp>
     <bioghist encodinganalog="545">
       <p>G. Mennen Williams was a man born to privilege but who devoted his life to public service. His career included stints as governor of Michigan from 1949 to 1960, under-secretary of state for African Affairs from 1961 to 1965, and Michigan Supreme Court justice from 1970 to 1986. Williams was born in Detroit, February 23, 1911, to Henry P. and Elma Mennen Williams. After prepping at the Salisbury School in Connecticut, he received his AB degree at Princeton in 1933. Williams finished his formal education by taking a JD degree from the University of Michigan in 1936.</p>
@@ -17042,7 +17054,7 @@
               </c05>
             </c04>
           </c03>
-          <c03 level="subseries">
+          <c03 level="file">
             <did>
               <unittitle>
                 <unitdate type="inclusive" normal="1955">1955</unitdate>
@@ -42457,7 +42469,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">528</container>
-                  <unittitle>Miscellaneous correspondence <unitdate normal="1959/1960" type="bulk">1959-1960</unitdate> [A-Z]</unittitle>
+                  <unittitle>Miscellaneous correspondence (<unitdate normal="1959/1960" type="bulk">mainly 1959-1960</unitdate>) [A-Z]</unittitle>
                 </did>
               </c05>
               <c05 level="file">
@@ -42713,7 +42725,7 @@
           </c03>
           <c03 level="subseries">
             <did>
-              <unittitle>Extraditions <unitdate normal="1949/1958" type="inclusive">1949-1958</unitdate></unittitle>
+              <unittitle>Extraditions <unitdate normal="1949/1958">1949-1958</unitdate></unittitle>
             </did>
             <scopecontent>
               <p>The subseries Extraditions, 1949-1958, is arranged chronologically and includes memoranda and official documents regarding extraditions. Also included here are waivers of extraditions, 1949-1958.</p>
@@ -44787,7 +44799,7 @@
         </c02>
         <c02 level="series">
           <did>
-            <unittitle>Undersecretary of State for African Affairs <unitdate type="inclusive" normal="1960/1974">1960-1974</unitdate>, <unitdate type="bulk" normal="1961/1965">1961-1965</unitdate></unittitle>
+            <unittitle>Undersecretary of State for African Affairs <unitdate type="inclusive" normal="1960/1974">1960-1974</unitdate>, <unitdate type="bulk" normal="1961/1965">(primarily 1961-1965)</unitdate></unittitle>
           </did>
           <scopecontent>
             <p>The materials covering Williams' tenure as Undersecretary of State for African Affairs comprise twelve linear feet and are arranged alphabetically by type of material. The series includes administrative files, correspondence, a topical file and files relating to Williams' numerous official trips to Africa. An extensive collection of photographs from the African trips and relating to his activities as undersecretary is described in the Visual Material subgroup. The Undersecretary of State materials should be used in conjunction with the microfilm collection of Williams' State Department files, which forms a separate subgroup of the Williams papers.</p>
@@ -47388,7 +47400,7 @@
         </c02>
         <c02 level="series">
           <did>
-            <unittitle>Personal papers <unitdate type="inclusive" normal="1883/1986">1883-1986</unitdate>, <unitdate type="bulk" normal="1960/1986">1960-1986</unitdate></unittitle>
+            <unittitle>Personal papers <unitdate type="inclusive" normal="1883/1986">1883-1986</unitdate>, <unitdate type="bulk" normal="1960/1986">primarily 1960-1986</unitdate></unittitle>
           </did>
           <scopecontent>
             <p>The materials in the Personal series run to 29 linear feet (boxes 79-107) and cover the years 1883 through 1988 with the bulk of the materials dealing with the last twenty- five years of Williams' life. The materials in this group are arranged by type and then chronologically.</p>
@@ -49774,7 +49786,7 @@
               <c05 level="file">
                 <did>
                   <container type="box" label="Box">3-P</container>
-                  <unittitle>Police Recruit School Graduation, <unitdate type="inclusive" normal="1956-02-08/1956-05-17">February 8 and May 17, 1956</unitdate></unittitle>
+                  <unittitle>Police Recruit School Graduation, February 8 and <unitdate type="inclusive" normal="1956-05-17">May 17, 1956</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
@@ -55962,7 +55974,7 @@
             </c04>
             <c04 level="item">
               <did>
-                <unittitle>Unidentified (#212] Meeting with President and Mrs. Marcos in the Philippines; GMW received medal <unitdate normal="1968" type="inclusive">1968</unitdate></unittitle>
+                <unittitle>Unidentified (#212] Meeting with President and Mrs. Marcos in the Philippines; GMW received medal <unitdate normal="1968">1968</unitdate></unittitle>
                 <unitid>86303-101</unitid>
               </did>
               <odd>
@@ -57975,7 +57987,10 @@
             <genreform normal="Sound recordings">Sound recordings</genreform>
           </unittitle>
         </did>
-        <c02 level="series">
+         <accessrestrict>
+          <p>[Digitized audio files are currently available only  in the Bentley Historical Library reading
+            room on designated Bentley Library computers.]</p>
+        </accessrestrict><c02 level="series">
           <did>
             <unittitle>Audio-tapes</unittitle>
           </did>
@@ -58004,7 +58019,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>1950</unittitle>
+              <container type="box" label="Box">1-S</container><unittitle>1950</unittitle>
             </did>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
@@ -58101,7 +58116,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>Campaign radio address, <unitdate type="inclusive">circa October 28, 1952</unitdate></unittitle>
+                <container type="box" label="Box">1-S</container><unittitle>Campaign radio address, <unitdate type="inclusive">circa October 28, 1952</unitdate></unittitle>
                 <physdesc>
                   <physfacet>Audio Reel-to-Reel, 5 inch, 7 ½ ips</physfacet>
                 </physdesc>
@@ -58193,7 +58208,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>1953</unittitle>
+              <container type="box" label="Box">1-S</container><unittitle>1953</unittitle>
             </did>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
@@ -58226,7 +58241,7 @@
             </did>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>Annual speech to Michigan Legislature, <unitdate type="inclusive">[cirdca january 24, 1954?]</unitdate></unittitle>
+                <container type="box" label="Box">1-S</container><unittitle>Annual speech to Michigan Legislature, <unitdate type="inclusive">[cirdca january 24, 1954?]</unitdate></unittitle>
                 <physdesc>
                   <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
                 </physdesc>
@@ -58250,7 +58265,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>Addresses of David Steinman and G. Mennen Williams at Mackinac Bridge celebration, <unitdate type="inclusive">1954 May</unitdate></unittitle>
+                <container type="box" label="Box">1-S</container><unittitle>Addresses of David Steinman and G. Mennen Williams at Mackinac Bridge celebration, <unitdate type="inclusive">1954 May</unitdate></unittitle>
                 <physdesc>
                   <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
                 </physdesc>
@@ -58468,7 +58483,7 @@
             </did>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>G. Mennen Williams appearance on “Today” show, in connection with Michigan Week, <unitdate type="inclusive">1956 May 24</unitdate></unittitle>
+                <container type="box" label="Box">1-S</container><unittitle>G. Mennen Williams appearance on “Today” show, in connection with Michigan Week, <unitdate type="inclusive">1956 May 24</unitdate></unittitle>
                 <physdesc>
                   <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
                 </physdesc>
@@ -59005,7 +59020,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>Foreign policy briefing; [Unknown Speech by G. Mennen Williams], <unitdate type="inclusive">1958 April 12</unitdate></unittitle>
+                <container type="box" label="Box">2-S</container><unittitle>Foreign policy briefing; [Unknown Speech by G. Mennen Williams], <unitdate type="inclusive">1958 April 12</unitdate></unittitle>
                 <physdesc>
                   <physfacet>3 Audio Reel-to-Reel, 7 inch, 3 ¾ ips</physfacet>
                 </physdesc>
@@ -59039,7 +59054,7 @@
                       <p>[access item]</p>
                     </daodesc>
                   </dao>
-                  <abstract>(Unknown content, perhaps an annual address to the state legislature by G. Mennen Williams? Duplication of 86393-SR-12)</abstract>
+                  <abstract>(Unknown content, perhaps an annual address to the state legislature by G. Mennen Williams? Duplication of 86393-SR-1-2)</abstract>
                 </did>
               </c05>
               <c05 level="otherlevel" otherlevel="item-part">
@@ -59061,7 +59076,7 @@
               <c05 level="otherlevel" otherlevel="item-part">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>[Tape 1, Part 1-2]</unittitle>
+                  <unittitle>[Tape 2, Part 1-2]</unittitle>
                   <unitid>[86393-SR-62-1-2]</unitid>
                   <physdesc>
                     <physfacet>mp3 file</physfacet>
@@ -59392,7 +59407,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>G. Mennen Williams speaking in Warsaw, Poland, <unitdate type="inclusive">1959?</unitdate></unittitle>
+                <container type="box" label="Box">3-S</container><unittitle>G. Mennen Williams speaking in Warsaw, Poland, <unitdate type="inclusive">1959?</unitdate></unittitle>
                 <physdesc>
                   <physfacet>Audio Reel-to-Reel, 5 inch, 7 ½ ips</physfacet>
                 </physdesc>
@@ -59469,7 +59484,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>Announcement by G. Mennen Williams of his support of John F. Kennedy for president, <unitdate type="inclusive">June 1960</unitdate></unittitle>
+                <container type="box" label="Box">3-S</container><unittitle>Announcement by G. Mennen Williams of his support of John F. Kennedy for president, <unitdate type="inclusive">June 1960</unitdate></unittitle>
                 <physdesc>
                   <physfacet>Audio Reel-to-Reel, 2 3/8 in., 7 ½ ips</physfacet>
                 </physdesc>
@@ -59493,7 +59508,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>Address by G. Mennen Williams supporting Constitutional Convention proposal, <unitdate type="inclusive">1960 October 05</unitdate></unittitle>
+                <container type="box" label="Box">3-S</container><unittitle>Address by G. Mennen Williams supporting Constitutional Convention proposal, <unitdate type="inclusive">1960 October 05</unitdate></unittitle>
                 <physdesc>
                   <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
                 </physdesc>
@@ -59517,7 +59532,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>Address by John F. Kennedy at Michigan State University , <unitdate type="inclusive">1960 October 14</unitdate></unittitle>
+                <container type="box" label="Box">3-S</container><unittitle>Address by John F. Kennedy at Michigan State University , <unitdate type="inclusive">1960 October 14</unitdate></unittitle>
                 <physdesc>
                   <physfacet>Audio Reel-to-Reel, 7 inch, 7 ½ ips</physfacet>
                 </physdesc>
@@ -59718,7 +59733,7 @@
             </did>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>Address of G. Mennen Williams speaking on subject of Africa in St. Louis, Missouri, <unitdate type="inclusive">1962 March 30</unitdate></unittitle>
+                <container type="box" label="Box">4-S</container><unittitle>Address of G. Mennen Williams speaking on subject of Africa in St. Louis, Missouri, <unitdate type="inclusive">1962 March 30</unitdate></unittitle>
                 <physdesc>
                   <physfacet>Audio Reel-to-Reel, 10.5 inch, 7 ½ ips</physfacet>
                 </physdesc>
@@ -59742,7 +59757,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>Address of G. Mennen Williams at Forum Program of Boston College Law School, <unitdate type="inclusive">1962 April 03</unitdate></unittitle>
+                <container type="box" label="Box">4-S</container><unittitle>Address of G. Mennen Williams at Forum Program of Boston College Law School, <unitdate type="inclusive">1962 April 03</unitdate></unittitle>
                 <physdesc>
                   <physfacet>3 Audio Reel-to-Reel, 10.5 inch, 7 ½ ips</physfacet>
                 </physdesc>
@@ -60290,23 +60305,11 @@
                 <p>Tape 140</p>
               </odd>
             </c04>
-            <c04 level="file">
-              <did>
-                <container type="box" label="Box">5-S</container>
-                <unittitle>Lecture seminar of GMW, entitled "An American Ambassador in the Philippines" <unitdate type="inclusive" normal="1977-12-02">December 2, 1977</unitdate></unittitle>
-                <physdesc altrender="whole">
-                  <extent altrender="materialtype spaceoccupied">2 audiocassettes</extent>
-                  <physfacet>2 hours</physfacet>
-                </physdesc>
-              </did>
-              <odd>
-                <p>Tapes 141-142</p>
-              </odd>
-            </c04>
+            
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box" type="box">6-S</container>
+              
               <unittitle>1970s and 1980s</unittitle>
             </did>
             <c04 level="file">
@@ -60358,7 +60361,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>G. Mennen Williams interview with Tim Skubick and others, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+                <container type="box" label="Box">6-S</container><unittitle>G. Mennen Williams interview with Tim Skubick and others, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
                 <physdesc>
                   <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
                 </physdesc>
@@ -60377,7 +60380,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>W. S. Woodfill reminiscence, <unitdate type="inclusive">1975 August 10</unitdate></unittitle>
+                <container type="box" label="Box">6-S</container><unittitle>W. S. Woodfill reminiscence, <unitdate type="inclusive">1975 August 10</unitdate></unittitle>
                 <physdesc>
                   <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
                 </physdesc>
@@ -60396,7 +60399,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>W. S. Woodfill reminiscence, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
+                <container type="box" label="Box">6-S</container><unittitle>W. S. Woodfill reminiscence, <unitdate type="inclusive">[Undated]</unitdate></unittitle>
                 <physdesc>
                   <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
                 </physdesc>
@@ -60415,7 +60418,7 @@
             </c04>
             <c04 level="otherlevel" otherlevel="item-main">
               <did>
-                <unittitle>W. S. Woodfill reminiscence, <unitdate type="inclusive">1975 July 08</unitdate></unittitle>
+                <container type="box" label="Box">6-S</container><unittitle>W. S. Woodfill reminiscence, <unitdate type="inclusive">1975 July 08</unitdate></unittitle>
                 <physdesc>
                   <physfacet>Audio Cassette, Compact Cassette, 1 7/8 ips</physfacet>
                 </physdesc>
