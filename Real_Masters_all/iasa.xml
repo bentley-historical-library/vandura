@@ -1,150 +1,215 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
 <ead>
-
-<eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
-
-<eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::iasa.xml//EN" encodinganalog="Identifier">
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::iasa.xml//EN" encodinganalog="Identifier">
 umich-bhl-2016041</eadid>
-
-<filedesc><titlestmt><titleproper encodinganalog="Title">Finding Aid for 
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for 
 Indian American Student Association (University of Michigan) records, 1983-2006
 
 </titleproper>
-<author encodinganalog="Creator">Collection processed and finding aid created by 
-Ben Bond</author></titlestmt>
-
-<publicationstmt><publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
-<date encodinganalog="Date" normal="2016">
-2016</date></publicationstmt></filedesc>
-
-<profiledesc>
-<creation>Encoded finding aid created by 
+        <author encodinganalog="Creator">Collection processed and finding aid created by 
+Ben Bond</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2016">
+2016</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by 
 Olga Virakhovskaya 
 <date>2016</date></creation>
-
-<langusage encodinganalog="Language">The finding aid is written in  <language langcode="eng" scriptcode="Latn">English</language></langusage><descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules></profiledesc>
-
-<revisiondesc><change><date>2016-05-09</date><item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item></change></revisiondesc></eadheader>
-
-<frontmatter><titlepage>
-
-<publisher><lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
-
-<titleproper>Finding aid for<lb/>
+      <langusage encodinganalog="Language">The finding aid is written in  <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2016-05-09</date>
+        <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher><lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for<lb/>
 Indian American Student Association (University of Michigan) records, 1983-2006.
 </titleproper>
-
-<author>Finding aid created by<lb/> 
+      <author>Finding aid created by<lb/> 
 Ben Bond, in April, 2016
 </author>
-
-</titlepage>
-</frontmatter>
-
-<archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21"><did>
-
-<origination>
-<corpname source="lcnaf" encodinganalog="110">
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">
 Indian American Student Association (University of Michigan)
-</corpname></origination>
-
-<unittitle encodinganalog="245">
+</corpname>
+      </origination>
+      <unittitle encodinganalog="245">
 Indian American Student Association (University of Michigan) records
-<unitdate type="inclusive" encodinganalog="245$f">
+<unitdate type="inclusive" encodinganalog="245$f" normal="1983/2006">
 1983-2006
 </unitdate>
 </unittitle>
-
-<physdesc><extent encodinganalog="300">
+      <physdesc>
+        <extent encodinganalog="300">
 0.25 linear feet linear feet and 7.37 GB (online)
 </extent>
-</physdesc>
-
-<unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number">
+      </physdesc>
+      <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number">
 2016041 Bimu
 </unitid>
-
-<langmaterial>The material is in <language langcode="eng" encodinganalog="041">English.</language> </langmaterial>
-
-<abstract>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English.</language> </langmaterial>
+      <abstract>
 The Indian American Student Association (IASA) of the University of Michigan serves to promote various aspects of Indian culture and heritage through an assortment of events that raise political, social, and cultural awareness. Administrative records, publicity items, event flyers, newspaper clipping, as well as audiovisual recordings of events. 
 </abstract>
-
-
-<repository><corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
-<extptr href="bhladd" show="embed" actuate="onload"/></repository></did>
-
-<descgrp type="admin">
-<acqinfo encodinganalog="541"><p>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>
 Donated by Indian American Student Association (donor no.<num type="donor" encodinganalog="541$e">9828</num>), in December, 2006. 
  
-</p></acqinfo>
-
-<accruals encodinganalog="584"><p>Periodic additions to the records expected.</p></accruals>
- <accessrestrict encodinganalog="506">
-<p>Restricted access in part. Online material BHL reading room only. </p>
-<p><extptr href="uarpacc" show="embed" actuate="onload"/></p></accessrestrict>
-
-
-<userestrict encodinganalog="540"><p>
+</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>Restricted access in part. Online material BHL reading room only. </p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>
 Copyright is held by the Regents of the University of Michigan.
-</p></userestrict>
-
-
-<prefercite encodinganalog="524"><p>[item], folder, box,
-Indian American Student Association (University of Michigan) records, Bentley Historical Library, University of Michigan</p></prefercite>
-<processinfo><p></p>
-<p><extptr href="digitalproc" show="embed" actuate="onload"/></p>
-</processinfo></descgrp>
-
-<bioghist encodinganalog="545">
-<p>Founded in 1983 by Sam Shekar, the Indian American Student Association (IASA) of the University of Michigan serves to promote various aspects of Indian culture and heritage through an assortment of events that raise political, social, and cultural awareness, as well as fulfill goals aimed at community building, service, and professional development. IASA strives to build a network of South Asian students as well as develop connections within the broader campus community. One of the many events that IASA created is the South Asian Awareness Network (SAAN), a forum that brings hundreds of students together to examine political, social and cultural issues affecting South Asians. In 1997 IASA established the Gandhi Day of Service, an event credited with mobilizing over 250 University students and allowing them to participate in community service activities throughout Southeast Michigan in the name of peace and unity. This day is now a national day of community service observed in over 35 states. One of the most anticipated and highly regarded IASA events is the annual charity Cultural Show. The show aims to preserve Indian culture through a fusion of dance, music, theatre, and art, while actively giving back to the community, culminating in the largest student-run production in North America.</p>
-</bioghist>
- 
-<scopecontent encodinganalog="520">
-<p>The collection consists of the IASA constitution, board member listings, flyers, annual event programs, clippings from the<title render="italic"> Michigan Daily</title>, a sound recording of music from and a video recording of the 1998 culture show interspersed with skits from members of the IASA. </p></scopecontent>
-
-<controlaccess><p><extptr href="accnote" show="embed" actuate="onload"/></p><controlaccess><head>Subjects:</head>
-<subject source="lcsh" encodinganalog="650">East Indian students--Michigan--Ann Arbor.</subject>
-<corpname source="lcnaf" encodinganalog="610">University of Michigan. Indian American Student Association.</corpname>
-<corpname source="lcnaf" encodinganalog="610">University of Michigan--Student life and customs.</corpname>
-</controlaccess>
-
-<controlaccess><head>Subjects - Visual Materials:</head>
-<subject source="lctgm" encodinganalog="650">Concerts--Michigan--Ann Arbor.</subject>
-<subject source="lctgm" encodinganalog="650">Festivals--Michigan--Ann Arbor.</subject></controlaccess>
-
-<controlaccess><head>Subjects - Sound Recordings:</head>
-<subject source="lcsh" encodinganalog="650">Music--South Asia.</subject>
-</controlaccess>
-<controlaccess><head>Genre Terms:</head>
-<genreform source="aat" encodinganalog="655">Digital file formats.</genreform>
-<genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
-<genreform source="aat" encodinganalog="655">Video recordings.</genreform>
-</controlaccess>
-</controlaccess>
-
-
-<dsc type="combined">
-<c01 level="series"><did><unittitle>Indian American Student Association</unittitle></did><scopecontent><p>The collection consists of the IASA constitution, board member listings, flyers, annual event programs, clippings from the <title render="italic"> Michigan Daily</title>, a sound recording of music from and a video recording of the 1998 culture show interspersed with skits from members of the IASA. </p>
-</scopecontent>
-<c02 level="file"><did><container type="box" label="Box">1</container><unittitle>Board Members, <unitdate type="inclusive">1983-2007</unitdate></unittitle></did></c02>
-<c02 level="file"><did><container type="box" label="Box">1</container><unittitle>Constitution, <unitdate type="inclusive">2006</unitdate></unittitle></did></c02>
-<c02 level="file"><did><unittitle>Culture Show</unittitle></did>
-<c03 level="file"><did><container type="box" label="Box">1</container><unittitle>Programs, <unitdate type="inclusive">1998-2006</unitdate></unittitle></did></c03>
-<c03 level="file"><did><physloc>Online</physloc><unittitle>Culture Show (music), <unitdate type="inclusive">1998</unitdate> </unittitle><dao href="http://hdl.handle.net/2027.42/117627" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao></did></c03>
-<c03 level="file"><did><physloc>Online</physloc><unittitle>Culture Show (video), <unitdate type="inclusive">1998</unitdate> </unittitle><dao href="http://hdl.handle.net/2027.42/117626" show="new" actuate="onrequest"><daodesc><p>[access item]</p></daodesc></dao></did></c03></c02>
-<c02 level="file"><did><container type="box" label="Box">1</container><unittitle>Flyers, <unitdate type="inclusive">2006</unitdate></unittitle></did></c02>
-<c02 level="file"><did><container type="box" label="Box">1</container><unittitle><title render="italic">Michigan Daily</title> clippings, <unitdate type="inclusive">2001-2006</unitdate></unittitle></did></c02></c01>
-      
-
-</dsc>
-<descgrp type="add"><relatedmaterial><head>Related Materials</head><p>The Bentley Historical Library holds the South Asian Awareness Network (SAAN) publication from years 2005 through 2008.</p></relatedmaterial></descgrp>
-
-
-</archdesc>
-
-
-
+</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Indian American Student Association (University of Michigan) records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+      <processinfo>
+        <p/>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Founded in 1983 by Sam Shekar, the Indian American Student Association (IASA) of the University of Michigan serves to promote various aspects of Indian culture and heritage through an assortment of events that raise political, social, and cultural awareness, as well as fulfill goals aimed at community building, service, and professional development. IASA strives to build a network of South Asian students as well as develop connections within the broader campus community. One of the many events that IASA created is the South Asian Awareness Network (SAAN), a forum that brings hundreds of students together to examine political, social and cultural issues affecting South Asians. In 1997 IASA established the Gandhi Day of Service, an event credited with mobilizing over 250 University students and allowing them to participate in community service activities throughout Southeast Michigan in the name of peace and unity. This day is now a national day of community service observed in over 35 states. One of the most anticipated and highly regarded IASA events is the annual charity Cultural Show. The show aims to preserve Indian culture through a fusion of dance, music, theatre, and art, while actively giving back to the community, culminating in the largest student-run production in North America.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The collection consists of the IASA constitution, board member listings, flyers, annual event programs, clippings from the<title render="italic"> Michigan Daily</title>, a sound recording of music from and a video recording of the 1998 culture show interspersed with skits from members of the IASA. </p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">East Indian students--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Indian American Student Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan--Student life and customs.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <subject source="lctgm" encodinganalog="650">Concerts--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Festivals--Michigan--Ann Arbor.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Sound Recordings:</head>
+        <subject source="lcsh" encodinganalog="650">Music--South Asia.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Digital file formats.</genreform>
+        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655">Video recordings.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Indian American Student Association</unittitle>
+        </did>
+        <scopecontent>
+          <p>The collection consists of the IASA constitution, board member listings, flyers, annual event programs, clippings from the <title render="italic"> Michigan Daily</title>, a sound recording of music from and a video recording of the 1998 culture show interspersed with skits from members of the IASA. </p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Board Members, <unitdate type="inclusive" normal="1983/2007">1983-2007</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Constitution, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Culture Show</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Programs, <unitdate type="inclusive" normal="1998/2006">1998-2006</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Culture Show (music), <unitdate type="inclusive" normal="1998">1998</unitdate> </unittitle>
+              <dao href="http://hdl.handle.net/2027.42/117627" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Culture Show (video), <unitdate type="inclusive" normal="1998">1998</unitdate> </unittitle>
+              <dao href="http://hdl.handle.net/2027.42/117626" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[access item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Flyers, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Michigan Daily</title> clippings, <unitdate type="inclusive" normal="2001/2006">2001-2006</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Related Materials</head>
+        <p>The Bentley Historical Library holds the South Asian Awareness Network (SAAN) publication from years 2005 through 2008.</p>
+      </relatedmaterial>
+    </descgrp>
+  </archdesc>
 </ead>
