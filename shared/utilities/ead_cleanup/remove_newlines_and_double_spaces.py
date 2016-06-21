@@ -10,10 +10,10 @@ output_directory = real_masters_all
 
 
 # The names of all EADs to which you'd like to apply this script:
-#eads = ["yostletter.xml"]
+eads = ["iasa.xml"]
 
 # comment the above and uncomment the below if you instead want apply this script to every EAD in the input directory
-eads = [ead for ead in os.listdir(input_directory) if ead.endswith(".xml")]
+#eads = [ead for ead in os.listdir(input_directory) if ead.endswith(".xml")]
 
 
 def fix_whitespace(input_dir, output_dir):
