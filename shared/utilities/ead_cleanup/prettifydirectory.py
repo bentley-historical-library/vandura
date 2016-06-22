@@ -7,8 +7,8 @@ from tqdm import tqdm
 
 
 def main():
-    input_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
-    output_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+    input_directory = r'C:\Users\eckardm\vandura\Real_Masters_all'
+    output_directory = r'C:\Users\eckardm\vandura\Real_Masters_all'
     prettify_xml_in_directory(input_directory, output_directory)
 
 
