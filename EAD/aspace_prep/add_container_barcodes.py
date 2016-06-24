@@ -17,6 +17,7 @@ def add_container_barcodes(ead_dir):
     dvd_boxes = {}
     cd_boxes = {}
     sr_boxes = {}
+    sd_boxes = {}
 
     # The same AV boxes and DVD boxes may appear in multiple collections -- they should all have the same barcode
     for filename in os.listdir(ead_dir):
@@ -25,22 +26,19 @@ def add_container_barcodes(ead_dir):
         containers = tree.xpath('//container')
         for container in containers:
             if 'type' in container.attrib:
-                if container.attrib['type'] == 'avbox':
-                    indicator = container.text.strip()
-                    if indicator not in av_boxes:
-                        av_boxes[indicator] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
-                if container.attrib['label'] == 'DVD Box':
-                    indicator = container.text.strip()
-                    if indicator not in dvd_boxes:
-                        dvd_boxes[indicator] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
-                if container.attrib['label'] == 'CD Box':
-                    indicator = container.text.strip()
-                    if indicator not in cd_boxes:
-                        cd_boxes[indicator] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
-                if "sr" in container.text.lower():
-                    indicator = container.text.strip()
+                indicator = container.text.strip()
+                label = container.attrib['label']
+                if container.attrib['type'] == 'avbox' and indicator not in av_boxes:
+                    av_boxes[indicator] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
+                if label == 'DVD Box' and indicator not in dvd_boxes:
+                    dvd_boxes[indicator] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
+                if label == 'CD Box' and indicator not in cd_boxes:
+                    cd_boxes[indicator] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
+                if label == "Sound Recordings Box" or "sr" in indicator.lower():
                     if indicator not in sr_boxes:
                         sr_boxes[indicator] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
+                if label == "Sound Disc" and indicator not in sd_boxes:
+                    sd_boxes[indicator] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
 
     for filename in os.listdir(ead_dir):
         print "Adding container barcodes in {0}".format(filename)
@@ -54,16 +52,19 @@ def add_container_barcodes(ead_dir):
                     container = c_containers[0]
                     if 'type' in container.attrib and container.text:
                         indicator = container.text.strip()
+                        label = container.attrib['label']
                         container_type_label_num = container.attrib['type'] + container.attrib['label'] + indicator
                         if container_type_label_num not in container_ids:
                             if container.attrib['type'] == 'avbox':
                                 container_ids[container_type_label_num] = av_boxes[indicator]
-                            elif container.attrib['label'] == 'DVD Box':
+                            elif label == 'DVD Box':
                                 container_ids[container_type_label_num] = dvd_boxes[indicator]
-                            elif container.attrib['label'] == 'CD Box':
+                            elif label == 'CD Box':
                                 container_ids[container_type_label_num] = cd_boxes[indicator]
-                            elif "sr" in indicator.lower():
+                            elif label == "Sound Recordings Box" or "sr" in indicator.lower():
                                 container_ids[container_type_label_num] = sr_boxes[indicator]
+                            elif label == "Sound Disc":
+                                container_ids[container_type_label_num] = sd_boxes[indicator]
                             elif container_type_label_num not in container_ids:
                                 container_ids[container_type_label_num] = re.sub(r'[A-Za-z\-]','',str(uuid.uuid4()))
 
