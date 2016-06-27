@@ -94,7 +94,7 @@ def split_into_component_entities(string):
     part_detector = nltk.data.load("tokenizers/punkt/english.pickle")
 
     # doesn't handle "No." properly, so we handle that manually
-    string = re.sub("[Nn]o. ", "$$number$$", string)
+    string = re.sub(r"[Nn]o\. ", "$$number$$", string)
 
     # split
     parts = part_detector.tokenize(string.strip())
