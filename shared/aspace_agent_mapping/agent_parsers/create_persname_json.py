@@ -119,9 +119,9 @@ def make_date_string(birth, death):
     if birth and death:
         return u"{}-{}".format(birth, death)
     if birth:
-        return u"b. {}".format(birth)
+        return u"{}-".format(birth)
     if death:
-        return u"d. {}".format(death)
+        return u"-{}".format(death)
     return u""
 
 

@@ -20,6 +20,10 @@ def parse_corpname(string, authority_id="", source=""):
 
     primary_name, sub_name_1, sub_name_2 = split_into_component_entities(string)
 
+    if sub_name_2 and sub_name_1 == "Dept":
+        sub_name_1 = "Dept. {}".format(sub_name_2)
+        sub_name_2 = ""
+
     if not qualifier and len(qualifier.strip()) == 0:
         if sub_name_2 and len(sub_name_2.strip()) > 0 and not sub_name_2.endswith(')') and not sub_name_2.endswith('.'):
             sub_name_2 += '.'
@@ -90,7 +94,7 @@ def split_into_component_entities(string):
     part_detector = nltk.data.load("tokenizers/punkt/english.pickle")
 
     # doesn't handle "No." properly, so we handle that manually
-    string = re.sub("[Nn]o. ", "$$number$$", string)
+    string = re.sub(r"[Nn]o\. ", "$$number$$", string)
 
     # split
     parts = part_detector.tokenize(string.strip())

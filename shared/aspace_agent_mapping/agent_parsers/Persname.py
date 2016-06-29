@@ -39,7 +39,16 @@ class Persname:
             date_type = "single"
             if birthdate and deathdate:
                 date_type = "range"
+                begin = birthdate
+                end = deathdate
 
-            return {"date_type": date_type, "label": "existence", "expression": expression, "begin": birthdate, "end": deathdate}
+            if birthdate and not deathdate:
+                begin = birthdate
+                end = ""
+            elif deathdate and not birthdate:
+                begin = deathdate
+                end = ""
+
+            return {"date_type": date_type, "label": "existence", "expression": expression, "begin": begin, "end": end}
 
         return ""
