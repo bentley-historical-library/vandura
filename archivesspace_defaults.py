@@ -73,6 +73,13 @@ def post_defaults(aspace_url, username, password):
 	add_enum_values(s, aspace_url, 55, ["on file", "pending", "sent", "n/a", "other"])  # user defined enum 1 values (gift agreement status)
 	add_enum_values(s, aspace_url, 14, ["TB"]) # extent
 
+	instance_types = s.get("{}/config/enumerations/22".format(aspace_url)).json()
+	for value in instance_types["enumeration_values"]:
+		value_uri = value["uri"]
+		s.post("{0}{1}/suppressed?suppressed=true".format(aspace_url, value_uri)).json()
+
+
+
 	repo_preferences = {
 		'repository':{'ref':'/repositories/2'},
 		'defaults':{'publish':True, 'default_values':True}
