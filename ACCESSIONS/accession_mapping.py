@@ -47,7 +47,7 @@ def make_accession_json_list(filepath, donornumberid_to_aspace_id_map):
         aspace_json.update(create_donor_json(accession, donornumberid_to_aspace_id_map))
 
         # we may end up wanting to change the following method if/when ASpace re-implements processing status as a drop-down
-        aspace_json.update(add_processing_status_to_general_note(accession, aspace_json))
+        #aspace_json.update(add_processing_status_to_general_note(accession, aspace_json))
 
         json_for_each_accession.append(aspace_json)
 
@@ -112,7 +112,7 @@ def create_classifications_json(accession):
     aspace_json = {}
     classifications = []
     processing_status = accession.get("ProcessingStatus", "") or ""
-    if processing_status == "RCS":
+    if processing_status.lower() == "rcs":
         classifications.append({"ref": "/repositories/2/classifications/4"})
 
     classification_type = normalize_unit(accession["Unit"])
@@ -169,7 +169,8 @@ def create_collection_management_json_entries(accession):
                                       "PercentageToRetain": "processing_plan",
                                       "ProcessNote": "processing_plan",
                                       "PriorityLevel": "processing_priority",
-                                      "Processor": "processors"}
+                                      "Processor": "processors",
+                                      "ProcessingStatus":"processing_status"}
 
     if accession_has_any_collection_management_data(accession, collection_management_mappings):
         aspace_json["collection_management"] = make_collection_management_json(accession, collection_management_mappings)
@@ -374,7 +375,26 @@ def make_collection_management_json(accession, fields):
     if processing_plan_string:
         aspace_json["processing_plan"] = processing_plan_string
 
-    for accession_key, aspace_key in [(key, value) for key, value in fields.items() if value != "processing_plan"]:
+    processing_status_map = {"Completed/Added to processed":"Completed",
+                            "none":"",
+                            "Completed/AdMissingded to processed":"Completed",
+                            "to be cataloged":"Backlog",
+                            "CompletedCompleted/Added to processed":"Completed"
+                            }
+
+    if accession.get("ProcessingStatus",""):
+        processing_status = accession["ProcessingStatus"]
+        if "completed" in processing_status.lower():
+            processing_status = "Completed"
+        if processing_status.lower().strip() == "rcs":
+            processing_status = ""
+        if processing_status in processing_status_map.keys():
+            processing_status = processing_status_map[processing_status]
+        if processing_status.lower() == "in progress":
+            processing_status = "in_progress"
+        aspace_json["processing_status"] = processing_status.lower()
+
+    for accession_key, aspace_key in [(key, value) for key, value in fields.items() if value not in ["processing_plan", "processing_status"]]:
         if accession_has_value_for_key(accession, accession_key):
             if aspace_key == "processing_priority":
                 value = accession[accession_key].lower()
