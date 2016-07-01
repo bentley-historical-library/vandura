@@ -82,7 +82,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, dspace_x
         for dao in daos:
             # TO DO -- Account for the same href showing up in different places
             href = dao.attrib['href'].strip()
-            if href not in already_posted:
+            if href not in already_posted and href not in posted_dig_objs.keys():
                 did = dao.getparent()
 
                 show = dao.get("show", "new")
@@ -108,7 +108,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, dspace_x
 
                 digital_object_post = s.post(aspace_url+'/repositories/2/digital_objects',data=json.dumps(digital_object)).json()
 
-                if 'invalid_object' in digital_object_post:
+                if 'error' in digital_object_post:
                     errors.append(digital_object_post)
 
                 digital_object_uri = digital_object_post['uri']
