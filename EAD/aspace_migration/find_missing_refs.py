@@ -9,7 +9,7 @@ def find_missing_refs(aspace_ead_dir):
     missing_refs = {}
     for filename in os.listdir(aspace_ead_dir):
         print "Checking for missing refs in {0}".format(filename)
-        tree = etree.parse(join(ead_dir,filename))
+        tree = etree.parse(join(aspace_ead_dir,filename))
         for subject in tree.xpath('//controlaccess/*'):
             if subject.tag in tags and subject.text is not None:
                 if not 'ref' in subject.attrib:
