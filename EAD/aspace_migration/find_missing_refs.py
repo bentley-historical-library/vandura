@@ -1,13 +1,15 @@
+from vandura.config import ead_dir
+
 from lxml import etree
 import os
 from os.path import join
 
-def find_missing_refs(ead_dir):
+def find_missing_refs(aspace_ead_dir):
     tags = ['subject','geogname','genreform','title','persname','corpname','famname']
     missing_refs = {}
-    for filename in os.listdir(ead_dir):
+    for filename in os.listdir(aspace_ead_dir):
         print "Checking for missing refs in {0}".format(filename)
-        tree = etree.parse(join(ead_dir,filename))
+        tree = etree.parse(join(aspace_ead_dir,filename))
         for subject in tree.xpath('//controlaccess/*'):
             if subject.tag in tags and subject.text is not None:
                 if not 'ref' in subject.attrib:
@@ -29,8 +31,7 @@ def find_missing_refs(ead_dir):
     return missing_refs
 
 def main():
-    project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    aspace_ead_dir = join(project_dir, 'eads')
+    aspace_ead_dir = join(ead_dir, 'eads')
     find_missing_refs(aspace_ead_dir)
 
 if __name__ == "__main__":

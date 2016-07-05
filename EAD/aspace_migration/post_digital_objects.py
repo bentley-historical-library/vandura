@@ -2,8 +2,6 @@ from vandura.shared.scripts.archivesspace_authenticate import authenticate
 from vandura.config import ead_dir, dspace_mets_dir, dspace_xoai_dir
 from vandura.config import aspace_credentials
 
-import getpass
-import requests
 from lxml import etree
 import os
 from os.path import join
@@ -12,8 +10,6 @@ import re
 import csv
 import urlparse
 import urllib2
-import uuid
-import getpass
 import time
 
 def build_digital_object_component(digital_object_uri, component_title, component_label, position):
@@ -86,7 +82,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, dspace_x
         for dao in daos:
             # TO DO -- Account for the same href showing up in different places
             href = dao.attrib['href'].strip()
-            if href not in already_posted:
+            if href not in already_posted and href not in posted_dig_objs.keys():
                 did = dao.getparent()
 
                 show = dao.get("show", "new")
@@ -104,7 +100,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, dspace_x
 
                 digital_object = {}
                 digital_object['title'] = digital_object_title
-                digital_object['digital_object_id'] = str(uuid.uuid4())
+                digital_object['digital_object_id'] = href
                 digital_object['publish'] = True
                 digital_object['file_versions'] = [{'file_uri':href,'xlink_show_attribute':show,'xlink_actuate_attribute':xlink_actuate}]
                 if digital_object_note:
@@ -112,7 +108,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, dspace_x
 
                 digital_object_post = s.post(aspace_url+'/repositories/2/digital_objects',data=json.dumps(digital_object)).json()
 
-                if 'invalid_object' in digital_object_post:
+                if 'error' in digital_object_post:
                     errors.append(digital_object_post)
 
                 digital_object_uri = digital_object_post['uri']

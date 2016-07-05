@@ -6,6 +6,7 @@ import os
 from pre_aspace_cleanup.normalize_dates import normalize_dates
 from pre_aspace_cleanup.authfilenumber_urls_to_uris import authfilenumber_urls_to_uris
 from pre_aspace_cleanup.authfilenumber_propagation import authfilenumber_propagation
+from pre_aspace_cleanup.downcase_certainty import downcase_certainty
 from pre_aspace_cleanup.fetch_dspace_mets import fetch_dspace_mets
 from pre_aspace_cleanup.fetch_dspace_xoai import fetch_dspace_xoai
 from pre_aspace_cleanup.fix_collection_level_unittitle_commas import fix_collection_level_unittitle_commas
@@ -25,6 +26,7 @@ def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir, dspace_xoai_dir):
 	fix_collection_level_unittitle_commas(ead_dir)
 	wrap_unwrapped_unitdates(ead_dir)
 	normalize_dates(ead_dir)
+	downcase_certainty(ead_dir)
 	authfilenumber_urls_to_uris(ead_dir)
 	authfilenumber_propagation(ead_dir)
 	#fetch_dspace_mets(ead_dir, dspace_mets_dir)
