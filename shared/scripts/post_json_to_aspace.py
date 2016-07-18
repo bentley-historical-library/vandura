@@ -90,7 +90,7 @@ Errors encountered in: {4} files""".format(script_start_time, script_end_time, s
     with open(importer_stats_file,'w') as f:
         f.write(importer_stats)
 
-    #s.post("{}/logout".format(aspace_url))
+    s.post("{}/logout".format(aspace_url))
 
 def main():
     options = {"EAD":ead_dir, "MARC":marc_dir}
