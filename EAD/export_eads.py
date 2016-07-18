@@ -24,7 +24,7 @@ start_time = datetime.now()
 # Uncomment one of these to export everything or select resources
 ids_to_export = s.get('{}/repositories/2/resources?all_ids=true'.format(aspace_url)).json()
 #ids_to_export = ["248"]
-
+ids_to_export_count = len(ids_to_export)
 
 def pad_id(resource_id):
     file_id = str(resource_id)
@@ -32,15 +32,17 @@ def pad_id(resource_id):
         file_id = '0' + file_id
     return file_id
 
+count = 1
 for resource_id in ids_to_export:
-    file_id = pad_id(resource_id)
-    if file_id not in os.listdir(exports_dir):
-        print "Writing {}".format(resource_id)
+    metadata = s.get("{0}/repositories/2/bhl_resource_descriptions/{1}.xml/metadata".format(aspace_url, resource_id)).json()
+    filename = metadata["filename"]
+    if filename not in os.listdir(exports_dir):
+        print "{0}/{1} - Writing resource {2} to {3}".format(count, ids_to_export_count, resource_id, filename)
         ead = s.get('{0}/repositories/2/bhl_resource_descriptions/{1}.xml?include_unpublished=true&include_daos=true&numbered_cs=true'.format(aspace_url, resource_id),stream=True)
-        with open(join(exports_dir, file_id +'.xml'),'wb') as ead_out:
+        with open(join(exports_dir, filename),'wb') as ead_out:
              for chunk in ead.iter_content(10240):
                     ead_out.write(chunk)
-        print "Wrote {0}".format(resource_id)
+    count += 1
 
 end_time = datetime.now()
 

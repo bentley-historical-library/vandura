@@ -8,6 +8,10 @@ def copy_eads(ead_dir, dst_dir):
 	if not os.path.exists(dst_dir):
 		os.makedirs(dst_dir)
 
+	print "Deleting files from {}".format(dst_dir)
+	for filename in os.listdir(dst_dir):
+		os.remove(join(dst_dir, filename))
+
 	filenames = [filename for filename in os.listdir(ead_dir) if filename.endswith('.xml')]
 
 	for filename in filenames:
