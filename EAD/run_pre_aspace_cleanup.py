@@ -29,7 +29,6 @@ def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir, dspace_xoai_dir):
 	downcase_certainty(ead_dir)
 	authfilenumber_urls_to_uris(ead_dir)
 	authfilenumber_propagation(ead_dir)
-	#fetch_dspace_mets(ead_dir, dspace_mets_dir)
 	fetch_dspace_xoai(ead_dir, dspace_mets_dir, dspace_xoai_dir)
 	note_to_odd(ead_dir)
 	move_odds(ead_dir)
