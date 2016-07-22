@@ -1,3 +1,5 @@
+from vandura.config import ead_dir
+
 from lxml import etree
 import os
 from os.path import join
@@ -124,7 +126,7 @@ def add_container_barcodes(ead_dir):
                             container_ids[container_type_label_num] = barcode
 
                 for sub_component in sub_components:
-                    c_containers = subcomponent.xpath('./did/container')
+                    c_containers = sub_component.xpath('./did/container')
                     if c_containers:
                         top_container = c_containers[0]
                         indicator = top_container.text.strip()
@@ -132,8 +134,8 @@ def add_container_barcodes(ead_dir):
                         label = top_container.attrib["label"]
                         container_type_label_num = "{0}{1}{2}".format(c_type, label, indicator)
                         if existing_barcodes.search(label):
-                            container.attrib['label'] = re.sub(r'\[[0-9]+\]','',label).strip()
-                        container.attrib['label'] = "{0} [{1}]".format(label, container_ids[container_type_label_num])
+                            top_container.attrib['label'] = re.sub(r'\[[0-9]+\]','',label).strip()
+                        top_container.attrib['label'] = "{0} [{1}]".format(label, container_ids[container_type_label_num])
 
         elif filename in alumni_filenames:
             components = tree.xpath("//dsc//*[starts-with(local-name(), 'c0')]")
@@ -159,15 +161,14 @@ def add_container_barcodes(ead_dir):
                     label = top_container.attrib["label"]
                     container_type_label_num = "{0}{1}{2}".format(c_type, label, indicator)
                     if existing_barcodes.search(label):
-                        container.attrib['label'] = re.sub(r'\[[0-9]+\]','',label).strip()
-                    container.attrib['label'] = "{0} [{1}]".format(label, alumni_barcodes[container_type_label_num])
+                        top_container.attrib['label'] = re.sub(r'\[[0-9]+\]','',label).strip()
+                    top_container.attrib['label'] = "{0} [{1}]".format(label, alumni_barcodes[container_type_label_num])
 
         with open(join(ead_dir,filename),'w') as eadout:
             eadout.write(etree.tostring(tree,xml_declaration=True,encoding="utf-8",pretty_print=True))
 
 def main():
-    project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    aspace_ead_dir = join(project_dir, 'eads')
+    aspace_ead_dir = join(ead_dir, 'eads')
     add_container_barcodes(aspace_ead_dir)
 
 if __name__ == "__main__":
