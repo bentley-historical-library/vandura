@@ -82,7 +82,7 @@ def add_enum_values(session, aspace_url, enum_set_id, new_values_to_add):
 		existing_enums_json["values"].extend(unique_values)
 		print(session.post(enum_address, data=json.dumps(existing_enums_json)).json())
 
-def groups():
+def get_groups():
 	"""
 	transfer_repository
 	manage_repository
@@ -151,7 +151,7 @@ def make_group(group_name, group_description, group_permissions):
 def post_defaults(aspace_url, username, password):
 	s = authenticate(aspace_url, username, password)
 	s.headers.update({"Content-type":"application/json"})
-
+	"""
 	bhl_repo = {
 			'name':'Bentley Historical Library',
 			'org_code':'MiU-H',
@@ -201,9 +201,10 @@ def post_defaults(aspace_url, username, password):
 	for group in default_groups:
 		group_uri = group["uri"]
 		print s.delete("{}{}".format(aspace_url, group_uri)).json()
+	"""
 
 	# Create our own groups
-	groups = groups()
+	groups = get_groups()
 	for group in groups:
 		description = groups[group]["description"]
 		permissions = groups[group]["permissions"]
