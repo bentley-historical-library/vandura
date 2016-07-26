@@ -87,6 +87,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, dspace_x
 
                 show = dao.get("show", "new")
                 actuate = dao.get("actuate", "onRequest")
+                audience = dao.get("audience", False)
                 xlink_actuate = actuate.replace('request','Request').replace('load','Load')
 
                 daodesc = dao.xpath('./daodesc/p')
@@ -98,10 +99,15 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, dspace_x
                 component_title = etree.tostring(did.xpath('./unittitle')[0])
                 digital_object_title = re.sub(r'<(.*?)>','',component_title).strip()
 
+                if audience and audience == "internal":
+                    publish = False
+                else:
+                    publish = True
+
                 digital_object = {}
                 digital_object['title'] = digital_object_title
                 digital_object['digital_object_id'] = href
-                digital_object['publish'] = True
+                digital_object['publish'] = publish
                 digital_object['file_versions'] = [{'file_uri':href,'xlink_show_attribute':show,'xlink_actuate_attribute':xlink_actuate}]
                 if digital_object_note:
                     digital_object['notes'] = [{'type':'note','publish':True,'content':[digital_object_note.strip()],'jsonmodel_type':'note_digital_object'}]
