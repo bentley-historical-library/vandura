@@ -151,7 +151,7 @@ def make_group(group_name, group_description, group_permissions):
 def post_defaults(aspace_url, username, password):
 	s = authenticate(aspace_url, username, password)
 	s.headers.update({"Content-type":"application/json"})
-	"""
+
 	bhl_repo = {
 			'name':'Bentley Historical Library',
 			'org_code':'MiU-H',
@@ -201,7 +201,7 @@ def post_defaults(aspace_url, username, password):
 	for group in default_groups:
 		group_uri = group["uri"]
 		print s.delete("{}{}".format(aspace_url, group_uri)).json()
-	"""
+
 
 	# Create our own groups
 	groups = get_groups()
