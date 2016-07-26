@@ -38,7 +38,7 @@ for resource_id in ids_to_export:
     filename = metadata["filename"]
     if filename not in os.listdir(exports_dir):
         print "{0}/{1} - Writing resource {2} to {3}".format(count, ids_to_export_count, resource_id, filename)
-        ead = s.get('{0}/repositories/2/bhl_resource_descriptions/{1}.xml?include_unpublished=true&include_daos=true&numbered_cs=true'.format(aspace_url, resource_id),stream=True)
+        ead = s.get('{0}/repositories/2/bhl_resource_descriptions/{1}.xml?include_unpublished=false&include_daos=true&numbered_cs=true'.format(aspace_url, resource_id),stream=True)
         with open(join(exports_dir, filename),'wb') as ead_out:
              for chunk in ead.iter_content(10240):
                     ead_out.write(chunk)
