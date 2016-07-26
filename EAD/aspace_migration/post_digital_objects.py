@@ -107,7 +107,7 @@ def post_digital_objects(ead_dir, digital_objects_dir, dspace_mets_dir, dspace_x
                 digital_object = {}
                 digital_object['title'] = digital_object_title
                 digital_object['digital_object_id'] = href
-                digital_object['publish'] = True
+                digital_object['publish'] = publish
                 digital_object['file_versions'] = [{'file_uri':href,'xlink_show_attribute':show,'xlink_actuate_attribute':xlink_actuate}]
                 if digital_object_note:
                     digital_object['notes'] = [{'type':'note','publish':True,'content':[digital_object_note.strip()],'jsonmodel_type':'note_digital_object'}]
