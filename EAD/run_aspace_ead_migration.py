@@ -6,6 +6,7 @@ from vandura.shared.scripts.post_json_to_aspace import post_json_to_aspace
 import getpass
 import os
 from os.path import join
+import sys
 
 def run_aspace_ead_migration(ead_dir, aspace_ead_dir, aspace_url, username, password):
 	convert_ead_to_aspace_json(ead_dir, aspace_ead_dir, aspace_url, username, password)
@@ -13,7 +14,7 @@ def run_aspace_ead_migration(ead_dir, aspace_ead_dir, aspace_url, username, pass
 	ead_to_json_errors = join(migration_stats_dir, 'ead_to_json_errors.txt')
 	if os.path.exists(ead_to_json_errors):
 		print "*** ERRORS DETECTED IN EAD TO ASPACE JSON CONVERSION ***"
-		quit()
+		sys.exit()
 	else:
 		post_json_to_aspace(ead_dir, aspace_url, username, password)
 		json_to_aspace_errors = join(migration_stats_dir, 'json_to_aspace_errors.txt')
@@ -36,10 +37,12 @@ def main():
 	if ready_to_go.lower() == 'y':
 		aspace_url, username, password = aspace_credentials()
 		aspace_ead_dir = join(ead_dir, "eads")
-		run_aspace_ead_migration(ead_dir, aspace_ead_dir, aspace_url, username, password)
+		post_migration_dir = join(ead_dir, "post_migration_postings")
+		post_migration_eads = join(ead_dir, "post_migration_eads")
+		run_aspace_ead_migration(post_migration_dir, post_migration_eads, aspace_url, username, password)
 	else:
 		print "Please run everything that needs to be run and then run this script again"
-		quit()
+		sys.exit()
 
 if __name__ == "__main__":
 	main()
