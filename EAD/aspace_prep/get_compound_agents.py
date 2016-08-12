@@ -32,10 +32,10 @@ def get_compound_agents(ead_dir, subjects_agents_dir):
         if joined in special_cases:
             row.append(joined)
             for term in terms[2:]:
-                row.append(term)
+                row.append(term.strip())
         else:
             for term in terms:
-                row.append(term)
+                row.append(term.strip())
         data.append(row)
 
     output_csv = join(subjects_agents_dir,'compound_agents.csv')

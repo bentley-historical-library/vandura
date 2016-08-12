@@ -39,7 +39,7 @@ def get_subjects(ead_dir, subjects_agents_dir):
                 row.append(subject)
                 terms = subject.split('--')
                 for term in terms:
-                    row.append(term)
+                    row.append(term.strip(" "))
                 subject_data.append(row)
 
     with open(unique_subject_csv,'wb') as csvfile:
