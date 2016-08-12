@@ -1,12 +1,14 @@
-from vandura.config import real_masters_all 
+from vandura.config import real_masters_all, ead_dir 
 
 import os
 import re
 
 from tqdm import tqdm
 
-input_directory = real_masters_all
-output_directory = real_masters_all
+post_migration_eads = os.path.join(ead_dir, "post_migration_eads")
+
+input_directory = post_migration_eads
+output_directory = post_migration_eads
 
 
 # The names of all EADs to which you'd like to apply this script:

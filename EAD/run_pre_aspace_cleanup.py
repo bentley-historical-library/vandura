@@ -44,7 +44,8 @@ def run_pre_aspace_cleanup(ead_dir, dspace_mets_dir, dspace_xoai_dir):
 
 def main():
 	aspace_ead_dir = join(ead_dir, 'eads')
-	run_pre_aspace_cleanup(real_masters_all, dspace_mets_dir, dspace_xoai_dir)
+	post_migration_eads = join(ead_dir, "post_migration_eads")
+	run_pre_aspace_cleanup(post_migration_eads, dspace_mets_dir, dspace_xoai_dir)
 
 if __name__ == "__main__":
 	main()

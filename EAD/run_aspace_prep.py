@@ -38,9 +38,10 @@ def run_aspace_prep(aspace_ead_dir, subjects_agents_dir, beal_classifications, d
 
 def main():
 	aspace_ead_dir = join(ead_dir, 'eads')
+	post_migration_eads = join(ead_dir, "post_migration_eads")
 	subjects_agents_dir = join(ead_dir, 'subjects_agents')
 	beal_classifications = join(shared_dir, 'CSVs','beal_classifications.csv')
-	run_aspace_prep(aspace_ead_dir, subjects_agents_dir, beal_classifications, dspace_mets_dir)
+	run_aspace_prep(post_migration_eads, subjects_agents_dir, beal_classifications, dspace_mets_dir)
 
 if __name__ == "__main__":
 	main()
