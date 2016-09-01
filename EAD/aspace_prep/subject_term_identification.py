@@ -56,7 +56,7 @@ def subject_term_identification(ead_dir, subjects_agents_dir):
                     if row_num == row_indexes:
                         term = term.strip('.')
                     if term not in terms_dict:
-                        terms_dict[term] = []
+                        terms_dict[term.strip()] = []
             else:
                 subject = row[2]
                 subject = subject.strip('.')

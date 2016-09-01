@@ -34,12 +34,13 @@ def run_aspace_preliminary_postings(aspace_ead_dir, subjects_agents_dir, digital
 
 def main():
 	aspace_ead_dir = join(ead_dir, 'eads')
+	post_migration_eads = join(ead_dir, "post_migration_eads")
 	subjects_agents_dir = join(ead_dir, 'subjects_agents')
 	digital_objects_dir = join(ead_dir, 'digital_objects')
 	json_dir = join(ead_dir, 'json')
 	resources_dir = join(ead_dir, 'resources')
 	aspace_url, username, password = aspace_credentials()
-	run_aspace_preliminary_postings(aspace_ead_dir, subjects_agents_dir, digital_objects_dir, json_dir, resources_dir, dspace_mets_dir, dspace_xoai_dir, aspace_url, username, password)
+	run_aspace_preliminary_postings(post_migration_eads, subjects_agents_dir, digital_objects_dir, json_dir, resources_dir, dspace_mets_dir, dspace_xoai_dir, aspace_url, username, password)
 	print "*** RUN THE RUN_UNITDATE_UNITTITLE_FIX SCRIPT ***"
 
 if __name__ == "__main__":

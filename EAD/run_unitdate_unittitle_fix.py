@@ -19,7 +19,8 @@ def run_unitdates_in_unittitles(aspace_ead_dir):
 
 def main():
 	aspace_ead_dir = join(ead_dir, 'eads')
-	run_unitdates_in_unittitles(aspace_ead_dir)
+	post_migration_eads = join(ead_dir, "post_migration_eads")
+	run_unitdates_in_unittitles(post_migration_eads)
 
 if __name__ == "__main__":
 	main()
