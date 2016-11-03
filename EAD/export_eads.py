@@ -12,7 +12,7 @@ import os
 
 migration_stats_dir = join(ead_dir, "migration_stats")
 exporter_stats_file = join(migration_stats_dir, "exporter_stats.txt")
-exports_dir = "C:/Users/djpillen/GitHub/small_projects/dimensions_fix/exports"
+exports_dir = join(ead_dir, "exports")
 if not os.path.exists(exports_dir):
     os.makedirs(exports_dir)
 
@@ -23,16 +23,10 @@ start_time = datetime.now()
 
 # Uncomment one of these to export everything or select resources
 #ids_to_export = s.get('{}/repositories/2/resources?all_ids=true'.format(aspace_url)).json()
-ids_to_export = ['843', '1359', '1276', '1673', '808', '295', '1358', '997', '601', '1566', '1981', '234', '413', '705', '286', '2387', '839', '1379', '2174', '2164', '1363', '2630', '1969', '1937', '790', '649', '1896', '1202', '2643', '1810', '1918', '576', '865']
+ids_to_export = ['413']
 ids_to_export_count = len(ids_to_export)
 
 already_exported = os.listdir(exports_dir)
-
-def pad_id(resource_id):
-    file_id = str(resource_id)
-    while len(file_id) < 4:
-        file_id = '0' + file_id
-    return file_id
 
 count = 1
 for resource_id in ids_to_export:

@@ -1,5 +1,6 @@
 import getpass
 import os
+import sys
 
 vandura_base_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -27,4 +28,4 @@ def aspace_credentials():
 		return aspace_url, aspace_username, aspace_password
 	else:
 		print "Quitting"
-		quit()
+		sys.exit()
