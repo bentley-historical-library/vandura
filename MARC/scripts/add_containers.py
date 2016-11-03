@@ -38,6 +38,10 @@ def add_containers(marc_dir, shared_dir):
 	make_no_containers_csv(marc_dir, no_containers)
 
 def make_no_containers_csv(marc_dir, no_containers):
+	csv_dir = join(marc_dir, "CSVs")
+	if not os.path.exists(csv_dir):
+		os.makedirs(csv_dir)
+		
 	no_container_file = join(marc_dir, "CSVs", "no_containers.csv")
 
 	with open(no_container_file,'wb') as csvfile:

@@ -5,7 +5,7 @@ import os
 from os.path import join
 
 def add_container_types(marc_dir):
-	ead_dir = join(marc_dir, 'converted_eads')
+	ead_dir = join(marc_dir, 'converted_eads_working')
 
 	container_labels = []
 	container_label_to_type_dict = {"Box":"box", "Folder":"folder", "Box out.":"box", "Vol.":"volume", "Video Box":"box",
@@ -17,7 +17,8 @@ def add_container_types(marc_dir):
 									"Microfilm B":"reel", "Box P":"box", "Box  P":"box"}
 									
 	container_label_to_label_dict = {"Box out.":"Oversize Box","Vol.":"Volume", "Vol. out.":"Oversize Volume",
-									"Folder out.":"Oversize Folder","P-DVD Box":"DVD Box","Box  P":"Box P"}
+									"Folder out.":"Oversize Folder","P-DVD Box":"DVD Box","Box  P":"Box P",
+									"Sd Rec Box":"Sound Recordings Box"}
 
 	for filename in os.listdir(ead_dir):
 		print "Adding container types to {}".format(filename)

@@ -22,17 +22,11 @@ s = authenticate(aspace_url, username, password)
 start_time = datetime.now()
 
 # Uncomment one of these to export everything or select resources
-ids_to_export = s.get('{}/repositories/2/resources?all_ids=true'.format(aspace_url)).json()
-#ids_to_export = ["248"]
+#ids_to_export = s.get('{}/repositories/2/resources?all_ids=true'.format(aspace_url)).json()
+ids_to_export = ['413']
 ids_to_export_count = len(ids_to_export)
 
 already_exported = os.listdir(exports_dir)
-
-def pad_id(resource_id):
-    file_id = str(resource_id)
-    while len(file_id) < 4:
-        file_id = '0' + file_id
-    return file_id
 
 count = 1
 for resource_id in ids_to_export:

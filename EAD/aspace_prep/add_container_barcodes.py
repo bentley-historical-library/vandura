@@ -15,7 +15,7 @@ def make_barcode(seen_barcodes):
 
 def add_container_barcodes(ead_dir):
     # EADs for which box numbering restarts with each subgroup
-    subgrp_filenames = ['kelseymu.xml']
+    subgrp_filenames = ['kelseymu.xml', 'motown.xml']
     # Alumni Association EADs. Several of the same containers show up in both EADs.
     alumni_filenames = ['alumasso.xml','alumphot.xml']
     alumni_barcodes = {}

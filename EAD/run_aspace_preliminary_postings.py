@@ -16,10 +16,10 @@ from aspace_migration.verify_agents import verify_agents
 
 def run_aspace_preliminary_postings(aspace_ead_dir, subjects_agents_dir, digital_objects_dir, json_dir, resources_dir, dspace_mets_dir, dspace_xoai_dir, aspace_url, username, password):
 	post_agents_to_aspace(aspace_ead_dir, subjects_agents_dir, aspace_url, username, password)
-	post_subjects(aspace_ead_dir, subjects_agents_dir, aspace_url, username, password)
-	update_posted_subjects(aspace_ead_dir, subjects_agents_dir)
-	post_digital_objects(aspace_ead_dir, digital_objects_dir, dspace_mets_dir, dspace_xoai_dir, aspace_url, username, password,delete_csvs=True)
-	update_posted_digital_objects(aspace_ead_dir, digital_objects_dir)
+	#post_subjects(aspace_ead_dir, subjects_agents_dir, aspace_url, username, password)
+	#update_posted_subjects(aspace_ead_dir, subjects_agents_dir)
+	#post_digital_objects(aspace_ead_dir, digital_objects_dir, dspace_mets_dir, dspace_xoai_dir, aspace_url, username, password,delete_csvs=True)
+	#update_posted_digital_objects(aspace_ead_dir, digital_objects_dir)
 	add_compound_agent_terms(aspace_ead_dir, subjects_agents_dir)
 	missing_refs = find_missing_refs(aspace_ead_dir)
 	if missing_refs:
