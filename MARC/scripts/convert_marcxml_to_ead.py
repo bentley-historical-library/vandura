@@ -1,5 +1,7 @@
 from vandura.config import marc_dir
 
+import datetime
+import iso639
 from lxml.builder import E
 from lxml import etree
 import os
@@ -40,10 +42,32 @@ def identify_main_record(records):
 def make_eadheader(record):
 	eadheader = E.eadheader(
 		make_filedesc(record),
-		make_profiledesc(record)
+		make_profiledesc(record),
+		make_externaldocument(record),
+		make_revisiondesc()
 		)
 
 	return eadheader
+
+def make_externaldocument(record):
+	mirlyn_record = record.xpath("./marc:controlfield[@tag='001']", namespaces=ns)
+
+	if mirlyn_record:
+		location = "http://mirlyn.lib.umich.edu/Record/{}".format(mirlyn_record[0].text.strip())
+		return E.externaldocument({"title":"Original MARC record", "location":location})
+	else:
+		return ""
+
+def make_revisiondesc():
+	today = datetime.datetime.today().strftime("%Y-%m-%d")
+	revisiondesc = E.revisiondesc(
+		E.change(
+			E.date(today),
+			E.item("Original encoding from MARC record")
+			)
+		)
+
+	return revisiondesc
 
 def make_filedesc(record):
 	filedesc = E.filedesc(
@@ -54,6 +78,19 @@ def make_filedesc(record):
 		)
 
 	return filedesc
+
+def make_frontmatter(record):
+	frontmatter = E.frontmatter(
+		make_titleproper(record),
+		make_author()
+		)
+
+	return frontmatter
+
+def make_author():
+	author = "Finding aid created by Bentley Historical Library staff"
+
+	return E.author(author)
 
 def make_titleproper(record):
 	titleproper = "Finding aid for the " + extract_collection_title(record)
@@ -86,7 +123,7 @@ def make_descrules(record):
 		return ""
 
 def make_archdesc(record):
-	archdesc = E.archdesc({"level":"collection"},
+	archdesc = E.archdesc({"level":"collection", "audience":"internal"},
 		make_collection_did(record),
 		make_descgrp(record),
 		make_bioghist(record),
@@ -102,7 +139,7 @@ def make_collection_did(record):
 		make_unitid(record),
 		make_origination(record),
 		make_unittitle(record),
-		make_langmaterial(record),
+		make_langmaterial(record)
 		)
 
 	unitdates = make_unitdates(record, "collection")
@@ -151,6 +188,18 @@ def make_unittitle(record):
 
 def make_langmaterial(record):
 	langmaterials = record.xpath("./marc:datafield[@tag='546']", namespaces=ns)
+	controlfield_008 = record.xpath("./marc:controlfield[@tag='008']", namespaces=ns)[0].text.strip()
+	controlfield_langcode = controlfield_008[35:38]
+	try:
+		converted_langcode = iso639.to_name(controlfield_langcode)
+	except:
+		converted_langcode = False
+
+	if converted_langcode:
+		language_element = make_language(controlfield_langcode, converted_langcode)
+		language_element_exists = True
+	else:
+		language_element_exists = False
 
 	if langmaterials:
 		langmaterial = langmaterials[0]
@@ -159,9 +208,21 @@ def make_langmaterial(record):
 		if materials_specified:
 			language_note += ": {}".format(materials_specified[0].text.strip())
 
-		return E.langmaterial(language_note)
+		if language_note == "In English.":
+			language = make_language("eng", "English")
+			return E.langmaterial("The material is in ", language)
+		elif converted_langcode and (converted_langcode in language_note):
+			first_half, second_half = language_note.split(converted_langcode, 1)
+			return E.langmaterial(first_half, language_element, second_half)
+		else:
+			return E.langmaterial(language_note)
+	elif language_element_exists:
+		return E.langmaterial("The material is in ", language_element)
 	else:
 		return ""
+
+def make_language(langcode, langtext):
+	return E.language({"langcode":langcode}, langtext)
 
 def make_unitdates(record, level):
 	unitdates = []
@@ -290,6 +351,7 @@ def make_descgrp(record):
 		make_userestrict(record),
 		make_custodhist(record),
 		make_phystech(record),
+		make_prefercite(record),
 		make_altformavail(record),
 		make_originalsloc(record),
 		make_otherfindaid(record),
@@ -301,6 +363,10 @@ def make_descgrp(record):
 		descgrp.append(odd)
 
 	return descgrp
+
+def make_prefercite(record):
+	return E.prefercite("[item], folder, box, " + extract_collection_title(record) + ", Bentley Historical Library, University of Michigan. [URL]")
+
 
 def make_altformavail(record):
 	altformavails = record.xpath("./marc:datafield[@tag='530']", namespaces=ns)
@@ -823,6 +889,7 @@ def make_ead_with_series(records):
 		archdesc.append(dsc)
 		ead = E.ead(
 			make_eadheader(main_record),
+			make_frontmatter(main_record),
 			archdesc
 			)
 
@@ -831,10 +898,32 @@ def make_ead_with_series(records):
 	else:
 		return False
 
+def make_single_series(record):
+	did = E.did(
+		make_unittitle(record)
+		)
+
+	unitdates = make_unitdates(record, "series")
+	for unitdate in unitdates:
+		did.append(unitdate)
+
+	dsc = E.dsc(
+		E.c01({"level":"series"},
+			did
+			)
+		)
+
+	return dsc
+
+
 def make_ead_without_series(record):
+	archdesc = make_archdesc(record)
+	single_series = make_single_series(record)
+	archdesc.append(single_series)
 	ead = E.ead(
 		make_eadheader(record),
-		make_archdesc(record)
+		make_frontmatter(record),
+		archdesc
 		)
 
 	return ead

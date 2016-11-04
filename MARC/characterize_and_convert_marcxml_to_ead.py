@@ -9,6 +9,7 @@ from scripts.characterize_and_merge_marcxml import characterize_and_merge_marcxm
 from scripts.convert_marcxml_to_ead import convert_marcxml_to_ead
 from scripts.copy_master_eads import copy_master_eads
 from scripts.deduplicate_subjects import deduplicate_subjects
+from scripts.normalize_dates import normalize_dates
 from scripts.note_cleanup import make_acqinfo_from_odd
 from scripts.note_cleanup import normalize_extents
 from scripts.note_cleanup import split_extents
@@ -30,14 +31,15 @@ def characterize_and_convert_marcxml_to_ead(ead_dir, marc_dir, real_masters_all,
 		os.remove(join(joined_dir, "011000.xml"))
 
 	# Uncomment the below lines to convert MARC XML to EAD. Only necessary when changes are made to the EAD converter script
-	#converted_dir = join(marc_dir, "converted_eads")
-	#unconverted_dir = join(marc_dir, "unconverted_marcxml")
-	#convert_marcxml_to_ead(joined_dir, converted_dir, unconverted_dir)
+	converted_dir = join(marc_dir, "converted_eads")
+	unconverted_dir = join(marc_dir, "unconverted_marcxml")
+	convert_marcxml_to_ead(joined_dir, converted_dir, unconverted_dir)
 
 	working_dir = join(marc_dir, "converted_eads_working")
 	copy_master_eads(marc_dir)
 	normalize_extents(marc_dir)
 	split_extents(marc_dir)
+	normalize_dates(marc_dir)
 	make_acqinfo_from_odd(marc_dir)
 	add_classifications(marc_dir, shared_dir)
 	add_containers(marc_dir, shared_dir)
@@ -48,9 +50,6 @@ def characterize_and_convert_marcxml_to_ead(ead_dir, marc_dir, real_masters_all,
 	normalize_agent_roles(marc_dir)
 
 	prettify_xml_in_directory(working_dir, working_dir)
-
-
-
 
 if __name__ == "__main__":
 	characterize_and_convert_marcxml_to_ead(ead_dir, marc_dir, real_masters_all, shared_dir)

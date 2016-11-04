@@ -5,6 +5,7 @@ from lxml import etree
 import os
 from os.path import join
 import re
+import uuid
 
 def add_containers(marc_dir, shared_dir):
 	ead_dir = join(marc_dir, "converted_eads_working")
@@ -26,6 +27,7 @@ def add_containers(marc_dir, shared_dir):
 				for container in beal_container_dict[collectionid][container_type]:
 					container_element = etree.Element("container")
 					container_element.attrib["label"] = container_type
+					container_element.attrib["id"] = str(uuid.uuid4())
 					container_element.text = str(container)
 					archdesc.append(container_element)
 		else:
